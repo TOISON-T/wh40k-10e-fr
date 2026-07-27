@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <catalogue xmlns="http://www.battlescribe.net/schema/catalogueSchema" library="false" id="b0ae-12a5-c84-ea45" name="Imperium - Astra Militarum" gameSystemId="sys-352e-adc2-7639-d6a9" gameSystemRevision="1" revision="24" battleScribeVersion="2.03" type="catalogue">
   <entryLinks>
-    <entryLink import="true" name="‘Iron Hand’ Straken [Legends]" hidden="false" type="selectionEntry" id="f38c-6b5-d8d3-32db" targetId="913f-3cb6-fb80-7f6a"/>
+    <entryLink import="true" name="‘Iron Hand’ Straken [Legends]" hidden="false" type="selectionEntry" id="f38c-6b5-d8d3-32db" targetId="913f-3cb6-fb80-7f6a" />
     <entryLink import="true" name="Aegis Defence Line" hidden="false" type="selectionEntry" id="2c5d-9f8f-b19d-53be" targetId="cb99-456-f100-40ed">
       <modifiers>
         <modifier type="set" value="true" field="hidden">
           <conditions>
-            <condition type="atLeast" value="1" field="selections" scope="roster" childId="1d6e-2579-8e7f-1ed4" shared="true" includeChildForces="true"/>
+            <condition type="atLeast" value="1" field="selections" scope="roster" childId="1d6e-2579-8e7f-1ed4" shared="true" includeChildForces="true" />
           </conditions>
         </modifier>
       </modifiers>
@@ -15,7 +15,7 @@
       <modifiers>
         <modifier type="set" value="true" field="hidden">
           <conditions>
-            <condition type="atLeast" value="1" field="selections" scope="roster" childId="1d6e-2579-8e7f-1ed4" shared="true" includeChildForces="true"/>
+            <condition type="atLeast" value="1" field="selections" scope="roster" childId="1d6e-2579-8e7f-1ed4" shared="true" includeChildForces="true" />
           </conditions>
         </modifier>
       </modifiers>
@@ -24,7 +24,7 @@
       <modifiers>
         <modifier type="set" value="true" field="hidden">
           <conditions>
-            <condition type="atLeast" value="1" field="selections" scope="roster" childId="1d6e-2579-8e7f-1ed4" shared="true" includeChildForces="true"/>
+            <condition type="atLeast" value="1" field="selections" scope="roster" childId="1d6e-2579-8e7f-1ed4" shared="true" includeChildForces="true" />
           </conditions>
         </modifier>
       </modifiers>
@@ -33,7 +33,7 @@
       <modifiers>
         <modifier type="set" value="true" field="hidden">
           <conditions>
-            <condition type="atLeast" value="1" field="selections" scope="roster" childId="1d6e-2579-8e7f-1ed4" shared="true" includeChildForces="true"/>
+            <condition type="atLeast" value="1" field="selections" scope="roster" childId="1d6e-2579-8e7f-1ed4" shared="true" includeChildForces="true" />
           </conditions>
         </modifier>
       </modifiers>
@@ -42,7 +42,7 @@
       <modifiers>
         <modifier type="set" value="true" field="hidden">
           <conditions>
-            <condition type="atLeast" value="1" field="selections" scope="roster" childId="1d6e-2579-8e7f-1ed4" shared="true" includeChildForces="true"/>
+            <condition type="atLeast" value="1" field="selections" scope="roster" childId="1d6e-2579-8e7f-1ed4" shared="true" includeChildForces="true" />
           </conditions>
         </modifier>
       </modifiers>
@@ -51,7 +51,7 @@
       <modifiers>
         <modifier type="set" value="true" field="hidden">
           <conditions>
-            <condition type="atLeast" value="1" field="selections" scope="roster" childId="1d6e-2579-8e7f-1ed4" shared="true" includeChildForces="true"/>
+            <condition type="atLeast" value="1" field="selections" scope="roster" childId="1d6e-2579-8e7f-1ed4" shared="true" includeChildForces="true" />
           </conditions>
         </modifier>
       </modifiers>
@@ -60,31 +60,31 @@
       <modifiers>
         <modifier type="set" value="true" field="hidden">
           <conditions>
-            <condition type="atLeast" value="1" field="selections" scope="roster" childId="1d6e-2579-8e7f-1ed4" shared="true" includeChildForces="true"/>
+            <condition type="atLeast" value="1" field="selections" scope="roster" childId="1d6e-2579-8e7f-1ed4" shared="true" includeChildForces="true" />
           </conditions>
         </modifier>
       </modifiers>
     </entryLink>
-    <entryLink import="true" name="Bullgryn Squad" hidden="false" type="selectionEntry" id="3ec3-1ac7-2064-9783" targetId="37ad-63e5-1786-87cf"/>
-    <entryLink import="true" name="Cadian Castellan" hidden="false" type="selectionEntry" id="c43b-26b5-4c4-521c" targetId="2b49-4d03-aaf5-3532"/>
-    <entryLink import="true" name="Cadian Command Squad" hidden="false" type="selectionEntry" id="775d-c8f4-8d6a-e768" targetId="4d28-f2a7-67c1-eb2e"/>
-    <entryLink import="true" name="Cadian Shock Troops" hidden="false" type="selectionEntry" id="7b5-9080-f871-aff9" targetId="a2aa-7688-dcb1-4132"/>
+    <entryLink import="true" name="Bullgryn Squad" hidden="false" type="selectionEntry" id="3ec3-1ac7-2064-9783" targetId="37ad-63e5-1786-87cf" />
+    <entryLink import="true" name="Cadian Castellan" hidden="false" type="selectionEntry" id="c43b-26b5-4c4-521c" targetId="2b49-4d03-aaf5-3532" />
+    <entryLink import="true" name="Cadian Command Squad" hidden="false" type="selectionEntry" id="775d-c8f4-8d6a-e768" targetId="4d28-f2a7-67c1-eb2e" />
+    <entryLink import="true" name="Cadian Shock Troops" hidden="false" type="selectionEntry" id="7b5-9080-f871-aff9" targetId="a2aa-7688-dcb1-4132" />
     <entryLink import="true" name="Chimera" hidden="false" type="selectionEntry" id="9357-7f3f-56be-3129" targetId="cf23-58db-8ba4-9ec8">
       <modifiers>
         <modifier type="set" value="true" field="hidden">
           <conditions>
-            <condition type="atLeast" value="1" field="selections" scope="roster" childId="1d6e-2579-8e7f-1ed4" shared="true" includeChildForces="true"/>
+            <condition type="atLeast" value="1" field="selections" scope="roster" childId="1d6e-2579-8e7f-1ed4" shared="true" includeChildForces="true" />
           </conditions>
         </modifier>
       </modifiers>
     </entryLink>
-    <entryLink import="true" name="Commissar" hidden="false" type="selectionEntry" id="f86e-edef-7ce6-6ded" targetId="a979-5b21-dc69-b949"/>
-    <entryLink import="true" name="Death Korps of Krieg" hidden="false" type="selectionEntry" id="4fb3-5033-9135-e605" targetId="ade0-fa44-d4cf-4fc8"/>
+    <entryLink import="true" name="Commissar" hidden="false" type="selectionEntry" id="f86e-edef-7ce6-6ded" targetId="a979-5b21-dc69-b949" />
+    <entryLink import="true" name="Death Korps of Krieg" hidden="false" type="selectionEntry" id="4fb3-5033-9135-e605" targetId="ade0-fa44-d4cf-4fc8" />
     <entryLink import="true" name="Deathstrike" hidden="false" type="selectionEntry" id="4425-da07-5180-9b30" targetId="e19f-b9b8-75d5-8520">
       <modifiers>
         <modifier type="set" value="true" field="hidden">
           <conditions>
-            <condition type="atLeast" value="1" field="selections" scope="roster" childId="1d6e-2579-8e7f-1ed4" shared="true" includeChildForces="true"/>
+            <condition type="atLeast" value="1" field="selections" scope="roster" childId="1d6e-2579-8e7f-1ed4" shared="true" includeChildForces="true" />
           </conditions>
         </modifier>
       </modifiers>
@@ -93,7 +93,7 @@
       <modifiers>
         <modifier type="set" value="true" field="hidden">
           <conditions>
-            <condition type="atLeast" value="1" field="selections" scope="roster" childId="1d6e-2579-8e7f-1ed4" shared="true" includeChildForces="true"/>
+            <condition type="atLeast" value="1" field="selections" scope="roster" childId="1d6e-2579-8e7f-1ed4" shared="true" includeChildForces="true" />
           </conditions>
         </modifier>
       </modifiers>
@@ -102,17 +102,17 @@
       <modifiers>
         <modifier type="set" value="true" field="hidden">
           <conditions>
-            <condition type="atLeast" value="1" field="selections" scope="roster" childId="1d6e-2579-8e7f-1ed4" shared="true" includeChildForces="true"/>
+            <condition type="atLeast" value="1" field="selections" scope="roster" childId="1d6e-2579-8e7f-1ed4" shared="true" includeChildForces="true" />
           </conditions>
         </modifier>
       </modifiers>
     </entryLink>
-    <entryLink import="true" name="Gaunt’s Ghosts" hidden="false" type="selectionEntry" id="ffd3-a6da-a79e-bb34" targetId="653d-80-d715-7d55"/>
+    <entryLink import="true" name="Gaunt’s Ghosts" hidden="false" type="selectionEntry" id="ffd3-a6da-a79e-bb34" targetId="653d-80-d715-7d55" />
     <entryLink import="true" name="Cadian Heavy Weapons Squad" hidden="false" type="selectionEntry" id="30f1-5a2a-9f88-d26c" targetId="91a9-15e-b5f0-700f">
       <modifiers>
         <modifier type="set" value="true" field="hidden">
           <conditions>
-            <condition type="atLeast" value="1" field="selections" scope="roster" childId="1d6e-2579-8e7f-1ed4" shared="true" includeChildForces="true"/>
+            <condition type="atLeast" value="1" field="selections" scope="roster" childId="1d6e-2579-8e7f-1ed4" shared="true" includeChildForces="true" />
           </conditions>
         </modifier>
       </modifiers>
@@ -121,7 +121,7 @@
       <modifiers>
         <modifier type="set" value="true" field="hidden">
           <conditions>
-            <condition type="atLeast" value="1" field="selections" scope="roster" childId="1d6e-2579-8e7f-1ed4" shared="true" includeChildForces="true"/>
+            <condition type="atLeast" value="1" field="selections" scope="roster" childId="1d6e-2579-8e7f-1ed4" shared="true" includeChildForces="true" />
           </conditions>
         </modifier>
       </modifiers>
@@ -130,7 +130,7 @@
       <modifiers>
         <modifier type="set" value="true" field="hidden">
           <conditions>
-            <condition type="atLeast" value="1" field="selections" scope="roster" childId="1d6e-2579-8e7f-1ed4" shared="true" includeChildForces="true"/>
+            <condition type="atLeast" value="1" field="selections" scope="roster" childId="1d6e-2579-8e7f-1ed4" shared="true" includeChildForces="true" />
           </conditions>
         </modifier>
       </modifiers>
@@ -139,17 +139,17 @@
       <modifiers>
         <modifier type="set" value="true" field="hidden">
           <conditions>
-            <condition type="atLeast" value="1" field="selections" scope="roster" childId="1d6e-2579-8e7f-1ed4" shared="true" includeChildForces="true"/>
+            <condition type="atLeast" value="1" field="selections" scope="roster" childId="1d6e-2579-8e7f-1ed4" shared="true" includeChildForces="true" />
           </conditions>
         </modifier>
       </modifiers>
     </entryLink>
-    <entryLink import="true" name="Kasrkin" hidden="false" type="selectionEntry" id="3628-3edf-659e-6405" targetId="abe4-ca71-d5a7-3883"/>
+    <entryLink import="true" name="Kasrkin" hidden="false" type="selectionEntry" id="3628-3edf-659e-6405" targetId="abe4-ca71-d5a7-3883" />
     <entryLink import="true" name="Leman Russ Battle Tank" hidden="false" type="selectionEntry" id="4071-d276-4b66-b186" targetId="c581-3ab5-49a0-9ec0">
       <modifiers>
         <modifier type="set" value="true" field="hidden">
           <conditions>
-            <condition type="atLeast" value="1" field="selections" scope="roster" childId="1d6e-2579-8e7f-1ed4" shared="true" includeChildForces="true"/>
+            <condition type="atLeast" value="1" field="selections" scope="roster" childId="1d6e-2579-8e7f-1ed4" shared="true" includeChildForces="true" />
           </conditions>
         </modifier>
       </modifiers>
@@ -158,7 +158,7 @@
       <modifiers>
         <modifier type="set" value="true" field="hidden">
           <conditions>
-            <condition type="atLeast" value="1" field="selections" scope="roster" childId="1d6e-2579-8e7f-1ed4" shared="true" includeChildForces="true"/>
+            <condition type="atLeast" value="1" field="selections" scope="roster" childId="1d6e-2579-8e7f-1ed4" shared="true" includeChildForces="true" />
           </conditions>
         </modifier>
       </modifiers>
@@ -167,7 +167,7 @@
       <modifiers>
         <modifier type="set" value="true" field="hidden">
           <conditions>
-            <condition type="atLeast" value="1" field="selections" scope="roster" childId="1d6e-2579-8e7f-1ed4" shared="true" includeChildForces="true"/>
+            <condition type="atLeast" value="1" field="selections" scope="roster" childId="1d6e-2579-8e7f-1ed4" shared="true" includeChildForces="true" />
           </conditions>
         </modifier>
       </modifiers>
@@ -176,7 +176,7 @@
       <modifiers>
         <modifier type="set" value="true" field="hidden">
           <conditions>
-            <condition type="atLeast" value="1" field="selections" scope="roster" childId="1d6e-2579-8e7f-1ed4" shared="true" includeChildForces="true"/>
+            <condition type="atLeast" value="1" field="selections" scope="roster" childId="1d6e-2579-8e7f-1ed4" shared="true" includeChildForces="true" />
           </conditions>
         </modifier>
       </modifiers>
@@ -185,7 +185,7 @@
       <modifiers>
         <modifier type="set" value="true" field="hidden">
           <conditions>
-            <condition type="atLeast" value="1" field="selections" scope="roster" childId="1d6e-2579-8e7f-1ed4" shared="true" includeChildForces="true"/>
+            <condition type="atLeast" value="1" field="selections" scope="roster" childId="1d6e-2579-8e7f-1ed4" shared="true" includeChildForces="true" />
           </conditions>
         </modifier>
       </modifiers>
@@ -194,7 +194,7 @@
       <modifiers>
         <modifier type="set" value="true" field="hidden">
           <conditions>
-            <condition type="atLeast" value="1" field="selections" scope="roster" childId="1d6e-2579-8e7f-1ed4" shared="true" includeChildForces="true"/>
+            <condition type="atLeast" value="1" field="selections" scope="roster" childId="1d6e-2579-8e7f-1ed4" shared="true" includeChildForces="true" />
           </conditions>
         </modifier>
       </modifiers>
@@ -203,7 +203,7 @@
       <modifiers>
         <modifier type="set" value="true" field="hidden">
           <conditions>
-            <condition type="atLeast" value="1" field="selections" scope="roster" childId="1d6e-2579-8e7f-1ed4" shared="true" includeChildForces="true"/>
+            <condition type="atLeast" value="1" field="selections" scope="roster" childId="1d6e-2579-8e7f-1ed4" shared="true" includeChildForces="true" />
           </conditions>
         </modifier>
       </modifiers>
@@ -212,32 +212,32 @@
       <modifiers>
         <modifier type="set" value="true" field="hidden">
           <conditions>
-            <condition type="atLeast" value="1" field="selections" scope="roster" childId="1d6e-2579-8e7f-1ed4" shared="true" includeChildForces="true"/>
+            <condition type="atLeast" value="1" field="selections" scope="roster" childId="1d6e-2579-8e7f-1ed4" shared="true" includeChildForces="true" />
           </conditions>
         </modifier>
       </modifiers>
     </entryLink>
-    <entryLink import="true" name="Militarum Tempestus Command Squad" hidden="false" type="selectionEntry" id="30ef-6edf-f9be-6b3b" targetId="497-36ad-8ecb-f7c7"/>
-    <entryLink import="true" name="Nork Deddog" hidden="false" type="selectionEntry" id="3ea1-4365-6d97-1b59" targetId="bcda-f4bb-e726-9bfe"/>
-    <entryLink import="true" name="Ogryn Bodyguard" hidden="false" type="selectionEntry" id="2265-a0d2-432c-ca41" targetId="a7c2-1534-93b0-c0eb"/>
-    <entryLink import="true" name="Ogryn Squad" hidden="false" type="selectionEntry" id="ae81-eb8-844-95e7" targetId="c9eb-2007-af01-a853"/>
-    <entryLink import="true" name="Primaris Psyker" hidden="false" type="selectionEntry" id="f1f4-72d3-d4f4-97de" targetId="4ad0-e988-a513-9530"/>
-    <entryLink import="true" name="Provisionally Prepared [Legends]" hidden="false" type="selectionEntry" id="55e9-8263-501f-4eda" targetId="f4d1-cea9-f487-4501"/>
+    <entryLink import="true" name="Militarum Tempestus Command Squad" hidden="false" type="selectionEntry" id="30ef-6edf-f9be-6b3b" targetId="497-36ad-8ecb-f7c7" />
+    <entryLink import="true" name="Nork Deddog" hidden="false" type="selectionEntry" id="3ea1-4365-6d97-1b59" targetId="bcda-f4bb-e726-9bfe" />
+    <entryLink import="true" name="Ogryn Bodyguard" hidden="false" type="selectionEntry" id="2265-a0d2-432c-ca41" targetId="a7c2-1534-93b0-c0eb" />
+    <entryLink import="true" name="Ogryn Squad" hidden="false" type="selectionEntry" id="ae81-eb8-844-95e7" targetId="c9eb-2007-af01-a853" />
+    <entryLink import="true" name="Primaris Psyker" hidden="false" type="selectionEntry" id="f1f4-72d3-d4f4-97de" targetId="4ad0-e988-a513-9530" />
+    <entryLink import="true" name="Provisionally Prepared [Legends]" hidden="false" type="selectionEntry" id="55e9-8263-501f-4eda" targetId="f4d1-cea9-f487-4501" />
     <entryLink import="true" name="Regimental Attachés [Legends]" hidden="false" type="selectionEntry" id="9f03-ced1-9af-3f2d" targetId="5da1-9869-294e-8187">
       <modifiers>
         <modifier type="set" value="true" field="hidden">
           <conditions>
-            <condition type="atLeast" value="1" field="selections" scope="roster" childId="1d6e-2579-8e7f-1ed4" shared="true" includeChildForces="true"/>
+            <condition type="atLeast" value="1" field="selections" scope="roster" childId="1d6e-2579-8e7f-1ed4" shared="true" includeChildForces="true" />
           </conditions>
         </modifier>
       </modifiers>
     </entryLink>
-    <entryLink import="true" name="Tech-Priest Enginseer" hidden="false" type="selectionEntry" id="77a1-a36b-5192-b450" targetId="f556-a33d-dc90-d6fc"/>
+    <entryLink import="true" name="Tech-Priest Enginseer" hidden="false" type="selectionEntry" id="77a1-a36b-5192-b450" targetId="f556-a33d-dc90-d6fc" />
     <entryLink import="true" name="Rogal Dorn Battle Tank" hidden="false" type="selectionEntry" id="c7e0-68a4-64af-88e4" targetId="2127-efcc-1f62-7fab">
       <modifiers>
         <modifier type="set" value="true" field="hidden">
           <conditions>
-            <condition type="atLeast" value="1" field="selections" scope="roster" childId="1d6e-2579-8e7f-1ed4" shared="true" includeChildForces="true"/>
+            <condition type="atLeast" value="1" field="selections" scope="roster" childId="1d6e-2579-8e7f-1ed4" shared="true" includeChildForces="true" />
           </conditions>
         </modifier>
       </modifiers>
@@ -246,27 +246,27 @@
       <modifiers>
         <modifier type="set" value="true" field="hidden">
           <conditions>
-            <condition type="atLeast" value="1" field="selections" scope="roster" childId="1d6e-2579-8e7f-1ed4" shared="true" includeChildForces="true"/>
+            <condition type="atLeast" value="1" field="selections" scope="roster" childId="1d6e-2579-8e7f-1ed4" shared="true" includeChildForces="true" />
           </conditions>
         </modifier>
       </modifiers>
     </entryLink>
-    <entryLink import="true" name="Sergeant Harker [Legends]" hidden="false" type="selectionEntry" id="a496-7c35-f648-d819" targetId="a8d5-81f9-96a0-fd12"/>
+    <entryLink import="true" name="Sergeant Harker [Legends]" hidden="false" type="selectionEntry" id="a496-7c35-f648-d819" targetId="a8d5-81f9-96a0-fd12" />
     <entryLink import="true" name="Shadowsword" hidden="false" type="selectionEntry" id="b5d3-ef49-da86-62ab" targetId="1b48-2f2-8e9c-1308">
       <modifiers>
         <modifier type="set" value="true" field="hidden">
           <conditions>
-            <condition type="atLeast" value="1" field="selections" scope="roster" childId="1d6e-2579-8e7f-1ed4" shared="true" includeChildForces="true"/>
+            <condition type="atLeast" value="1" field="selections" scope="roster" childId="1d6e-2579-8e7f-1ed4" shared="true" includeChildForces="true" />
           </conditions>
         </modifier>
       </modifiers>
     </entryLink>
-    <entryLink import="true" name="Sly Marbo" hidden="false" type="selectionEntry" id="8d22-6401-74fb-c577" targetId="4d50-e535-616a-259c"/>
+    <entryLink import="true" name="Sly Marbo" hidden="false" type="selectionEntry" id="8d22-6401-74fb-c577" targetId="4d50-e535-616a-259c" />
     <entryLink import="true" name="Stormlord" hidden="false" type="selectionEntry" id="8621-8c62-2041-9bb5" targetId="892b-678c-72e6-ee58">
       <modifiers>
         <modifier type="set" value="true" field="hidden">
           <conditions>
-            <condition type="atLeast" value="1" field="selections" scope="roster" childId="1d6e-2579-8e7f-1ed4" shared="true" includeChildForces="true"/>
+            <condition type="atLeast" value="1" field="selections" scope="roster" childId="1d6e-2579-8e7f-1ed4" shared="true" includeChildForces="true" />
           </conditions>
         </modifier>
       </modifiers>
@@ -275,7 +275,7 @@
       <modifiers>
         <modifier type="set" value="true" field="hidden">
           <conditions>
-            <condition type="atLeast" value="1" field="selections" scope="roster" childId="1d6e-2579-8e7f-1ed4" shared="true" includeChildForces="true"/>
+            <condition type="atLeast" value="1" field="selections" scope="roster" childId="1d6e-2579-8e7f-1ed4" shared="true" includeChildForces="true" />
           </conditions>
         </modifier>
       </modifiers>
@@ -284,7 +284,7 @@
       <modifiers>
         <modifier type="set" value="true" field="hidden">
           <conditions>
-            <condition type="atLeast" value="1" field="selections" scope="roster" childId="1d6e-2579-8e7f-1ed4" shared="true" includeChildForces="true"/>
+            <condition type="atLeast" value="1" field="selections" scope="roster" childId="1d6e-2579-8e7f-1ed4" shared="true" includeChildForces="true" />
           </conditions>
         </modifier>
       </modifiers>
@@ -293,18 +293,18 @@
       <modifiers>
         <modifier type="set" value="true" field="hidden">
           <conditions>
-            <condition type="atLeast" value="1" field="selections" scope="roster" childId="1d6e-2579-8e7f-1ed4" shared="true" includeChildForces="true"/>
+            <condition type="atLeast" value="1" field="selections" scope="roster" childId="1d6e-2579-8e7f-1ed4" shared="true" includeChildForces="true" />
           </conditions>
         </modifier>
       </modifiers>
     </entryLink>
-    <entryLink import="true" name="Tempestus Scions" hidden="false" type="selectionEntry" id="fe4d-4c95-5b84-2670" targetId="679b-f37f-2388-748"/>
-    <entryLink import="true" name="Ursula Creed" hidden="false" type="selectionEntry" id="b455-c6f1-b37e-c3b7" targetId="b6b2-9971-ec0c-349e"/>
+    <entryLink import="true" name="Tempestus Scions" hidden="false" type="selectionEntry" id="fe4d-4c95-5b84-2670" targetId="679b-f37f-2388-748" />
+    <entryLink import="true" name="Ursula Creed" hidden="false" type="selectionEntry" id="b455-c6f1-b37e-c3b7" targetId="b6b2-9971-ec0c-349e" />
     <entryLink import="true" name="Valkyrie" hidden="false" type="selectionEntry" id="792-4a0b-303c-bf6c" targetId="9665-3160-8a04-d2bc">
       <modifiers>
         <modifier type="set" value="true" field="hidden">
           <conditions>
-            <condition type="atLeast" value="1" field="selections" scope="roster" childId="1d6e-2579-8e7f-1ed4" shared="true" includeChildForces="true"/>
+            <condition type="atLeast" value="1" field="selections" scope="roster" childId="1d6e-2579-8e7f-1ed4" shared="true" includeChildForces="true" />
           </conditions>
         </modifier>
       </modifiers>
@@ -313,18 +313,18 @@
       <modifiers>
         <modifier type="set" value="true" field="hidden">
           <conditions>
-            <condition type="atLeast" value="1" field="selections" scope="roster" childId="1d6e-2579-8e7f-1ed4" shared="true" includeChildForces="true"/>
+            <condition type="atLeast" value="1" field="selections" scope="roster" childId="1d6e-2579-8e7f-1ed4" shared="true" includeChildForces="true" />
           </conditions>
         </modifier>
       </modifiers>
     </entryLink>
-    <entryLink import="true" name="Detachment" hidden="false" type="selectionEntry" id="cd5f-2fc8-7d6f-9dee" targetId="406d-8707-c597-abd6"/>
-    <entryLink import="true" name="Catachan Jungle Fighters" hidden="false" type="selectionEntry" id="34a6-be21-d115-fe06" targetId="fe5a-764e-37ed-7cef"/>
+    <entryLink import="true" name="Detachment" hidden="false" type="selectionEntry" id="cd5f-2fc8-7d6f-9dee" targetId="406d-8707-c597-abd6" />
+    <entryLink import="true" name="Catachan Jungle Fighters" hidden="false" type="selectionEntry" id="34a6-be21-d115-fe06" targetId="fe5a-764e-37ed-7cef" />
     <entryLink import="true" name="Munitorum Servitors [Legends]" hidden="false" type="selectionEntry" id="312a-7de8-16f7-1b1" targetId="5c5f-8f23-7f13-2af6">
       <modifiers>
         <modifier type="set" value="true" field="hidden">
           <conditions>
-            <condition type="atLeast" value="1" field="selections" scope="roster" childId="1d6e-2579-8e7f-1ed4" shared="true" includeChildForces="true"/>
+            <condition type="atLeast" value="1" field="selections" scope="roster" childId="1d6e-2579-8e7f-1ed4" shared="true" includeChildForces="true" />
           </conditions>
         </modifier>
       </modifiers>
@@ -333,7 +333,7 @@
       <modifiers>
         <modifier type="set" value="true" field="hidden">
           <conditions>
-            <condition type="atLeast" value="1" field="selections" scope="roster" childId="1d6e-2579-8e7f-1ed4" shared="true" includeChildForces="true"/>
+            <condition type="atLeast" value="1" field="selections" scope="roster" childId="1d6e-2579-8e7f-1ed4" shared="true" includeChildForces="true" />
           </conditions>
         </modifier>
       </modifiers>
@@ -342,16 +342,16 @@
       <modifiers>
         <modifier type="set" value="true" field="hidden">
           <conditions>
-            <condition type="atLeast" value="1" field="selections" scope="roster" childId="1d6e-2579-8e7f-1ed4" shared="true" includeChildForces="true"/>
+            <condition type="atLeast" value="1" field="selections" scope="roster" childId="1d6e-2579-8e7f-1ed4" shared="true" includeChildForces="true" />
           </conditions>
         </modifier>
       </modifiers>
     </entryLink>
-    <entryLink import="true" name="Hell&apos;s Last [Legends]" hidden="false" type="selectionEntry" id="ff83-3a46-581b-5372" targetId="2408-cf76-fe11-c6da">
+    <entryLink import="true" name="Hell's Last [Legends]" hidden="false" type="selectionEntry" id="ff83-3a46-581b-5372" targetId="2408-cf76-fe11-c6da">
       <modifiers>
         <modifier type="set" value="true" field="hidden">
           <conditions>
-            <condition type="atLeast" value="1" field="selections" scope="roster" childId="1d6e-2579-8e7f-1ed4" shared="true" includeChildForces="true"/>
+            <condition type="atLeast" value="1" field="selections" scope="roster" childId="1d6e-2579-8e7f-1ed4" shared="true" includeChildForces="true" />
           </conditions>
         </modifier>
       </modifiers>
@@ -360,7 +360,7 @@
       <modifiers>
         <modifier type="set" value="true" field="hidden">
           <conditions>
-            <condition type="atLeast" value="1" field="selections" scope="roster" childId="1d6e-2579-8e7f-1ed4" shared="true" includeChildForces="true"/>
+            <condition type="atLeast" value="1" field="selections" scope="roster" childId="1d6e-2579-8e7f-1ed4" shared="true" includeChildForces="true" />
           </conditions>
         </modifier>
       </modifiers>
@@ -369,7 +369,7 @@
       <modifiers>
         <modifier type="set" value="true" field="hidden">
           <conditions>
-            <condition type="atLeast" value="1" field="selections" scope="roster" childId="1d6e-2579-8e7f-1ed4" shared="true" includeChildForces="true"/>
+            <condition type="atLeast" value="1" field="selections" scope="roster" childId="1d6e-2579-8e7f-1ed4" shared="true" includeChildForces="true" />
           </conditions>
         </modifier>
       </modifiers>
@@ -378,7 +378,7 @@
       <modifiers>
         <modifier type="set" value="true" field="hidden">
           <conditions>
-            <condition type="atLeast" value="1" field="selections" scope="roster" childId="1d6e-2579-8e7f-1ed4" shared="true" includeChildForces="true"/>
+            <condition type="atLeast" value="1" field="selections" scope="roster" childId="1d6e-2579-8e7f-1ed4" shared="true" includeChildForces="true" />
           </conditions>
         </modifier>
       </modifiers>
@@ -387,7 +387,7 @@
       <modifiers>
         <modifier type="set" value="true" field="hidden">
           <conditions>
-            <condition type="atLeast" value="1" field="selections" scope="roster" childId="1d6e-2579-8e7f-1ed4" shared="true" includeChildForces="true"/>
+            <condition type="atLeast" value="1" field="selections" scope="roster" childId="1d6e-2579-8e7f-1ed4" shared="true" includeChildForces="true" />
           </conditions>
         </modifier>
       </modifiers>
@@ -396,7 +396,7 @@
       <modifiers>
         <modifier type="set" value="true" field="hidden">
           <conditions>
-            <condition type="atLeast" value="1" field="selections" scope="roster" childId="1d6e-2579-8e7f-1ed4" shared="true" includeChildForces="true"/>
+            <condition type="atLeast" value="1" field="selections" scope="roster" childId="1d6e-2579-8e7f-1ed4" shared="true" includeChildForces="true" />
           </conditions>
         </modifier>
       </modifiers>
@@ -405,7 +405,7 @@
       <modifiers>
         <modifier type="set" value="true" field="hidden">
           <conditions>
-            <condition type="atLeast" value="1" field="selections" scope="roster" childId="1d6e-2579-8e7f-1ed4" shared="true" includeChildForces="true"/>
+            <condition type="atLeast" value="1" field="selections" scope="roster" childId="1d6e-2579-8e7f-1ed4" shared="true" includeChildForces="true" />
           </conditions>
         </modifier>
       </modifiers>
@@ -414,7 +414,7 @@
       <modifiers>
         <modifier type="set" value="true" field="hidden">
           <conditions>
-            <condition type="atLeast" value="1" field="selections" scope="roster" childId="1d6e-2579-8e7f-1ed4" shared="true" includeChildForces="true"/>
+            <condition type="atLeast" value="1" field="selections" scope="roster" childId="1d6e-2579-8e7f-1ed4" shared="true" includeChildForces="true" />
           </conditions>
         </modifier>
       </modifiers>
@@ -423,7 +423,7 @@
       <modifiers>
         <modifier type="set" value="true" field="hidden">
           <conditions>
-            <condition type="atLeast" value="1" field="selections" scope="roster" childId="1d6e-2579-8e7f-1ed4" shared="true" includeChildForces="true"/>
+            <condition type="atLeast" value="1" field="selections" scope="roster" childId="1d6e-2579-8e7f-1ed4" shared="true" includeChildForces="true" />
           </conditions>
         </modifier>
       </modifiers>
@@ -432,7 +432,7 @@
       <modifiers>
         <modifier type="set" value="true" field="hidden">
           <conditions>
-            <condition type="atLeast" value="1" field="selections" scope="roster" childId="1d6e-2579-8e7f-1ed4" shared="true" includeChildForces="true"/>
+            <condition type="atLeast" value="1" field="selections" scope="roster" childId="1d6e-2579-8e7f-1ed4" shared="true" includeChildForces="true" />
           </conditions>
         </modifier>
       </modifiers>
@@ -441,7 +441,7 @@
       <modifiers>
         <modifier type="set" value="true" field="hidden">
           <conditions>
-            <condition type="atLeast" value="1" field="selections" scope="roster" childId="1d6e-2579-8e7f-1ed4" shared="true" includeChildForces="true"/>
+            <condition type="atLeast" value="1" field="selections" scope="roster" childId="1d6e-2579-8e7f-1ed4" shared="true" includeChildForces="true" />
           </conditions>
         </modifier>
       </modifiers>
@@ -450,7 +450,7 @@
       <modifiers>
         <modifier type="set" value="true" field="hidden">
           <conditions>
-            <condition type="atLeast" value="1" field="selections" scope="roster" childId="1d6e-2579-8e7f-1ed4" shared="true" includeChildForces="true"/>
+            <condition type="atLeast" value="1" field="selections" scope="roster" childId="1d6e-2579-8e7f-1ed4" shared="true" includeChildForces="true" />
           </conditions>
         </modifier>
       </modifiers>
@@ -459,7 +459,7 @@
       <modifiers>
         <modifier type="set" value="true" field="hidden">
           <conditions>
-            <condition type="atLeast" value="1" field="selections" scope="roster" childId="1d6e-2579-8e7f-1ed4" shared="true" includeChildForces="true"/>
+            <condition type="atLeast" value="1" field="selections" scope="roster" childId="1d6e-2579-8e7f-1ed4" shared="true" includeChildForces="true" />
           </conditions>
         </modifier>
       </modifiers>
@@ -468,7 +468,7 @@
       <modifiers>
         <modifier type="set" value="true" field="hidden">
           <conditions>
-            <condition type="atLeast" value="1" field="selections" scope="roster" childId="1d6e-2579-8e7f-1ed4" shared="true" includeChildForces="true"/>
+            <condition type="atLeast" value="1" field="selections" scope="roster" childId="1d6e-2579-8e7f-1ed4" shared="true" includeChildForces="true" />
           </conditions>
         </modifier>
       </modifiers>
@@ -477,7 +477,7 @@
       <modifiers>
         <modifier type="set" value="true" field="hidden">
           <conditions>
-            <condition type="atLeast" value="1" field="selections" scope="roster" childId="1d6e-2579-8e7f-1ed4" shared="true" includeChildForces="true"/>
+            <condition type="atLeast" value="1" field="selections" scope="roster" childId="1d6e-2579-8e7f-1ed4" shared="true" includeChildForces="true" />
           </conditions>
         </modifier>
       </modifiers>
@@ -486,7 +486,7 @@
       <modifiers>
         <modifier type="set" value="true" field="hidden">
           <conditions>
-            <condition type="atLeast" value="1" field="selections" scope="roster" childId="1d6e-2579-8e7f-1ed4" shared="true" includeChildForces="true"/>
+            <condition type="atLeast" value="1" field="selections" scope="roster" childId="1d6e-2579-8e7f-1ed4" shared="true" includeChildForces="true" />
           </conditions>
         </modifier>
       </modifiers>
@@ -495,7 +495,7 @@
       <modifiers>
         <modifier type="set" value="true" field="hidden">
           <conditions>
-            <condition type="atLeast" value="1" field="selections" scope="roster" childId="1d6e-2579-8e7f-1ed4" shared="true" includeChildForces="true"/>
+            <condition type="atLeast" value="1" field="selections" scope="roster" childId="1d6e-2579-8e7f-1ed4" shared="true" includeChildForces="true" />
           </conditions>
         </modifier>
       </modifiers>
@@ -504,7 +504,7 @@
       <modifiers>
         <modifier type="set" value="true" field="hidden">
           <conditions>
-            <condition type="atLeast" value="1" field="selections" scope="roster" childId="1d6e-2579-8e7f-1ed4" shared="true" includeChildForces="true"/>
+            <condition type="atLeast" value="1" field="selections" scope="roster" childId="1d6e-2579-8e7f-1ed4" shared="true" includeChildForces="true" />
           </conditions>
         </modifier>
       </modifiers>
@@ -513,7 +513,7 @@
       <modifiers>
         <modifier type="set" value="true" field="hidden">
           <conditions>
-            <condition type="atLeast" value="1" field="selections" scope="roster" childId="1d6e-2579-8e7f-1ed4" shared="true" includeChildForces="true"/>
+            <condition type="atLeast" value="1" field="selections" scope="roster" childId="1d6e-2579-8e7f-1ed4" shared="true" includeChildForces="true" />
           </conditions>
         </modifier>
       </modifiers>
@@ -522,7 +522,7 @@
       <modifiers>
         <modifier type="set" value="true" field="hidden">
           <conditions>
-            <condition type="atLeast" value="1" field="selections" scope="roster" childId="1d6e-2579-8e7f-1ed4" shared="true" includeChildForces="true"/>
+            <condition type="atLeast" value="1" field="selections" scope="roster" childId="1d6e-2579-8e7f-1ed4" shared="true" includeChildForces="true" />
           </conditions>
         </modifier>
       </modifiers>
@@ -531,7 +531,7 @@
       <modifiers>
         <modifier type="set" value="true" field="hidden">
           <conditions>
-            <condition type="atLeast" value="1" field="selections" scope="roster" childId="1d6e-2579-8e7f-1ed4" shared="true" includeChildForces="true"/>
+            <condition type="atLeast" value="1" field="selections" scope="roster" childId="1d6e-2579-8e7f-1ed4" shared="true" includeChildForces="true" />
           </conditions>
         </modifier>
       </modifiers>
@@ -540,7 +540,7 @@
       <modifiers>
         <modifier type="set" value="true" field="hidden">
           <conditions>
-            <condition type="atLeast" value="1" field="selections" scope="roster" childId="1d6e-2579-8e7f-1ed4" shared="true" includeChildForces="true"/>
+            <condition type="atLeast" value="1" field="selections" scope="roster" childId="1d6e-2579-8e7f-1ed4" shared="true" includeChildForces="true" />
           </conditions>
         </modifier>
       </modifiers>
@@ -549,7 +549,7 @@
       <modifiers>
         <modifier type="set" value="true" field="hidden">
           <conditions>
-            <condition type="atLeast" value="1" field="selections" scope="roster" childId="1d6e-2579-8e7f-1ed4" shared="true" includeChildForces="true"/>
+            <condition type="atLeast" value="1" field="selections" scope="roster" childId="1d6e-2579-8e7f-1ed4" shared="true" includeChildForces="true" />
           </conditions>
         </modifier>
       </modifiers>
@@ -558,7 +558,7 @@
       <modifiers>
         <modifier type="set" value="true" field="hidden">
           <conditions>
-            <condition type="atLeast" value="1" field="selections" scope="roster" childId="1d6e-2579-8e7f-1ed4" shared="true" includeChildForces="true"/>
+            <condition type="atLeast" value="1" field="selections" scope="roster" childId="1d6e-2579-8e7f-1ed4" shared="true" includeChildForces="true" />
           </conditions>
         </modifier>
       </modifiers>
@@ -567,7 +567,7 @@
       <modifiers>
         <modifier type="set" value="true" field="hidden">
           <conditions>
-            <condition type="atLeast" value="1" field="selections" scope="roster" childId="1d6e-2579-8e7f-1ed4" shared="true" includeChildForces="true"/>
+            <condition type="atLeast" value="1" field="selections" scope="roster" childId="1d6e-2579-8e7f-1ed4" shared="true" includeChildForces="true" />
           </conditions>
         </modifier>
       </modifiers>
@@ -576,7 +576,7 @@
       <modifiers>
         <modifier type="set" value="true" field="hidden">
           <conditions>
-            <condition type="atLeast" value="1" field="selections" scope="roster" childId="1d6e-2579-8e7f-1ed4" shared="true" includeChildForces="true"/>
+            <condition type="atLeast" value="1" field="selections" scope="roster" childId="1d6e-2579-8e7f-1ed4" shared="true" includeChildForces="true" />
           </conditions>
         </modifier>
       </modifiers>
@@ -585,7 +585,7 @@
       <modifiers>
         <modifier type="set" value="true" field="hidden">
           <conditions>
-            <condition type="atLeast" value="1" field="selections" scope="roster" childId="1d6e-2579-8e7f-1ed4" shared="true" includeChildForces="true"/>
+            <condition type="atLeast" value="1" field="selections" scope="roster" childId="1d6e-2579-8e7f-1ed4" shared="true" includeChildForces="true" />
           </conditions>
         </modifier>
       </modifiers>
@@ -594,7 +594,7 @@
       <modifiers>
         <modifier type="set" value="true" field="hidden">
           <conditions>
-            <condition type="atLeast" value="1" field="selections" scope="roster" childId="1d6e-2579-8e7f-1ed4" shared="true" includeChildForces="true"/>
+            <condition type="atLeast" value="1" field="selections" scope="roster" childId="1d6e-2579-8e7f-1ed4" shared="true" includeChildForces="true" />
           </conditions>
         </modifier>
       </modifiers>
@@ -603,23 +603,23 @@
       <modifiers>
         <modifier type="set" value="true" field="hidden">
           <conditions>
-            <condition type="atLeast" value="1" field="selections" scope="roster" childId="1d6e-2579-8e7f-1ed4" shared="true" includeChildForces="true"/>
+            <condition type="atLeast" value="1" field="selections" scope="roster" childId="1d6e-2579-8e7f-1ed4" shared="true" includeChildForces="true" />
           </conditions>
         </modifier>
       </modifiers>
     </entryLink>
     <entryLink import="true" name="Show/Hide Options" hidden="false" type="selectionEntry" id="6f5b-b62-37d0-4f6c" targetId="e8ef-836a-a9d1-901d">
       <entryLinks>
-        <entryLink import="true" name="Show Imperial Knights" hidden="false" type="selectionEntry" id="f8d5-8d30-ef1d-9fc3" targetId="e82c-6f8c-2b97-a287"/>
-        <entryLink import="true" name="Show Agents of the Imperium" hidden="false" type="selectionEntry" id="7593-597b-26b7-2717" targetId="e08b-2448-5606-fefb"/>
-        <entryLink import="true" name="Show Titans" hidden="false" type="selectionEntry" id="1494-4bb1-b7e6-d879" targetId="f26b-79db-80e0-3a3b"/>
+        <entryLink import="true" name="Show Imperial Knights" hidden="false" type="selectionEntry" id="f8d5-8d30-ef1d-9fc3" targetId="e82c-6f8c-2b97-a287" />
+        <entryLink import="true" name="Show Agents of the Imperium" hidden="false" type="selectionEntry" id="7593-597b-26b7-2717" targetId="e08b-2448-5606-fefb" />
+        <entryLink import="true" name="Show Titans" hidden="false" type="selectionEntry" id="1494-4bb1-b7e6-d879" targetId="f26b-79db-80e0-3a3b" />
       </entryLinks>
     </entryLink>
     <entryLink import="true" name="Dominus Armoured Siege Bombard [Legends]" hidden="false" type="selectionEntry" id="8b44-2197-db9f-2af4" targetId="fc41-a899-8d5a-dc01">
       <modifiers>
         <modifier type="set" value="true" field="hidden">
           <conditions>
-            <condition type="atLeast" value="1" field="selections" scope="roster" childId="1d6e-2579-8e7f-1ed4" shared="true" includeChildForces="true"/>
+            <condition type="atLeast" value="1" field="selections" scope="roster" childId="1d6e-2579-8e7f-1ed4" shared="true" includeChildForces="true" />
           </conditions>
         </modifier>
       </modifiers>
@@ -628,7 +628,7 @@
       <modifiers>
         <modifier type="set" value="true" field="hidden">
           <conditions>
-            <condition type="atLeast" value="1" field="selections" scope="roster" childId="1d6e-2579-8e7f-1ed4" shared="true" includeChildForces="true"/>
+            <condition type="atLeast" value="1" field="selections" scope="roster" childId="1d6e-2579-8e7f-1ed4" shared="true" includeChildForces="true" />
           </conditions>
         </modifier>
       </modifiers>
@@ -637,7 +637,7 @@
       <modifiers>
         <modifier type="set" value="true" field="hidden">
           <conditions>
-            <condition type="atLeast" value="1" field="selections" scope="roster" childId="1d6e-2579-8e7f-1ed4" shared="true" includeChildForces="true"/>
+            <condition type="atLeast" value="1" field="selections" scope="roster" childId="1d6e-2579-8e7f-1ed4" shared="true" includeChildForces="true" />
           </conditions>
         </modifier>
       </modifiers>
@@ -646,7 +646,7 @@
       <modifiers>
         <modifier type="set" value="true" field="hidden">
           <conditions>
-            <condition type="atLeast" value="1" field="selections" scope="roster" childId="1d6e-2579-8e7f-1ed4" shared="true" includeChildForces="true"/>
+            <condition type="atLeast" value="1" field="selections" scope="roster" childId="1d6e-2579-8e7f-1ed4" shared="true" includeChildForces="true" />
           </conditions>
         </modifier>
       </modifiers>
@@ -655,7 +655,7 @@
       <modifiers>
         <modifier type="set" value="true" field="hidden">
           <conditions>
-            <condition type="atLeast" value="1" field="selections" scope="roster" childId="1d6e-2579-8e7f-1ed4" shared="true" includeChildForces="true"/>
+            <condition type="atLeast" value="1" field="selections" scope="roster" childId="1d6e-2579-8e7f-1ed4" shared="true" includeChildForces="true" />
           </conditions>
         </modifier>
       </modifiers>
@@ -664,7 +664,7 @@
       <modifiers>
         <modifier type="set" value="true" field="hidden">
           <conditions>
-            <condition type="atLeast" value="1" field="selections" scope="roster" childId="1d6e-2579-8e7f-1ed4" shared="true" includeChildForces="true"/>
+            <condition type="atLeast" value="1" field="selections" scope="roster" childId="1d6e-2579-8e7f-1ed4" shared="true" includeChildForces="true" />
           </conditions>
         </modifier>
       </modifiers>
@@ -673,7 +673,7 @@
       <modifiers>
         <modifier type="set" value="true" field="hidden">
           <conditions>
-            <condition type="atLeast" value="1" field="selections" scope="roster" childId="1d6e-2579-8e7f-1ed4" shared="true" includeChildForces="true"/>
+            <condition type="atLeast" value="1" field="selections" scope="roster" childId="1d6e-2579-8e7f-1ed4" shared="true" includeChildForces="true" />
           </conditions>
         </modifier>
       </modifiers>
@@ -682,7 +682,7 @@
       <modifiers>
         <modifier type="set" value="true" field="hidden">
           <conditions>
-            <condition type="atLeast" value="1" field="selections" scope="roster" childId="1d6e-2579-8e7f-1ed4" shared="true" includeChildForces="true"/>
+            <condition type="atLeast" value="1" field="selections" scope="roster" childId="1d6e-2579-8e7f-1ed4" shared="true" includeChildForces="true" />
           </conditions>
         </modifier>
       </modifiers>
@@ -691,7 +691,7 @@
       <modifiers>
         <modifier type="set" value="true" field="hidden">
           <conditions>
-            <condition type="atLeast" value="1" field="selections" scope="roster" childId="1d6e-2579-8e7f-1ed4" shared="true" includeChildForces="true"/>
+            <condition type="atLeast" value="1" field="selections" scope="roster" childId="1d6e-2579-8e7f-1ed4" shared="true" includeChildForces="true" />
           </conditions>
         </modifier>
       </modifiers>
@@ -700,7 +700,7 @@
       <modifiers>
         <modifier type="set" value="true" field="hidden">
           <conditions>
-            <condition type="atLeast" value="1" field="selections" scope="roster" childId="1d6e-2579-8e7f-1ed4" shared="true" includeChildForces="true"/>
+            <condition type="atLeast" value="1" field="selections" scope="roster" childId="1d6e-2579-8e7f-1ed4" shared="true" includeChildForces="true" />
           </conditions>
         </modifier>
       </modifiers>
@@ -709,7 +709,7 @@
       <modifiers>
         <modifier type="set" value="true" field="hidden">
           <conditions>
-            <condition type="atLeast" value="1" field="selections" scope="roster" childId="1d6e-2579-8e7f-1ed4" shared="true" includeChildForces="true"/>
+            <condition type="atLeast" value="1" field="selections" scope="roster" childId="1d6e-2579-8e7f-1ed4" shared="true" includeChildForces="true" />
           </conditions>
         </modifier>
       </modifiers>
@@ -718,7 +718,7 @@
       <modifiers>
         <modifier type="set" value="true" field="hidden">
           <conditions>
-            <condition type="atLeast" value="1" field="selections" scope="roster" childId="1d6e-2579-8e7f-1ed4" shared="true" includeChildForces="true"/>
+            <condition type="atLeast" value="1" field="selections" scope="roster" childId="1d6e-2579-8e7f-1ed4" shared="true" includeChildForces="true" />
           </conditions>
         </modifier>
       </modifiers>
@@ -727,7 +727,7 @@
       <modifiers>
         <modifier type="set" value="true" field="hidden">
           <conditions>
-            <condition type="atLeast" value="1" field="selections" scope="roster" childId="1d6e-2579-8e7f-1ed4" shared="true" includeChildForces="true"/>
+            <condition type="atLeast" value="1" field="selections" scope="roster" childId="1d6e-2579-8e7f-1ed4" shared="true" includeChildForces="true" />
           </conditions>
         </modifier>
       </modifiers>
@@ -736,7 +736,7 @@
       <modifiers>
         <modifier type="set" value="true" field="hidden">
           <conditions>
-            <condition type="atLeast" value="1" field="selections" scope="roster" childId="1d6e-2579-8e7f-1ed4" shared="true" includeChildForces="true"/>
+            <condition type="atLeast" value="1" field="selections" scope="roster" childId="1d6e-2579-8e7f-1ed4" shared="true" includeChildForces="true" />
           </conditions>
         </modifier>
       </modifiers>
@@ -745,7 +745,7 @@
       <modifiers>
         <modifier type="set" value="true" field="hidden">
           <conditions>
-            <condition type="atLeast" value="1" field="selections" scope="roster" childId="1d6e-2579-8e7f-1ed4" shared="true" includeChildForces="true"/>
+            <condition type="atLeast" value="1" field="selections" scope="roster" childId="1d6e-2579-8e7f-1ed4" shared="true" includeChildForces="true" />
           </conditions>
         </modifier>
       </modifiers>
@@ -754,7 +754,7 @@
       <modifiers>
         <modifier type="set" value="true" field="hidden">
           <conditions>
-            <condition type="atLeast" value="1" field="selections" scope="roster" childId="1d6e-2579-8e7f-1ed4" shared="true" includeChildForces="true"/>
+            <condition type="atLeast" value="1" field="selections" scope="roster" childId="1d6e-2579-8e7f-1ed4" shared="true" includeChildForces="true" />
           </conditions>
         </modifier>
       </modifiers>
@@ -763,7 +763,7 @@
       <modifiers>
         <modifier type="set" value="true" field="hidden">
           <conditions>
-            <condition type="atLeast" value="1" field="selections" scope="roster" childId="1d6e-2579-8e7f-1ed4" shared="true" includeChildForces="true"/>
+            <condition type="atLeast" value="1" field="selections" scope="roster" childId="1d6e-2579-8e7f-1ed4" shared="true" includeChildForces="true" />
           </conditions>
         </modifier>
       </modifiers>
@@ -772,7 +772,7 @@
       <modifiers>
         <modifier type="set" value="true" field="hidden">
           <conditions>
-            <condition type="atLeast" value="1" field="selections" scope="roster" childId="1d6e-2579-8e7f-1ed4" shared="true" includeChildForces="true"/>
+            <condition type="atLeast" value="1" field="selections" scope="roster" childId="1d6e-2579-8e7f-1ed4" shared="true" includeChildForces="true" />
           </conditions>
         </modifier>
       </modifiers>
@@ -781,7 +781,7 @@
       <modifiers>
         <modifier type="set" value="true" field="hidden">
           <conditions>
-            <condition type="atLeast" value="1" field="selections" scope="roster" childId="1d6e-2579-8e7f-1ed4" shared="true" includeChildForces="true"/>
+            <condition type="atLeast" value="1" field="selections" scope="roster" childId="1d6e-2579-8e7f-1ed4" shared="true" includeChildForces="true" />
           </conditions>
         </modifier>
       </modifiers>
@@ -790,7 +790,7 @@
       <modifiers>
         <modifier type="set" value="true" field="hidden">
           <conditions>
-            <condition type="atLeast" value="1" field="selections" scope="roster" childId="1d6e-2579-8e7f-1ed4" shared="true" includeChildForces="true"/>
+            <condition type="atLeast" value="1" field="selections" scope="roster" childId="1d6e-2579-8e7f-1ed4" shared="true" includeChildForces="true" />
           </conditions>
         </modifier>
       </modifiers>
@@ -799,7 +799,7 @@
       <modifiers>
         <modifier type="set" value="true" field="hidden">
           <conditions>
-            <condition type="atLeast" value="1" field="selections" scope="roster" childId="1d6e-2579-8e7f-1ed4" shared="true" includeChildForces="true"/>
+            <condition type="atLeast" value="1" field="selections" scope="roster" childId="1d6e-2579-8e7f-1ed4" shared="true" includeChildForces="true" />
           </conditions>
         </modifier>
       </modifiers>
@@ -808,7 +808,7 @@
       <modifiers>
         <modifier type="set" value="true" field="hidden">
           <conditions>
-            <condition type="atLeast" value="1" field="selections" scope="roster" childId="1d6e-2579-8e7f-1ed4" shared="true" includeChildForces="true"/>
+            <condition type="atLeast" value="1" field="selections" scope="roster" childId="1d6e-2579-8e7f-1ed4" shared="true" includeChildForces="true" />
           </conditions>
         </modifier>
       </modifiers>
@@ -817,7 +817,7 @@
       <modifiers>
         <modifier type="set" value="true" field="hidden">
           <conditions>
-            <condition type="atLeast" value="1" field="selections" scope="roster" childId="1d6e-2579-8e7f-1ed4" shared="true" includeChildForces="true"/>
+            <condition type="atLeast" value="1" field="selections" scope="roster" childId="1d6e-2579-8e7f-1ed4" shared="true" includeChildForces="true" />
           </conditions>
         </modifier>
       </modifiers>
@@ -826,7 +826,7 @@
       <modifiers>
         <modifier type="set" value="true" field="hidden">
           <conditions>
-            <condition type="atLeast" value="1" field="selections" scope="roster" childId="1d6e-2579-8e7f-1ed4" shared="true" includeChildForces="true"/>
+            <condition type="atLeast" value="1" field="selections" scope="roster" childId="1d6e-2579-8e7f-1ed4" shared="true" includeChildForces="true" />
           </conditions>
         </modifier>
       </modifiers>
@@ -835,7 +835,7 @@
       <modifiers>
         <modifier type="set" value="true" field="hidden">
           <conditions>
-            <condition type="atLeast" value="1" field="selections" scope="roster" childId="1d6e-2579-8e7f-1ed4" shared="true" includeChildForces="true"/>
+            <condition type="atLeast" value="1" field="selections" scope="roster" childId="1d6e-2579-8e7f-1ed4" shared="true" includeChildForces="true" />
           </conditions>
         </modifier>
       </modifiers>
@@ -844,7 +844,7 @@
       <modifiers>
         <modifier type="set" value="true" field="hidden">
           <conditions>
-            <condition type="atLeast" value="1" field="selections" scope="roster" childId="1d6e-2579-8e7f-1ed4" shared="true" includeChildForces="true"/>
+            <condition type="atLeast" value="1" field="selections" scope="roster" childId="1d6e-2579-8e7f-1ed4" shared="true" includeChildForces="true" />
           </conditions>
         </modifier>
       </modifiers>
@@ -853,7 +853,7 @@
       <modifiers>
         <modifier type="set" value="true" field="hidden">
           <conditions>
-            <condition type="atLeast" value="1" field="selections" scope="roster" childId="1d6e-2579-8e7f-1ed4" shared="true" includeChildForces="true"/>
+            <condition type="atLeast" value="1" field="selections" scope="roster" childId="1d6e-2579-8e7f-1ed4" shared="true" includeChildForces="true" />
           </conditions>
         </modifier>
       </modifiers>
@@ -862,7 +862,7 @@
       <modifiers>
         <modifier type="set" value="true" field="hidden">
           <conditions>
-            <condition type="atLeast" value="1" field="selections" scope="roster" childId="1d6e-2579-8e7f-1ed4" shared="true" includeChildForces="true"/>
+            <condition type="atLeast" value="1" field="selections" scope="roster" childId="1d6e-2579-8e7f-1ed4" shared="true" includeChildForces="true" />
           </conditions>
         </modifier>
       </modifiers>
@@ -871,7 +871,7 @@
       <modifiers>
         <modifier type="set" value="true" field="hidden">
           <conditions>
-            <condition type="atLeast" value="1" field="selections" scope="roster" childId="1d6e-2579-8e7f-1ed4" shared="true" includeChildForces="true"/>
+            <condition type="atLeast" value="1" field="selections" scope="roster" childId="1d6e-2579-8e7f-1ed4" shared="true" includeChildForces="true" />
           </conditions>
         </modifier>
       </modifiers>
@@ -880,7 +880,7 @@
       <modifiers>
         <modifier type="set" value="true" field="hidden">
           <conditions>
-            <condition type="atLeast" value="1" field="selections" scope="roster" childId="1d6e-2579-8e7f-1ed4" shared="true" includeChildForces="true"/>
+            <condition type="atLeast" value="1" field="selections" scope="roster" childId="1d6e-2579-8e7f-1ed4" shared="true" includeChildForces="true" />
           </conditions>
         </modifier>
       </modifiers>
@@ -889,44 +889,44 @@
       <modifiers>
         <modifier type="set" value="true" field="hidden">
           <conditions>
-            <condition type="atLeast" value="1" field="selections" scope="roster" childId="1d6e-2579-8e7f-1ed4" shared="true" includeChildForces="true"/>
+            <condition type="atLeast" value="1" field="selections" scope="roster" childId="1d6e-2579-8e7f-1ed4" shared="true" includeChildForces="true" />
           </conditions>
         </modifier>
       </modifiers>
     </entryLink>
-    <entryLink import="true" name="Tempestus Aquilons" hidden="false" id="8c31-ea58-28e3-d4dd" type="selectionEntry" targetId="aa9f-f137-1638-0369"/>
-    <entryLink import="true" name="Ratlings" hidden="false" type="selectionEntry" id="75d6-a5e8-b8f8-9091" targetId="8293-a070-2c87-de30"/>
-    <entryLink import="true" name="Lord Marshal Dreir" hidden="false" type="selectionEntry" id="ee25-9289-f244-059b" targetId="9033-d07c-3e1c-f6f0"/>
-    <entryLink import="true" name="Krieg Command Squad" hidden="false" type="selectionEntry" id="7109-8a5b-463b-43af" targetId="fbcd-274b-0196-b4f6"/>
-    <entryLink import="true" name="Catachan Command Squad" hidden="false" type="selectionEntry" id="35fd-6169-2183-5edf" targetId="7d22-9fb6-a7e0-c21b"/>
-    <entryLink import="true" name="Artillery Team" hidden="false" type="selectionEntry" id="c446-72c9-4147-8fcb" targetId="0595-6d6c-a783-12ab"/>
-    <entryLink import="true" name="Rogal Dorn Commander" hidden="false" type="selectionEntry" id="c447-a6f6-2245-f7da" targetId="78b6-f280-bba9-0594"/>
-    <entryLink import="true" name="Ministorum Priest" hidden="false" type="selectionEntry" id="1a39-2529-3722-60d3" targetId="ba72-7b05-33c9-a1c0"/>
-    <entryLink import="true" name="Krieg Combat Engineers" hidden="false" type="selectionEntry" id="6fd0-a0ae-a673-1b14" targetId="3e90-9359-2aaa-205e"/>
-    <entryLink import="true" name="Krieg Heavy Weapons Squad" hidden="false" type="selectionEntry" id="4bde-dc8a-4a53-6924" targetId="1669-d311-eff9-243b"/>
-    <entryLink import="true" name="Catachan Heavy Weapons Squad" hidden="false" type="selectionEntry" id="5727-4dd2-5ff4-abd0" targetId="dfcb-7854-1d6d-cd02"/>
+    <entryLink import="true" name="Tempestus Aquilons" hidden="false" id="8c31-ea58-28e3-d4dd" type="selectionEntry" targetId="aa9f-f137-1638-0369" />
+    <entryLink import="true" name="Ratlings" hidden="false" type="selectionEntry" id="75d6-a5e8-b8f8-9091" targetId="8293-a070-2c87-de30" />
+    <entryLink import="true" name="Lord Marshal Dreir" hidden="false" type="selectionEntry" id="ee25-9289-f244-059b" targetId="9033-d07c-3e1c-f6f0" />
+    <entryLink import="true" name="Krieg Command Squad" hidden="false" type="selectionEntry" id="7109-8a5b-463b-43af" targetId="fbcd-274b-0196-b4f6" />
+    <entryLink import="true" name="Catachan Command Squad" hidden="false" type="selectionEntry" id="35fd-6169-2183-5edf" targetId="7d22-9fb6-a7e0-c21b" />
+    <entryLink import="true" name="Artillery Team" hidden="false" type="selectionEntry" id="c446-72c9-4147-8fcb" targetId="0595-6d6c-a783-12ab" />
+    <entryLink import="true" name="Rogal Dorn Commander" hidden="false" type="selectionEntry" id="c447-a6f6-2245-f7da" targetId="78b6-f280-bba9-0594" />
+    <entryLink import="true" name="Ministorum Priest" hidden="false" type="selectionEntry" id="1a39-2529-3722-60d3" targetId="ba72-7b05-33c9-a1c0" />
+    <entryLink import="true" name="Krieg Combat Engineers" hidden="false" type="selectionEntry" id="6fd0-a0ae-a673-1b14" targetId="3e90-9359-2aaa-205e" />
+    <entryLink import="true" name="Krieg Heavy Weapons Squad" hidden="false" type="selectionEntry" id="4bde-dc8a-4a53-6924" targetId="1669-d311-eff9-243b" />
+    <entryLink import="true" name="Catachan Heavy Weapons Squad" hidden="false" type="selectionEntry" id="5727-4dd2-5ff4-abd0" targetId="dfcb-7854-1d6d-cd02" />
     <entryLink import="true" name="Order of Battle" hidden="false" id="d539-debc-87ba-ddb8" type="selectionEntry" targetId="eda7-8b4b-3719-af36">
       <entryLinks>
-        <entryLink import="true" name="Tours of Duty" hidden="false" id="bfbf-60b3-1e89-658c" type="selectionEntryGroup" targetId="b30e-426f-b315-62aa" collapsible="false"/>
-        <entryLink import="true" name="Shadow Operations" hidden="false" id="406a-d472-ffad-66e1" type="selectionEntryGroup" targetId="68a2-ada5-3cd4-c5a3"/>
-        <entryLink import="true" name="Chivalric Quests" hidden="false" id="f6d2-44a6-7edf-6494" type="selectionEntryGroup" targetId="12f3-7f5b-747e-41ca"/>
+        <entryLink import="true" name="Tours of Duty" hidden="false" id="bfbf-60b3-1e89-658c" type="selectionEntryGroup" targetId="b30e-426f-b315-62aa" collapsible="false" />
+        <entryLink import="true" name="Shadow Operations" hidden="false" id="406a-d472-ffad-66e1" type="selectionEntryGroup" targetId="68a2-ada5-3cd4-c5a3" />
+        <entryLink import="true" name="Chivalric Quests" hidden="false" id="f6d2-44a6-7edf-6494" type="selectionEntryGroup" targetId="12f3-7f5b-747e-41ca" />
       </entryLinks>
     </entryLink>
-    <entryLink import="true" name="Front-line Commander [Crucible]" hidden="false" id="c90d-57dd-0316-ce67" type="selectionEntry" targetId="4fc5-184d-b305-3551"/>
-    <entryLink import="true" name="Sentinel Commander [Crucible]" hidden="false" id="36ac-880c-7435-e5ed" type="selectionEntry" targetId="a040-9715-5d3a-52af"/>
-    <entryLink import="true" name="Augmented Bone &apos;Ead [Crucible]" hidden="false" id="f090-7a8a-8552-3b4d" type="selectionEntry" targetId="7280-8daf-312a-b01d"/>
-    <entryLink import="true" name="Commissar Graves" hidden="false" id="29df-3b97-03bf-0275" targetId="50b8-1f13-9807-0069" type="selectionEntry"/>
-    <entryLink import="true" name="Commissar Graves on Foot" hidden="false" id="b6f0-9fc2-ce6c-debb" targetId="d624-2be1-87a3-41ca" type="selectionEntry"/>
-    <entryLink import="true" name="Commissar Yarrick" hidden="false" id="1f33-61d2-bb9b-86a7" targetId="3962-1fa9-7088-aedd" type="selectionEntry"/>
-    <entryLink import="true" name="Hippogriff AFV" hidden="false" id="7a39-89ff-6e36-f03c" targetId="b566-8903-3a36-62f1" type="selectionEntry"/>
-    <entryLink import="true" name="Centaur RSV" hidden="false" id="3a44-9eb0-d51d-6b46" targetId="c871-4769-71ed-c4b3" type="selectionEntry"/>
-    <entryLink import="true" name="Cadian Recon Squad" hidden="false" id="39a7-1ea5-9552-d4ba" targetId="05de-5701-33a0-b23d" type="selectionEntry"/>
+    <entryLink import="true" name="Front-line Commander [Crucible]" hidden="false" id="c90d-57dd-0316-ce67" type="selectionEntry" targetId="4fc5-184d-b305-3551" />
+    <entryLink import="true" name="Sentinel Commander [Crucible]" hidden="false" id="36ac-880c-7435-e5ed" type="selectionEntry" targetId="a040-9715-5d3a-52af" />
+    <entryLink import="true" name="Augmented Bone 'Ead [Crucible]" hidden="false" id="f090-7a8a-8552-3b4d" type="selectionEntry" targetId="7280-8daf-312a-b01d" />
+    <entryLink import="true" name="Commissar Graves" hidden="false" id="29df-3b97-03bf-0275" targetId="50b8-1f13-9807-0069" type="selectionEntry" />
+    <entryLink import="true" name="Commissar Graves on Foot" hidden="false" id="b6f0-9fc2-ce6c-debb" targetId="d624-2be1-87a3-41ca" type="selectionEntry" />
+    <entryLink import="true" name="Commissar Yarrick" hidden="false" id="1f33-61d2-bb9b-86a7" targetId="3962-1fa9-7088-aedd" type="selectionEntry" />
+    <entryLink import="true" name="Hippogriff AFV" hidden="false" id="7a39-89ff-6e36-f03c" targetId="b566-8903-3a36-62f1" type="selectionEntry" />
+    <entryLink import="true" name="Centaur RSV" hidden="false" id="3a44-9eb0-d51d-6b46" targetId="c871-4769-71ed-c4b3" type="selectionEntry" />
+    <entryLink import="true" name="Cadian Recon Squad" hidden="false" id="39a7-1ea5-9552-d4ba" targetId="05de-5701-33a0-b23d" type="selectionEntry" />
   </entryLinks>
   <catalogueLinks>
-    <catalogueLink id="e373-3c0a-1185-467a" name="Imperium - Astra Militarum - Library" targetId="5a44-f048-114b-e3ff" type="catalogue" importRootEntries="false"/>
-    <catalogueLink type="catalogue" name="Imperium - Imperial Knights - Library" id="38dd-a3d5-684f-2dea" targetId="1b6d-dc06-5db9-c7d1" importRootEntries="true"/>
-    <catalogueLink type="catalogue" name="Imperium - Agents of the Imperium" id="4e1e-d351-d01e-df32" targetId="b00-cd86-4b4c-97ba" importRootEntries="true"/>
-    <catalogueLink type="catalogue" name="Library - Titans" id="60ee-b4f-eafc-93d1" targetId="7481-280e-b55e-7867"/>
-    <catalogueLink type="catalogue" name="Unaligned Forces" id="81c5-242b-44b9-7b1b" targetId="581a-46b9-5b86-44b7"/>
+    <catalogueLink id="e373-3c0a-1185-467a" name="Imperium - Astra Militarum - Library" targetId="5a44-f048-114b-e3ff" type="catalogue" importRootEntries="false" />
+    <catalogueLink type="catalogue" name="Imperium - Imperial Knights - Library" id="38dd-a3d5-684f-2dea" targetId="1b6d-dc06-5db9-c7d1" importRootEntries="true" />
+    <catalogueLink type="catalogue" name="Imperium - Agents of the Imperium" id="4e1e-d351-d01e-df32" targetId="b00-cd86-4b4c-97ba" importRootEntries="true" />
+    <catalogueLink type="catalogue" name="Library - Titans" id="60ee-b4f-eafc-93d1" targetId="7481-280e-b55e-7867" />
+    <catalogueLink type="catalogue" name="Unaligned Forces" id="81c5-242b-44b9-7b1b" targetId="581a-46b9-5b86-44b7" />
   </catalogueLinks>
 </catalogue>
