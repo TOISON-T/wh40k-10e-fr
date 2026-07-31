@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue xmlns="http://www.battlescribe.net/schema/catalogueSchema" id="8106-aad2-918a-9ac" name="Chaos - Chaos Knights Library" revision="66" battleScribeVersion="2.03" library="true" gameSystemId="sys-352e-adc2-7639-d6a9" gameSystemRevision="1" type="catalogue">
+<catalogue xmlns="http://www.battlescribe.net/schema/catalogueSchema" id="2a4a-abd1-67f0-3a80" name="Chaos - Chaos Knights Library" revision="66" battleScribeVersion="2.03" library="true" gameSystemId="sys-0e45-705d-f6bc-806a" gameSystemRevision="1" type="catalogue">
   <categoryEntries>
     <categoryEntry id="99dc-0f47-85e2-75da" name="War Dog" hidden="false">
       <modifiers>
@@ -7,7 +7,7 @@
           <conditionGroups>
             <conditionGroup type="and">
               <conditions>
-                <condition field="selections" scope="primary-catalogue" value="0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="46d8-abc8-ef3a-9f85" type="notInstanceOf" />
+                <condition field="selections" scope="primary-catalogue" value="0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="f0ff-96fa-6715-5265" type="notInstanceOf" />
                 <condition field="selections" scope="force" value="0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="cac3-71d1-ea4b-795d" type="notInstanceOf" />
               </conditions>
               <conditionGroups>
@@ -27,7 +27,7 @@
           <conditionGroups>
             <conditionGroup type="and">
               <conditions>
-                <condition type="notInstanceOf" value="0" field="selections" scope="primary-catalogue" childId="46d8-abc8-ef3a-9f85" shared="true" percentValue="false" includeChildSelections="false" includeChildForces="false" />
+                <condition type="notInstanceOf" value="0" field="selections" scope="primary-catalogue" childId="f0ff-96fa-6715-5265" shared="true" percentValue="false" includeChildSelections="false" includeChildForces="false" />
                 <condition type="lessThan" value="1" field="selections" scope="force" childId="f2d9-b5e8-4183-cb0b" shared="true" percentValue="false" includeChildSelections="true" includeChildForces="false" />
                 <condition type="lessThan" value="1" field="selections" scope="force" childId="552f-2667-65a7-f914" shared="true" percentValue="false" includeChildSelections="true" includeChildForces="false" />
                 <condition type="lessThan" value="1" field="selections" scope="force" childId="4ba6-5e16-28e6-835a" shared="true" percentValue="false" includeChildSelections="true" includeChildForces="false" />
@@ -60,7 +60,7 @@
             <conditionGroup type="and">
               <conditions>
                 <condition type="notInstanceOf" value="0" field="selections" scope="force" childId="cac3-71d1-ea4b-795d" shared="true" percentValue="false" includeChildSelections="true" includeChildForces="false" />
-                <condition type="notInstanceOf" value="0" field="selections" scope="primary-catalogue" childId="46d8-abc8-ef3a-9f85" shared="true" percentValue="false" includeChildSelections="false" includeChildForces="false" />
+                <condition type="notInstanceOf" value="0" field="selections" scope="primary-catalogue" childId="f0ff-96fa-6715-5265" shared="true" percentValue="false" includeChildSelections="false" includeChildForces="false" />
               </conditions>
             </conditionGroup>
           </conditionGroups>
@@ -69,7 +69,7 @@
           <conditionGroups>
             <conditionGroup type="and">
               <conditions>
-                <condition field="selections" scope="primary-catalogue" value="0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="46d8-abc8-ef3a-9f85" type="notInstanceOf" />
+                <condition field="selections" scope="primary-catalogue" value="0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="f0ff-96fa-6715-5265" type="notInstanceOf" />
                 <condition type="notInstanceOf" value="0" field="selections" scope="force" childId="cac3-71d1-ea4b-795d" shared="true" percentValue="false" includeChildSelections="true" includeChildForces="false" />
               </conditions>
               <conditionGroups>
@@ -98,7 +98,7 @@
             <conditionGroup type="and">
               <conditions>
                 <condition type="notInstanceOf" value="0" field="selections" scope="force" childId="cac3-71d1-ea4b-795d" shared="true" percentValue="false" includeChildSelections="true" includeChildForces="false" />
-                <condition type="notInstanceOf" value="0" field="selections" scope="primary-catalogue" childId="46d8-abc8-ef3a-9f85" shared="true" percentValue="false" includeChildSelections="false" includeChildForces="false" />
+                <condition type="notInstanceOf" value="0" field="selections" scope="primary-catalogue" childId="f0ff-96fa-6715-5265" shared="true" percentValue="false" includeChildSelections="false" includeChildForces="false" />
               </conditions>
             </conditionGroup>
           </conditionGroups>
@@ -107,7 +107,7 @@
           <conditionGroups>
             <conditionGroup type="and">
               <conditions>
-                <condition field="selections" scope="primary-catalogue" value="0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="46d8-abc8-ef3a-9f85" type="notInstanceOf" />
+                <condition field="selections" scope="primary-catalogue" value="0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="f0ff-96fa-6715-5265" type="notInstanceOf" />
                 <condition type="notInstanceOf" value="0" field="selections" scope="force" childId="cac3-71d1-ea4b-795d" shared="true" percentValue="false" includeChildSelections="true" includeChildForces="false" />
               </conditions>
               <conditionGroups>
@@ -141,7 +141,7 @@
             <conditionGroup type="and">
               <conditions>
                 <condition type="notInstanceOf" value="0" field="selections" scope="force" childId="cac3-71d1-ea4b-795d" shared="true" percentValue="false" includeChildSelections="true" includeChildForces="false" />
-                <condition type="notInstanceOf" value="0" field="selections" scope="primary-catalogue" childId="46d8-abc8-ef3a-9f85" shared="true" percentValue="false" includeChildSelections="false" includeChildForces="false" />
+                <condition type="notInstanceOf" value="0" field="selections" scope="primary-catalogue" childId="f0ff-96fa-6715-5265" shared="true" percentValue="false" includeChildSelections="false" includeChildForces="false" />
               </conditions>
             </conditionGroup>
           </conditionGroups>
@@ -150,7 +150,7 @@
           <conditionGroups>
             <conditionGroup type="and">
               <conditions>
-                <condition type="notInstanceOf" value="0" field="selections" scope="primary-catalogue" childId="46d8-abc8-ef3a-9f85" shared="true" percentValue="false" includeChildSelections="false" includeChildForces="false" />
+                <condition type="notInstanceOf" value="0" field="selections" scope="primary-catalogue" childId="f0ff-96fa-6715-5265" shared="true" percentValue="false" includeChildSelections="false" includeChildForces="false" />
                 <condition type="notInstanceOf" value="0" field="selections" scope="force" childId="cac3-71d1-ea4b-795d" shared="true" percentValue="false" includeChildSelections="true" includeChildForces="false" />
               </conditions>
               <conditionGroups>
@@ -180,7 +180,7 @@
             <conditionGroup type="and">
               <conditions>
                 <condition type="notInstanceOf" value="0" field="selections" scope="force" childId="cac3-71d1-ea4b-795d" shared="true" percentValue="false" includeChildSelections="true" includeChildForces="false" />
-                <condition type="notInstanceOf" value="0" field="selections" scope="primary-catalogue" childId="46d8-abc8-ef3a-9f85" shared="true" percentValue="false" includeChildSelections="false" includeChildForces="false" />
+                <condition type="notInstanceOf" value="0" field="selections" scope="primary-catalogue" childId="f0ff-96fa-6715-5265" shared="true" percentValue="false" includeChildSelections="false" includeChildForces="false" />
               </conditions>
             </conditionGroup>
           </conditionGroups>
@@ -189,7 +189,7 @@
           <conditionGroups>
             <conditionGroup type="and">
               <conditions>
-                <condition type="notInstanceOf" value="0" field="selections" scope="primary-catalogue" childId="46d8-abc8-ef3a-9f85" shared="true" percentValue="false" includeChildSelections="false" includeChildForces="false" />
+                <condition type="notInstanceOf" value="0" field="selections" scope="primary-catalogue" childId="f0ff-96fa-6715-5265" shared="true" percentValue="false" includeChildSelections="false" includeChildForces="false" />
                 <condition type="notInstanceOf" value="0" field="selections" scope="force" childId="cac3-71d1-ea4b-795d" shared="true" percentValue="false" includeChildSelections="true" includeChildForces="false" />
               </conditions>
               <conditionGroups>
@@ -342,14 +342,14 @@
             <conditionGroup type="and">
               <conditions>
                 <condition type="lessThan" value="1" field="selections" scope="roster" childId="aeb4-96de-7401-eaa3" shared="true" includeChildSelections="true" includeChildForces="true" />
-                <condition type="notInstanceOf" value="1" field="selections" scope="primary-catalogue" childId="46d8-abc8-ef3a-9f85" shared="true" />
+                <condition type="notInstanceOf" value="1" field="selections" scope="primary-catalogue" childId="f0ff-96fa-6715-5265" shared="true" />
               </conditions>
             </conditionGroup>
           </conditionGroups>
         </modifier>
         <modifier type="set-primary" value="887b-ab87-92a2-20f5" field="category">
           <conditions>
-            <condition type="notInstanceOf" value="1" field="selections" scope="primary-catalogue" childId="46d8-abc8-ef3a-9f85" shared="true" />
+            <condition type="notInstanceOf" value="1" field="selections" scope="primary-catalogue" childId="f0ff-96fa-6715-5265" shared="true" />
           </conditions>
         </modifier>
         <modifier type="set-primary" value="e338-111e-d0c6-b687" field="category">
@@ -759,14 +759,14 @@
             <conditionGroup type="and">
               <conditions>
                 <condition type="lessThan" value="1" field="selections" scope="roster" childId="aeb4-96de-7401-eaa3" shared="true" includeChildSelections="true" includeChildForces="true" />
-                <condition type="notInstanceOf" value="1" field="selections" scope="primary-catalogue" childId="46d8-abc8-ef3a-9f85" shared="true" />
+                <condition type="notInstanceOf" value="1" field="selections" scope="primary-catalogue" childId="f0ff-96fa-6715-5265" shared="true" />
               </conditions>
             </conditionGroup>
           </conditionGroups>
         </modifier>
         <modifier type="set-primary" value="887b-ab87-92a2-20f5" field="category">
           <conditions>
-            <condition type="notInstanceOf" value="1" field="selections" scope="primary-catalogue" childId="46d8-abc8-ef3a-9f85" shared="true" />
+            <condition type="notInstanceOf" value="1" field="selections" scope="primary-catalogue" childId="f0ff-96fa-6715-5265" shared="true" />
           </conditions>
         </modifier>
         <modifier type="set-primary" value="e338-111e-d0c6-b687" field="category">
@@ -993,14 +993,14 @@
             <conditionGroup type="and">
               <conditions>
                 <condition type="lessThan" value="1" field="selections" scope="roster" childId="aeb4-96de-7401-eaa3" shared="true" includeChildSelections="true" includeChildForces="true" />
-                <condition type="notInstanceOf" value="1" field="selections" scope="primary-catalogue" childId="46d8-abc8-ef3a-9f85" shared="true" />
+                <condition type="notInstanceOf" value="1" field="selections" scope="primary-catalogue" childId="f0ff-96fa-6715-5265" shared="true" />
               </conditions>
             </conditionGroup>
           </conditionGroups>
         </modifier>
         <modifier type="set-primary" value="887b-ab87-92a2-20f5" field="category">
           <conditions>
-            <condition type="notInstanceOf" value="1" field="selections" scope="primary-catalogue" childId="46d8-abc8-ef3a-9f85" shared="true" />
+            <condition type="notInstanceOf" value="1" field="selections" scope="primary-catalogue" childId="f0ff-96fa-6715-5265" shared="true" />
           </conditions>
         </modifier>
         <modifier type="set-primary" value="e338-111e-d0c6-b687" field="category">
@@ -1197,14 +1197,14 @@
             <conditionGroup type="and">
               <conditions>
                 <condition type="lessThan" value="1" field="selections" scope="roster" childId="aeb4-96de-7401-eaa3" shared="true" includeChildSelections="true" includeChildForces="true" />
-                <condition type="notInstanceOf" value="1" field="selections" scope="primary-catalogue" childId="46d8-abc8-ef3a-9f85" shared="true" />
+                <condition type="notInstanceOf" value="1" field="selections" scope="primary-catalogue" childId="f0ff-96fa-6715-5265" shared="true" />
               </conditions>
             </conditionGroup>
           </conditionGroups>
         </modifier>
         <modifier type="set-primary" value="887b-ab87-92a2-20f5" field="category">
           <conditions>
-            <condition type="notInstanceOf" value="1" field="selections" scope="primary-catalogue" childId="46d8-abc8-ef3a-9f85" shared="true" />
+            <condition type="notInstanceOf" value="1" field="selections" scope="primary-catalogue" childId="f0ff-96fa-6715-5265" shared="true" />
           </conditions>
         </modifier>
         <modifier type="set-primary" value="e338-111e-d0c6-b687" field="category">
@@ -1396,14 +1396,14 @@
             <conditionGroup type="and">
               <conditions>
                 <condition type="lessThan" value="1" field="selections" scope="roster" childId="aeb4-96de-7401-eaa3" shared="true" includeChildSelections="true" includeChildForces="true" />
-                <condition type="notInstanceOf" value="1" field="selections" scope="primary-catalogue" childId="46d8-abc8-ef3a-9f85" shared="true" />
+                <condition type="notInstanceOf" value="1" field="selections" scope="primary-catalogue" childId="f0ff-96fa-6715-5265" shared="true" />
               </conditions>
             </conditionGroup>
           </conditionGroups>
         </modifier>
         <modifier type="set-primary" value="887b-ab87-92a2-20f5" field="category">
           <conditions>
-            <condition type="notInstanceOf" value="1" field="selections" scope="primary-catalogue" childId="46d8-abc8-ef3a-9f85" shared="true" />
+            <condition type="notInstanceOf" value="1" field="selections" scope="primary-catalogue" childId="f0ff-96fa-6715-5265" shared="true" />
           </conditions>
         </modifier>
         <modifier type="set-primary" value="e338-111e-d0c6-b687" field="category">
@@ -1868,14 +1868,14 @@
             <conditionGroup type="and">
               <conditions>
                 <condition type="lessThan" value="1" field="selections" scope="roster" childId="aeb4-96de-7401-eaa3" shared="true" includeChildSelections="true" includeChildForces="true" />
-                <condition type="notInstanceOf" value="1" field="selections" scope="primary-catalogue" childId="46d8-abc8-ef3a-9f85" shared="true" />
+                <condition type="notInstanceOf" value="1" field="selections" scope="primary-catalogue" childId="f0ff-96fa-6715-5265" shared="true" />
               </conditions>
             </conditionGroup>
           </conditionGroups>
         </modifier>
         <modifier type="set-primary" value="887b-ab87-92a2-20f5" field="category">
           <conditions>
-            <condition type="notInstanceOf" value="1" field="selections" scope="primary-catalogue" childId="46d8-abc8-ef3a-9f85" shared="true" />
+            <condition type="notInstanceOf" value="1" field="selections" scope="primary-catalogue" childId="f0ff-96fa-6715-5265" shared="true" />
           </conditions>
         </modifier>
       </modifiers>
@@ -2359,14 +2359,14 @@
             <conditionGroup type="and">
               <conditions>
                 <condition type="lessThan" value="1" field="selections" scope="roster" childId="aeb4-96de-7401-eaa3" shared="true" includeChildSelections="true" includeChildForces="true" />
-                <condition type="notInstanceOf" value="1" field="selections" scope="primary-catalogue" childId="46d8-abc8-ef3a-9f85" shared="true" />
+                <condition type="notInstanceOf" value="1" field="selections" scope="primary-catalogue" childId="f0ff-96fa-6715-5265" shared="true" />
               </conditions>
             </conditionGroup>
           </conditionGroups>
         </modifier>
         <modifier type="set-primary" value="887b-ab87-92a2-20f5" field="category">
           <conditions>
-            <condition type="notInstanceOf" value="1" field="selections" scope="primary-catalogue" childId="46d8-abc8-ef3a-9f85" shared="true" />
+            <condition type="notInstanceOf" value="1" field="selections" scope="primary-catalogue" childId="f0ff-96fa-6715-5265" shared="true" />
           </conditions>
         </modifier>
       </modifiers>
@@ -2510,14 +2510,14 @@
             <conditionGroup type="and">
               <conditions>
                 <condition type="lessThan" value="1" field="selections" scope="roster" childId="aeb4-96de-7401-eaa3" shared="true" includeChildSelections="true" includeChildForces="true" />
-                <condition type="notInstanceOf" value="1" field="selections" scope="primary-catalogue" childId="46d8-abc8-ef3a-9f85" shared="true" />
+                <condition type="notInstanceOf" value="1" field="selections" scope="primary-catalogue" childId="f0ff-96fa-6715-5265" shared="true" />
               </conditions>
             </conditionGroup>
           </conditionGroups>
         </modifier>
         <modifier type="set-primary" value="887b-ab87-92a2-20f5" field="category">
           <conditions>
-            <condition type="notInstanceOf" value="1" field="selections" scope="primary-catalogue" childId="46d8-abc8-ef3a-9f85" shared="true" />
+            <condition type="notInstanceOf" value="1" field="selections" scope="primary-catalogue" childId="f0ff-96fa-6715-5265" shared="true" />
           </conditions>
         </modifier>
       </modifiers>
@@ -2777,14 +2777,14 @@
             <conditionGroup type="and">
               <conditions>
                 <condition type="lessThan" value="1" field="selections" scope="roster" childId="aeb4-96de-7401-eaa3" shared="true" includeChildSelections="true" includeChildForces="true" />
-                <condition type="notInstanceOf" value="1" field="selections" scope="primary-catalogue" childId="46d8-abc8-ef3a-9f85" shared="true" />
+                <condition type="notInstanceOf" value="1" field="selections" scope="primary-catalogue" childId="f0ff-96fa-6715-5265" shared="true" />
               </conditions>
             </conditionGroup>
           </conditionGroups>
         </modifier>
         <modifier type="set-primary" value="887b-ab87-92a2-20f5" field="category">
           <conditions>
-            <condition type="notInstanceOf" value="1" field="selections" scope="primary-catalogue" childId="46d8-abc8-ef3a-9f85" shared="true" />
+            <condition type="notInstanceOf" value="1" field="selections" scope="primary-catalogue" childId="f0ff-96fa-6715-5265" shared="true" />
           </conditions>
         </modifier>
       </modifiers>
@@ -3385,14 +3385,14 @@
             <conditionGroup type="and">
               <conditions>
                 <condition type="lessThan" value="1" field="selections" scope="roster" childId="aeb4-96de-7401-eaa3" shared="true" includeChildSelections="true" includeChildForces="true" />
-                <condition type="notInstanceOf" value="1" field="selections" scope="primary-catalogue" childId="46d8-abc8-ef3a-9f85" shared="true" />
+                <condition type="notInstanceOf" value="1" field="selections" scope="primary-catalogue" childId="f0ff-96fa-6715-5265" shared="true" />
               </conditions>
             </conditionGroup>
           </conditionGroups>
         </modifier>
         <modifier type="set-primary" value="887b-ab87-92a2-20f5" field="category">
           <conditions>
-            <condition type="notInstanceOf" value="1" field="selections" scope="primary-catalogue" childId="46d8-abc8-ef3a-9f85" shared="true" />
+            <condition type="notInstanceOf" value="1" field="selections" scope="primary-catalogue" childId="f0ff-96fa-6715-5265" shared="true" />
           </conditions>
         </modifier>
       </modifiers>
@@ -3514,7 +3514,7 @@
       <modifiers>
         <modifier type="set" field="hidden" value="true">
           <conditions>
-            <condition field="selections" scope="primary-catalogue" value="0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="46d8-abc8-ef3a-9f85" type="notInstanceOf" />
+            <condition field="selections" scope="primary-catalogue" value="0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="f0ff-96fa-6715-5265" type="notInstanceOf" />
           </conditions>
         </modifier>
         <modifier type="set" value="true" field="hidden">
@@ -3699,14 +3699,14 @@ Lors de l'utilisation du détachement Houndpack Lance, les règles suivantes s'a
             <conditionGroup type="and">
               <conditions>
                 <condition type="lessThan" value="1" field="selections" scope="roster" childId="aeb4-96de-7401-eaa3" shared="true" includeChildSelections="true" includeChildForces="true" />
-                <condition type="notInstanceOf" value="1" field="selections" scope="primary-catalogue" childId="46d8-abc8-ef3a-9f85" shared="true" />
+                <condition type="notInstanceOf" value="1" field="selections" scope="primary-catalogue" childId="f0ff-96fa-6715-5265" shared="true" />
               </conditions>
             </conditionGroup>
           </conditionGroups>
         </modifier>
         <modifier type="set-primary" value="887b-ab87-92a2-20f5" field="category">
           <conditions>
-            <condition type="notInstanceOf" value="1" field="selections" scope="primary-catalogue" childId="46d8-abc8-ef3a-9f85" shared="true" />
+            <condition type="notInstanceOf" value="1" field="selections" scope="primary-catalogue" childId="f0ff-96fa-6715-5265" shared="true" />
           </conditions>
         </modifier>
       </modifiers>
@@ -4130,14 +4130,14 @@ Lors de l'utilisation du détachement Houndpack Lance, les règles suivantes s'a
             <conditionGroup type="and">
               <conditions>
                 <condition type="lessThan" value="1" field="selections" scope="roster" childId="aeb4-96de-7401-eaa3" shared="true" includeChildSelections="true" includeChildForces="true" />
-                <condition type="notInstanceOf" value="1" field="selections" scope="primary-catalogue" childId="46d8-abc8-ef3a-9f85" shared="true" />
+                <condition type="notInstanceOf" value="1" field="selections" scope="primary-catalogue" childId="f0ff-96fa-6715-5265" shared="true" />
               </conditions>
             </conditionGroup>
           </conditionGroups>
         </modifier>
         <modifier type="set-primary" value="887b-ab87-92a2-20f5" field="category">
           <conditions>
-            <condition type="notInstanceOf" value="1" field="selections" scope="primary-catalogue" childId="46d8-abc8-ef3a-9f85" shared="true" />
+            <condition type="notInstanceOf" value="1" field="selections" scope="primary-catalogue" childId="f0ff-96fa-6715-5265" shared="true" />
           </conditions>
         </modifier>
       </modifiers>
@@ -4285,14 +4285,14 @@ Lors de l'utilisation du détachement Houndpack Lance, les règles suivantes s'a
             <conditionGroup type="and">
               <conditions>
                 <condition type="lessThan" value="1" field="selections" scope="roster" childId="aeb4-96de-7401-eaa3" shared="true" includeChildSelections="true" includeChildForces="true" />
-                <condition type="notInstanceOf" value="1" field="selections" scope="primary-catalogue" childId="46d8-abc8-ef3a-9f85" shared="true" />
+                <condition type="notInstanceOf" value="1" field="selections" scope="primary-catalogue" childId="f0ff-96fa-6715-5265" shared="true" />
               </conditions>
             </conditionGroup>
           </conditionGroups>
         </modifier>
         <modifier type="set-primary" value="887b-ab87-92a2-20f5" field="category">
           <conditions>
-            <condition type="notInstanceOf" value="1" field="selections" scope="primary-catalogue" childId="46d8-abc8-ef3a-9f85" shared="true" />
+            <condition type="notInstanceOf" value="1" field="selections" scope="primary-catalogue" childId="f0ff-96fa-6715-5265" shared="true" />
           </conditions>
         </modifier>
       </modifiers>
@@ -4506,14 +4506,14 @@ Lors de l'utilisation du détachement Houndpack Lance, les règles suivantes s'a
             <conditionGroup type="and">
               <conditions>
                 <condition type="lessThan" value="1" field="selections" scope="roster" childId="aeb4-96de-7401-eaa3" shared="true" includeChildSelections="true" includeChildForces="true" />
-                <condition type="notInstanceOf" value="1" field="selections" scope="primary-catalogue" childId="46d8-abc8-ef3a-9f85" shared="true" />
+                <condition type="notInstanceOf" value="1" field="selections" scope="primary-catalogue" childId="f0ff-96fa-6715-5265" shared="true" />
               </conditions>
             </conditionGroup>
           </conditionGroups>
         </modifier>
         <modifier type="set-primary" value="887b-ab87-92a2-20f5" field="category">
           <conditions>
-            <condition type="notInstanceOf" value="1" field="selections" scope="primary-catalogue" childId="46d8-abc8-ef3a-9f85" shared="true" />
+            <condition type="notInstanceOf" value="1" field="selections" scope="primary-catalogue" childId="f0ff-96fa-6715-5265" shared="true" />
           </conditions>
         </modifier>
       </modifiers>
@@ -4741,14 +4741,14 @@ Lors de l'utilisation du détachement Houndpack Lance, les règles suivantes s'a
             <conditionGroup type="and">
               <conditions>
                 <condition type="lessThan" value="1" field="selections" scope="roster" childId="aeb4-96de-7401-eaa3" shared="true" includeChildSelections="true" includeChildForces="true" />
-                <condition type="notInstanceOf" value="1" field="selections" scope="primary-catalogue" childId="46d8-abc8-ef3a-9f85" shared="true" />
+                <condition type="notInstanceOf" value="1" field="selections" scope="primary-catalogue" childId="f0ff-96fa-6715-5265" shared="true" />
               </conditions>
             </conditionGroup>
           </conditionGroups>
         </modifier>
         <modifier type="set-primary" value="887b-ab87-92a2-20f5" field="category">
           <conditions>
-            <condition type="notInstanceOf" value="1" field="selections" scope="primary-catalogue" childId="46d8-abc8-ef3a-9f85" shared="true" />
+            <condition type="notInstanceOf" value="1" field="selections" scope="primary-catalogue" childId="f0ff-96fa-6715-5265" shared="true" />
           </conditions>
         </modifier>
       </modifiers>
@@ -5020,14 +5020,14 @@ Lors de l'utilisation du détachement Houndpack Lance, les règles suivantes s'a
             <conditionGroup type="and">
               <conditions>
                 <condition type="lessThan" value="1" field="selections" scope="roster" childId="aeb4-96de-7401-eaa3" shared="true" includeChildSelections="true" includeChildForces="true" />
-                <condition type="notInstanceOf" value="1" field="selections" scope="primary-catalogue" childId="46d8-abc8-ef3a-9f85" shared="true" />
+                <condition type="notInstanceOf" value="1" field="selections" scope="primary-catalogue" childId="f0ff-96fa-6715-5265" shared="true" />
               </conditions>
             </conditionGroup>
           </conditionGroups>
         </modifier>
         <modifier type="set-primary" value="887b-ab87-92a2-20f5" field="category">
           <conditions>
-            <condition type="notInstanceOf" value="1" field="selections" scope="primary-catalogue" childId="46d8-abc8-ef3a-9f85" shared="true" />
+            <condition type="notInstanceOf" value="1" field="selections" scope="primary-catalogue" childId="f0ff-96fa-6715-5265" shared="true" />
           </conditions>
         </modifier>
       </modifiers>
@@ -5489,14 +5489,14 @@ Lors de l'utilisation du détachement Houndpack Lance, les règles suivantes s'a
             <conditionGroup type="and">
               <conditions>
                 <condition type="lessThan" value="1" field="selections" scope="roster" childId="aeb4-96de-7401-eaa3" shared="true" includeChildSelections="true" includeChildForces="true" />
-                <condition type="notInstanceOf" value="1" field="selections" scope="primary-catalogue" childId="46d8-abc8-ef3a-9f85" shared="true" />
+                <condition type="notInstanceOf" value="1" field="selections" scope="primary-catalogue" childId="f0ff-96fa-6715-5265" shared="true" />
               </conditions>
             </conditionGroup>
           </conditionGroups>
         </modifier>
         <modifier type="set-primary" value="887b-ab87-92a2-20f5" field="category">
           <conditions>
-            <condition type="notInstanceOf" value="1" field="selections" scope="primary-catalogue" childId="46d8-abc8-ef3a-9f85" shared="true" />
+            <condition type="notInstanceOf" value="1" field="selections" scope="primary-catalogue" childId="f0ff-96fa-6715-5265" shared="true" />
           </conditions>
         </modifier>
       </modifiers>
@@ -5825,14 +5825,14 @@ Lors de l'utilisation du détachement Houndpack Lance, les règles suivantes s'a
             <conditionGroup type="and">
               <conditions>
                 <condition type="lessThan" value="1" field="selections" scope="roster" childId="aeb4-96de-7401-eaa3" shared="true" includeChildSelections="true" includeChildForces="true" />
-                <condition type="notInstanceOf" value="1" field="selections" scope="primary-catalogue" childId="46d8-abc8-ef3a-9f85" shared="true" />
+                <condition type="notInstanceOf" value="1" field="selections" scope="primary-catalogue" childId="f0ff-96fa-6715-5265" shared="true" />
               </conditions>
             </conditionGroup>
           </conditionGroups>
         </modifier>
         <modifier type="set-primary" value="887b-ab87-92a2-20f5" field="category">
           <conditions>
-            <condition type="notInstanceOf" value="1" field="selections" scope="primary-catalogue" childId="46d8-abc8-ef3a-9f85" shared="true" />
+            <condition type="notInstanceOf" value="1" field="selections" scope="primary-catalogue" childId="f0ff-96fa-6715-5265" shared="true" />
           </conditions>
         </modifier>
       </modifiers>
@@ -6162,14 +6162,14 @@ Lors de l'utilisation du détachement Houndpack Lance, les règles suivantes s'a
             <conditionGroup type="and">
               <conditions>
                 <condition type="lessThan" value="1" field="selections" scope="roster" childId="aeb4-96de-7401-eaa3" shared="true" includeChildSelections="true" includeChildForces="true" />
-                <condition type="notInstanceOf" value="1" field="selections" scope="primary-catalogue" childId="46d8-abc8-ef3a-9f85" shared="true" />
+                <condition type="notInstanceOf" value="1" field="selections" scope="primary-catalogue" childId="f0ff-96fa-6715-5265" shared="true" />
               </conditions>
             </conditionGroup>
           </conditionGroups>
         </modifier>
         <modifier type="set-primary" value="887b-ab87-92a2-20f5" field="category">
           <conditions>
-            <condition type="notInstanceOf" value="1" field="selections" scope="primary-catalogue" childId="46d8-abc8-ef3a-9f85" shared="true" />
+            <condition type="notInstanceOf" value="1" field="selections" scope="primary-catalogue" childId="f0ff-96fa-6715-5265" shared="true" />
           </conditions>
         </modifier>
         <modifier type="set-primary" value="e338-111e-d0c6-b687" field="category">
@@ -6353,14 +6353,14 @@ Lors de l'utilisation du détachement Houndpack Lance, les règles suivantes s'a
             <conditionGroup type="and">
               <conditions>
                 <condition type="lessThan" value="1" field="selections" scope="roster" childId="aeb4-96de-7401-eaa3" shared="true" includeChildSelections="true" includeChildForces="true" />
-                <condition type="notInstanceOf" value="1" field="selections" scope="primary-catalogue" childId="46d8-abc8-ef3a-9f85" shared="true" />
+                <condition type="notInstanceOf" value="1" field="selections" scope="primary-catalogue" childId="f0ff-96fa-6715-5265" shared="true" />
               </conditions>
             </conditionGroup>
           </conditionGroups>
         </modifier>
         <modifier type="set-primary" value="887b-ab87-92a2-20f5" field="category">
           <conditions>
-            <condition type="notInstanceOf" value="1" field="selections" scope="primary-catalogue" childId="46d8-abc8-ef3a-9f85" shared="true" />
+            <condition type="notInstanceOf" value="1" field="selections" scope="primary-catalogue" childId="f0ff-96fa-6715-5265" shared="true" />
           </conditions>
         </modifier>
       </modifiers>
@@ -9007,7 +9007,7 @@ Ajoutez 3" à la gamme des capacités Aura de cette figurine.</description>
       <modifiers>
         <modifier type="set" value="true" field="hidden">
           <conditions>
-            <condition type="notInstanceOf" value="1" field="selections" scope="primary-catalogue" childId="46d8-abc8-ef3a-9f85" shared="true" />
+            <condition type="notInstanceOf" value="1" field="selections" scope="primary-catalogue" childId="f0ff-96fa-6715-5265" shared="true" />
           </conditions>
         </modifier>
       </modifiers>

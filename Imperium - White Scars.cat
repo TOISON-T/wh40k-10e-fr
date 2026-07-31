@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue xmlns="http://www.battlescribe.net/schema/catalogueSchema" library="false" id="67c1-fc13-f9a1-cbbf" name="Imperium - Adeptus Astartes - White Scars" gameSystemId="sys-352e-adc2-7639-d6a9" gameSystemRevision="1" revision="15" battleScribeVersion="2.03" type="catalogue">
+<catalogue xmlns="http://www.battlescribe.net/schema/catalogueSchema" library="false" id="9a84-4a01-b7e1-8586" name="Imperium - Adeptus Astartes - White Scars" gameSystemId="sys-0e45-705d-f6bc-806a" gameSystemRevision="1" revision="15" battleScribeVersion="2.03" type="catalogue">
   <catalogueLinks>
-    <catalogueLink type="catalogue" name="Imperium - Space Marines" id="f5b3-d2eb-a7f0-5957" targetId="e0af-67df-9d63-8fb7" importRootEntries="true" />
-    <catalogueLink type="catalogue" name="Imperium - Imperial Knights - Library" id="fe85-7340-cb74-f699" targetId="1b6d-dc06-5db9-c7d1" importRootEntries="true" />
-    <catalogueLink type="catalogue" name="Imperium - Agents of the Imperium" id="b693-b382-3b94-e000" targetId="b00-cd86-4b4c-97ba" importRootEntries="true" />
+    <catalogueLink type="catalogue" name="Imperium - Space Marines" id="f5b3-d2eb-a7f0-5957" targetId="c64a-a8a4-fe12-90fd" importRootEntries="true" />
+    <catalogueLink type="catalogue" name="Imperium - Imperial Knights - Library" id="fe85-7340-cb74-f699" targetId="1787-6721-8649-a4a8" importRootEntries="true" />
+    <catalogueLink type="catalogue" name="Imperium - Agents of the Imperium" id="b693-b382-3b94-e000" targetId="58ea-21f3-3da9-74dd" importRootEntries="true" />
   </catalogueLinks>
   <categoryEntries>
     <categoryEntry name="Kor'sarro Khan" hidden="false" id="ecaf-d9ca-6ab0-8dcb" />

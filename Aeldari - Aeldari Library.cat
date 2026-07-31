@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue xmlns="http://www.battlescribe.net/schema/catalogueSchema" id="dfcf-1214-b57-2205" name="Aeldari - Aeldari Library" revision="156" battleScribeVersion="2.03" library="true" gameSystemId="sys-352e-adc2-7639-d6a9" gameSystemRevision="1" type="catalogue">
+<catalogue xmlns="http://www.battlescribe.net/schema/catalogueSchema" id="7bd9-bd4b-a138-859a" name="Aeldari - Aeldari Library" revision="156" battleScribeVersion="2.03" library="true" gameSystemId="sys-0e45-705d-f6bc-806a" gameSystemRevision="1" type="catalogue">
   <publications>
     <publication id="442c-a37c-3908-d701" name="Codex: Aeldari" shortName="C:Aeldari" publisher="Codex: Aeldari" publicationDate="08/02/2025" />
     <publication id="1427-7c5c-863f-ac94" name="Index: Drukhari" shortName="I:Drukhari" publisher="Index: Drukhari" publicationDate="6/15/2023" />
@@ -127,7 +127,7 @@
             <conditionGroup type="and">
               <conditions>
                 <condition type="greaterThan" value="0" field="selections" scope="force" childId="d62d-db22-4893-4bc0" shared="true" includeChildSelections="true" />
-                <condition type="instanceOf" value="1" field="selections" scope="primary-catalogue" childId="38de-521f-1ce0-44a0" shared="true" />
+                <condition type="instanceOf" value="1" field="selections" scope="primary-catalogue" childId="465d-8de3-dc72-4c79" shared="true" />
                 <condition type="greaterThan" value="0" field="selections" scope="force" childId="e688-8140-bc36-3cee" shared="true" includeChildSelections="true" />
               </conditions>
             </conditionGroup>
@@ -138,7 +138,7 @@
             <conditionGroup type="and">
               <conditions>
                 <condition type="greaterThan" value="0" field="selections" scope="force" childId="baf8-997f-e323-a090" shared="true" includeChildSelections="true" />
-                <condition type="instanceOf" value="1" field="selections" scope="primary-catalogue" childId="38de-521f-1ce0-44a0" shared="true" />
+                <condition type="instanceOf" value="1" field="selections" scope="primary-catalogue" childId="465d-8de3-dc72-4c79" shared="true" />
                 <condition type="greaterThan" value="0" field="selections" scope="force" childId="e688-8140-bc36-3cee" shared="true" includeChildSelections="true" />
               </conditions>
             </conditionGroup>
@@ -149,7 +149,7 @@
             <conditionGroup type="and">
               <conditions>
                 <condition type="greaterThan" value="0" field="selections" scope="force" childId="4204-82d0-908c-a62a" shared="true" includeChildSelections="true" />
-                <condition type="instanceOf" value="1" field="selections" scope="primary-catalogue" childId="38de-521f-1ce0-44a0" shared="true" />
+                <condition type="instanceOf" value="1" field="selections" scope="primary-catalogue" childId="465d-8de3-dc72-4c79" shared="true" />
                 <condition type="greaterThan" value="0" field="selections" scope="force" childId="e688-8140-bc36-3cee" shared="true" includeChildSelections="true" />
               </conditions>
             </conditionGroup>
@@ -157,7 +157,7 @@
         </modifier>
         <modifier type="set" value="true" field="hidden">
           <conditions>
-            <condition type="notInstanceOf" value="1" field="selections" scope="primary-catalogue" childId="38de-521f-1ce0-44a0" shared="true" />
+            <condition type="notInstanceOf" value="1" field="selections" scope="primary-catalogue" childId="465d-8de3-dc72-4c79" shared="true" />
           </conditions>
         </modifier>
       </modifiers>
@@ -187,7 +187,7 @@
             <conditionGroup type="and">
               <conditions>
                 <condition type="greaterThan" value="0" field="selections" scope="force" childId="d62d-db22-4893-4bc0" shared="true" includeChildSelections="true" />
-                <condition type="instanceOf" value="1" field="selections" scope="primary-catalogue" childId="38de-521f-1ce0-44a0" shared="true" />
+                <condition type="instanceOf" value="1" field="selections" scope="primary-catalogue" childId="465d-8de3-dc72-4c79" shared="true" />
                 <condition type="lessThan" value="1" field="selections" scope="force" childId="e688-8140-bc36-3cee" shared="true" includeChildSelections="true" />
               </conditions>
             </conditionGroup>
@@ -198,7 +198,7 @@
             <conditionGroup type="and">
               <conditions>
                 <condition type="greaterThan" value="0" field="selections" scope="force" childId="baf8-997f-e323-a090" shared="true" includeChildSelections="true" />
-                <condition type="instanceOf" value="1" field="selections" scope="primary-catalogue" childId="38de-521f-1ce0-44a0" shared="true" />
+                <condition type="instanceOf" value="1" field="selections" scope="primary-catalogue" childId="465d-8de3-dc72-4c79" shared="true" />
                 <condition type="lessThan" value="1" field="selections" scope="force" childId="e688-8140-bc36-3cee" shared="true" includeChildSelections="true" />
               </conditions>
             </conditionGroup>
@@ -209,7 +209,7 @@
             <conditionGroup type="and">
               <conditions>
                 <condition type="greaterThan" value="0" field="selections" scope="force" childId="4204-82d0-908c-a62a" shared="true" includeChildSelections="true" />
-                <condition type="instanceOf" value="1" field="selections" scope="primary-catalogue" childId="38de-521f-1ce0-44a0" shared="true" />
+                <condition type="instanceOf" value="1" field="selections" scope="primary-catalogue" childId="465d-8de3-dc72-4c79" shared="true" />
                 <condition type="lessThan" value="1" field="selections" scope="force" childId="e688-8140-bc36-3cee" shared="true" includeChildSelections="true" />
               </conditions>
             </conditionGroup>
@@ -217,7 +217,7 @@
         </modifier>
         <modifier type="set" value="true" field="hidden">
           <conditions>
-            <condition type="notInstanceOf" value="1" field="selections" scope="primary-catalogue" childId="38de-521f-1ce0-44a0" shared="true" />
+            <condition type="notInstanceOf" value="1" field="selections" scope="primary-catalogue" childId="465d-8de3-dc72-4c79" shared="true" />
           </conditions>
         </modifier>
       </modifiers>
@@ -4111,7 +4111,7 @@ Alors que cette figurine est à la tête d'une unité Striking Scorpions, il a l
           <modifiers>
             <modifier type="set" value="true" field="hidden">
               <conditions>
-                <condition type="instanceOf" value="1" field="selections" scope="primary-catalogue" childId="38de-521f-1ce0-44a0" shared="true" />
+                <condition type="instanceOf" value="1" field="selections" scope="primary-catalogue" childId="465d-8de3-dc72-4c79" shared="true" />
               </conditions>
             </modifier>
           </modifiers>
@@ -8944,7 +8944,7 @@ Alors que cette figurine est à la tête d'une unité Striking Scorpions, il a l
           <modifiers>
             <modifier type="set" value="true" field="hidden">
               <conditions>
-                <condition type="instanceOf" value="1" field="selections" scope="primary-catalogue" childId="38de-521f-1ce0-44a0" shared="true" />
+                <condition type="instanceOf" value="1" field="selections" scope="primary-catalogue" childId="465d-8de3-dc72-4c79" shared="true" />
               </conditions>
             </modifier>
           </modifiers>
@@ -12874,7 +12874,7 @@ Vous pouvez attacher cette unité à l'une des unités ci-dessus, même si Yvrai
           <modifiers>
             <modifier type="set" value="true" field="hidden">
               <conditions>
-                <condition type="instanceOf" value="1" field="selections" scope="primary-catalogue" childId="38de-521f-1ce0-44a0" shared="true" />
+                <condition type="instanceOf" value="1" field="selections" scope="primary-catalogue" childId="465d-8de3-dc72-4c79" shared="true" />
               </conditions>
             </modifier>
           </modifiers>
@@ -16051,7 +16051,7 @@ Il peut également se déplacer à travers des sections de caractéristiques de 
               <conditionGroups>
                 <conditionGroup type="and">
                   <conditions>
-                    <condition type="instanceOf" value="1" field="selections" scope="primary-catalogue" childId="1f1-47f9-a3a4-9bfb" shared="true" />
+                    <condition type="instanceOf" value="1" field="selections" scope="primary-catalogue" childId="4d02-9df6-399f-10ac" shared="true" />
                     <condition type="notInstanceOf" value="1" field="selections" scope="force" childId="cac3-71d1-ea4b-795d" shared="true" includeChildSelections="true" includeChildForces="true" />
                   </conditions>
                 </conditionGroup>
@@ -40236,7 +40236,7 @@ Pour chaque figurine 5 de cette unité, il peut avoir le jeton 1 Aspect Shrine.<
           <modifiers>
             <modifier type="set" value="true" field="hidden">
               <conditions>
-                <condition type="instanceOf" value="1" field="selections" scope="primary-catalogue" childId="38de-521f-1ce0-44a0" shared="true" />
+                <condition type="instanceOf" value="1" field="selections" scope="primary-catalogue" childId="465d-8de3-dc72-4c79" shared="true" />
               </conditions>
             </modifier>
           </modifiers>
@@ -40252,7 +40252,7 @@ Chaque fois qu'une unité de votre armée effectue une manœuvre Agile qui impli
           <modifiers>
             <modifier type="set" value="true" field="hidden">
               <conditions>
-                <condition type="notInstanceOf" value="1" field="selections" scope="primary-catalogue" childId="38de-521f-1ce0-44a0" shared="true" />
+                <condition type="notInstanceOf" value="1" field="selections" scope="primary-catalogue" childId="465d-8de3-dc72-4c79" shared="true" />
               </conditions>
             </modifier>
           </modifiers>
@@ -40281,7 +40281,7 @@ Les armes Melee équipées de figurines dans cette unité de débarquement ont l
           <modifiers>
             <modifier type="set" value="true" field="hidden">
               <conditions>
-                <condition type="notInstanceOf" value="1" field="selections" scope="primary-catalogue" childId="38de-521f-1ce0-44a0" shared="true" />
+                <condition type="notInstanceOf" value="1" field="selections" scope="primary-catalogue" childId="465d-8de3-dc72-4c79" shared="true" />
               </conditions>
             </modifier>
           </modifiers>
@@ -40302,7 +40302,7 @@ Chaque fois qu'une figurine Drukhari ou Harlequins de votre armée fait une atta
           <modifiers>
             <modifier type="set" value="true" field="hidden">
               <conditions>
-                <condition type="notInstanceOf" value="1" field="selections" scope="primary-catalogue" childId="38de-521f-1ce0-44a0" shared="true" />
+                <condition type="notInstanceOf" value="1" field="selections" scope="primary-catalogue" childId="465d-8de3-dc72-4c79" shared="true" />
               </conditions>
             </modifier>
           </modifiers>
@@ -40311,7 +40311,7 @@ Chaque fois qu'une figurine Drukhari ou Harlequins de votre armée fait une atta
           <modifiers>
             <modifier type="set" value="true" field="hidden">
               <conditions>
-                <condition type="instanceOf" value="1" field="selections" scope="primary-catalogue" childId="38de-521f-1ce0-44a0" shared="true" />
+                <condition type="instanceOf" value="1" field="selections" scope="primary-catalogue" childId="465d-8de3-dc72-4c79" shared="true" />
               </conditions>
             </modifier>
           </modifiers>
@@ -40325,7 +40325,7 @@ Chaque fois qu'une figurine Drukhari ou Harlequins de votre armée fait une atta
           <modifiers>
             <modifier type="set" value="true" field="hidden">
               <conditions>
-                <condition type="instanceOf" value="1" field="selections" scope="primary-catalogue" childId="38de-521f-1ce0-44a0" shared="true" />
+                <condition type="instanceOf" value="1" field="selections" scope="primary-catalogue" childId="465d-8de3-dc72-4c79" shared="true" />
               </conditions>
             </modifier>
           </modifiers>
@@ -40359,7 +40359,7 @@ Les unités Wraithblades et Wraithguard de votre armée gagnent le mot-clé Batt
           <modifiers>
             <modifier type="set" value="true" field="hidden">
               <conditions>
-                <condition type="instanceOf" value="1" field="selections" scope="primary-catalogue" childId="38de-521f-1ce0-44a0" shared="true" />
+                <condition type="instanceOf" value="1" field="selections" scope="primary-catalogue" childId="465d-8de3-dc72-4c79" shared="true" />
               </conditions>
             </modifier>
           </modifiers>
@@ -40373,7 +40373,7 @@ Les unités Wraithblades et Wraithguard de votre armée gagnent le mot-clé Batt
           <modifiers>
             <modifier type="set" value="true" field="hidden">
               <conditions>
-                <condition type="instanceOf" value="1" field="selections" scope="primary-catalogue" childId="38de-521f-1ce0-44a0" shared="true" />
+                <condition type="instanceOf" value="1" field="selections" scope="primary-catalogue" childId="465d-8de3-dc72-4c79" shared="true" />
               </conditions>
             </modifier>
           </modifiers>
@@ -40391,7 +40391,7 @@ Vous pouvez inclure jusqu'à trois des figurines suivants dans votre armée: **^
           <modifiers>
             <modifier type="set" value="true" field="hidden">
               <conditions>
-                <condition type="instanceOf" value="1" field="selections" scope="primary-catalogue" childId="38de-521f-1ce0-44a0" shared="true" />
+                <condition type="instanceOf" value="1" field="selections" scope="primary-catalogue" childId="465d-8de3-dc72-4c79" shared="true" />
               </conditions>
             </modifier>
           </modifiers>
@@ -40400,7 +40400,7 @@ Vous pouvez inclure jusqu'à trois des figurines suivants dans votre armée: **^
           <modifiers>
             <modifier type="set" value="true" field="hidden">
               <conditions>
-                <condition type="instanceOf" value="1" field="selections" scope="primary-catalogue" childId="38de-521f-1ce0-44a0" shared="true" />
+                <condition type="instanceOf" value="1" field="selections" scope="primary-catalogue" childId="465d-8de3-dc72-4c79" shared="true" />
               </conditions>
             </modifier>
             <modifier type="add" value="You must select Yvraine or the Yncarne as Warlord" field="error">
@@ -40465,7 +40465,7 @@ Chaque fois que vous utilisez l'un des Stratagems du détachement, si votre pool
           <modifiers>
             <modifier type="set" value="true" field="hidden">
               <conditions>
-                <condition type="instanceOf" value="1" field="selections" scope="primary-catalogue" childId="38de-521f-1ce0-44a0" shared="true" />
+                <condition type="instanceOf" value="1" field="selections" scope="primary-catalogue" childId="465d-8de3-dc72-4c79" shared="true" />
               </conditions>
             </modifier>
           </modifiers>
@@ -40474,7 +40474,7 @@ Chaque fois que vous utilisez l'un des Stratagems du détachement, si votre pool
           <modifiers>
             <modifier type="set" value="true" field="hidden">
               <conditions>
-                <condition type="instanceOf" value="1" field="selections" scope="primary-catalogue" childId="38de-521f-1ce0-44a0" shared="true" />
+                <condition type="instanceOf" value="1" field="selections" scope="primary-catalogue" childId="465d-8de3-dc72-4c79" shared="true" />
               </conditions>
             </modifier>
           </modifiers>
@@ -40491,7 +40491,7 @@ Chaque fois que vous utilisez l'un des Stratagems du détachement, si votre pool
           <modifiers>
             <modifier type="set" value="true" field="hidden">
               <conditions>
-                <condition type="notInstanceOf" value="1" field="selections" scope="primary-catalogue" childId="38de-521f-1ce0-44a0" shared="true" />
+                <condition type="notInstanceOf" value="1" field="selections" scope="primary-catalogue" childId="465d-8de3-dc72-4c79" shared="true" />
               </conditions>
             </modifier>
           </modifiers>
@@ -40508,7 +40508,7 @@ Chaque fois que vous utilisez l'un des Stratagems du détachement, si votre pool
           <modifiers>
             <modifier type="set" value="true" field="hidden">
               <conditions>
-                <condition type="notInstanceOf" value="1" field="selections" scope="primary-catalogue" childId="38de-521f-1ce0-44a0" shared="true" />
+                <condition type="notInstanceOf" value="1" field="selections" scope="primary-catalogue" childId="465d-8de3-dc72-4c79" shared="true" />
               </conditions>
             </modifier>
           </modifiers>
@@ -40575,7 +40575,7 @@ Améliorez de 1 la caractéristique de Commandement des figurines ^^**Wych Cult*
           <modifiers>
             <modifier type="set" value="true" field="hidden">
               <conditions>
-                <condition type="notInstanceOf" value="1" field="selections" scope="primary-catalogue" childId="38de-521f-1ce0-44a0" shared="true" />
+                <condition type="notInstanceOf" value="1" field="selections" scope="primary-catalogue" childId="465d-8de3-dc72-4c79" shared="true" />
               </conditions>
             </modifier>
           </modifiers>
@@ -40596,7 +40596,7 @@ Vous pouvez inclure jusqu'à trois des figurines suivants dans votre armée: **^
           <modifiers>
             <modifier type="set" value="true" field="hidden">
               <conditions>
-                <condition type="instanceOf" value="1" field="selections" scope="primary-catalogue" childId="38de-521f-1ce0-44a0" shared="true" />
+                <condition type="instanceOf" value="1" field="selections" scope="primary-catalogue" childId="465d-8de3-dc72-4c79" shared="true" />
               </conditions>
             </modifier>
           </modifiers>
@@ -40605,7 +40605,7 @@ Vous pouvez inclure jusqu'à trois des figurines suivants dans votre armée: **^
           <modifiers>
             <modifier type="set" value="true" field="hidden">
               <conditions>
-                <condition type="instanceOf" value="1" field="selections" scope="primary-catalogue" childId="38de-521f-1ce0-44a0" shared="true" />
+                <condition type="instanceOf" value="1" field="selections" scope="primary-catalogue" childId="465d-8de3-dc72-4c79" shared="true" />
               </conditions>
             </modifier>
           </modifiers>
@@ -40622,7 +40622,7 @@ Vous pouvez inclure jusqu'à trois des figurines suivants dans votre armée: **^
           <modifiers>
             <modifier type="set" value="true" field="hidden">
               <conditions>
-                <condition type="instanceOf" value="1" field="selections" scope="primary-catalogue" childId="38de-521f-1ce0-44a0" shared="true" />
+                <condition type="instanceOf" value="1" field="selections" scope="primary-catalogue" childId="465d-8de3-dc72-4c79" shared="true" />
               </conditions>
             </modifier>
           </modifiers>
@@ -44433,7 +44433,7 @@ Chaque fois qu'une attaque de tir cible l'unité du porteur, les figurines de ce
       <modifiers>
         <modifier type="set" value="true" field="hidden">
           <conditions>
-            <condition type="notInstanceOf" value="1" field="forces" scope="primary-catalogue" childId="34a5-8c7e-f468-82d1" shared="true" includeChildSelections="true" includeChildForces="true" />
+            <condition type="notInstanceOf" value="1" field="forces" scope="primary-catalogue" childId="87bd-533f-57d0-b1e3" shared="true" includeChildSelections="true" includeChildForces="true" />
           </conditions>
         </modifier>
       </modifiers>
@@ -49059,7 +49059,7 @@ aucune figurine ^^Harlequins^^ ou ^^Anhrathe^^ inclus dans votre armée de cette
     </rule>
   </sharedRules>
   <catalogueLinks>
-    <catalogueLink type="catalogue" name="Unaligned Forces" id="c17a-dd67-8900-8c6" targetId="581a-46b9-5b86-44b7" importRootEntries="true" />
+    <catalogueLink type="catalogue" name="Unaligned Forces" id="c17a-dd67-8900-8c6" targetId="61f1-ce52-d345-5048" importRootEntries="true" />
   </catalogueLinks>
   <sharedProfiles>
     <profile name="Corsair Skyreaver Band" typeId="c547-1836-d8a-ff4f" typeName="Unit" hidden="false" id="a2e7-33f9-5d08-558a">

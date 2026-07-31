@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue xmlns="http://www.battlescribe.net/schema/catalogueSchema" library="false" id="f89b-84e0-6e3b-f1e2" name="Imperium - Adeptus Astartes - Deathwatch" gameSystemId="sys-352e-adc2-7639-d6a9" gameSystemRevision="1" revision="65" battleScribeVersion="2.03" type="catalogue">
+<catalogue xmlns="http://www.battlescribe.net/schema/catalogueSchema" library="false" id="e3a2-b0b8-ac03-a188" name="Imperium - Adeptus Astartes - Deathwatch" gameSystemId="sys-0e45-705d-f6bc-806a" gameSystemRevision="1" revision="65" battleScribeVersion="2.03" type="catalogue">
   <sharedSelectionEntryGroups>
     <selectionEntryGroup name="Terminator Heavy Weapons" hidden="false" id="77ef-f5b6-e6bc-7618" defaultSelectionEntryId="8259-a28d-949-b4fa">
       <constraints>
@@ -6501,7 +6501,7 @@ Si cette unité a une unité Meneur attachée à elle pendant l'étape Déclarer
     </profile>
   </sharedProfiles>
   <catalogueLinks>
-    <catalogueLink type="catalogue" name="Imperium - Space Marines" id="0e90-a51e-f59d-892a" targetId="e0af-67df-9d63-8fb7" importRootEntries="true" />
+    <catalogueLink type="catalogue" name="Imperium - Space Marines" id="0e90-a51e-f59d-892a" targetId="c64a-a8a4-fe12-90fd" importRootEntries="true" />
   </catalogueLinks>
   <sharedRules>
     <rule name="Mission Tactics" id="2a5c-3c55-d113-3a53" hidden="false">

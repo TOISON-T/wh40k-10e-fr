@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue xmlns="http://www.battlescribe.net/schema/catalogueSchema" library="true" id="1b6d-dc06-5db9-c7d1" name="Imperium - Imperial Knights - Library" gameSystemId="sys-352e-adc2-7639-d6a9" gameSystemRevision="1" revision="85" battleScribeVersion="2.03" authorName="BSData Developers" type="catalogue" authorContact="Dunamis55 &amp; AbonShell">
+<catalogue xmlns="http://www.battlescribe.net/schema/catalogueSchema" library="true" id="1787-6721-8649-a4a8" name="Imperium - Imperial Knights - Library" gameSystemId="sys-0e45-705d-f6bc-806a" gameSystemRevision="1" revision="85" battleScribeVersion="2.03" authorName="BSData Developers" type="catalogue" authorContact="Dunamis55 &amp; AbonShell">
   <rules>
     <rule name="Code Chivalric" id="cbd-943-bc7b-20ec">
       <description>Si votre faction d'armée est **^^Imperial Knights^^**, à la fin de l'étape des objectifs de la mission de lecture, vous devez déterminer le serment de votre armée pour la bataille à venir. Un serment se compose de deux parties: une action et une qualité. Il y a trois options pour chaque rôle.
@@ -12,7 +12,7 @@ La première fois que votre acte sélectionné est terminé, votre serment est a
       <modifiers>
         <modifier type="set" value="true" field="hidden">
           <conditions>
-            <condition type="notInstanceOf" value="1" field="selections" scope="primary-catalogue" childId="25dd-7aa0-6bf4-f2d5" shared="true" />
+            <condition type="notInstanceOf" value="1" field="selections" scope="primary-catalogue" childId="8956-4e3b-cf7d-86d7" shared="true" />
           </conditions>
         </modifier>
       </modifiers>
@@ -301,7 +301,7 @@ La première fois que votre acte sélectionné est terminé, votre serment est a
           <conditionGroups>
             <conditionGroup type="and">
               <conditions>
-                <condition type="notInstanceOf" value="1" field="selections" scope="primary-catalogue" childId="25dd-7aa0-6bf4-f2d5" shared="true" />
+                <condition type="notInstanceOf" value="1" field="selections" scope="primary-catalogue" childId="8956-4e3b-cf7d-86d7" shared="true" />
                 <condition type="lessThan" value="1" field="selections" scope="roster" childId="e82c-6f8c-2b97-a287" shared="true" includeChildSelections="true" includeChildForces="true" />
               </conditions>
             </conditionGroup>
@@ -309,7 +309,7 @@ La première fois que votre acte sélectionné est terminé, votre serment est a
         </modifier>
         <modifier type="set-primary" value="887b-ab87-92a2-20f5" field="category">
           <conditions>
-            <condition type="notInstanceOf" value="1" field="selections" scope="primary-catalogue" childId="25dd-7aa0-6bf4-f2d5" shared="true" />
+            <condition type="notInstanceOf" value="1" field="selections" scope="primary-catalogue" childId="8956-4e3b-cf7d-86d7" shared="true" />
           </conditions>
         </modifier>
       </modifiers>
@@ -379,7 +379,7 @@ La première fois que votre acte sélectionné est terminé, votre serment est a
           <conditionGroups>
             <conditionGroup type="and">
               <conditions>
-                <condition type="notInstanceOf" value="1" field="selections" scope="primary-catalogue" childId="25dd-7aa0-6bf4-f2d5" shared="true" />
+                <condition type="notInstanceOf" value="1" field="selections" scope="primary-catalogue" childId="8956-4e3b-cf7d-86d7" shared="true" />
                 <condition type="lessThan" value="1" field="selections" scope="roster" childId="e82c-6f8c-2b97-a287" shared="true" includeChildSelections="true" includeChildForces="true" />
               </conditions>
             </conditionGroup>
@@ -387,7 +387,7 @@ La première fois que votre acte sélectionné est terminé, votre serment est a
         </modifier>
         <modifier type="set-primary" value="887b-ab87-92a2-20f5" field="category">
           <conditions>
-            <condition type="notInstanceOf" value="1" field="selections" scope="primary-catalogue" childId="25dd-7aa0-6bf4-f2d5" shared="true" />
+            <condition type="notInstanceOf" value="1" field="selections" scope="primary-catalogue" childId="8956-4e3b-cf7d-86d7" shared="true" />
           </conditions>
         </modifier>
       </modifiers>
@@ -623,7 +623,7 @@ La première fois que votre acte sélectionné est terminé, votre serment est a
           <conditionGroups>
             <conditionGroup type="and">
               <conditions>
-                <condition type="notInstanceOf" value="1" field="selections" scope="primary-catalogue" childId="25dd-7aa0-6bf4-f2d5" shared="true" />
+                <condition type="notInstanceOf" value="1" field="selections" scope="primary-catalogue" childId="8956-4e3b-cf7d-86d7" shared="true" />
                 <condition type="lessThan" value="1" field="selections" scope="roster" childId="e82c-6f8c-2b97-a287" shared="true" includeChildSelections="true" includeChildForces="true" />
               </conditions>
             </conditionGroup>
@@ -631,7 +631,7 @@ La première fois que votre acte sélectionné est terminé, votre serment est a
         </modifier>
         <modifier type="set-primary" value="887b-ab87-92a2-20f5" field="category">
           <conditions>
-            <condition type="notInstanceOf" value="1" field="selections" scope="primary-catalogue" childId="25dd-7aa0-6bf4-f2d5" shared="true" />
+            <condition type="notInstanceOf" value="1" field="selections" scope="primary-catalogue" childId="8956-4e3b-cf7d-86d7" shared="true" />
           </conditions>
         </modifier>
       </modifiers>
@@ -857,7 +857,7 @@ La première fois que votre acte sélectionné est terminé, votre serment est a
           <conditionGroups>
             <conditionGroup type="and">
               <conditions>
-                <condition type="notInstanceOf" value="1" field="selections" scope="primary-catalogue" childId="25dd-7aa0-6bf4-f2d5" shared="true" />
+                <condition type="notInstanceOf" value="1" field="selections" scope="primary-catalogue" childId="8956-4e3b-cf7d-86d7" shared="true" />
                 <condition type="lessThan" value="1" field="selections" scope="roster" childId="e82c-6f8c-2b97-a287" shared="true" includeChildSelections="true" includeChildForces="true" />
               </conditions>
             </conditionGroup>
@@ -865,7 +865,7 @@ La première fois que votre acte sélectionné est terminé, votre serment est a
         </modifier>
         <modifier type="set-primary" value="887b-ab87-92a2-20f5" field="category">
           <conditions>
-            <condition type="notInstanceOf" value="1" field="selections" scope="primary-catalogue" childId="25dd-7aa0-6bf4-f2d5" shared="true" />
+            <condition type="notInstanceOf" value="1" field="selections" scope="primary-catalogue" childId="8956-4e3b-cf7d-86d7" shared="true" />
           </conditions>
         </modifier>
       </modifiers>
@@ -1087,7 +1087,7 @@ La première fois que votre acte sélectionné est terminé, votre serment est a
           <conditionGroups>
             <conditionGroup type="and">
               <conditions>
-                <condition type="notInstanceOf" value="1" field="selections" scope="primary-catalogue" childId="25dd-7aa0-6bf4-f2d5" shared="true" />
+                <condition type="notInstanceOf" value="1" field="selections" scope="primary-catalogue" childId="8956-4e3b-cf7d-86d7" shared="true" />
                 <condition type="lessThan" value="1" field="selections" scope="roster" childId="e82c-6f8c-2b97-a287" shared="true" includeChildSelections="true" includeChildForces="true" />
               </conditions>
             </conditionGroup>
@@ -1095,7 +1095,7 @@ La première fois que votre acte sélectionné est terminé, votre serment est a
         </modifier>
         <modifier type="set-primary" value="887b-ab87-92a2-20f5" field="category">
           <conditions>
-            <condition type="notInstanceOf" value="1" field="selections" scope="primary-catalogue" childId="25dd-7aa0-6bf4-f2d5" shared="true" />
+            <condition type="notInstanceOf" value="1" field="selections" scope="primary-catalogue" childId="8956-4e3b-cf7d-86d7" shared="true" />
           </conditions>
         </modifier>
       </modifiers>
@@ -1263,7 +1263,7 @@ La première fois que votre acte sélectionné est terminé, votre serment est a
           <conditionGroups>
             <conditionGroup type="and">
               <conditions>
-                <condition type="notInstanceOf" value="1" field="selections" scope="primary-catalogue" childId="25dd-7aa0-6bf4-f2d5" shared="true" />
+                <condition type="notInstanceOf" value="1" field="selections" scope="primary-catalogue" childId="8956-4e3b-cf7d-86d7" shared="true" />
                 <condition type="lessThan" value="1" field="selections" scope="roster" childId="e82c-6f8c-2b97-a287" shared="true" includeChildSelections="true" includeChildForces="true" />
               </conditions>
             </conditionGroup>
@@ -1271,7 +1271,7 @@ La première fois que votre acte sélectionné est terminé, votre serment est a
         </modifier>
         <modifier type="set-primary" value="887b-ab87-92a2-20f5" field="category">
           <conditions>
-            <condition type="notInstanceOf" value="1" field="selections" scope="primary-catalogue" childId="25dd-7aa0-6bf4-f2d5" shared="true" />
+            <condition type="notInstanceOf" value="1" field="selections" scope="primary-catalogue" childId="8956-4e3b-cf7d-86d7" shared="true" />
           </conditions>
         </modifier>
       </modifiers>
@@ -1521,7 +1521,7 @@ La première fois que votre acte sélectionné est terminé, votre serment est a
           <conditionGroups>
             <conditionGroup type="and">
               <conditions>
-                <condition type="notInstanceOf" value="1" field="selections" scope="primary-catalogue" childId="25dd-7aa0-6bf4-f2d5" shared="true" />
+                <condition type="notInstanceOf" value="1" field="selections" scope="primary-catalogue" childId="8956-4e3b-cf7d-86d7" shared="true" />
                 <condition type="lessThan" value="1" field="selections" scope="roster" childId="e82c-6f8c-2b97-a287" shared="true" includeChildForces="true" includeChildSelections="true" />
               </conditions>
             </conditionGroup>
@@ -1529,7 +1529,7 @@ La première fois que votre acte sélectionné est terminé, votre serment est a
         </modifier>
         <modifier type="set-primary" value="887b-ab87-92a2-20f5" field="category">
           <conditions>
-            <condition type="notInstanceOf" value="1" field="selections" scope="primary-catalogue" childId="25dd-7aa0-6bf4-f2d5" shared="true" />
+            <condition type="notInstanceOf" value="1" field="selections" scope="primary-catalogue" childId="8956-4e3b-cf7d-86d7" shared="true" />
           </conditions>
         </modifier>
       </modifiers>
@@ -1816,7 +1816,7 @@ La première fois que votre acte sélectionné est terminé, votre serment est a
           <conditionGroups>
             <conditionGroup type="and">
               <conditions>
-                <condition type="notInstanceOf" value="1" field="selections" scope="primary-catalogue" childId="25dd-7aa0-6bf4-f2d5" shared="true" />
+                <condition type="notInstanceOf" value="1" field="selections" scope="primary-catalogue" childId="8956-4e3b-cf7d-86d7" shared="true" />
                 <condition type="lessThan" value="1" field="selections" scope="roster" childId="e82c-6f8c-2b97-a287" shared="true" includeChildSelections="true" includeChildForces="true" />
               </conditions>
             </conditionGroup>
@@ -1824,7 +1824,7 @@ La première fois que votre acte sélectionné est terminé, votre serment est a
         </modifier>
         <modifier type="set-primary" value="887b-ab87-92a2-20f5" field="category">
           <conditions>
-            <condition type="notInstanceOf" value="1" field="selections" scope="primary-catalogue" childId="25dd-7aa0-6bf4-f2d5" shared="true" />
+            <condition type="notInstanceOf" value="1" field="selections" scope="primary-catalogue" childId="8956-4e3b-cf7d-86d7" shared="true" />
           </conditions>
         </modifier>
       </modifiers>
@@ -2098,7 +2098,7 @@ La première fois que votre acte sélectionné est terminé, votre serment est a
           <conditionGroups>
             <conditionGroup type="and">
               <conditions>
-                <condition type="notInstanceOf" value="1" field="selections" scope="primary-catalogue" childId="25dd-7aa0-6bf4-f2d5" shared="true" />
+                <condition type="notInstanceOf" value="1" field="selections" scope="primary-catalogue" childId="8956-4e3b-cf7d-86d7" shared="true" />
                 <condition type="lessThan" value="1" field="selections" scope="roster" childId="e82c-6f8c-2b97-a287" shared="true" includeChildSelections="true" includeChildForces="true" />
               </conditions>
             </conditionGroup>
@@ -2106,7 +2106,7 @@ La première fois que votre acte sélectionné est terminé, votre serment est a
         </modifier>
         <modifier type="set-primary" value="887b-ab87-92a2-20f5" field="category">
           <conditions>
-            <condition type="notInstanceOf" value="1" field="selections" scope="primary-catalogue" childId="25dd-7aa0-6bf4-f2d5" shared="true" />
+            <condition type="notInstanceOf" value="1" field="selections" scope="primary-catalogue" childId="8956-4e3b-cf7d-86d7" shared="true" />
           </conditions>
         </modifier>
       </modifiers>
@@ -2237,7 +2237,7 @@ La première fois que votre acte sélectionné est terminé, votre serment est a
           <conditionGroups>
             <conditionGroup type="and">
               <conditions>
-                <condition type="notInstanceOf" value="1" field="selections" scope="primary-catalogue" childId="25dd-7aa0-6bf4-f2d5" shared="true" />
+                <condition type="notInstanceOf" value="1" field="selections" scope="primary-catalogue" childId="8956-4e3b-cf7d-86d7" shared="true" />
                 <condition type="lessThan" value="1" field="selections" scope="roster" childId="e82c-6f8c-2b97-a287" shared="true" includeChildForces="true" includeChildSelections="true" />
               </conditions>
             </conditionGroup>
@@ -2245,7 +2245,7 @@ La première fois que votre acte sélectionné est terminé, votre serment est a
         </modifier>
         <modifier type="set-primary" value="887b-ab87-92a2-20f5" field="category">
           <conditions>
-            <condition type="notInstanceOf" value="1" field="selections" scope="primary-catalogue" childId="25dd-7aa0-6bf4-f2d5" shared="true" />
+            <condition type="notInstanceOf" value="1" field="selections" scope="primary-catalogue" childId="8956-4e3b-cf7d-86d7" shared="true" />
           </conditions>
         </modifier>
       </modifiers>
@@ -2498,7 +2498,7 @@ La première fois que votre acte sélectionné est terminé, votre serment est a
           <conditionGroups>
             <conditionGroup type="and">
               <conditions>
-                <condition type="notInstanceOf" value="1" field="selections" scope="primary-catalogue" childId="25dd-7aa0-6bf4-f2d5" shared="true" />
+                <condition type="notInstanceOf" value="1" field="selections" scope="primary-catalogue" childId="8956-4e3b-cf7d-86d7" shared="true" />
                 <condition type="lessThan" value="1" field="selections" scope="roster" childId="e82c-6f8c-2b97-a287" shared="true" includeChildSelections="true" includeChildForces="true" />
               </conditions>
             </conditionGroup>
@@ -2506,7 +2506,7 @@ La première fois que votre acte sélectionné est terminé, votre serment est a
         </modifier>
         <modifier type="set-primary" value="887b-ab87-92a2-20f5" field="category">
           <conditions>
-            <condition type="notInstanceOf" value="1" field="selections" scope="primary-catalogue" childId="25dd-7aa0-6bf4-f2d5" shared="true" />
+            <condition type="notInstanceOf" value="1" field="selections" scope="primary-catalogue" childId="8956-4e3b-cf7d-86d7" shared="true" />
           </conditions>
         </modifier>
       </modifiers>
@@ -2690,7 +2690,7 @@ La première fois que votre acte sélectionné est terminé, votre serment est a
       <modifiers>
         <modifier type="set" value="true" field="hidden">
           <conditions>
-            <condition type="notInstanceOf" value="1" field="selections" scope="primary-catalogue" childId="25dd-7aa0-6bf4-f2d5" shared="true" />
+            <condition type="notInstanceOf" value="1" field="selections" scope="primary-catalogue" childId="8956-4e3b-cf7d-86d7" shared="true" />
           </conditions>
         </modifier>
       </modifiers>
@@ -3002,7 +3002,7 @@ La première fois que votre acte sélectionné est terminé, votre serment est a
           <conditionGroups>
             <conditionGroup type="and">
               <conditions>
-                <condition type="notInstanceOf" value="1" field="selections" scope="primary-catalogue" childId="25dd-7aa0-6bf4-f2d5" shared="true" />
+                <condition type="notInstanceOf" value="1" field="selections" scope="primary-catalogue" childId="8956-4e3b-cf7d-86d7" shared="true" />
                 <condition type="lessThan" value="1" field="selections" scope="roster" childId="e82c-6f8c-2b97-a287" shared="true" includeChildSelections="true" includeChildForces="true" />
               </conditions>
             </conditionGroup>
@@ -3010,7 +3010,7 @@ La première fois que votre acte sélectionné est terminé, votre serment est a
         </modifier>
         <modifier type="set-primary" value="887b-ab87-92a2-20f5" field="category">
           <conditions>
-            <condition type="notInstanceOf" value="1" field="selections" scope="primary-catalogue" childId="25dd-7aa0-6bf4-f2d5" shared="true" />
+            <condition type="notInstanceOf" value="1" field="selections" scope="primary-catalogue" childId="8956-4e3b-cf7d-86d7" shared="true" />
           </conditions>
         </modifier>
       </modifiers>
@@ -3461,7 +3461,7 @@ La première fois que votre acte sélectionné est terminé, votre serment est a
           <conditionGroups>
             <conditionGroup type="and">
               <conditions>
-                <condition type="notInstanceOf" value="1" field="selections" scope="primary-catalogue" childId="25dd-7aa0-6bf4-f2d5" shared="true" />
+                <condition type="notInstanceOf" value="1" field="selections" scope="primary-catalogue" childId="8956-4e3b-cf7d-86d7" shared="true" />
                 <condition type="lessThan" value="1" field="selections" scope="roster" childId="e82c-6f8c-2b97-a287" shared="true" includeChildSelections="true" includeChildForces="true" />
               </conditions>
             </conditionGroup>
@@ -3469,7 +3469,7 @@ La première fois que votre acte sélectionné est terminé, votre serment est a
         </modifier>
         <modifier type="set-primary" value="887b-ab87-92a2-20f5" field="category">
           <conditions>
-            <condition type="notInstanceOf" value="1" field="selections" scope="primary-catalogue" childId="25dd-7aa0-6bf4-f2d5" shared="true" />
+            <condition type="notInstanceOf" value="1" field="selections" scope="primary-catalogue" childId="8956-4e3b-cf7d-86d7" shared="true" />
           </conditions>
         </modifier>
       </modifiers>
@@ -3621,7 +3621,7 @@ La première fois que votre acte sélectionné est terminé, votre serment est a
           <conditionGroups>
             <conditionGroup type="and">
               <conditions>
-                <condition type="notInstanceOf" value="1" field="selections" scope="primary-catalogue" childId="25dd-7aa0-6bf4-f2d5" shared="true" />
+                <condition type="notInstanceOf" value="1" field="selections" scope="primary-catalogue" childId="8956-4e3b-cf7d-86d7" shared="true" />
                 <condition type="lessThan" value="1" field="selections" scope="roster" childId="e82c-6f8c-2b97-a287" shared="true" includeChildSelections="true" includeChildForces="true" />
               </conditions>
             </conditionGroup>
@@ -3629,7 +3629,7 @@ La première fois que votre acte sélectionné est terminé, votre serment est a
         </modifier>
         <modifier type="set-primary" value="887b-ab87-92a2-20f5" field="category">
           <conditions>
-            <condition type="notInstanceOf" value="1" field="selections" scope="primary-catalogue" childId="25dd-7aa0-6bf4-f2d5" shared="true" />
+            <condition type="notInstanceOf" value="1" field="selections" scope="primary-catalogue" childId="8956-4e3b-cf7d-86d7" shared="true" />
           </conditions>
         </modifier>
       </modifiers>
@@ -3838,7 +3838,7 @@ La première fois que votre acte sélectionné est terminé, votre serment est a
           <conditionGroups>
             <conditionGroup type="and">
               <conditions>
-                <condition type="notInstanceOf" value="1" field="selections" scope="primary-catalogue" childId="25dd-7aa0-6bf4-f2d5" shared="true" />
+                <condition type="notInstanceOf" value="1" field="selections" scope="primary-catalogue" childId="8956-4e3b-cf7d-86d7" shared="true" />
                 <condition type="lessThan" value="1" field="selections" scope="roster" childId="e82c-6f8c-2b97-a287" shared="true" includeChildSelections="true" includeChildForces="true" />
               </conditions>
             </conditionGroup>
@@ -3846,7 +3846,7 @@ La première fois que votre acte sélectionné est terminé, votre serment est a
         </modifier>
         <modifier type="set-primary" value="887b-ab87-92a2-20f5" field="category">
           <conditions>
-            <condition type="notInstanceOf" value="1" field="selections" scope="primary-catalogue" childId="25dd-7aa0-6bf4-f2d5" shared="true" />
+            <condition type="notInstanceOf" value="1" field="selections" scope="primary-catalogue" childId="8956-4e3b-cf7d-86d7" shared="true" />
           </conditions>
         </modifier>
       </modifiers>
@@ -4074,7 +4074,7 @@ La première fois que votre acte sélectionné est terminé, votre serment est a
           <conditionGroups>
             <conditionGroup type="and">
               <conditions>
-                <condition type="notInstanceOf" value="1" field="selections" scope="primary-catalogue" childId="25dd-7aa0-6bf4-f2d5" shared="true" />
+                <condition type="notInstanceOf" value="1" field="selections" scope="primary-catalogue" childId="8956-4e3b-cf7d-86d7" shared="true" />
                 <condition type="lessThan" value="1" field="selections" scope="roster" childId="e82c-6f8c-2b97-a287" shared="true" includeChildSelections="true" includeChildForces="true" />
               </conditions>
             </conditionGroup>
@@ -4082,7 +4082,7 @@ La première fois que votre acte sélectionné est terminé, votre serment est a
         </modifier>
         <modifier type="set-primary" value="887b-ab87-92a2-20f5" field="category">
           <conditions>
-            <condition type="notInstanceOf" value="1" field="selections" scope="primary-catalogue" childId="25dd-7aa0-6bf4-f2d5" shared="true" />
+            <condition type="notInstanceOf" value="1" field="selections" scope="primary-catalogue" childId="8956-4e3b-cf7d-86d7" shared="true" />
           </conditions>
         </modifier>
       </modifiers>
@@ -4404,7 +4404,7 @@ La première fois que votre acte sélectionné est terminé, votre serment est a
           <conditionGroups>
             <conditionGroup type="and">
               <conditions>
-                <condition type="notInstanceOf" value="1" field="selections" scope="primary-catalogue" childId="25dd-7aa0-6bf4-f2d5" shared="true" />
+                <condition type="notInstanceOf" value="1" field="selections" scope="primary-catalogue" childId="8956-4e3b-cf7d-86d7" shared="true" />
                 <condition type="lessThan" value="1" field="selections" scope="roster" childId="e82c-6f8c-2b97-a287" shared="true" includeChildSelections="true" includeChildForces="true" />
               </conditions>
             </conditionGroup>
@@ -4412,7 +4412,7 @@ La première fois que votre acte sélectionné est terminé, votre serment est a
         </modifier>
         <modifier type="set-primary" value="887b-ab87-92a2-20f5" field="category">
           <conditions>
-            <condition type="notInstanceOf" value="1" field="selections" scope="primary-catalogue" childId="25dd-7aa0-6bf4-f2d5" shared="true" />
+            <condition type="notInstanceOf" value="1" field="selections" scope="primary-catalogue" childId="8956-4e3b-cf7d-86d7" shared="true" />
           </conditions>
         </modifier>
       </modifiers>
@@ -4817,7 +4817,7 @@ La première fois que votre acte sélectionné est terminé, votre serment est a
           <conditionGroups>
             <conditionGroup type="and">
               <conditions>
-                <condition type="notInstanceOf" value="1" field="selections" scope="primary-catalogue" childId="25dd-7aa0-6bf4-f2d5" shared="true" />
+                <condition type="notInstanceOf" value="1" field="selections" scope="primary-catalogue" childId="8956-4e3b-cf7d-86d7" shared="true" />
                 <condition type="lessThan" value="1" field="selections" scope="roster" childId="e82c-6f8c-2b97-a287" shared="true" includeChildSelections="true" includeChildForces="true" />
               </conditions>
             </conditionGroup>
@@ -4825,7 +4825,7 @@ La première fois que votre acte sélectionné est terminé, votre serment est a
         </modifier>
         <modifier type="set-primary" value="887b-ab87-92a2-20f5" field="category">
           <conditions>
-            <condition type="notInstanceOf" value="1" field="selections" scope="primary-catalogue" childId="25dd-7aa0-6bf4-f2d5" shared="true" />
+            <condition type="notInstanceOf" value="1" field="selections" scope="primary-catalogue" childId="8956-4e3b-cf7d-86d7" shared="true" />
           </conditions>
         </modifier>
       </modifiers>
@@ -5097,7 +5097,7 @@ La première fois que votre acte sélectionné est terminé, votre serment est a
           <conditionGroups>
             <conditionGroup type="and">
               <conditions>
-                <condition type="notInstanceOf" value="1" field="selections" scope="primary-catalogue" childId="25dd-7aa0-6bf4-f2d5" shared="true" />
+                <condition type="notInstanceOf" value="1" field="selections" scope="primary-catalogue" childId="8956-4e3b-cf7d-86d7" shared="true" />
                 <condition type="lessThan" value="1" field="selections" scope="roster" childId="e82c-6f8c-2b97-a287" shared="true" includeChildSelections="true" includeChildForces="true" />
               </conditions>
             </conditionGroup>
@@ -5105,7 +5105,7 @@ La première fois que votre acte sélectionné est terminé, votre serment est a
         </modifier>
         <modifier type="set-primary" value="887b-ab87-92a2-20f5" field="category">
           <conditions>
-            <condition type="notInstanceOf" value="1" field="selections" scope="primary-catalogue" childId="25dd-7aa0-6bf4-f2d5" shared="true" />
+            <condition type="notInstanceOf" value="1" field="selections" scope="primary-catalogue" childId="8956-4e3b-cf7d-86d7" shared="true" />
           </conditions>
         </modifier>
       </modifiers>
@@ -5479,7 +5479,7 @@ La première fois que votre acte sélectionné est terminé, votre serment est a
           <conditionGroups>
             <conditionGroup type="and">
               <conditions>
-                <condition type="notInstanceOf" value="1" field="selections" scope="primary-catalogue" childId="25dd-7aa0-6bf4-f2d5" shared="true" />
+                <condition type="notInstanceOf" value="1" field="selections" scope="primary-catalogue" childId="8956-4e3b-cf7d-86d7" shared="true" />
                 <condition type="lessThan" value="1" field="selections" scope="roster" childId="e82c-6f8c-2b97-a287" shared="true" includeChildSelections="true" includeChildForces="true" />
               </conditions>
             </conditionGroup>
@@ -5487,7 +5487,7 @@ La première fois que votre acte sélectionné est terminé, votre serment est a
         </modifier>
         <modifier type="set-primary" value="887b-ab87-92a2-20f5" field="category">
           <conditions>
-            <condition type="notInstanceOf" value="1" field="selections" scope="primary-catalogue" childId="25dd-7aa0-6bf4-f2d5" shared="true" />
+            <condition type="notInstanceOf" value="1" field="selections" scope="primary-catalogue" childId="8956-4e3b-cf7d-86d7" shared="true" />
           </conditions>
         </modifier>
       </modifiers>
@@ -5610,7 +5610,7 @@ La première fois que votre acte sélectionné est terminé, votre serment est a
             <conditionGroup type="or">
               <conditions>
                 <condition type="instanceOf" value="1" field="selections" scope="force" childId="1d6e-2579-8e7f-1ed4" shared="true" includeChildSelections="true" />
-                <condition type="instanceOf" value="1" field="selections" scope="primary-catalogue" childId="25dd-7aa0-6bf4-f2d5" shared="true" />
+                <condition type="instanceOf" value="1" field="selections" scope="primary-catalogue" childId="8956-4e3b-cf7d-86d7" shared="true" />
               </conditions>
             </conditionGroup>
           </conditionGroups>
@@ -5667,7 +5667,7 @@ La première fois que votre acte sélectionné est terminé, votre serment est a
           <conditionGroups>
             <conditionGroup type="or">
               <conditions>
-                <condition type="notInstanceOf" value="1" field="selections" scope="primary-catalogue" childId="25dd-7aa0-6bf4-f2d5" shared="true" />
+                <condition type="notInstanceOf" value="1" field="selections" scope="primary-catalogue" childId="8956-4e3b-cf7d-86d7" shared="true" />
                 <condition type="instanceOf" value="1" field="selections" scope="force" childId="cac3-71d1-ea4b-795d" shared="true" includeChildSelections="true" />
               </conditions>
             </conditionGroup>
@@ -5811,7 +5811,7 @@ La première fois que votre acte sélectionné est terminé, votre serment est a
           <conditionGroups>
             <conditionGroup type="and">
               <conditions>
-                <condition type="notInstanceOf" value="1" field="selections" scope="primary-catalogue" childId="25dd-7aa0-6bf4-f2d5" shared="true" />
+                <condition type="notInstanceOf" value="1" field="selections" scope="primary-catalogue" childId="8956-4e3b-cf7d-86d7" shared="true" />
                 <condition type="lessThan" value="1" field="selections" scope="roster" childId="e82c-6f8c-2b97-a287" shared="true" includeChildForces="true" includeChildSelections="true" />
               </conditions>
             </conditionGroup>
@@ -5819,7 +5819,7 @@ La première fois que votre acte sélectionné est terminé, votre serment est a
         </modifier>
         <modifier type="set-primary" value="887b-ab87-92a2-20f5" field="category">
           <conditions>
-            <condition type="notInstanceOf" value="1" field="selections" scope="primary-catalogue" childId="25dd-7aa0-6bf4-f2d5" shared="true" />
+            <condition type="notInstanceOf" value="1" field="selections" scope="primary-catalogue" childId="8956-4e3b-cf7d-86d7" shared="true" />
           </conditions>
         </modifier>
       </modifiers>
@@ -6065,7 +6065,7 @@ La première fois que votre acte sélectionné est terminé, votre serment est a
           <conditionGroups>
             <conditionGroup type="and">
               <conditions>
-                <condition type="notInstanceOf" value="1" field="selections" scope="primary-catalogue" childId="25dd-7aa0-6bf4-f2d5" shared="true" />
+                <condition type="notInstanceOf" value="1" field="selections" scope="primary-catalogue" childId="8956-4e3b-cf7d-86d7" shared="true" />
                 <condition type="lessThan" value="1" field="selections" scope="roster" childId="e82c-6f8c-2b97-a287" shared="true" includeChildSelections="true" includeChildForces="true" />
               </conditions>
             </conditionGroup>
@@ -6212,7 +6212,7 @@ La première fois que votre acte sélectionné est terminé, votre serment est a
           <conditionGroups>
             <conditionGroup type="and">
               <conditions>
-                <condition type="notInstanceOf" value="1" field="selections" scope="primary-catalogue" childId="25dd-7aa0-6bf4-f2d5" shared="true" />
+                <condition type="notInstanceOf" value="1" field="selections" scope="primary-catalogue" childId="8956-4e3b-cf7d-86d7" shared="true" />
                 <condition type="lessThan" value="1" field="selections" scope="roster" childId="e82c-6f8c-2b97-a287" shared="true" includeChildForces="true" includeChildSelections="true" />
               </conditions>
             </conditionGroup>
@@ -6220,7 +6220,7 @@ La première fois que votre acte sélectionné est terminé, votre serment est a
         </modifier>
         <modifier type="set-primary" value="887b-ab87-92a2-20f5" field="category">
           <conditions>
-            <condition type="notInstanceOf" value="1" field="selections" scope="primary-catalogue" childId="25dd-7aa0-6bf4-f2d5" shared="true" />
+            <condition type="notInstanceOf" value="1" field="selections" scope="primary-catalogue" childId="8956-4e3b-cf7d-86d7" shared="true" />
           </conditions>
         </modifier>
       </modifiers>
@@ -7437,7 +7437,7 @@ La première fois que votre acte sélectionné est terminé, votre serment est a
           <conditionGroups>
             <conditionGroup type="and">
               <conditions>
-                <condition type="notInstanceOf" value="1" field="selections" scope="primary-catalogue" childId="25dd-7aa0-6bf4-f2d5" shared="true" />
+                <condition type="notInstanceOf" value="1" field="selections" scope="primary-catalogue" childId="8956-4e3b-cf7d-86d7" shared="true" />
                 <condition type="lessThan" value="1" field="forces" scope="roster" shared="true" includeChildSelections="true" includeChildForces="true" childId="cac3-71d1-ea4b-795d" childName="Crusade Force" />
               </conditions>
             </conditionGroup>

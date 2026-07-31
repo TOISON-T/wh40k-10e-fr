@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue xmlns="http://www.battlescribe.net/schema/catalogueSchema" id="b45c-af22-788a-dfd6" name="Chaos - Daemons Library" revision="97" battleScribeVersion="2.03" library="true" gameSystemId="sys-352e-adc2-7639-d6a9" gameSystemRevision="1" type="catalogue">
+<catalogue xmlns="http://www.battlescribe.net/schema/catalogueSchema" id="b886-a6f4-c733-74ed" name="Chaos - Daemons Library" revision="97" battleScribeVersion="2.03" library="true" gameSystemId="sys-0e45-705d-f6bc-806a" gameSystemRevision="1" type="catalogue">
   <publications>
     <publication id="e3ec-7a32-ae62-8727" name="Index - Chaos Daemons" />
   </publications>
@@ -128,7 +128,7 @@
       <modifiers>
         <modifier type="set" value="0" field="4823-dbb2-d0bc-a79c">
           <conditions>
-            <condition type="notInstanceOf" value="1" field="selections" scope="primary-catalogue" childId="d265-877b-e03d-30ca" shared="true" />
+            <condition type="notInstanceOf" value="1" field="selections" scope="primary-catalogue" childId="03cf-b34d-0126-12c8" shared="true" />
           </conditions>
         </modifier>
         <modifier type="increment" value="1" field="4823-dbb2-d0bc-a79c">
@@ -136,7 +136,7 @@
             <repeat value="1" repeats="1" field="selections" scope="roster" childId="7318-1560-cbf-6cab" shared="true" roundUp="false" includeChildSelections="true" includeChildForces="true" />
           </repeats>
           <conditions>
-            <condition type="notInstanceOf" value="1" field="selections" scope="primary-catalogue" childId="d265-877b-e03d-30ca" shared="true" />
+            <condition type="notInstanceOf" value="1" field="selections" scope="primary-catalogue" childId="03cf-b34d-0126-12c8" shared="true" />
           </conditions>
         </modifier>
       </modifiers>
@@ -151,7 +151,7 @@
       <modifiers>
         <modifier type="set" value="0" field="c494-86fd-91f7-7938">
           <conditions>
-            <condition type="notInstanceOf" value="1" field="selections" scope="primary-catalogue" childId="d265-877b-e03d-30ca" shared="true" />
+            <condition type="notInstanceOf" value="1" field="selections" scope="primary-catalogue" childId="03cf-b34d-0126-12c8" shared="true" />
           </conditions>
         </modifier>
         <modifier type="increment" value="1" field="c494-86fd-91f7-7938">
@@ -159,7 +159,7 @@
             <repeat value="1" repeats="1" field="selections" scope="roster" childId="3676-165c-4a2e-8194" shared="true" roundUp="false" includeChildSelections="true" includeChildForces="true" />
           </repeats>
           <conditions>
-            <condition type="notInstanceOf" value="1" field="selections" scope="primary-catalogue" childId="d265-877b-e03d-30ca" shared="true" />
+            <condition type="notInstanceOf" value="1" field="selections" scope="primary-catalogue" childId="03cf-b34d-0126-12c8" shared="true" />
           </conditions>
         </modifier>
       </modifiers>
@@ -171,7 +171,7 @@
       <modifiers>
         <modifier type="set" value="0" field="b1ab-5382-1802-48bd">
           <conditions>
-            <condition type="notInstanceOf" value="1" field="selections" scope="primary-catalogue" childId="d265-877b-e03d-30ca" shared="true" />
+            <condition type="notInstanceOf" value="1" field="selections" scope="primary-catalogue" childId="03cf-b34d-0126-12c8" shared="true" />
           </conditions>
         </modifier>
         <modifier type="increment" value="1" field="b1ab-5382-1802-48bd">
@@ -179,7 +179,7 @@
             <repeat value="1" repeats="1" field="selections" scope="roster" childId="303b-4e68-2760-909f" shared="true" roundUp="false" includeChildSelections="true" includeChildForces="true" />
           </repeats>
           <conditions>
-            <condition type="notInstanceOf" value="1" field="selections" scope="primary-catalogue" childId="d265-877b-e03d-30ca" shared="true" />
+            <condition type="notInstanceOf" value="1" field="selections" scope="primary-catalogue" childId="03cf-b34d-0126-12c8" shared="true" />
           </conditions>
         </modifier>
       </modifiers>
@@ -191,7 +191,7 @@
       <modifiers>
         <modifier type="set" value="0" field="8d20-33a-d775-dbd7">
           <conditions>
-            <condition type="notInstanceOf" value="1" field="selections" scope="primary-catalogue" childId="d265-877b-e03d-30ca" shared="true" />
+            <condition type="notInstanceOf" value="1" field="selections" scope="primary-catalogue" childId="03cf-b34d-0126-12c8" shared="true" />
           </conditions>
         </modifier>
         <modifier type="increment" value="1" field="8d20-33a-d775-dbd7">
@@ -199,7 +199,7 @@
             <repeat value="1" repeats="1" field="selections" scope="roster" childId="a83e-ba41-7d03-5b2d" shared="true" roundUp="false" includeChildSelections="true" includeChildForces="true" />
           </repeats>
           <conditions>
-            <condition type="notInstanceOf" value="1" field="selections" scope="primary-catalogue" childId="d265-877b-e03d-30ca" shared="true" />
+            <condition type="notInstanceOf" value="1" field="selections" scope="primary-catalogue" childId="03cf-b34d-0126-12c8" shared="true" />
           </conditions>
         </modifier>
       </modifiers>
@@ -251,9 +251,9 @@
           <conditionGroups>
             <conditionGroup type="or">
               <conditions>
-                <condition type="instanceOf" value="1" field="selections" scope="primary-catalogue" childId="5108-f98-63c2-53cb" shared="true" />
-                <condition type="instanceOf" value="1" field="selections" scope="primary-catalogue" childId="1069-10ff-3ba9-873b" shared="true" />
-                <condition type="instanceOf" value="1" field="selections" scope="primary-catalogue" childId="df9a-59b2-f464-59ad" shared="true" />
+                <condition type="instanceOf" value="1" field="selections" scope="primary-catalogue" childId="5ff8-5a62-176a-87a6" shared="true" />
+                <condition type="instanceOf" value="1" field="selections" scope="primary-catalogue" childId="2b88-ba4a-f464-e32d" shared="true" />
+                <condition type="instanceOf" value="1" field="selections" scope="primary-catalogue" childId="5b2e-e089-2987-125c" shared="true" />
               </conditions>
             </conditionGroup>
           </conditionGroups>
@@ -419,7 +419,7 @@
       <modifiers>
         <modifier type="set" field="hidden" value="true">
           <conditions>
-            <condition field="selections" scope="primary-catalogue" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="d265-877b-e03d-30ca" type="notInstanceOf" />
+            <condition field="selections" scope="primary-catalogue" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="03cf-b34d-0126-12c8" type="notInstanceOf" />
           </conditions>
         </modifier>
       </modifiers>
@@ -569,7 +569,7 @@
         </modifier>
         <modifier type="set-primary" value="887b-ab87-92a2-20f5" field="category">
           <conditions>
-            <condition type="notInstanceOf" value="1" field="selections" scope="primary-catalogue" childId="d265-877b-e03d-30ca" shared="true" includeChildSelections="true" includeChildForces="true" />
+            <condition type="notInstanceOf" value="1" field="selections" scope="primary-catalogue" childId="03cf-b34d-0126-12c8" shared="true" includeChildSelections="true" includeChildForces="true" />
           </conditions>
         </modifier>
         <modifier type="set" value="true" field="hidden">
@@ -875,7 +875,7 @@
         </modifier>
         <modifier type="set-primary" value="887b-ab87-92a2-20f5" field="category">
           <conditions>
-            <condition type="notInstanceOf" value="1" field="selections" scope="primary-catalogue" childId="d265-877b-e03d-30ca" shared="true" includeChildSelections="true" includeChildForces="true" />
+            <condition type="notInstanceOf" value="1" field="selections" scope="primary-catalogue" childId="03cf-b34d-0126-12c8" shared="true" includeChildSelections="true" includeChildForces="true" />
           </conditions>
         </modifier>
         <modifier type="add" value="This model's melee profiles include the additional +1 to A and S from the model being in its own Shadow." field="info">
@@ -1043,7 +1043,7 @@
         </modifier>
         <modifier type="set-primary" value="887b-ab87-92a2-20f5" field="category">
           <conditions>
-            <condition type="notInstanceOf" value="1" field="selections" scope="primary-catalogue" childId="d265-877b-e03d-30ca" shared="true" includeChildSelections="true" includeChildForces="true" />
+            <condition type="notInstanceOf" value="1" field="selections" scope="primary-catalogue" childId="03cf-b34d-0126-12c8" shared="true" includeChildSelections="true" includeChildForces="true" />
           </conditions>
         </modifier>
         <modifier type="set" value="true" field="hidden">
@@ -1135,7 +1135,7 @@
         </modifier>
         <modifier type="set-primary" value="887b-ab87-92a2-20f5" field="category">
           <conditions>
-            <condition type="notInstanceOf" value="1" field="selections" scope="primary-catalogue" childId="d265-877b-e03d-30ca" shared="true" includeChildSelections="true" includeChildForces="true" />
+            <condition type="notInstanceOf" value="1" field="selections" scope="primary-catalogue" childId="03cf-b34d-0126-12c8" shared="true" includeChildSelections="true" includeChildForces="true" />
           </conditions>
         </modifier>
       </modifiers>
@@ -1292,7 +1292,7 @@
         </modifier>
         <modifier type="set-primary" value="887b-ab87-92a2-20f5" field="category">
           <conditions>
-            <condition type="notInstanceOf" value="1" field="selections" scope="primary-catalogue" childId="d265-877b-e03d-30ca" shared="true" includeChildSelections="true" includeChildForces="true" />
+            <condition type="notInstanceOf" value="1" field="selections" scope="primary-catalogue" childId="03cf-b34d-0126-12c8" shared="true" includeChildSelections="true" includeChildForces="true" />
           </conditions>
         </modifier>
       </modifiers>
@@ -1511,7 +1511,7 @@
         </modifier>
         <modifier type="set-primary" value="887b-ab87-92a2-20f5" field="category">
           <conditions>
-            <condition type="notInstanceOf" value="1" field="selections" scope="primary-catalogue" childId="d265-877b-e03d-30ca" shared="true" includeChildSelections="true" includeChildForces="true" />
+            <condition type="notInstanceOf" value="1" field="selections" scope="primary-catalogue" childId="03cf-b34d-0126-12c8" shared="true" includeChildSelections="true" includeChildForces="true" />
           </conditions>
         </modifier>
       </modifiers>
@@ -1772,7 +1772,7 @@
         </modifier>
         <modifier type="set-primary" value="887b-ab87-92a2-20f5" field="category">
           <conditions>
-            <condition type="notInstanceOf" value="1" field="selections" scope="primary-catalogue" childId="d265-877b-e03d-30ca" shared="true" includeChildSelections="true" includeChildForces="true" />
+            <condition type="notInstanceOf" value="1" field="selections" scope="primary-catalogue" childId="03cf-b34d-0126-12c8" shared="true" includeChildSelections="true" includeChildForces="true" />
           </conditions>
         </modifier>
         <modifier type="set" value="true" field="hidden">
@@ -1891,7 +1891,7 @@
         </modifier>
         <modifier type="set-primary" value="887b-ab87-92a2-20f5" field="category">
           <conditions>
-            <condition type="notInstanceOf" value="1" field="selections" scope="primary-catalogue" childId="d265-877b-e03d-30ca" shared="true" includeChildSelections="true" includeChildForces="true" />
+            <condition type="notInstanceOf" value="1" field="selections" scope="primary-catalogue" childId="03cf-b34d-0126-12c8" shared="true" includeChildSelections="true" includeChildForces="true" />
           </conditions>
         </modifier>
       </modifiers>
@@ -2032,7 +2032,7 @@
         </modifier>
         <modifier type="set-primary" value="887b-ab87-92a2-20f5" field="category">
           <conditions>
-            <condition type="notInstanceOf" value="1" field="selections" scope="primary-catalogue" childId="d265-877b-e03d-30ca" shared="true" includeChildSelections="true" includeChildForces="true" />
+            <condition type="notInstanceOf" value="1" field="selections" scope="primary-catalogue" childId="03cf-b34d-0126-12c8" shared="true" includeChildSelections="true" includeChildForces="true" />
           </conditions>
         </modifier>
       </modifiers>
@@ -2214,7 +2214,7 @@
         </modifier>
         <modifier type="set-primary" value="887b-ab87-92a2-20f5" field="category">
           <conditions>
-            <condition type="notInstanceOf" value="1" field="selections" scope="primary-catalogue" childId="d265-877b-e03d-30ca" shared="true" includeChildSelections="true" includeChildForces="true" />
+            <condition type="notInstanceOf" value="1" field="selections" scope="primary-catalogue" childId="03cf-b34d-0126-12c8" shared="true" includeChildSelections="true" includeChildForces="true" />
           </conditions>
         </modifier>
       </modifiers>
@@ -2513,7 +2513,7 @@
         </modifier>
         <modifier type="set-primary" value="887b-ab87-92a2-20f5" field="category">
           <conditions>
-            <condition type="notInstanceOf" value="1" field="selections" scope="primary-catalogue" childId="d265-877b-e03d-30ca" shared="true" includeChildSelections="true" includeChildForces="true" />
+            <condition type="notInstanceOf" value="1" field="selections" scope="primary-catalogue" childId="03cf-b34d-0126-12c8" shared="true" includeChildSelections="true" includeChildForces="true" />
           </conditions>
         </modifier>
       </modifiers>
@@ -2737,7 +2737,7 @@
         </modifier>
         <modifier type="set-primary" value="887b-ab87-92a2-20f5" field="category">
           <conditions>
-            <condition type="notInstanceOf" value="1" field="selections" scope="primary-catalogue" childId="d265-877b-e03d-30ca" shared="true" includeChildSelections="true" includeChildForces="true" />
+            <condition type="notInstanceOf" value="1" field="selections" scope="primary-catalogue" childId="03cf-b34d-0126-12c8" shared="true" includeChildSelections="true" includeChildForces="true" />
           </conditions>
         </modifier>
       </modifiers>
@@ -2903,7 +2903,7 @@
           <modifiers>
             <modifier type="set" value="0" field="22e9-872f-bc81-0c7b">
               <conditions>
-                <condition type="notInstanceOf" value="1" field="selections" scope="primary-catalogue" childId="d265-877b-e03d-30ca" shared="true" percentValue="false" includeChildSelections="false" includeChildForces="false" />
+                <condition type="notInstanceOf" value="1" field="selections" scope="primary-catalogue" childId="03cf-b34d-0126-12c8" shared="true" percentValue="false" includeChildSelections="false" includeChildForces="false" />
               </conditions>
             </modifier>
           </modifiers>
@@ -2931,7 +2931,7 @@
         </modifier>
         <modifier type="set-primary" value="887b-ab87-92a2-20f5" field="category">
           <conditions>
-            <condition type="notInstanceOf" value="1" field="selections" scope="primary-catalogue" childId="d265-877b-e03d-30ca" shared="true" includeChildSelections="true" includeChildForces="true" />
+            <condition type="notInstanceOf" value="1" field="selections" scope="primary-catalogue" childId="03cf-b34d-0126-12c8" shared="true" includeChildSelections="true" includeChildForces="true" />
           </conditions>
         </modifier>
       </modifiers>
@@ -2996,7 +2996,7 @@
         </modifier>
         <modifier type="set-primary" value="887b-ab87-92a2-20f5" field="category">
           <conditions>
-            <condition type="notInstanceOf" value="1" field="selections" scope="primary-catalogue" childId="d265-877b-e03d-30ca" shared="true" includeChildSelections="true" includeChildForces="true" />
+            <condition type="notInstanceOf" value="1" field="selections" scope="primary-catalogue" childId="03cf-b34d-0126-12c8" shared="true" includeChildSelections="true" includeChildForces="true" />
           </conditions>
         </modifier>
       </modifiers>
@@ -3172,7 +3172,7 @@
         </modifier>
         <modifier type="set-primary" value="887b-ab87-92a2-20f5" field="category">
           <conditions>
-            <condition type="notInstanceOf" value="1" field="selections" scope="primary-catalogue" childId="d265-877b-e03d-30ca" shared="true" includeChildSelections="true" includeChildForces="true" />
+            <condition type="notInstanceOf" value="1" field="selections" scope="primary-catalogue" childId="03cf-b34d-0126-12c8" shared="true" includeChildSelections="true" includeChildForces="true" />
           </conditions>
         </modifier>
       </modifiers>
@@ -3347,7 +3347,7 @@
         </modifier>
         <modifier type="set-primary" value="887b-ab87-92a2-20f5" field="category">
           <conditions>
-            <condition type="notInstanceOf" value="1" field="selections" scope="primary-catalogue" childId="d265-877b-e03d-30ca" shared="true" includeChildSelections="true" includeChildForces="true" />
+            <condition type="notInstanceOf" value="1" field="selections" scope="primary-catalogue" childId="03cf-b34d-0126-12c8" shared="true" includeChildSelections="true" includeChildForces="true" />
           </conditions>
         </modifier>
       </modifiers>
@@ -3522,7 +3522,7 @@
         </modifier>
         <modifier type="set-primary" value="887b-ab87-92a2-20f5" field="category">
           <conditions>
-            <condition type="notInstanceOf" value="1" field="selections" scope="primary-catalogue" childId="d265-877b-e03d-30ca" shared="true" includeChildSelections="true" includeChildForces="true" />
+            <condition type="notInstanceOf" value="1" field="selections" scope="primary-catalogue" childId="03cf-b34d-0126-12c8" shared="true" includeChildSelections="true" includeChildForces="true" />
           </conditions>
         </modifier>
       </modifiers>
@@ -3722,7 +3722,7 @@
               <modifiers>
                 <modifier type="set" field="52d1-e6ce-959a-42fa" value="1">
                   <conditions>
-                    <condition field="selections" scope="primary-catalogue" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="df9a-59b2-f464-59ad" type="instanceOf" />
+                    <condition field="selections" scope="primary-catalogue" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="5b2e-e089-2987-125c" type="instanceOf" />
                   </conditions>
                 </modifier>
               </modifiers>
@@ -3741,7 +3741,7 @@
               <modifiers>
                 <modifier type="set" field="9cb9-bd0-7284-cece" value="1">
                   <conditions>
-                    <condition field="selections" scope="primary-catalogue" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="5108-f98-63c2-53cb" type="instanceOf" />
+                    <condition field="selections" scope="primary-catalogue" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="5ff8-5a62-176a-87a6" type="instanceOf" />
                   </conditions>
                 </modifier>
               </modifiers>
@@ -3782,7 +3782,7 @@
               <modifiers>
                 <modifier type="set" field="3ff6-8e13-dc2-c622" value="1">
                   <conditions>
-                    <condition field="selections" scope="primary-catalogue" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="1069-10ff-3ba9-873b" type="instanceOf" />
+                    <condition field="selections" scope="primary-catalogue" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="2b88-ba4a-f464-e32d" type="instanceOf" />
                   </conditions>
                 </modifier>
               </modifiers>
@@ -3925,7 +3925,7 @@
         </modifier>
         <modifier type="set-primary" value="887b-ab87-92a2-20f5" field="category">
           <conditions>
-            <condition type="notInstanceOf" value="1" field="selections" scope="primary-catalogue" childId="d265-877b-e03d-30ca" shared="true" includeChildSelections="true" includeChildForces="true" />
+            <condition type="notInstanceOf" value="1" field="selections" scope="primary-catalogue" childId="03cf-b34d-0126-12c8" shared="true" includeChildSelections="true" includeChildForces="true" />
           </conditions>
         </modifier>
         <modifier type="set" value="true" field="hidden">
@@ -4071,7 +4071,7 @@
               <modifiers>
                 <modifier type="set" field="1cc6-1250-4792-b477" value="1">
                   <conditions>
-                    <condition field="selections" scope="primary-catalogue" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="df9a-59b2-f464-59ad" type="instanceOf" />
+                    <condition field="selections" scope="primary-catalogue" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="5b2e-e089-2987-125c" type="instanceOf" />
                   </conditions>
                 </modifier>
               </modifiers>
@@ -4090,7 +4090,7 @@
               <modifiers>
                 <modifier type="set" field="1628-e3f8-3da0-6e0" value="1">
                   <conditions>
-                    <condition field="selections" scope="primary-catalogue" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="5108-f98-63c2-53cb" type="instanceOf" />
+                    <condition field="selections" scope="primary-catalogue" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="5ff8-5a62-176a-87a6" type="instanceOf" />
                   </conditions>
                 </modifier>
               </modifiers>
@@ -4131,7 +4131,7 @@
               <modifiers>
                 <modifier type="set" field="e177-badf-5479-d908" value="1">
                   <conditions>
-                    <condition field="selections" scope="primary-catalogue" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="1069-10ff-3ba9-873b" type="instanceOf" />
+                    <condition field="selections" scope="primary-catalogue" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="2b88-ba4a-f464-e32d" type="instanceOf" />
                   </conditions>
                 </modifier>
               </modifiers>
@@ -4274,7 +4274,7 @@
         </modifier>
         <modifier type="set-primary" value="887b-ab87-92a2-20f5" field="category">
           <conditions>
-            <condition type="notInstanceOf" value="1" field="selections" scope="primary-catalogue" childId="d265-877b-e03d-30ca" shared="true" includeChildSelections="true" includeChildForces="true" />
+            <condition type="notInstanceOf" value="1" field="selections" scope="primary-catalogue" childId="03cf-b34d-0126-12c8" shared="true" includeChildSelections="true" includeChildForces="true" />
           </conditions>
         </modifier>
         <modifier type="set" value="true" field="hidden">
@@ -4502,7 +4502,7 @@
         </modifier>
         <modifier type="set-primary" value="887b-ab87-92a2-20f5" field="category">
           <conditions>
-            <condition type="notInstanceOf" value="1" field="selections" scope="primary-catalogue" childId="d265-877b-e03d-30ca" shared="true" includeChildSelections="true" includeChildForces="true" />
+            <condition type="notInstanceOf" value="1" field="selections" scope="primary-catalogue" childId="03cf-b34d-0126-12c8" shared="true" includeChildSelections="true" includeChildForces="true" />
           </conditions>
         </modifier>
         <modifier type="set" value="true" field="hidden">
@@ -4770,7 +4770,7 @@
         </modifier>
         <modifier type="set-primary" value="887b-ab87-92a2-20f5" field="category">
           <conditions>
-            <condition type="notInstanceOf" value="1" field="selections" scope="primary-catalogue" childId="d265-877b-e03d-30ca" shared="true" includeChildSelections="true" includeChildForces="true" />
+            <condition type="notInstanceOf" value="1" field="selections" scope="primary-catalogue" childId="03cf-b34d-0126-12c8" shared="true" includeChildSelections="true" includeChildForces="true" />
           </conditions>
         </modifier>
       </modifiers>
@@ -4979,7 +4979,7 @@
         </modifier>
         <modifier type="set-primary" value="887b-ab87-92a2-20f5" field="category">
           <conditions>
-            <condition type="notInstanceOf" value="1" field="selections" scope="primary-catalogue" childId="d265-877b-e03d-30ca" shared="true" includeChildSelections="true" includeChildForces="true" />
+            <condition type="notInstanceOf" value="1" field="selections" scope="primary-catalogue" childId="03cf-b34d-0126-12c8" shared="true" includeChildSelections="true" includeChildForces="true" />
           </conditions>
         </modifier>
         <modifier type="set" value="true" field="hidden">
@@ -5073,7 +5073,7 @@
         </modifier>
         <modifier type="set-primary" value="887b-ab87-92a2-20f5" field="category">
           <conditions>
-            <condition type="notInstanceOf" value="1" field="selections" scope="primary-catalogue" childId="d265-877b-e03d-30ca" shared="true" includeChildSelections="true" includeChildForces="true" />
+            <condition type="notInstanceOf" value="1" field="selections" scope="primary-catalogue" childId="03cf-b34d-0126-12c8" shared="true" includeChildSelections="true" includeChildForces="true" />
           </conditions>
         </modifier>
       </modifiers>
@@ -5283,7 +5283,7 @@
         </modifier>
         <modifier type="set-primary" value="887b-ab87-92a2-20f5" field="category">
           <conditions>
-            <condition type="notInstanceOf" value="1" field="selections" scope="primary-catalogue" childId="d265-877b-e03d-30ca" shared="true" includeChildSelections="true" includeChildForces="true" />
+            <condition type="notInstanceOf" value="1" field="selections" scope="primary-catalogue" childId="03cf-b34d-0126-12c8" shared="true" includeChildSelections="true" includeChildForces="true" />
           </conditions>
         </modifier>
       </modifiers>
@@ -5492,7 +5492,7 @@
         </modifier>
         <modifier type="set-primary" value="887b-ab87-92a2-20f5" field="category">
           <conditions>
-            <condition type="notInstanceOf" value="1" field="selections" scope="primary-catalogue" childId="d265-877b-e03d-30ca" shared="true" includeChildSelections="true" includeChildForces="true" />
+            <condition type="notInstanceOf" value="1" field="selections" scope="primary-catalogue" childId="03cf-b34d-0126-12c8" shared="true" includeChildSelections="true" includeChildForces="true" />
           </conditions>
         </modifier>
         <modifier type="set" value="true" field="hidden">
@@ -5586,7 +5586,7 @@
         </modifier>
         <modifier type="set-primary" value="887b-ab87-92a2-20f5" field="category">
           <conditions>
-            <condition type="notInstanceOf" value="1" field="selections" scope="primary-catalogue" childId="d265-877b-e03d-30ca" shared="true" includeChildSelections="true" includeChildForces="true" />
+            <condition type="notInstanceOf" value="1" field="selections" scope="primary-catalogue" childId="03cf-b34d-0126-12c8" shared="true" includeChildSelections="true" includeChildForces="true" />
           </conditions>
         </modifier>
       </modifiers>
@@ -5886,7 +5886,7 @@
         </modifier>
         <modifier type="set-primary" value="887b-ab87-92a2-20f5" field="category">
           <conditions>
-            <condition type="notInstanceOf" value="1" field="selections" scope="primary-catalogue" childId="d265-877b-e03d-30ca" shared="true" includeChildSelections="true" includeChildForces="true" />
+            <condition type="notInstanceOf" value="1" field="selections" scope="primary-catalogue" childId="03cf-b34d-0126-12c8" shared="true" includeChildSelections="true" includeChildForces="true" />
           </conditions>
         </modifier>
       </modifiers>
@@ -6155,7 +6155,7 @@ _Note du concepteur: Tant que cette unité contient une ou plusieurs figurines ^
         </modifier>
         <modifier type="set-primary" value="887b-ab87-92a2-20f5" field="category">
           <conditions>
-            <condition type="notInstanceOf" value="1" field="selections" scope="primary-catalogue" childId="d265-877b-e03d-30ca" shared="true" includeChildSelections="true" includeChildForces="true" />
+            <condition type="notInstanceOf" value="1" field="selections" scope="primary-catalogue" childId="03cf-b34d-0126-12c8" shared="true" includeChildSelections="true" includeChildForces="true" />
           </conditions>
         </modifier>
       </modifiers>
@@ -6254,7 +6254,7 @@ _Note du concepteur: Tant que cette unité contient une ou plusieurs figurines ^
         </modifier>
         <modifier type="set-primary" value="887b-ab87-92a2-20f5" field="category">
           <conditions>
-            <condition type="notInstanceOf" value="1" field="selections" scope="primary-catalogue" childId="d265-877b-e03d-30ca" shared="true" includeChildSelections="true" includeChildForces="true" />
+            <condition type="notInstanceOf" value="1" field="selections" scope="primary-catalogue" childId="03cf-b34d-0126-12c8" shared="true" includeChildSelections="true" includeChildForces="true" />
           </conditions>
         </modifier>
       </modifiers>
@@ -6585,7 +6585,7 @@ _Note du concepteur: Tant que cette unité contient une ou plusieurs figurines ^
         </modifier>
         <modifier type="set-primary" value="887b-ab87-92a2-20f5" field="category">
           <conditions>
-            <condition type="notInstanceOf" value="1" field="selections" scope="primary-catalogue" childId="d265-877b-e03d-30ca" shared="true" includeChildSelections="true" includeChildForces="true" />
+            <condition type="notInstanceOf" value="1" field="selections" scope="primary-catalogue" childId="03cf-b34d-0126-12c8" shared="true" includeChildSelections="true" includeChildForces="true" />
           </conditions>
         </modifier>
       </modifiers>
@@ -6723,7 +6723,7 @@ _Note du concepteur: Tant que cette unité contient une ou plusieurs figurines ^
         </modifier>
         <modifier type="set-primary" value="887b-ab87-92a2-20f5" field="category">
           <conditions>
-            <condition type="notInstanceOf" value="1" field="selections" scope="primary-catalogue" childId="d265-877b-e03d-30ca" shared="true" includeChildSelections="true" includeChildForces="true" />
+            <condition type="notInstanceOf" value="1" field="selections" scope="primary-catalogue" childId="03cf-b34d-0126-12c8" shared="true" includeChildSelections="true" includeChildForces="true" />
           </conditions>
         </modifier>
       </modifiers>
@@ -6953,7 +6953,7 @@ _Note du concepteur: Tant que cette unité contient une ou plusieurs figurines ^
         </modifier>
         <modifier type="set-primary" value="887b-ab87-92a2-20f5" field="category">
           <conditions>
-            <condition type="notInstanceOf" value="1" field="selections" scope="primary-catalogue" childId="d265-877b-e03d-30ca" shared="true" includeChildSelections="true" includeChildForces="true" />
+            <condition type="notInstanceOf" value="1" field="selections" scope="primary-catalogue" childId="03cf-b34d-0126-12c8" shared="true" includeChildSelections="true" includeChildForces="true" />
           </conditions>
         </modifier>
       </modifiers>
@@ -7292,7 +7292,7 @@ _Note du concepteur: Tant que cette unité contient une ou plusieurs figurines ^
         </modifier>
         <modifier type="set-primary" value="887b-ab87-92a2-20f5" field="category">
           <conditions>
-            <condition type="notInstanceOf" value="1" field="selections" scope="primary-catalogue" childId="d265-877b-e03d-30ca" shared="true" includeChildSelections="true" includeChildForces="true" />
+            <condition type="notInstanceOf" value="1" field="selections" scope="primary-catalogue" childId="03cf-b34d-0126-12c8" shared="true" includeChildSelections="true" includeChildForces="true" />
           </conditions>
         </modifier>
         <modifier type="set" value="true" field="hidden">
@@ -7598,7 +7598,7 @@ _Note du concepteur: Tant que cette unité contient une ou plusieurs figurines ^
         </modifier>
         <modifier type="set-primary" value="887b-ab87-92a2-20f5" field="category">
           <conditions>
-            <condition type="notInstanceOf" value="1" field="selections" scope="primary-catalogue" childId="d265-877b-e03d-30ca" shared="true" includeChildSelections="true" includeChildForces="true" />
+            <condition type="notInstanceOf" value="1" field="selections" scope="primary-catalogue" childId="03cf-b34d-0126-12c8" shared="true" includeChildSelections="true" includeChildForces="true" />
           </conditions>
         </modifier>
       </modifiers>
@@ -7745,7 +7745,7 @@ _Note du concepteur: Tant que cette unité contient une ou plusieurs figurines ^
         </modifier>
         <modifier type="set-primary" value="887b-ab87-92a2-20f5" field="category">
           <conditions>
-            <condition type="notInstanceOf" value="1" field="selections" scope="primary-catalogue" childId="d265-877b-e03d-30ca" shared="true" includeChildSelections="true" includeChildForces="true" />
+            <condition type="notInstanceOf" value="1" field="selections" scope="primary-catalogue" childId="03cf-b34d-0126-12c8" shared="true" includeChildSelections="true" includeChildForces="true" />
           </conditions>
         </modifier>
       </modifiers>
@@ -7928,7 +7928,7 @@ _Note du concepteur: Tant que cette unité contient une ou plusieurs figurines ^
         </modifier>
         <modifier type="set-primary" value="887b-ab87-92a2-20f5" field="category">
           <conditions>
-            <condition type="notInstanceOf" value="1" field="selections" scope="primary-catalogue" childId="d265-877b-e03d-30ca" shared="true" includeChildSelections="true" includeChildForces="true" />
+            <condition type="notInstanceOf" value="1" field="selections" scope="primary-catalogue" childId="03cf-b34d-0126-12c8" shared="true" includeChildSelections="true" includeChildForces="true" />
           </conditions>
         </modifier>
       </modifiers>
@@ -8170,7 +8170,7 @@ _Note du concepteur: Tant que cette unité contient une ou plusieurs figurines ^
         </modifier>
         <modifier type="set-primary" value="887b-ab87-92a2-20f5" field="category">
           <conditions>
-            <condition type="notInstanceOf" value="1" field="selections" scope="primary-catalogue" childId="d265-877b-e03d-30ca" shared="true" includeChildSelections="true" includeChildForces="true" />
+            <condition type="notInstanceOf" value="1" field="selections" scope="primary-catalogue" childId="03cf-b34d-0126-12c8" shared="true" includeChildSelections="true" includeChildForces="true" />
           </conditions>
         </modifier>
         <modifier type="set" value="true" field="hidden">
@@ -8262,7 +8262,7 @@ _Note du concepteur: Tant que cette unité contient une ou plusieurs figurines ^
         </modifier>
         <modifier type="set-primary" value="887b-ab87-92a2-20f5" field="category">
           <conditions>
-            <condition type="notInstanceOf" value="1" field="selections" scope="primary-catalogue" childId="d265-877b-e03d-30ca" shared="true" includeChildSelections="true" includeChildForces="true" />
+            <condition type="notInstanceOf" value="1" field="selections" scope="primary-catalogue" childId="03cf-b34d-0126-12c8" shared="true" includeChildSelections="true" includeChildForces="true" />
           </conditions>
         </modifier>
       </modifiers>
@@ -8495,7 +8495,7 @@ _Note du concepteur: Tant que cette unité contient une ou plusieurs figurines ^
         </modifier>
         <modifier type="set-primary" value="887b-ab87-92a2-20f5" field="category">
           <conditions>
-            <condition type="notInstanceOf" value="1" field="selections" scope="primary-catalogue" childId="d265-877b-e03d-30ca" shared="true" includeChildSelections="true" includeChildForces="true" />
+            <condition type="notInstanceOf" value="1" field="selections" scope="primary-catalogue" childId="03cf-b34d-0126-12c8" shared="true" includeChildSelections="true" includeChildForces="true" />
           </conditions>
         </modifier>
         <modifier type="set" value="true" field="hidden">
@@ -8660,7 +8660,7 @@ _Note du concepteur: Tant que cette unité contient une ou plusieurs figurines ^
         </modifier>
         <modifier type="set-primary" value="887b-ab87-92a2-20f5" field="category">
           <conditions>
-            <condition type="notInstanceOf" value="1" field="selections" scope="primary-catalogue" childId="d265-877b-e03d-30ca" shared="true" includeChildSelections="true" includeChildForces="true" />
+            <condition type="notInstanceOf" value="1" field="selections" scope="primary-catalogue" childId="03cf-b34d-0126-12c8" shared="true" includeChildSelections="true" includeChildForces="true" />
           </conditions>
         </modifier>
       </modifiers>
@@ -8746,7 +8746,7 @@ _Note du concepteur: Tant que cette unité contient une ou plusieurs figurines ^
         </modifier>
         <modifier type="set-primary" value="887b-ab87-92a2-20f5" field="category">
           <conditions>
-            <condition type="notInstanceOf" value="1" field="selections" scope="primary-catalogue" childId="d265-877b-e03d-30ca" shared="true" includeChildSelections="true" includeChildForces="true" />
+            <condition type="notInstanceOf" value="1" field="selections" scope="primary-catalogue" childId="03cf-b34d-0126-12c8" shared="true" includeChildSelections="true" includeChildForces="true" />
           </conditions>
         </modifier>
       </modifiers>
@@ -9026,7 +9026,7 @@ _Note du concepteur: Tant que cette unité contient une ou plusieurs figurines ^
         </modifier>
         <modifier type="set-primary" value="887b-ab87-92a2-20f5" field="category">
           <conditions>
-            <condition type="notInstanceOf" value="1" field="selections" scope="primary-catalogue" childId="d265-877b-e03d-30ca" shared="true" includeChildSelections="true" includeChildForces="true" />
+            <condition type="notInstanceOf" value="1" field="selections" scope="primary-catalogue" childId="03cf-b34d-0126-12c8" shared="true" includeChildSelections="true" includeChildForces="true" />
           </conditions>
         </modifier>
       </modifiers>
@@ -9115,7 +9115,7 @@ _Note du concepteur: Tant que cette unité contient une ou plusieurs figurines ^
         </modifier>
         <modifier type="set-primary" value="887b-ab87-92a2-20f5" field="category">
           <conditions>
-            <condition type="notInstanceOf" value="1" field="selections" scope="primary-catalogue" childId="d265-877b-e03d-30ca" shared="true" includeChildSelections="true" includeChildForces="true" />
+            <condition type="notInstanceOf" value="1" field="selections" scope="primary-catalogue" childId="03cf-b34d-0126-12c8" shared="true" includeChildSelections="true" includeChildForces="true" />
           </conditions>
         </modifier>
       </modifiers>
@@ -9498,7 +9498,7 @@ _Note du concepteur: Tant que cette unité contient une ou plusieurs figurines ^
         </modifier>
         <modifier type="set-primary" value="887b-ab87-92a2-20f5" field="category">
           <conditions>
-            <condition type="notInstanceOf" value="1" field="selections" scope="primary-catalogue" childId="d265-877b-e03d-30ca" shared="true" includeChildSelections="true" includeChildForces="true" />
+            <condition type="notInstanceOf" value="1" field="selections" scope="primary-catalogue" childId="03cf-b34d-0126-12c8" shared="true" includeChildSelections="true" includeChildForces="true" />
           </conditions>
         </modifier>
       </modifiers>
@@ -9704,7 +9704,7 @@ _Note du concepteur: Tant que cette unité contient une ou plusieurs figurines ^
         </modifier>
         <modifier type="set-primary" value="887b-ab87-92a2-20f5" field="category">
           <conditions>
-            <condition type="notInstanceOf" value="1" field="selections" scope="primary-catalogue" childId="d265-877b-e03d-30ca" shared="true" includeChildSelections="true" includeChildForces="true" />
+            <condition type="notInstanceOf" value="1" field="selections" scope="primary-catalogue" childId="03cf-b34d-0126-12c8" shared="true" includeChildSelections="true" includeChildForces="true" />
           </conditions>
         </modifier>
         <modifier type="set" value="true" field="hidden">
@@ -10020,7 +10020,7 @@ _Note du concepteur: Tant que cette unité contient une ou plusieurs figurines ^
         </modifier>
         <modifier type="set-primary" value="887b-ab87-92a2-20f5" field="category">
           <conditions>
-            <condition type="notInstanceOf" value="1" field="selections" scope="primary-catalogue" childId="d265-877b-e03d-30ca" shared="true" includeChildSelections="true" includeChildForces="true" />
+            <condition type="notInstanceOf" value="1" field="selections" scope="primary-catalogue" childId="03cf-b34d-0126-12c8" shared="true" includeChildSelections="true" includeChildForces="true" />
           </conditions>
         </modifier>
       </modifiers>
@@ -10163,7 +10163,7 @@ _Note du concepteur: Tant que cette unité contient une ou plusieurs figurines ^
         </modifier>
         <modifier type="set-primary" value="887b-ab87-92a2-20f5" field="category">
           <conditions>
-            <condition type="notInstanceOf" value="1" field="selections" scope="primary-catalogue" childId="d265-877b-e03d-30ca" shared="true" includeChildSelections="true" includeChildForces="true" />
+            <condition type="notInstanceOf" value="1" field="selections" scope="primary-catalogue" childId="03cf-b34d-0126-12c8" shared="true" includeChildSelections="true" includeChildForces="true" />
           </conditions>
         </modifier>
       </modifiers>
@@ -10417,7 +10417,7 @@ _Note du concepteur: Tant que cette unité contient une ou plusieurs figurines ^
         </modifier>
         <modifier type="set-primary" value="887b-ab87-92a2-20f5" field="category">
           <conditions>
-            <condition type="notInstanceOf" value="1" field="selections" scope="primary-catalogue" childId="d265-877b-e03d-30ca" shared="true" includeChildSelections="true" includeChildForces="true" />
+            <condition type="notInstanceOf" value="1" field="selections" scope="primary-catalogue" childId="03cf-b34d-0126-12c8" shared="true" includeChildSelections="true" includeChildForces="true" />
           </conditions>
         </modifier>
         <modifier type="set" value="true" field="hidden">
@@ -10612,7 +10612,7 @@ _Note du concepteur: Tant que cette unité contient une ou plusieurs figurines ^
         </modifier>
         <modifier type="set-primary" value="887b-ab87-92a2-20f5" field="category">
           <conditions>
-            <condition type="notInstanceOf" value="1" field="selections" scope="primary-catalogue" childId="d265-877b-e03d-30ca" shared="true" includeChildSelections="true" includeChildForces="true" />
+            <condition type="notInstanceOf" value="1" field="selections" scope="primary-catalogue" childId="03cf-b34d-0126-12c8" shared="true" includeChildSelections="true" includeChildForces="true" />
           </conditions>
         </modifier>
         <modifier type="set" value="true" field="hidden">
@@ -10710,7 +10710,7 @@ _Note du concepteur: Tant que cette unité contient une ou plusieurs figurines ^
         </modifier>
         <modifier type="set-primary" value="887b-ab87-92a2-20f5" field="category">
           <conditions>
-            <condition type="notInstanceOf" value="1" field="selections" scope="primary-catalogue" childId="d265-877b-e03d-30ca" shared="true" includeChildSelections="true" includeChildForces="true" />
+            <condition type="notInstanceOf" value="1" field="selections" scope="primary-catalogue" childId="03cf-b34d-0126-12c8" shared="true" includeChildSelections="true" includeChildForces="true" />
           </conditions>
         </modifier>
       </modifiers>
@@ -10934,7 +10934,7 @@ _Note du concepteur: Tant que cette unité contient une ou plusieurs figurines ^
         </modifier>
         <modifier type="set-primary" value="887b-ab87-92a2-20f5" field="category">
           <conditions>
-            <condition type="notInstanceOf" value="1" field="selections" scope="primary-catalogue" childId="d265-877b-e03d-30ca" shared="true" includeChildSelections="true" includeChildForces="true" />
+            <condition type="notInstanceOf" value="1" field="selections" scope="primary-catalogue" childId="03cf-b34d-0126-12c8" shared="true" includeChildSelections="true" includeChildForces="true" />
           </conditions>
         </modifier>
       </modifiers>
@@ -11210,7 +11210,7 @@ _Note du concepteur: Tant que cette unité contient une ou plusieurs figurines ^
         </modifier>
         <modifier type="set-primary" value="887b-ab87-92a2-20f5" field="category">
           <conditions>
-            <condition type="notInstanceOf" value="1" field="selections" scope="primary-catalogue" childId="d265-877b-e03d-30ca" shared="true" includeChildSelections="true" includeChildForces="true" />
+            <condition type="notInstanceOf" value="1" field="selections" scope="primary-catalogue" childId="03cf-b34d-0126-12c8" shared="true" includeChildSelections="true" includeChildForces="true" />
           </conditions>
         </modifier>
       </modifiers>
@@ -11461,7 +11461,7 @@ _Note du concepteur: Tant que cette unité contient une ou plusieurs figurines ^
         </modifier>
         <modifier type="set-primary" value="887b-ab87-92a2-20f5" field="category">
           <conditions>
-            <condition type="notInstanceOf" value="1" field="selections" scope="primary-catalogue" childId="d265-877b-e03d-30ca" shared="true" includeChildSelections="true" includeChildForces="true" />
+            <condition type="notInstanceOf" value="1" field="selections" scope="primary-catalogue" childId="03cf-b34d-0126-12c8" shared="true" includeChildSelections="true" includeChildForces="true" />
           </conditions>
         </modifier>
       </modifiers>
@@ -11561,7 +11561,7 @@ _Note du concepteur: Tant que cette unité contient une ou plusieurs figurines ^
         </modifier>
         <modifier type="set-primary" value="887b-ab87-92a2-20f5" field="category">
           <conditions>
-            <condition type="notInstanceOf" value="1" field="selections" scope="primary-catalogue" childId="d265-877b-e03d-30ca" shared="true" includeChildSelections="true" includeChildForces="true" />
+            <condition type="notInstanceOf" value="1" field="selections" scope="primary-catalogue" childId="03cf-b34d-0126-12c8" shared="true" includeChildSelections="true" includeChildForces="true" />
           </conditions>
         </modifier>
       </modifiers>
@@ -11746,7 +11746,7 @@ _Note du concepteur: Tant que cette unité contient une ou plusieurs figurines ^
         </modifier>
         <modifier type="set-primary" value="887b-ab87-92a2-20f5" field="category">
           <conditions>
-            <condition type="notInstanceOf" value="1" field="selections" scope="primary-catalogue" childId="d265-877b-e03d-30ca" shared="true" includeChildSelections="true" includeChildForces="true" />
+            <condition type="notInstanceOf" value="1" field="selections" scope="primary-catalogue" childId="03cf-b34d-0126-12c8" shared="true" includeChildSelections="true" includeChildForces="true" />
           </conditions>
         </modifier>
       </modifiers>
@@ -12215,7 +12215,7 @@ _Note du concepteur: Tant que cette unité contient une ou plusieurs figurines ^
         </modifier>
         <modifier type="set-primary" value="887b-ab87-92a2-20f5" field="category">
           <conditions>
-            <condition type="notInstanceOf" value="1" field="selections" scope="primary-catalogue" childId="d265-877b-e03d-30ca" shared="true" includeChildSelections="true" includeChildForces="true" />
+            <condition type="notInstanceOf" value="1" field="selections" scope="primary-catalogue" childId="03cf-b34d-0126-12c8" shared="true" includeChildSelections="true" includeChildForces="true" />
           </conditions>
         </modifier>
       </modifiers>
@@ -12451,7 +12451,7 @@ _Note du concepteur: Tant que cette unité contient une ou plusieurs figurines ^
         </modifier>
         <modifier type="set-primary" value="887b-ab87-92a2-20f5" field="category">
           <conditions>
-            <condition type="notInstanceOf" value="1" field="selections" scope="primary-catalogue" childId="d265-877b-e03d-30ca" shared="true" includeChildSelections="true" includeChildForces="true" />
+            <condition type="notInstanceOf" value="1" field="selections" scope="primary-catalogue" childId="03cf-b34d-0126-12c8" shared="true" includeChildSelections="true" includeChildForces="true" />
           </conditions>
         </modifier>
       </modifiers>
@@ -12582,7 +12582,7 @@ _Note du concepteur: Tant que cette unité contient une ou plusieurs figurines ^
         </modifier>
         <modifier type="set-primary" value="887b-ab87-92a2-20f5" field="category">
           <conditions>
-            <condition type="notInstanceOf" value="1" field="selections" scope="primary-catalogue" childId="d265-877b-e03d-30ca" shared="true" includeChildSelections="true" includeChildForces="true" />
+            <condition type="notInstanceOf" value="1" field="selections" scope="primary-catalogue" childId="03cf-b34d-0126-12c8" shared="true" includeChildSelections="true" includeChildForces="true" />
           </conditions>
         </modifier>
         <modifier type="set" value="true" field="hidden">
@@ -12856,7 +12856,7 @@ _Note du concepteur: Tant que cette unité contient une ou plusieurs figurines ^
               <modifiers>
                 <modifier type="set" field="52d1-e6ce-959a-42fa" value="1">
                   <conditions>
-                    <condition field="selections" scope="primary-catalogue" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="df9a-59b2-f464-59ad" type="instanceOf" />
+                    <condition field="selections" scope="primary-catalogue" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="5b2e-e089-2987-125c" type="instanceOf" />
                   </conditions>
                 </modifier>
               </modifiers>
@@ -12878,7 +12878,7 @@ _Note du concepteur: Tant que cette unité contient une ou plusieurs figurines ^
               <modifiers>
                 <modifier type="set" field="9cb9-bd0-7284-cece" value="1">
                   <conditions>
-                    <condition field="selections" scope="primary-catalogue" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="5108-f98-63c2-53cb" type="instanceOf" />
+                    <condition field="selections" scope="primary-catalogue" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="5ff8-5a62-176a-87a6" type="instanceOf" />
                   </conditions>
                 </modifier>
               </modifiers>
@@ -12923,7 +12923,7 @@ _Note du concepteur: Tant que cette unité contient une ou plusieurs figurines ^
               <modifiers>
                 <modifier type="set" field="3ff6-8e13-dc2-c622" value="1">
                   <conditions>
-                    <condition field="selections" scope="primary-catalogue" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="1069-10ff-3ba9-873b" type="instanceOf" />
+                    <condition field="selections" scope="primary-catalogue" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="2b88-ba4a-f464-e32d" type="instanceOf" />
                   </conditions>
                 </modifier>
               </modifiers>
@@ -13019,7 +13019,7 @@ _Note du concepteur: Tant que cette unité contient une ou plusieurs figurines ^
         </modifier>
         <modifier type="set-primary" value="887b-ab87-92a2-20f5" field="category">
           <conditions>
-            <condition type="notInstanceOf" value="1" field="selections" scope="primary-catalogue" childId="d265-877b-e03d-30ca" shared="true" includeChildSelections="true" includeChildForces="true" />
+            <condition type="notInstanceOf" value="1" field="selections" scope="primary-catalogue" childId="03cf-b34d-0126-12c8" shared="true" includeChildSelections="true" includeChildForces="true" />
           </conditions>
         </modifier>
       </modifiers>
@@ -13174,7 +13174,7 @@ _Note du concepteur: Tant que cette unité contient une ou plusieurs figurines ^
               <modifiers>
                 <modifier type="set" field="52d1-e6ce-959a-42fa" value="1">
                   <conditions>
-                    <condition field="selections" scope="primary-catalogue" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="df9a-59b2-f464-59ad" type="instanceOf" />
+                    <condition field="selections" scope="primary-catalogue" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="5b2e-e089-2987-125c" type="instanceOf" />
                   </conditions>
                 </modifier>
               </modifiers>
@@ -13196,7 +13196,7 @@ _Note du concepteur: Tant que cette unité contient une ou plusieurs figurines ^
               <modifiers>
                 <modifier type="set" field="9cb9-bd0-7284-cece" value="1">
                   <conditions>
-                    <condition field="selections" scope="primary-catalogue" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="5108-f98-63c2-53cb" type="instanceOf" />
+                    <condition field="selections" scope="primary-catalogue" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="5ff8-5a62-176a-87a6" type="instanceOf" />
                   </conditions>
                 </modifier>
               </modifiers>
@@ -13241,7 +13241,7 @@ _Note du concepteur: Tant que cette unité contient une ou plusieurs figurines ^
               <modifiers>
                 <modifier type="set" field="3ff6-8e13-dc2-c622" value="1">
                   <conditions>
-                    <condition field="selections" scope="primary-catalogue" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="1069-10ff-3ba9-873b" type="instanceOf" />
+                    <condition field="selections" scope="primary-catalogue" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="2b88-ba4a-f464-e32d" type="instanceOf" />
                   </conditions>
                 </modifier>
               </modifiers>
@@ -13323,7 +13323,7 @@ _Note du concepteur: Tant que cette unité contient une ou plusieurs figurines ^
         </modifier>
         <modifier type="set-primary" value="887b-ab87-92a2-20f5" field="category">
           <conditions>
-            <condition type="notInstanceOf" value="1" field="selections" scope="primary-catalogue" childId="d265-877b-e03d-30ca" shared="true" includeChildSelections="true" includeChildForces="true" />
+            <condition type="notInstanceOf" value="1" field="selections" scope="primary-catalogue" childId="03cf-b34d-0126-12c8" shared="true" includeChildSelections="true" includeChildForces="true" />
           </conditions>
         </modifier>
       </modifiers>
@@ -13568,7 +13568,7 @@ _Note du concepteur: Tant que cette unité contient une ou plusieurs figurines ^
         </modifier>
         <modifier type="set-primary" value="887b-ab87-92a2-20f5" field="category">
           <conditions>
-            <condition type="notInstanceOf" value="1" field="selections" scope="primary-catalogue" childId="d265-877b-e03d-30ca" shared="true" includeChildSelections="true" includeChildForces="true" />
+            <condition type="notInstanceOf" value="1" field="selections" scope="primary-catalogue" childId="03cf-b34d-0126-12c8" shared="true" includeChildSelections="true" includeChildForces="true" />
           </conditions>
         </modifier>
       </modifiers>
@@ -13768,7 +13768,7 @@ _Note du concepteur: Tant que cette unité contient une ou plusieurs figurines ^
         </modifier>
         <modifier type="set-primary" value="887b-ab87-92a2-20f5" field="category">
           <conditions>
-            <condition type="notInstanceOf" value="1" field="selections" scope="primary-catalogue" childId="d265-877b-e03d-30ca" shared="true" includeChildSelections="true" includeChildForces="true" />
+            <condition type="notInstanceOf" value="1" field="selections" scope="primary-catalogue" childId="03cf-b34d-0126-12c8" shared="true" includeChildSelections="true" includeChildForces="true" />
           </conditions>
         </modifier>
       </modifiers>
@@ -13970,7 +13970,7 @@ _Note du concepteur: Tant que cette unité contient une ou plusieurs figurines ^
         </modifier>
         <modifier type="set-primary" value="887b-ab87-92a2-20f5" field="category">
           <conditions>
-            <condition type="notInstanceOf" value="1" field="selections" scope="primary-catalogue" childId="d265-877b-e03d-30ca" shared="true" includeChildSelections="true" includeChildForces="true" />
+            <condition type="notInstanceOf" value="1" field="selections" scope="primary-catalogue" childId="03cf-b34d-0126-12c8" shared="true" includeChildSelections="true" includeChildForces="true" />
           </conditions>
         </modifier>
         <modifier type="set" value="true" field="hidden">
@@ -14150,7 +14150,7 @@ _Note du concepteur: Tant que cette unité contient une ou plusieurs figurines ^
         </modifier>
         <modifier type="set-primary" value="887b-ab87-92a2-20f5" field="category">
           <conditions>
-            <condition type="notInstanceOf" value="1" field="selections" scope="primary-catalogue" childId="d265-877b-e03d-30ca" shared="true" includeChildSelections="true" includeChildForces="true" />
+            <condition type="notInstanceOf" value="1" field="selections" scope="primary-catalogue" childId="03cf-b34d-0126-12c8" shared="true" includeChildSelections="true" includeChildForces="true" />
           </conditions>
         </modifier>
         <modifier type="set" value="true" field="hidden">
@@ -14301,7 +14301,7 @@ _Note du concepteur: Tant que cette unité contient une ou plusieurs figurines ^
         </modifier>
         <modifier type="set-primary" value="887b-ab87-92a2-20f5" field="category">
           <conditions>
-            <condition type="notInstanceOf" value="1" field="selections" scope="primary-catalogue" childId="d265-877b-e03d-30ca" shared="true" includeChildSelections="true" includeChildForces="true" />
+            <condition type="notInstanceOf" value="1" field="selections" scope="primary-catalogue" childId="03cf-b34d-0126-12c8" shared="true" includeChildSelections="true" includeChildForces="true" />
           </conditions>
         </modifier>
         <modifier type="set" value="true" field="hidden">
@@ -14475,7 +14475,7 @@ _Note du concepteur: Tant que cette unité contient une ou plusieurs figurines ^
         </modifier>
         <modifier type="set-primary" value="887b-ab87-92a2-20f5" field="category">
           <conditions>
-            <condition type="notInstanceOf" value="1" field="selections" scope="primary-catalogue" childId="d265-877b-e03d-30ca" shared="true" includeChildSelections="true" includeChildForces="true" />
+            <condition type="notInstanceOf" value="1" field="selections" scope="primary-catalogue" childId="03cf-b34d-0126-12c8" shared="true" includeChildSelections="true" includeChildForces="true" />
           </conditions>
         </modifier>
         <modifier type="set" value="true" field="hidden">
@@ -14573,7 +14573,7 @@ _Note du concepteur: Tant que cette unité contient une ou plusieurs figurines ^
         </modifier>
         <modifier type="set-primary" value="887b-ab87-92a2-20f5" field="category">
           <conditions>
-            <condition type="notInstanceOf" value="1" field="selections" scope="primary-catalogue" childId="d265-877b-e03d-30ca" shared="true" includeChildSelections="true" includeChildForces="true" />
+            <condition type="notInstanceOf" value="1" field="selections" scope="primary-catalogue" childId="03cf-b34d-0126-12c8" shared="true" includeChildSelections="true" includeChildForces="true" />
           </conditions>
         </modifier>
       </modifiers>
@@ -14813,7 +14813,7 @@ _Note du concepteur: Tant que cette unité contient une ou plusieurs figurines ^
         </modifier>
         <modifier type="set-primary" value="887b-ab87-92a2-20f5" field="category">
           <conditions>
-            <condition type="notInstanceOf" value="1" field="selections" scope="primary-catalogue" childId="d265-877b-e03d-30ca" shared="true" includeChildSelections="true" includeChildForces="true" />
+            <condition type="notInstanceOf" value="1" field="selections" scope="primary-catalogue" childId="03cf-b34d-0126-12c8" shared="true" includeChildSelections="true" includeChildForces="true" />
           </conditions>
         </modifier>
       </modifiers>
@@ -14833,7 +14833,7 @@ _Note du concepteur: Tant que cette unité contient une ou plusieurs figurines ^
               <modifiers>
                 <modifier type="set" field="52d1-e6ce-959a-42fa" value="1">
                   <conditions>
-                    <condition field="selections" scope="primary-catalogue" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="df9a-59b2-f464-59ad" type="instanceOf" />
+                    <condition field="selections" scope="primary-catalogue" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="5b2e-e089-2987-125c" type="instanceOf" />
                   </conditions>
                 </modifier>
               </modifiers>
@@ -14855,7 +14855,7 @@ _Note du concepteur: Tant que cette unité contient une ou plusieurs figurines ^
               <modifiers>
                 <modifier type="set" field="9cb9-bd0-7284-cece" value="1">
                   <conditions>
-                    <condition field="selections" scope="primary-catalogue" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="5108-f98-63c2-53cb" type="instanceOf" />
+                    <condition field="selections" scope="primary-catalogue" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="5ff8-5a62-176a-87a6" type="instanceOf" />
                   </conditions>
                 </modifier>
               </modifiers>
@@ -14900,7 +14900,7 @@ _Note du concepteur: Tant que cette unité contient une ou plusieurs figurines ^
               <modifiers>
                 <modifier type="set" field="3ff6-8e13-dc2-c622" value="1">
                   <conditions>
-                    <condition field="selections" scope="primary-catalogue" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="1069-10ff-3ba9-873b" type="instanceOf" />
+                    <condition field="selections" scope="primary-catalogue" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="2b88-ba4a-f464-e32d" type="instanceOf" />
                   </conditions>
                 </modifier>
               </modifiers>
@@ -15247,7 +15247,7 @@ _Note du concepteur: Tant que cette unité contient une ou plusieurs figurines ^
         </modifier>
         <modifier type="set-primary" value="887b-ab87-92a2-20f5" field="category">
           <conditions>
-            <condition type="instanceOf" value="1" field="selections" scope="primary-catalogue" childId="c8da-e875-58f7-f6d6" shared="true" includeChildSelections="true" includeChildForces="true" />
+            <condition type="instanceOf" value="1" field="selections" scope="primary-catalogue" childId="62a9-45cc-b749-3616" shared="true" includeChildSelections="true" includeChildForces="true" />
           </conditions>
         </modifier>
         <modifier type="set" value="true" field="hidden">
@@ -15388,7 +15388,7 @@ _Note du concepteur: Tant que cette unité contient une ou plusieurs figurines ^
         </modifier>
         <modifier type="set-primary" value="887b-ab87-92a2-20f5" field="category">
           <conditions>
-            <condition type="instanceOf" value="1" field="selections" scope="primary-catalogue" childId="c8da-e875-58f7-f6d6" shared="true" includeChildSelections="true" includeChildForces="true" />
+            <condition type="instanceOf" value="1" field="selections" scope="primary-catalogue" childId="62a9-45cc-b749-3616" shared="true" includeChildSelections="true" includeChildForces="true" />
           </conditions>
         </modifier>
         <modifier type="set" value="true" field="hidden">
@@ -15533,7 +15533,7 @@ _Note du concepteur: Tant que cette unité contient une ou plusieurs figurines ^
         </modifier>
         <modifier type="set-primary" value="887b-ab87-92a2-20f5" field="category">
           <conditions>
-            <condition type="instanceOf" value="1" field="selections" scope="primary-catalogue" childId="c8da-e875-58f7-f6d6" shared="true" includeChildSelections="true" includeChildForces="true" />
+            <condition type="instanceOf" value="1" field="selections" scope="primary-catalogue" childId="62a9-45cc-b749-3616" shared="true" includeChildSelections="true" includeChildForces="true" />
           </conditions>
         </modifier>
         <modifier type="set" value="true" field="hidden">
@@ -16993,27 +16993,27 @@ _Note du concepteur: Tant que cette unité contient une ou plusieurs figurines ^
             <modifier type="increment" value="1" field="750a-a2ec-90d3-21fe" scope="parent" affects="profiles.Unit" />
             <modifier type="add" value="2914-64bb-affb-3709" field="category">
               <conditions>
-                <condition type="instanceOf" value="1" field="selections" scope="primary-catalogue" childId="d265-877b-e03d-30ca" shared="true" />
+                <condition type="instanceOf" value="1" field="selections" scope="primary-catalogue" childId="03cf-b34d-0126-12c8" shared="true" />
               </conditions>
             </modifier>
             <modifier type="set" value="1" field="59c5-8685-a3f4-8fa0">
               <conditions>
-                <condition type="instanceOf" value="1" field="selections" scope="primary-catalogue" childId="df9a-59b2-f464-59ad" shared="true" />
+                <condition type="instanceOf" value="1" field="selections" scope="primary-catalogue" childId="5b2e-e089-2987-125c" shared="true" />
               </conditions>
             </modifier>
             <modifier type="add" value="2308-7f1a-2beb-1e16" field="category" scope="parent">
               <conditions>
-                <condition type="instanceOf" value="1" field="selections" scope="primary-catalogue" childId="c8da-e875-58f7-f6d6" shared="true" />
+                <condition type="instanceOf" value="1" field="selections" scope="primary-catalogue" childId="62a9-45cc-b749-3616" shared="true" />
               </conditions>
             </modifier>
             <modifier type="set" value="true" field="hidden">
               <conditionGroups>
                 <conditionGroup type="and">
                   <conditions>
-                    <condition type="notInstanceOf" value="1" field="selections" scope="primary-catalogue" childId="df9a-59b2-f464-59ad" shared="true" />
-                    <condition type="notInstanceOf" value="1" field="selections" scope="primary-catalogue" childId="d265-877b-e03d-30ca" shared="true" />
-                    <condition type="notInstanceOf" value="1" field="selections" scope="primary-catalogue" childId="c8da-e875-58f7-f6d6" shared="true" />
-                    <condition type="notInstanceOf" value="1" field="selections" scope="primary-catalogue" childId="46d8-abc8-ef3a-9f85" shared="true" />
+                    <condition type="notInstanceOf" value="1" field="selections" scope="primary-catalogue" childId="5b2e-e089-2987-125c" shared="true" />
+                    <condition type="notInstanceOf" value="1" field="selections" scope="primary-catalogue" childId="03cf-b34d-0126-12c8" shared="true" />
+                    <condition type="notInstanceOf" value="1" field="selections" scope="primary-catalogue" childId="62a9-45cc-b749-3616" shared="true" />
+                    <condition type="notInstanceOf" value="1" field="selections" scope="primary-catalogue" childId="f0ff-96fa-6715-5265" shared="true" />
                   </conditions>
                 </conditionGroup>
               </conditionGroups>
@@ -17052,17 +17052,17 @@ _Note du concepteur: Tant que cette unité contient une ou plusieurs figurines ^
             <modifier type="add" value="be29-ad24-823c-5911" field="category" />
             <modifier type="set" value="1" field="d683-f8f0-98ca-32a3">
               <conditions>
-                <condition type="instanceOf" value="1" field="selections" scope="primary-catalogue" childId="03fe-a162-4c02-f07b" shared="true" />
+                <condition type="instanceOf" value="1" field="selections" scope="primary-catalogue" childId="9d03-ff50-e821-55da" shared="true" />
               </conditions>
             </modifier>
             <modifier type="set" value="true" field="hidden">
               <conditionGroups>
                 <conditionGroup type="and">
                   <conditions>
-                    <condition type="notInstanceOf" value="1" field="selections" scope="primary-catalogue" childId="03fe-a162-4c02-f07b" shared="true" />
-                    <condition type="notInstanceOf" value="1" field="selections" scope="primary-catalogue" childId="d265-877b-e03d-30ca" shared="true" />
-                    <condition type="notInstanceOf" value="1" field="selections" scope="primary-catalogue" childId="c8da-e875-58f7-f6d6" shared="true" />
-                    <condition type="notInstanceOf" value="1" field="selections" scope="primary-catalogue" childId="46d8-abc8-ef3a-9f85" shared="true" />
+                    <condition type="notInstanceOf" value="1" field="selections" scope="primary-catalogue" childId="9d03-ff50-e821-55da" shared="true" />
+                    <condition type="notInstanceOf" value="1" field="selections" scope="primary-catalogue" childId="03cf-b34d-0126-12c8" shared="true" />
+                    <condition type="notInstanceOf" value="1" field="selections" scope="primary-catalogue" childId="62a9-45cc-b749-3616" shared="true" />
+                    <condition type="notInstanceOf" value="1" field="selections" scope="primary-catalogue" childId="f0ff-96fa-6715-5265" shared="true" />
                   </conditions>
                 </conditionGroup>
               </conditionGroups>
@@ -17071,7 +17071,7 @@ _Note du concepteur: Tant que cette unité contient une ou plusieurs figurines ^
             <modifier type="add" value="13bf-2bee-3ae0-b414" field="category" />
             <modifier type="add" value="8aa7-4f0e-f4ab-83a3" field="category" scope="parent">
               <conditions>
-                <condition type="instanceOf" value="1" field="selections" scope="primary-catalogue" childId="c8da-e875-58f7-f6d6" shared="true" />
+                <condition type="instanceOf" value="1" field="selections" scope="primary-catalogue" childId="62a9-45cc-b749-3616" shared="true" />
               </conditions>
             </modifier>
           </modifiers>
@@ -17096,17 +17096,17 @@ _Note du concepteur: Tant que cette unité contient une ou plusieurs figurines ^
             <modifier type="add" value="2a46-adb6-60fd-63a0" field="category" />
             <modifier type="set" value="1" field="071a-2ff2-85bc-bccb">
               <conditions>
-                <condition type="instanceOf" value="1" field="selections" scope="primary-catalogue" childId="5108-f98-63c2-53cb" shared="true" />
+                <condition type="instanceOf" value="1" field="selections" scope="primary-catalogue" childId="5ff8-5a62-176a-87a6" shared="true" />
               </conditions>
             </modifier>
             <modifier type="set" value="true" field="hidden">
               <conditionGroups>
                 <conditionGroup type="and">
                   <conditions>
-                    <condition type="notInstanceOf" value="1" field="selections" scope="primary-catalogue" childId="5108-f98-63c2-53cb" shared="true" />
-                    <condition type="notInstanceOf" value="1" field="selections" scope="primary-catalogue" childId="d265-877b-e03d-30ca" shared="true" />
-                    <condition type="notInstanceOf" value="1" field="selections" scope="primary-catalogue" childId="c8da-e875-58f7-f6d6" shared="true" />
-                    <condition type="notInstanceOf" value="1" field="selections" scope="primary-catalogue" childId="46d8-abc8-ef3a-9f85" shared="true" />
+                    <condition type="notInstanceOf" value="1" field="selections" scope="primary-catalogue" childId="5ff8-5a62-176a-87a6" shared="true" />
+                    <condition type="notInstanceOf" value="1" field="selections" scope="primary-catalogue" childId="03cf-b34d-0126-12c8" shared="true" />
+                    <condition type="notInstanceOf" value="1" field="selections" scope="primary-catalogue" childId="62a9-45cc-b749-3616" shared="true" />
+                    <condition type="notInstanceOf" value="1" field="selections" scope="primary-catalogue" childId="f0ff-96fa-6715-5265" shared="true" />
                   </conditions>
                 </conditionGroup>
               </conditionGroups>
@@ -17116,7 +17116,7 @@ _Note du concepteur: Tant que cette unité contient une ou plusieurs figurines ^
             <modifier type="add" value="13bf-2bee-3ae0-b414" field="category" />
             <modifier type="add" value="8e3c-5782-5118-b4b8" field="category" scope="parent">
               <conditions>
-                <condition type="instanceOf" value="1" field="selections" scope="primary-catalogue" childId="c8da-e875-58f7-f6d6" shared="true" />
+                <condition type="instanceOf" value="1" field="selections" scope="primary-catalogue" childId="62a9-45cc-b749-3616" shared="true" />
               </conditions>
             </modifier>
           </modifiers>
@@ -17140,17 +17140,17 @@ _Note du concepteur: Tant que cette unité contient une ou plusieurs figurines ^
             <modifier type="add" value="750a-594b-46e5-6f10" field="category" />
             <modifier type="set" value="1" field="1dc8-98bc-d39e-95a7">
               <conditions>
-                <condition type="instanceOf" value="1" field="selections" scope="primary-catalogue" childId="1069-10ff-3ba9-873b" shared="true" />
+                <condition type="instanceOf" value="1" field="selections" scope="primary-catalogue" childId="2b88-ba4a-f464-e32d" shared="true" />
               </conditions>
             </modifier>
             <modifier type="set" value="true" field="hidden">
               <conditionGroups>
                 <conditionGroup type="and">
                   <conditions>
-                    <condition type="notInstanceOf" value="1" field="selections" scope="primary-catalogue" childId="1069-10ff-3ba9-873b" shared="true" />
-                    <condition type="notInstanceOf" value="1" field="selections" scope="primary-catalogue" childId="d265-877b-e03d-30ca" shared="true" />
-                    <condition type="notInstanceOf" value="1" field="selections" scope="primary-catalogue" childId="c8da-e875-58f7-f6d6" shared="true" />
-                    <condition type="notInstanceOf" value="1" field="selections" scope="primary-catalogue" childId="46d8-abc8-ef3a-9f85" shared="true" />
+                    <condition type="notInstanceOf" value="1" field="selections" scope="primary-catalogue" childId="2b88-ba4a-f464-e32d" shared="true" />
+                    <condition type="notInstanceOf" value="1" field="selections" scope="primary-catalogue" childId="03cf-b34d-0126-12c8" shared="true" />
+                    <condition type="notInstanceOf" value="1" field="selections" scope="primary-catalogue" childId="62a9-45cc-b749-3616" shared="true" />
+                    <condition type="notInstanceOf" value="1" field="selections" scope="primary-catalogue" childId="f0ff-96fa-6715-5265" shared="true" />
                   </conditions>
                 </conditionGroup>
               </conditionGroups>
@@ -17168,7 +17168,7 @@ _Note du concepteur: Tant que cette unité contient une ou plusieurs figurines ^
             </modifier>
             <modifier type="add" value="6627-b134-a52f-c3db" field="category" scope="parent">
               <conditions>
-                <condition type="instanceOf" value="1" field="selections" scope="primary-catalogue" childId="c8da-e875-58f7-f6d6" shared="true" />
+                <condition type="instanceOf" value="1" field="selections" scope="primary-catalogue" childId="62a9-45cc-b749-3616" shared="true" />
               </conditions>
             </modifier>
           </modifiers>
@@ -18656,7 +18656,7 @@ Tant qu’une unité ennemie est dans la Shadow of Chaos de votre armée et/ou �
       <modifiers>
         <modifier type="set" value="true" field="hidden">
           <conditions>
-            <condition type="notInstanceOf" value="1" field="selections" scope="primary-catalogue" childId="d265-877b-e03d-30ca" shared="true" />
+            <condition type="notInstanceOf" value="1" field="selections" scope="primary-catalogue" childId="03cf-b34d-0126-12c8" shared="true" />
           </conditions>
         </modifier>
       </modifiers>
@@ -18840,6 +18840,6 @@ Tant qu’une unité ennemie est dans la Shadow of Chaos de votre armée et/ou �
     </profile>
   </sharedProfiles>
   <catalogueLinks>
-    <catalogueLink type="catalogue" name="Unaligned Forces" id="861b-e3be-7a6c-4a6" targetId="581a-46b9-5b86-44b7" importRootEntries="true" />
+    <catalogueLink type="catalogue" name="Unaligned Forces" id="861b-e3be-7a6c-4a6" targetId="61f1-ce52-d345-5048" importRootEntries="true" />
   </catalogueLinks>
 </catalogue>

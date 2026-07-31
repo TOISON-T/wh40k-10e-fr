@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue xmlns="http://www.battlescribe.net/schema/catalogueSchema" id="e0af-67df-9d63-8fb7" name="Imperium - Adeptus Astartes - Space Marines" revision="215" battleScribeVersion="2.03" library="false" gameSystemId="sys-352e-adc2-7639-d6a9" gameSystemRevision="1" type="catalogue" authorName="Acebaur">
+<catalogue xmlns="http://www.battlescribe.net/schema/catalogueSchema" id="c64a-a8a4-fe12-90fd" name="Imperium - Adeptus Astartes - Space Marines" revision="215" battleScribeVersion="2.03" library="false" gameSystemId="sys-0e45-705d-f6bc-806a" gameSystemRevision="1" type="catalogue" authorName="Acebaur">
   <categoryEntries>
     <categoryEntry id="5179-8ede-45e3-49a2" name="Tacticus" hidden="false" />
     <categoryEntry id="930d-2875-125b-a65e" name="Bladeguard Veteran Squad" hidden="false" />
@@ -161,7 +161,7 @@
           <conditionGroups>
             <conditionGroup type="or">
               <conditions>
-                <condition type="instanceOf" value="1" field="selections" scope="primary-catalogue" childId="f89b-84e0-6e3b-f1e2" shared="true" />
+                <condition type="instanceOf" value="1" field="selections" scope="primary-catalogue" childId="e3a2-b0b8-ac03-a188" shared="true" />
               </conditions>
             </conditionGroup>
           </conditionGroups>
@@ -174,7 +174,7 @@
           <conditionGroups>
             <conditionGroup type="or">
               <conditions>
-                <condition type="instanceOf" value="1" field="selections" scope="primary-catalogue" childId="f89b-84e0-6e3b-f1e2" shared="true" />
+                <condition type="instanceOf" value="1" field="selections" scope="primary-catalogue" childId="e3a2-b0b8-ac03-a188" shared="true" />
               </conditions>
             </conditionGroup>
           </conditionGroups>
@@ -255,7 +255,7 @@
       <modifiers>
         <modifier type="set" value="true" field="hidden">
           <conditions>
-            <condition type="instanceOf" value="1" field="selections" scope="primary-catalogue" childId="f89b-84e0-6e3b-f1e2" shared="true" />
+            <condition type="instanceOf" value="1" field="selections" scope="primary-catalogue" childId="e3a2-b0b8-ac03-a188" shared="true" />
           </conditions>
         </modifier>
       </modifiers>
@@ -291,7 +291,7 @@
       <modifiers>
         <modifier type="set" value="true" field="hidden">
           <conditions>
-            <condition type="instanceOf" value="1" field="selections" scope="primary-catalogue" childId="f89b-84e0-6e3b-f1e2" shared="true" />
+            <condition type="instanceOf" value="1" field="selections" scope="primary-catalogue" childId="e3a2-b0b8-ac03-a188" shared="true" />
           </conditions>
         </modifier>
       </modifiers>
@@ -309,7 +309,7 @@
           <conditionGroups>
             <conditionGroup type="or">
               <conditions>
-                <condition type="instanceOf" value="1" field="selections" scope="primary-catalogue" childId="f89b-84e0-6e3b-f1e2" shared="true" />
+                <condition type="instanceOf" value="1" field="selections" scope="primary-catalogue" childId="e3a2-b0b8-ac03-a188" shared="true" />
               </conditions>
             </conditionGroup>
           </conditionGroups>
@@ -2939,7 +2939,7 @@
           <conditionGroups>
             <conditionGroup type="or">
               <conditions>
-                <condition type="instanceOf" value="1" field="selections" scope="primary-catalogue" childId="f89b-84e0-6e3b-f1e2" shared="true" />
+                <condition type="instanceOf" value="1" field="selections" scope="primary-catalogue" childId="e3a2-b0b8-ac03-a188" shared="true" />
               </conditions>
             </conditionGroup>
           </conditionGroups>
@@ -3783,7 +3783,7 @@
       <modifiers>
         <modifier type="add" value="e21f-8e64-c5d-7df0" field="category">
           <conditions>
-            <condition type="instanceOf" value="0" field="selections" scope="primary-catalogue" childId="470a-6daa-9014-12df" shared="true" includeChildSelections="false" includeChildForces="false" />
+            <condition type="instanceOf" value="0" field="selections" scope="primary-catalogue" childId="615c-961c-7bea-18ef" shared="true" includeChildSelections="false" includeChildForces="false" />
           </conditions>
         </modifier>
       </modifiers>
@@ -6547,7 +6547,7 @@ Cette unité, ajoutez 1 à tout jet de sauvegarde contre cette attaque.</charact
       <modifiers>
         <modifier type="set" value="true" field="hidden">
           <conditions>
-            <condition type="instanceOf" value="1" field="selections" scope="primary-catalogue" childId="94bb-3284-ee14-57a1" shared="true" />
+            <condition type="instanceOf" value="1" field="selections" scope="primary-catalogue" childId="a609-860d-3f96-0896" shared="true" />
           </conditions>
         </modifier>
       </modifiers>
@@ -7490,7 +7490,7 @@ Réserves stratégiques.</characteristic>
         </modifier>
         <modifier type="set" value="true" field="hidden">
           <conditions>
-            <condition type="instanceOf" value="1" field="selections" scope="primary-catalogue" childId="f89b-84e0-6e3b-f1e2" shared="true" />
+            <condition type="instanceOf" value="1" field="selections" scope="primary-catalogue" childId="e3a2-b0b8-ac03-a188" shared="true" />
           </conditions>
         </modifier>
       </modifiers>
@@ -8013,7 +8013,7 @@ Réserves stratégiques.</characteristic>
         </modifier>
         <modifier type="add" value="e21f-8e64-c5d-7df0" field="category">
           <conditions>
-            <condition type="instanceOf" value="0" field="selections" scope="primary-catalogue" childId="470a-6daa-9014-12df" shared="true" includeChildSelections="false" includeChildForces="false" />
+            <condition type="instanceOf" value="0" field="selections" scope="primary-catalogue" childId="615c-961c-7bea-18ef" shared="true" includeChildSelections="false" includeChildForces="false" />
           </conditions>
         </modifier>
       </modifiers>
@@ -8135,7 +8135,7 @@ Réserves stratégiques.</characteristic>
         </modifier>
         <modifier type="add" value="e21f-8e64-c5d-7df0" field="category">
           <conditions>
-            <condition type="instanceOf" value="0" field="selections" scope="primary-catalogue" childId="470a-6daa-9014-12df" shared="true" includeChildSelections="false" includeChildForces="false" />
+            <condition type="instanceOf" value="0" field="selections" scope="primary-catalogue" childId="615c-961c-7bea-18ef" shared="true" includeChildSelections="false" includeChildForces="false" />
           </conditions>
         </modifier>
       </modifiers>
@@ -8856,12 +8856,12 @@ Réserves stratégiques.</characteristic>
         </modifier>
         <modifier type="add" value="e21f-8e64-c5d-7df0" field="category">
           <conditions>
-            <condition type="instanceOf" value="0" field="selections" scope="primary-catalogue" childId="470a-6daa-9014-12df" shared="true" includeChildSelections="false" includeChildForces="false" />
+            <condition type="instanceOf" value="0" field="selections" scope="primary-catalogue" childId="615c-961c-7bea-18ef" shared="true" includeChildSelections="false" includeChildForces="false" />
           </conditions>
         </modifier>
         <modifier type="set" value="true" field="hidden">
           <conditions>
-            <condition type="instanceOf" value="1" field="selections" scope="primary-catalogue" childId="36d3-36bc-68dd-40ac" shared="true" />
+            <condition type="instanceOf" value="1" field="selections" scope="primary-catalogue" childId="2d87-8699-5307-a64d" shared="true" />
           </conditions>
         </modifier>
       </modifiers>
@@ -9874,12 +9874,12 @@ par 1.</characteristic>
         </modifier>
         <modifier type="add" value="e21f-8e64-c5d-7df0" field="category">
           <conditions>
-            <condition type="instanceOf" value="0" field="selections" scope="primary-catalogue" childId="470a-6daa-9014-12df" shared="true" includeChildSelections="false" includeChildForces="false" />
+            <condition type="instanceOf" value="0" field="selections" scope="primary-catalogue" childId="615c-961c-7bea-18ef" shared="true" includeChildSelections="false" includeChildForces="false" />
           </conditions>
         </modifier>
         <modifier type="set" value="true" field="hidden">
           <conditions>
-            <condition type="instanceOf" value="1" field="selections" scope="primary-catalogue" childId="f89b-84e0-6e3b-f1e2" shared="true" />
+            <condition type="instanceOf" value="1" field="selections" scope="primary-catalogue" childId="e3a2-b0b8-ac03-a188" shared="true" />
           </conditions>
         </modifier>
       </modifiers>
@@ -10197,17 +10197,17 @@ par 1.</characteristic>
         </modifier>
         <modifier type="add" value="e21f-8e64-c5d-7df0" field="category">
           <conditions>
-            <condition type="instanceOf" value="0" field="selections" scope="primary-catalogue" childId="470a-6daa-9014-12df" shared="true" includeChildSelections="false" includeChildForces="false" />
+            <condition type="instanceOf" value="0" field="selections" scope="primary-catalogue" childId="615c-961c-7bea-18ef" shared="true" includeChildSelections="false" includeChildForces="false" />
           </conditions>
         </modifier>
         <modifier type="set" value="true" field="hidden">
           <conditions>
-            <condition type="instanceOf" value="1" field="selections" scope="primary-catalogue" childId="f89b-84e0-6e3b-f1e2" shared="true" />
+            <condition type="instanceOf" value="1" field="selections" scope="primary-catalogue" childId="e3a2-b0b8-ac03-a188" shared="true" />
           </conditions>
         </modifier>
         <modifier type="set" value="true" field="hidden">
           <conditions>
-            <condition type="instanceOf" value="1" field="selections" scope="primary-catalogue" childId="36d3-36bc-68dd-40ac" shared="true" />
+            <condition type="instanceOf" value="1" field="selections" scope="primary-catalogue" childId="2d87-8699-5307-a64d" shared="true" />
           </conditions>
         </modifier>
       </modifiers>
@@ -10673,12 +10673,12 @@ par 1.</characteristic>
         </modifier>
         <modifier type="add" value="e21f-8e64-c5d-7df0" field="category">
           <conditions>
-            <condition type="instanceOf" value="0" field="selections" scope="primary-catalogue" childId="470a-6daa-9014-12df" shared="true" includeChildSelections="false" includeChildForces="false" />
+            <condition type="instanceOf" value="0" field="selections" scope="primary-catalogue" childId="615c-961c-7bea-18ef" shared="true" includeChildSelections="false" includeChildForces="false" />
           </conditions>
         </modifier>
         <modifier type="set" value="true" field="hidden">
           <conditions>
-            <condition type="instanceOf" value="1" field="selections" scope="primary-catalogue" childId="f89b-84e0-6e3b-f1e2" shared="true" />
+            <condition type="instanceOf" value="1" field="selections" scope="primary-catalogue" childId="e3a2-b0b8-ac03-a188" shared="true" />
           </conditions>
         </modifier>
       </modifiers>
@@ -11840,7 +11840,7 @@ par 1.</characteristic>
       <modifiers>
         <modifier type="add" value="e21f-8e64-c5d-7df0" field="category">
           <conditions>
-            <condition type="instanceOf" value="0" field="selections" scope="primary-catalogue" childId="470a-6daa-9014-12df" shared="true" includeChildSelections="false" includeChildForces="false" />
+            <condition type="instanceOf" value="0" field="selections" scope="primary-catalogue" childId="615c-961c-7bea-18ef" shared="true" includeChildSelections="false" includeChildForces="false" />
           </conditions>
         </modifier>
       </modifiers>
@@ -12254,7 +12254,7 @@ par 1.</characteristic>
         </modifier>
         <modifier type="add" value="e21f-8e64-c5d-7df0" field="category">
           <conditions>
-            <condition type="instanceOf" value="0" field="selections" scope="primary-catalogue" childId="470a-6daa-9014-12df" shared="true" includeChildSelections="false" includeChildForces="false" />
+            <condition type="instanceOf" value="0" field="selections" scope="primary-catalogue" childId="615c-961c-7bea-18ef" shared="true" includeChildSelections="false" includeChildForces="false" />
           </conditions>
         </modifier>
       </modifiers>
@@ -12555,7 +12555,7 @@ par 1.</characteristic>
       <modifiers>
         <modifier type="add" value="e21f-8e64-c5d-7df0" field="category">
           <conditions>
-            <condition type="instanceOf" value="0" field="selections" scope="primary-catalogue" childId="470a-6daa-9014-12df" shared="true" includeChildSelections="false" includeChildForces="false" />
+            <condition type="instanceOf" value="0" field="selections" scope="primary-catalogue" childId="615c-961c-7bea-18ef" shared="true" includeChildSelections="false" includeChildForces="false" />
           </conditions>
         </modifier>
       </modifiers>
@@ -12772,7 +12772,7 @@ par 1.</characteristic>
       <modifiers>
         <modifier type="add" value="e21f-8e64-c5d-7df0" field="category">
           <conditions>
-            <condition type="instanceOf" value="0" field="selections" scope="primary-catalogue" childId="470a-6daa-9014-12df" shared="true" includeChildSelections="false" includeChildForces="false" />
+            <condition type="instanceOf" value="0" field="selections" scope="primary-catalogue" childId="615c-961c-7bea-18ef" shared="true" includeChildSelections="false" includeChildForces="false" />
           </conditions>
         </modifier>
       </modifiers>
@@ -13135,7 +13135,7 @@ par 1.</characteristic>
       <modifiers>
         <modifier type="add" value="e21f-8e64-c5d-7df0" field="category">
           <conditions>
-            <condition type="instanceOf" value="0" field="selections" scope="primary-catalogue" childId="470a-6daa-9014-12df" shared="true" includeChildSelections="false" includeChildForces="false" />
+            <condition type="instanceOf" value="0" field="selections" scope="primary-catalogue" childId="615c-961c-7bea-18ef" shared="true" includeChildSelections="false" includeChildForces="false" />
           </conditions>
         </modifier>
       </modifiers>
@@ -14151,7 +14151,7 @@ par 1.</characteristic>
       <modifiers>
         <modifier type="add" value="e9c7-1590-1bda-bf7f" field="category">
           <conditions>
-            <condition type="instanceOf" value="0" field="selections" scope="primary-catalogue" childId="470a-6daa-9014-12df" shared="true" includeChildSelections="false" includeChildForces="false" />
+            <condition type="instanceOf" value="0" field="selections" scope="primary-catalogue" childId="615c-961c-7bea-18ef" shared="true" includeChildSelections="false" includeChildForces="false" />
           </conditions>
         </modifier>
       </modifiers>
@@ -14358,7 +14358,7 @@ par 1.</characteristic>
         </modifier>
         <modifier type="add" value="e9c7-1590-1bda-bf7f" field="category">
           <conditions>
-            <condition type="instanceOf" value="0" field="selections" scope="primary-catalogue" childId="470a-6daa-9014-12df" shared="true" includeChildSelections="false" includeChildForces="false" />
+            <condition type="instanceOf" value="0" field="selections" scope="primary-catalogue" childId="615c-961c-7bea-18ef" shared="true" includeChildSelections="false" includeChildForces="false" />
           </conditions>
         </modifier>
         <modifier type="set-primary" value="e338-111e-d0c6-b687" field="category">
@@ -14589,7 +14589,7 @@ par 1.</characteristic>
         </modifier>
         <modifier type="add" value="e9c7-1590-1bda-bf7f" field="category">
           <conditions>
-            <condition type="instanceOf" value="0" field="selections" scope="primary-catalogue" childId="470a-6daa-9014-12df" shared="true" includeChildSelections="false" includeChildForces="false" />
+            <condition type="instanceOf" value="0" field="selections" scope="primary-catalogue" childId="615c-961c-7bea-18ef" shared="true" includeChildSelections="false" includeChildForces="false" />
           </conditions>
         </modifier>
       </modifiers>
@@ -15019,7 +15019,7 @@ par 1.</characteristic>
         </modifier>
         <modifier type="add" value="e9c7-1590-1bda-bf7f" field="category">
           <conditions>
-            <condition type="instanceOf" value="0" field="selections" scope="primary-catalogue" childId="470a-6daa-9014-12df" shared="true" includeChildSelections="false" includeChildForces="false" />
+            <condition type="instanceOf" value="0" field="selections" scope="primary-catalogue" childId="615c-961c-7bea-18ef" shared="true" includeChildSelections="false" includeChildForces="false" />
           </conditions>
         </modifier>
       </modifiers>
@@ -15342,12 +15342,12 @@ par 1.</characteristic>
         </modifier>
         <modifier type="add" value="e9c7-1590-1bda-bf7f" field="category">
           <conditions>
-            <condition type="instanceOf" value="0" field="selections" scope="primary-catalogue" childId="470a-6daa-9014-12df" shared="true" includeChildSelections="false" includeChildForces="false" />
+            <condition type="instanceOf" value="0" field="selections" scope="primary-catalogue" childId="615c-961c-7bea-18ef" shared="true" includeChildSelections="false" includeChildForces="false" />
           </conditions>
         </modifier>
         <modifier type="set" value="true" field="hidden">
           <conditions>
-            <condition type="instanceOf" value="1" field="selections" scope="primary-catalogue" childId="f89b-84e0-6e3b-f1e2" shared="true" />
+            <condition type="instanceOf" value="1" field="selections" scope="primary-catalogue" childId="e3a2-b0b8-ac03-a188" shared="true" />
           </conditions>
         </modifier>
       </modifiers>
@@ -16022,7 +16022,7 @@ par 1.</characteristic>
       <modifiers>
         <modifier type="add" value="e9c7-1590-1bda-bf7f" field="category">
           <conditions>
-            <condition type="instanceOf" value="0" field="selections" scope="primary-catalogue" childId="470a-6daa-9014-12df" shared="true" includeChildSelections="false" includeChildForces="false" />
+            <condition type="instanceOf" value="0" field="selections" scope="primary-catalogue" childId="615c-961c-7bea-18ef" shared="true" includeChildSelections="false" includeChildForces="false" />
           </conditions>
         </modifier>
       </modifiers>
@@ -16193,7 +16193,7 @@ par 1.</characteristic>
       <modifiers>
         <modifier type="add" value="e9c7-1590-1bda-bf7f" field="category">
           <conditions>
-            <condition type="instanceOf" value="0" field="selections" scope="primary-catalogue" childId="470a-6daa-9014-12df" shared="true" includeChildSelections="false" includeChildForces="false" />
+            <condition type="instanceOf" value="0" field="selections" scope="primary-catalogue" childId="615c-961c-7bea-18ef" shared="true" includeChildSelections="false" includeChildForces="false" />
           </conditions>
         </modifier>
       </modifiers>
@@ -16409,7 +16409,7 @@ par 1.</characteristic>
       <modifiers>
         <modifier type="add" value="e9c7-1590-1bda-bf7f" field="category">
           <conditions>
-            <condition type="instanceOf" value="0" field="selections" scope="primary-catalogue" childId="470a-6daa-9014-12df" shared="true" includeChildSelections="false" includeChildForces="false" />
+            <condition type="instanceOf" value="0" field="selections" scope="primary-catalogue" childId="615c-961c-7bea-18ef" shared="true" includeChildSelections="false" includeChildForces="false" />
           </conditions>
         </modifier>
       </modifiers>
@@ -16673,7 +16673,7 @@ par 1.</characteristic>
         </modifier>
         <modifier type="add" value="e9c7-1590-1bda-bf7f" field="category">
           <conditions>
-            <condition type="instanceOf" value="0" field="selections" scope="primary-catalogue" childId="470a-6daa-9014-12df" shared="true" includeChildSelections="false" includeChildForces="false" />
+            <condition type="instanceOf" value="0" field="selections" scope="primary-catalogue" childId="615c-961c-7bea-18ef" shared="true" includeChildSelections="false" includeChildForces="false" />
           </conditions>
         </modifier>
       </modifiers>
@@ -16853,7 +16853,7 @@ par 1.</characteristic>
         </modifier>
         <modifier type="add" value="e9c7-1590-1bda-bf7f" field="category">
           <conditions>
-            <condition type="instanceOf" value="0" field="selections" scope="primary-catalogue" childId="470a-6daa-9014-12df" shared="true" includeChildSelections="false" includeChildForces="false" />
+            <condition type="instanceOf" value="0" field="selections" scope="primary-catalogue" childId="615c-961c-7bea-18ef" shared="true" includeChildSelections="false" includeChildForces="false" />
           </conditions>
         </modifier>
       </modifiers>
@@ -17015,7 +17015,7 @@ par 1.</characteristic>
         </modifier>
         <modifier type="add" value="e9c7-1590-1bda-bf7f" field="category">
           <conditions>
-            <condition type="instanceOf" value="0" field="selections" scope="primary-catalogue" childId="470a-6daa-9014-12df" shared="true" includeChildSelections="false" includeChildForces="false" />
+            <condition type="instanceOf" value="0" field="selections" scope="primary-catalogue" childId="615c-961c-7bea-18ef" shared="true" includeChildSelections="false" includeChildForces="false" />
           </conditions>
         </modifier>
       </modifiers>
@@ -18141,7 +18141,7 @@ Un mouvement normal. Dans ce cas, jusqu'à la fin du tour, cette unité n'est pa
         </modifier>
         <modifier type="set" value="true" field="hidden">
           <conditions>
-            <condition type="instanceOf" value="1" field="selections" scope="primary-catalogue" childId="94bb-3284-ee14-57a1" shared="true" />
+            <condition type="instanceOf" value="1" field="selections" scope="primary-catalogue" childId="a609-860d-3f96-0896" shared="true" />
           </conditions>
         </modifier>
       </modifiers>
@@ -20281,7 +20281,7 @@ Un mouvement normal. Dans ce cas, jusqu'à la fin du tour, cette unité n'est pa
       <modifiers>
         <modifier type="set" value="true" field="hidden">
           <conditions>
-            <condition type="instanceOf" value="1" field="selections" scope="primary-catalogue" childId="36d3-36bc-68dd-40ac" shared="true" />
+            <condition type="instanceOf" value="1" field="selections" scope="primary-catalogue" childId="2d87-8699-5307-a64d" shared="true" />
           </conditions>
         </modifier>
         <modifier type="add" value="b6a1-a3f9-16eb-2d31" field="category">
@@ -20432,7 +20432,7 @@ Un mouvement normal. Dans ce cas, jusqu'à la fin du tour, cette unité n'est pa
       <modifiers>
         <modifier type="set" value="true" field="hidden">
           <conditions>
-            <condition type="instanceOf" value="1" field="selections" scope="primary-catalogue" childId="36d3-36bc-68dd-40ac" shared="true" />
+            <condition type="instanceOf" value="1" field="selections" scope="primary-catalogue" childId="2d87-8699-5307-a64d" shared="true" />
           </conditions>
         </modifier>
         <modifier type="add" value="b6a1-a3f9-16eb-2d31" field="category">
@@ -20659,7 +20659,7 @@ Un mouvement normal. Dans ce cas, jusqu'à la fin du tour, cette unité n'est pa
       <modifiers>
         <modifier type="set" value="true" field="hidden">
           <conditions>
-            <condition type="instanceOf" value="1" field="selections" scope="primary-catalogue" childId="36d3-36bc-68dd-40ac" shared="true" />
+            <condition type="instanceOf" value="1" field="selections" scope="primary-catalogue" childId="2d87-8699-5307-a64d" shared="true" />
           </conditions>
         </modifier>
         <modifier type="add" value="b6a1-a3f9-16eb-2d31" field="category">
@@ -21071,7 +21071,7 @@ Un mouvement normal. Dans ce cas, jusqu'à la fin du tour, cette unité n'est pa
       <modifiers>
         <modifier type="add" value="e21f-8e64-c5d-7df0" field="category">
           <conditions>
-            <condition type="instanceOf" value="0" field="selections" scope="primary-catalogue" childId="470a-6daa-9014-12df" shared="true" includeChildSelections="false" includeChildForces="false" />
+            <condition type="instanceOf" value="0" field="selections" scope="primary-catalogue" childId="615c-961c-7bea-18ef" shared="true" includeChildSelections="false" includeChildForces="false" />
           </conditions>
         </modifier>
         <modifier type="add" value="abee-1a02-8002-a13f" field="category">
@@ -21289,12 +21289,12 @@ Un mouvement normal. Dans ce cas, jusqu'à la fin du tour, cette unité n'est pa
       <modifiers>
         <modifier type="add" value="e21f-8e64-c5d-7df0" field="category">
           <conditions>
-            <condition type="instanceOf" value="0" field="selections" scope="primary-catalogue" childId="470a-6daa-9014-12df" shared="true" includeChildSelections="false" includeChildForces="false" />
+            <condition type="instanceOf" value="0" field="selections" scope="primary-catalogue" childId="615c-961c-7bea-18ef" shared="true" includeChildSelections="false" includeChildForces="false" />
           </conditions>
         </modifier>
         <modifier type="set" value="true" field="hidden">
           <conditions>
-            <condition type="instanceOf" value="1" field="selections" scope="primary-catalogue" childId="36d3-36bc-68dd-40ac" shared="true" />
+            <condition type="instanceOf" value="1" field="selections" scope="primary-catalogue" childId="2d87-8699-5307-a64d" shared="true" />
           </conditions>
         </modifier>
         <modifier type="add" value="abee-1a02-8002-a13f" field="category">
@@ -21506,7 +21506,7 @@ Un mouvement normal. Dans ce cas, jusqu'à la fin du tour, cette unité n'est pa
       <modifiers>
         <modifier type="add" value="e21f-8e64-c5d-7df0" field="category">
           <conditions>
-            <condition type="instanceOf" value="0" field="selections" scope="primary-catalogue" childId="470a-6daa-9014-12df" shared="true" includeChildSelections="false" includeChildForces="false" />
+            <condition type="instanceOf" value="0" field="selections" scope="primary-catalogue" childId="615c-961c-7bea-18ef" shared="true" includeChildSelections="false" includeChildForces="false" />
           </conditions>
         </modifier>
         <modifier type="add" value="abee-1a02-8002-a13f" field="category">
@@ -21819,12 +21819,12 @@ Un mouvement normal. Dans ce cas, jusqu'à la fin du tour, cette unité n'est pa
       <modifiers>
         <modifier type="add" value="e21f-8e64-c5d-7df0" field="category">
           <conditions>
-            <condition type="instanceOf" value="0" field="selections" scope="primary-catalogue" childId="470a-6daa-9014-12df" shared="true" includeChildSelections="false" includeChildForces="false" />
+            <condition type="instanceOf" value="0" field="selections" scope="primary-catalogue" childId="615c-961c-7bea-18ef" shared="true" includeChildSelections="false" includeChildForces="false" />
           </conditions>
         </modifier>
         <modifier type="set" value="true" field="hidden">
           <conditions>
-            <condition type="instanceOf" value="1" field="selections" scope="primary-catalogue" childId="36d3-36bc-68dd-40ac" shared="true" />
+            <condition type="instanceOf" value="1" field="selections" scope="primary-catalogue" childId="2d87-8699-5307-a64d" shared="true" />
           </conditions>
         </modifier>
         <modifier type="add" value="abee-1a02-8002-a13f" field="category">
@@ -22113,12 +22113,12 @@ Un mouvement normal. Dans ce cas, jusqu'à la fin du tour, cette unité n'est pa
       <modifiers>
         <modifier type="add" value="e21f-8e64-c5d-7df0" field="category">
           <conditions>
-            <condition type="instanceOf" value="0" field="selections" scope="primary-catalogue" childId="470a-6daa-9014-12df" shared="true" includeChildSelections="false" includeChildForces="false" />
+            <condition type="instanceOf" value="0" field="selections" scope="primary-catalogue" childId="615c-961c-7bea-18ef" shared="true" includeChildSelections="false" includeChildForces="false" />
           </conditions>
         </modifier>
         <modifier type="set" value="true" field="hidden">
           <conditions>
-            <condition type="instanceOf" value="1" field="selections" scope="primary-catalogue" childId="36d3-36bc-68dd-40ac" shared="true" />
+            <condition type="instanceOf" value="1" field="selections" scope="primary-catalogue" childId="2d87-8699-5307-a64d" shared="true" />
           </conditions>
         </modifier>
         <modifier type="add" value="abee-1a02-8002-a13f" field="category">
@@ -22734,7 +22734,7 @@ Un mouvement normal. Dans ce cas, jusqu'à la fin du tour, cette unité n'est pa
       <modifiers>
         <modifier type="set" value="true" field="hidden">
           <conditions>
-            <condition type="instanceOf" value="1" field="selections" scope="primary-catalogue" childId="36d3-36bc-68dd-40ac" shared="true" />
+            <condition type="instanceOf" value="1" field="selections" scope="primary-catalogue" childId="2d87-8699-5307-a64d" shared="true" />
           </conditions>
         </modifier>
         <modifier type="add" value="b6a1-a3f9-16eb-2d31" field="category">
@@ -23030,7 +23030,7 @@ Un mouvement normal. Dans ce cas, jusqu'à la fin du tour, cette unité n'est pa
         </modifier>
         <modifier type="add" value="e9c7-1590-1bda-bf7f" field="category">
           <conditions>
-            <condition type="instanceOf" value="0" field="selections" scope="primary-catalogue" childId="470a-6daa-9014-12df" shared="true" includeChildSelections="false" includeChildForces="false" />
+            <condition type="instanceOf" value="0" field="selections" scope="primary-catalogue" childId="615c-961c-7bea-18ef" shared="true" includeChildSelections="false" includeChildForces="false" />
           </conditions>
         </modifier>
       </modifiers>
@@ -23288,7 +23288,7 @@ Un mouvement normal. Dans ce cas, jusqu'à la fin du tour, cette unité n'est pa
       <modifiers>
         <modifier type="add" value="e9c7-1590-1bda-bf7f" field="category">
           <conditions>
-            <condition type="instanceOf" value="0" field="selections" scope="primary-catalogue" childId="470a-6daa-9014-12df" shared="true" includeChildSelections="false" includeChildForces="false" />
+            <condition type="instanceOf" value="0" field="selections" scope="primary-catalogue" childId="615c-961c-7bea-18ef" shared="true" includeChildSelections="false" includeChildForces="false" />
           </conditions>
         </modifier>
       </modifiers>
@@ -23508,7 +23508,7 @@ Un mouvement normal. Dans ce cas, jusqu'à la fin du tour, cette unité n'est pa
       <modifiers>
         <modifier type="add" value="e9c7-1590-1bda-bf7f" field="category">
           <conditions>
-            <condition type="instanceOf" value="0" field="selections" scope="primary-catalogue" childId="470a-6daa-9014-12df" shared="true" includeChildSelections="false" includeChildForces="false" />
+            <condition type="instanceOf" value="0" field="selections" scope="primary-catalogue" childId="615c-961c-7bea-18ef" shared="true" includeChildSelections="false" includeChildForces="false" />
           </conditions>
         </modifier>
       </modifiers>
@@ -23778,7 +23778,7 @@ Un mouvement normal. Dans ce cas, jusqu'à la fin du tour, cette unité n'est pa
       <modifiers>
         <modifier type="add" value="e9c7-1590-1bda-bf7f" field="category">
           <conditions>
-            <condition type="instanceOf" value="0" field="selections" scope="primary-catalogue" childId="470a-6daa-9014-12df" shared="true" includeChildSelections="false" includeChildForces="false" />
+            <condition type="instanceOf" value="0" field="selections" scope="primary-catalogue" childId="615c-961c-7bea-18ef" shared="true" includeChildSelections="false" includeChildForces="false" />
           </conditions>
         </modifier>
         <modifier type="add" value="abee-1a02-8002-a13f" field="category">
@@ -24222,7 +24222,7 @@ Un mouvement normal. Dans ce cas, jusqu'à la fin du tour, cette unité n'est pa
         </modifier>
         <modifier type="add" value="e9c7-1590-1bda-bf7f" field="category">
           <conditions>
-            <condition type="instanceOf" value="0" field="selections" scope="primary-catalogue" childId="470a-6daa-9014-12df" shared="true" includeChildSelections="false" includeChildForces="false" />
+            <condition type="instanceOf" value="0" field="selections" scope="primary-catalogue" childId="615c-961c-7bea-18ef" shared="true" includeChildSelections="false" includeChildForces="false" />
           </conditions>
         </modifier>
       </modifiers>
@@ -25045,7 +25045,7 @@ Vous pouvez attacher cette figurine à une unité qui peut conduire des unités 
       <modifiers>
         <modifier type="set" value="true" field="hidden">
           <conditions>
-            <condition type="instanceOf" value="1" field="selections" scope="primary-catalogue" childId="36d3-36bc-68dd-40ac" shared="true" />
+            <condition type="instanceOf" value="1" field="selections" scope="primary-catalogue" childId="2d87-8699-5307-a64d" shared="true" />
           </conditions>
         </modifier>
       </modifiers>
@@ -25312,7 +25312,7 @@ figurine attaquante est à 12" ou moins.</characteristic>
       <modifiers>
         <modifier type="set" value="true" field="hidden">
           <conditions>
-            <condition type="instanceOf" value="1" field="selections" scope="primary-catalogue" childId="36d3-36bc-68dd-40ac" shared="true" />
+            <condition type="instanceOf" value="1" field="selections" scope="primary-catalogue" childId="2d87-8699-5307-a64d" shared="true" />
           </conditions>
         </modifier>
       </modifiers>
@@ -25524,12 +25524,12 @@ figurine attaquante est à 12" ou moins.</characteristic>
       <modifiers>
         <modifier type="add" value="e21f-8e64-c5d-7df0" field="category">
           <conditions>
-            <condition type="instanceOf" value="0" field="selections" scope="primary-catalogue" childId="470a-6daa-9014-12df" shared="true" includeChildSelections="false" includeChildForces="false" />
+            <condition type="instanceOf" value="0" field="selections" scope="primary-catalogue" childId="615c-961c-7bea-18ef" shared="true" includeChildSelections="false" includeChildForces="false" />
           </conditions>
         </modifier>
         <modifier type="set" value="true" field="hidden">
           <conditions>
-            <condition type="instanceOf" value="1" field="selections" scope="primary-catalogue" childId="36d3-36bc-68dd-40ac" shared="true" />
+            <condition type="instanceOf" value="1" field="selections" scope="primary-catalogue" childId="2d87-8699-5307-a64d" shared="true" />
           </conditions>
         </modifier>
       </modifiers>
@@ -25743,7 +25743,7 @@ figurine attaquante est à 12" ou moins.</characteristic>
         </modifier>
         <modifier type="set" value="true" field="hidden">
           <conditions>
-            <condition type="instanceOf" value="1" field="selections" scope="primary-catalogue" childId="36d3-36bc-68dd-40ac" shared="true" />
+            <condition type="instanceOf" value="1" field="selections" scope="primary-catalogue" childId="2d87-8699-5307-a64d" shared="true" />
           </conditions>
         </modifier>
       </modifiers>
@@ -26110,7 +26110,7 @@ figurine attaquante est à 12" ou moins.</characteristic>
       <modifiers>
         <modifier type="add" value="e21f-8e64-c5d-7df0" field="category">
           <conditions>
-            <condition type="instanceOf" value="0" field="selections" scope="primary-catalogue" childId="470a-6daa-9014-12df" shared="true" includeChildSelections="false" includeChildForces="false" />
+            <condition type="instanceOf" value="0" field="selections" scope="primary-catalogue" childId="615c-961c-7bea-18ef" shared="true" includeChildSelections="false" includeChildForces="false" />
           </conditions>
         </modifier>
       </modifiers>
@@ -26245,7 +26245,7 @@ Les armes équipées de figurines de cette unité ont la aptitude [Blessures dé
       <modifiers>
         <modifier type="add" value="e9c7-1590-1bda-bf7f" field="category">
           <conditions>
-            <condition type="instanceOf" value="0" field="selections" scope="primary-catalogue" childId="470a-6daa-9014-12df" shared="true" includeChildSelections="false" includeChildForces="false" />
+            <condition type="instanceOf" value="0" field="selections" scope="primary-catalogue" childId="615c-961c-7bea-18ef" shared="true" includeChildSelections="false" includeChildForces="false" />
           </conditions>
         </modifier>
       </modifiers>
@@ -27474,7 +27474,7 @@ Vous pouvez attacher cette figurine à l'une des unités ci-dessus même si une 
       <modifiers>
         <modifier type="set" value="true" field="hidden">
           <conditions>
-            <condition type="instanceOf" value="1" field="selections" scope="primary-catalogue" childId="94bb-3284-ee14-57a1" shared="true" />
+            <condition type="instanceOf" value="1" field="selections" scope="primary-catalogue" childId="a609-860d-3f96-0896" shared="true" />
           </conditions>
         </modifier>
       </modifiers>
@@ -27669,7 +27669,7 @@ Vous pouvez attacher cette figurine à l’une des unités ci-dessus même si un
       <modifiers>
         <modifier type="set" value="true" field="hidden">
           <conditions>
-            <condition type="instanceOf" value="1" field="selections" scope="primary-catalogue" childId="94bb-3284-ee14-57a1" shared="true" />
+            <condition type="instanceOf" value="1" field="selections" scope="primary-catalogue" childId="a609-860d-3f96-0896" shared="true" />
           </conditions>
         </modifier>
       </modifiers>
@@ -28015,7 +28015,7 @@ Vous pouvez joindre cette figurine à l'unité ci-dessus même si une figurine C
       <modifiers>
         <modifier type="add" value="e21f-8e64-c5d-7df0" field="category">
           <conditions>
-            <condition type="instanceOf" value="0" field="selections" scope="primary-catalogue" childId="470a-6daa-9014-12df" shared="true" includeChildSelections="false" includeChildForces="false" />
+            <condition type="instanceOf" value="0" field="selections" scope="primary-catalogue" childId="615c-961c-7bea-18ef" shared="true" includeChildSelections="false" includeChildForces="false" />
           </conditions>
         </modifier>
       </modifiers>
@@ -28273,7 +28273,7 @@ Vous pouvez attacher cette figurine à l'une des unités ci-dessus même si une 
       <modifiers>
         <modifier type="add" value="e21f-8e64-c5d-7df0" field="category">
           <conditions>
-            <condition type="instanceOf" value="0" field="selections" scope="primary-catalogue" childId="470a-6daa-9014-12df" shared="true" includeChildSelections="false" includeChildForces="false" />
+            <condition type="instanceOf" value="0" field="selections" scope="primary-catalogue" childId="615c-961c-7bea-18ef" shared="true" includeChildSelections="false" includeChildForces="false" />
           </conditions>
         </modifier>
       </modifiers>
@@ -29906,7 +29906,7 @@ Vous pouvez attacher cette figurine à l'une des unités ci-dessus même si une 
       <modifiers>
         <modifier type="add" value="e9c7-1590-1bda-bf7f" field="category">
           <conditions>
-            <condition type="instanceOf" value="0" field="selections" scope="primary-catalogue" childId="470a-6daa-9014-12df" shared="true" includeChildSelections="false" includeChildForces="false" />
+            <condition type="instanceOf" value="0" field="selections" scope="primary-catalogue" childId="615c-961c-7bea-18ef" shared="true" includeChildSelections="false" includeChildForces="false" />
           </conditions>
         </modifier>
       </modifiers>
@@ -30511,7 +30511,7 @@ Vous pouvez attacher cette figurine à l'une des unités ci-dessus même si une 
         </modifier>
         <modifier type="add" value="e21f-8e64-c5d-7df0" field="category">
           <conditions>
-            <condition type="instanceOf" value="0" field="selections" scope="primary-catalogue" childId="470a-6daa-9014-12df" shared="true" includeChildSelections="false" includeChildForces="false" />
+            <condition type="instanceOf" value="0" field="selections" scope="primary-catalogue" childId="615c-961c-7bea-18ef" shared="true" includeChildSelections="false" includeChildForces="false" />
           </conditions>
         </modifier>
       </modifiers>
@@ -31161,7 +31161,7 @@ Vous pouvez attacher cette figurine à l'une des unités ci-dessus même si une 
         </modifier>
         <modifier type="add" value="e21f-8e64-c5d-7df0" field="category">
           <conditions>
-            <condition type="instanceOf" value="0" field="selections" scope="primary-catalogue" childId="470a-6daa-9014-12df" shared="true" includeChildSelections="false" includeChildForces="false" />
+            <condition type="instanceOf" value="0" field="selections" scope="primary-catalogue" childId="615c-961c-7bea-18ef" shared="true" includeChildSelections="false" includeChildForces="false" />
           </conditions>
         </modifier>
       </modifiers>
@@ -31291,7 +31291,7 @@ Vous pouvez attacher cette figurine à l'une des unités ci-dessus même si une 
         </modifier>
         <modifier type="add" value="e9c7-1590-1bda-bf7f" field="category">
           <conditions>
-            <condition type="instanceOf" value="0" field="selections" scope="primary-catalogue" childId="470a-6daa-9014-12df" shared="true" includeChildSelections="false" includeChildForces="false" />
+            <condition type="instanceOf" value="0" field="selections" scope="primary-catalogue" childId="615c-961c-7bea-18ef" shared="true" includeChildSelections="false" includeChildForces="false" />
           </conditions>
         </modifier>
       </modifiers>
@@ -31625,7 +31625,7 @@ Vous pouvez attacher cette figurine à l'une des unités ci-dessus même si une 
         </modifier>
         <modifier type="add" value="e9c7-1590-1bda-bf7f" field="category">
           <conditions>
-            <condition type="instanceOf" value="0" field="selections" scope="primary-catalogue" childId="470a-6daa-9014-12df" shared="true" includeChildSelections="false" includeChildForces="false" />
+            <condition type="instanceOf" value="0" field="selections" scope="primary-catalogue" childId="615c-961c-7bea-18ef" shared="true" includeChildSelections="false" includeChildForces="false" />
           </conditions>
         </modifier>
       </modifiers>
@@ -32225,7 +32225,7 @@ Vous pouvez attacher cette figurine à l'une des unités ci-dessus même si une 
         </modifier>
         <modifier type="add" value="e21f-8e64-c5d-7df0" field="category">
           <conditions>
-            <condition type="instanceOf" value="0" field="selections" scope="primary-catalogue" childId="470a-6daa-9014-12df" shared="true" includeChildSelections="false" includeChildForces="false" />
+            <condition type="instanceOf" value="0" field="selections" scope="primary-catalogue" childId="615c-961c-7bea-18ef" shared="true" includeChildSelections="false" includeChildForces="false" />
           </conditions>
         </modifier>
       </modifiers>
@@ -33407,7 +33407,7 @@ Vous pouvez attacher cette figurine à l'une des unités ci-dessus même si une 
         </modifier>
         <modifier type="add" value="e9c7-1590-1bda-bf7f" field="category">
           <conditions>
-            <condition type="instanceOf" value="0" field="selections" scope="primary-catalogue" childId="470a-6daa-9014-12df" shared="true" includeChildSelections="false" includeChildForces="false" />
+            <condition type="instanceOf" value="0" field="selections" scope="primary-catalogue" childId="615c-961c-7bea-18ef" shared="true" includeChildSelections="false" includeChildForces="false" />
           </conditions>
         </modifier>
       </modifiers>
@@ -33770,7 +33770,7 @@ Vous pouvez attacher cette figurine à l'une des unités ci-dessus même si une 
         </modifier>
         <modifier type="add" value="e9c7-1590-1bda-bf7f" field="category">
           <conditions>
-            <condition type="instanceOf" value="0" field="selections" scope="primary-catalogue" childId="470a-6daa-9014-12df" shared="true" includeChildSelections="false" includeChildForces="false" />
+            <condition type="instanceOf" value="0" field="selections" scope="primary-catalogue" childId="615c-961c-7bea-18ef" shared="true" includeChildSelections="false" includeChildForces="false" />
           </conditions>
         </modifier>
       </modifiers>
@@ -34037,7 +34037,7 @@ Vous pouvez attacher cette figurine à l'une des unités ci-dessus même si une 
         </modifier>
         <modifier type="add" value="e9c7-1590-1bda-bf7f" field="category">
           <conditions>
-            <condition type="instanceOf" value="0" field="selections" scope="primary-catalogue" childId="470a-6daa-9014-12df" shared="true" includeChildSelections="false" includeChildForces="false" />
+            <condition type="instanceOf" value="0" field="selections" scope="primary-catalogue" childId="615c-961c-7bea-18ef" shared="true" includeChildSelections="false" includeChildForces="false" />
           </conditions>
         </modifier>
       </modifiers>
@@ -34175,7 +34175,7 @@ Vous pouvez attacher cette figurine à l'une des unités ci-dessus même si une 
         </modifier>
         <modifier type="add" value="e9c7-1590-1bda-bf7f" field="category">
           <conditions>
-            <condition type="instanceOf" value="0" field="selections" scope="primary-catalogue" childId="470a-6daa-9014-12df" shared="true" includeChildSelections="false" includeChildForces="false" />
+            <condition type="instanceOf" value="0" field="selections" scope="primary-catalogue" childId="615c-961c-7bea-18ef" shared="true" includeChildSelections="false" includeChildForces="false" />
           </conditions>
         </modifier>
       </modifiers>
@@ -34575,7 +34575,7 @@ Les caractéristique d’Attaques de 7.</characteristic>
         </modifier>
         <modifier type="add" value="e9c7-1590-1bda-bf7f" field="category">
           <conditions>
-            <condition type="instanceOf" value="0" field="selections" scope="primary-catalogue" childId="470a-6daa-9014-12df" shared="true" includeChildSelections="false" includeChildForces="false" />
+            <condition type="instanceOf" value="0" field="selections" scope="primary-catalogue" childId="615c-961c-7bea-18ef" shared="true" includeChildSelections="false" includeChildForces="false" />
           </conditions>
         </modifier>
       </modifiers>
@@ -34786,12 +34786,12 @@ Les caractéristique d’Attaques de 7.</characteristic>
         </modifier>
         <modifier type="add" value="e9c7-1590-1bda-bf7f" field="category">
           <conditions>
-            <condition type="instanceOf" value="0" field="selections" scope="primary-catalogue" childId="470a-6daa-9014-12df" shared="true" includeChildSelections="false" includeChildForces="false" />
+            <condition type="instanceOf" value="0" field="selections" scope="primary-catalogue" childId="615c-961c-7bea-18ef" shared="true" includeChildSelections="false" includeChildForces="false" />
           </conditions>
         </modifier>
         <modifier type="set" value="true" field="hidden">
           <conditions>
-            <condition type="instanceOf" value="1" field="selections" scope="primary-catalogue" childId="36d3-36bc-68dd-40ac" shared="true" />
+            <condition type="instanceOf" value="1" field="selections" scope="primary-catalogue" childId="2d87-8699-5307-a64d" shared="true" />
           </conditions>
         </modifier>
       </modifiers>
@@ -34925,7 +34925,7 @@ Les caractéristique d’Attaques de 7.</characteristic>
         </modifier>
         <modifier type="add" value="e9c7-1590-1bda-bf7f" field="category">
           <conditions>
-            <condition type="instanceOf" value="0" field="selections" scope="primary-catalogue" childId="470a-6daa-9014-12df" shared="true" includeChildSelections="false" includeChildForces="false" />
+            <condition type="instanceOf" value="0" field="selections" scope="primary-catalogue" childId="615c-961c-7bea-18ef" shared="true" includeChildSelections="false" includeChildForces="false" />
           </conditions>
         </modifier>
       </modifiers>
@@ -37522,7 +37522,7 @@ Le jet de Touche.</characteristic>
       <modifiers>
         <modifier type="set" value="true" field="hidden">
           <conditions>
-            <condition type="instanceOf" value="1" field="selections" scope="primary-catalogue" childId="36d3-36bc-68dd-40ac" shared="true" />
+            <condition type="instanceOf" value="1" field="selections" scope="primary-catalogue" childId="2d87-8699-5307-a64d" shared="true" />
           </conditions>
         </modifier>
         <modifier type="set" value="true" field="hidden">
@@ -38673,7 +38673,7 @@ Cette unité est éligible pour déclarer une Charge durant un tour où elle a A
           <modifiers>
             <modifier type="set" value="true" field="hidden">
               <conditions>
-                <condition type="notInstanceOf" value="1" field="selections" scope="primary-catalogue" childId="470a-6daa-9014-12df" shared="true" />
+                <condition type="notInstanceOf" value="1" field="selections" scope="primary-catalogue" childId="615c-961c-7bea-18ef" shared="true" />
               </conditions>
             </modifier>
           </modifiers>
@@ -38688,7 +38688,7 @@ Dans votre phase de Commandement, sélectionnez une unité ^^**Adeptus Astartes^
           <modifiers>
             <modifier type="set" value="true" field="hidden">
               <conditions>
-                <condition type="notInstanceOf" value="1" field="selections" scope="primary-catalogue" childId="f89b-84e0-6e3b-f1e2" shared="true" />
+                <condition type="notInstanceOf" value="1" field="selections" scope="primary-catalogue" childId="e3a2-b0b8-ac03-a188" shared="true" />
               </conditions>
             </modifier>
           </modifiers>
@@ -38721,7 +38721,7 @@ Alors que cette tactique de mission est active, chaque fois qu'une unité ADEPTU
           <modifiers>
             <modifier type="set" value="true" field="hidden">
               <conditions>
-                <condition type="notInstanceOf" value="1" field="selections" scope="primary-catalogue" childId="4ef9-15ce-e3e6-36de" shared="true" />
+                <condition type="notInstanceOf" value="1" field="selections" scope="primary-catalogue" childId="734c-cdf6-c1bb-1c60" shared="true" />
               </conditions>
             </modifier>
           </modifiers>
@@ -38770,7 +38770,7 @@ Alors que cette tactique de mission est active, chaque fois qu'une unité ADEPTU
           <modifiers>
             <modifier type="set" value="true" field="hidden">
               <conditions>
-                <condition type="instanceOf" value="1" field="selections" scope="primary-catalogue" childId="36d3-36bc-68dd-40ac" shared="true" />
+                <condition type="instanceOf" value="1" field="selections" scope="primary-catalogue" childId="2d87-8699-5307-a64d" shared="true" />
               </conditions>
             </modifier>
           </modifiers>
@@ -38784,7 +38784,7 @@ Alors que cette tactique de mission est active, chaque fois qu'une unité ADEPTU
           <modifiers>
             <modifier type="set" value="true" field="hidden">
               <conditions>
-                <condition type="notInstanceOf" value="1" field="selections" scope="primary-catalogue" childId="470a-6daa-9014-12df" shared="true" />
+                <condition type="notInstanceOf" value="1" field="selections" scope="primary-catalogue" childId="615c-961c-7bea-18ef" shared="true" />
               </conditions>
             </modifier>
           </modifiers>
@@ -38802,7 +38802,7 @@ Chaque fois qu’une unité Deathwing Infantry de votre armée effectue une atta
           <modifiers>
             <modifier type="set" value="true" field="hidden">
               <conditions>
-                <condition type="notInstanceOf" value="1" field="selections" scope="primary-catalogue" childId="470a-6daa-9014-12df" shared="true" />
+                <condition type="notInstanceOf" value="1" field="selections" scope="primary-catalogue" childId="615c-961c-7bea-18ef" shared="true" />
               </conditions>
             </modifier>
           </modifiers>
@@ -38818,7 +38818,7 @@ Les unités ^^**Outrider Squad**^^ de votre armée gagnent le mot-clé ^^**Battl
           <modifiers>
             <modifier type="set" value="true" field="hidden">
               <conditions>
-                <condition type="notInstanceOf" value="1" field="selections" scope="primary-catalogue" childId="4ef9-15ce-e3e6-36de" shared="true" />
+                <condition type="notInstanceOf" value="1" field="selections" scope="primary-catalogue" childId="734c-cdf6-c1bb-1c60" shared="true" />
               </conditions>
             </modifier>
           </modifiers>
@@ -38832,7 +38832,7 @@ Les unités ^^**Outrider Squad**^^ de votre armée gagnent le mot-clé ^^**Battl
           <modifiers>
             <modifier type="set" value="true" field="hidden">
               <conditions>
-                <condition type="notInstanceOf" value="1" field="selections" scope="primary-catalogue" childId="4ef9-15ce-e3e6-36de" shared="true" />
+                <condition type="notInstanceOf" value="1" field="selections" scope="primary-catalogue" childId="734c-cdf6-c1bb-1c60" shared="true" />
               </conditions>
             </modifier>
           </modifiers>
@@ -38852,7 +38852,7 @@ Une fois que vous aurez fait vos choix, retirez ces unités du champ de bataille
           <modifiers>
             <modifier type="set" value="true" field="hidden">
               <conditions>
-                <condition type="notInstanceOf" value="1" field="selections" scope="primary-catalogue" childId="470a-6daa-9014-12df" shared="true" />
+                <condition type="notInstanceOf" value="1" field="selections" scope="primary-catalogue" childId="615c-961c-7bea-18ef" shared="true" />
               </conditions>
             </modifier>
           </modifiers>
@@ -38867,7 +38867,7 @@ Une fois que vous aurez fait vos choix, retirez ces unités du champ de bataille
           <modifiers>
             <modifier type="set" value="true" field="hidden">
               <conditions>
-                <condition type="instanceOf" value="1" field="selections" scope="primary-catalogue" childId="36d3-36bc-68dd-40ac" shared="true" />
+                <condition type="instanceOf" value="1" field="selections" scope="primary-catalogue" childId="2d87-8699-5307-a64d" shared="true" />
               </conditions>
             </modifier>
           </modifiers>
@@ -38902,7 +38902,7 @@ Chaque fois qu’une figurine de cette unité effectue une attaque, vous pouvez 
           <modifiers>
             <modifier type="set" value="true" field="hidden">
               <conditions>
-                <condition type="notInstanceOf" value="1" field="selections" scope="primary-catalogue" childId="36d3-36bc-68dd-40ac" shared="true" />
+                <condition type="notInstanceOf" value="1" field="selections" scope="primary-catalogue" childId="2d87-8699-5307-a64d" shared="true" />
               </conditions>
             </modifier>
           </modifiers>
@@ -38928,7 +38928,7 @@ Les figurines de cette unité ont une sauvegarde invulnérable de 5+ contre les 
           <modifiers>
             <modifier type="set" value="true" field="hidden">
               <conditions>
-                <condition type="notInstanceOf" value="1" field="selections" scope="primary-catalogue" childId="94bb-3284-ee14-57a1" shared="true" />
+                <condition type="notInstanceOf" value="1" field="selections" scope="primary-catalogue" childId="a609-860d-3f96-0896" shared="true" />
               </conditions>
             </modifier>
           </modifiers>
@@ -38945,7 +38945,7 @@ Tant que les unités ^^**Adeptus Astartes Terminator^^** de votre armée ne sont
           <modifiers>
             <modifier type="set" value="true" field="hidden">
               <conditions>
-                <condition type="notInstanceOf" value="1" field="selections" scope="primary-catalogue" childId="4ef9-15ce-e3e6-36de" shared="true" />
+                <condition type="notInstanceOf" value="1" field="selections" scope="primary-catalogue" childId="734c-cdf6-c1bb-1c60" shared="true" />
               </conditions>
             </modifier>
           </modifiers>
@@ -38981,7 +38981,7 @@ Their Appointed Hour: Vous pouvez relancer les jets d’Avance et de Charge effe
           <modifiers>
             <modifier type="set" value="true" field="hidden">
               <conditions>
-                <condition type="notInstanceOf" value="1" field="selections" scope="primary-catalogue" childId="470a-6daa-9014-12df" shared="true" />
+                <condition type="notInstanceOf" value="1" field="selections" scope="primary-catalogue" childId="615c-961c-7bea-18ef" shared="true" />
               </conditions>
             </modifier>
           </modifiers>
@@ -38995,7 +38995,7 @@ Their Appointed Hour: Vous pouvez relancer les jets d’Avance et de Charge effe
           <modifiers>
             <modifier type="set" value="true" field="hidden">
               <conditions>
-                <condition type="notInstanceOf" value="1" field="selections" scope="primary-catalogue" childId="94bb-3284-ee14-57a1" shared="true" />
+                <condition type="notInstanceOf" value="1" field="selections" scope="primary-catalogue" childId="a609-860d-3f96-0896" shared="true" />
               </conditions>
             </modifier>
           </modifiers>
@@ -39027,7 +39027,7 @@ Onslaught - 4</description>
           <modifiers>
             <modifier type="set" value="true" field="hidden">
               <conditions>
-                <condition type="notInstanceOf" value="1" field="selections" scope="primary-catalogue" childId="94bb-3284-ee14-57a1" shared="true" />
+                <condition type="notInstanceOf" value="1" field="selections" scope="primary-catalogue" childId="a609-860d-3f96-0896" shared="true" />
               </conditions>
             </modifier>
           </modifiers>
@@ -39055,7 +39055,7 @@ Chaque fois qu’une unité **^^Space Wolves Character^^** de votre armée accom
           <modifiers>
             <modifier type="set" value="true" field="hidden">
               <conditions>
-                <condition type="notInstanceOf" value="1" field="selections" scope="primary-catalogue" childId="94bb-3284-ee14-57a1" shared="true" />
+                <condition type="notInstanceOf" value="1" field="selections" scope="primary-catalogue" childId="a609-860d-3f96-0896" shared="true" />
               </conditions>
             </modifier>
           </modifiers>
@@ -39076,7 +39076,7 @@ Une fois que votre total Beastslayer est supérieur ou égal à votre cible Beas
           <modifiers>
             <modifier type="set" value="true" field="hidden">
               <conditions>
-                <condition type="notInstanceOf" value="1" field="selections" scope="primary-catalogue" childId="36d3-36bc-68dd-40ac" shared="true" />
+                <condition type="notInstanceOf" value="1" field="selections" scope="primary-catalogue" childId="2d87-8699-5307-a64d" shared="true" />
               </conditions>
             </modifier>
           </modifiers>
@@ -39090,7 +39090,7 @@ Une fois que votre total Beastslayer est supérieur ou égal à votre cible Beas
           <modifiers>
             <modifier type="set" value="true" field="hidden">
               <conditions>
-                <condition type="notInstanceOf" value="1" field="selections" scope="primary-catalogue" childId="36d3-36bc-68dd-40ac" shared="true" />
+                <condition type="notInstanceOf" value="1" field="selections" scope="primary-catalogue" childId="2d87-8699-5307-a64d" shared="true" />
               </conditions>
             </modifier>
           </modifiers>
@@ -39107,7 +39107,7 @@ Une fois que votre total Beastslayer est supérieur ou égal à votre cible Beas
           <modifiers>
             <modifier type="set" value="true" field="hidden">
               <conditions>
-                <condition type="notInstanceOf" value="1" field="selections" scope="primary-catalogue" childId="36d3-36bc-68dd-40ac" shared="true" />
+                <condition type="notInstanceOf" value="1" field="selections" scope="primary-catalogue" childId="2d87-8699-5307-a64d" shared="true" />
               </conditions>
             </modifier>
           </modifiers>
@@ -39124,7 +39124,7 @@ Une fois que votre total Beastslayer est supérieur ou égal à votre cible Beas
           <modifiers>
             <modifier type="set" value="true" field="hidden">
               <conditions>
-                <condition type="notInstanceOf" value="1" field="selections" scope="primary-catalogue" childId="2261-79a5-19d9-1668" shared="true" />
+                <condition type="notInstanceOf" value="1" field="selections" scope="primary-catalogue" childId="c8f8-418a-8845-9104" shared="true" />
               </conditions>
             </modifier>
           </modifiers>
@@ -39147,7 +39147,7 @@ Si votre armée inclut Vulkan He'stan, à votre tour, chaque unité Infernus Squ
           <modifiers>
             <modifier type="set" value="true" field="hidden">
               <conditions>
-                <condition type="notInstanceOf" value="1" field="selections" scope="primary-catalogue" childId="5d6e-fd3-330a-11dd" shared="true" />
+                <condition type="notInstanceOf" value="1" field="selections" scope="primary-catalogue" childId="68c1-87f7-4226-4f9a" shared="true" />
               </conditions>
             </modifier>
           </modifiers>
@@ -39164,7 +39164,7 @@ Chaque fois qu'une figurine d'une unité ^^**Darnath Lysander**^^ de votre armé
           <modifiers>
             <modifier type="set" value="true" field="hidden">
               <conditions>
-                <condition type="notInstanceOf" value="1" field="selections" scope="primary-catalogue" childId="6e59-e1ee-47ad-6ce5" shared="true" />
+                <condition type="notInstanceOf" value="1" field="selections" scope="primary-catalogue" childId="c356-2a27-4e9f-1b82" shared="true" />
               </conditions>
             </modifier>
           </modifiers>
@@ -39183,7 +39183,7 @@ Une fois par tour de bataille, si une figurine **^^Aethon^^** Shaan de votre arm
           <modifiers>
             <modifier type="set" value="true" field="hidden">
               <conditions>
-                <condition type="notInstanceOf" value="1" field="selections" scope="primary-catalogue" childId="f27e-18c0-b73e-748e" shared="true" />
+                <condition type="notInstanceOf" value="1" field="selections" scope="primary-catalogue" childId="c161-30a1-5947-6e2f" shared="true" />
               </conditions>
             </modifier>
           </modifiers>
@@ -39202,7 +39202,7 @@ Une fois par tour de bataille, après la destruction de votre cible Oath of Mome
           <modifiers>
             <modifier type="set" value="true" field="hidden">
               <conditions>
-                <condition type="notInstanceOf" value="1" field="selections" scope="primary-catalogue" childId="67c1-fc13-f9a1-cbbf" shared="true" />
+                <condition type="notInstanceOf" value="1" field="selections" scope="primary-catalogue" childId="9a84-4a01-b7e1-8586" shared="true" />
               </conditions>
             </modifier>
           </modifiers>
@@ -39220,7 +39220,7 @@ Une fois par tour de bataille, après la destruction de votre cible Oath of Mome
           <modifiers>
             <modifier type="set" value="true" field="hidden">
               <conditions>
-                <condition type="notInstanceOf" value="1" field="selections" scope="primary-catalogue" childId="4029-9237-e8db-af55" shared="true" />
+                <condition type="notInstanceOf" value="1" field="selections" scope="primary-catalogue" childId="f829-170e-44db-4d35" shared="true" />
               </conditions>
             </modifier>
           </modifiers>
@@ -39243,7 +39243,7 @@ Cette unité est éligible pour déclarer une charge pendant un tour où elle a 
           <modifiers>
             <modifier type="set" value="true" field="hidden">
               <conditions>
-                <condition type="notInstanceOf" value="1" field="selections" scope="primary-catalogue" childId="94bb-3284-ee14-57a1" shared="true" />
+                <condition type="notInstanceOf" value="1" field="selections" scope="primary-catalogue" childId="a609-860d-3f96-0896" shared="true" />
               </conditions>
             </modifier>
           </modifiers>
@@ -39268,7 +39268,7 @@ Une fois par bataille, lorsque vous sélectionnez un Hunting Pack pour la règle
           <modifiers>
             <modifier type="set" value="true" field="hidden">
               <conditions>
-                <condition type="notInstanceOf" value="1" field="selections" scope="primary-catalogue" childId="4ef9-15ce-e3e6-36de" shared="true" />
+                <condition type="notInstanceOf" value="1" field="selections" scope="primary-catalogue" childId="734c-cdf6-c1bb-1c60" shared="true" />
               </conditions>
             </modifier>
           </modifiers>
@@ -39321,7 +39321,7 @@ si la caractéristique d’Endurance de votre unité ou votre unité a le mot-cl
           <modifiers>
             <modifier type="set" value="true" field="hidden">
               <conditions>
-                <condition type="notInstanceOf" value="1" field="selections" scope="primary-catalogue" childId="4029-9237-e8db-af55" shared="true" />
+                <condition type="notInstanceOf" value="1" field="selections" scope="primary-catalogue" childId="f829-170e-44db-4d35" shared="true" />
               </conditions>
             </modifier>
           </modifiers>
@@ -45740,7 +45740,7 @@ Une Optimisation. Si c'est le cas, sélectionnez un ami Adeptus Astartes Transpo
           <modifiers>
             <modifier type="set" value="true" field="hidden">
               <conditions>
-                <condition type="notInstanceOf" value="1" field="selections" scope="primary-catalogue" childId="36d3-36bc-68dd-40ac" shared="true" />
+                <condition type="notInstanceOf" value="1" field="selections" scope="primary-catalogue" childId="2d87-8699-5307-a64d" shared="true" />
               </conditions>
             </modifier>
           </modifiers>
@@ -45768,7 +45768,7 @@ Une Optimisation. Si c'est le cas, sélectionnez un ami Adeptus Astartes Transpo
               <modifiers>
                 <modifier type="set" value="true" field="hidden">
                   <conditions>
-                    <condition type="notInstanceOf" value="1" field="selections" scope="primary-catalogue" childId="470a-6daa-9014-12df" shared="true" />
+                    <condition type="notInstanceOf" value="1" field="selections" scope="primary-catalogue" childId="615c-961c-7bea-18ef" shared="true" />
                   </conditions>
                 </modifier>
               </modifiers>
@@ -45782,7 +45782,7 @@ Une Optimisation. Si c'est le cas, sélectionnez un ami Adeptus Astartes Transpo
               <modifiers>
                 <modifier type="set" value="true" field="hidden">
                   <conditions>
-                    <condition type="notInstanceOf" value="1" field="selections" scope="primary-catalogue" childId="94bb-3284-ee14-57a1" shared="true" />
+                    <condition type="notInstanceOf" value="1" field="selections" scope="primary-catalogue" childId="a609-860d-3f96-0896" shared="true" />
                   </conditions>
                 </modifier>
               </modifiers>
@@ -45796,7 +45796,7 @@ Une Optimisation. Si c'est le cas, sélectionnez un ami Adeptus Astartes Transpo
               <modifiers>
                 <modifier type="set" value="true" field="hidden">
                   <conditions>
-                    <condition type="notInstanceOf" value="1" field="selections" scope="primary-catalogue" childId="4ef9-15ce-e3e6-36de" shared="true" />
+                    <condition type="notInstanceOf" value="1" field="selections" scope="primary-catalogue" childId="734c-cdf6-c1bb-1c60" shared="true" />
                   </conditions>
                 </modifier>
               </modifiers>
@@ -45808,7 +45808,7 @@ Une Optimisation. Si c'est le cas, sélectionnez un ami Adeptus Astartes Transpo
               <modifiers>
                 <modifier type="set" value="true" field="hidden">
                   <conditions>
-                    <condition type="notInstanceOf" value="1" field="selections" scope="primary-catalogue" childId="36d3-36bc-68dd-40ac" shared="true" />
+                    <condition type="notInstanceOf" value="1" field="selections" scope="primary-catalogue" childId="2d87-8699-5307-a64d" shared="true" />
                   </conditions>
                 </modifier>
               </modifiers>
@@ -46299,7 +46299,7 @@ Une Optimisation. Si c'est le cas, sélectionnez un ami Adeptus Astartes Transpo
       <modifiers>
         <modifier type="set" value="true" field="hidden">
           <conditions>
-            <condition type="notInstanceOf" value="1" field="selections" scope="primary-catalogue" childId="470a-6daa-9014-12df" shared="true" includeChildSelections="true" includeChildForces="true" />
+            <condition type="notInstanceOf" value="1" field="selections" scope="primary-catalogue" childId="615c-961c-7bea-18ef" shared="true" includeChildSelections="true" includeChildForces="true" />
           </conditions>
         </modifier>
       </modifiers>
@@ -46919,7 +46919,7 @@ Une Optimisation. Si c'est le cas, sélectionnez un ami Adeptus Astartes Transpo
       <modifiers>
         <modifier type="set" value="true" field="hidden">
           <conditions>
-            <condition type="notInstanceOf" value="1" field="selections" scope="primary-catalogue" childId="470a-6daa-9014-12df" shared="true" includeChildSelections="true" includeChildForces="true" />
+            <condition type="notInstanceOf" value="1" field="selections" scope="primary-catalogue" childId="615c-961c-7bea-18ef" shared="true" includeChildSelections="true" includeChildForces="true" />
           </conditions>
         </modifier>
       </modifiers>
@@ -46931,7 +46931,7 @@ Une Optimisation. Si c'est le cas, sélectionnez un ami Adeptus Astartes Transpo
           <conditionGroups>
             <conditionGroup type="or">
               <conditions>
-                <condition type="notInstanceOf" value="1" field="selections" scope="primary-catalogue" childId="470a-6daa-9014-12df" shared="true" />
+                <condition type="notInstanceOf" value="1" field="selections" scope="primary-catalogue" childId="615c-961c-7bea-18ef" shared="true" />
                 <condition type="notInstanceOf" value="1" field="selections" scope="ancestor" childId="9cfd-1c32-585f-7d5c" shared="true" />
               </conditions>
             </conditionGroup>
@@ -47037,7 +47037,7 @@ Une Optimisation. Si c'est le cas, sélectionnez un ami Adeptus Astartes Transpo
           <conditionGroups>
             <conditionGroup type="or">
               <conditions>
-                <condition type="notInstanceOf" value="1" field="selections" scope="primary-catalogue" childId="4ef9-15ce-e3e6-36de" shared="true" />
+                <condition type="notInstanceOf" value="1" field="selections" scope="primary-catalogue" childId="734c-cdf6-c1bb-1c60" shared="true" />
                 <condition type="notInstanceOf" value="1" field="selections" scope="ancestor" childId="9cfd-1c32-585f-7d5c" shared="true" />
               </conditions>
             </conditionGroup>
@@ -47154,7 +47154,7 @@ Une Optimisation. Si c'est le cas, sélectionnez un ami Adeptus Astartes Transpo
       <modifiers>
         <modifier type="set" value="true" field="hidden">
           <conditions>
-            <condition type="notInstanceOf" value="1" field="selections" scope="primary-catalogue" childId="4ef9-15ce-e3e6-36de" shared="true" includeChildSelections="true" includeChildForces="true" />
+            <condition type="notInstanceOf" value="1" field="selections" scope="primary-catalogue" childId="734c-cdf6-c1bb-1c60" shared="true" includeChildSelections="true" includeChildForces="true" />
           </conditions>
         </modifier>
       </modifiers>
@@ -47787,7 +47787,7 @@ Jusqu'à la fin de la phase, les armes de mêlée de cette figurine ont cette ap
       <modifiers>
         <modifier type="set" value="true" field="hidden">
           <conditions>
-            <condition type="notInstanceOf" value="1" field="selections" scope="primary-catalogue" childId="4ef9-15ce-e3e6-36de" shared="true" includeChildSelections="true" includeChildForces="true" />
+            <condition type="notInstanceOf" value="1" field="selections" scope="primary-catalogue" childId="734c-cdf6-c1bb-1c60" shared="true" includeChildSelections="true" includeChildForces="true" />
           </conditions>
         </modifier>
       </modifiers>
@@ -47797,7 +47797,7 @@ Jusqu'à la fin de la phase, les armes de mêlée de cette figurine ont cette ap
       <modifiers>
         <modifier type="set" value="true" field="hidden">
           <conditions>
-            <condition type="notInstanceOf" value="1" field="selections" scope="primary-catalogue" childId="94bb-3284-ee14-57a1" shared="true" includeChildSelections="true" includeChildForces="true" />
+            <condition type="notInstanceOf" value="1" field="selections" scope="primary-catalogue" childId="a609-860d-3f96-0896" shared="true" includeChildSelections="true" includeChildForces="true" />
           </conditions>
         </modifier>
       </modifiers>
@@ -48462,7 +48462,7 @@ Jusqu'à la fin de la phase, les armes de mêlée de cette figurine ont cette ap
       <modifiers>
         <modifier type="set" value="true" field="hidden">
           <conditions>
-            <condition type="notInstanceOf" value="1" field="selections" scope="primary-catalogue" childId="94bb-3284-ee14-57a1" shared="true" includeChildSelections="true" includeChildForces="true" />
+            <condition type="notInstanceOf" value="1" field="selections" scope="primary-catalogue" childId="a609-860d-3f96-0896" shared="true" includeChildSelections="true" includeChildForces="true" />
           </conditions>
         </modifier>
       </modifiers>
@@ -48566,7 +48566,7 @@ Jusqu'à la fin de la phase, les armes de mêlée de cette figurine ont cette ap
           <conditionGroups>
             <conditionGroup type="or">
               <conditions>
-                <condition type="notInstanceOf" value="1" field="selections" scope="primary-catalogue" childId="94bb-3284-ee14-57a1" shared="true" />
+                <condition type="notInstanceOf" value="1" field="selections" scope="primary-catalogue" childId="a609-860d-3f96-0896" shared="true" />
                 <condition type="notInstanceOf" value="1" field="selections" scope="ancestor" childId="9cfd-1c32-585f-7d5c" shared="true" />
               </conditions>
             </conditionGroup>
@@ -49547,7 +49547,7 @@ Jusqu'à la fin de la phase, les armes de mêlée de cette figurine ont cette ap
       <modifiers>
         <modifier type="set" value="true" field="hidden">
           <conditions>
-            <condition type="notInstanceOf" value="1" field="selections" scope="primary-catalogue" childId="36d3-36bc-68dd-40ac" shared="true" includeChildSelections="true" includeChildForces="true" />
+            <condition type="notInstanceOf" value="1" field="selections" scope="primary-catalogue" childId="2d87-8699-5307-a64d" shared="true" includeChildSelections="true" includeChildForces="true" />
           </conditions>
         </modifier>
       </modifiers>
@@ -50338,7 +50338,7 @@ Jusqu'à la fin de la phase, les armes de mêlée de cette figurine ont cette ap
       <modifiers>
         <modifier type="set" value="true" field="hidden">
           <conditions>
-            <condition type="notInstanceOf" value="1" field="selections" scope="primary-catalogue" childId="36d3-36bc-68dd-40ac" shared="true" includeChildSelections="true" includeChildForces="true" />
+            <condition type="notInstanceOf" value="1" field="selections" scope="primary-catalogue" childId="2d87-8699-5307-a64d" shared="true" includeChildSelections="true" includeChildForces="true" />
           </conditions>
         </modifier>
       </modifiers>
@@ -52041,7 +52041,7 @@ Jusqu'à la fin de la phase, les armes de mêlée de cette figurine ont cette ap
                 <modifier type="append" value="Terminator Armor" field="e703-ecb6-5ce7-aec1" scope="root-entry" affects="profiles.Unit" join=", " />
                 <modifier type="add" value="e21f-8e64-c5d-7df0" field="category" scope="root-entry">
                   <conditions>
-                    <condition type="instanceOf" value="1" field="selections" scope="primary-catalogue" shared="true" childId="470a-6daa-9014-12df" childName="Imperium - Adeptus Astartes - Dark Angels" />
+                    <condition type="instanceOf" value="1" field="selections" scope="primary-catalogue" shared="true" childId="615c-961c-7bea-18ef" childName="Imperium - Adeptus Astartes - Dark Angels" />
                   </conditions>
                 </modifier>
               </modifiers>
@@ -53554,7 +53554,7 @@ Jusqu'à la fin de la phase, les armes de mêlée de cette figurine ont cette ap
               <modifiers>
                 <modifier type="set" value="true" field="hidden">
                   <conditions>
-                    <condition type="notInstanceOf" value="1" field="selections" scope="primary-catalogue" childId="470a-6daa-9014-12df" shared="true" />
+                    <condition type="notInstanceOf" value="1" field="selections" scope="primary-catalogue" childId="615c-961c-7bea-18ef" shared="true" />
                   </conditions>
                 </modifier>
                 <modifier type="set" value="true" field="hidden">
@@ -53593,7 +53593,7 @@ Jusqu'à la fin de la phase, les armes de mêlée de cette figurine ont cette ap
               <modifiers>
                 <modifier type="set" value="true" field="hidden">
                   <conditions>
-                    <condition type="notInstanceOf" value="1" field="selections" scope="primary-catalogue" childId="470a-6daa-9014-12df" shared="true" />
+                    <condition type="notInstanceOf" value="1" field="selections" scope="primary-catalogue" childId="615c-961c-7bea-18ef" shared="true" />
                   </conditions>
                 </modifier>
               </modifiers>
@@ -53837,7 +53837,7 @@ Jusqu'à la fin de la phase, les armes de mêlée de cette figurine ont cette ap
           <modifiers>
             <modifier type="set" value="true" field="hidden">
               <conditions>
-                <condition type="notInstanceOf" value="1" field="selections" scope="primary-catalogue" childId="470a-6daa-9014-12df" shared="true" />
+                <condition type="notInstanceOf" value="1" field="selections" scope="primary-catalogue" childId="615c-961c-7bea-18ef" shared="true" />
               </conditions>
             </modifier>
             <modifier type="add" value="aab1-4f05-fabe-5ba5" field="category" scope="root-entry" />
@@ -53850,7 +53850,7 @@ Jusqu'à la fin de la phase, les armes de mêlée de cette figurine ont cette ap
           <modifiers>
             <modifier type="set" value="true" field="hidden">
               <conditions>
-                <condition type="notInstanceOf" value="1" field="selections" scope="primary-catalogue" childId="4ef9-15ce-e3e6-36de" shared="true" />
+                <condition type="notInstanceOf" value="1" field="selections" scope="primary-catalogue" childId="734c-cdf6-c1bb-1c60" shared="true" />
               </conditions>
             </modifier>
             <modifier type="add" value="62ac-ef42-27b4-ae7" field="category" scope="root-entry" />
@@ -53863,7 +53863,7 @@ Jusqu'à la fin de la phase, les armes de mêlée de cette figurine ont cette ap
           <modifiers>
             <modifier type="set" value="true" field="hidden">
               <conditions>
-                <condition type="notInstanceOf" value="1" field="selections" scope="primary-catalogue" childId="36d3-36bc-68dd-40ac" shared="true" />
+                <condition type="notInstanceOf" value="1" field="selections" scope="primary-catalogue" childId="2d87-8699-5307-a64d" shared="true" />
               </conditions>
             </modifier>
             <modifier type="add" value="9249-acae-2882-d95" field="category" scope="root-entry" />
@@ -53876,7 +53876,7 @@ Jusqu'à la fin de la phase, les armes de mêlée de cette figurine ont cette ap
           <modifiers>
             <modifier type="set" value="true" field="hidden">
               <conditions>
-                <condition type="notInstanceOf" value="1" field="selections" scope="primary-catalogue" childId="94bb-3284-ee14-57a1" shared="true" />
+                <condition type="notInstanceOf" value="1" field="selections" scope="primary-catalogue" childId="a609-860d-3f96-0896" shared="true" />
               </conditions>
             </modifier>
             <modifier type="add" value="a0d9-c115-2a-8330" field="category" scope="root-entry" />
@@ -54013,10 +54013,10 @@ aptitude [Assaut]</characteristic>
     </selectionEntryGroup>
   </sharedSelectionEntryGroups>
   <catalogueLinks>
-    <catalogueLink type="catalogue" name="Imperium - Agents of the Imperium" id="c047-b43d-ba0f-5f32" targetId="b00-cd86-4b4c-97ba" importRootEntries="true" />
-    <catalogueLink type="catalogue" name="Library - Titans" id="896f-5094-b2f2-8aa8" targetId="7481-280e-b55e-7867" importRootEntries="true" />
-    <catalogueLink type="catalogue" name="Imperium - Imperial Knights - Library" id="e24b-8767-615b-7565" targetId="1b6d-dc06-5db9-c7d1" importRootEntries="true" />
-    <catalogueLink type="catalogue" name="Library - Astartes Heresy Legends" id="9e7d-2e90-7a2c-3130" targetId="ac3b-689c-4ad4-70cb" importRootEntries="true" />
+    <catalogueLink type="catalogue" name="Imperium - Agents of the Imperium" id="c047-b43d-ba0f-5f32" targetId="58ea-21f3-3da9-74dd" importRootEntries="true" />
+    <catalogueLink type="catalogue" name="Library - Titans" id="896f-5094-b2f2-8aa8" targetId="701a-a154-08d0-db72" importRootEntries="true" />
+    <catalogueLink type="catalogue" name="Imperium - Imperial Knights - Library" id="e24b-8767-615b-7565" targetId="1787-6721-8649-a4a8" importRootEntries="true" />
+    <catalogueLink type="catalogue" name="Library - Astartes Heresy Legends" id="9e7d-2e90-7a2c-3130" targetId="ff25-972c-b995-3383" importRootEntries="true" />
   </catalogueLinks>
   <profileTypes>
     <profileType name="Deeds Worthy of Saga" hidden="false" id="cc48-131-6c21-72f1">

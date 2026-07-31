@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue xmlns="http://www.battlescribe.net/schema/catalogueSchema" library="true" id="5a44-f048-114b-e3ff" name="Imperium - Astra Militarum - Library" gameSystemId="sys-352e-adc2-7639-d6a9" gameSystemRevision="1" revision="203" battleScribeVersion="2.03" type="catalogue">
+<catalogue xmlns="http://www.battlescribe.net/schema/catalogueSchema" library="true" id="6649-e3e1-f735-10b5" name="Imperium - Astra Militarum - Library" gameSystemId="sys-0e45-705d-f6bc-806a" gameSystemRevision="1" revision="203" battleScribeVersion="2.03" type="catalogue">
   <sharedSelectionEntries>
     <selectionEntry type="model" import="true" name="Aegis Defence Line" hidden="false" id="cb99-456-f100-40ed">
       <categoryLinks>
@@ -17,7 +17,7 @@
       <modifiers>
         <modifier type="set-primary" value="887b-ab87-92a2-20f5" field="category">
           <conditions>
-            <condition type="instanceOf" value="1" field="selections" scope="primary-catalogue" childId="3bdf-a114-5035-c6ac" shared="true" />
+            <condition type="instanceOf" value="1" field="selections" scope="primary-catalogue" childId="7b3b-4dea-9367-98b1" shared="true" />
           </conditions>
         </modifier>
       </modifiers>
@@ -77,7 +77,7 @@
       <modifiers>
         <modifier type="set-primary" value="887b-ab87-92a2-20f5" field="category">
           <conditions>
-            <condition type="instanceOf" value="1" field="selections" scope="primary-catalogue" childId="3bdf-a114-5035-c6ac" shared="true" />
+            <condition type="instanceOf" value="1" field="selections" scope="primary-catalogue" childId="7b3b-4dea-9367-98b1" shared="true" />
           </conditions>
         </modifier>
       </modifiers>
@@ -338,7 +338,7 @@
         </modifier>
         <modifier type="set-primary" value="887b-ab87-92a2-20f5" field="category">
           <conditions>
-            <condition type="instanceOf" value="1" field="selections" scope="primary-catalogue" childId="3bdf-a114-5035-c6ac" shared="true" />
+            <condition type="instanceOf" value="1" field="selections" scope="primary-catalogue" childId="7b3b-4dea-9367-98b1" shared="true" />
           </conditions>
         </modifier>
       </modifiers>
@@ -655,7 +655,7 @@
       <modifiers>
         <modifier type="set-primary" value="887b-ab87-92a2-20f5" field="category">
           <conditions>
-            <condition type="instanceOf" value="1" field="selections" scope="primary-catalogue" childId="3bdf-a114-5035-c6ac" shared="true" />
+            <condition type="instanceOf" value="1" field="selections" scope="primary-catalogue" childId="7b3b-4dea-9367-98b1" shared="true" />
           </conditions>
         </modifier>
       </modifiers>
@@ -904,7 +904,7 @@
       <modifiers>
         <modifier type="set-primary" value="887b-ab87-92a2-20f5" field="category">
           <conditions>
-            <condition type="instanceOf" value="1" field="selections" scope="primary-catalogue" childId="3bdf-a114-5035-c6ac" shared="true" />
+            <condition type="instanceOf" value="1" field="selections" scope="primary-catalogue" childId="7b3b-4dea-9367-98b1" shared="true" />
           </conditions>
         </modifier>
       </modifiers>
@@ -1132,7 +1132,7 @@
       <modifiers>
         <modifier type="set-primary" value="887b-ab87-92a2-20f5" field="category">
           <conditions>
-            <condition type="instanceOf" value="1" field="selections" scope="primary-catalogue" childId="3bdf-a114-5035-c6ac" shared="true" />
+            <condition type="instanceOf" value="1" field="selections" scope="primary-catalogue" childId="7b3b-4dea-9367-98b1" shared="true" />
           </conditions>
         </modifier>
       </modifiers>
@@ -1345,7 +1345,7 @@
       <modifiers>
         <modifier type="set-primary" value="887b-ab87-92a2-20f5" field="category">
           <conditions>
-            <condition type="instanceOf" value="1" field="selections" scope="primary-catalogue" childId="3bdf-a114-5035-c6ac" shared="true" />
+            <condition type="instanceOf" value="1" field="selections" scope="primary-catalogue" childId="7b3b-4dea-9367-98b1" shared="true" />
           </conditions>
         </modifier>
       </modifiers>
@@ -1520,7 +1520,7 @@
         </modifier>
         <modifier type="set" value="true" field="hidden">
           <conditions>
-            <condition type="notInstanceOf" value="1" field="selections" scope="primary-catalogue" childId="b0ae-12a5-c84-ea45" shared="true" />
+            <condition type="notInstanceOf" value="1" field="selections" scope="primary-catalogue" childId="a3ff-88a4-beb9-0650" shared="true" />
           </conditions>
         </modifier>
       </modifiers>
@@ -1947,7 +1947,7 @@
       <modifiers>
         <modifier type="set-primary" value="887b-ab87-92a2-20f5" field="category">
           <conditions>
-            <condition type="instanceOf" value="1" field="selections" scope="primary-catalogue" childId="3bdf-a114-5035-c6ac" shared="true" />
+            <condition type="instanceOf" value="1" field="selections" scope="primary-catalogue" childId="7b3b-4dea-9367-98b1" shared="true" />
           </conditions>
         </modifier>
       </modifiers>
@@ -2093,7 +2093,7 @@
       <modifiers>
         <modifier type="set-primary" value="887b-ab87-92a2-20f5" field="category">
           <conditions>
-            <condition type="instanceOf" value="1" field="selections" scope="primary-catalogue" childId="3bdf-a114-5035-c6ac" shared="true" />
+            <condition type="instanceOf" value="1" field="selections" scope="primary-catalogue" childId="7b3b-4dea-9367-98b1" shared="true" />
           </conditions>
         </modifier>
       </modifiers>
@@ -2603,7 +2603,7 @@
         </modifier>
         <modifier type="set-primary" value="887b-ab87-92a2-20f5" field="category">
           <conditions>
-            <condition type="instanceOf" value="1" field="selections" scope="primary-catalogue" childId="3bdf-a114-5035-c6ac" shared="true" />
+            <condition type="instanceOf" value="1" field="selections" scope="primary-catalogue" childId="7b3b-4dea-9367-98b1" shared="true" />
           </conditions>
         </modifier>
       </modifiers>
@@ -2871,7 +2871,7 @@
         </modifier>
         <modifier type="set-primary" value="887b-ab87-92a2-20f5" field="category">
           <conditions>
-            <condition type="instanceOf" value="1" field="selections" scope="primary-catalogue" childId="3bdf-a114-5035-c6ac" shared="true" />
+            <condition type="instanceOf" value="1" field="selections" scope="primary-catalogue" childId="7b3b-4dea-9367-98b1" shared="true" />
           </conditions>
         </modifier>
       </modifiers>
@@ -3264,7 +3264,7 @@
       <modifiers>
         <modifier type="set-primary" value="887b-ab87-92a2-20f5" field="category">
           <conditions>
-            <condition type="instanceOf" value="1" field="selections" scope="primary-catalogue" childId="3bdf-a114-5035-c6ac" shared="true" />
+            <condition type="instanceOf" value="1" field="selections" scope="primary-catalogue" childId="7b3b-4dea-9367-98b1" shared="true" />
           </conditions>
         </modifier>
       </modifiers>
@@ -3525,7 +3525,7 @@
       <modifiers>
         <modifier type="set" value="true" field="hidden">
           <conditions>
-            <condition type="notInstanceOf" value="1" field="selections" scope="primary-catalogue" childId="b0ae-12a5-c84-ea45" shared="true" />
+            <condition type="notInstanceOf" value="1" field="selections" scope="primary-catalogue" childId="a3ff-88a4-beb9-0650" shared="true" />
           </conditions>
         </modifier>
       </modifiers>
@@ -3816,7 +3816,7 @@
         </modifier>
         <modifier type="set-primary" value="887b-ab87-92a2-20f5" field="category">
           <conditions>
-            <condition type="instanceOf" value="1" field="selections" scope="primary-catalogue" childId="3bdf-a114-5035-c6ac" shared="true" />
+            <condition type="instanceOf" value="1" field="selections" scope="primary-catalogue" childId="7b3b-4dea-9367-98b1" shared="true" />
           </conditions>
         </modifier>
       </modifiers>
@@ -4590,7 +4590,7 @@
       <modifiers>
         <modifier type="set-primary" value="887b-ab87-92a2-20f5" field="category">
           <conditions>
-            <condition type="instanceOf" value="1" field="selections" scope="primary-catalogue" childId="3bdf-a114-5035-c6ac" shared="true" />
+            <condition type="instanceOf" value="1" field="selections" scope="primary-catalogue" childId="7b3b-4dea-9367-98b1" shared="true" />
           </conditions>
         </modifier>
       </modifiers>
@@ -4780,7 +4780,7 @@
       <modifiers>
         <modifier type="set-primary" value="887b-ab87-92a2-20f5" field="category">
           <conditions>
-            <condition type="instanceOf" value="1" field="selections" scope="primary-catalogue" childId="3bdf-a114-5035-c6ac" shared="true" />
+            <condition type="instanceOf" value="1" field="selections" scope="primary-catalogue" childId="7b3b-4dea-9367-98b1" shared="true" />
           </conditions>
         </modifier>
       </modifiers>
@@ -5012,7 +5012,7 @@
       <modifiers>
         <modifier type="set-primary" value="887b-ab87-92a2-20f5" field="category">
           <conditions>
-            <condition type="instanceOf" value="1" field="selections" scope="primary-catalogue" childId="3bdf-a114-5035-c6ac" shared="true" />
+            <condition type="instanceOf" value="1" field="selections" scope="primary-catalogue" childId="7b3b-4dea-9367-98b1" shared="true" />
           </conditions>
         </modifier>
       </modifiers>
@@ -5339,7 +5339,7 @@
       <modifiers>
         <modifier type="set" value="true" field="hidden">
           <conditions>
-            <condition type="notInstanceOf" value="1" field="selections" scope="primary-catalogue" childId="b0ae-12a5-c84-ea45" shared="true" />
+            <condition type="notInstanceOf" value="1" field="selections" scope="primary-catalogue" childId="a3ff-88a4-beb9-0650" shared="true" />
           </conditions>
         </modifier>
       </modifiers>
@@ -5791,7 +5791,7 @@
       <modifiers>
         <modifier type="set-primary" value="887b-ab87-92a2-20f5" field="category">
           <conditions>
-            <condition type="instanceOf" value="1" field="selections" scope="primary-catalogue" childId="3bdf-a114-5035-c6ac" shared="true" />
+            <condition type="instanceOf" value="1" field="selections" scope="primary-catalogue" childId="7b3b-4dea-9367-98b1" shared="true" />
           </conditions>
         </modifier>
       </modifiers>
@@ -6114,7 +6114,7 @@
       <modifiers>
         <modifier type="set-primary" value="887b-ab87-92a2-20f5" field="category">
           <conditions>
-            <condition type="instanceOf" value="1" field="selections" scope="primary-catalogue" childId="3bdf-a114-5035-c6ac" shared="true" />
+            <condition type="instanceOf" value="1" field="selections" scope="primary-catalogue" childId="7b3b-4dea-9367-98b1" shared="true" />
           </conditions>
         </modifier>
       </modifiers>
@@ -6360,7 +6360,7 @@
       <modifiers>
         <modifier type="set-primary" value="887b-ab87-92a2-20f5" field="category">
           <conditions>
-            <condition type="instanceOf" value="1" field="selections" scope="primary-catalogue" childId="3bdf-a114-5035-c6ac" shared="true" />
+            <condition type="instanceOf" value="1" field="selections" scope="primary-catalogue" childId="7b3b-4dea-9367-98b1" shared="true" />
           </conditions>
         </modifier>
       </modifiers>
@@ -6629,7 +6629,7 @@
       <modifiers>
         <modifier type="set-primary" value="887b-ab87-92a2-20f5" field="category">
           <conditions>
-            <condition type="instanceOf" value="1" field="selections" scope="primary-catalogue" childId="3bdf-a114-5035-c6ac" shared="true" />
+            <condition type="instanceOf" value="1" field="selections" scope="primary-catalogue" childId="7b3b-4dea-9367-98b1" shared="true" />
           </conditions>
         </modifier>
       </modifiers>
@@ -6808,7 +6808,7 @@
       <modifiers>
         <modifier type="set" value="true" field="hidden">
           <conditions>
-            <condition type="notInstanceOf" value="1" field="selections" scope="primary-catalogue" childId="b0ae-12a5-c84-ea45" shared="true" />
+            <condition type="notInstanceOf" value="1" field="selections" scope="primary-catalogue" childId="a3ff-88a4-beb9-0650" shared="true" />
           </conditions>
         </modifier>
         <modifier type="set" value="true" field="hidden">
@@ -6984,7 +6984,7 @@
       <modifiers>
         <modifier type="set-primary" value="887b-ab87-92a2-20f5" field="category">
           <conditions>
-            <condition type="instanceOf" value="1" field="selections" scope="primary-catalogue" childId="3bdf-a114-5035-c6ac" shared="true" />
+            <condition type="instanceOf" value="1" field="selections" scope="primary-catalogue" childId="7b3b-4dea-9367-98b1" shared="true" />
           </conditions>
         </modifier>
       </modifiers>
@@ -7476,7 +7476,7 @@
       <modifiers>
         <modifier type="set-primary" value="887b-ab87-92a2-20f5" field="category">
           <conditions>
-            <condition type="instanceOf" value="1" field="selections" scope="primary-catalogue" childId="3bdf-a114-5035-c6ac" shared="true" />
+            <condition type="instanceOf" value="1" field="selections" scope="primary-catalogue" childId="7b3b-4dea-9367-98b1" shared="true" />
           </conditions>
         </modifier>
       </modifiers>
@@ -7632,7 +7632,7 @@
       <modifiers>
         <modifier type="set-primary" value="887b-ab87-92a2-20f5" field="category">
           <conditions>
-            <condition type="instanceOf" value="1" field="selections" scope="primary-catalogue" childId="3bdf-a114-5035-c6ac" shared="true" />
+            <condition type="instanceOf" value="1" field="selections" scope="primary-catalogue" childId="7b3b-4dea-9367-98b1" shared="true" />
           </conditions>
         </modifier>
       </modifiers>
@@ -7788,7 +7788,7 @@
       <modifiers>
         <modifier type="set-primary" value="887b-ab87-92a2-20f5" field="category">
           <conditions>
-            <condition type="instanceOf" value="1" field="selections" scope="primary-catalogue" childId="3bdf-a114-5035-c6ac" shared="true" />
+            <condition type="instanceOf" value="1" field="selections" scope="primary-catalogue" childId="7b3b-4dea-9367-98b1" shared="true" />
           </conditions>
         </modifier>
       </modifiers>
@@ -7940,7 +7940,7 @@
       <modifiers>
         <modifier type="set-primary" value="887b-ab87-92a2-20f5" field="category">
           <conditions>
-            <condition type="instanceOf" value="1" field="selections" scope="primary-catalogue" childId="3bdf-a114-5035-c6ac" shared="true" />
+            <condition type="instanceOf" value="1" field="selections" scope="primary-catalogue" childId="7b3b-4dea-9367-98b1" shared="true" />
           </conditions>
         </modifier>
       </modifiers>
@@ -8096,7 +8096,7 @@
       <modifiers>
         <modifier type="set-primary" value="887b-ab87-92a2-20f5" field="category">
           <conditions>
-            <condition type="instanceOf" value="1" field="selections" scope="primary-catalogue" childId="3bdf-a114-5035-c6ac" shared="true" />
+            <condition type="instanceOf" value="1" field="selections" scope="primary-catalogue" childId="7b3b-4dea-9367-98b1" shared="true" />
           </conditions>
         </modifier>
       </modifiers>
@@ -8248,7 +8248,7 @@
       <modifiers>
         <modifier type="set-primary" value="887b-ab87-92a2-20f5" field="category">
           <conditions>
-            <condition type="instanceOf" value="1" field="selections" scope="primary-catalogue" childId="3bdf-a114-5035-c6ac" shared="true" />
+            <condition type="instanceOf" value="1" field="selections" scope="primary-catalogue" childId="7b3b-4dea-9367-98b1" shared="true" />
           </conditions>
         </modifier>
       </modifiers>
@@ -8407,7 +8407,7 @@
       <modifiers>
         <modifier type="set-primary" value="887b-ab87-92a2-20f5" field="category">
           <conditions>
-            <condition type="instanceOf" value="1" field="selections" scope="primary-catalogue" childId="3bdf-a114-5035-c6ac" shared="true" />
+            <condition type="instanceOf" value="1" field="selections" scope="primary-catalogue" childId="7b3b-4dea-9367-98b1" shared="true" />
           </conditions>
         </modifier>
       </modifiers>
@@ -8561,7 +8561,7 @@
       <modifiers>
         <modifier type="set" value="true" field="hidden">
           <conditions>
-            <condition type="notInstanceOf" value="1" field="selections" scope="primary-catalogue" childId="b0ae-12a5-c84-ea45" shared="true" />
+            <condition type="notInstanceOf" value="1" field="selections" scope="primary-catalogue" childId="a3ff-88a4-beb9-0650" shared="true" />
           </conditions>
         </modifier>
       </modifiers>
@@ -8730,7 +8730,7 @@
       <modifiers>
         <modifier type="set-primary" value="887b-ab87-92a2-20f5" field="category">
           <conditions>
-            <condition type="instanceOf" value="1" field="selections" scope="primary-catalogue" childId="3bdf-a114-5035-c6ac" shared="true" />
+            <condition type="instanceOf" value="1" field="selections" scope="primary-catalogue" childId="7b3b-4dea-9367-98b1" shared="true" />
           </conditions>
         </modifier>
       </modifiers>
@@ -8905,7 +8905,7 @@
       <modifiers>
         <modifier type="set" value="true" field="hidden">
           <conditions>
-            <condition type="notInstanceOf" value="1" field="selections" scope="primary-catalogue" childId="b0ae-12a5-c84-ea45" shared="true" />
+            <condition type="notInstanceOf" value="1" field="selections" scope="primary-catalogue" childId="a3ff-88a4-beb9-0650" shared="true" />
           </conditions>
         </modifier>
       </modifiers>
@@ -9361,7 +9361,7 @@
       <modifiers>
         <modifier type="set" value="true" field="hidden">
           <conditions>
-            <condition type="notInstanceOf" value="1" field="selections" scope="primary-catalogue" childId="b0ae-12a5-c84-ea45" shared="true" />
+            <condition type="notInstanceOf" value="1" field="selections" scope="primary-catalogue" childId="a3ff-88a4-beb9-0650" shared="true" />
           </conditions>
         </modifier>
         <modifier type="set" value="true" field="hidden">
@@ -9632,7 +9632,7 @@
       <modifiers>
         <modifier type="set" value="true" field="hidden">
           <conditions>
-            <condition type="notInstanceOf" value="1" field="selections" scope="primary-catalogue" childId="b0ae-12a5-c84-ea45" shared="true" />
+            <condition type="notInstanceOf" value="1" field="selections" scope="primary-catalogue" childId="a3ff-88a4-beb9-0650" shared="true" />
           </conditions>
         </modifier>
       </modifiers>
@@ -9775,7 +9775,7 @@ cette figurine ne peut être sélectionné comme votre **^^Warlord^^**.</charact
       <modifiers>
         <modifier type="set" value="true" field="hidden">
           <conditions>
-            <condition type="notInstanceOf" value="1" field="selections" scope="primary-catalogue" childId="b0ae-12a5-c84-ea45" shared="true" />
+            <condition type="notInstanceOf" value="1" field="selections" scope="primary-catalogue" childId="a3ff-88a4-beb9-0650" shared="true" />
           </conditions>
         </modifier>
       </modifiers>
@@ -10081,7 +10081,7 @@ cette figurine ne peut pas être sélectionné comme votre **^^Warlord^^** et ne
         </modifier>
         <modifier type="set" value="true" field="hidden">
           <conditions>
-            <condition type="notInstanceOf" value="1" field="selections" scope="primary-catalogue" childId="b0ae-12a5-c84-ea45" shared="true" />
+            <condition type="notInstanceOf" value="1" field="selections" scope="primary-catalogue" childId="a3ff-88a4-beb9-0650" shared="true" />
           </conditions>
         </modifier>
       </modifiers>
@@ -10356,7 +10356,7 @@ cette figurine ne peut pas être sélectionné comme votre **^^Warlord^^** et ne
       <modifiers>
         <modifier type="set-primary" value="887b-ab87-92a2-20f5" field="category">
           <conditions>
-            <condition type="instanceOf" value="1" field="selections" scope="primary-catalogue" childId="3bdf-a114-5035-c6ac" shared="true" />
+            <condition type="instanceOf" value="1" field="selections" scope="primary-catalogue" childId="7b3b-4dea-9367-98b1" shared="true" />
           </conditions>
         </modifier>
       </modifiers>
@@ -10776,7 +10776,7 @@ cette figurine ne peut pas être sélectionné comme votre **^^Warlord^^** et ne
       <modifiers>
         <modifier type="set-primary" value="887b-ab87-92a2-20f5" field="category">
           <conditions>
-            <condition type="instanceOf" value="1" field="selections" scope="primary-catalogue" childId="3bdf-a114-5035-c6ac" shared="true" />
+            <condition type="instanceOf" value="1" field="selections" scope="primary-catalogue" childId="7b3b-4dea-9367-98b1" shared="true" />
           </conditions>
         </modifier>
         <modifier type="set" value="true" field="hidden">
@@ -10909,7 +10909,7 @@ Alors que cette unité est reliée à une unité, elle peut embarquer dans n'imp
       <modifiers>
         <modifier type="set" value="true" field="hidden">
           <conditions>
-            <condition type="notInstanceOf" value="1" field="selections" scope="primary-catalogue" childId="b0ae-12a5-c84-ea45" shared="true" />
+            <condition type="notInstanceOf" value="1" field="selections" scope="primary-catalogue" childId="a3ff-88a4-beb9-0650" shared="true" />
           </conditions>
         </modifier>
       </modifiers>
@@ -11161,7 +11161,7 @@ Alors que cette unité est reliée à une unité, elle peut embarquer dans n'imp
       <modifiers>
         <modifier type="set-primary" value="887b-ab87-92a2-20f5" field="category">
           <conditions>
-            <condition type="instanceOf" value="1" field="selections" scope="primary-catalogue" childId="3bdf-a114-5035-c6ac" shared="true" />
+            <condition type="instanceOf" value="1" field="selections" scope="primary-catalogue" childId="7b3b-4dea-9367-98b1" shared="true" />
           </conditions>
         </modifier>
       </modifiers>
@@ -11443,7 +11443,7 @@ Alors que cette unité est reliée à une unité, elle peut embarquer dans n'imp
       <modifiers>
         <modifier type="set-primary" value="887b-ab87-92a2-20f5" field="category">
           <conditions>
-            <condition type="instanceOf" value="1" field="selections" scope="primary-catalogue" childId="3bdf-a114-5035-c6ac" shared="true" />
+            <condition type="instanceOf" value="1" field="selections" scope="primary-catalogue" childId="7b3b-4dea-9367-98b1" shared="true" />
           </conditions>
         </modifier>
       </modifiers>
@@ -11706,7 +11706,7 @@ Alors que cette unité est reliée à une unité, elle peut embarquer dans n'imp
       <modifiers>
         <modifier type="set" value="true" field="hidden">
           <conditions>
-            <condition type="notInstanceOf" value="1" field="selections" scope="primary-catalogue" childId="b0ae-12a5-c84-ea45" shared="true" />
+            <condition type="notInstanceOf" value="1" field="selections" scope="primary-catalogue" childId="a3ff-88a4-beb9-0650" shared="true" />
           </conditions>
         </modifier>
         <modifier type="set" value="true" field="hidden">
@@ -11891,7 +11891,7 @@ Alors que cette unité est reliée à une unité, elle peut embarquer dans n'imp
       <modifiers>
         <modifier type="set-primary" value="887b-ab87-92a2-20f5" field="category">
           <conditions>
-            <condition type="instanceOf" value="1" field="selections" scope="primary-catalogue" childId="3bdf-a114-5035-c6ac" shared="true" />
+            <condition type="instanceOf" value="1" field="selections" scope="primary-catalogue" childId="7b3b-4dea-9367-98b1" shared="true" />
           </conditions>
         </modifier>
       </modifiers>
@@ -12112,7 +12112,7 @@ Alors que cette unité est reliée à une unité, elle peut embarquer dans n'imp
       <modifiers>
         <modifier type="set" value="true" field="hidden">
           <conditions>
-            <condition type="notInstanceOf" value="1" field="selections" scope="primary-catalogue" childId="b0ae-12a5-c84-ea45" shared="true" />
+            <condition type="notInstanceOf" value="1" field="selections" scope="primary-catalogue" childId="a3ff-88a4-beb9-0650" shared="true" />
           </conditions>
         </modifier>
       </modifiers>
@@ -12278,7 +12278,7 @@ Alors que cette unité est reliée à une unité, elle peut embarquer dans n'imp
       <modifiers>
         <modifier type="set-primary" value="887b-ab87-92a2-20f5" field="category">
           <conditions>
-            <condition type="instanceOf" value="1" field="selections" scope="primary-catalogue" childId="3bdf-a114-5035-c6ac" shared="true" />
+            <condition type="instanceOf" value="1" field="selections" scope="primary-catalogue" childId="7b3b-4dea-9367-98b1" shared="true" />
           </conditions>
         </modifier>
       </modifiers>
@@ -12515,7 +12515,7 @@ Alors que cette unité est reliée à une unité, elle peut embarquer dans n'imp
       <modifiers>
         <modifier type="set-primary" value="887b-ab87-92a2-20f5" field="category">
           <conditions>
-            <condition type="instanceOf" value="1" field="selections" scope="primary-catalogue" childId="3bdf-a114-5035-c6ac" shared="true" />
+            <condition type="instanceOf" value="1" field="selections" scope="primary-catalogue" childId="7b3b-4dea-9367-98b1" shared="true" />
           </conditions>
         </modifier>
       </modifiers>
@@ -12824,7 +12824,7 @@ Alors que cette unité est reliée à une unité, elle peut embarquer dans n'imp
       <modifiers>
         <modifier type="set-primary" value="887b-ab87-92a2-20f5" field="category">
           <conditions>
-            <condition type="instanceOf" value="1" field="selections" scope="primary-catalogue" childId="3bdf-a114-5035-c6ac" shared="true" />
+            <condition type="instanceOf" value="1" field="selections" scope="primary-catalogue" childId="7b3b-4dea-9367-98b1" shared="true" />
           </conditions>
         </modifier>
       </modifiers>
@@ -13142,7 +13142,7 @@ Alors que cette unité est reliée à une unité, elle peut embarquer dans n'imp
       <modifiers>
         <modifier type="set-primary" value="887b-ab87-92a2-20f5" field="category">
           <conditions>
-            <condition type="instanceOf" value="1" field="selections" scope="primary-catalogue" childId="3bdf-a114-5035-c6ac" shared="true" />
+            <condition type="instanceOf" value="1" field="selections" scope="primary-catalogue" childId="7b3b-4dea-9367-98b1" shared="true" />
           </conditions>
         </modifier>
       </modifiers>
@@ -13321,7 +13321,7 @@ Alors que cette unité est reliée à une unité, elle peut embarquer dans n'imp
       <modifiers>
         <modifier type="set-primary" value="887b-ab87-92a2-20f5" field="category">
           <conditions>
-            <condition type="instanceOf" value="1" field="selections" scope="primary-catalogue" childId="3bdf-a114-5035-c6ac" shared="true" />
+            <condition type="instanceOf" value="1" field="selections" scope="primary-catalogue" childId="7b3b-4dea-9367-98b1" shared="true" />
           </conditions>
         </modifier>
       </modifiers>
@@ -13657,7 +13657,7 @@ Alors que cette unité est reliée à une unité, elle peut embarquer dans n'imp
         </modifier>
         <modifier type="set" value="true" field="hidden">
           <conditions>
-            <condition type="notInstanceOf" value="1" field="selections" scope="primary-catalogue" childId="b0ae-12a5-c84-ea45" shared="true" />
+            <condition type="notInstanceOf" value="1" field="selections" scope="primary-catalogue" childId="a3ff-88a4-beb9-0650" shared="true" />
           </conditions>
         </modifier>
       </modifiers>
@@ -14168,7 +14168,7 @@ Alors que cette unité est reliée à une unité, elle peut embarquer dans n'imp
       <modifiers>
         <modifier type="set" value="true" field="hidden">
           <conditions>
-            <condition type="notInstanceOf" value="1" field="selections" scope="primary-catalogue" childId="b0ae-12a5-c84-ea45" shared="true" />
+            <condition type="notInstanceOf" value="1" field="selections" scope="primary-catalogue" childId="a3ff-88a4-beb9-0650" shared="true" />
           </conditions>
         </modifier>
       </modifiers>
@@ -14317,7 +14317,7 @@ Alors que cette unité est reliée à une unité, elle peut embarquer dans n'imp
       <modifiers>
         <modifier type="set" value="true" field="hidden">
           <conditions>
-            <condition type="notInstanceOf" value="1" field="selections" scope="primary-catalogue" childId="b0ae-12a5-c84-ea45" shared="true" />
+            <condition type="notInstanceOf" value="1" field="selections" scope="primary-catalogue" childId="a3ff-88a4-beb9-0650" shared="true" />
           </conditions>
         </modifier>
       </modifiers>
@@ -14545,7 +14545,7 @@ Alors que cette unité est reliée à une unité, elle peut embarquer dans n'imp
       <modifiers>
         <modifier type="set-primary" value="887b-ab87-92a2-20f5" field="category">
           <conditions>
-            <condition type="instanceOf" value="1" field="selections" scope="primary-catalogue" childId="3bdf-a114-5035-c6ac" shared="true" />
+            <condition type="instanceOf" value="1" field="selections" scope="primary-catalogue" childId="7b3b-4dea-9367-98b1" shared="true" />
           </conditions>
         </modifier>
       </modifiers>
@@ -14707,7 +14707,7 @@ Alors que cette unité est reliée à une unité, elle peut embarquer dans n'imp
       <modifiers>
         <modifier type="set" value="true" field="hidden">
           <conditions>
-            <condition type="notInstanceOf" value="1" field="selections" scope="primary-catalogue" childId="b0ae-12a5-c84-ea45" shared="true" includeChildSelections="true" includeChildForces="true" />
+            <condition type="notInstanceOf" value="1" field="selections" scope="primary-catalogue" childId="a3ff-88a4-beb9-0650" shared="true" includeChildSelections="true" includeChildForces="true" />
           </conditions>
         </modifier>
       </modifiers>
@@ -16337,7 +16337,7 @@ Alors que cette unité est reliée à une unité, elle peut embarquer dans n'imp
         </modifier>
         <modifier type="set-primary" value="887b-ab87-92a2-20f5" field="category">
           <conditions>
-            <condition type="instanceOf" value="1" field="selections" scope="primary-catalogue" childId="3bdf-a114-5035-c6ac" shared="true" />
+            <condition type="instanceOf" value="1" field="selections" scope="primary-catalogue" childId="7b3b-4dea-9367-98b1" shared="true" />
           </conditions>
         </modifier>
       </modifiers>
@@ -16796,7 +16796,7 @@ Alors que cette unité est reliée à une unité, elle peut embarquer dans n'imp
       <modifiers>
         <modifier type="set-primary" value="887b-ab87-92a2-20f5" field="category">
           <conditions>
-            <condition type="instanceOf" value="1" field="selections" scope="primary-catalogue" childId="3bdf-a114-5035-c6ac" shared="true" />
+            <condition type="instanceOf" value="1" field="selections" scope="primary-catalogue" childId="7b3b-4dea-9367-98b1" shared="true" />
           </conditions>
         </modifier>
         <modifier type="set" value="true" field="hidden">
@@ -16941,7 +16941,7 @@ Alors que cette unité est reliée à une unité, elle peut embarquer dans n'imp
       <modifiers>
         <modifier type="set-primary" value="887b-ab87-92a2-20f5" field="category">
           <conditions>
-            <condition type="instanceOf" value="1" field="selections" scope="primary-catalogue" childId="3bdf-a114-5035-c6ac" shared="true" />
+            <condition type="instanceOf" value="1" field="selections" scope="primary-catalogue" childId="7b3b-4dea-9367-98b1" shared="true" />
           </conditions>
         </modifier>
       </modifiers>
@@ -17203,7 +17203,7 @@ Alors que cette unité est reliée à une unité, elle peut embarquer dans n'imp
       <modifiers>
         <modifier type="set-primary" value="887b-ab87-92a2-20f5" field="category">
           <conditions>
-            <condition type="instanceOf" value="1" field="selections" scope="primary-catalogue" childId="3bdf-a114-5035-c6ac" shared="true" />
+            <condition type="instanceOf" value="1" field="selections" scope="primary-catalogue" childId="7b3b-4dea-9367-98b1" shared="true" />
           </conditions>
         </modifier>
         <modifier type="set" value="true" field="hidden">
@@ -17497,7 +17497,7 @@ Alors que cette unité est reliée à une unité, elle peut embarquer dans n'imp
       <modifiers>
         <modifier type="set-primary" value="887b-ab87-92a2-20f5" field="category">
           <conditions>
-            <condition type="instanceOf" value="1" field="selections" scope="primary-catalogue" childId="3bdf-a114-5035-c6ac" shared="true" />
+            <condition type="instanceOf" value="1" field="selections" scope="primary-catalogue" childId="7b3b-4dea-9367-98b1" shared="true" />
           </conditions>
         </modifier>
         <modifier type="set" value="true" field="hidden">
@@ -17753,7 +17753,7 @@ Alors que cette unité est reliée à une unité, elle peut embarquer dans n'imp
       <modifiers>
         <modifier type="set-primary" value="887b-ab87-92a2-20f5" field="category">
           <conditions>
-            <condition type="instanceOf" value="1" field="selections" scope="primary-catalogue" childId="3bdf-a114-5035-c6ac" shared="true" />
+            <condition type="instanceOf" value="1" field="selections" scope="primary-catalogue" childId="7b3b-4dea-9367-98b1" shared="true" />
           </conditions>
         </modifier>
         <modifier type="set" value="true" field="hidden">
@@ -18014,7 +18014,7 @@ Alors que cette unité est reliée à une unité, elle peut embarquer dans n'imp
       <modifiers>
         <modifier type="set-primary" value="887b-ab87-92a2-20f5" field="category">
           <conditions>
-            <condition type="instanceOf" value="1" field="selections" scope="primary-catalogue" childId="3bdf-a114-5035-c6ac" shared="true" />
+            <condition type="instanceOf" value="1" field="selections" scope="primary-catalogue" childId="7b3b-4dea-9367-98b1" shared="true" />
           </conditions>
         </modifier>
         <modifier type="set" value="true" field="hidden">
@@ -18142,7 +18142,7 @@ Alors que cette unité est reliée à une unité, elle peut embarquer dans n'imp
       <modifiers>
         <modifier type="set-primary" value="887b-ab87-92a2-20f5" field="category">
           <conditions>
-            <condition type="instanceOf" value="1" field="selections" scope="primary-catalogue" childId="3bdf-a114-5035-c6ac" shared="true" />
+            <condition type="instanceOf" value="1" field="selections" scope="primary-catalogue" childId="7b3b-4dea-9367-98b1" shared="true" />
           </conditions>
         </modifier>
         <modifier type="set" value="true" field="hidden">
@@ -18324,7 +18324,7 @@ Alors que cette unité est reliée à une unité, elle peut embarquer dans n'imp
       <modifiers>
         <modifier type="set-primary" value="887b-ab87-92a2-20f5" field="category">
           <conditions>
-            <condition type="instanceOf" value="1" field="selections" scope="primary-catalogue" childId="3bdf-a114-5035-c6ac" shared="true" />
+            <condition type="instanceOf" value="1" field="selections" scope="primary-catalogue" childId="7b3b-4dea-9367-98b1" shared="true" />
           </conditions>
         </modifier>
         <modifier type="set" value="true" field="hidden">
@@ -18683,7 +18683,7 @@ Alors que cette unité est reliée à une unité, elle peut embarquer dans n'imp
       <modifiers>
         <modifier type="set-primary" value="887b-ab87-92a2-20f5" field="category">
           <conditions>
-            <condition type="instanceOf" value="1" field="selections" scope="primary-catalogue" childId="3bdf-a114-5035-c6ac" shared="true" />
+            <condition type="instanceOf" value="1" field="selections" scope="primary-catalogue" childId="7b3b-4dea-9367-98b1" shared="true" />
           </conditions>
         </modifier>
         <modifier type="set" value="true" field="hidden">
@@ -18994,7 +18994,7 @@ Alors que cette unité est reliée à une unité, elle peut embarquer dans n'imp
       <modifiers>
         <modifier type="set-primary" value="887b-ab87-92a2-20f5" field="category">
           <conditions>
-            <condition type="instanceOf" value="1" field="selections" scope="primary-catalogue" childId="3bdf-a114-5035-c6ac" shared="true" />
+            <condition type="instanceOf" value="1" field="selections" scope="primary-catalogue" childId="7b3b-4dea-9367-98b1" shared="true" />
           </conditions>
         </modifier>
         <modifier type="set" value="true" field="hidden">
@@ -19275,7 +19275,7 @@ Alors que cette unité est reliée à une unité, elle peut embarquer dans n'imp
       <modifiers>
         <modifier type="set-primary" value="887b-ab87-92a2-20f5" field="category">
           <conditions>
-            <condition type="instanceOf" value="1" field="selections" scope="primary-catalogue" childId="3bdf-a114-5035-c6ac" shared="true" />
+            <condition type="instanceOf" value="1" field="selections" scope="primary-catalogue" childId="7b3b-4dea-9367-98b1" shared="true" />
           </conditions>
         </modifier>
         <modifier type="set" value="true" field="hidden">
@@ -19555,7 +19555,7 @@ Alors que cette unité est reliée à une unité, elle peut embarquer dans n'imp
       <modifiers>
         <modifier type="set-primary" value="887b-ab87-92a2-20f5" field="category">
           <conditions>
-            <condition type="instanceOf" value="1" field="selections" scope="primary-catalogue" childId="3bdf-a114-5035-c6ac" shared="true" />
+            <condition type="instanceOf" value="1" field="selections" scope="primary-catalogue" childId="7b3b-4dea-9367-98b1" shared="true" />
           </conditions>
         </modifier>
         <modifier type="set" value="true" field="hidden">
@@ -19790,7 +19790,7 @@ Alors que cette unité est reliée à une unité, elle peut embarquer dans n'imp
       <modifiers>
         <modifier type="set-primary" value="887b-ab87-92a2-20f5" field="category">
           <conditions>
-            <condition type="instanceOf" value="1" field="selections" scope="primary-catalogue" childId="3bdf-a114-5035-c6ac" shared="true" />
+            <condition type="instanceOf" value="1" field="selections" scope="primary-catalogue" childId="7b3b-4dea-9367-98b1" shared="true" />
           </conditions>
         </modifier>
         <modifier type="set" value="true" field="hidden">
@@ -19976,7 +19976,7 @@ Alors que cette unité est reliée à une unité, elle peut embarquer dans n'imp
       <modifiers>
         <modifier type="set-primary" value="887b-ab87-92a2-20f5" field="category">
           <conditions>
-            <condition type="instanceOf" value="1" field="selections" scope="primary-catalogue" childId="3bdf-a114-5035-c6ac" shared="true" />
+            <condition type="instanceOf" value="1" field="selections" scope="primary-catalogue" childId="7b3b-4dea-9367-98b1" shared="true" />
           </conditions>
         </modifier>
         <modifier type="set" value="true" field="hidden">
@@ -20180,7 +20180,7 @@ Alors que cette unité est reliée à une unité, elle peut embarquer dans n'imp
       <modifiers>
         <modifier type="set-primary" value="887b-ab87-92a2-20f5" field="category">
           <conditions>
-            <condition type="instanceOf" value="1" field="selections" scope="primary-catalogue" childId="3bdf-a114-5035-c6ac" shared="true" />
+            <condition type="instanceOf" value="1" field="selections" scope="primary-catalogue" childId="7b3b-4dea-9367-98b1" shared="true" />
           </conditions>
         </modifier>
         <modifier type="set" value="true" field="hidden">
@@ -20436,7 +20436,7 @@ Alors que cette unité est reliée à une unité, elle peut embarquer dans n'imp
       <modifiers>
         <modifier type="set-primary" value="887b-ab87-92a2-20f5" field="category">
           <conditions>
-            <condition type="instanceOf" value="1" field="selections" scope="primary-catalogue" childId="3bdf-a114-5035-c6ac" shared="true" />
+            <condition type="instanceOf" value="1" field="selections" scope="primary-catalogue" childId="7b3b-4dea-9367-98b1" shared="true" />
           </conditions>
         </modifier>
         <modifier type="set" value="true" field="hidden">
@@ -21866,7 +21866,7 @@ Alors que cette unité est reliée à une unité, elle peut embarquer dans n'imp
       <modifiers>
         <modifier type="set-primary" value="887b-ab87-92a2-20f5" field="category">
           <conditions>
-            <condition type="instanceOf" value="1" field="selections" scope="primary-catalogue" childId="3bdf-a114-5035-c6ac" shared="true" />
+            <condition type="instanceOf" value="1" field="selections" scope="primary-catalogue" childId="7b3b-4dea-9367-98b1" shared="true" />
           </conditions>
         </modifier>
         <modifier type="set" value="true" field="hidden">
@@ -22044,7 +22044,7 @@ Alors que cette unité est reliée à une unité, elle peut embarquer dans n'imp
       <modifiers>
         <modifier type="set-primary" value="887b-ab87-92a2-20f5" field="category">
           <conditions>
-            <condition type="instanceOf" value="1" field="selections" scope="primary-catalogue" childId="3bdf-a114-5035-c6ac" shared="true" />
+            <condition type="instanceOf" value="1" field="selections" scope="primary-catalogue" childId="7b3b-4dea-9367-98b1" shared="true" />
           </conditions>
         </modifier>
         <modifier type="set" value="true" field="hidden">
@@ -22168,7 +22168,7 @@ Alors que cette unité est reliée à une unité, elle peut embarquer dans n'imp
       <modifiers>
         <modifier type="set-primary" value="887b-ab87-92a2-20f5" field="category">
           <conditions>
-            <condition type="instanceOf" value="1" field="selections" scope="primary-catalogue" childId="3bdf-a114-5035-c6ac" shared="true" />
+            <condition type="instanceOf" value="1" field="selections" scope="primary-catalogue" childId="7b3b-4dea-9367-98b1" shared="true" />
           </conditions>
         </modifier>
         <modifier type="set" value="true" field="hidden">
@@ -22366,7 +22366,7 @@ Alors que cette unité est reliée à une unité, elle peut embarquer dans n'imp
       <modifiers>
         <modifier type="set-primary" value="887b-ab87-92a2-20f5" field="category">
           <conditions>
-            <condition type="instanceOf" value="1" field="selections" scope="primary-catalogue" childId="3bdf-a114-5035-c6ac" shared="true" />
+            <condition type="instanceOf" value="1" field="selections" scope="primary-catalogue" childId="7b3b-4dea-9367-98b1" shared="true" />
           </conditions>
         </modifier>
         <modifier type="set" value="true" field="hidden">
@@ -23030,7 +23030,7 @@ Alors que cette unité est reliée à une unité, elle peut embarquer dans n'imp
       <modifiers>
         <modifier type="set-primary" value="887b-ab87-92a2-20f5" field="category">
           <conditions>
-            <condition type="instanceOf" value="1" field="selections" scope="primary-catalogue" childId="3bdf-a114-5035-c6ac" shared="true" />
+            <condition type="instanceOf" value="1" field="selections" scope="primary-catalogue" childId="7b3b-4dea-9367-98b1" shared="true" />
           </conditions>
         </modifier>
         <modifier type="set" value="true" field="hidden">
@@ -23325,7 +23325,7 @@ Alors que cette unité est reliée à une unité, elle peut embarquer dans n'imp
       <modifiers>
         <modifier type="set-primary" value="887b-ab87-92a2-20f5" field="category">
           <conditions>
-            <condition type="instanceOf" value="1" field="selections" scope="primary-catalogue" childId="3bdf-a114-5035-c6ac" shared="true" />
+            <condition type="instanceOf" value="1" field="selections" scope="primary-catalogue" childId="7b3b-4dea-9367-98b1" shared="true" />
           </conditions>
         </modifier>
         <modifier type="set" value="true" field="hidden">
@@ -23728,7 +23728,7 @@ Alors que cette unité est reliée à une unité, elle peut embarquer dans n'imp
       <modifiers>
         <modifier type="set-primary" value="887b-ab87-92a2-20f5" field="category">
           <conditions>
-            <condition type="instanceOf" value="1" field="selections" scope="primary-catalogue" childId="3bdf-a114-5035-c6ac" shared="true" />
+            <condition type="instanceOf" value="1" field="selections" scope="primary-catalogue" childId="7b3b-4dea-9367-98b1" shared="true" />
           </conditions>
         </modifier>
         <modifier type="set" value="true" field="hidden">
@@ -23858,7 +23858,7 @@ Alors que cette unité est reliée à une unité, elle peut embarquer dans n'imp
       <modifiers>
         <modifier type="set-primary" value="887b-ab87-92a2-20f5" field="category">
           <conditions>
-            <condition type="instanceOf" value="1" field="selections" scope="primary-catalogue" childId="3bdf-a114-5035-c6ac" shared="true" />
+            <condition type="instanceOf" value="1" field="selections" scope="primary-catalogue" childId="7b3b-4dea-9367-98b1" shared="true" />
           </conditions>
         </modifier>
         <modifier type="set" value="true" field="hidden">
@@ -24036,7 +24036,7 @@ Alors que cette unité est reliée à une unité, elle peut embarquer dans n'imp
       <modifiers>
         <modifier type="set-primary" value="887b-ab87-92a2-20f5" field="category">
           <conditions>
-            <condition type="instanceOf" value="1" field="selections" scope="primary-catalogue" childId="3bdf-a114-5035-c6ac" shared="true" />
+            <condition type="instanceOf" value="1" field="selections" scope="primary-catalogue" childId="7b3b-4dea-9367-98b1" shared="true" />
           </conditions>
         </modifier>
         <modifier type="set" value="true" field="hidden">
@@ -24313,7 +24313,7 @@ Alors que cette unité est reliée à une unité, elle peut embarquer dans n'imp
       <modifiers>
         <modifier type="set-primary" value="887b-ab87-92a2-20f5" field="category">
           <conditions>
-            <condition type="instanceOf" value="1" field="selections" scope="primary-catalogue" childId="3bdf-a114-5035-c6ac" shared="true" />
+            <condition type="instanceOf" value="1" field="selections" scope="primary-catalogue" childId="7b3b-4dea-9367-98b1" shared="true" />
           </conditions>
         </modifier>
         <modifier type="set" value="true" field="hidden">
@@ -24669,7 +24669,7 @@ Alors que cette unité est reliée à une unité, elle peut embarquer dans n'imp
       <modifiers>
         <modifier type="set-primary" value="887b-ab87-92a2-20f5" field="category">
           <conditions>
-            <condition type="instanceOf" value="1" field="selections" scope="primary-catalogue" childId="3bdf-a114-5035-c6ac" shared="true" />
+            <condition type="instanceOf" value="1" field="selections" scope="primary-catalogue" childId="7b3b-4dea-9367-98b1" shared="true" />
           </conditions>
         </modifier>
         <modifier type="set" value="true" field="hidden">
@@ -24992,7 +24992,7 @@ Alors que cette unité est reliée à une unité, elle peut embarquer dans n'imp
       <modifiers>
         <modifier type="set-primary" value="887b-ab87-92a2-20f5" field="category">
           <conditions>
-            <condition type="instanceOf" value="1" field="selections" scope="primary-catalogue" childId="3bdf-a114-5035-c6ac" shared="true" />
+            <condition type="instanceOf" value="1" field="selections" scope="primary-catalogue" childId="7b3b-4dea-9367-98b1" shared="true" />
           </conditions>
         </modifier>
         <modifier type="set" value="true" field="hidden">
@@ -25139,7 +25139,7 @@ Alors que cette unité est reliée à une unité, elle peut embarquer dans n'imp
       <modifiers>
         <modifier type="set-primary" value="887b-ab87-92a2-20f5" field="category">
           <conditions>
-            <condition type="instanceOf" value="1" field="selections" scope="primary-catalogue" childId="3bdf-a114-5035-c6ac" shared="true" />
+            <condition type="instanceOf" value="1" field="selections" scope="primary-catalogue" childId="7b3b-4dea-9367-98b1" shared="true" />
           </conditions>
         </modifier>
         <modifier type="set" value="true" field="hidden">
@@ -25346,7 +25346,7 @@ Alors que cette unité est reliée à une unité, elle peut embarquer dans n'imp
       <modifiers>
         <modifier type="set-primary" value="887b-ab87-92a2-20f5" field="category">
           <conditions>
-            <condition type="instanceOf" value="1" field="selections" scope="primary-catalogue" childId="3bdf-a114-5035-c6ac" shared="true" />
+            <condition type="instanceOf" value="1" field="selections" scope="primary-catalogue" childId="7b3b-4dea-9367-98b1" shared="true" />
           </conditions>
         </modifier>
         <modifier type="set" value="true" field="hidden">
@@ -25445,7 +25445,7 @@ Alors que cette unité est reliée à une unité, elle peut embarquer dans n'imp
       <modifiers>
         <modifier type="set-primary" value="887b-ab87-92a2-20f5" field="category">
           <conditions>
-            <condition type="instanceOf" value="1" field="selections" scope="primary-catalogue" childId="3bdf-a114-5035-c6ac" shared="true" />
+            <condition type="instanceOf" value="1" field="selections" scope="primary-catalogue" childId="7b3b-4dea-9367-98b1" shared="true" />
           </conditions>
         </modifier>
         <modifier type="set" value="true" field="hidden">
@@ -25641,7 +25641,7 @@ Alors que cette unité est reliée à une unité, elle peut embarquer dans n'imp
       <modifiers>
         <modifier type="set-primary" value="887b-ab87-92a2-20f5" field="category">
           <conditions>
-            <condition type="instanceOf" value="1" field="selections" scope="primary-catalogue" childId="3bdf-a114-5035-c6ac" shared="true" />
+            <condition type="instanceOf" value="1" field="selections" scope="primary-catalogue" childId="7b3b-4dea-9367-98b1" shared="true" />
           </conditions>
         </modifier>
         <modifier type="set" value="true" field="hidden">
@@ -25782,7 +25782,7 @@ Alors que cette unité est reliée à une unité, elle peut embarquer dans n'imp
       <modifiers>
         <modifier type="set-primary" value="887b-ab87-92a2-20f5" field="category">
           <conditions>
-            <condition type="instanceOf" value="1" field="selections" scope="primary-catalogue" childId="3bdf-a114-5035-c6ac" shared="true" />
+            <condition type="instanceOf" value="1" field="selections" scope="primary-catalogue" childId="7b3b-4dea-9367-98b1" shared="true" />
           </conditions>
         </modifier>
         <modifier type="set" value="true" field="hidden">
@@ -26031,7 +26031,7 @@ Alors que cette unité est reliée à une unité, elle peut embarquer dans n'imp
       <modifiers>
         <modifier type="set-primary" value="887b-ab87-92a2-20f5" field="category">
           <conditions>
-            <condition type="instanceOf" value="1" field="selections" scope="primary-catalogue" childId="3bdf-a114-5035-c6ac" shared="true" />
+            <condition type="instanceOf" value="1" field="selections" scope="primary-catalogue" childId="7b3b-4dea-9367-98b1" shared="true" />
           </conditions>
         </modifier>
         <modifier type="set" value="true" field="hidden">
@@ -26588,7 +26588,7 @@ Alors que cette unité est reliée à une unité, elle peut embarquer dans n'imp
       <modifiers>
         <modifier type="set-primary" value="887b-ab87-92a2-20f5" field="category">
           <conditions>
-            <condition type="instanceOf" value="1" field="selections" scope="primary-catalogue" childId="3bdf-a114-5035-c6ac" shared="true" />
+            <condition type="instanceOf" value="1" field="selections" scope="primary-catalogue" childId="7b3b-4dea-9367-98b1" shared="true" />
           </conditions>
         </modifier>
         <modifier type="set" value="true" field="hidden">
@@ -26781,7 +26781,7 @@ Alors que cette unité est reliée à une unité, elle peut embarquer dans n'imp
       <modifiers>
         <modifier type="set-primary" value="887b-ab87-92a2-20f5" field="category">
           <conditions>
-            <condition type="instanceOf" value="1" field="selections" scope="primary-catalogue" childId="3bdf-a114-5035-c6ac" shared="true" />
+            <condition type="instanceOf" value="1" field="selections" scope="primary-catalogue" childId="7b3b-4dea-9367-98b1" shared="true" />
           </conditions>
         </modifier>
         <modifier type="set" value="true" field="hidden">
@@ -26973,7 +26973,7 @@ Alors que cette unité est reliée à une unité, elle peut embarquer dans n'imp
       <modifiers>
         <modifier type="set-primary" value="887b-ab87-92a2-20f5" field="category">
           <conditions>
-            <condition type="instanceOf" value="1" field="selections" scope="primary-catalogue" childId="3bdf-a114-5035-c6ac" shared="true" />
+            <condition type="instanceOf" value="1" field="selections" scope="primary-catalogue" childId="7b3b-4dea-9367-98b1" shared="true" />
           </conditions>
         </modifier>
         <modifier type="set" value="true" field="hidden">
@@ -27146,7 +27146,7 @@ Alors que cette unité est reliée à une unité, elle peut embarquer dans n'imp
       <modifiers>
         <modifier type="set-primary" value="887b-ab87-92a2-20f5" field="category">
           <conditions>
-            <condition type="instanceOf" value="1" field="selections" scope="primary-catalogue" childId="3bdf-a114-5035-c6ac" shared="true" />
+            <condition type="instanceOf" value="1" field="selections" scope="primary-catalogue" childId="7b3b-4dea-9367-98b1" shared="true" />
           </conditions>
         </modifier>
         <modifier type="set" value="true" field="hidden">
@@ -27231,7 +27231,7 @@ Alors que cette unité est reliée à une unité, elle peut embarquer dans n'imp
       <modifiers>
         <modifier type="set-primary" value="887b-ab87-92a2-20f5" field="category">
           <conditions>
-            <condition type="instanceOf" value="1" field="selections" scope="primary-catalogue" childId="3bdf-a114-5035-c6ac" shared="true" />
+            <condition type="instanceOf" value="1" field="selections" scope="primary-catalogue" childId="7b3b-4dea-9367-98b1" shared="true" />
           </conditions>
         </modifier>
         <modifier type="set" value="true" field="hidden">
@@ -27320,7 +27320,7 @@ Alors que cette unité est reliée à une unité, elle peut embarquer dans n'imp
       <modifiers>
         <modifier type="set-primary" value="887b-ab87-92a2-20f5" field="category">
           <conditions>
-            <condition type="instanceOf" value="1" field="selections" scope="primary-catalogue" childId="3bdf-a114-5035-c6ac" shared="true" />
+            <condition type="instanceOf" value="1" field="selections" scope="primary-catalogue" childId="7b3b-4dea-9367-98b1" shared="true" />
           </conditions>
         </modifier>
         <modifier type="set" value="true" field="hidden">
@@ -27605,7 +27605,7 @@ Alors que cette unité est reliée à une unité, elle peut embarquer dans n'imp
       <modifiers>
         <modifier type="set-primary" value="887b-ab87-92a2-20f5" field="category">
           <conditions>
-            <condition type="instanceOf" value="1" field="selections" scope="primary-catalogue" childId="3bdf-a114-5035-c6ac" shared="true" />
+            <condition type="instanceOf" value="1" field="selections" scope="primary-catalogue" childId="7b3b-4dea-9367-98b1" shared="true" />
           </conditions>
         </modifier>
         <modifier type="set" value="true" field="hidden">
@@ -27625,7 +27625,7 @@ Alors que cette unité est reliée à une unité, elle peut embarquer dans n'imp
       <modifiers>
         <modifier type="set-primary" value="887b-ab87-92a2-20f5" field="category">
           <conditions>
-            <condition type="instanceOf" value="1" field="selections" scope="primary-catalogue" childId="3bdf-a114-5035-c6ac" shared="true" />
+            <condition type="instanceOf" value="1" field="selections" scope="primary-catalogue" childId="7b3b-4dea-9367-98b1" shared="true" />
           </conditions>
         </modifier>
         <modifier type="set" value="true" field="hidden">
@@ -27886,7 +27886,7 @@ Alors que cette unité est reliée à une unité, elle peut embarquer dans n'imp
       <modifiers>
         <modifier type="set-primary" value="887b-ab87-92a2-20f5" field="category">
           <conditions>
-            <condition type="instanceOf" value="1" field="selections" scope="primary-catalogue" childId="3bdf-a114-5035-c6ac" shared="true" />
+            <condition type="instanceOf" value="1" field="selections" scope="primary-catalogue" childId="7b3b-4dea-9367-98b1" shared="true" />
           </conditions>
         </modifier>
         <modifier type="set" value="true" field="hidden">
@@ -28091,7 +28091,7 @@ Alors que cette unité est reliée à une unité, elle peut embarquer dans n'imp
       <modifiers>
         <modifier type="set-primary" value="887b-ab87-92a2-20f5" field="category">
           <conditions>
-            <condition type="instanceOf" value="1" field="selections" scope="primary-catalogue" childId="3bdf-a114-5035-c6ac" shared="true" />
+            <condition type="instanceOf" value="1" field="selections" scope="primary-catalogue" childId="7b3b-4dea-9367-98b1" shared="true" />
           </conditions>
         </modifier>
         <modifier type="set" value="true" field="hidden">
@@ -28315,7 +28315,7 @@ Alors que cette unité est reliée à une unité, elle peut embarquer dans n'imp
       <modifiers>
         <modifier type="set-primary" value="887b-ab87-92a2-20f5" field="category">
           <conditions>
-            <condition type="instanceOf" value="1" field="selections" scope="primary-catalogue" childId="3bdf-a114-5035-c6ac" shared="true" />
+            <condition type="instanceOf" value="1" field="selections" scope="primary-catalogue" childId="7b3b-4dea-9367-98b1" shared="true" />
           </conditions>
         </modifier>
         <modifier type="set" value="true" field="hidden">
@@ -28502,7 +28502,7 @@ Alors que cette unité est reliée à une unité, elle peut embarquer dans n'imp
       <modifiers>
         <modifier type="set-primary" value="887b-ab87-92a2-20f5" field="category">
           <conditions>
-            <condition type="instanceOf" value="1" field="selections" scope="primary-catalogue" childId="3bdf-a114-5035-c6ac" shared="true" />
+            <condition type="instanceOf" value="1" field="selections" scope="primary-catalogue" childId="7b3b-4dea-9367-98b1" shared="true" />
           </conditions>
         </modifier>
         <modifier type="set" value="true" field="hidden">
@@ -28942,7 +28942,7 @@ Alors que cette unité est reliée à une unité, elle peut embarquer dans n'imp
       <modifiers>
         <modifier type="set-primary" value="887b-ab87-92a2-20f5" field="category">
           <conditions>
-            <condition type="instanceOf" value="1" field="selections" scope="primary-catalogue" childId="3bdf-a114-5035-c6ac" shared="true" />
+            <condition type="instanceOf" value="1" field="selections" scope="primary-catalogue" childId="7b3b-4dea-9367-98b1" shared="true" />
           </conditions>
         </modifier>
         <modifier type="set" value="true" field="hidden">
@@ -29289,7 +29289,7 @@ Alors que cette unité est reliée à une unité, elle peut embarquer dans n'imp
       <modifiers>
         <modifier type="set-primary" value="887b-ab87-92a2-20f5" field="category">
           <conditions>
-            <condition type="instanceOf" value="1" field="selections" scope="primary-catalogue" childId="3bdf-a114-5035-c6ac" shared="true" />
+            <condition type="instanceOf" value="1" field="selections" scope="primary-catalogue" childId="7b3b-4dea-9367-98b1" shared="true" />
           </conditions>
         </modifier>
         <modifier type="set" value="true" field="hidden">
@@ -29709,7 +29709,7 @@ Alors que cette unité est reliée à une unité, elle peut embarquer dans n'imp
       <modifiers>
         <modifier type="set" value="true" field="hidden">
           <conditions>
-            <condition type="notInstanceOf" value="1" field="selections" scope="primary-catalogue" childId="b0ae-12a5-c84-ea45" shared="true" />
+            <condition type="notInstanceOf" value="1" field="selections" scope="primary-catalogue" childId="a3ff-88a4-beb9-0650" shared="true" />
           </conditions>
         </modifier>
       </modifiers>
@@ -30175,7 +30175,7 @@ Alors que cette unité est reliée à une unité, elle peut embarquer dans n'imp
       <modifiers>
         <modifier type="set" value="true" field="hidden">
           <conditions>
-            <condition type="notInstanceOf" value="1" field="selections" scope="primary-catalogue" childId="b0ae-12a5-c84-ea45" shared="true" />
+            <condition type="notInstanceOf" value="1" field="selections" scope="primary-catalogue" childId="a3ff-88a4-beb9-0650" shared="true" />
           </conditions>
         </modifier>
         <modifier type="set" value="100" field="51b2-306e-1021-d207">
@@ -30669,7 +30669,7 @@ Alors que cette unité est reliée à une unité, elle peut embarquer dans n'imp
       <modifiers>
         <modifier type="set-primary" value="887b-ab87-92a2-20f5" field="category">
           <conditions>
-            <condition type="instanceOf" value="1" field="selections" scope="primary-catalogue" childId="3bdf-a114-5035-c6ac" shared="true" />
+            <condition type="instanceOf" value="1" field="selections" scope="primary-catalogue" childId="7b3b-4dea-9367-98b1" shared="true" />
           </conditions>
         </modifier>
       </modifiers>
@@ -31240,7 +31240,7 @@ Note du concepteur: Placez un jeton Servo-scribes à côté de l'unité, en le r
       <modifiers>
         <modifier type="set" value="true" field="hidden">
           <conditions>
-            <condition type="notInstanceOf" value="1" field="selections" scope="primary-catalogue" childId="b0ae-12a5-c84-ea45" shared="true" />
+            <condition type="notInstanceOf" value="1" field="selections" scope="primary-catalogue" childId="a3ff-88a4-beb9-0650" shared="true" />
           </conditions>
         </modifier>
       </modifiers>
@@ -31400,7 +31400,7 @@ Note du concepteur: Placez un jeton Servo-scribes à côté de l'unité, en le r
       <modifiers>
         <modifier type="set-primary" value="887b-ab87-92a2-20f5" field="category">
           <conditions>
-            <condition type="instanceOf" value="1" field="selections" scope="primary-catalogue" childId="3bdf-a114-5035-c6ac" shared="true" />
+            <condition type="instanceOf" value="1" field="selections" scope="primary-catalogue" childId="7b3b-4dea-9367-98b1" shared="true" />
           </conditions>
         </modifier>
       </modifiers>
@@ -32117,7 +32117,7 @@ Note du concepteur: Placez un jeton Servo-scribes à côté de l'unité, en le r
       <modifiers>
         <modifier type="set-primary" value="887b-ab87-92a2-20f5" field="category">
           <conditions>
-            <condition type="instanceOf" value="1" field="selections" scope="primary-catalogue" childId="3bdf-a114-5035-c6ac" shared="true" />
+            <condition type="instanceOf" value="1" field="selections" scope="primary-catalogue" childId="7b3b-4dea-9367-98b1" shared="true" />
           </conditions>
         </modifier>
       </modifiers>
@@ -32412,7 +32412,7 @@ Note du concepteur: Placez un jeton Servo-scribes à côté de l'unité, en le r
       <modifiers>
         <modifier type="set" value="true" field="hidden">
           <conditions>
-            <condition type="notInstanceOf" value="1" field="selections" scope="primary-catalogue" childId="b0ae-12a5-c84-ea45" shared="true" />
+            <condition type="notInstanceOf" value="1" field="selections" scope="primary-catalogue" childId="a3ff-88a4-beb9-0650" shared="true" />
           </conditions>
         </modifier>
       </modifiers>
@@ -32740,7 +32740,7 @@ Note du concepteur: Placez un jeton Servo-scribes à côté de l'unité, en le r
       <modifiers>
         <modifier type="set-primary" value="887b-ab87-92a2-20f5" field="category">
           <conditions>
-            <condition type="instanceOf" value="1" field="selections" scope="primary-catalogue" childId="3bdf-a114-5035-c6ac" shared="true" />
+            <condition type="instanceOf" value="1" field="selections" scope="primary-catalogue" childId="7b3b-4dea-9367-98b1" shared="true" />
           </conditions>
         </modifier>
         <modifier type="set" value="95" field="51b2-306e-1021-d207">
@@ -33184,7 +33184,7 @@ Note du concepteur: Placez un jeton Servo-scribes à côté de l'unité, en le r
       <modifiers>
         <modifier type="set-primary" value="887b-ab87-92a2-20f5" field="category">
           <conditions>
-            <condition type="instanceOf" value="1" field="selections" scope="primary-catalogue" childId="3bdf-a114-5035-c6ac" shared="true" />
+            <condition type="instanceOf" value="1" field="selections" scope="primary-catalogue" childId="7b3b-4dea-9367-98b1" shared="true" />
           </conditions>
         </modifier>
       </modifiers>
@@ -33509,7 +33509,7 @@ Note du concepteur: Placez un jeton Servo-scribes à côté de l'unité, en le r
       <modifiers>
         <modifier type="set-primary" value="887b-ab87-92a2-20f5" field="category">
           <conditions>
-            <condition type="instanceOf" value="1" field="selections" scope="primary-catalogue" childId="3bdf-a114-5035-c6ac" shared="true" />
+            <condition type="instanceOf" value="1" field="selections" scope="primary-catalogue" childId="7b3b-4dea-9367-98b1" shared="true" />
           </conditions>
         </modifier>
       </modifiers>
@@ -33984,7 +33984,7 @@ Note du concepteur: Placez un jeton Servo-scribes à côté de l'unité, en le r
       <modifiers>
         <modifier type="set-primary" value="887b-ab87-92a2-20f5" field="category">
           <conditions>
-            <condition type="instanceOf" value="1" field="selections" scope="primary-catalogue" childId="3bdf-a114-5035-c6ac" shared="true" />
+            <condition type="instanceOf" value="1" field="selections" scope="primary-catalogue" childId="7b3b-4dea-9367-98b1" shared="true" />
           </conditions>
         </modifier>
       </modifiers>
@@ -34210,7 +34210,7 @@ Note du concepteur: Placez un jeton Servo-scribes à côté de l'unité, en le r
       <modifiers>
         <modifier type="set" value="true" field="hidden">
           <conditions>
-            <condition type="notInstanceOf" value="1" field="selections" scope="primary-catalogue" childId="b0ae-12a5-c84-ea45" shared="true" />
+            <condition type="notInstanceOf" value="1" field="selections" scope="primary-catalogue" childId="a3ff-88a4-beb9-0650" shared="true" />
           </conditions>
         </modifier>
         <modifier type="set" value="true" field="hidden">
@@ -34334,7 +34334,7 @@ Note du concepteur: Placez un jeton Servo-scribes à côté de l'unité, en le r
       <modifiers>
         <modifier type="set" value="true" field="hidden">
           <conditions>
-            <condition type="notInstanceOf" value="1" field="selections" scope="primary-catalogue" childId="b0ae-12a5-c84-ea45" shared="true" />
+            <condition type="notInstanceOf" value="1" field="selections" scope="primary-catalogue" childId="a3ff-88a4-beb9-0650" shared="true" />
           </conditions>
         </modifier>
         <modifier type="set" value="true" field="hidden">
@@ -35538,7 +35538,7 @@ Note du concepteur: Placez un jeton Servo-scribes à côté de l'unité, en le r
       <modifiers>
         <modifier type="set" value="true" field="hidden">
           <conditions>
-            <condition type="notInstanceOf" value="1" field="selections" scope="primary-catalogue" childId="b0ae-12a5-c84-ea45" shared="true" />
+            <condition type="notInstanceOf" value="1" field="selections" scope="primary-catalogue" childId="a3ff-88a4-beb9-0650" shared="true" />
           </conditions>
         </modifier>
       </modifiers>
@@ -35759,7 +35759,7 @@ Note du concepteur: Placez un jeton Servo-scribes à côté de l'unité, en le r
       <modifiers>
         <modifier type="set" value="true" field="hidden">
           <conditions>
-            <condition type="notInstanceOf" value="1" field="selections" scope="primary-catalogue" childId="b0ae-12a5-c84-ea45" shared="true" />
+            <condition type="notInstanceOf" value="1" field="selections" scope="primary-catalogue" childId="a3ff-88a4-beb9-0650" shared="true" />
           </conditions>
         </modifier>
       </modifiers>
@@ -35977,7 +35977,7 @@ Note du concepteur: Placez un jeton Servo-scribes à côté de l'unité, en le r
       <modifiers>
         <modifier type="set" value="true" field="hidden">
           <conditions>
-            <condition type="notInstanceOf" value="1" field="selections" scope="primary-catalogue" childId="b0ae-12a5-c84-ea45" shared="true" />
+            <condition type="notInstanceOf" value="1" field="selections" scope="primary-catalogue" childId="a3ff-88a4-beb9-0650" shared="true" />
           </conditions>
         </modifier>
         <modifier type="add" value="Cannot take Commissar Graves and Commissar Graves on Foot in the same list." field="error">
@@ -36133,7 +36133,7 @@ Note du concepteur: Placez un jeton Servo-scribes à côté de l'unité, en le r
       <modifiers>
         <modifier type="set-primary" value="887b-ab87-92a2-20f5" field="category">
           <conditions>
-            <condition type="instanceOf" value="1" field="selections" scope="primary-catalogue" childId="3bdf-a114-5035-c6ac" shared="true" />
+            <condition type="instanceOf" value="1" field="selections" scope="primary-catalogue" childId="7b3b-4dea-9367-98b1" shared="true" />
           </conditions>
         </modifier>
       </modifiers>
@@ -36489,7 +36489,7 @@ Note du concepteur: Placez un jeton Servo-scribes à côté de l'unité, en le r
       <modifiers>
         <modifier type="set-primary" value="887b-ab87-92a2-20f5" field="category">
           <conditions>
-            <condition type="instanceOf" value="1" field="selections" scope="primary-catalogue" childId="3bdf-a114-5035-c6ac" shared="true" />
+            <condition type="instanceOf" value="1" field="selections" scope="primary-catalogue" childId="7b3b-4dea-9367-98b1" shared="true" />
           </conditions>
         </modifier>
       </modifiers>
@@ -36659,7 +36659,7 @@ Note du concepteur: Placez un jeton Servo-scribes à côté de l'unité, en le r
       <modifiers>
         <modifier type="set-primary" value="887b-ab87-92a2-20f5" field="category">
           <conditions>
-            <condition type="instanceOf" value="1" field="selections" scope="primary-catalogue" childId="3bdf-a114-5035-c6ac" shared="true" />
+            <condition type="instanceOf" value="1" field="selections" scope="primary-catalogue" childId="7b3b-4dea-9367-98b1" shared="true" />
           </conditions>
         </modifier>
       </modifiers>
@@ -37584,7 +37584,7 @@ Note du concepteur: Placez un jeton Servo-scribes à côté de l'unité, en le r
       <modifiers>
         <modifier type="set" value="true" field="hidden">
           <conditions>
-            <condition type="notInstanceOf" value="1" field="selections" scope="primary-catalogue" childId="b0ae-12a5-c84-ea45" shared="true" />
+            <condition type="notInstanceOf" value="1" field="selections" scope="primary-catalogue" childId="a3ff-88a4-beb9-0650" shared="true" />
           </conditions>
         </modifier>
       </modifiers>
@@ -42835,7 +42835,7 @@ Améliorez de 1 les caractéristiques de Commandement et de Contrôle d’Object
       <modifiers>
         <modifier type="set" value="true" field="hidden">
           <conditions>
-            <condition type="notInstanceOf" value="1" field="selections" scope="primary-catalogue" childId="b0ae-12a5-c84-ea45" shared="true" includeChildSelections="true" includeChildForces="true" />
+            <condition type="notInstanceOf" value="1" field="selections" scope="primary-catalogue" childId="a3ff-88a4-beb9-0650" shared="true" includeChildSelections="true" includeChildForces="true" />
           </conditions>
         </modifier>
       </modifiers>

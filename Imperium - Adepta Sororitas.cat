@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue xmlns="http://www.battlescribe.net/schema/catalogueSchema" library="false" id="b39e-4401-8f3e-fdf7" name="Imperium - Adepta Sororitas" gameSystemId="sys-352e-adc2-7639-d6a9" gameSystemRevision="1" revision="111" battleScribeVersion="2.03" authorName="CrusherJoe" type="catalogue" authorContact="@CrusherJoe on Discord">
+<catalogue xmlns="http://www.battlescribe.net/schema/catalogueSchema" library="false" id="f5e9-c30e-bc8c-f2c2" name="Imperium - Adepta Sororitas" gameSystemId="sys-0e45-705d-f6bc-806a" gameSystemRevision="1" revision="111" battleScribeVersion="2.03" authorName="CrusherJoe" type="catalogue" authorContact="@CrusherJoe on Discord">
   <categoryEntries>
     <categoryEntry name="Aestred Thurga and Agathae Dolan" hidden="false" id="c8ba-2b2d-e47f-d7a6" />
     <categoryEntry name="Arco-flagellants" hidden="false" id="63f8-3a5d-ef9c-d86e" />
@@ -14703,9 +14703,9 @@ Lorsque vous entonnez Hymnes de bataille, vous pouvez soit sélectionner un Hymn
     <entryLink import="true" name="Intranzia Fraye" hidden="false" id="d25b-ed9c-7b3c-bc4b" type="selectionEntry" targetId="e59a-2a90-e102-940f" />
   </entryLinks>
   <catalogueLinks>
-    <catalogueLink type="catalogue" name="Imperium - Imperial Knights - Library" id="f82d-fbeb-8ed2-4284" targetId="1b6d-dc06-5db9-c7d1" importRootEntries="true" />
-    <catalogueLink type="catalogue" name="Imperium - Agents of the Imperium" id="40ad-450d-52f8-cdb7" targetId="b00-cd86-4b4c-97ba" importRootEntries="true" />
-    <catalogueLink type="catalogue" name="Library - Titans" id="3d9-6f43-e1de-ae2b" targetId="7481-280e-b55e-7867" importRootEntries="true" />
+    <catalogueLink type="catalogue" name="Imperium - Imperial Knights - Library" id="f82d-fbeb-8ed2-4284" targetId="1787-6721-8649-a4a8" importRootEntries="true" />
+    <catalogueLink type="catalogue" name="Imperium - Agents of the Imperium" id="40ad-450d-52f8-cdb7" targetId="58ea-21f3-3da9-74dd" importRootEntries="true" />
+    <catalogueLink type="catalogue" name="Library - Titans" id="3d9-6f43-e1de-ae2b" targetId="701a-a154-08d0-db72" importRootEntries="true" />
   </catalogueLinks>
   <readme>GW just LOVES to nerf Sisters</readme>
   <publications>

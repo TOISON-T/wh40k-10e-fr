@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue xmlns="http://www.battlescribe.net/schema/catalogueSchema" library="false" id="38de-521f-1ce0-44a0" name="Xenos - Drukhari" gameSystemId="sys-352e-adc2-7639-d6a9" gameSystemRevision="1" revision="13" battleScribeVersion="2.03" type="catalogue">
+<catalogue xmlns="http://www.battlescribe.net/schema/catalogueSchema" library="false" id="465d-8de3-dc72-4c79" name="Xenos - Drukhari" gameSystemId="sys-0e45-705d-f6bc-806a" gameSystemRevision="1" revision="13" battleScribeVersion="2.03" type="catalogue">
   <catalogueLinks>
-    <catalogueLink type="catalogue" name="Aeldari - Aeldari Library" id="d965-4d5b-d10b-350b" targetId="dfcf-1214-b57-2205" />
+    <catalogueLink type="catalogue" name="Aeldari - Aeldari Library" id="d965-4d5b-d10b-350b" targetId="7bd9-bd4b-a138-859a" />
   </catalogueLinks>
   <entryLinks>
     <entryLink import="true" name="Archon" hidden="false" type="selectionEntry" id="f96f-85f3-fda6-40d9" targetId="5c1c-fa4a-3234-c711" />
