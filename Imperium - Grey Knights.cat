@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue xmlns="http://www.battlescribe.net/schema/catalogueSchema" library="false" id="9537-e481-181a-88fa" name="Imperium - Grey Knights" gameSystemId="sys-0e45-705d-f6bc-806a" gameSystemRevision="1" revision="107" battleScribeVersion="2.03" type="catalogue">
+<catalogue xmlns="http://www.battlescribe.net/schema/catalogueSchema" library="false" id="50c4-3e83-fe54-97c4" name="Imperium - Grey Knights" gameSystemId="sys-352e-adc2-7639-d6a9" gameSystemRevision="1" revision="107" battleScribeVersion="2.03" type="catalogue">
   <catalogueLinks>
-    <catalogueLink type="catalogue" name="Imperium - Imperial Knights - Library" id="f3e4-7fc3-8f57-6303" importRootEntries="true" targetId="1787-6721-8649-a4a8" />
-    <catalogueLink type="catalogue" name="Imperium - Agents of the Imperium" id="575c-d0f9-7fdc-2ddb" targetId="58ea-21f3-3da9-74dd" importRootEntries="true" />
-    <catalogueLink type="catalogue" name="Library - Titans" id="9d21-5393-3605-a43e" targetId="701a-a154-08d0-db72" />
-    <catalogueLink type="catalogue" name="Unaligned Forces" id="4cb2-277d-699f-f5da" targetId="61f1-ce52-d345-5048" importRootEntries="true" />
+    <catalogueLink type="catalogue" name="Imperium - Imperial Knights - Library" id="f3e4-7fc3-8f57-6303" importRootEntries="true" targetId="1b6d-dc06-5db9-c7d1" />
+    <catalogueLink type="catalogue" name="Imperium - Agents of the Imperium" id="575c-d0f9-7fdc-2ddb" targetId="b00-cd86-4b4c-97ba" importRootEntries="true" />
+    <catalogueLink type="catalogue" name="Library - Titans" id="9d21-5393-3605-a43e" targetId="7481-280e-b55e-7867" />
+    <catalogueLink type="catalogue" name="Unaligned Forces" id="4cb2-277d-699f-f5da" targetId="581a-46b9-5b86-44b7" importRootEntries="true" />
   </catalogueLinks>
   <sharedSelectionEntries>
     <selectionEntry type="model" import="true" name="Brother-Captain" hidden="false" id="dce9-6eb4-fa33-e869">
@@ -40,7 +40,7 @@
         </profile>
         <profile name="Hammerhand (Psychic)" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="3f64-f896-c54f-7fea">
           <characteristics>
-            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Alors que cette figurine mène une unité, les armes de mêlée équipées de figurines dans cette unité ont la aptitude [Touches fatales].</characteristic>
+            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Tant que cette figurine mène une unité, les armes de mêlée dont les figurines de cette unité sont équipées ont l’aptitude [Lethal Hits].</characteristic>
           </characteristics>
         </profile>
         <profile name="Eye of Judgement (Psychic)" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="53db-1bc6-da94-f8e9">
@@ -257,12 +257,12 @@
         </profile>
         <profile name="Exemplar of the Silvered Host" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="24f5-4ea1-bbc0-fc59">
           <characteristics>
-            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Alors que cette figurine mène une unité, chaque fois qu'une figurine de cette unité fait une attaque au corps à corps, sur une blessure critique, la cible subit une blessure mortelle 1 en plus de tout Dégât normal.</characteristic>
+            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Tant que cette figurine mène une unité, chaque fois qu’une figurine de cette unité effectue une attaque de mêlée, sur une Blessure Critique, la cible subit 1 blessure mortelle en plus des dégâts normaux.</characteristic>
           </characteristics>
         </profile>
         <profile name="Strands of Fate (Psychic)" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="186a-f980-321d-d883">
           <characteristics>
-            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">La première fois que cette figurine est détruit, lancez un D6 à la fin de la phase. Sur un 2+, mettez cette figurine sur le champ de bataille aussi près que possible de l'endroit où il a été détruit et pas à l'intérieur de la Portée d’Engagement des unités ennemies, avec tous ses PV.</characteristic>
+            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">La première fois que cette figurine est détruit, lancez un D6 à la fin de la phase. Sur un 2+, mettez cette figurine en arrière sur le champ de bataille le plus près possible de l'endroit où il a été détruit et pas à l'intérieur de Portée d’Engagement de toute unité ennemie, avec son tous ses PV.</characteristic>
           </characteristics>
         </profile>
       </profiles>
@@ -392,12 +392,12 @@
         </profile>
         <profile name="Clarion of Haste (Psychic)" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="4020-4496-e5f3-62fd">
           <characteristics>
-            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Tant que cette figurine mène une unité, cette unité est éligible à déclarer une charge à un tour où elle avance.</characteristic>
+            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Alors que cette figurine mène une unité, cette unité est admissible à déclarer une charge à un tour dans lequel elle avance.</characteristic>
           </characteristics>
         </profile>
         <profile name="Inspiring Exemplar" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="cc8f-6b40-8152-671f">
           <characteristics>
-            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Chaque fois que cette figurine détruit une figurine de personnage dans la phase de Combat, vous gagnez 1CP et, jusqu'à la fin de la bataille, ajoutez 1 aux caractéristique d’Attaques de son arme de force Nemesis.</characteristic>
+            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Chaque fois que cette figurine détruit un personnage figurine dans la phase de Combat, vous gagnez 1CP et, jusqu'à la fin de la bataille, ajoutez 1 à la caractéristique d’Attaques de son arme de force Nemesis.</characteristic>
           </characteristics>
         </profile>
       </profiles>
@@ -627,7 +627,7 @@
         </profile>
         <profile name="Zealous Path" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="82-db07-19c0-1f1b">
           <characteristics>
-            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Pendant que cette figurine conduit une unité, vous pouvez relancer les jets de Charge de cette unité.</characteristic>
+            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Tant que cette figurine mène une unité, vous pouvez relancer les jets de Charge effectués pour cette unité.</characteristic>
           </characteristics>
         </profile>
         <profile name="Meneur" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="82ae-190e-a811-610">
@@ -819,7 +819,7 @@
         </profile>
         <profile name="Haloed in Soulfire (Psychic)" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="970f-7243-ee6c-17e2">
           <characteristics>
-            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Alors que cette figurine mène une unité, cette unité ne peut être sélectionnée comme cible d'une attaque de tir que si la figurine attaquant se trouve à 18" ou moins.</characteristic>
+            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Tant que cette figurine mène une unité, cette unité ne peut être sélectionnée comme cible d’une attaque de tir que si la figurine attaquante est à 18" ou moins.</characteristic>
           </characteristics>
         </profile>
         <profile name="Meneur" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="3dec-ee8c-120d-4010">
@@ -831,7 +831,7 @@
         </profile>
         <profile name="Sanctic Hood" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="9d41-eb97-8f61-fb85">
           <characteristics>
-            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Alors que cette figurine mène une unité, les figurines de cette unité ont la aptitude Insensible à la douleur 4+ contre les attaques Psychique.</characteristic>
+            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Alors que cette figurine est à la tête d'une unité, les figurines de cette unité ont l’aptitude Insensible à la douleur 4+ contre les attaques Psychiques.</characteristic>
           </characteristics>
         </profile>
       </profiles>
@@ -1096,17 +1096,17 @@
         </profile>
         <profile name="Guardians of the Machine" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="877c-7676-7032-ecd3">
           <characteristics>
-            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Chaque fois qu'une unité ennemie termine un mouvement de Charge dans la Portée d’Engagement d'une ou plusieurs figurines ^^**Grey Knights Vehicle^^** de votre armée et à 6" ou moins de l'unité de cette figurine, vous pouvez cibler cette unité avec le Stratagème d'intervention héroïque pour 0CP, et vous pouvez le faire même si vous avez déjà ciblé une autre unité avec ce Stratagème cette phase.</characteristic>
+            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Chaque fois qu'une unité ennemie termine un mouvement de Charge dans Portée d’Engagement d'un ou plusieurs ^^**Grey Knights Vehicle^^** figurines de votre armée et à 6" ou moins de l’unité de cette figurine, vous pouvez cibler cette unité avec l'intervention héroïque Stratagème pour 0CP, et vous pouvez le faire même si vous avez déjà ciblé une autre unité avec ce Stratagème cette phase.</characteristic>
           </characteristics>
         </profile>
         <profile name="Blessing of the Omnissiah" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="f298-3658-77a2-5851">
           <characteristics>
-            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Dans votre phase de Commandement, vous pouvez sélectionner une figurine ^^**Grey Knights Vehicle**^^ sympathique à 3" ou moins de cette figurine. cette figurine récupère jusqu'à D3 les PV perdus et, jusqu'au début de votre prochaine phase de Commandement, chaque fois que la figurine ^^**Vehicle^^** fait une attaque, ajoutez 1 à la jets de Touche. Chaque figurine ne peut être sélectionné pour cette aptitude qu'une seule fois par tour.</characteristic>
+            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Durant votre phase de Commandement, vous pouvez sélectionner une figurine ^^**Grey Knights Vehicle**^^ amie à 3" ou moins de cette figurine. Cette figurine récupère jusqu’à D3 PV perdus et, jusqu’au début de votre prochaine phase de Commandement, chaque fois que cette figurine ^^**Vehicle^^** effectue une attaque, ajoutez 1 au jet de Touche. Chaque figurine ne peut être sélectionnée pour cette aptitude qu’une fois par tour.</characteristic>
           </characteristics>
         </profile>
         <profile name="Techmarine" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="7750-f512-8316-e851">
           <characteristics>
-            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Tant que cette figurine est à 3" ou moins d'une ou de plusieurs unités ^^**Grey Knights Vehicle**^^ amicales, cette figurine a la aptitude Agent solitaire.</characteristic>
+            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Si cette figurine se trouve à 3" ou moins d'une ou de plusieurs unités amies ^^**Grey Knights Vehicle**^^, cette figurine possède l’aptitude Agent solitaire.</characteristic>
           </characteristics>
         </profile>
       </profiles>
@@ -1337,7 +1337,7 @@
         </profile>
         <profile name="Force Edge (Psychic)" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="3ebb-9bbe-208-ac9c">
           <characteristics>
-            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Chaque fois qu'une figurine de cette unité effectue une attaque de mêlée visant une unité (à l'exclusion de ^^**Vehicles^^** ou ^^**Monsters^^**), améliorez la caractéristique de Pénétration d’Armure de cette attaque de 1.</characteristic>
+            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Chaque fois qu'une figurine dans cette unité fait une attaque de mêlée qui cible une unité (à l’exclusion de ^^**Vehicles^^** ou ^^**Monsters^^**), améliorez la caractéristique de Pénétration d’Armure de cette attaque de 1.</characteristic>
           </characteristics>
         </profile>
       </profiles>
@@ -1435,7 +1435,7 @@
                   <profiles>
                     <profile name="Apothecary's narthecium" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="97ca-b4cb-c700-e6c2">
                       <characteristics>
-                        <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Dans votre phase de Commandement, si le porteur n'est pas détruit, vous pouvez renvoyer la figurine détruit 1 (hors ^^**Characters^^**) à l'unité du porteur.</characteristic>
+                        <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Durant votre phase de Commandement, si le porteur n’est pas détruit, vous pouvez replacer 1 figurine détruite (à l’exclusion des ^^**Characters^^**) dans l’unité du porteur.</characteristic>
                       </characteristics>
                     </profile>
                   </profiles>
@@ -1735,7 +1735,7 @@
         </profile>
         <profile name="Champion of the Order of Purifiers (Psychic)" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="3cd-1880-37fe-4cfc">
           <characteristics>
-            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Alors que cette figurine mène une unité, ajoutez 1 aux caractéristique d’Attaques des armes de flamme purifiante équipées par cette unité.</characteristic>
+            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Alors que cette figurine mène une unité, ajoutez 1 aux caractéristique d’Attaques d'armes de flamme purifiante équipées par cette unité.</characteristic>
           </characteristics>
         </profile>
         <profile name="Foesight (Psychic)" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="7414-1762-a008-9828">
@@ -1895,7 +1895,7 @@
         </profile>
         <profile name="Might of Titan (Psychic)" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="f271-762e-61ae-367f">
           <characteristics>
-            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Une fois par bataille, au début de la phase de Combat, cette figurine peut utiliser cette aptitude. Si c'est le cas, jusqu'à la fin de la phase, ajoutez 3 aux caractéristiques d'attaque et de force des armes de mêlée équipées de cette figurine.</characteristic>
+            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Une fois par bataille, au début de la phase de Combat, cette figurine peut utiliser cette aptitude. Si c'est le cas, Jusqu’à la fin de la phase ajoute 3 aux caractéristiques Attaques et Force d’armes de mêlée équipées de cette figurine.</characteristic>
           </characteristics>
         </profile>
         <profile name="Meneur" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="ecd8-2298-e581-30d1">
@@ -2112,7 +2112,7 @@
         </profile>
         <profile name="Surge of Wrath (Psychic)" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="1ee5-63a2-6c01-e628">
           <characteristics>
-            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Chaque fois que cette figurine effectue une attaque de mêlée qui cible une unité **^^Monster^^** ou **^^Vehicle^^**, vous pouvez relancer le jet de Touche, vous pouvez relancer le jet de Blessure et vous pouvez relancer le jet Dégâts.</characteristic>
+            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Chaque fois que cette figurine fait une attaque de mêlée qui cible une unité **^^Monster^^** ou **^^Vehicle^^**, vous pouvez relancer le jet de Touche, vous pouvez relancer le jet de Blessure et vous pouvez relancer le jet de Dégâts.</characteristic>
           </characteristics>
         </profile>
       </profiles>
@@ -2341,7 +2341,7 @@
         </profile>
         <profile name="Hammer Aflame (Psychic)" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="bf8c-be10-e632-646d">
           <characteristics>
-            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Chaque fois que l’unité de cette figurine est sélectionnée pour combattre, vous pouvez sélectionner une unité ennemi dans la Portée d’Engagement de l’unité de cette figurine et lancez un D6: sur une 2-3, cette unité ennemie subit 1 blessure mortelle; sur une 4-5, cette unité ennemie subit D3 Blessures Mortelles; sur une 6+, cette unité ennemie subit D3+3 Blessures Mortelles.</characteristic>
+            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Chaque fois que l’unité de cette figurine est sélectionnée pour combattre, vous pouvez sélectionner une unité ennemie à Portée d’Engagement de l’unité de cette figurine. Lancez un D6 : sur 2-3, cette unité ennemie subit 1 blessure mortelle ; sur 4-5, elle subit D3 blessures mortelles ; sur 6+, elle subit D3+3 blessures mortelles.</characteristic>
           </characteristics>
           <modifiers>
             <modifier type="set" value="true" field="hidden">
@@ -2495,7 +2495,7 @@
         </profile>
         <profile name="Assault Ramp" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="c1d5-950b-12b6-7201">
           <characteristics>
-            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Chaque fois qu'une unité débarque de cette figurine après avoir effectué un déplacement normal, cette unité est toujours éligible à déclarer une charge à ce tour.</characteristic>
+            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Chaque fois qu'une unité débarque de cette figurine après avoir effectué un mouvement Normal, cette unité est toujours éligible à déclarer une charge à ce tour.</characteristic>
           </characteristics>
         </profile>
         <profile name="Land Raider" typeId="74f8-5443-9d6d-1f1e" typeName="Transport" hidden="false" id="511a-e5a0-5e4f-89e4">
@@ -2697,7 +2697,7 @@
         </profile>
         <profile name="Assault Ramp" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="c059-84a-5bf2-dcbf">
           <characteristics>
-            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Chaque fois qu'une unité débarque de cette figurine après avoir effectué un déplacement normal, cette unité est toujours éligible à déclarer une charge à ce tour.</characteristic>
+            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Chaque fois qu'une unité débarque de cette figurine après avoir effectué un mouvement Normal, cette unité est toujours éligible à déclarer une charge à ce tour.</characteristic>
           </characteristics>
         </profile>
         <profile name="Land Raider Crusader" typeId="74f8-5443-9d6d-1f1e" typeName="Transport" hidden="false" id="4c37-b59b-e445-d686">
@@ -2894,7 +2894,7 @@
         </profile>
         <profile name="Assault Ramp" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="35e9-caef-a97f-a190">
           <characteristics>
-            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Chaque fois qu'une unité débarque de cette figurine après avoir effectué un déplacement normal, cette unité est toujours éligible à déclarer une charge à ce tour.</characteristic>
+            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Chaque fois qu'une unité débarque de cette figurine après avoir effectué un mouvement Normal, cette unité est toujours éligible à déclarer une charge à ce tour.</characteristic>
           </characteristics>
         </profile>
       </profiles>
@@ -3096,7 +3096,7 @@
         </profile>
         <profile name="Fire Focus" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="b9fd-80d9-a165-1812">
           <characteristics>
-            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Dans votre phase de Tir, après que cette figurine ait tiré, sélectionnez une unité ennemie touchée par une ou plusieurs de ces attaques. Jusqu'à la fin du tour, chaque fois qu'une figurine amie qui a débarqué de ce ^^**Transport^^** ce tour fait une attaque qui cible cette unité ennemie, Améliorez la caractéristique de Pénétration d’Armure de cette attaque de 1. La même unité ennemie ne peut être affectée par cette aptitude qu'une seule fois par tour.</characteristic>
+            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Dans votre phase de Tir, après que cette figurine a tiré, sélectionnez une unité ennemie frappé par un ou plusieurs de ces Attaques. Jusqu'à la fin du tour, chaque fois qu'une figurine amie qui a débarqué de ce ^^**Transport^^** ce tour fait une attaque qui cible que cette unité ennemie, Améliorez la caractéristique de Pénétration d’Armure de cette attaque de 1. Le même unité ennemie ne peut être affecté que par cette aptitude Une fois par tour.</characteristic>
           </characteristics>
         </profile>
       </profiles>
@@ -3281,7 +3281,7 @@
         </profile>
         <profile name="Truesilver Aegis (Psychic)" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="3355-18b8-ee22-87f9">
           <characteristics>
-            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Alors qu'une unité amie ^^**Grey Knights^^** est entièrement à 6" ou moins de cette figurine, les figurines de cette unité ont la aptitude Insensible à la douleur 6+ contre les Blessures Mortelles.</characteristic>
+            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Alors qu'une unité amicale ^^**Grey Knights^^** est entièrement à 6" ou moins de cette figurine, les figurines de cette unité ont l’aptitude Insensible à la douleur 6+ contre Blessures Mortelles.</characteristic>
           </characteristics>
         </profile>
       </profiles>
@@ -3442,7 +3442,7 @@
         </profile>
         <profile name="Interceptor" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="f531-b188-9179-2f5a">
           <characteristics>
-            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Chaque fois que cette figurine effectue une attaque de tir qui cible une unité qui peut ^^**Fly^^**, ajoutez 1 au jet de Touche.</characteristic>
+            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Chaque fois que cette figurine fait une attaque de tir qui cible une unité qui peut ^^**Fly^^**, ajoutez 1 au jet de Touche.</characteristic>
           </characteristics>
         </profile>
       </profiles>
@@ -3663,7 +3663,7 @@
         </profile>
         <profile name="Armoured Resilience" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="c534-53bb-4d73-23d2">
           <characteristics>
-            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Chaque fois qu'une attaque est attribuée à cette figurine, Soustrayez 1 de la caractéristique Dégât de cette attaque.</characteristic>
+            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Chaque fois qu'une attaque est attribuée à cette figurine, Soustrayez 1 de la caractéristique de Dégâts de cette attaque.</characteristic>
           </characteristics>
         </profile>
         <profile name="Stormraven Gunship" typeId="74f8-5443-9d6d-1f1e" typeName="Transport" hidden="false" id="146c-72b7-bd76-e9ba">
@@ -3972,7 +3972,7 @@
         </profile>
         <profile name="Strafing Run" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="133a-43b1-cad3-95d6">
           <characteristics>
-            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Chaque fois que cette figurine effectue une attaque de tir qui cible une unité qui ne peut pas ^^**Fly^^**, ajoutez 1 au jet de Touche</characteristic>
+            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Chaque fois que cette figurine fait une attaque de tir qui cible une unité qui ne peut pas ^^**Fly^^**, Ajoutez 1 au jet de Touche</characteristic>
           </characteristics>
         </profile>
       </profiles>
@@ -4156,7 +4156,7 @@
         </profile>
         <profile name="Guidance of the Ancients (Psychic)" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="9b3c-49ee-2ca0-7bcf">
           <characteristics>
-            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Dans votre phase de Tir, après que cette unité ait tiré, sélectionnez une unité ennemie touchée par une ou plusieurs de ces attaques. Jusqu'à la fin de la phase, chaque fois qu'une figurine ^^**Grey Knights^^** de votre armée fait une attaque qui cible cette unité, ajoutez 1 à la jets de Touche.</characteristic>
+            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Durant votre phase de Tir, après que cette unité a tiré, sélectionnez une unité ennemie touchée par une ou plusieurs de ces attaques. Jusqu’à la fin de la phase, chaque fois qu’une figurine ^^**Grey Knights^^** de votre armée effectue une attaque qui cible cette unité, ajoutez 1 au jet de Touche.</characteristic>
           </characteristics>
         </profile>
       </profiles>
@@ -4378,7 +4378,7 @@
         </profile>
         <profile name="Personal Teleporters" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="8d05-c69c-2572-99ba">
           <characteristics>
-            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Dans votre phase de Tir, après que cette unité ait tiré, si elle n'est pas dans la Portée d’Engagement d'une ou plusieurs unités ennemies, elle peut effectuer un mouvement normal jusqu'à 6" comme si c'était votre phase de Mouvement. Si tel est le cas, jusqu'à la fin du tour, cette unité n'est pas éligible à la déclaration d'une charge.</characteristic>
+            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Durant votre phase de Tir, après que cette unité a tiré, si elle n’est pas à Portée d’Engagement d’une ou plusieurs unités ennemies, elle peut effectuer un mouvement Normal de jusqu’à 6" comme s’il s’agissait de votre phase de Mouvement. Si elle le fait, jusqu’à la fin du tour, cette unité n’est pas éligible pour déclarer une charge.</characteristic>
           </characteristics>
           <modifiers>
             <modifier type="set" value="true" field="hidden">
@@ -4660,12 +4660,12 @@
         </profile>
         <profile name="Untouchable Purity" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="cf12-2ea5-6834-5031">
           <characteristics>
-            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Alors que cette figurine conduit une unité, les figurines de cette unité ont la aptitude Insensible à la douleur 4+ contre les Blessures Mortelles</characteristic>
+            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Alors que cette figurine mène une unité, les figurines de cette unité ont l’aptitude Insensible à la douleur 4+ contre Blessures Mortelles</characteristic>
           </characteristics>
         </profile>
         <profile name="One With the Warp (Psychic)" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="c3e8-c9b9-519a-6552">
           <characteristics>
-            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Une fois par bataille, lorsque cette unité de la figurine déclare une charge au même tour qu'elle a été mise en place sur le champ de bataille en utilisant la aptitude Frappe en profondeur ou Teleport Assaut, ajoutez 3 au jet de Charge.</characteristic>
+            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Une fois par bataille, lorsque l’unité de cette figurine déclare une charge est mise en place sur le champ de bataille en utilisant l’aptitude Frappe en profondeur ou le Teleport Assaut, ajoutez 3 au jet de Charge.</characteristic>
           </characteristics>
           <modifiers>
             <modifier type="set" value="true" field="hidden">
@@ -4684,7 +4684,7 @@
         </profile>
         <profile name="Supreme Commander" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="a802-75b0-2e06-2487">
           <characteristics>
-            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Si cette figurine est dans votre armée, il doit être votre WARLORD.</characteristic>
+            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Si cette figurine est dans votre armée, elle doit être votre WARLORD.</characteristic>
           </characteristics>
         </profile>
       </profiles>
@@ -4834,7 +4834,7 @@
         </profile>
         <profile name="Indomitable Spirit (Psychic)" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="c53f-7fdc-438d-5dcd">
           <characteristics>
-            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Cette figurine est éligible pour tirer et déclarer une Charge durant un tour où elle a Avancé ou Battu en Retraite.</characteristic>
+            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Cette figurine est éligible pour tirer et déclarer une charge durant un tour où elle a Avancé ou Battu en Retraite.</characteristic>
           </characteristics>
         </profile>
       </profiles>
@@ -5043,7 +5043,7 @@
         </profile>
         <profile name="Attuned Onslaught (Psychic)" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="935d-fb65-54d-274f">
           <characteristics>
-            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Chaque fois que cette unité effectue un déplacement de charge, jusqu'à la fin du tour, ajoutez 1 à la caractéristique de Dégâts des armes de mêlée équipées des figurines ^^**Paladin Squad**^^ de cette unité.</characteristic>
+            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Chaque fois que cette unité effectue un mouvement de Charge, jusqu’à la fin du tour, ajoutez 1 à la caractéristique de Dégâts des armes de mêlée dont sont équipées les figurines ^^**Paladin Squad**^^ de cette unité.</characteristic>
           </characteristics>
         </profile>
       </profiles>
@@ -5182,7 +5182,7 @@
                   <profiles>
                     <profile name="Apothecary's narthecium" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="919c-ea0e-7439-ba4a">
                       <characteristics>
-                        <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Dans votre phase de Commandement, si le porteur n'est pas détruit, vous pouvez renvoyer la figurine détruit 1 (hors ^^**Characters^^**) à l'unité du porteur.</characteristic>
+                        <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Durant votre phase de Commandement, si le porteur n’est pas détruit, vous pouvez replacer 1 figurine détruite (à l’exclusion des ^^**Characters^^**) dans l’unité du porteur.</characteristic>
                       </characteristics>
                     </profile>
                   </profiles>
@@ -5446,7 +5446,7 @@
         </profile>
         <profile name="Righteous Persecution" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="6515-217f-6031-85ce">
           <characteristics>
-            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Dans votre phase de Tir, après que cette unité ait tiré, sélectionnez une unité ennemie (à l'exclusion de ^^**Monsters^^** ou ^^**Vehicles^^**) frappée par une ou plusieurs de ces attaques; jusqu'au début de votre prochain tour, cette unité ennemie est coincée. Pendant qu'une unité est fixée, Soustrayez 2 de la caractéristique de mouvement de cette unité et soustraire 2 des jets de Charge faits pour elle.</characteristic>
+            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Durant votre phase de Tir, après que cette unité a tiré, sélectionnez une unité ennemie (à l’exclusion des ^^**Monsters^^** ou des ^^**Vehicles^^**) touchée par une ou plusieurs de ces attaques ; jusqu’au début de votre prochain tour, cette unité ennemie est clouée. Tant qu’une unité est clouée, soustrayez 2 à sa caractéristique de Mouvement et 2 aux jets de Charge effectués pour elle.</characteristic>
           </characteristics>
         </profile>
       </profiles>
@@ -5696,7 +5696,7 @@
         </profile>
         <profile name="Sanctity of Purpose" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="f2c4-c894-81d4-d126">
           <characteristics>
-            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Chaque fois qu'une figurine dans cette unité fait une attaque, relancez un jet de Blessure de 1. Si la cible est dans la portée d'un marqueur objectif, vous pouvez relancer le jet de Blessure à la place.</characteristic>
+            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Chaque fois qu'une figurine dans cette unité fait une attaque, relancer est un jet de Blessure de 1. Si la cible est à l'intérieur de Portée d'un pion d’objectif, vous pouvez relancer le jet de Blessure à la place.</characteristic>
           </characteristics>
         </profile>
       </profiles>
@@ -5995,7 +5995,7 @@
         </profile>
         <profile name="Mindlock" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="685-c0a5-139e-a916">
           <characteristics>
-            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Alors qu'une figurine **^^Brotherhood Techmarine^^** est à la tête de cette unité, Améliorez les caractéristiques de caractéristique de Capacité de Tir et d'armes de caractéristique de Capacité de Combat de tir et de combat équipées par des figurines **^^Servitor^^** dans cette unité de 1</characteristic>
+            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Tant qu’une figurine **^^Brotherhood Techmarine^^** mène cette unité, améliorez de 1 la caractéristique de Capacité de Tir et la caractéristique de Capacité de Combat des armes de tir et de mêlée dont sont équipées les figurines **^^Servitor^^** de cette unité</characteristic>
           </characteristics>
         </profile>
         <profile name="Servitor Retinue" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="fd84-6d4e-4e0c-af7a">
@@ -6285,7 +6285,7 @@
           <profiles>
             <profile name="Retinue" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="ae16-1ed-ea16-9713">
               <characteristics>
-                <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Alors qu'une figurine **^^Brotherhood Techmarine^^** est à la tête de cette unité, les figurines de cette unité ont les capacités Frappe en profondeur et Teleport Assaut</characteristic>
+                <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Alors qu'une **^^Brotherhood Techmarine^^** figurine dirige cette unité, les figurines de cette unité ont les aptitudes Frappe en profondeur et le téléport Assaut</characteristic>
               </characteristics>
             </profile>
           </profiles>
@@ -6335,7 +6335,7 @@
         </profile>
         <profile name="Sanctifying Ritual (Psychic)" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="e301-c532-9ade-1060">
           <characteristics>
-            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">À la fin de votre phase de Commandement, si cette unité est à la portée d'un marqueur objectif que vous contrôlez, ce marqueur objectif reste sous votre contrôle jusqu'à ce que le niveau de contrôle de votre adversaire sur ce marqueur objectif soit supérieur au vôtre à la fin d'une phase.</characteristic>
+            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">À la fin de votre phase de Commandement, si cette unité est à l'intérieur de Portée d'un pion d’objectif que vous contrôlez, ce pion d’objectif reste sous votre contrôle jusqu'à ce que le niveau de contrôle de votre adversaire sur ce pion d’objectif soit supérieur au vôtre à la fin d'une phase.</characteristic>
           </characteristics>
           <modifiers>
             <modifier type="set" value="true" field="hidden">
@@ -6592,7 +6592,7 @@
         </profile>
         <profile name="Aerial Assault" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="86b2-1076-cbe6-c46b">
           <characteristics>
-            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Chaque fois qu'une unité dotée de la aptitude Frappe en profondeur débarque de cette figurine après avoir effectué un déplacement normal, cette unité est toujours admissible à déclarer une charge à ce tour.</characteristic>
+            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Chaque fois qu'une unité avec l’aptitude Frappe en profondeur débarque de cette figurine après avoir effectué un mouvement Normal, cette unité est toujours admissible à déclarer une charge à ce tour.</characteristic>
           </characteristics>
         </profile>
       </profiles>
@@ -6710,7 +6710,7 @@
                   <profiles>
                     <profile name="Thunderhawk cluster bombs" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="66fc-3811-9adc-d285">
                       <characteristics>
-                        <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Chaque fois que le porteur termine un mouvement normal, vous pouvez sélectionner une unité ennemie par-dessus laquelle le porteur s’est déplacé au cours de ce mouvement et rouler six D6: pour chaque 3+, cette unité souffre 1 blessure mortelle.</characteristic>
+                        <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Chaque fois que le porteur termine un mouvement Normal, vous pouvez sélectionner une unité ennemie par-dessus laquelle le porteur s’est déplacé pendant ce mouvement et rouler six D6: pour chaque 3+, cette unité souffre 1 blessure mortelle.</characteristic>
                       </characteristics>
                     </profile>
                   </profiles>
@@ -6879,12 +6879,12 @@
         </profile>
         <profile name="Assault Ramp" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="4749-41d6-2cbd-4b70">
           <characteristics>
-            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Chaque fois qu'une unité débarque de cette figurine après avoir effectué un déplacement normal, cette unité est toujours éligible à déclarer une charge à ce tour.</characteristic>
+            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Chaque fois qu'une unité débarque de cette figurine après avoir effectué un mouvement Normal, cette unité est toujours éligible à déclarer une charge à ce tour.</characteristic>
           </characteristics>
         </profile>
         <profile name="Land Raider Banisher" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="11a-f6f2-ef6e-1aed">
           <characteristics>
-            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Cette figurine a une capacité de transport de 12 figurines Grey Knights Infantry. Chaque figurine Terminator occupe la place de 2 figurines.</characteristic>
+            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Cette figurine a une capacité de transport de 12 figurines Grey Knights Infantry. Chaque Terminator figurine occupe l'espace de 2 figurines.</characteristic>
           </characteristics>
         </profile>
       </profiles>
@@ -7078,7 +7078,7 @@
         </profile>
         <profile id="ddd3-a2ef-d91d-d153" name="Wisdom of the Ancients (Aura)" hidden="false" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities">
           <characteristics>
-            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Alors qu'une unité amicale **^^Grey Knights Infantry^^** est à 6" ou moins de cette figurine, chaque fois qu'une figurine dans cette unité fait une attaque, relancez les jets de Touche de 1 et les jets de Blessure de 1.</characteristic>
+            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Alors qu'une unité amicale **^^Grey Knights Infantry^^** est à 6" ou moins de cette figurine, chaque fois qu'une figurine dans cette unité fait une attaque, relancer est un jet de Touche de 1 et relancer est un jet de Blessure de 1.</characteristic>
           </characteristics>
         </profile>
       </profiles>
@@ -7439,7 +7439,7 @@
         </profile>
         <profile id="8a33-f995-5228-9577" name="Fire Support" hidden="false" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities">
           <characteristics>
-            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Dans votre phase de Tir, après que cette figurine ait tiré, sélectionnez une unité ennemie qui a marqué un ou plusieurs coups contre cette phase. Jusqu'à la fin de la phase, chaque fois qu'une figurine amie qui a débarqué de ce Transport à ce tour fait une attaque qui cible cette unité ennemie, vous pouvez relancer le jet de Blessure.</characteristic>
+            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Dans votre phase de Tir, après que cette figurine a tiré, sélectionnez une unité ennemie qui a marqué un ou plusieurs coups contre cette phase. Jusqu’à la fin de la phase, chaque fois qu'un ami figurine qui a débarqué de ce Transport ce tour fait une attaque qui cible que cette unité ennemie, vous pouvez relancer le jet de Blessure.</characteristic>
           </characteristics>
         </profile>
       </profiles>
@@ -8730,7 +8730,7 @@
         </profile>
         <profile name="Might of Titan" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="07ba-0c62-37d2-2042">
           <characteristics>
-            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Une fois par bataille, au début d'une phase, cette figurine peut utiliser cette aptitude. Si c'est le cas, jusqu'à la fin de la phase, ajoutez 3 aux caractéristiques d'attaque et de force des armes de mêlée équipées de cette figurine.</characteristic>
+            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Une fois par bataille, au début d'une phase, cette figurine peut utiliser cette aptitude. Si c'est le cas, Jusqu’à la fin de la phase ajoute 3 aux caractéristiques Attaques et Force d’armes de mêlée équipées de cette figurine.</characteristic>
           </characteristics>
         </profile>
         <profile name="Meneur" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="2f76-c5d1-e844-864c">
@@ -9225,7 +9225,7 @@
         </profile>
         <profile name="Guidance of the Ancients" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="97ba-f037-a93d-caf4">
           <characteristics>
-            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Dans votre phase de Tir, après que cette unité ait tiré, sélectionnez une unité touchée par une ou plusieurs de ces attaques. Jusqu'à la fin de la phase, chaque fois qu'une figurine **^^Grey Knights^^** de votre armée fait une attaque qui cible cette unité, ajoutez 1 au jet de Touche.</characteristic>
+            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Dans votre phase de Tir, après que cette unité a tiré, sélectionnez une unité touchée par un ou plusieurs de ces Attaques. Jusqu’à la fin de la phase, chaque fois qu'une **^^Grey Knights^^** figurine de votre armée fait une attaque qui cible cette unité, ajoutez 1 au jet de Touche.</characteristic>
           </characteristics>
         </profile>
       </profiles>
@@ -9385,12 +9385,12 @@
         </profile>
         <profile name="Surge of Wrath" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="fddf-8b8c-8f65-e59b">
           <characteristics>
-            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Chaque fois que cette figurine effectue une attaque de mêlée qui cible une unité **^^Monster^^** ou **^^Vehicle^^**, vous pouvez relancer le jet de Touche, vous pouvez relancer le jet de Blessure et vous pouvez relancer le jet Dégâts.</characteristic>
+            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Chaque fois que cette figurine fait une attaque de mêlée qui cible une unité **^^Monster^^** ou **^^Vehicle^^**, vous pouvez relancer le jet de Touche, vous pouvez relancer le jet de Blessure et vous pouvez relancer le jet de Dégâts.</characteristic>
           </characteristics>
         </profile>
         <profile name="Damaged: 1-4 Wounds Remaining" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="8283-b27a-ec85-6670">
           <characteristics>
-            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Lorsqu'il est endommagé, Soustrayez 1 des jets de Touche lorsqu'il effectue des attaques.</characteristic>
+            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Lorsqu’elle est Endommagée, soustrayez 1 aux jets de Touche lorsqu’elle effectue des attaques.</characteristic>
           </characteristics>
         </profile>
       </profiles>
@@ -9532,7 +9532,7 @@
               <profiles>
                 <profile name="Paragon of Sanctity" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="70e3-6650-d619-84d1">
                   <characteristics>
-                    <characteristic name="Description" typeId="9b8f-694b-e5e-b573">**^^Grey Knights^^** figurine uniquement. Une fois par bataille, au début de toute phase, le porteur peut sélectionner une unité **^^Grey Knights^^** amicale à 18" ou moins et visible pour elle. Si c'est le cas, jusqu'à la fin de la phase, cette unité sera dans votre armée Hallowed Ground.</characteristic>
+                    <characteristic name="Description" typeId="9b8f-694b-e5e-b573">**^^Grey Knights^^** figurine uniquement. Une fois par bataille, au début de toute phase, le porteur peut sélectionner une unité sympathique **^^Grey Knights^^** à 18" ou moins et visible pour elle. Si c'est le cas, Jusqu’à la fin de la phase, cette unité est dans votre armée Hallowed Ground.</characteristic>
                   </characteristics>
                 </profile>
               </profiles>
@@ -9551,7 +9551,7 @@
               <profiles>
                 <profile name="Phial of the Abyss" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="ae37-910b-18ac-cb9a">
                   <characteristics>
-                    <characteristic name="Description" typeId="9b8f-694b-e5e-b573">**^^Grey Knights Infantry^^** figurine uniquement. Les figurines de l’unité du porteur ont la aptitude Discrétion.</characteristic>
+                    <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Figurine **^^Grey Knights Infantry^^** uniquement. Les figurines de l’unité du porteur ont l’aptitude Discrétion.</characteristic>
                   </characteristics>
                 </profile>
               </profiles>
@@ -9580,7 +9580,7 @@
               <profiles>
                 <profile name="Mandulian Reliquary" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="22b8-9100-e8eb-2987">
                   <characteristics>
-                    <characteristic name="Description" typeId="9b8f-694b-e5e-b573">**^^Grey Knights^^** figurine uniquement. Tant que l'unité du porteur n’est pas Ébranlée, ajoutez 3 à la caractéristique de Contrôle d’Objectif du porteur.</characteristic>
+                    <characteristic name="Description" typeId="9b8f-694b-e5e-b573">**^^Grey Knights^^** figurine uniquement. Alors que l’unité du porteur n'est pas Ébranlé, ajoutez 3 au porteur caractéristique de Contrôle d’Objectif.</characteristic>
                   </characteristics>
                 </profile>
               </profiles>
@@ -9595,7 +9595,7 @@
               <profiles>
                 <profile name="Radiant Champion" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="21d9-2f2a-a34c-48e4">
                   <characteristics>
-                    <characteristic name="Description" typeId="9b8f-694b-e5e-b573">**^^Grey Knights Infantry^^** figurine uniquement. Les armes de mêlée du porteur ont la aptitude [^^**Precision**^^], et alors que le porteur est entièrement à votre armée Hallowed Ground, chaque fois qu'une attaque de mêlée effectuée par le porteur marque une blessure, la cible de cette attaque subit 1 blessure mortelle en plus de tout Dégât normal.</characteristic>
+                    <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Figurine **^^Grey Knights Infantry^^** uniquement. Les armes de mêlée du porteur ont l’aptitude [^^**Precision**^^] et, tant que le porteur est entièrement dans le Hallowed Ground de votre armée, chaque fois qu’une attaque de mêlée effectuée par le porteur réussit à blesser, la cible de cette attaque subit 1 blessure mortelle en plus des dégâts normaux.</characteristic>
                   </characteristics>
                 </profile>
               </profiles>
@@ -9640,7 +9640,7 @@
               <profiles>
                 <profile name="Eye of the Augurium" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="a4g6-h8l0-1x7l-0jt5">
                   <characteristics>
-                    <characteristic name="Description" typeId="9b8f-694b-e5e-b573">^^**Grey Knights^^** figurine uniquement. Une fois par tour de bataille, le porteur peut utiliser cette Optimisation. Si c'est le cas, vous pouvez cibler l'unité du porteur avec le Fire Overwatch Stratagème ou le Heroic Intervention Stratagème pour 0CP, et vous pouvez le faire même si vous avez déjà ciblé une autre unité avec ce Stratagème à ce tour.</characteristic>
+                    <characteristic name="Description" typeId="9b8f-694b-e5e-b573">^^**Grey Knights^^** figurine uniquement. Une fois par tour de bataille, le porteur peut utiliser cette Optimisation. S’il le fait, vous pouvez cibler l’unité du porteur avec le Stratagème Fire Overwatch ou Heroic Intervention pour 0CP, même si vous avez déjà ciblé une autre unité avec ce Stratagème durant ce tour.</characteristic>
                   </characteristics>
                 </profile>
               </profiles>
@@ -9659,7 +9659,7 @@
               <profiles>
                 <profile name="Sanctic Reaper" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="p1x9-r402-ww99-xorm">
                   <characteristics>
-                    <characteristic name="Description" typeId="9b8f-694b-e5e-b573">^^**Grey Knights Terminator^^** figurine uniquement. Ajoutez 3 aux caractéristique d’Attaques des armes de mêlée du porteur.</characteristic>
+                    <characteristic name="Description" typeId="9b8f-694b-e5e-b573">^^**Grey Knights Terminator^^** figurine uniquement. Ajoutez 3 à la caractéristique d’Attaques des armes de mêlée du porteur.</characteristic>
                   </characteristics>
                 </profile>
               </profiles>
@@ -9698,7 +9698,7 @@
               <profiles>
                 <profile name="Inescapable Judgement (Psychic)" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="4o2d-b9qr-3b0z-8855">
                   <characteristics>
-                    <characteristic name="Description" typeId="9b8f-694b-e5e-b573">^^**Grey Knights^^** figurine uniquement.  Chaque fois qu'une unité ennemie à l'intérieur de la Portée d’Engagement de l'unité de son porteur Bat en Retraite, le porteur peut utiliser cette Optimisation. Si c'est le cas, lancez un D6: sur un 2-5, cette unité ennemie subit D3 Blessures Mortelles; sur un 6, cette unité ennemie subit D3+3 Blessures Mortelles. Ces Blessures Mortelles sont des attaques Psychique.</characteristic>
+                    <characteristic name="Description" typeId="9b8f-694b-e5e-b573">^^**Grey Knights^^** figurine uniquement.  Chaque fois qu’une unité ennemie à Portée d’Engagement de l’unité du porteur Bat en Retraite, le porteur peut utiliser cette Optimisation. S’il le fait, lancez un D6 : sur 2-5, cette unité ennemie subit D3 blessures mortelles ; sur 6, cette unité ennemie subit D3+3 blessures mortelles. Ces blessures mortelles sont des Attaques Psychiques.</characteristic>
                   </characteristics>
                 </profile>
               </profiles>
@@ -9717,7 +9717,7 @@
               <profiles>
                 <profile name="Nemesis Rounds" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="b262-6252-ce59-4b30">
                   <characteristics>
-                    <characteristic name="Description" typeId="9b8f-694b-e5e-b573">^^**Grey Knights Terminator^^** figurine uniquement.  Chaque fois que vous ciblez l'unité du porteur avec le Stratagème de la Fire Overwatch, des coups sont marqués sur des jets de Touche non modifiés de 5+ tout en résolvant ce Stratagème.</characteristic>
+                    <characteristic name="Description" typeId="9b8f-694b-e5e-b573">^^**Grey Knights Terminator^^** figurine uniquement.  Chaque fois que vous ciblez l’unité du porteur avec le Fire Overwatch Stratagème, des hits sont marqués sur jets de Touche non modifiés de 5+ tout en résolvant que Stratagème.</characteristic>
                   </characteristics>
                 </profile>
               </profiles>
@@ -9762,7 +9762,7 @@
               <profiles>
                 <profile name="Sigil of Exigence" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="6729-b23c-dbe3-b515">
                   <characteristics>
-                    <characteristic name="Description" typeId="9b8f-694b-e5e-b573">^^**Grey Knights^^** figurine uniquement. Une fois par bataille, dans la phase de Tir de votre adversaire, lorsque l'unité du porteur est sélectionnée comme cible d'une attaque de tir, vous pouvez retirer l'unité du porteur du champ de bataille, puis la réinstaller n'importe où sur le champ de bataille qui est plus de 9" horizontalement loin de toutes les unités ennemies. Si l'unité du porteur n'est plus une cible admissible, votre adversaire peut alors sélectionner de nouvelles cibles pour les attaques qui auraient ciblé l'unité du porteur.</characteristic>
+                    <characteristic name="Description" typeId="9b8f-694b-e5e-b573">^^**Grey Knights^^** figurine uniquement. Pour Une fois par bataille, dans la phase de Tir de votre adversaire, lorsque l’unité du porteur est sélectionnée comme cible d'une attaque de tir, vous pouvez retirer l’unité du porteur du champ de bataille, puis la réinitialiser n'importe où sur le champ de bataille qui est plus que 9" horizontalement éloigné de toutes les unités ennemies. Si l’unité du porteur n'est plus un cible éligible, votre adversaire peut alors sélectionner de nouvelles cibles pour tout Attaques qui avait ciblé l’unité du porteur.</characteristic>
                   </characteristics>
                 </profile>
               </profiles>
@@ -9807,7 +9807,7 @@
               <profiles>
                 <profile name="Quickening Foci" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="9ad1-1ba9-947b-1ac3">
                   <characteristics>
-                    <characteristic name="Description" typeId="9b8f-694b-e5e-b573">^^**Grey Knights Infantry^^** figurine uniquement.  Dans votre phase de Mouvement, chaque fois que l'unité du porteur débarque d'un ^^**Transport**^^, jusqu'à la fin du tour, vous pouvez relancer les jets de Charge de cette unité.</characteristic>
+                    <characteristic name="Description" typeId="9b8f-694b-e5e-b573">^^**Grey Knights Infantry^^** figurine uniquement.  Dans votre phase de Mouvement, chaque fois que l’unité du porteur débarque d'un ^^**Transport**^^, jusqu'à la fin du tour, vous pouvez relancer jets de Charge de cette unité.</characteristic>
                   </characteristics>
                 </profile>
               </profiles>
@@ -9833,7 +9833,7 @@
               <profiles>
                 <profile name="Spiritus Machina" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="58d8-e21c-c54c-04bb">
                   <characteristics>
-                    <characteristic name="Description" typeId="9b8f-694b-e5e-b573">^^**Grey Knights Infantry^^** figurine uniquement. Dans votre phase de Tir, chaque fois que l'unité du porteur est sélectionnée pour tirer, si l'unité du porteur débarque d'un ^^**Transport^^** ce tour, jusqu'à la fin de la phase, chaque fois qu'une figurine dans l'unité du porteur fait une attaque, vous pouvez relancer le jet de Blessure.</characteristic>
+                    <characteristic name="Description" typeId="9b8f-694b-e5e-b573">^^**Grey Knights Infantry^^** figurine uniquement. Dans votre phase de Tir, chaque fois que l’unité du porteur est sélectionnée pour tirer, si l’unité du porteur débarque d'un ^^**Transport^^** ce tour, Jusqu’à la fin de la phase, chaque fois qu'une figurine dans l’unité du porteur fait une attaque, vous pouvez relancer le jet de Blessure.</characteristic>
                   </characteristics>
                 </profile>
               </profiles>
@@ -9878,7 +9878,7 @@
               <profiles>
                 <profile name="Blinding Aura" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="65fd-ae27-3845-3ecb">
                   <characteristics>
-                    <characteristic name="Description" typeId="9b8f-694b-e5e-b573">^^**Grey Knights^^** figurine uniquement. Chaque fois que l'unité du porteur est configurée en utilisant la aptitude Frappe en profondeur, jusqu'à la fin du tour, les unités ennemies ne peuvent pas utiliser la aptitude Fire Overwatch pour tirer sur l'unité du porteur.</characteristic>
+                    <characteristic name="Description" typeId="9b8f-694b-e5e-b573">^^**Grey Knights^^** figurine uniquement. Chaque fois que l’unité du porteur est configurée en utilisant l’aptitude Frappe en profondeur, jusqu'à la fin du tour, les unités ennemies ne peuvent pas utiliser l’aptitude Fire Overwatch pour tirer sur l’unité du porteur.</characteristic>
                   </characteristics>
                 </profile>
               </profiles>
@@ -9897,7 +9897,7 @@
               <profiles>
                 <profile name="Tome of Forbidden Ways" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="fc31-b3b0-cd3e-9004">
                   <characteristics>
-                    <characteristic name="Description" typeId="9b8f-694b-e5e-b573">^^**Grey Knights^^** figurine uniquement. Pendant que le porteur est sur le champ de bataille ou dans les réserves stratégiques, ajoutez 1 au nombre d'unités de votre armée que vous pouvez sélectionner pour la règle Gate of Infinity.</characteristic>
+                    <characteristic name="Description" typeId="9b8f-694b-e5e-b573">^^**Grey Knights^^** figurine uniquement. Alors que le porteur est sur le champ de bataille ou dans Réserves Stratégiques, ajoutez 1 au nombre d'unités de votre armée que vous pouvez sélectionner pour la règle Gate of Infinity.</characteristic>
                   </characteristics>
                 </profile>
               </profiles>
@@ -9916,7 +9916,7 @@
               <profiles>
                 <profile name="Banishing Wave (Psychic)" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="2f83-3296-79fd-c6de">
                   <characteristics>
-                    <characteristic name="Description" typeId="9b8f-694b-e5e-b573">^^**Grey Knights^^** figurine uniquement.  Chaque fois que l'unité du porteur est configurée en utilisant la aptitude Frappe en profondeur, lancez un D6 pour chaque unité ennemi à 12" ou moins du porteur: sur une 2-5, cette unité subit 1 blessure mortelle; sur une 6, cette unité subit D3 Blessures Mortelles.</characteristic>
+                    <characteristic name="Description" typeId="9b8f-694b-e5e-b573">^^**Grey Knights^^** figurine uniquement.  chaque fois que le de l’unité du porteur est placée en utilisant l’aptitude Frappe en profondeur, lancez un D6 pour chaque unité ennemie à 12" ou moins du porteur: sur a 2-5, cette unité subit 1 blessure mortelle; sur 6, cette unité subit D3 Blessures Mortelles.</characteristic>
                   </characteristics>
                 </profile>
               </profiles>
@@ -9935,7 +9935,7 @@
               <profiles>
                 <profile name="Purity of Purpose" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="6d82-151d-51dc-99c1">
                   <characteristics>
-                    <characteristic name="Description" typeId="9b8f-694b-e5e-b573">^^**Grey Knights^^** figurine uniquement. Chaque fois que l'unité du porteur est configurée à l'aide de la aptitude Frappe en profondeur, jusqu'à la fin du tour, vous pouvez relancer les jets de Charge de l'unité du porteur.</characteristic>
+                    <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Figurine ^^**Grey Knights^^** uniquement. Chaque fois que l’unité du porteur est placée à l’aide de l’aptitude Frappe en profondeur, jusqu’à la fin du tour, vous pouvez relancer les jets de Charge effectués pour l’unité du porteur.</characteristic>
                   </characteristics>
                 </profile>
               </profiles>
@@ -9973,7 +9973,7 @@
               <profiles>
                 <profile name="Pyresoul (Psychic)" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="8e4d-bc3b-4c3c-7d3b">
                   <characteristics>
-                    <characteristic name="Description" typeId="9b8f-694b-e5e-b573">^^**Grey Knights^^** figurine uniquement. Au début de la phase de Tir, le porteur peut utiliser cette Optimisation. Si c'est le cas, sélectionnez une unité ennemi à 24" ou moins et visible au porteur; cette unité ennemi subit D3 Blessures Mortelles.</characteristic>
+                    <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Figurine ^^**Grey Knights^^** uniquement. Au début de votre phase de Tir, le porteur peut utiliser cette Optimisation. S’il le fait, sélectionnez une unité ennemie à 24" ou moins du porteur et visible de celui-ci ; cette unité ennemie subit D3 blessures mortelles.</characteristic>
                   </characteristics>
                 </profile>
               </profiles>
@@ -9992,7 +9992,7 @@
               <profiles>
                 <profile name="Ephemeral Tome" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="021b-f3c9-7fc9-9cbc">
                   <characteristics>
-                    <characteristic name="Description" typeId="9b8f-694b-e5e-b573">^^**Grey Knights^^** figurine uniquement. Au début de votre phase de Tir, si l'unité du porteur n'est pas dans la Portée d’Engagement d'une ou de plusieurs unités ennemies, le porteur peut utiliser cette Optimisation. Si tel est le cas, l'unité du porteur peut effectuer un déplacement normal allant jusqu'à D6" et, jusqu'à la fin du tour, l'unité du porteur n'est pas admissible à déclarer une charge.</characteristic>
+                    <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Figurine ^^**Grey Knights^^** uniquement. Au début de votre phase de Tir, si l’unité du porteur n’est pas à Portée d’Engagement d’une ou plusieurs unités ennemies, le porteur peut utiliser cette Optimisation. S’il le fait, l’unité du porteur peut effectuer un mouvement Normal de jusqu’à D6" et, jusqu’à la fin du tour, l’unité du porteur n’est pas éligible pour déclarer une Charge.</characteristic>
                   </characteristics>
                 </profile>
               </profiles>
@@ -10018,7 +10018,7 @@
               <profiles>
                 <profile name="Sixty-sixth Seal" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="b9ea-1a55-a55e-4ab5">
                   <characteristics>
-                    <characteristic name="Description" typeId="9b8f-694b-e5e-b573">^^**Grey Knights^^** figurine uniquement.  Dans votre phase de Tir, chaque fois qu'une figurine dans l'unité du porteur effectue une attaque, vous pouvez améliorer la caractéristique de Pénétration d’Armure de cette attaque de 1.</characteristic>
+                    <characteristic name="Description" typeId="9b8f-694b-e5e-b573">^^**Grey Knights^^** figurine uniquement.  Dans votre phase de Tir, chaque fois qu'une figurine dans l’unité du porteur fait une attaque, améliorez la caractéristique de Pénétration d’Armure de cette attaque de 1.</characteristic>
                   </characteristics>
                 </profile>
               </profiles>
@@ -10037,7 +10037,7 @@
               <profiles>
                 <profile name="Sigil of the Hunt" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="1af8-0854-8cbf-3bd7">
                   <characteristics>
-                    <characteristic name="Description" typeId="9b8f-694b-e5e-b573">^^**Grey Knights^^** figurine uniquement. Dans votre phase de Tir, chaque fois qu'une figurine dans l'unité du porteur fait une attaque, relancez un jet de Touche de 1.</characteristic>
+                    <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Figurine ^^**Grey Knights^^** uniquement. Durant votre phase de Tir, chaque fois qu’une figurine de l’unité du porteur effectue une attaque, relancez un jet de Touche de 1.</characteristic>
                   </characteristics>
                 </profile>
               </profiles>
@@ -10075,7 +10075,7 @@
               <profiles>
                 <profile name="One Foot in the Future" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="76e1-e04b-88aa-9bce">
                   <characteristics>
-                    <characteristic name="Description" typeId="9b8f-694b-e5e-b573">^^**Grey Knights^^** figurine uniquement. Chaque fois que l'unité du porteur est installée dans votre étape de renforcement, le porteur peut utiliser cette Optimisation. Si c'est le cas, l'unité du porteur peut effectuer un déplacement normal allant jusqu'à D6", et jusqu'à la fin du tour, l'unité du porteur n'est pas admissible à déclarer une charge.</characteristic>
+                    <characteristic name="Description" typeId="9b8f-694b-e5e-b573">^^**Grey Knights^^** figurine uniquement. Chaque fois que l’unité du porteur est configurée dans votre étape des Renforts, le porteur peut utiliser ce Optimisation. Si c'est le cas, l’unité du porteur peut déclarer effectuer un mouvement Normal jusqu'à D6", et jusqu'à la fin du tour, l’unité du porteur n'est pas admissible à déclarer une charge.</characteristic>
                   </characteristics>
                 </profile>
               </profiles>
@@ -10094,7 +10094,7 @@
               <profiles>
                 <profile name="Doomseer's Amulet" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="888a-664a-37cb-79a1">
                   <characteristics>
-                    <characteristic name="Description" typeId="9b8f-694b-e5e-b573">^^**Grey Knights^^** figurine uniquement. Chaque fois que l'unité du porteur est installée dans votre étape de renforcement, le porteur peut utiliser cette Optimisation. Si c'est le cas, sélectionnez une unité ennemi à 12" ou moins et visible au porteur. Cette unité ennemie doit passer un test d’Ébranlement, en soustrayant un de ce test.</characteristic>
+                    <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Figurine ^^**Grey Knights^^** uniquement. Chaque fois que l’unité du porteur est placée à votre étape Renforts, le porteur peut utiliser cette Optimisation. S’il le fait, sélectionnez une unité ennemie à 12" ou moins du porteur et visible de celui-ci. Cette unité ennemie doit effectuer un test d’Ébranlement en soustrayant un au résultat de ce test.</characteristic>
                   </characteristics>
                 </profile>
               </profiles>
@@ -10113,7 +10113,7 @@
               <profiles>
                 <profile name="Grimoire of Conjunctions" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="76bb-cf93-ffc5-a6a4">
                   <characteristics>
-                    <characteristic name="Description" typeId="9b8f-694b-e5e-b573">^^**Grey Knights^^** figurine uniquement.  Une fois par bataille, au début de la phase de Combat, le porteur peut utiliser cette Optimisation. Si c'est le cas, jusqu'à la fin de la phase, ajoutez 4 à la caractéristique de Force des armes de mêlée équipées par le porteur.</characteristic>
+                    <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Figurine ^^**Grey Knights^^** uniquement.  Une fois par bataille, au début de la phase de Combat, le porteur peut utiliser cette Optimisation. S’il le fait, jusqu’à la fin de la phase, ajoutez 4 à la caractéristique de Force des armes de mêlée dont le porteur est équipé.</characteristic>
                   </characteristics>
                 </profile>
               </profiles>
@@ -10132,7 +10132,7 @@
               <profiles>
                 <profile name="Shield of Prophecy" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="e9d7-370f-2d75-889a">
                   <characteristics>
-                    <characteristic name="Description" typeId="9b8f-694b-e5e-b573">^^**Grey Knights^^** figurine uniquement. Une fois par bataille, au début de la ronde de bataille, le porteur peut utiliser cette Optimisation. Si c'est le cas, jusqu'à la fin du tour de bataille, ajoutez 2 à la caractéristique d’Endurance des figurines dans l'unité du porteur.</characteristic>
+                    <characteristic name="Description" typeId="9b8f-694b-e5e-b573">^^**Grey Knights^^** figurine uniquement. Une fois par bataille, au début du tour de bataille, le porteur peut utiliser ce Optimisation. Si c'est le cas, jusqu'à la fin du tour de bataille, ajoutez 2 à la caractéristique d’Endurance des figurines de l’unité du porteur.</characteristic>
                   </characteristics>
                 </profile>
               </profiles>
@@ -10183,7 +10183,7 @@
               <profiles>
                 <profile name="Tactical Haruspexy" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="1b81-4728-0f8c-a966">
                   <characteristics>
-                    <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Une fois par bataille, lorsque le porteur déclare une charge, il peut utiliser cette Optimisation. S'il le fait, il peut sélectionner des unités qui ne lui sont pas visibles comme cibles de cette charge, à condition qu'elles soient à 9" ou moins de lui.</characteristic>
+                    <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Une fois par bataille, quand le porteur déclare une charge, il peut utiliser ce Optimisation. S'il le fait, il peut sélectionner des unités qui ne lui sont pas visibles comme cibles de cette charge, à condition qu'elles soient à 9" ou moins de lui.</characteristic>
                   </characteristics>
                 </profile>
               </profiles>
@@ -10219,7 +10219,7 @@
               <profiles>
                 <profile name="Sigil of Warding" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="d7fe-729f-bf93-0089">
                   <characteristics>
-                    <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Une fois par bataille, à la fin de la phase de Tir, le porteur peut utiliser cette Optimisation. S'il le fait, il peut faire un déplacement normal jusqu'à 3" et peut ensuite essayer d'opérer un Hatchway. Le porteur n'est donc pas admissible à déclarer une charge à ce moment-là.</characteristic>
+                    <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Une fois par bataille, à la fin de votre phase de Tir, le porteur peut utiliser cette Optimisation. S’il le fait, il peut effectuer un mouvement Normal de jusqu’à 3", puis tenter d’actionner un Hatchway. Le porteur n’est alors pas éligible pour déclarer une charge durant ce tour.</characteristic>
                   </characteristics>
                 </profile>
               </profiles>
@@ -10272,7 +10272,7 @@
               <profiles>
                 <profile name="Close and Sanction" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="947e-04eb-0ca3-7f64">
                   <characteristics>
-                    <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Dans la phase de Tir de votre adversaire, chaque fois qu'une unité ennemie est sélectionnée pour tirer, après que cette unité a tiré, si le porteur a été touché par une ou plusieurs de ces attaques, le porteur peut faire un mouvement Dash. Pour ce faire, lancez un D6: le porteur peut être déplacé une distance en pouces jusqu'au résultat, mais il doit terminer ce mouvement le plus près possible de l'unité ennemie visible la plus proche. En faisant cela, il peut être déplacé à l'intérieur de la Portée d’Engagement de cette unité ennemie. Le porteur ne peut faire qu'un mouvement Dash par phase.</characteristic>
+                    <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Dans phase de Tir de votre adversaire, chaque fois qu'une unité ennemie est sélectionnée pour tirer, après que l'unité a tiré, si le porteur a été touché par un ou plusieurs de ces Attaques, le porteur peut faire un mouvement Dash. Pour ce faire, lancez un D6: le porteur peut être déplacé d'une distance en pouces jusqu'au résultat, mais il doit terminer ce mouvement le plus près possible du unité ennemie visible le plus proche. En faisant cela, il peut être déplacé dans Portée d’Engagement de cette unité ennemie. le porteur ne peut faire qu'un mouvement Dash par phase.</characteristic>
                   </characteristics>
                 </profile>
               </profiles>
@@ -10382,13 +10382,13 @@
 
 - Votre zone de déploiement est toujours dans le Hallowed Ground de votre armée.
 
-- La zone du champ de bataille à 6" ou moins d’une ou plusieurs unités **^^Purifier Squad^^** de votre armée sont à l'intérieur de votre armée Hallowed Ground de votre armée.
+- La surface du champ de bataille à 6" ou moins d’une ou plusieurs unités **^^Purifier Squad^^** de votre armée sont à l'intérieur de votre armée Hallowed Ground de votre armée.
 
-- Au début de n'importe quelle phase, si vous contrôlez au moins la moitié des marqueurs objectifs dans No Man's Land, jusqu'à la fin de cette phase, No Man's Land est dans votre armée Hallowed Ground.
+- Au début d'une phase, si vous contrôlez au moins la moitié du pions d’objectif à l'intérieur de No Man's Land, jusqu'à la fin de cette phase, No Man's Land est dans votre armée Hallowed Ground.
 
-- • Au début de toute phase, si vous contrôlez au moins la moitié des marqueurs objectifs dans la zone de déploiement de votre adversaire, jusqu'à la fin de cette phase, la zone de déploiement de votre adversaire est dans votre armée Hallowed Ground.
+- Au début d'une phase, si vous contrôlez au moins la moitié du pions d’objectif dans le zone de déploiement de votre adversaire, jusqu'à la fin de cette phase, le zone de déploiement de votre adversaire est dans le Hallowed Ground de votre armée.
 
-Chaque fois qu'une figurine d'une unité **^^Grey Knights^^** de votre armée effectue une attaque de tir qui cible une cible visible ou effectue une attaque de mêlée, renvoyez un jet de Touche de 1. Si cette unité est un **^^Purifier Squad^^** et/ou est entièrement à votre armée Hallowed Ground, vous pouvez relancer le jet de Touche à la place.</description>
+Chaque fois qu'une figurine dans une unité **^^Grey Knights^^** de votre armée fait une attaque de tir qui cible une cible visible ou fait une attaque de mêlée, renvoyez un jet de Touche de 1. Si cette unité est un **^^Purifier Squad^^** et/ou est entièrement à votre armée s Hallowed Ground, vous pouvez rallumer le jet de Touche à la place.</description>
             </rule>
           </rules>
           <modifiers>
@@ -10402,7 +10402,7 @@ Chaque fois qu'une figurine d'une unité **^^Grey Knights^^** de votre armée ef
         <selectionEntry type="upgrade" import="true" name="Brotherhood Strike" hidden="false" id="3f06-4e57-edb4-28e5">
           <rules>
             <rule name="Fury of Titan" id="5845-81f6-ba0d-3357" hidden="false">
-              <description>Chaque fois qu'une unité de votre armée est mise en place en utilisant la règle Frappe en profondeur, jusqu'à la fin du tour, chaque fois qu'une figurine dans cette unité fait une attaque, relancez les jets de Touche de 1 et les jets de Blessure de 1.</description>
+              <description>Chaque fois qu'une unité de votre armée est mise en place en utilisant la règle Frappe en profondeur, jusqu'à la fin du tour, chaque fois qu'une figurine dans cette unité fait une attaque, relancer un jet de Touche de 1 et relancer un jet de Blessure de 1.</description>
             </rule>
           </rules>
           <modifiers>
@@ -10433,7 +10433,7 @@ Chaque fois qu'une figurine d'une unité **^^Grey Knights^^** de votre armée ef
         <selectionEntry type="upgrade" import="true" name="Sanctic Spearhead" hidden="false" id="fb9d-20f7-3a78-22a3">
           <rules>
             <rule name="Mailed Fist" id="7b7c-44a0-ccbd-ecaf" hidden="false">
-              <description>Chaque fois qu'une unité ^^**Grey Knights Vehicle**^^ de votre armée Advances, ne faites pas un jet d’Avance pour elle; jusqu'à la fin de la phase, ajoutez 6" à la caractéristique de mouvement des figurines de cette unité et, jusqu'à la fin du tour, les armes de tir équipées de figurines de cette unité ont la aptitude [**^^Assault**^^].</description>
+              <description>Chaque fois qu'une unité ^^**Grey Knights Vehicle**^^ de votre armée avance, ne faites pas une jet d’Avance pour elle; Jusqu’à la fin de la phase, ajoutez 6" à la caractéristique de mouvement des figurines de cette unité et, jusqu'à la fin du tour, armes de tir équipé des figurines de cette unité ont l’aptitude [**^^Assault**^^].</description>
             </rule>
           </rules>
           <modifiers>
@@ -10447,9 +10447,9 @@ Chaque fois qu'une figurine d'une unité **^^Grey Knights^^** de votre armée ef
         <selectionEntry type="upgrade" import="true" name="Banishers" hidden="false" id="1eb7-d49c-5fd4-9906">
           <rules>
             <rule name="Channelled Force" id="c4f2-c8d1-6e71-08bb" hidden="false">
-              <description>Chaque fois qu'une unité **^^Grey Knights**^^ de votre armée est sélectionnée pour combattre, cette unité peut passer un test de Commandement. Si ce test est passé, sélectionnez l'une des règles suivantes. Jusqu'à la fin de la phase, cette unité a cette règle.
-- Les armes Melee équipées par des figurines de cette unité avec la aptitude [**^^Psychic**^^] ont également la aptitude [**^^Sustained Hits 1**^^].
-- Les armes Melee équipées par des figurines de cette unité avec la aptitude [**^^Psychic**^^] ont également la aptitude [**^^Lethal Hits**^^].</description>
+              <description>Chaque fois qu’une unité **^^Grey Knights**^^ de votre armée est sélectionnée pour combattre, cette unité peut effectuer un test de Commandement. Si ce test est réussi, sélectionnez l’une des règles suivantes. Jusqu’à la fin de la phase, cette unité a cette règle.
+- Les armes de mêlée dont sont équipées les figurines de cette unité et qui ont l’aptitude [**^^Psychic**^^] ont également l’aptitude [**^^Sustained Hits 1**^^].
+- Les armes de mêlée dont sont équipées les figurines de cette unité et qui ont l’aptitude [**^^Psychic**^^] ont également l’aptitude [**^^Lethal Hits**^^].</description>
             </rule>
           </rules>
           <modifiers>
@@ -10484,15 +10484,15 @@ Chaque fois qu'une figurine d'une unité **^^Grey Knights^^** de votre armée ef
 - **^^Kaldor Draigo^^**
 
 Vous pouvez inclure jusqu'à trois des unités suivantes:
-- Les figurines **^^Strike Squad^^** (5 ou 10)
+- **^^Strike Squad^^** (5 or 10 figurines)
 
 Vous pouvez inclure jusqu'à une des unités suivantes:
-- Les figurines **^^Interceptor Squad^^** (5 ou 10)
-- Pour les figurines **^^Purifier Squad^^** (figurines 5)
+- **^^Interceptor Squad^^** (5 or 10 figurines)
+- **^^Purifier Squad^^** (5 figurines)
 
 Vous pouvez inclure jusqu'à l'une des unités suivantes:
-- Pour les figurines **^^Brotherhood Terminator Squad^^** (figurines 5)
-- Pour les figurines **^^Paladin Squad^^** (figurines 5)</description>
+- **^^Brotherhood Terminator Squad^^** (5 figurines)
+- **^^Paladin Squad^^** (5 figurines)</description>
             </rule>
             <rule name="Rules Adaptions" id="07d9-42d4-95bd-937b" hidden="false">
               <description>- La figurine **^^Brotherhood Librarian^^** perd l’aptitude Vortex of Doom.
@@ -10502,7 +10502,7 @@ Vous pouvez inclure jusqu'à l'une des unités suivantes:
 - L’unité **^^Strike Squad^^** perd l’aptitude Sanctifying Ritual.</description>
             </rule>
             <rule name="An Urgent Duty" id="b49a-3b93-2f38-52fb" hidden="false">
-              <description>Ajoutez 1 aux jets d’Avance et de Charge faits pour les unités **^^Grey Knights^^** de votre armée.</description>
+              <description>Ajoutez 1 aux jets d’Avance et de Charge effectués pour les unités **^^Grey Knights^^** de votre armée.</description>
             </rule>
           </rules>
           <infoLinks>
@@ -10530,8 +10530,8 @@ Vous pouvez inclure jusqu'à l'une des unités suivantes:
 - **^^Kaldor Draigo^^**
 
 Vous pouvez inclure jusqu'à deux de chacune des unités suivantes:
-- Les figurines **^^Brotherhood Terminator Squad^^** (5 ou 10)
-- Les figurines **^^Paladin Squad^^** (5 ou 10)</description>
+- **^^Brotherhood Terminator Squad^^** (5 or 10 figurines)
+- **^^Paladin Squad^^** (5 or 10 figurines)</description>
             </rule>
             <rule name="Rules Adaptions" id="6deb-7c3a-2a18-26db" hidden="false">
               <description>- La figurine **^^Brotherhood Librarian^^** perd l’aptitude Vortex of Doom.
@@ -10539,7 +10539,7 @@ Vous pouvez inclure jusqu'à deux de chacune des unités suivantes:
 - La figurine **^^Kaldor Draigo^^** perd l’aptitude One With the Warp.</description>
             </rule>
             <rule name="Pre-emptive Strike" id="b0c5-76c6-37b8-2efb" hidden="false">
-              <description>Dans l'étape des renforts de votre première phase de Mouvement, vous pouvez mettre en place sur le champ de bataille une unité de réserve **^^Grey Knights^^** de votre armée en utilisant la aptitude Frappe en profondeur. Lorsque vous faites cela, vous pouvez installer cette unité n'importe où sur le champ de bataille qui est plus que 6" horizontalement loin de tous les figurines ennemies (mesurer cette distance comme vous le feriez normalement pour la aptitude Frappe en profondeur). Jusqu'à la fin du tour, cette unité n'est pas admissible à déclarer une charge.</description>
+              <description>À l’étape des Renforts de votre première phase de Mouvement, vous pouvez placer sur le champ de bataille une unité de Réserves **^^Grey Knights^^** de votre armée en utilisant l’aptitude Frappe en profondeur. Ce faisant, vous pouvez placer cette unité n’importe où sur le champ de bataille à plus de 6" horizontalement de toute figurine ennemie (mesurez cette distance comme vous le feriez normalement pour l’aptitude Frappe en profondeur). Jusqu’à la fin du tour, cette unité n’est pas éligible pour déclarer une charge.</description>
             </rule>
           </rules>
           <infoLinks>
@@ -10656,12 +10656,12 @@ Vous pouvez inclure jusqu'à deux de chacune des unités suivantes:
               <profiles>
                 <profile name="Tide of Shadows (Psychic)" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="d65c-b2fc-33c0-bc39">
                   <characteristics>
-                    <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Cette unité a la aptitude Discrétion.</characteristic>
+                    <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Cette unité a l’aptitude Discrétion.</characteristic>
                   </characteristics>
                 </profile>
                 <profile name="Psychic Fortitudes" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="6681-17d2-f435-b2b9">
                   <characteristics>
-                    <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Une unité attachée ne peut utiliser qu'une seule unité de fortitude Psychique à la fois - alors qu'une unité Meneur avec l'un de ces traits est attachée à une unité Bodyguard avec un autre de ces traits, seule une peut être en vigueur; sélectionnez laquelle à l'étape Déclarer les Formations de Bataille - cette caractéristique s'applique ensuite à l'unité attachée jusqu'à ce que soit l'unité Meneur ou l'unité Bodyguard soit détruite, moment où la fortitude Psychique de l'unité restante entre en vigueur.</characteristic>
+                    <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Une unité Attachée ne peut utiliser qu’une seule Psychic Fortitude à la fois : tant qu’un Meneur ayant l’un de ces traits est attaché à une unité Bodyguard ayant un autre de ces traits, un seul peut être actif. Sélectionnez lequel à l’étape Déclarer les Formations de Bataille ; ce trait s’applique alors à l’unité Attachée jusqu’à ce que l’unité Meneur ou l’unité Bodyguard soit détruite, après quoi la Psychic Fortitude de l’unité restante entre en vigueur.</characteristic>
                   </characteristics>
                 </profile>
               </profiles>
@@ -10697,12 +10697,12 @@ Vous pouvez inclure jusqu'à deux de chacune des unités suivantes:
               <profiles>
                 <profile name="Fires of Purgation (Psychic)" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="ff41-076d-afa0-af5c">
                   <characteristics>
-                    <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Les armes de mêlée Psychique équipées par des figurines de cette unité ont la aptitude **[LANCE]**.</characteristic>
+                    <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Le Psychique armes de mêlée dont sont équipées les figurines de cette unité contient l’aptitude **[LANCE]**.</characteristic>
                   </characteristics>
                 </profile>
                 <profile name="Psychic Fortitudes" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="2de5-7c9e-3971-0415">
                   <characteristics>
-                    <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Une unité attachée ne peut utiliser qu'une seule unité de fortitude Psychique à la fois - alors qu'une unité Meneur avec l'un de ces traits est attachée à une unité Bodyguard avec un autre de ces traits, seule une peut être en vigueur; sélectionnez laquelle à l'étape Déclarer les Formations de Bataille - cette caractéristique s'applique ensuite à l'unité attachée jusqu'à ce que soit l'unité Meneur ou l'unité Bodyguard soit détruite, moment où la fortitude Psychique de l'unité restante entre en vigueur.</characteristic>
+                    <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Une unité Attachée ne peut utiliser qu’une seule Psychic Fortitude à la fois : tant qu’un Meneur ayant l’un de ces traits est attaché à une unité Bodyguard ayant un autre de ces traits, un seul peut être actif. Sélectionnez lequel à l’étape Déclarer les Formations de Bataille ; ce trait s’applique alors à l’unité Attachée jusqu’à ce que l’unité Meneur ou l’unité Bodyguard soit détruite, après quoi la Psychic Fortitude de l’unité restante entre en vigueur.</characteristic>
                   </characteristics>
                 </profile>
               </profiles>
@@ -10737,12 +10737,12 @@ Vous pouvez inclure jusqu'à deux de chacune des unités suivantes:
               <profiles>
                 <profile name="Fortress of Minds (Psychic)" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="3225-fc4d-a159-3610">
                   <characteristics>
-                    <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Les figurines de cette unité ont la aptitude Insensible à la douleur 5+ contre les Blessures Mortelles et attaques Psychiques.</characteristic>
+                    <characteristic name="Description" typeId="9b8f-694b-e5e-b573">les figurines de cette unité ont l’aptitude Insensible à la douleur 5+ contre Blessures Mortelles et attaques Psychiques.</characteristic>
                   </characteristics>
                 </profile>
                 <profile name="Psychic Fortitudes" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="fc90-e3e6-3c61-58b3">
                   <characteristics>
-                    <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Une unité attachée ne peut utiliser qu'une seule unité de fortitude Psychique à la fois - alors qu'une unité Meneur avec l'un de ces traits est attachée à une unité Bodyguard avec un autre de ces traits, seule une peut être en vigueur; sélectionnez laquelle à l'étape Déclarer les Formations de Bataille - cette caractéristique s'applique ensuite à l'unité attachée jusqu'à ce que soit l'unité Meneur ou l'unité Bodyguard soit détruite, moment où la fortitude Psychique de l'unité restante entre en vigueur.</characteristic>
+                    <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Une unité Attachée ne peut utiliser qu’une seule Psychic Fortitude à la fois : tant qu’un Meneur ayant l’un de ces traits est attaché à une unité Bodyguard ayant un autre de ces traits, un seul peut être actif. Sélectionnez lequel à l’étape Déclarer les Formations de Bataille ; ce trait s’applique alors à l’unité Attachée jusqu’à ce que l’unité Meneur ou l’unité Bodyguard soit détruite, après quoi la Psychic Fortitude de l’unité restante entre en vigueur.</characteristic>
                   </characteristics>
                 </profile>
               </profiles>
@@ -10777,12 +10777,12 @@ Vous pouvez inclure jusqu'à deux de chacune des unités suivantes:
               <profiles>
                 <profile name="Astral Aim (Psychic)" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="c217-3fde-a40e-5507">
                   <characteristics>
-                    <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Les armes de tir équipées par les figurines de cette unité ont la aptitude **[IGNORES COVER]** et la caractéristique de portée des armes de tir Psychique équipées par les figurines de cette unité est augmentée de 6".</characteristic>
+                    <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Les armes de tir dont sont équipées les figurines de cette unité ont l’aptitude **[IGNORES COVER]**, et la caractéristique de Portée des armes Psychiques de tir dont sont équipées les figurines de cette unité est augmentée de 6".</characteristic>
                   </characteristics>
                 </profile>
                 <profile name="Psychic Fortitudes" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="f128-4f4b-7982-4c18">
                   <characteristics>
-                    <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Une unité attachée ne peut utiliser qu'une seule unité de fortitude Psychique à la fois - alors qu'une unité Meneur avec l'un de ces traits est attachée à une unité Bodyguard avec un autre de ces traits, seule une peut être en vigueur; sélectionnez laquelle à l'étape Déclarer les Formations de Bataille - cette caractéristique s'applique ensuite à l'unité attachée jusqu'à ce que soit l'unité Meneur ou l'unité Bodyguard soit détruite, moment où la fortitude Psychique de l'unité restante entre en vigueur.</characteristic>
+                    <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Une unité Attachée ne peut utiliser qu’une seule Psychic Fortitude à la fois : tant qu’un Meneur ayant l’un de ces traits est attaché à une unité Bodyguard ayant un autre de ces traits, un seul peut être actif. Sélectionnez lequel à l’étape Déclarer les Formations de Bataille ; ce trait s’applique alors à l’unité Attachée jusqu’à ce que l’unité Meneur ou l’unité Bodyguard soit détruite, après quoi la Psychic Fortitude de l’unité restante entre en vigueur.</characteristic>
                   </characteristics>
                 </profile>
               </profiles>
@@ -10818,12 +10818,12 @@ Vous pouvez inclure jusqu'à deux de chacune des unités suivantes:
               <profiles>
                 <profile name="Focused Might (Psychic)" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="fe2c-a547-79b4-774a">
                   <characteristics>
-                    <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Chaque fois qu'une figurine dans cette unité fait une attaque Psychique, vous pouvez relancer le jet de Touche.</characteristic>
+                    <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Chaque fois qu’une figurine de cette unité effectue une Attaque Psychique, vous pouvez relancer le jet de Touche.</characteristic>
                   </characteristics>
                 </profile>
                 <profile name="Psychic Fortitudes" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="07fa-f748-7063-6891">
                   <characteristics>
-                    <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Une unité attachée ne peut utiliser qu'une seule unité de fortitude Psychique à la fois - alors qu'une unité Meneur avec l'un de ces traits est attachée à une unité Bodyguard avec un autre de ces traits, seule une peut être en vigueur; sélectionnez laquelle à l'étape Déclarer les Formations de Bataille - cette caractéristique s'applique ensuite à l'unité attachée jusqu'à ce que soit l'unité Meneur ou l'unité Bodyguard soit détruite, moment où la fortitude Psychique de l'unité restante entre en vigueur.</characteristic>
+                    <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Une unité Attachée ne peut utiliser qu’une seule Psychic Fortitude à la fois : tant qu’un Meneur ayant l’un de ces traits est attaché à une unité Bodyguard ayant un autre de ces traits, un seul peut être actif. Sélectionnez lequel à l’étape Déclarer les Formations de Bataille ; ce trait s’applique alors à l’unité Attachée jusqu’à ce que l’unité Meneur ou l’unité Bodyguard soit détruite, après quoi la Psychic Fortitude de l’unité restante entre en vigueur.</characteristic>
                   </characteristics>
                 </profile>
               </profiles>
@@ -10856,12 +10856,12 @@ Vous pouvez inclure jusqu'à deux de chacune des unités suivantes:
               <profiles>
                 <profile name="Channelled Fury (Psychic)" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="ce7a-9685-58e8-036a">
                   <characteristics>
-                    <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Les armes Psychique équipées de figurines de cette unité ont la aptitude **[SUSTAINED HITS 1]**.</characteristic>
+                    <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Les armes Psychiques dont les figurines de cette unité sont équipées ont l’aptitude **[SUSTAINED HITS 1]**.</characteristic>
                   </characteristics>
                 </profile>
                 <profile name="Psychic Fortitudes" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="89f6-3128-f081-1060">
                   <characteristics>
-                    <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Une unité attachée ne peut utiliser qu'une seule unité de fortitude Psychique à la fois - alors qu'une unité Meneur avec l'un de ces traits est attachée à une unité Bodyguard avec un autre de ces traits, seule une peut être en vigueur; sélectionnez laquelle à l'étape Déclarer les Formations de Bataille - cette caractéristique s'applique ensuite à l'unité attachée jusqu'à ce que soit l'unité Meneur ou l'unité Bodyguard soit détruite, moment où la fortitude Psychique de l'unité restante entre en vigueur.</characteristic>
+                    <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Une unité Attachée ne peut utiliser qu’une seule Psychic Fortitude à la fois : tant qu’un Meneur ayant l’un de ces traits est attaché à une unité Bodyguard ayant un autre de ces traits, un seul peut être actif. Sélectionnez lequel à l’étape Déclarer les Formations de Bataille ; ce trait s’applique alors à l’unité Attachée jusqu’à ce que l’unité Meneur ou l’unité Bodyguard soit détruite, après quoi la Psychic Fortitude de l’unité restante entre en vigueur.</characteristic>
                   </characteristics>
                 </profile>
               </profiles>
@@ -10903,7 +10903,7 @@ Vous pouvez inclure jusqu'à deux de chacune des unités suivantes:
           <profiles>
             <profile name="Strike Specialists" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="d772-cc21-9359-56f1">
               <characteristics>
-                <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Les armes de tir équipées par des figurines de cette unité ont la aptitude **[ASSAULT]**.</characteristic>
+                <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Les armes de tir dont les figurines de cette unité sont équipées ont l’aptitude **[ASSAULT]**.</characteristic>
               </characteristics>
             </profile>
           </profiles>
@@ -10951,7 +10951,7 @@ Vous pouvez inclure jusqu'à deux de chacune des unités suivantes:
           <profiles>
             <profile name="Heroism in Extremis" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="e462-8d19-5d48-bcba">
               <characteristics>
-                <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Une fois par bataille, au début de la phase de Combat, cette figurine peut utiliser cette aptitude. Si c'est le cas, jusqu'à la fin de la phase, ajoutez D3 aux caractéristique d’Attaques des armes de mêlée équipées de cette figurine.</characteristic>
+                <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Une fois par bataille, au début de la phase de Combat, cette figurine peut utiliser cette aptitude. Si elle le fait, jusqu’à la fin de la phase, ajoutez D3 à la caractéristique d’Attaques des armes de mêlée dont cette figurine est équipée.</characteristic>
               </characteristics>
             </profile>
           </profiles>
@@ -10983,7 +10983,7 @@ Vous pouvez inclure jusqu'à deux de chacune des unités suivantes:
           <profiles>
             <profile name="Sigils of Swiftness" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="839a-115c-65ee-3da9">
               <characteristics>
-                <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Vous pouvez relancer les jets d’Avance et de Charge faits pour cette unité.</characteristic>
+                <characteristic name="Description" typeId="9b8f-694b-e5e-b573">vous pouvez relancer Advance et jets de Charge effectués pour cette unité.</characteristic>
               </characteristics>
             </profile>
           </profiles>
@@ -11015,7 +11015,7 @@ Vous pouvez inclure jusqu'à deux de chacune des unités suivantes:
           <profiles>
             <profile name="Force Acuity" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="5adc-8474-9ac1-2d23">
               <characteristics>
-                <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Améliorez la caractéristique de Pénétration d’Armure des armes de mêlée équipées par des figurines de cette unité par 1 (cette règle n'est cumulée avec aucune autre règle qui améliore la caractéristique de Pénétration d’Armure des armes de mêlée équipées par des figurines de cette unité).</characteristic>
+                <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Améliorez la caractéristique de Pénétration d’Armure des armes de mêlée dont sont équipées les figurines de cette unité par 1 (ce qui n'est cumulé avec aucune autre règle qui améliore la caractéristique de Pénétration d’Armure des armes de mêlée dont sont équipées les figurines de cette unité).</characteristic>
               </characteristics>
             </profile>
           </profiles>
@@ -11055,7 +11055,7 @@ Vous pouvez inclure jusqu'à deux de chacune des unités suivantes:
           <profiles>
             <profile name="No Matter The Odds" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="0917-0717-7df3-3fcc">
               <characteristics>
-                <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Cette unité est éligible pour filmer et déclarer une charge dans un tour dans lequel a Battu en Retraite, et chaque fois qu'une figurine **^^Walker^^** dans cette unité prend un test d'évasion désespérée, ajoutez 1 au résultat.</characteristic>
+                <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Cette unité est éligible pour tirer et déclare une charge dans un tour dans lequel il a Battu en Retraite, et chaque fois qu'une **^^Walker^^** figurine dans cette unité prend un test de Fuite Désespérée, Ajoutez 1 au résultat.</characteristic>
               </characteristics>
             </profile>
           </profiles>
@@ -11119,7 +11119,7 @@ Vous pouvez inclure jusqu'à deux de chacune des unités suivantes:
           <profiles>
             <profile name="Indefatigable Will" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="84ea-8143-1132-904c">
               <characteristics>
-                <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Chaque fois qu'une figurine de cette unité fait une attaque au corps à corps, Ajoutez 1 au jet de Touche si cette unité est inférieure à son Effectif Initial, et Ajoutez 1 au jet de Blessure si cette unité est en dessous de son Demi-effectif.</characteristic>
+                <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Chaque fois qu'une figurine dans cette unité fait une attaque de mêlée, ajoutez 1 au jet de Touche si cette unité est en dessous de son Effectif Initial, et ajoutez 1 au jet de Blessure si cette unité est En Dessous de son Demi-effectif.</characteristic>
               </characteristics>
             </profile>
           </profiles>
@@ -11216,7 +11216,7 @@ Vous pouvez inclure jusqu'à deux de chacune des unités suivantes:
               <profiles>
                 <profile name="Gyrotemporal Vault" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="30d1-3410-154a-40b2">
                   <characteristics>
-                    <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Une fois par bataille, au début de la phase de Combat, le porteur peut utiliser cette relique de la Croisade. Si c'est le cas, jusqu'à la fin de la phase, les figurines dans l'unité du porteur ont la aptitude Fights First.</characteristic>
+                    <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Une fois par bataille, au début de la phase de Combat, le porteur peut utiliser cette relique de la Croisade. Si c'est le cas, Jusqu’à la fin de la phase, les figurines de l’unité du porteur ont l’aptitude Fights First.</characteristic>
                   </characteristics>
                 </profile>
               </profiles>
@@ -11262,9 +11262,9 @@ Vous pouvez inclure jusqu'à deux de chacune des unités suivantes:
               <profiles>
                 <profile name="Domina Liber Daemonica" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="f74f-3bbe-db84-95b4">
                   <characteristics>
-                    <characteristic name="Description" typeId="9b8f-694b-e5e-b573">À la fin de la bataille, si le porteur est entièrement à la zone de déploiement de votre adversaire, lancez un D6: sur un 5+:
-- Si vous ne combattez pas une Incursion du Chaos, vous pouvez sélectionner une Vision sur votre tracker Augurium Vision et la modifier à l'état Sanctic.
-- si vous sont combating a Chaos Incursion, vous gagnez 1 Banishment point.</characteristic>
+                    <characteristic name="Description" typeId="9b8f-694b-e5e-b573">À la fin de la bataille, si le porteur est entièrement dans la zone de déploiement de votre adversaire, lancez un D6 : sur 5+ :
+- Si vous ne combattez pas une Incursion du Chaos, vous pouvez sélectionner une Vision sur votre tracker Augurium Vision et la faire passer à l’état Sanctic.
+- Si vous combattez une Incursion du Chaos, vous gagnez 1 Banishment point.</characteristic>
                   </characteristics>
                 </profile>
               </profiles>
@@ -11307,7 +11307,7 @@ Vous pouvez inclure jusqu'à deux de chacune des unités suivantes:
               <profiles>
                 <profile name="Kantu Vambrace" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="13e0-01f8-38e6-f549">
                   <characteristics>
-                    <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Chaque fois qu'une attaque est attribuée au porteur, Soustrayez 1 de la caractéristique Dégât de cette attaque.</characteristic>
+                    <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Chaque fois qu'une attaque est attribuée au porteur, Soustrayez 1 de la caractéristique de Dégâts de cette attaque.</characteristic>
                   </characteristics>
                 </profile>
               </profiles>
@@ -11354,9 +11354,9 @@ Vous pouvez inclure jusqu'à deux de chacune des unités suivantes:
               <profiles>
                 <profile name="Helm of Janus" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="e1bd-cc28-d3b1-24ea">
                   <characteristics>
-                    <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Au début de chaque tour de bataille, sélectionnez un trait de bataille Psychique Fortitude. Jusqu'à la fin de la ronde de bataille, le porteur possède cette caractéristique de bataille Fortitude Psychique.
+                    <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Au début de chaque tour de bataille, sélectionnez un trait de bataille Psychique Fortitude. Jusqu'à la fin du tour de bataille, le porteur possède cette caractéristique de bataille Fortitude Psychique.
 
-Le porteur peut utiliser cette relique de la Croisade pour recevoir un Trait de Bataille de Fortitude Psychique même si cela signifie qu'il aurait deux Traits de Bataille de Fortitude Psychique. S'ils le font, les deux s'appliquent à l'unité du porteur, même si normalement une seule Psychique Fortitude peut être en vigueur à tout moment.</characteristic>
+le porteur peut utiliser cette relique de la Croisade pour recevoir une caractéristique de bataille Psychique Fortitude même si cela signifie qu'ils auraient deux caractéristiques de bataille Psychique Fortitude. S'ils le font, les deux s'appliquent à l’unité du porteur, même si normalement une seule Psychique Fortitude peut être en vigueur à tout moment.</characteristic>
                   </characteristics>
                 </profile>
               </profiles>
@@ -11403,7 +11403,7 @@ Le porteur peut utiliser cette relique de la Croisade pour recevoir un Trait de 
               <profiles>
                 <profile name="Cuirass of Sacrifice" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="dc9c-12f3-bf6d-6f1f">
                   <characteristics>
-                    <characteristic name="Description" typeId="9b8f-694b-e5e-b573">La première fois que le porteur est détruit, retirez-le du jeu sans résoudre sa aptitude Destruction Néfaste (s'il a cette aptitude). Ensuite, à la fin de la phase, lancez un D6: sur un 2+, remettre le porteur sur le champ de bataille aussi près que possible de l'endroit où il a été détruit et pas à la Portée d’Engagement d'une ou plusieurs unités ennemies, avec 3 PV restants.</characteristic>
+                    <characteristic name="Description" typeId="9b8f-694b-e5e-b573">La première fois que le porteur est détruit, retirez-le du jeu sans résoudre son aptitude Destruction Néfaste (s’il a cette aptitude). Puis, à la fin de la phase, lancez un D6 : sur 2+, replacez le porteur sur le champ de bataille aussi près que possible de l’endroit où il a été détruit, hors de Portée d’Engagement d’une ou plusieurs unités ennemies, avec 3 PV restants.</characteristic>
                   </characteristics>
                 </profile>
               </profiles>
@@ -11439,7 +11439,7 @@ Le porteur peut utiliser cette relique de la Croisade pour recevoir un Trait de 
               <profiles>
                 <profile name="Soul Glaive" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="d75f-48f3-b102-8c08">
                   <characteristics>
-                    <characteristic name="Description" typeId="9b8f-694b-e5e-b573">**^^Infantry^^** figurine uniquement. Améliorez les caractéristiques de force et de Dégâts des armes de mêlée du porteur de 1. Les armes de mêlée du porteur ont la aptitude **[ANTI-CHAOS 4+]**.</characteristic>
+                    <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Figurine **^^Infantry^^** uniquement. Améliorez de 1 les caractéristiques de Force et de Dégâts des armes de mêlée du porteur. Les armes de mêlée du porteur ont l’aptitude **[ANTI-CHAOS 4+]**.</characteristic>
                   </characteristics>
                 </profile>
               </profiles>
@@ -11536,7 +11536,7 @@ Le porteur peut utiliser cette relique de la Croisade pour recevoir un Trait de 
           <profiles>
             <profile name="Fate-woven Knot" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="83bf-8a1a-e55b-a261">
               <characteristics>
-                <characteristic name="Description" typeId="9b8f-694b-e5e-b573">figurine de rang prêt à la bataille ou supérieur. Une fois par bataille, au début de toute phase, le porteur peut utiliser cette honneur de bataille. Si c'est le cas, jusqu'à la fin de la phase, le porteur possède un 3+ sauvegarde invulnérable.</characteristic>
+                <characteristic name="Description" typeId="9b8f-694b-e5e-b573">figurine avec le rang prêt à la bataille ou plus. Une fois par bataille, au début de toute phase, le porteur peut utiliser cet honneur de bataille. Si c'est le cas, Jusqu’à la fin de la phase, le porteur a un 3+ sauvegarde invulnérable.</characteristic>
               </characteristics>
             </profile>
           </profiles>
@@ -11574,7 +11574,7 @@ Le porteur peut utiliser cette relique de la Croisade pour recevoir un Trait de 
           <profiles>
             <profile name="Scrolls of Prophecy" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="3af1-d3dd-b3f5-af82">
               <characteristics>
-                <characteristic name="Description" typeId="9b8f-694b-e5e-b573">figurine au rang de héros ou supérieur. Si le porteur est dans votre armée de la Croisade, alors à l'étape Sélectionnez les bénédictions de la Croisade, si vous êtes l'Underdog, vous pouvez sélectionner une bénédiction de Croisade supplémentaire.</characteristic>
+                <characteristic name="Description" typeId="9b8f-694b-e5e-b573">figurine avec le rang de héros ou plus. Si le porteur est dans votre armée de la Croisade, alors à l'étape Sélectionnez les bénédictions de la Croisade, si vous êtes l'Underdog, vous pouvez sélectionner une bénédiction de Croisade supplémentaire.</characteristic>
               </characteristics>
             </profile>
           </profiles>
@@ -11619,7 +11619,7 @@ Le porteur peut utiliser cette relique de la Croisade pour recevoir un Trait de 
           <profiles>
             <profile name="Hour of Need" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="ea98-c93c-07dc-900d">
               <characteristics>
-                <characteristic name="Description" typeId="9b8f-694b-e5e-b573">figurine de rang prêt à la bataille ou supérieur. Si votre armée de la Croisade inclut le porteur, alors à l'étape Déterminer l'attaquant et le défenseur, ne partez pas pour déterminer l'attaquant et le défenseur pour cette bataille. Au lieu de cela, vous choisissez si vous serez l'attaquant. Si votre adversaire a la même ou une règle similaire pour devenir l'attaquant, ignorez les deux règles et déterminez plutôt l'attaquant et le défenseur normalement.</characteristic>
+                <characteristic name="Description" typeId="9b8f-694b-e5e-b573">figurine avec le rang prêt à la bataille ou plus. Si votre armée de Croisade comprend le porteur, alors à l'étape Déterminer l'attaquant et le défenseur, ne partez pas pour déterminer l'attaquant et le défenseur pour cette bataille. Au lieu de cela, vous choisissez si vous serez l'attaquant. Si votre adversaire a la même ou une règle similaire pour devenir l'attaquant, ignorez les deux règles et déterminez plutôt l'attaquant et le défenseur normalement.</characteristic>
               </characteristics>
             </profile>
           </profiles>
@@ -11657,7 +11657,7 @@ Le porteur peut utiliser cette relique de la Croisade pour recevoir un Trait de 
           <profiles>
             <profile name="Augury of Aggression" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="997a-c283-cf25-96c3">
               <characteristics>
-                <characteristic name="Description" typeId="9b8f-694b-e5e-b573">figurine avec le rang de sang ou plus. Une fois par tour, vous pouvez cibler l'unité du porteur avec le Fire Overwatch ou le Stratagème d'intervention héroïque pour 0CP.</characteristic>
+                <characteristic name="Description" typeId="9b8f-694b-e5e-b573">figurine avec le rang Blooded ou plus. Une fois par tour, vous pouvez cibler l’unité du porteur avec le Fire Overwatch ou l'intervention héroïque Stratagème pour 0CP.</characteristic>
               </characteristics>
             </profile>
           </profiles>
@@ -11792,7 +11792,7 @@ Le porteur peut utiliser cette relique de la Croisade pour recevoir un Trait de 
           <profiles>
             <profile name="Conjunction Signature" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="c2c5-2bfd-b31b-6a13">
               <characteristics>
-                <characteristic name="Description" typeId="9b8f-694b-e5e-b573">figurine au rang de héros ou supérieur. Vous pouvez cibler l'unité du porteur avec le Rapid Ingress Stratagème pour 0CP.</characteristic>
+                <characteristic name="Description" typeId="9b8f-694b-e5e-b573">figurine avec le rang de héros ou plus. Vous pouvez cibler l’unité du porteur avec le Rapid Ingress Stratagème pour 0CP.</characteristic>
               </characteristics>
             </profile>
           </profiles>
@@ -11837,7 +11837,7 @@ Le porteur peut utiliser cette relique de la Croisade pour recevoir un Trait de 
           <profiles>
             <profile name="Duty's End" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="0828-5052-b7ab-8657">
               <characteristics>
-                <characteristic name="Description" typeId="9b8f-694b-e5e-b573">figurine au grade de combat ou supérieur. Si le porteur est détruit par une attaque de mêlée, après que l'unité attaquante ait terminé ses attaques, vous pouvez rouler un D6, en ajoutant 2 le résultat si l'unité attaquante contient une figurine **^^Epic Hero^^**, **^^Monster^^** ou **^^Warlord^^**: sur un 2-3, cette unité ennemie subit D3 Blessures Mortelles; sur une 4-5, cet ennemi subit 3 Blessures Mortelles; sur un 6+, cette unité ennemie subit D3+3 Blessures Mortelles.</characteristic>
+                <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Figurine de rang Battle-hardened ou supérieur. Si le porteur est détruit par une attaque de mêlée, après que l’unité attaquante a terminé d’effectuer ses attaques, vous pouvez lancer un D6, en ajoutant 2 au résultat si l’unité attaquante contient une figurine **^^Epic Hero^^**, **^^Monster^^** ou **^^Warlord^^** : sur 2-3, cette unité ennemie subit D3 blessures mortelles ; sur 4-5, elle subit 3 blessures mortelles ; sur 6+, elle subit D3+3 blessures mortelles.</characteristic>
               </characteristics>
             </profile>
           </profiles>
@@ -11882,7 +11882,7 @@ Le porteur peut utiliser cette relique de la Croisade pour recevoir un Trait de 
           <profiles>
             <profile name="Sigil Abnegatos" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="609e-6098-8d06-8b97">
               <characteristics>
-                <characteristic name="Description" typeId="9b8f-694b-e5e-b573">figurine au grade de combat ou supérieur. Alors que le porteur est à portée d'un marqueur objectif que vous contrôlez, les unités ennemies placées sur le champ de bataille depuis les réserves ne peuvent pas être placées à 12" ou moins de ce marqueur objectif.</characteristic>
+                <characteristic name="Description" typeId="9b8f-694b-e5e-b573">figurine avec le rang de combat durci ou plus. Alors que le porteur se trouve à l'intérieur de Portée d'un pion d’objectif que vous contrôlez, les unités ennemies qui sont installées sur le champ de bataille des réserves ne peuvent pas être installées à 12" ou moins de ce pion d’objectif.</characteristic>
               </characteristics>
             </profile>
           </profiles>
@@ -11927,7 +11927,7 @@ Le porteur peut utiliser cette relique de la Croisade pour recevoir un Trait de 
           <profiles>
             <profile name="Portents of Doom" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="bb03-2423-1937-ae43">
               <characteristics>
-                <characteristic name="Description" typeId="9b8f-694b-e5e-b573">figurine au rang de héros ou supérieur. Chaque fois que votre adversaire vise une unité de son armée avec un Stratagème, si cette unité est une unité **^^Chaos^^** à 12" ou moins du porteur, ou si cette unité est une unité non **^^Chaos^^** à 9" ou moins du porteur, augmentez le coût de cette utilisation de ce Stratagème par 1CP.</characteristic>
+                <characteristic name="Description" typeId="9b8f-694b-e5e-b573">figurine avec le rang de héros ou plus. Chaque fois que votre adversaire vise une unité de son armée avec un Stratagème, si cette unité est une unité **^^Chaos^^** à 12" ou moins du porteur, ou si cette unité est une unité non **^^Chaos^^** à 9" ou moins du porteur, augmentez le coût de cette utilisation de Stratagème par 1CP.</characteristic>
               </characteristics>
             </profile>
           </profiles>
@@ -11972,7 +11972,7 @@ Le porteur peut utiliser cette relique de la Croisade pour recevoir un Trait de 
           <profiles>
             <profile name="Periclaen Eye" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="393b-57c0-3ce6-9543">
               <characteristics>
-                <characteristic name="Description" typeId="9b8f-694b-e5e-b573">figurine au grade de combat ou supérieur. Chaque fois qu'une attaque de mêlée cible l'unité du porteur, si l'unité attaquante a effectuer un mouvement de Charge à ce tour, Soustrayez 1 du jet de Touche.</characteristic>
+                <characteristic name="Description" typeId="9b8f-694b-e5e-b573">figurine avec le rang de combat durci ou plus. Chaque fois qu'une attaque de mêlée cible l’unité du porteur, si l'unité d'attaque a fait un mouvement de Charge à ce tour, Soustrayez 1 du jet de Touche.</characteristic>
               </characteristics>
             </profile>
           </profiles>
@@ -12017,7 +12017,7 @@ Le porteur peut utiliser cette relique de la Croisade pour recevoir un Trait de 
           <profiles>
             <profile name="Mirror of Sight Denied" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="091f-3363-e3e7-faa5">
               <characteristics>
-                <characteristic name="Description" typeId="9b8f-694b-e5e-b573">figurine au grade de combat ou supérieur. Si votre armée comprend une ou plusieurs figurines avec cette aptitude, après que les deux joueurs ont déployé leurs armées, sélectionnez jusqu'à trois unités **^^Grey Knights^^** de votre armée et redéployez-les. Si vous le souhaitez, vous pouvez mettre ces unités en réserve stratégique, quel que soit le nombre d'unités déjà en réserve stratégique.</characteristic>
+                <characteristic name="Description" typeId="9b8f-694b-e5e-b573">figurine avec le rang de combat durci ou plus. Si votre armée comprend une ou plusieurs figurines avec cette aptitude, après que les deux joueurs ont déployé leurs armées, sélectionnez jusqu'à trois unités **^^Grey Knights^^** de votre armée et redéployez-les. Lorsque vous le faites, vous pouvez configurer ces unités dans Réserves Stratégiques si vous le souhaitez, quel que soit le nombre d'unités déjà dans Réserves Stratégiques.</characteristic>
               </characteristics>
             </profile>
           </profiles>
@@ -12062,7 +12062,7 @@ Le porteur peut utiliser cette relique de la Croisade pour recevoir un Trait de 
           <profiles>
             <profile name="Prism of Potential" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="6038-228c-eab9-b000">
               <characteristics>
-                <characteristic name="Description" typeId="9b8f-694b-e5e-b573">figurine au grade de combat ou supérieur. Lors de la sélection d'Agendas pour une bataille, si le porteur est dans votre armée de la Croisade, à l'étape Sélection d'Agendas, vous pouvez sélectionner un autre Agenda des Chevaliers Gris.</characteristic>
+                <characteristic name="Description" typeId="9b8f-694b-e5e-b573">figurine avec le rang de combat durci ou plus. Lorsque vous sélectionnez les agendas pour une bataille, si le porteur est dans votre armée de la Croisade, à l'étape Sélectionner les agendas, vous pouvez sélectionner un autre agenda des Chevaliers Gris.</characteristic>
               </characteristics>
             </profile>
           </profiles>
@@ -12886,7 +12886,7 @@ Le porteur peut utiliser cette relique de la Croisade pour recevoir un Trait de 
           <profiles>
             <profile name="Order of Purifiers" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="a5dd-0f51-0ff1-9860">
               <characteristics>
-                <characteristic name="Description" typeId="9b8f-694b-e5e-b573">**^^Infantry^^** uniquement. Ajoutez le mot-clé **^^Purifier^^**, et ajoutez à la liste des unités auxquelles cette figurine peut être attachée: **^^Purifiers^^**.</characteristic>
+                <characteristic name="Description" typeId="9b8f-694b-e5e-b573">**^^Infantry^^** uniquement. Ajoutez mot-clé **^^Purifier^^**, et ajouter à la liste des unités cette figurine peut être attachée à: **^^Purifiers^^**.</characteristic>
               </characteristics>
             </profile>
           </profiles>
@@ -12936,7 +12936,7 @@ Le porteur peut utiliser cette relique de la Croisade pour recevoir un Trait de 
           <profiles>
             <profile name="Prognosticars' Foresight" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="e7ef-5f74-5b07-40b9">
               <characteristics>
-                <characteristic name="Description" typeId="9b8f-694b-e5e-b573">cette figurine a la aptitude Éclaireurs 6".</characteristic>
+                <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Cette figurine a l’aptitude Éclaireurs 6".</characteristic>
               </characteristics>
             </profile>
           </profiles>
@@ -13021,7 +13021,7 @@ Le porteur peut utiliser cette relique de la Croisade pour recevoir un Trait de 
           <profiles>
             <profile name="Blessing of the Omnissiah" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="2f50-0a3e-92db-13bb">
               <characteristics>
-                <characteristic name="Description" typeId="9b8f-694b-e5e-b573">**^^Infantry^^** uniquement. Dans votre phase de Commandement, vous pouvez sélectionner une figurine **^^Grey Knights Vehicle^^** sympathique à 3" ou moins de cette figurine. cette figurine récupère jusqu'à D3 des PV perdus et, jusqu'au début de votre prochaine phase de Commandement, chaque fois que cette figurine fait une attaque, ajoutez 1 à la jets de Touche. Chaque figurine ne peut être sélectionné pour cette aptitude qu'une seule fois par tour.</characteristic>
+                <characteristic name="Description" typeId="9b8f-694b-e5e-b573">**^^Infantry^^** uniquement. Durant votre phase de Commandement, vous pouvez sélectionner une figurine **^^Grey Knights Vehicle^^** amie à 3" ou moins de cette figurine. Cette figurine récupère jusqu’à D3 PV perdus et, jusqu’au début de votre prochaine phase de Commandement, chaque fois qu’elle effectue une attaque, ajoutez 1 au jet de Touche. Chaque figurine ne peut être sélectionnée pour cette aptitude qu’une fois par tour.</characteristic>
               </characteristics>
             </profile>
           </profiles>
@@ -13037,7 +13037,7 @@ Le porteur peut utiliser cette relique de la Croisade pour recevoir un Trait de 
           <profiles>
             <profile name="Zealous Path" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="faf1-4d6b-e759-2dc1">
               <characteristics>
-                <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Pendant que cette figurine conduit une unité, vous pouvez relancer les jets de Charge de cette unité.</characteristic>
+                <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Tant que cette figurine mène une unité, vous pouvez relancer les jets de Charge effectués pour cette unité.</characteristic>
               </characteristics>
             </profile>
           </profiles>
@@ -13046,7 +13046,7 @@ Le porteur peut utiliser cette relique de la Croisade pour recevoir un Trait de 
           <profiles>
             <profile name="Clarion of Haste (Psychic)" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="e5c9-f84a-f724-1802">
               <characteristics>
-                <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Tant que cette figurine mène une unité, cette unité est éligible à déclarer une charge à un tour où elle avance.</characteristic>
+                <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Alors que cette figurine mène une unité, cette unité est admissible à déclarer une charge à un tour dans lequel elle avance.</characteristic>
               </characteristics>
             </profile>
           </profiles>
@@ -13055,7 +13055,7 @@ Le porteur peut utiliser cette relique de la Croisade pour recevoir un Trait de 
           <profiles>
             <profile name="Haloed in Soulfire (Psychic)" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="f568-409f-659c-04b6">
               <characteristics>
-                <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Tant que cette figurine mène une unité, cette unité ne peut être sélectionnée comme cible d'une attaque de tir que si la figurine d'attaque se trouve à 18" ou moins.</characteristic>
+                <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Tant que cette figurine est à la tête d'une unité, cette unité ne peut être sélectionnée comme cible d'une attaque de tir que si l'attaque figurine se situe à 18" ou moins.</characteristic>
               </characteristics>
             </profile>
           </profiles>
@@ -13064,7 +13064,7 @@ Le porteur peut utiliser cette relique de la Croisade pour recevoir un Trait de 
           <profiles>
             <profile name="Hammerhand (Psychic)" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="a47d-0470-6504-2738">
               <characteristics>
-                <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Alors que cette figurine mène une unité, les armes de mêlée équipées de figurines dans cette unité ont la aptitude **[LETHAL HITS]**.</characteristic>
+                <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Tant que cette figurine mène une unité, les armes de mêlée dont les figurines de cette unité sont équipées ont l’aptitude **[LETHAL HITS]**.</characteristic>
               </characteristics>
             </profile>
           </profiles>
@@ -13081,7 +13081,7 @@ Le porteur peut utiliser cette relique de la Croisade pour recevoir un Trait de 
           <profiles>
             <profile name="Sanctic Hood" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="208f-d793-f82d-67e5">
               <characteristics>
-                <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Les figurines de cette unité ont le Insensible à la douleur 4+ contre les attaques Psychique.</characteristic>
+                <characteristic name="Description" typeId="9b8f-694b-e5e-b573">les figurines de cette unité ont le Insensible à la douleur 4+ contre les attaques Psychiques.</characteristic>
               </characteristics>
             </profile>
           </profiles>
@@ -13220,24 +13220,24 @@ Le porteur peut utiliser cette relique de la Croisade pour recevoir un Trait de 
     </profile>
     <profile name="Litanies of Sanctity" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="8d73-2ecd-2b3c-3f18">
       <characteristics>
-        <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Une fois par bataille, au début de toute phase, vous pouvez sélectionner une unité ^^**Grey Knights^^** amicale qui est Ébranlée et à 12" ou moins de cette figurine. Cette unité n'est plus Ébranlée.</characteristic>
+        <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Une fois par bataille, au début de n’importe quelle phase, vous pouvez sélectionner une unité ^^**Grey Knights^^** amie qui est Ébranlée et à 12" ou moins de cette figurine. Cette unité n’est plus Ébranlée.</characteristic>
       </characteristics>
     </profile>
   </sharedProfiles>
   <sharedRules>
     <rule name="Gate of Infinity" id="6a5e-1316-2d87-93c5" hidden="false">
-      <description>Si votre faction d'armée est **^^Grey Knights^^**, à la fin de la phase de Combat de votre adversaire, vous pouvez sélectionner un certain nombre d'unités de votre armée qui sont sur le champ de bataille (à l'exclusion des unités qui se trouvent dans la Portée d’Engagement d'une ou plusieurs unités ennemies), à condition que chaque figurine de ces unités ait cette aptitude. Le nombre maximum d'unités que vous pouvez sélectionner dépend de la taille de la bataille, comme suit:
+      <description>Si votre faction d'armée est **^^Grey Knights^^**, à la fin de votre adversaire phase de Combat, vous pouvez sélectionner un certain nombre d'unités de votre armée qui sont sur le champ de bataille (unités à l’exclusion de qui sont à l'intérieur de Portée d’Engagement d'une ou plusieurs unités ennemies), à condition que chaque figurine dans ces unités a cette aptitude. Le nombre maximum d'unités que vous pouvez sélectionner dépend de la taille de la bataille, comme suit:
 
 Incursion - Jusqu'à une unité 2
 Force de frappe - Jusqu'à unités 3
 Onslaught - Jusqu'à des unités 4
 
-Une fois que vous aurez fait vos choix, retirez ces unités du champ de bataille et placez-les dans les réserves stratégiques.</description>
+Une fois que vous avez fait vos sélections, retirez ces unités du champ de bataille et placez-les dans Réserves Stratégiques.</description>
     </rule>
     <rule name="Eye of the Prognosticars" id="5622-43f1-c599-8ec7" hidden="false">
-      <description>Des unités de votre armée avec la aptitude de téléportation Assaut remplacer cette aptitude par celle-ci.
+      <description>Les unités de votre armée avec le téléportant Assaut aptitude remplacer cette aptitude par celui-ci.
 
-Chaque fois que vous ciblez cette unité avec un Stratagème, lancez un D6, ajoutant 1 au résultat si cette unité est à l'intérieur de la portée d'un marqueur objectif que vous contrôlez: sur un 5+, vous gagnez 1CP.</description>
+Chaque fois que vous ciblez cette unité avec un Stratagème, lancez un D6, ajoutant 1 au résultat si cette unité est à l'intérieur de Portée d'un pion d’objectif que vous contrôlez: sur un 5+, vous gagnez 1CP.</description>
     </rule>
   </sharedRules>
   <costTypes>

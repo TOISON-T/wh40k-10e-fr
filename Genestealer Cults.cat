@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue xmlns="http://www.battlescribe.net/schema/catalogueSchema" library="false" id="7b3b-4dea-9367-98b1" name="Xenos - Genestealer Cults" gameSystemId="sys-0e45-705d-f6bc-806a" gameSystemRevision="1" revision="122" battleScribeVersion="2.03" type="catalogue">
+<catalogue xmlns="http://www.battlescribe.net/schema/catalogueSchema" library="false" id="3bdf-a114-5035-c6ac" name="Xenos - Genestealer Cults" gameSystemId="sys-352e-adc2-7639-d6a9" gameSystemRevision="1" revision="122" battleScribeVersion="2.03" type="catalogue">
   <sharedSelectionEntries>
     <selectionEntry type="upgrade" import="false" name="Detachment" hidden="false" id="b96c-3fb6-1ee9-15ae">
       <constraints>
@@ -73,7 +73,7 @@
         </profile>
         <profile name="Hulking Bodyguards" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="ae25-dce3-9c2e-2e38">
           <characteristics>
-            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Alors qu'un CHARACTER dirige cette unité, chaque fois qu'une attaque cible cette unité, si la caractéristique de Force de cette attaque est supérieure à la caractéristique d’Endurance de cette unité, Soustrayez 1 du jet de Blessure.</characteristic>
+            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Alors qu'une CHARACTER dirige cette unité, chaque fois qu'une attaque cible cette unité, si la caractéristique de Force de cette attaque est supérieure à la caractéristique d’Endurance de cette unité, Soustrayez 1 du jet de Blessure.</characteristic>
           </characteristics>
         </profile>
       </profiles>
@@ -329,12 +329,12 @@
         </profile>
         <profile name="The Chosen One" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="48f2-fdac-e0bf-b520">
           <characteristics>
-            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Alors que cette figurine mène une unité, chaque fois qu'une figurine dans cette unité est détruite par une attaque de mêlée, si cette figurine n'a pas combattu cette phase, lancez un D6. Sur un 4+ ne retirez pas la figurine détruit du jeu, il peut se battre après que l'unité de la figurine attaquant a terminé ses attaques et est ensuite retiré du jeu.</characteristic>
+            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Tant que cette figurine mène une unité, chaque fois qu’une figurine de cette unité est détruite par une attaque de mêlée, si cette figurine n’a pas combattu à cette phase, lancez un D6. Sur 4+, ne retirez pas la figurine détruite du jeu ; elle peut combattre une fois que l’unité de la figurine attaquante a fini de résoudre ses attaques, puis elle est retirée du jeu.</characteristic>
           </characteristics>
         </profile>
         <profile name="Regenerating Gene-mass" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="c0d7-d922-8f79-8fca">
           <characteristics>
-            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">La première fois que cette figurine est détruit, lancez un D6 à la fin de la phase. Sur un 2+, mettez cette figurine sur le champ de bataille aussi près que possible de l'endroit où il a été détruit et pas à l'intérieur de la Portée d’Engagement des unités ennemies, avec tous ses PV.</characteristic>
+            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">La première fois que cette figurine est détruit, lancez un D6 à la fin de la phase. Sur un 2+, mettez cette figurine en arrière sur le champ de bataille le plus près possible de l'endroit où il a été détruit et pas à l'intérieur de Portée d’Engagement de toute unité ennemie, avec son tous ses PV.</characteristic>
           </characteristics>
         </profile>
       </profiles>
@@ -559,7 +559,7 @@
       <profiles>
         <profile name="Crossfire" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="672c-fcd1-2183-179c">
           <characteristics>
-            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Dans votre phase de Tir, après que cette unité ait tiré, sélectionnez une unité ennemie touchée par une ou plusieurs de ces attaques. Jusqu'à la fin du tour, chaque fois qu'une unité amicale **^^Genestealer Cults^^** fait une attaque qui cible cette unité ennemie, améliore la caractéristique de Pénétration d’Armure de cette attaque de 1. La même unité ennemie ne peut être affectée par cette aptitude qu'une seule fois par tour.</characteristic>
+            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Durant votre phase de Tir, après que cette unité a tiré, sélectionnez une unité ennemie touchée par une ou plusieurs de ces attaques. Jusqu’à la fin du tour, chaque fois qu’une unité **^^Genestealer Cults^^** amie effectue une attaque qui cible cette unité ennemie, améliorez de 1 la caractéristique de Pénétration d’Armure de cette attaque. Une même unité ennemie ne peut être affectée par cette aptitude qu’une fois par tour.</characteristic>
           </characteristics>
         </profile>
       </profiles>
@@ -783,7 +783,7 @@
                           <profiles>
                             <profile name="Flare Launcher" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="c727-a3d8-fceb-6ebd">
                               <characteristics>
-                                <characteristic name="Description" typeId="9b8f-694b-e5e-b573">L'unité du porteur possède le mot-clé SMOKE et vous pouvez le cibler avec le stratagème de l'écran de fumée pour 0CP.</characteristic>
+                                <characteristic name="Description" typeId="9b8f-694b-e5e-b573">l’unité du porteur possède le SMOKE mot-clé et vous pouvez le cibler avec l'écran fumée Stratagème pour 0CP.</characteristic>
                               </characteristics>
                             </profile>
                           </profiles>
@@ -795,7 +795,7 @@
                           <profiles>
                             <profile name="Spotter" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="8fb4-84bc-9a15-e4f4">
                               <characteristics>
-                                <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Les armes de tir possèdent une caractéristique de Capacité de Tir de 3+.</characteristic>
+                                <characteristic name="Description" typeId="9b8f-694b-e5e-b573">le des armes de tir du porteur ont une caractéristique de Capacité de Tir de 3+.</characteristic>
                               </characteristics>
                             </profile>
                           </profiles>
@@ -820,7 +820,7 @@
                           <profiles>
                             <profile name="Survey Augur" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="2e08-718b-1740-8ca4">
                               <characteristics>
-                                <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Chaque fois que l'unité du porteur a tiré, sélectionnez une unité ennemie qui a été touchée par une ou plusieurs attaques effectuées par le porteur dans cette phase. Jusqu'à la fin de la phase, chaque fois qu'une figurine Genestealer CULTS fait une attaque contre cette unité, cette attaque a la aptitude [Ignore le couvert].</characteristic>
+                                <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Chaque fois que l’unité du porteur a tiré, sélectionnez une unité ennemie qui a été touchée par une ou plusieurs attaques effectuées par le porteur durant cette phase. Jusqu’à la fin de la phase, chaque fois qu’une figurine GENESTEALER CULTS amie effectue une attaque contre cette unité, cette attaque a l’aptitude [Ignore le couvert].</characteristic>
                               </characteristics>
                             </profile>
                           </profiles>
@@ -1061,7 +1061,7 @@
                   </profiles>
                   <rules>
                     <rule name="Tir Unique" id="875e-99f5-fa02-477e" hidden="false">
-                      <description>Le porteur ne peut tirer qu'une seule fois par bataille.</description>
+                      <description>.le porteur peut seulement tirer avec cette arme Une fois par bataille</description>
                     </rule>
                   </rules>
                   <infoLinks>
@@ -1214,7 +1214,7 @@
       <profiles>
         <profile name="Industrialised Destruction" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="429b-8985-6cfb-8970">
           <characteristics>
-            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Chaque fois qu'une figurine dans cette unité fait une attaque, relancez un jet de Blessure de 1. Si la cible de cette attaque est une unité ennemi à portée d'un marqueur objectif, vous pouvez relancer le jet de Blessure.</characteristic>
+            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Chaque fois qu'une figurine dans cette unité fait une attaque, relancer est un jet de Blessure de 1. Si la cible de cette attaque est une unité ennemie dans Portée d'un pion d’objectif, vous pouvez relancer le jet de Blessure.</characteristic>
           </characteristics>
         </profile>
       </profiles>
@@ -1407,12 +1407,12 @@
         </profile>
         <profile name="Nexus of Devotion" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="847c-923b-69ef-55ac">
           <characteristics>
-            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Alors que cette figurine mène une unité, les figurines de cette unité ont la aptitude Insensible à la douleur 5+. Si cette unité a le mot-clé Hybrid Metamorphs, les figurines de cette unité ont la aptitude Insensible à la douleur 4+ à la place.</characteristic>
+            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Alors que cette figurine mène une unité, les figurines de cette unité ont l’aptitude Insensible à la douleur 5+. Si cette unité a le Hybrid Metamorphs mot-clé, les figurines de cette unité ont l’aptitude Insensible à la douleur 4+ à la place.</characteristic>
           </characteristics>
         </profile>
         <profile name="Summon the Cult" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="2099-bcaf-e5f1-ebcf">
           <characteristics>
-            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Une fois par bataille, lorsque vous devez retirer un marqueur Cult Ambush parce que votre adversaire s'est trop rapproché de lui, si une ou plusieurs figurines de votre armée avec cette aptitude sont sur le champ de bataille, vous pouvez utiliser cette aptitude. Si vous le faites, au lieu de retirer ce marqueur, vous pouvez le placer n'importe où sur le champ de bataille qui est à 12" ou moins d'une figurine de votre armée avec cette aptitude et plus de 9" horizontalement loin de toutes les unités ennemies (si cela n'est pas possible, cette aptitude n'est pas considérée comme ayant été utilisée et ce marqueur est retiré comme normal).</characteristic>
+            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Une fois par bataille, lorsque vous devez supprimer un marqueur Cult Ambush parce que votre adversaire s'est trop rapproché de lui, si une ou plusieurs figurines de votre armée avec cette aptitude sont sur le champ de bataille, vous pouvez utiliser cette aptitude. Si vous le faites, au lieu de enlevant ce marqueur, vous pouvez le placer n'importe où sur le champ de bataille qui est à 12" ou moins d'une figurine de votre armée avec cette aptitude et plus de 9" horizontalement loin de toutes les unités ennemies (si cela n'est pas possible, cette aptitude n'est pas considéré comme ayant été utilisé et ce marqueur est retiré comme normal).</characteristic>
           </characteristics>
           <modifiers>
             <modifier type="set" value="true" field="hidden">
@@ -2123,7 +2123,7 @@
       <profiles>
         <profile name="Outrider Gangs" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="1537-7cfd-9fd9-f69d">
           <characteristics>
-            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Chaque fois que vous utilisez la aptitude Cult Ambush pour mettre cette unité sur le champ de bataille, en plus des règles normales, tous ses figurines doivent être installés entièrement à 9" ou moins d'un bord de champ de bataille et au moins un de ses figurines doit toucher l'un de vos marqueurs Cult Ambush (ce marqueur est ensuite retiré du champ de bataille). Si cela ne peut pas être fait, cette unité ne peut pas être réinitialisée.</characteristic>
+            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Chaque fois que vous utilisez l’aptitude Cult Ambush pour replacer cette unité sur le champ de bataille, en plus des règles normales, toutes ses figurines doivent être placées entièrement à 9" ou moins d’un bord du champ de bataille et au moins l’une de ses figurines doit toucher l’un de vos pions Cult Ambush (ce pion est ensuite retiré du champ de bataille). Si cela est impossible, cette unité ne peut pas être replacée.</characteristic>
           </characteristics>
         </profile>
         <profile name="Demolition Run" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="a1b0-4124-e468-17a3">
@@ -2313,12 +2313,12 @@ Vous pouvez attacher cette figurine à une unité ACOLYTE HYBRIDS ou NEOPHYTE HY
         </profile>
         <profile name="Twisted Science" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="34ba-2f78-5a6c-efcf">
           <characteristics>
-            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Alors que cette figurine mène une unité, les armes de mêlée équipées de figurines dans cette unité ont la aptitude [Touches fatales].</characteristic>
+            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Tant que cette figurine mène une unité, les armes de mêlée dont les figurines de cette unité sont équipées ont l’aptitude [LETHAL HITS].</characteristic>
           </characteristics>
         </profile>
         <profile name="Biological Warfare" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="5f87-984b-e0e0-2125">
           <characteristics>
-            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Une fois par bataille, lorsque l’unité de cette figurine est sélectionnée pour combattre, cette figurine peut utiliser cette aptitude. Si c'est le cas, jusqu'à la fin de la phase, améliorez les caractéristiques d'attaque et de Dégâts de son boîtier d'injection de 3.</characteristic>
+            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Une fois par bataille, lorsque l’unité de cette figurine est sélectionnée pour combattre, cette figurine peut utiliser cette aptitude. Si c'est le cas, Jusqu’à la fin de la phase améliore les caractéristiques Attaques et Dégâts de sa goutte d'injection de 3.</characteristic>
           </characteristics>
         </profile>
       </profiles>
@@ -2540,11 +2540,11 @@ Vous pouvez attacher cette figurine à une unité ACOLYTE HYBRIDS ou NEOPHYTE HY
           <profiles>
             <profile name="Meneur" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="d56a-1384-fab3-2f3d">
               <characteristics>
-                <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Cette figurine peut être attachée aux unités suivantes:
+                <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Cette figurine peut être attachée aux unités suivantes :
 - ACOLYTE HYBRIDS
 - HYBRID METAMORPHS
 - NEOPHYTE HYBRIDS
-Vous pouvez attacher cette figurine à une unité ACOLYTE HYBRIDS ou Neophyte Hybrid, même si une figurine Primus, Magus ou Acolyte Iconward y a déjà été attaché. Si vous le faites, et que l'unité Bodyguard est détruite, les unités Meneur attachées à elle deviennent des unités séparées, avec leur Effectif Initial d’origine.</characteristic>
+Vous pouvez attacher cette figurine à une unité ACOLYTE HYBRIDS ou NEOPHYTE HYBRID, même si une figurine PRIMUS, MAGUS ou ACOLYTE ICONWARD lui a déjà été attachée. Si vous le faites et que cette unité Bodyguard est détruite, les unités Leader qui lui sont attachées deviennent des unités distinctes, avec leur Effectif Initial d’origine.</characteristic>
               </characteristics>
             </profile>
           </profiles>
@@ -2553,7 +2553,7 @@ Vous pouvez attacher cette figurine à une unité ACOLYTE HYBRIDS ou Neophyte Hy
       <profiles>
         <profile name="Voice of New Truths" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="ebfc-acb-d5c5-a4c4">
           <characteristics>
-            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Dans votre phase de Commandement, une figurine de votre armée avec cette aptitude peut l'utiliser, s'il le fait, sélectionnez une unité ennemie avec 18" de celui-ci, cette unité ennemie doit passer un test d’Ébranlement.</characteristic>
+            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Dans votre phase de Commandement, une figurine de votre armée avec cette aptitude peut l'utiliser, s'il le fait, sélectionnez une unité ennemie avec 18" de celui-ci, que cette unité ennemie doit prendre un test d’Ébranlement.</characteristic>
           </characteristics>
         </profile>
         <profile name="Clamavus" typeId="c547-1836-d8a-ff4f" typeName="Unit" hidden="false" id="7f74-bf54-fc5c-8ba7">
@@ -2568,7 +2568,7 @@ Vous pouvez attacher cette figurine à une unité ACOLYTE HYBRIDS ou Neophyte Hy
         </profile>
         <profile name="Scrambler Array" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="d109-cec8-e513-fab1">
           <characteristics>
-            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Les unités ennemies placées sur le champ de bataille en tant que renforts ne peuvent pas être placées à 12" ou moins de cette figurine.</characteristic>
+            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Les unités ennemies qui sont installées sur le champ de bataille en tant que Renforcements ne peuvent pas être installées à 12" ou moins de cette figurine.</characteristic>
           </characteristics>
         </profile>
       </profiles>
@@ -2757,7 +2757,7 @@ Vous pouvez attacher cette figurine à une unité ACOLYTE HYBRIDS ou Neophyte Hy
         </profile>
         <profile name="Grinding Line-breaker" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="71f5-5ca9-3279-9545">
           <characteristics>
-            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Chaque fois qu'une unité ennemie (à l'exclusion de MONSTER et VEHICLES) qui se trouve dans la Portée d’Engagement de cette figurine Bat en Retraite, tous les figurines de cette unité ennemie doivent passer un test d'évasion désespérée. Lorsque vous faites cela, si cette unité ennemie est Ébranlée, Soustrayez 1 de chacun de ces tests.</characteristic>
+            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Chaque fois qu’une unité ennemie (à l’exclusion des MONSTER et des VEHICLES) à Portée d’Engagement de cette figurine Bat en Retraite, toutes les figurines de cette unité ennemie doivent effectuer un test de Fuite Désespérée. Ce faisant, si cette unité ennemie est Ébranlée, soustrayez 1 à chacun de ces tests.</characteristic>
           </characteristics>
         </profile>
         <profile name="Transport" typeId="74f8-5443-9d6d-1f1e" typeName="Transport" hidden="false" id="ae9f-1465-7a41-c32c">
@@ -3122,7 +3122,7 @@ Vous pouvez attacher cette figurine à une unité ACOLYTE HYBRIDS ou Neophyte Hy
         </profile>
         <profile name="Fire Support" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="2db9-a2a5-7c0d-4600">
           <characteristics>
-            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Dans votre phase de Tir, après que cette figurine ait tiré, sélectionnez une unité ennemie qui a marqué un ou plusieurs coups contre cette phase. Jusqu'à la fin de la phase, à chaque fois qu'une figurine amie qui a débarqué de ce Transport à ce tour fait une attaque qui cible cette unité ennemie, vous pouvez relancer le jet de Blessure.</characteristic>
+            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Dans votre phase de Tir, après que cette figurine a tiré, sélectionnez une unité ennemie qui a marqué un ou plusieurs coups contre cette phase. Jusqu’à la fin de la phase, chaque fois qu'une figurine amie qui a débarqué de ce Transport ce tour fait une attaque qui cible que cette unité ennemie, vous pouvez relancer le jet de Blessure.</characteristic>
           </characteristics>
         </profile>
       </profiles>
@@ -3769,12 +3769,12 @@ Si, au début de la bataille, aucune figurine de cette unité n’est équipée 
         </profile>
         <profile name="Priority Target" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="40f3-ad42-a70c-c4db">
           <characteristics>
-            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Dans votre phase de Tir, après que l'unité de cette figurine ait tiré, sélectionnez une unité ennemie touchée par une ou plusieurs de ces attaques faites avec un fusil de sniper de culte. Jusqu'à la fin de la phase, Chaque fois qu'une figurine **^^Genestealer Cults^^** ami fait une attaque qui vise cette unité ennemie, relancer un jet de Touche de 1.</characteristic>
+            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Durant votre phase de Tir, après que l’unité de cette figurine a tiré, sélectionnez une unité ennemie touchée par une ou plusieurs de ces attaques effectuées avec un cult sniper rifle. Jusqu’à la fin de la phase, chaque fois qu’une figurine **^^Genestealer Cults^^** amie effectue une attaque qui cible cette unité ennemie, relancez un jet de Touche de 1.</characteristic>
           </characteristics>
         </profile>
         <profile name="Master Outrider" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="db66-29d9-d077-57d3">
           <characteristics>
-            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Dans votre phase de Tir, après que l'unité de la figurine ait tiré, si elle n'est pas dans la Portée d’Engagement des unités ennemies, cette unité peut effectuer un mouvement normal jusqu'à 6" comme si c'était votre phase de Mouvement. Si tel est le cas, jusqu'à la fin du tour, cette unité n'est pas éligible à la déclaration d'une charge.</characteristic>
+            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Dans votre phase de Tir, après que l’unité de cette figurine a tiré, si elle n'est pas à l'intérieur de Portée d’Engagement de n'importe quelle unité ennemie, cette unité peut effectuer un mouvement Normal de jusqu'à 6" comme si c'était votre phase de Mouvement. Si tel est le cas, jusqu'à la fin du tour, cette unité n'est pas éligible à la déclaration d'une charge.</characteristic>
           </characteristics>
         </profile>
       </profiles>
@@ -3984,12 +3984,12 @@ Si, au début de la bataille, aucune figurine de cette unité n’est équipée 
       <profiles>
         <profile name="Hypersensory Abilities" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="f872-566b-d324-828f">
           <characteristics>
-            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Une fois par tour, dans la phase de Mouvement de votre adversaire, lorsqu'une unité ennemie termine un mouvement normal, d'avance ou de Retraite à 9" ou moins de cette figurine, si cette unité n'est pas dans la Portée d’Engagement d'une ou plusieurs unités ennemies, elle peut tirer sur cette unité comme si c'était votre phase de Tir, puis faire un mouvement normal jusqu'à D6 " (elle ne peut pas embarquer dans un Transport dans le cadre de ce mouvement)</characteristic>
+            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Une fois par tour Pour être, dans phase de Mouvement de votre adversaire, quand une unité ennemie termine un Normal, Avance, ou mouvement de Retraite à 9" ou moins de cette figurine, si cette unité n'est pas à l'intérieur de Portée d’Engagement d'une ou plusieurs unités ennemies, il peut tirer sur cette unité comme si c'était votre phase de Tir, et puis effectuer un mouvement Normal de jusqu'à D6" (il ne peut pas embarquer dans un Transport dans le cadre de ce mouvement)</characteristic>
           </characteristics>
         </profile>
         <profile name="Heroic Fusillade" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="38a1-4506-e19e-bdf7">
           <characteristics>
-            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Une fois par tour, après qu'une figurine de votre armée avec cette aptitude ait tiré, vous pouvez sélectionner une unité INFANTRY touchée par une ou plusieurs de ces attaques. Cette unité doit passer un test d’Ébranlement.</characteristic>
+            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Une fois par tour, après qu’une figurine de votre armée dotée de cette aptitude a tiré, vous pouvez sélectionner une unité INFANTRY touchée par une ou plusieurs de ces attaques. Cette unité doit effectuer un test d’Ébranlement.</characteristic>
           </characteristics>
         </profile>
         <profile name="Kelermorph" typeId="c547-1836-d8a-ff4f" typeName="Unit" hidden="false" id="9a93-51fd-a789-b0c">
@@ -4223,12 +4223,12 @@ Si, au début de la bataille, aucune figurine de cette unité n’est équipée 
         </profile>
         <profile name="Sudden Assault" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="2636-f3df-1f73-f2d0">
           <characteristics>
-            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Alors que cette figurine conduit une unité, les figurines de cette unité ont la aptitude Fights First</characteristic>
+            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Alors que cette figurine conduit une unité, les figurines de cette unité ont l’aptitude Fights First</characteristic>
           </characteristics>
         </profile>
         <profile name="Bodyguard" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="afa4-c009-a8fa-5484">
           <characteristics>
-            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Alors que cette figurine mène une unité, d'autres figurines de caractères attachés à cette unité ont la aptitude Insensible à la douleur 4+</characteristic>
+            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Alors que cette figurine mène une unité, d'autres caractères figurines attachés à cette unité ont l’aptitude Insensible à la douleur 4+</characteristic>
           </characteristics>
         </profile>
       </profiles>
@@ -4240,11 +4240,11 @@ Si, au début de la bataille, aucune figurine de cette unité n’est équipée 
           <profiles>
             <profile name="Meneur" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="019b-ee79-bb93-84da">
               <characteristics>
-                <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Cette figurine peut être attachée aux unités suivantes:
+                <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Cette figurine peut être attachée aux unités suivantes :
 - ACOLYTE HYBRIDS
 - HYBRID METAMORPHS
 - NEOPHYTE HYBRIDS
-Vous pouvez attacher cette figurine à une unité ACOLYTE HYBRIDS ou Neophyte Hybrid, même si une figurine Primus, Magus ou Acolyte Iconward y a déjà été attaché. Si vous le faites, et que l'unité Bodyguard est détruite, les unités Meneur attachées à elle deviennent des unités séparées, avec leur Effectif Initial d’origine.</characteristic>
+Vous pouvez attacher cette figurine à une unité ACOLYTE HYBRIDS ou NEOPHYTE HYBRID, même si une figurine PRIMUS, MAGUS ou ACOLYTE ICONWARD lui a déjà été attachée. Si vous le faites et que cette unité Bodyguard est détruite, les unités Leader qui lui sont attachées deviennent des unités distinctes, avec leur Effectif Initial d’origine.</characteristic>
               </characteristics>
             </profile>
           </profiles>
@@ -4443,7 +4443,7 @@ Vous pouvez attacher cette figurine à une unité ACOLYTE HYBRIDS ou Neophyte Hy
       <profiles>
         <profile name="Psychic Familiar" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="6032-de57-f8f6-e3d8">
           <characteristics>
-            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Une fois par bataille, au début de l'une des phases de tir de votre adversaire, cette figurine peut utiliser son Psychique familier. Si c'est le cas, jusqu'à la fin de la phase, ajoutez 6" à la gamme de sa aptitude de contrôle mental.</characteristic>
+            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Une fois par bataille, au début de l'une des phases de tir de votre adversaire, cette figurine peut utiliser son Psychique familier. Si c'est le cas, Jusqu’à la fin de la phase, ajoutez 6" au Portée de son contrôle mental aptitude.</characteristic>
           </characteristics>
         </profile>
         <profile name="Mind Control (Psychic)" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="72c3-6768-b2e4-cbcc">
@@ -4453,7 +4453,7 @@ Vous pouvez attacher cette figurine à une unité ACOLYTE HYBRIDS ou Neophyte Hy
         </profile>
         <profile name="Spiritual Leader" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="6861-b91-d08f-8f28">
           <characteristics>
-            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Une fois par bataille, au début de toute phase, vous pouvez sélectionner une unité GENESTELERS CULTS amicale qui est Ébranlée et à 12" ou moins de cette figurine. Cette unité n'est plus Ébranlée.</characteristic>
+            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Une fois par bataille, au début de n’importe quelle phase, vous pouvez sélectionner une unité GENESTELERS CULTS amie qui est Ébranlée et à 12" ou moins de cette figurine. Cette unité n’est plus Ébranlée.</characteristic>
           </characteristics>
         </profile>
         <profile name="Magus" typeId="c547-1836-d8a-ff4f" typeName="Unit" hidden="false" id="275f-3264-3ec9-8c56">
@@ -4764,7 +4764,7 @@ Vous pouvez attacher cette figurine à une unité ACOLYTE HYBRIDS ou Neophyte Hy
                   <profiles>
                     <profile name="Cult Icon" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="4ed9-34a-7356-a80c">
                       <characteristics>
-                        <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Dans votre phase de Commandement, vous pouvez retourner les figurines détruits jusqu'à 3 à l'unité du porteur. Si l'unité du porteur est à la portée d'un marqueur objectif que vous contrôlez, vous pouvez retourner jusqu'à D3+3 les figurines détruits à cette unité à la place. Cette aptitude ne peut pas être utilisée pour retourner les figurines CHARACTER détruits dans les unités attachées et toutes les armes [Tir Unique] équipées de figurines retournés qui ont été tirés avant leur destruction sont toujours considérées comme ayant été tirées.</characteristic>
+                        <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Durant votre phase de Commandement, vous pouvez replacer jusqu’à 3 figurines détruites dans l’unité du porteur. Si l’unité du porteur est à portée d’un pion d’objectif que vous contrôlez, vous pouvez replacer jusqu’à D3+3 figurines détruites dans cette unité à la place. Cette aptitude ne peut pas être utilisée pour replacer des figurines CHARACTER détruites dans des unités Attachées, et toute arme [ONE SHOT] dont une figurine replacée est équipée et qui a déjà tiré avant sa destruction est toujours considérée comme ayant tiré.</characteristic>
                       </characteristics>
                     </profile>
                   </profiles>
@@ -5312,7 +5312,7 @@ Vous pouvez attacher cette figurine à une unité ACOLYTE HYBRIDS ou Neophyte Hy
       <profiles>
         <profile name="A Plan Generations in the Making" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="12fe-1624-b6ac-9f68">
           <characteristics>
-            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">À la fin de votre phase de Commandement, si cette unité est à portée d'un marqueur objectif que vous contrôlez, ce marqueur objectif reste sous votre contrôle, même si vous n'avez pas de figurines à portée de celui-ci, jusqu'à ce que votre adversaire le contrôle au début ou à la fin de tout tour.</characteristic>
+            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">À la fin de votre phase de Commandement, si cette unité est à l'intérieur de Portée d'un pion d’objectif que vous contrôlez, ce pion d’objectif reste sous votre contrôle, même si vous n'avez pas de figurines à l'intérieur de Portée de celui-ci, jusqu'à ce que votre adversaire le contrôle au début ou à la fin de tout tour.</characteristic>
           </characteristics>
           <modifiers>
             <modifier type="set" value="true" field="hidden">
@@ -5485,7 +5485,7 @@ Vous pouvez attacher cette figurine à une unité ACOLYTE HYBRIDS ou Neophyte Hy
         </profile>
         <profile name="Battlefield Analysis" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="968c-f493-12fa-f01e">
           <characteristics>
-            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Une fois par tour de bataille, une figurine de votre armée avec cette aptitude peut l'utiliser lorsque son unité est ciblée avec un Stratagème. Si tel est le cas, réduisez le coût CP de cette utilisation de ce Stratagème par 1CP.</characteristic>
+            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Une fois par tour de bataille, une figurine de votre armée dotée de cette aptitude peut l’utiliser lorsque son unité est ciblée par un Stratagème. Si elle le fait, réduisez de 1CP le coût en CP de cette utilisation de ce Stratagème.</characteristic>
           </characteristics>
         </profile>
         <profile name="Cult Infiltration" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="7d54-f68a-b935-acd3">
@@ -5507,11 +5507,11 @@ Vous pouvez attacher cette figurine à une unité ACOLYTE HYBRIDS ou Neophyte Hy
           <profiles>
             <profile name="Meneur" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="22cf-2616-94aa-2362">
               <characteristics>
-                <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Cette figurine peut être attachée aux unités suivantes:
+                <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Cette figurine peut être attachée aux unités suivantes :
 - ACOLYTE HYBRIDS
 - HYBRID METAMORPHS
 - NEOPHYTE HYBRIDS
-Vous pouvez attacher cette figurine à une unité ACOLYTE HYBRIDS ou Neophyte Hybrid, même si une figurine Primus, Magus ou Acolyte Iconward y a déjà été attaché. Si vous le faites, et que l'unité Bodyguard est détruite, les unités Meneur attachées à elle deviennent des unités séparées, avec leur Effectif Initial d’origine.</characteristic>
+Vous pouvez attacher cette figurine à une unité ACOLYTE HYBRIDS ou NEOPHYTE HYBRID, même si une figurine PRIMUS, MAGUS ou ACOLYTE ICONWARD lui a déjà été attachée. Si vous le faites et que cette unité Bodyguard est détruite, les unités Leader qui lui sont attachées deviennent des unités distinctes, avec leur Effectif Initial d’origine.</characteristic>
               </characteristics>
             </profile>
           </profiles>
@@ -5683,17 +5683,17 @@ Vous pouvez attacher cette figurine à une unité ACOLYTE HYBRIDS ou Neophyte Hy
       <profiles>
         <profile name="Might From Beyond" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="2ce2-73a5-1981-bdb2">
           <characteristics>
-            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Alors que cette figurine mène une unité, les armes de mêlée équipées de figurines dans cette unité ont la aptitude [Blessures dévastatrices].</characteristic>
+            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Tant que cette figurine mène une unité, les armes de mêlée dont les figurines de cette unité sont équipées ont l’aptitude [DEVASTATING WOUNDS].</characteristic>
           </characteristics>
         </profile>
         <profile name="Cosmic Horror (Psychic)" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="bef7-52f2-442f-210e">
           <characteristics>
-            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Au début de la phase de Combat, chaque unité ennemie à 6" ou moins de cette figurine doit passer un test d’Ébranlement.</characteristic>
+            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Au début de la phase de Combat, chaque unité ennemie à 6" ou moins de cette figurine doit effectuer un test d’Ébranlement.</characteristic>
           </characteristics>
         </profile>
         <profile name="Psychic Familiar" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="7174-ac6-70bb-b118">
           <characteristics>
-            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Une fois par bataille, au début de la phase de Combat, cette figurine peut utiliser son Psychique familier. Si c'est le cas, jusqu'à la fin de la phase, ajoutez 6" à sa aptitude d'horreur cosmique.</characteristic>
+            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Une fois par bataille, au début de la phase de Combat, cette figurine peut utiliser son Psychique familier. Si c'est le cas, Jusqu’à la fin de la phase, ajoutez 6" au Portée de son Horror Cosmique aptitude.</characteristic>
           </characteristics>
         </profile>
         <profile name="Patriarch" typeId="c547-1836-d8a-ff4f" typeName="Unit" hidden="false" id="6fda-ef18-abe2-1d36">
@@ -5708,8 +5708,8 @@ Vous pouvez attacher cette figurine à une unité ACOLYTE HYBRIDS ou Neophyte Hy
         </profile>
         <profile name="Supreme Commander" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="228c-28c8-6317-1332">
           <characteristics>
-            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">- Vous ne pouvez pas inclure plus d'une figurine **^^Patriarch^^** dans votre armée.
-- Si cette figurine est dans votre armée, il doit être votre **^^Warlord^^**.</characteristic>
+            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">- Vous ne pouvez pas inclure plus d'une **^^Patriarch^^** figurine dans votre armée.
+- Si cette figurine est dans votre armée, elle doit être votre **^^Warlord^^**.</characteristic>
           </characteristics>
         </profile>
       </profiles>
@@ -5903,7 +5903,7 @@ Vous pouvez attacher cette figurine à une unité ACOLYTE HYBRIDS ou Neophyte Hy
         </profile>
         <profile name="Decoys and Misdirection" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="769-3c2c-947e-3320">
           <characteristics>
-            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Si votre armée comprend une ou plusieurs figurines avec cette aptitude, après que les deux joueurs aient déployé leurs armées, sélectionnez jusqu'à trois unités Genestealer CULTS de votre armée et redéployez-les. Si vous le souhaitez, vous pouvez mettre ces unités en réserve stratégique, quel que soit le nombre d'unités déjà en réserve stratégique.</characteristic>
+            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Si votre armée comprend une ou plusieurs figurines avec cette aptitude, après que les deux joueurs ont déployé leurs armées, sélectionnez jusqu'à trois Genestealer CULTS unités de votre armée et les redéployer. Lorsque vous le faites, vous pouvez configurer ces unités dans Réserves Stratégiques si vous le souhaitez, quel que soit le nombre d'unités déjà dans Réserves Stratégiques.</characteristic>
           </characteristics>
           <modifiers>
             <modifier type="set" value="true" field="hidden">
@@ -6319,7 +6319,7 @@ Vous pouvez attacher cette figurine à une unité ACOLYTE HYBRIDS ou Neophyte Hy
         </profile>
         <profile name="Primed and Ready" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="aeea-7c47-8219-2ff6">
           <characteristics>
-            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Dans votre phase de Tir, vous pouvez sélectionner une figurine de votre armée avec cette aptitude comme cible de la Grenade Stratagème pour 0CP, à condition que cette figurine n'ait pas déjà été la cible de cette Stratagème cette phase.</characteristic>
+            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Dans votre phase de Tir, vous pouvez sélectionner une figurine de votre armée avec cette aptitude comme cible de la grenade Stratagème pour 0CP, à condition que figurine n'ait pas déjà été la cible de ce Stratagème cette phase.</characteristic>
           </characteristics>
         </profile>
         <profile name="Planted Explosives" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="bb22-5863-886b-44a4">
@@ -6486,7 +6486,7 @@ Vous pouvez attacher cette figurine à une unité ACOLYTE HYBRIDS ou Neophyte Hy
               </profiles>
               <rules>
                 <rule name="Tir Unique" id="ddd3-7ba9-853c-1d90" hidden="false">
-                  <description>Le porteur ne peut tirer qu'une seule fois par bataille.</description>
+                  <description>.le porteur peut seulement tirer avec cette arme Une fois par bataille</description>
                 </rule>
               </rules>
               <infoLinks>
@@ -6535,12 +6535,12 @@ Vous pouvez attacher cette figurine à une unité ACOLYTE HYBRIDS ou Neophyte Hy
         </profile>
         <profile name="Creeping Shadow" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="1df6-fdd-a680-5df9">
           <characteristics>
-            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Si cette figurine est équipé d'un fusil de sniper culte, une fois par tour lorsqu'une unité ennemie termine un mouvement normal, d'avance ou de Retraite à 9" ou moins de cette figurine, si cette figurine n'est pas dans la Portée d’Engagement d'une ou plusieurs unités ennemies, il peut effectuer un mouvement normal jusqu'à 6"</characteristic>
+            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Si cette figurine est équipé d'un fusil de sniper culte, Une fois par tour quand une unité ennemie termine un Normal, Avance, ou mouvement de Retraite à 9" ou moins de cette figurine, si cette figurine n'est pas à l'intérieur de Portée d’Engagement d'une ou plusieurs unités ennemies, il peut effectuer un mouvement Normal de jusqu'à 6"</characteristic>
           </characteristics>
         </profile>
         <profile name="Psychic Spoor" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="bf22-284-978-cf1a">
           <characteristics>
-            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Au début du premier tour de bataille, sélectionnez une unité ennemi pour être la proie de cette figurine. Chaque fois que cette figurine fait une attaque qui cible sa proie, vous pouvez relancer le jet de Touche et vous pouvez relancer le jet de Blessure.</characteristic>
+            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Au début du premier tour de bataille, sélectionnez une unité ennemie pour être cette proie de figurine. Chaque fois que cette figurine fait une attaque qui cible sa proie, vous pouvez relancer le jet de Touche et vous pouvez relancer le jet de Blessure.</characteristic>
           </characteristics>
         </profile>
         <profile name="Cloaked Assassin" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="df3b-ad7f-4065-3cf7">
@@ -7158,7 +7158,7 @@ Vous pouvez attacher cette figurine à une unité ACOLYTE HYBRIDS ou Neophyte Hy
         </profile>
         <profile name="Tectonic Fragdrill" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="439c-779d-72b2-ec8e">
           <characteristics>
-            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Les figurines Genestealer CULT INFANTRY peuvent être installés ou mettre fin à tout type de mouvement sur les sections de plancher de ce Fortification.</characteristic>
+            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Amical Genestealer CULT INFANTRY figurines peut être mis en place ou mettre fin à tout type de mouvement au-dessus des sections au sol de ce Fortification.</characteristic>
           </characteristics>
         </profile>
         <profile name="Underground Egress" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="f0da-56d5-172e-d9e2">
@@ -7168,7 +7168,7 @@ Vous pouvez attacher cette figurine à une unité ACOLYTE HYBRIDS ou Neophyte Hy
         </profile>
         <profile name="Manufactorum Cover" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="3e27-a26c-5625-4074">
           <characteristics>
-            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Chaque fois qu'une attaque de tir est attribuée à une figurine, si cette figurine n'est pas pleinement visible à tous les figurines de l'unité d'attaque à cause de ce Fortification, cette figurine a le Bénéfice du Couvert contre cette attaque.</characteristic>
+            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Chaque fois qu’une attaque de tir est allouée à une figurine, si cette figurine n’est pas entièrement visible de toutes les figurines de l’unité attaquante à cause de cette FORTIFICATION, cette figurine a le Bénéfice du Couvert contre cette attaque.</characteristic>
           </characteristics>
         </profile>
         <profile name="Fortification" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="1a45-e2e6-ef40-b0c5">
@@ -7286,12 +7286,12 @@ Vous pouvez attacher cette figurine à une unité ACOLYTE HYBRIDS ou Neophyte Hy
         </profile>
         <profile name="Bio-horror Disruption (Psychic)" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="fca1-d488-3625-d230">
           <characteristics>
-            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Alors que cette figurine mène une unité, les armes de tir équipées par des figurines dans cette unité ont la aptitude [Touches fatales].</characteristic>
+            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Tant que cette figurine mène une unité, les armes de tir dont les figurines de cette unité sont équipées ont l’aptitude [LETHAL HITS].</characteristic>
           </characteristics>
         </profile>
         <profile name="Psionic Shield (Psychic)" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="5847-7994-39c6-20a2">
           <characteristics>
-            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Une fois par bataille, au début de n'importe quelle phase, cette figurine peut utiliser cette aptitude. Si c'est le cas, jusqu'à la fin de la phase, cette figurine a un 4+ sauvegarde invulnérable.</characteristic>
+            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Une fois par bataille, au début de toute phase, cette figurine peut utiliser cette aptitude. Si c'est le cas, Jusqu’à la fin de la phase, cette figurine a un 4+ sauvegarde invulnérable.</characteristic>
           </characteristics>
         </profile>
       </profiles>
@@ -8290,7 +8290,7 @@ Vous pouvez attacher cette figurine à une unité ACOLYTE HYBRIDS ou Neophyte Hy
         </profile>
         <profile name="Biohorror Disruption (Psychic)" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="3541-c1ee-4233-00d0">
           <characteristics>
-            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Les armes de tir équipées par des figurines de cette unité ont la aptitude **[LETHAL HITS]**.</characteristic>
+            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Les armes de tir dont les figurines de cette unité sont équipées ont l’aptitude **[LETHAL HITS]**.</characteristic>
           </characteristics>
         </profile>
         <profile name="Meneur" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="9fb2-ebfd-1689-2a3a">
@@ -10437,9 +10437,9 @@ Vous pouvez attacher cette figurine à une unité ACOLYTE HYBRIDS ou Neophyte Hy
     </entryLink>
   </entryLinks>
   <catalogueLinks>
-    <catalogueLink type="catalogue" name="Imperium - Astra Militarum - Library" id="1931-3c9a-ba46-7c7b" targetId="6649-e3e1-f735-10b5" />
-    <catalogueLink type="catalogue" name="Unaligned Forces" id="4b53-81a-1d51-b85c" targetId="61f1-ce52-d345-5048" importRootEntries="true" />
-    <catalogueLink type="catalogue" name="Library - Tyranids" id="280e-0f30-94a8-e99a" targetId="21c3-d201-3c55-bc93" />
+    <catalogueLink type="catalogue" name="Imperium - Astra Militarum - Library" id="1931-3c9a-ba46-7c7b" targetId="5a44-f048-114b-e3ff" />
+    <catalogueLink type="catalogue" name="Unaligned Forces" id="4b53-81a-1d51-b85c" targetId="581a-46b9-5b86-44b7" importRootEntries="true" />
+    <catalogueLink type="catalogue" name="Library - Tyranids" id="280e-0f30-94a8-e99a" targetId="374d-45f0-5832-001e" />
   </catalogueLinks>
   <sharedSelectionEntryGroups>
     <selectionEntryGroup name="Codex Battle Traits" id="6a27-400b-76ef-25d1" hidden="false" collapsible="true">
@@ -10447,7 +10447,7 @@ Vous pouvez attacher cette figurine à une unité ACOLYTE HYBRIDS ou Neophyte Hy
       <modifiers>
         <modifier type="set" value="true" field="hidden">
           <conditions>
-            <condition type="notInstanceOf" value="1" field="selections" scope="primary-catalogue" childId="7b3b-4dea-9367-98b1" shared="true" />
+            <condition type="notInstanceOf" value="1" field="selections" scope="primary-catalogue" childId="3bdf-a114-5035-c6ac" shared="true" />
           </conditions>
         </modifier>
       </modifiers>
@@ -10511,7 +10511,7 @@ Vous pouvez attacher cette figurine à une unité ACOLYTE HYBRIDS ou Neophyte Hy
           <profiles>
             <profile name="Insurgents" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="83d1-e6aa-04df-a07e">
               <characteristics>
-                <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Une fois par tour, si cette unité est entièrement à l'intérieur d'une caractéristique de terrain, vous pouvez cibler cette unité avec le Fire Overwatch ou le Stratagème d'intervention héroïque pour 0CP.</characteristic>
+                <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Une fois par tour, si cette unité est entièrement à une caractéristique de terrain, vous pouvez cibler cette unité avec le Fire Overwatch ou l'intervention héroïque Stratagème pour 0CP.</characteristic>
               </characteristics>
             </profile>
           </profiles>
@@ -10543,7 +10543,7 @@ Vous pouvez attacher cette figurine à une unité ACOLYTE HYBRIDS ou Neophyte Hy
           <profiles>
             <profile name="Insurrectionists" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="fa74-5b0e-87a7-a44c">
               <characteristics>
-                <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Chaque fois que cette unité est sélectionnée pour tirer, si vous sélectionnez l'unité ennemie la plus proche comme cible de toutes ces attaques, ajoutez 1 à le jet de Touche lorsque vous résolvez chacune de ces attaques. En outre, chaque fois qu'une figurine dans cette unité fait une attaque de mêlée, ajoutez 1 au jet de Touche.</characteristic>
+                <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Chaque fois que cette unité est sélectionnée pour tirer, si vous sélectionnez l’unité ennemie la plus proche comme cible de toutes ces attaques, ajoutez 1 au jet de Touche lors de la résolution de chacune de ces attaques. De plus, chaque fois qu’une figurine de cette unité effectue une attaque de mêlée, ajoutez 1 au jet de Touche.</characteristic>
               </characteristics>
             </profile>
           </profiles>
@@ -10582,7 +10582,7 @@ Vous pouvez attacher cette figurine à une unité ACOLYTE HYBRIDS ou Neophyte Hy
           <profiles>
             <profile name="Xenos Savagery" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="0091-bb26-c3c0-b687">
               <characteristics>
-                <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Une fois par bataille, au début de la phase de Combat, cette unité peut utiliser ce trait de bataille. Si c'est le cas, jusqu'à la fin de la phase, cette unité a la aptitude Fights First.</characteristic>
+                <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Une fois par bataille, au début de la phase de Combat, cette unité peut utiliser ce trait de bataille. Si elle le fait, Jusqu’à la fin de la phase, cette unité a l’aptitude Fights First.</characteristic>
               </characteristics>
             </profile>
           </profiles>
@@ -10622,7 +10622,7 @@ Vous pouvez attacher cette figurine à une unité ACOLYTE HYBRIDS ou Neophyte Hy
           <profiles>
             <profile name="Elusive Raiders" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="845c-cf75-5a95-b148">
               <characteristics>
-                <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Les figurines de cette unité ont un 5+ sauvegarde invulnérable contre les attaques de tir.</characteristic>
+                <characteristic name="Description" typeId="9b8f-694b-e5e-b573">les figurines de cette unité ont une 5+ sauvegarde invulnérable contre les attaques de tir.</characteristic>
               </characteristics>
             </profile>
           </profiles>
@@ -10659,7 +10659,7 @@ Vous pouvez attacher cette figurine à une unité ACOLYTE HYBRIDS ou Neophyte Hy
           <profiles>
             <profile name="Charged Engines" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="7247-f1a5-62b0-1d4e">
               <characteristics>
-                <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Chaque fois que cette unité avance, ne faites pas un jet d’Avance. Au lieu de cela, jusqu'à la fin de la phase, ajoutez 6" à la caractéristique de mouvement des figurines de cette unité.</characteristic>
+                <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Chaque fois que cette unité avance, ne faites pas un jet d’Avance. Au lieu de cela, Jusqu’à la fin de la phase, ajoutez 6" à la caractéristique de mouvement des figurines de cette unité.</characteristic>
               </characteristics>
             </profile>
           </profiles>
@@ -10696,7 +10696,7 @@ Vous pouvez attacher cette figurine à une unité ACOLYTE HYBRIDS ou Neophyte Hy
           <profiles>
             <profile name="Ablative Plating" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="e929-0ce2-1124-9b54">
               <characteristics>
-                <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Chaque fois qu'une attaque cible cette unité, aggraver la Pénétration d’Armure de cette attaque par 1 (à un minimum de 0).</characteristic>
+                <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Chaque fois qu’une attaque cible cette unité, aggravez de 1 la caractéristique de Pénétration d’Armure de cette attaque (jusqu’à un minimum de 0).</characteristic>
               </characteristics>
             </profile>
           </profiles>
@@ -10728,7 +10728,7 @@ Vous pouvez attacher cette figurine à une unité ACOLYTE HYBRIDS ou Neophyte Hy
           <profiles>
             <profile name="Unbreakable Bond" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="0801-d1ad-ca0d-ac32">
               <characteristics>
-                <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Lorsque cette figurine obtient ce trait de bataille, sélectionnez une unité **^^Genestealer Cults^^** sur votre ordre de bataille pour cette figurine pour former un lien indissoluble avec. Pendant que cette figurine conduit cette unité, une fois par tour, vous pouvez relancer un jet de Touche, un jet de Blessure ou un jet de sauvegarde fait pour cette unité.</characteristic>
+                <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Lorsque cette figurine obtient ce trait de bataille, sélectionnez une unité **^^Genestealer Cults^^** sur votre ordre de bataille pour cette figurine pour former un lien indissoluble avec. Alors que cette figurine est à la tête de cette unité, Une fois par tour, vous pouvez relancer un jet de Touche, un jet de Blessure ou un jet de sauvegarde fait pour cette unité.</characteristic>
               </characteristics>
             </profile>
           </profiles>
@@ -10767,7 +10767,7 @@ Vous pouvez attacher cette figurine à une unité ACOLYTE HYBRIDS ou Neophyte Hy
           <profiles>
             <profile name="Fast Reflexes" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="323a-a7cc-3e8b-1cb5">
               <characteristics>
-                <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Chaque fois qu'une attaque de mêlée cible cette unité, Soustrayez 1 de la jets de Touche.</characteristic>
+                <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Chaque fois qu'une attaque de mêlée cible cette unité, Soustrayez 1 du jet de Touche.</characteristic>
               </characteristics>
             </profile>
           </profiles>
@@ -10806,7 +10806,7 @@ Vous pouvez attacher cette figurine à une unité ACOLYTE HYBRIDS ou Neophyte Hy
           <profiles>
             <profile name="Aggressive Strain" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="0985-e64f-8bf6-930b">
               <characteristics>
-                <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Chaque fois que cette unité s'accumule ou se consolide, les figurines de cette unité peuvent déplacer un 2" supplémentaire.</characteristic>
+                <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Chaque fois que cette unité effectue un mouvement d’Engagement ou de Consolidation, les figurines de cette unité peuvent se déplacer de 2" supplémentaires.</characteristic>
               </characteristics>
             </profile>
           </profiles>
@@ -10838,7 +10838,7 @@ Vous pouvez attacher cette figurine à une unité ACOLYTE HYBRIDS ou Neophyte Hy
           <profiles>
             <profile name="Brood Prophet (Aura)" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="1b13-27d3-392d-809d">
               <characteristics>
-                <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Améliorez la caractéristique de Commandement de cette figurine de 1. Alors qu'une unité **^^Genestealer Cults^^** conviviale est à 12" ou moins et visible pour cette figurine, les figurines de cette unité peuvent utiliser la caractéristique Commandement de cette figurine au lieu de leur propre.</characteristic>
+                <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Améliorez cette figurine de caractéristique de Commandement de 1. Alors qu'une unité sympathique **^^Genestealer Cults^^** est à 12" ou moins et visible à cette figurine, les figurines de cette unité peut utiliser cette de la figurine caractéristique de Commandement au lieu de leur propre.</characteristic>
               </characteristics>
             </profile>
           </profiles>
@@ -10886,7 +10886,7 @@ Vous pouvez attacher cette figurine à une unité ACOLYTE HYBRIDS ou Neophyte Hy
           <profiles>
             <profile name="Synaptic Impetus" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="6576-3106-a55a-4446">
               <characteristics>
-                <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Chaque fois que cette figurine effectue une attaque, ajoutez 1 au jet de Touche si cette figurine conduit une unité de 5 ou plus de figurines, et 1 au jet de Blessure si cette figurine conduit une unité de 10 ou plus de figurines.</characteristic>
+                <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Chaque fois que cette figurine effectue une attaque, ajoutez 1 au jet de Touche si cette figurine mène une unité de 5 ou plus de figurines, et 1 au jet de Blessure également si cette figurine mène une unité de 10 ou plus de figurines.</characteristic>
               </characteristics>
             </profile>
           </profiles>
@@ -10901,7 +10901,7 @@ Vous pouvez attacher cette figurine à une unité ACOLYTE HYBRIDS ou Neophyte Hy
               <profiles>
                 <profile name="Reverberation Coil" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="2b02-0073-fb28-ce8e">
                   <characteristics>
-                    <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Améliorez la caractéristique de Commandement des figurines dans l'unité du porteur de 2. chaque fois que le de l’unité du porteur rate a test de Commandement, le porteur subit 1 blessure mortelle.</characteristic>
+                    <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Améliorez la caractéristique de Commandement des figurines de l’unité du porteur de 2. Chaque fois que l’unité du porteur échoue un test de Commandement, le porteur souffre 1 blessure mortelle.</characteristic>
                   </characteristics>
                 </profile>
               </profiles>
@@ -10952,7 +10952,7 @@ Vous pouvez attacher cette figurine à une unité ACOLYTE HYBRIDS ou Neophyte Hy
               <profiles>
                 <profile name="The Magorran Logs" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="08b2-e806-6948-970f">
                   <characteristics>
-                    <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Chaque fois que vous sélectionnez l'unité du porteur comme cible d'un stratagème tactique de bataille, vous pouvez sélectionner une autre unité à 12" ou moins de l'unité du porteur qui est également une cible admissible pour ce stratagème; cette unité sélectionnée est également affectée par ce stratagème.</characteristic>
+                    <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Chaque fois que vous sélectionnez l’unité du porteur comme cible d’un Stratagème de Tactique de Bataille, vous pouvez sélectionner une autre unité à 12" ou moins de l’unité du porteur qui est également une cible éligible pour ce Stratagème ; cette unité sélectionnée est également affectée par ce Stratagème.</characteristic>
                   </characteristics>
                 </profile>
               </profiles>
@@ -10999,7 +10999,7 @@ Vous pouvez attacher cette figurine à une unité ACOLYTE HYBRIDS ou Neophyte Hy
               <profiles>
                 <profile name="Sedition Field (Aura)" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="6290-d917-ec57-6d12">
                   <characteristics>
-                    <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Alors qu'une unité ennemie **^^Battleline^^** est à 9" ou moins de l'unité du porteur, aggraver la caractéristique de Commandement des figurines dans cette unité ennemie par 1, et soustraire 1 de la caractéristique de Contrôle d’Objectif des figurines dans cette unité ennemie (à un minimum de 0).</characteristic>
+                    <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Alors qu'une unité ennemie **^^Battleline^^** se trouve à 9" ou moins de l’unité du porteur, aggraver la caractéristique de Commandement des figurines de cette unité ennemie par 1, et soustraire 1 de la caractéristique de Contrôle d’Objectif des figurines de cette unité ennemie (à un minimum de 0).</characteristic>
                   </characteristics>
                 </profile>
               </profiles>
@@ -11042,7 +11042,7 @@ Vous pouvez attacher cette figurine à une unité ACOLYTE HYBRIDS ou Neophyte Hy
               <profiles>
                 <profile name="Pennant of Ascension (Aura)" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="f638-dc96-cfcf-9893">
                   <characteristics>
-                    <characteristic name="Description" typeId="9b8f-694b-e5e-b573">**^^Acolyte Iconward^^** figurine uniquement. Alors qu'une unité amie **^^Genestealer Cults Infantry^^** ou **^^Genestealer Cults Mounted^^** se trouve à 6" ou moins du porteur, ajoutez 1 aux caractéristique d’Attaques des armes de mêlée équipées de figurines dans cette unité.</characteristic>
+                    <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Figurine **^^Acolyte Iconward^^** uniquement. Tant qu’une unité **^^Genestealer Cults Infantry^^** ou **^^Genestealer Cults Mounted^^** amie est à 6" ou moins du porteur, ajoutez 1 à la caractéristique d’Attaques des armes de mêlée dont sont équipées les figurines de cette unité.</characteristic>
                   </characteristics>
                 </profile>
               </profiles>
@@ -11090,7 +11090,7 @@ Vous pouvez attacher cette figurine à une unité ACOLYTE HYBRIDS ou Neophyte Hy
               <profiles>
                 <profile name="Vector Talon" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="a590-61d3-a58b-ddc8">
                   <characteristics>
-                    <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Améliorez les caractéristiques de pénétration et de Dégâts des armes de mêlée équipées par le porteur de 1.</characteristic>
+                    <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Améliorez les caractéristiques de Pénétration d’Armure et de Dégâts des armes de mêlée dont est équipé le porteur de 1.</characteristic>
                   </characteristics>
                 </profile>
               </profiles>
@@ -11139,9 +11139,9 @@ Vous pouvez attacher cette figurine à une unité ACOLYTE HYBRIDS ou Neophyte Hy
               <profiles>
                 <profile name="Pervasion Veil" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="a002-9166-e87e-8662">
                   <characteristics>
-                    <characteristic name="Description" typeId="9b8f-694b-e5e-b573">**^^Infantry^^** figurine uniquement (à l’exclusion des figurines **^^Patriarch^^**).
-Ajoutez 3" à la caractéristique de mouvement du porteur et le porteur obtient la aptitude suivante:
-**Pervasion Veil:** Une fois par bataille, à la fin de chaque phase, à condition que cette figurine ne dirige pas une unité, il peut utiliser cette aptitude. Si c'est le cas, retirez-le du champ de bataille et réinstallez-le n'importe où sur le champ de bataille plus que 9" horizontalement loin de toutes les unités ennemies.</characteristic>
+                    <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Figurine **^^Infantry^^** uniquement (à l’exclusion des figurines **^^Patriarch^^**).
+Ajoutez 3" à la caractéristique de Mouvement du porteur, et le porteur gagne l’aptitude suivante :
+**Pervasion Veil:** Une fois par bataille, à la fin de n’importe quelle phase, si cette figurine ne mène pas une unité, elle peut utiliser cette aptitude. Si elle le fait, retirez-la du champ de bataille, puis replacez-la n’importe où sur le champ de bataille à plus de 9" horizontalement de toutes les unités ennemies.</characteristic>
                   </characteristics>
                 </profile>
               </profiles>
@@ -11196,7 +11196,7 @@ Ajoutez 3" à la caractéristique de mouvement du porteur et le porteur obtient 
       <modifiers>
         <modifier type="set" value="true" field="hidden">
           <conditions>
-            <condition type="notInstanceOf" value="1" field="selections" scope="primary-catalogue" childId="7b3b-4dea-9367-98b1" shared="true" />
+            <condition type="notInstanceOf" value="1" field="selections" scope="primary-catalogue" childId="3bdf-a114-5035-c6ac" shared="true" />
           </conditions>
         </modifier>
       </modifiers>
@@ -11264,7 +11264,7 @@ Ajoutez 3" à la caractéristique de mouvement du porteur et le porteur obtient 
             <conditionGroup type="or">
               <conditions>
                 <condition type="notInstanceOf" value="1" field="selections" scope="parent" childId="9cfd-1c32-585f-7d5c" shared="true" includeChildSelections="false" includeChildForces="false" />
-                <condition type="notInstanceOf" value="1" field="selections" scope="primary-catalogue" childId="7b3b-4dea-9367-98b1" shared="true" />
+                <condition type="notInstanceOf" value="1" field="selections" scope="primary-catalogue" childId="3bdf-a114-5035-c6ac" shared="true" />
               </conditions>
             </conditionGroup>
           </conditionGroups>
@@ -11333,7 +11333,7 @@ Ajoutez 3" à la caractéristique de mouvement du porteur et le porteur obtient 
           <profiles>
             <profile name="Out Of Favour" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="a7c5-840f-4a34-522d">
               <characteristics>
-                <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Chaque fois que vous attribuez une attaque à une figurine dans l'unité de cette figurine, vous devez l'attribuer à cette figurine.</characteristic>
+                <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Chaque fois que vous allouez une attaque à une figurine de l’unité de cette figurine, vous devez l’allouer à cette figurine.</characteristic>
               </characteristics>
             </profile>
           </profiles>
@@ -11351,7 +11351,7 @@ Ajoutez 3" à la caractéristique de mouvement du porteur et le porteur obtient 
           <profiles>
             <profile name="Relearn the Creed" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="8508-57aa-b739-beb0">
               <characteristics>
-                <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Vous ne pouvez pas cibler l'unité de cette figurine avec des stratagèmes autres que des stratagèmes de base.</characteristic>
+                <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Vous ne pouvez pas cibler l'unité de figurine avec des stratagèmes autres que les stratagèmes de base.</characteristic>
               </characteristics>
             </profile>
           </profiles>
@@ -11388,7 +11388,7 @@ Ajoutez 3" à la caractéristique de mouvement du porteur et le porteur obtient 
           <profiles>
             <profile name="Mental Failings" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="0975-1198-366b-d8cb">
               <characteristics>
-                <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Chaque fois que vous ciblez l'unité de cette figurine avec un Stratagème, lancez un D6; sur un 4+, jusqu'à la fin du tour, vous ne pouvez pas cibler l'unité de cette figurine avec ce Stratagème (pas de CP).</characteristic>
+                <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Chaque fois que vous ciblez l'unité de cette figurine avec un Stratagème, lancez un D6; sur un 4+, jusqu'à la fin du tour, vous ne pouvez pas cible l'unité de cette figurine avec ce Stratagème (ne pas dépenser aucun CP).</characteristic>
               </characteristics>
             </profile>
           </profiles>
@@ -11486,7 +11486,7 @@ Ajoutez 3" à la caractéristique de mouvement du porteur et le porteur obtient 
               <profiles>
                 <profile name="Looted Armoury" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="3866-9e35-0650-ef54">
                   <characteristics>
-                    <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Quand une unité de votre force de la Croisade obtient l'honneur de bataille des modifications d'armes, vous pouvez rouler 3D6 (au lieu de 2D6) pour déterminer au hasard trois modifications d'armes pour que l'arme gagne.</characteristic>
+                    <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Lorsqu'une unité de votre force de Croisade obtient l'honneur de bataille des modifications d'armes, vous pouvez rouler 3D6 (au lieu de 2D6) pour déterminer au hasard trois modifications d'armes pour que l'arme gagne.</characteristic>
                   </characteristics>
                 </profile>
               </profiles>
@@ -11753,7 +11753,7 @@ Chaque fois que l’une de ces unités **^^Crossfire^^** sélectionnées effectu
             </profile>
             <profile name="Shrewd Strategy" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="dfea-4172-3109-ed56">
               <characteristics>
-                <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Vous gagnez des points de planification 6, que vous pouvez dépenser pour acheter des capacités Shrewd Strategy à utiliser pendant cette bataille.</characteristic>
+                <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Vous gagnez des points de planification 6, que vous pouvez dépenser pour acheter Shrewd Strategy aptitudes à utiliser pendant cette bataille.</characteristic>
               </characteristics>
             </profile>
             <profile name="Eyes of the Cult" typeId="7c3a-e6af-b222-5e3d" typeName="Shrew Strategy Abilities" hidden="false" id="bf1a-c710-51dd-4de0">
@@ -11795,9 +11795,9 @@ Chaque fois que l’une de ces unités **^^Crossfire^^** sélectionnées effectu
           </profiles>
           <rules>
             <rule name="Shrewd Strategy Abilities" id="4e4f-26c3-bf56-f2ab" hidden="false">
-              <description>Au cours de l'étape sélectionnez Crusade Blessings, vous pouvez dépenser vos points de planification pour acheter une ou plusieurs capacités Shrewd Strategy. Tous les points de planification non dépensés à la fin de cette étape sont perdus. Chaque fois que vous achetez une de ces capacités, sélectionnez une unité **^^Genestealer Cults^^** dans votre armée de la Croisade; jusqu'à la fin de la bataille, cette unité a cette aptitude et la première fois qu'elle est mise en place sur le champ de bataille, placez le symbole de aptitude Shrewd Strategy pertinent à côté pour vous rappeler (et votre adversaire) que vous avez mis à niveau cette unité cette bataille. Vous pouvez acheter la même aptitude Shrewd Strategy plusieurs fois, mais chaque unité ne peut pas avoir plus d'une aptitude Shrewd Strategy par bataille.
+              <description>Durant l’étape Select Crusade Blessings, vous pouvez dépenser vos points de Planning pour acheter une ou plusieurs aptitudes Shrewd Strategy. Tous les points de Planning non dépensés à la fin de cette étape sont perdus. Chaque fois que vous achetez l’une de ces aptitudes, sélectionnez une unité **^^Genestealer Cults^^** de votre armée de Croisade ; jusqu’à la fin de la bataille, cette unité a cette aptitude et, la première fois qu’elle est placée sur le champ de bataille, placez à côté d’elle le pion d’aptitude Shrewd Strategy correspondant pour rappeler à votre adversaire et à vous-même que cette unité a été améliorée durant cette bataille. Vous pouvez acheter plusieurs fois la même aptitude Shrewd Strategy, mais chaque unité ne peut avoir plus d’une aptitude Shrewd Strategy par bataille.
 
-Notez que si une unité avec une aptitude Shrewd Strategy est détruite pendant la bataille et qu'une nouvelle unité identique est ajoutée à votre armée de la Croisade à la suite de la aptitude Cult Ambush, cette unité n'a pas les capacités Shrewd Strategy que possédait l'unité originale.</description>
+Notez que si une unité dotée d’une aptitude Shrewd Strategy est détruite durant la bataille et qu’une nouvelle unité identique est ajoutée à votre armée de Croisade à cause de l’aptitude Cult Ambush, cette unité n’a pas les aptitudes Shrewd Strategy de l’unité d’origine.</description>
             </rule>
           </rules>
           <infoLinks>
@@ -11824,7 +11824,7 @@ Notez que si une unité avec une aptitude Shrewd Strategy est détruite pendant 
           <profiles>
             <profile name="Beloved of the Cult" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="89a2-511c-5af4-b168">
               <characteristics>
-                <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Chaque fois qu'une unité qui est aimée du culte gagne 1 ou plus XP dans une bataille de Croisade et survit à cette bataille, après cette bataille, lancez un D6 pour chaque autre unité de votre armée de Croisade qui a survécu à cette bataille: sur un 6, l'unité que vous avez tourné pour gagner 1XP.</characteristic>
+                <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Chaque fois qu'une unité qui est aimée du culte gagne 1 ou plus XP dans une bataille de Croisade et survit à cette bataille, après cette bataille, lancez un D6 pour chaque autre unité de votre armée de Croisade qui a survécu à cette bataille: sur un 6, l'unité que vous avez roulé pour gagner 1XP.</characteristic>
               </characteristics>
             </profile>
           </profiles>
@@ -11837,7 +11837,7 @@ Notez que si une unité avec une aptitude Shrewd Strategy est détruite pendant 
       <modifiers>
         <modifier type="set" value="true" field="hidden">
           <conditions>
-            <condition type="notInstanceOf" value="1" field="selections" scope="primary-catalogue" childId="7b3b-4dea-9367-98b1" shared="true" />
+            <condition type="notInstanceOf" value="1" field="selections" scope="primary-catalogue" childId="3bdf-a114-5035-c6ac" shared="true" />
           </conditions>
         </modifier>
         <modifier type="set" value="true" field="hidden">
@@ -11874,7 +11874,7 @@ Notez que si une unité avec une aptitude Shrewd Strategy est détruite pendant 
           <profiles>
             <profile name="Deadly Feint" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="cdc2-d95e-c62e-48dd">
               <characteristics>
-                <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Cette unité est éligible pour tirer durant un tour où elle a Battu en Retraite. Chaque fois qu'une figurine dans cette unité effectue une attaque de tir qui cible sa cible Crossfire, si cette unité a fait un Battre en Retraite bouger ce tour, cette attaque a la aptitude **[LETHAL HITS]**.</characteristic>
+                <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Cette unité est éligible pour tirer durant un tour où elle a Battu en Retraite. Chaque fois qu’une figurine de cette unité effectue une attaque de tir qui cible sa cible Crossfire, si cette unité a effectué un mouvement de Retraite à ce tour, cette attaque a l’aptitude **[LETHAL HITS]**.</characteristic>
               </characteristics>
             </profile>
           </profiles>
@@ -11909,7 +11909,7 @@ Notez que si une unité avec une aptitude Shrewd Strategy est détruite pendant 
           <profiles>
             <profile name="From Every Angle" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="82e4-7d34-a63a-d562">
               <characteristics>
-                <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Vous pouvez cibler cette unité avec le Stratagème Rapid Ingress pour 0CP.</characteristic>
+                <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Vous pouvez cibler cette unité avec le Rapid Ingress Stratagème pour 0CP.</characteristic>
               </characteristics>
             </profile>
           </profiles>
@@ -11941,7 +11941,7 @@ Notez que si une unité avec une aptitude Shrewd Strategy est détruite pendant 
           <profiles>
             <profile name="Clandestine Operatives" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="f1ee-dd0a-45d1-0a90">
               <characteristics>
-                <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Les unités ennemies ne peuvent pas tirer sur cette unité.</characteristic>
+                <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Les unités ennemies ne peuvent pas utiliser le Fire Overwatch Stratagème pour tirer sur cette unité.</characteristic>
               </characteristics>
             </profile>
           </profiles>
@@ -11973,7 +11973,7 @@ Notez que si une unité avec une aptitude Shrewd Strategy est détruite pendant 
           <profiles>
             <profile name="Ambush Veterans" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="e8c2-12a2-b80c-3317">
               <characteristics>
-                <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Chaque fois que vous achetez une aptitude Shrewd Strategy, si cette mise à niveau est donnée à cette unité, réduisez les points de planification nécessaires pour l'acheter par 1 (à un minimum de 1). En outre, à l'étape des cartes de croisade de mise à niveau, si cette unité gagne XP de Dealers de Death, elle gagne 1 supplémentaire XP.</characteristic>
+                <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Chaque fois que vous achetez un Shrewd Strategy aptitude, si cette mise à niveau est donnée à cette unité, réduisez les points de planification nécessaires pour l'acheter par 1 (à un minimum de 1). En outre, à l'étape des cartes de croisade de mise à niveau, si cette unité gagne XP de Dealers de Death, elle gagne 1 supplémentaire XP.</characteristic>
               </characteristics>
             </profile>
           </profiles>
@@ -12005,7 +12005,7 @@ Notez que si une unité avec une aptitude Shrewd Strategy est détruite pendant 
           <profiles>
             <profile name="Massed Firearms" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="5108-e919-a44e-bf88">
               <characteristics>
-                <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Chaque fois qu'une figurine dans cette unité fait une attaque de tir, relance un jet de Touche de 1. Chaque fois qu'une figurine dans cette unité effectue une attaque de tir qui cible sa cible Crossfire, cette attaque a la aptitude **[SUSTAINED HITS 1]**.</characteristic>
+                <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Chaque fois qu’une figurine de cette unité effectue une attaque de tir, relancez un jet de Touche de 1. Chaque fois qu’une figurine de cette unité effectue une attaque de tir qui cible sa cible Crossfire, cette attaque a l’aptitude **[SUSTAINED HITS 1]**.</characteristic>
               </characteristics>
             </profile>
           </profiles>
@@ -12040,7 +12040,7 @@ Notez que si une unité avec une aptitude Shrewd Strategy est détruite pendant 
           <profiles>
             <profile name="Agile Guerillas" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="2cce-e0f2-aa45-469a">
               <characteristics>
-                <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Les armes de tir équipées par des figurines de cette unité ont la aptitude **[ASSAULT]**.</characteristic>
+                <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Les armes de tir dont les figurines de cette unité sont équipées ont l’aptitude **[ASSAULT]**.</characteristic>
               </characteristics>
             </profile>
           </profiles>
@@ -12066,7 +12066,7 @@ Notez que si une unité avec une aptitude Shrewd Strategy est détruite pendant 
               <profiles>
                 <profile name="The Gift From Beyond" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="2198-489f-8911-3858">
                   <characteristics>
-                    <characteristic name="Description" typeId="9b8f-694b-e5e-b573">**^^Jackal Alphus^^** ou **^^Sanctus^^** figurine uniquement. Sélectionnez une arme de tir équipée par le porteur (à l'exclusion d'une arme qui a été remplacée par une Relic d'Optimisation ou de Crsade, ou améliorée avec des Traits de Bataille). Cette arme est maintenant une relique de la Croisade, pas celle sur la carte de la Croisade du porteur. Cette arme acquiert les capacités **[ANTI-CHARACTER 4+]** et **[DEVASTATING WOUNDS]**.</characteristic>
+                    <characteristic name="Description" typeId="9b8f-694b-e5e-b573">**^^Jackal Alphus^^** ou **^^Sanctus^^** figurine uniquement. Sélectionnez une arme de tir dont le porteur est équipé (à l’exclusion d’une arme ayant été remplacée par une Optimisation ou une Relique de Croisade, ou améliorée avec des Traits de Bataille). Cette arme devient une Relique de Croisade ; notez-le sur la fiche de Croisade du porteur. Cette arme gagne les aptitudes **[ANTI-CHARACTER 4+]** et **[DEVASTATING WOUNDS]**.</characteristic>
                   </characteristics>
                 </profile>
               </profiles>
@@ -12163,7 +12163,7 @@ Notez que si une unité avec une aptitude Shrewd Strategy est détruite pendant 
               <profiles>
                 <profile name="The Voice of the Liberator" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="58e5-b3cd-fc3e-4fa9">
                   <characteristics>
-                    <characteristic name="Description" typeId="9b8f-694b-e5e-b573">**^^Clamavus^^** figurine uniquement. Chaque fois qu'une unité ennemie effectue un test d’Ébranlement en raison de la aptitude Voice of New Truths du porteur, Soustrayez 1 de ce test et, si ce test échoue, cette unité ennemie subit des Blessures Mortelles 3.</characteristic>
+                    <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Figurine **^^Clamavus^^** uniquement. Chaque fois qu’une unité ennemie effectue un test d’Ébranlement à cause de l’aptitude Voice of New Truths du porteur, soustrayez 1 à ce test et, si ce test échoue, cette unité ennemie subit 3 blessures mortelles.</characteristic>
                   </characteristics>
                 </profile>
               </profiles>
@@ -12259,7 +12259,7 @@ Notez que si une unité avec une aptitude Shrewd Strategy est détruite pendant 
               <profiles>
                 <profile name="Sword of the Void's Eye" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="5e1d-719c-c675-6438">
                   <characteristics>
-                    <characteristic name="Description" typeId="9b8f-694b-e5e-b573">**^^Primus^^** ou **^^Locus^^** figurine uniquement. Sélectionnez une arme équipée par le porteur (à l'exclusion d'une arme qui a été remplacée par une relique d'Optimisation ou de croisade, ou améliorée avec des traits de bataille). Cette arme est maintenant une relique de la Croisade. Notez ceci sur la carte de la Croisade du porteur. Cette arme a la aptitude **[LETHAL HITS]**, et chaque fois que le porteur fait une attaque avec cette arme, vous pouvez relancer le jet de Touche.</characteristic>
+                    <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Figurine **^^Primus^^** ou **^^Locus^^** uniquement. Sélectionnez une arme dont le porteur est équipé (à l’exclusion d’une arme qui a été remplacée par une Optimisation ou une Relique de Croisade, ou améliorée par un Trait de Bataille). Cette arme devient une Relique de Croisade ; notez-le sur la carte de Croisade du porteur. Cette arme a l’aptitude **[Touches fatales]** et, chaque fois que le porteur effectue une attaque avec cette arme, vous pouvez relancer le jet de Touche.</characteristic>
                   </characteristics>
                 </profile>
               </profiles>
@@ -12308,7 +12308,7 @@ Notez que si une unité avec une aptitude Shrewd Strategy est détruite pendant 
               <profiles>
                 <profile name="The Crouchling" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="76a7-5a76-9565-4eb7">
                   <characteristics>
-                    <characteristic name="Description" typeId="9b8f-694b-e5e-b573">**^^Patriarch^^** ou **^^Magus^^** figurine uniquement. Le porteur peut utiliser sa aptitude Psychique Familiar une fois de plus pendant la bataille (cela doit être dans des tours différents).</characteristic>
+                    <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Figurine **^^Patriarch^^** ou **^^Magus^^** uniquement. Le porteur peut utiliser son aptitude Psychic Familiar une fois supplémentaire durant la bataille ; les deux utilisations doivent avoir lieu durant des tours différents.</characteristic>
                   </characteristics>
                 </profile>
               </profiles>
@@ -12500,7 +12500,7 @@ Notez que si une unité avec une aptitude Shrewd Strategy est détruite pendant 
               <profiles>
                 <profile name="Wyrmtooth Rounds" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="08f6-70f5-eb9a-05cd">
                   <characteristics>
-                    <characteristic name="Description" typeId="9b8f-694b-e5e-b573">**^^Kelermorph^^** figurine uniquement. Une fois par bataille, dans votre phase de Tir, après que cette unité ait tiré, sélectionnez une unité ennemi (hors **^^Vehicles^^**) frappée par une ou plusieurs de ces attaques. Jusqu'à la fin de la bataille, cette unité ennemie est empoisonnée. Au début de chaque phase de Commandement, lancez un D6 pour chaque unité empoisonnée sur le champ de bataille: sur un 4+, cette unité souffre de Blessures Mortelles D3.</characteristic>
+                    <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Figurine **^^Kelermorph^^** uniquement. Une fois par bataille, durant votre phase de Tir, après que cette unité a tiré, sélectionnez une unité ennemie (à l’exclusion des **^^Vehicles^^**) touchée par une ou plusieurs de ces attaques. Jusqu’à la fin de la bataille, cette unité ennemie est empoisonnée. Au début de chaque phase de Commandement, lancez un D6 pour chaque unité empoisonnée sur le champ de bataille : sur 4+, cette unité subit D3 blessures mortelles.</characteristic>
                   </characteristics>
                 </profile>
               </profiles>
@@ -12543,7 +12543,7 @@ Notez que si une unité avec une aptitude Shrewd Strategy est détruite pendant 
               <profiles>
                 <profile name="Elixir of the Prime Specimen" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="355e-6f41-d0e2-8daf">
                   <characteristics>
-                    <characteristic name="Description" typeId="9b8f-694b-e5e-b573">**^^Biophagus^^** figurine uniquement. Le porteur peut utiliser sa aptitude Alchemicus Familiar une fois de plus pendant la bataille (cela doit être dans des tours différents).</characteristic>
+                    <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Figurine **^^Biophagus^^** uniquement. Le porteur peut utiliser son aptitude Alchemicus Familiar une fois supplémentaire durant la bataille ; ces deux utilisations doivent avoir lieu durant des tours différents.</characteristic>
                   </characteristics>
                 </profile>
               </profiles>
@@ -12586,7 +12586,7 @@ Notez que si une unité avec une aptitude Shrewd Strategy est détruite pendant 
               <profiles>
                 <profile name="Biomartyr Gland" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="e336-baa7-cfed-14f0">
                   <characteristics>
-                    <characteristic name="Description" typeId="9b8f-694b-e5e-b573">**^^Abominant^^** figurine uniquement. Pendant que le porteur mène une unité, chaque fois que vous lancez un D6 pour sa aptitude The Chosen One, ajoutez 1 au résultat.</characteristic>
+                    <characteristic name="Description" typeId="9b8f-694b-e5e-b573">**^^Abominant^^** figurine uniquement. Tant que le porteur mène une unité, chaque fois que vous lancez un D6 pour son aptitude The Chosen One, ajoutez 1 au résultat.</characteristic>
                   </characteristics>
                 </profile>
               </profiles>
@@ -12632,7 +12632,7 @@ Notez que si une unité avec une aptitude Shrewd Strategy est détruite pendant 
       <modifiers>
         <modifier type="set" value="true" field="hidden">
           <conditions>
-            <condition type="notInstanceOf" value="1" field="selections" scope="primary-catalogue" childId="7b3b-4dea-9367-98b1" shared="true" />
+            <condition type="notInstanceOf" value="1" field="selections" scope="primary-catalogue" childId="3bdf-a114-5035-c6ac" shared="true" />
           </conditions>
         </modifier>
         <modifier type="set" value="true" field="hidden">
@@ -12767,7 +12767,7 @@ Notez que si une unité avec une aptitude Shrewd Strategy est détruite pendant 
           <profiles>
             <profile name="Voice of New Truths" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="ffb6-eeb1-23c5-c483">
               <characteristics>
-                <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Dans votre phase de Commandement, une figurine de votre armée avec cette aptitude peut l'utiliser. Si c'est le cas, sélectionnez une unité ennemie à 18" ou moins; cette unité ennemie doit passer un test d’Ébranlement.</characteristic>
+                <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Dans votre phase de Commandement, une figurine de votre armée avec cette aptitude peut l'utiliser. Si c'est le cas, sélectionnez une unité ennemie à 18" ou moins de celui-ci; cette unité ennemie doit prendre un test d’Ébranlement.</characteristic>
               </characteristics>
             </profile>
           </profiles>
@@ -12776,7 +12776,7 @@ Notez que si une unité avec une aptitude Shrewd Strategy est détruite pendant 
           <profiles>
             <profile name="Blessed Venom" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="418c-2890-4e7b-6dd4">
               <characteristics>
-                <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Les armes Melee équipées de figurines de cette unité ont la aptitude **[ANTI-INFANTRY 3+]**</characteristic>
+                <characteristic name="Description" typeId="9b8f-694b-e5e-b573">armes de mêlée dont sont équipées les figurines de cette unité ont l’aptitude **[ANTI-INFANTRY 3+]**</characteristic>
               </characteristics>
             </profile>
           </profiles>
@@ -12788,7 +12788,7 @@ Notez que si une unité avec une aptitude Shrewd Strategy est détruite pendant 
           <profiles>
             <profile name="Elusive" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="2b7d-5d6d-ceca-9ed3">
               <characteristics>
-                <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Une fois par tour, lorsqu'une unité ennemie termine un mouvement Normal, Avance ou Battre en Retraite à 9" ou moins de cette figurine, si cette figurine n'est pas dans la Portée d’Engagement d'une ou de plusieurs unités ennemies, elle peut effectuer un mouvement Normal jusqu'à 6".</characteristic>
+                <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Une fois par tour, lorsqu’une unité ennemie termine un mouvement Normal, d’Avance ou de Retraite à 9" ou moins de cette figurine, si cette figurine n’est pas à Portée d’Engagement d’une ou plusieurs unités ennemies, elle peut effectuer un mouvement Normal de jusqu’à 6".</characteristic>
               </characteristics>
             </profile>
           </profiles>
@@ -12797,7 +12797,7 @@ Notez que si une unité avec une aptitude Shrewd Strategy est détruite pendant 
           <profiles>
             <profile name="Insidious Evasion" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="fb4a-7fb4-8d62-07be">
               <characteristics>
-                <characteristic name="Description" typeId="9b8f-694b-e5e-b573">À la fin de la phase de Combat de votre adversaire, si cette unité n'est pas dans la Portée d’Engagement d'aucune unité ennemie, une fois par bataille, vous pouvez retirer cette unité du champ de bataille et la placer dans les réserves stratégiques.</characteristic>
+                <characteristic name="Description" typeId="9b8f-694b-e5e-b573">À la fin de la phase de Combat de votre adversaire, si cette unité n'est pas à l'intérieur de Portée d’Engagement de n'importe quelle unité ennemie, Une fois par bataille, vous pouvez retirer cette unité du champ de bataille et la placer dans Réserves Stratégiques.</characteristic>
               </characteristics>
             </profile>
           </profiles>
@@ -12806,7 +12806,7 @@ Notez que si une unité avec une aptitude Shrewd Strategy est détruite pendant 
           <profiles>
             <profile name="Psychic Spoor" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="310a-9b8b-d0dc-b142">
               <characteristics>
-                <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Au début du premier tour de bataille, sélectionnez une unité ennemi pour être la proie de cette figurine. Chaque fois que cette figurine fait une attaque qui cible sa proie, vous pouvez relancer le jet de Touche et vous pouvez relancer le jet de Blessure.</characteristic>
+                <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Au début du premier tour de bataille, sélectionnez une unité ennemie pour être la proie de cette figurine. Chaque fois que cette figurine fait une attaque qui cible sa proie, vous pouvez relancer le jet de Touche et vous pouvez relancer le jet de Blessure.</characteristic>
               </characteristics>
             </profile>
           </profiles>
@@ -12815,7 +12815,7 @@ Notez que si une unité avec une aptitude Shrewd Strategy est détruite pendant 
           <profiles>
             <profile name="Shadow Killer" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="fa0d-e26f-11b5-ea47">
               <characteristics>
-                <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Si cette figurine ne fait pas partie d'une unité attachée et si cette figurine n'est équipé d'armes de tir (à l'exclusion des pistolets), les unités ennemies ne peuvent pas utiliser le Fire Overwatch Stratagème pour tirer sur cette figurine.</characteristic>
+                <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Si cette figurine ne fait pas partie d’une unité Attachée et qu’elle n’est équipée d’aucune arme de tir (à l’exclusion des Pistolets), les unités ennemies ne peuvent pas utiliser le Stratagème Fire Overwatch pour tirer sur cette figurine.</characteristic>
               </characteristics>
             </profile>
           </profiles>
@@ -12824,7 +12824,7 @@ Notez que si une unité avec une aptitude Shrewd Strategy est détruite pendant 
           <profiles>
             <profile name="Spiritual Leader" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="368c-5a16-a88d-53a0">
               <characteristics>
-                <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Une fois par bataille, au début de toute phase, vous pouvez sélectionner une unité **^^Genestealer Cults^^** amicale qui est Ébranlée et à 12" ou moins de cette figurine. Cette unité n'est plus Ébranlée.</characteristic>
+                <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Une fois par bataille, au début de toute phase, vous pouvez sélectionner une unité amicale **^^Genestealer Cults^^** qui est Ébranlé et à 12" ou moins de cette figurine. Cette unité n'est plus Ébranlé.</characteristic>
               </characteristics>
             </profile>
           </profiles>
@@ -12833,7 +12833,7 @@ Notez que si une unité avec une aptitude Shrewd Strategy est détruite pendant 
           <profiles>
             <profile name="Twisted Science" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="ddfc-0d10-302c-ac96">
               <characteristics>
-                <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Alors que cette figurine mène une unité, les armes de mêlée équipées de figurines dans cette unité ont la aptitude **[LETHAL HITS]**.</characteristic>
+                <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Tant que cette figurine mène une unité, les armes de mêlée dont les figurines de cette unité sont équipées ont l’aptitude **[LETHAL HITS]**.</characteristic>
               </characteristics>
             </profile>
           </profiles>
@@ -12995,7 +12995,7 @@ Notez que si une unité avec une aptitude Shrewd Strategy est détruite pendant 
               </profiles>
               <rules>
                 <rule name="Tir Unique" id="4ff2-e851-92a5-aaa7" hidden="false">
-                  <description>Le porteur ne peut tirer qu'une seule fois par bataille.</description>
+                  <description>.le porteur peut seulement tirer avec cette arme Une fois par bataille</description>
                 </rule>
               </rules>
               <infoLinks>

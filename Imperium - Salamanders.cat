@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue xmlns="http://www.battlescribe.net/schema/catalogueSchema" library="false" id="c8f8-418a-8845-9104" name="Imperium - Adeptus Astartes - Salamanders" gameSystemId="sys-0e45-705d-f6bc-806a" gameSystemRevision="1" revision="17" battleScribeVersion="2.03" type="catalogue">
+<catalogue xmlns="http://www.battlescribe.net/schema/catalogueSchema" library="false" id="2261-79a5-19d9-1668" name="Imperium - Adeptus Astartes - Salamanders" gameSystemId="sys-352e-adc2-7639-d6a9" gameSystemRevision="1" revision="17" battleScribeVersion="2.03" type="catalogue">
   <catalogueLinks>
-    <catalogueLink type="catalogue" name="Imperium - Space Marines" id="8bc3-7260-40f5-5674" targetId="c64a-a8a4-fe12-90fd" importRootEntries="true" />
-    <catalogueLink type="catalogue" name="Imperium - Imperial Knights - Library" id="3100-654a-4c35-f95c" targetId="1787-6721-8649-a4a8" />
-    <catalogueLink type="catalogue" name="Imperium - Agents of the Imperium" id="661e-916a-c8ec-22a3" targetId="58ea-21f3-3da9-74dd" importRootEntries="true" />
+    <catalogueLink type="catalogue" name="Imperium - Space Marines" id="8bc3-7260-40f5-5674" targetId="e0af-67df-9d63-8fb7" importRootEntries="true" />
+    <catalogueLink type="catalogue" name="Imperium - Imperial Knights - Library" id="3100-654a-4c35-f95c" targetId="1b6d-dc06-5db9-c7d1" />
+    <catalogueLink type="catalogue" name="Imperium - Agents of the Imperium" id="661e-916a-c8ec-22a3" targetId="b00-cd86-4b4c-97ba" importRootEntries="true" />
   </catalogueLinks>
   <categoryEntries>
     <categoryEntry name="Adrax Agatone" hidden="false" id="fca1-9ff0-bf21-b99f" />
@@ -40,7 +40,7 @@
         </profile>
         <profile name="Unto the Anvil" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="5a40-93b3-6c2a-f7cb">
           <characteristics>
-            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Pendant que cette figurine mène une unité, chaque fois qu'une figurine dans cette unité fait une attaque de mêlée, vous pouvez relancer le jet de Blessure.</characteristic>
+            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Alors que cette figurine conduit une unité, chaque fois qu'une figurine dans cette unité fait une attaque de mêlée, vous pouvez relancer le jet de Blessure.</characteristic>
           </characteristics>
         </profile>
         <profile name="Lord of the Pyroclasts" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="68e4-3da0-f6ab-8624">
@@ -137,12 +137,12 @@
         </profile>
         <profile name="Forgefather" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="b423-2ef4-b87c-b65d">
           <characteristics>
-            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Dans votre phase de Tir, sélectionnez une unité ennemie à 24" ou moins et visible pour cette figurine. Jusqu'à la fin de la phase, chaque fois qu'une figurine d'Adeptus Astartes fait une attaque de tir avec une arme Torrent ou Fusion qui cible cette unité ennemie, vous pouvez relancer le jet de Blessure</characteristic>
+            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Dans votre phase de Tir, sélectionnez une unité ennemie à 24" ou moins et visible à cette figurine. Jusqu'à la fin de la phase, chaque fois qu'un ami Adeptus Astartes figurine fait une attaque de tir avec une arme Torrent ou Fusion qui cible que cette unité ennemie, vous pouvez relancer le jet de Blessure</characteristic>
           </characteristics>
         </profile>
         <profile name="Seeker of the Unfound" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="22fa-126d-31e4-6a5a">
           <characteristics>
-            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">La première fois que cette figurine est installé sur le champ de bataille, sélectionnez un marqueur objectif sur le champ de bataille. Tant que cette figurine est dans la plage de ce marqueur objectif, il possède une caractéristique de Contrôle d’Objectif de 10, une caractéristique de Commandement de 5+ et la aptitude Insensible à la douleur 4+.</characteristic>
+            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">La première fois que cette figurine est placée sur le champ de bataille, sélectionnez un pion d’objectif sur le champ de bataille. Tant que cette figurine est à portée de ce pion d’objectif, elle a une caractéristique de Contrôle d’Objectif de 10, une caractéristique de Commandement de 5+ et l’aptitude Insensible à la Douleur 4+.</characteristic>
           </characteristics>
         </profile>
         <profile name="Meneur" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="56bf-fb53-c81d-ff4a">
@@ -157,7 +157,7 @@
         </profile>
         <profile name="Inspiring Commander" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="e0e5-8c3a-3455-4d30">
           <characteristics>
-            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Si vous incluez cette figurine dans votre armée, jusqu'à la fin de la bataille, les figurines non-Character dans les unités Infernus Squad de votre armée ont une caractéristique de Contrôle d’Objectif de 2 alors qu'ils ne sont pas Ébranlées.</characteristic>
+            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Si vous incluez cette figurine dans votre armée, jusqu'à la fin de la bataille, non-Character figurines dans Infernus Squad unités de votre armée ont une caractéristique de Contrôle d’Objectif de 2 alors qu'ils ne sont pas Ébranlé.</characteristic>
           </characteristics>
         </profile>
       </profiles>

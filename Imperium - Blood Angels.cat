@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue xmlns="http://www.battlescribe.net/schema/catalogueSchema" library="false" id="734c-cdf6-c1bb-1c60" name="Imperium - Adeptus Astartes - Blood Angels" gameSystemId="sys-0e45-705d-f6bc-806a" gameSystemRevision="1" revision="80" battleScribeVersion="2.03" type="catalogue" authorName="Acebaur">
+<catalogue xmlns="http://www.battlescribe.net/schema/catalogueSchema" library="false" id="4ef9-15ce-e3e6-36de" name="Imperium - Adeptus Astartes - Blood Angels" gameSystemId="sys-352e-adc2-7639-d6a9" gameSystemRevision="1" revision="80" battleScribeVersion="2.03" type="catalogue" authorName="Acebaur">
   <catalogueLinks>
-    <catalogueLink type="catalogue" name="Imperium - Space Marines" id="abd0-8ebd-6fbd-2d94" targetId="c64a-a8a4-fe12-90fd" importRootEntries="true" />
-    <catalogueLink type="catalogue" name="Imperium - Imperial Knights - Library" id="9c08-8ffc-d746-7384" targetId="1787-6721-8649-a4a8" importRootEntries="true" />
-    <catalogueLink type="catalogue" name="Imperium - Agents of the Imperium" id="d012-8d6a-860f-79f0" targetId="58ea-21f3-3da9-74dd" importRootEntries="true" />
+    <catalogueLink type="catalogue" name="Imperium - Space Marines" id="abd0-8ebd-6fbd-2d94" targetId="e0af-67df-9d63-8fb7" importRootEntries="true" />
+    <catalogueLink type="catalogue" name="Imperium - Imperial Knights - Library" id="9c08-8ffc-d746-7384" targetId="1b6d-dc06-5db9-c7d1" importRootEntries="true" />
+    <catalogueLink type="catalogue" name="Imperium - Agents of the Imperium" id="d012-8d6a-860f-79f0" targetId="b00-cd86-4b4c-97ba" importRootEntries="true" />
   </catalogueLinks>
   <sharedSelectionEntries>
     <selectionEntry type="model" import="true" name="Astorath" hidden="false" id="f943-72c8-581c-e6f2">
@@ -36,12 +36,12 @@
         </profile>
         <profile name="Redeemer of the Lost" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="c5e1-99a6-a51e-251e">
           <characteristics>
-            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Alors que cette figurine mène une unité, chaque fois qu'une figurine dans cette unité est détruite par une attaque de mêlée, si cette figurine n'a pas combattu cette phase, lancez un D6. Sur un 4+, ne le retirez pas du jeu; cette figurine détruit peut se battre après que l'unité de la figurine attaquant a terminé ses attaques, et est ensuite retiré du jeu.</characteristic>
+            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Tant que cette figurine mène une unité, chaque fois qu’une figurine de cette unité est détruite par une attaque de mêlée, si cette figurine n’a pas combattu à cette phase, lancez un D6. Sur 4+, ne la retirez pas du jeu ; cette figurine détruite peut combattre une fois que l’unité de la figurine attaquante a fini de résoudre ses attaques, puis elle est retirée du jeu.</characteristic>
           </characteristics>
         </profile>
         <profile name="Mass of Doom" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="2cc0-3a51-cd4f-429e">
           <characteristics>
-            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Chaque fois que l’unité de cette figurine effectue un déplacement de charge, jusqu'à la fin du tour, les armes de mêlée équipées de figurines de cette unité ont la aptitude [Blessures dévastatrices].</characteristic>
+            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Chaque fois que l’unité de cette figurine effectue un mouvement de Charge, jusqu’à la fin du tour, les armes de mêlée dont sont équipées les figurines de cette unité ont l’aptitude [Blessures dévastatrices].</characteristic>
           </characteristics>
         </profile>
         <profile name="Meneur" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="7ee0-8183-ece2-25c9">
@@ -156,7 +156,7 @@
         </profile>
         <profile name="Overcharged Engines" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="acf-498-6031-bf2f">
           <characteristics>
-            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Vous pouvez relancer les jets d’Avance faits pour cette figurine.</characteristic>
+            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Vous pouvez relancer les jets d’Avance effectués pour cette figurine.</characteristic>
           </characteristics>
         </profile>
       </profiles>
@@ -432,12 +432,12 @@
         </profile>
         <profile name="Sanguinary Priest" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="997a-75ae-da4b-a534">
           <characteristics>
-            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Alors que cette figurine mène une unité, les figurines de cette unité ont la aptitude Insensible à la douleur 5+.</characteristic>
+            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Alors que cette figurine mène une unité, les figurines de cette unité ont l’aptitude Insensible à la douleur 5+.</characteristic>
           </characteristics>
         </profile>
         <profile name="The Red Grail" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="ba5c-785b-b694-3943">
           <characteristics>
-            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Pendant que cette figurine mène une unité, ajoutez 1 aux caractéristique d’Attaques des armes de mêlée équipées de figurines de cette unité.</characteristic>
+            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Pendant que cette figurine mène une unité, ajoutez 1 à la caractéristique d’Attaques d’armes de mêlée équipée par les figurines de cette unité.</characteristic>
           </characteristics>
         </profile>
         <profile name="Meneur" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="1a2a-a768-270-a49b">
@@ -561,7 +561,7 @@
         </profile>
         <profile name="Gifted Commander" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="f81-2576-e3dd-1a7">
           <characteristics>
-            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Pendant que cette figurine mène une unité, chaque fois que cette unité est sélectionnée pour tirer, sélectionnez l'une des capacités suivantes à appliquer aux armes de tir équipées par des figurines dans cette unité jusqu'à la fin de la phase:
+            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Tant que cette figurine mène une unité, chaque fois que cette unité est sélectionnée pour tirer, sélectionnez l’une des aptitudes suivantes à appliquer aux armes de tir dont sont équipées les figurines de cette unité jusqu’à la fin de la phase :
 
 
 ■ [Assaut]
@@ -571,7 +571,7 @@
         </profile>
         <profile name="Embittered" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="4941-ff7-a233-6730">
           <characteristics>
-            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">La première fois qu'une attaque est attribuée à cette figurine, après que l'unité d'attaque ait terminé d'effectuer ses attaques, jusqu'à la fin de la bataille, changez la caractéristique d’Attaques de cette figurine Dead Mans Hand à 12</characteristic>
+            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">La première fois qu’une attaque est allouée à cette figurine, après que l’unité attaquante a fini d’effectuer ses attaques, jusqu’à la fin de la bataille, remplacez par 12 la caractéristique d’Attaques du Dead Man’s Hand de cette figurine.</characteristic>
           </characteristics>
         </profile>
         <profile name="Meneur" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="9a2c-4043-5435-40ea">
@@ -714,12 +714,12 @@
         </profile>
         <profile name="Forlorn Hero" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="5fd1-7d5a-c19a-64db">
           <characteristics>
-            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Alors que cette figurine mène une unité, cette unité est éligible à déclarer une charge à un tour dans lequel elle</characteristic>
+            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Tant que cette figurine mène une unité, cette unité est éligible pour déclarer une charge durant un tour où elle a Avancé</characteristic>
           </characteristics>
         </profile>
         <profile name="Death Visions of Sanguinius" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="6d90-b55-d2b0-6522">
           <characteristics>
-            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Si cette figurine est détruit par une attaque de mêlée, après que l'unité attaquante ait terminé ses attaques, vous pouvez rouler un D6, ajoutant 2 au résultat si l'unité attaquante contient le Seigneur de la Guerre ennemi: sur un 2-3, cette unité ennemie subit 3 Blessures Mortelles; sur un 4-5, cette unité ennemie subit D3+3 Blessures Mortelles; sur un 6+, cette unité subit D6+3 Blessures Mortelles ennemies.</characteristic>
+            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Si cette figurine est détruite par une attaque de mêlée, après que l’unité attaquante a terminé d’effectuer ses attaques, vous pouvez lancer un D6, en ajoutant 2 au résultat si l’unité attaquante contient le Warlord ennemi : sur 2-3, cette unité ennemie subit 3 blessures mortelles ; sur 4-5, elle subit D3+3 blessures mortelles ; sur 6+, elle subit D6+3 blessures mortelles.</characteristic>
           </characteristics>
         </profile>
         <profile name="Tycho" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="601e-dad9-348b-4ceb">
@@ -800,12 +800,12 @@
         </profile>
         <profile name="The Quickening [Psychic]" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="f775-5667-be0b-35bc">
           <characteristics>
-            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">cette figurine est admissible à déclarer une charge à un tour qu'il avance.</characteristic>
+            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">cette figurine est admissible à déclarer une charge à un tour qu'il a avancé.</characteristic>
           </characteristics>
         </profile>
         <profile name="Transfixing Gaze [Aura, Psychic]" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="b48f-aef0-7aa9-3500">
           <characteristics>
-            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Alors qu'une unité ennemie est à 6" ou moins de cette figurine, chaque fois que cette unité est sélectionnée pour Battre en Retraite, elle doit passer un test de Commandement. Si ce test échoue, cette unité doit rester stationnaire cette phase à la place.</characteristic>
+            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Tant qu’une unité ennemie est à 6" ou moins de cette figurine, chaque fois que cette unité est sélectionnée pour Battre en Retraite, elle doit effectuer un test de Commandement. Si ce test échoue, cette unité doit à la place Rester Stationnaire durant cette phase.</characteristic>
           </characteristics>
         </profile>
         <profile name="Invulnerable Save 5+" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="b2e5-6730-a3c2-8011">
@@ -930,12 +930,12 @@
         </profile>
         <profile name="Death Mask of Sanguinius" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="edcb-c05a-9bcb-12c7">
           <characteristics>
-            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Au début de la phase de Combat, chaque unité ennemie à 6" ou moins de cette figurine doit passer un test d’Ébranlement, en soustrayant 1 de ce test lorsqu'elle le fait</characteristic>
+            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Au début de la phase de Combat, chaque unité ennemie à 6" ou moins de cette figurine doit effectuer un test d’Ébranlement, en soustrayant 1 à ce test lorsqu’elle le fait.</characteristic>
           </characteristics>
         </profile>
         <profile name="Lord Regent of the Imperium Nihilus" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="56e5-d5ec-38c6-e113">
           <characteristics>
-            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Pendant que cette figurine conduit une unité, ajoutez 1 aux jets d’Avance et de Charge faits pour cette unité et chaque fois qu'une figurine dans cette unité fait une attaque, ajoutez 1 au jet de Touche.</characteristic>
+            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Tant que cette figurine mène une unité, ajoutez 1 aux jets d’Avance et de Charge effectués pour cette unité et, chaque fois qu’une figurine de cette unité effectue une attaque, ajoutez 1 au jet de Touche.</characteristic>
           </characteristics>
         </profile>
         <profile name="Meneur" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="b139-df4f-7162-cce8">
@@ -1056,12 +1056,12 @@
         </profile>
         <profile name="Frenzied Reprisal" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="2933-487d-d513-21d9">
           <characteristics>
-            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Chaque fois qu'une unité ennemie cible cette figurine, après que cette unité ait terminé ses attaques, cette figurine peut soit tirer comme si c'était votre phase de Tir ou se battre comme si c'était la phase de Combat.</characteristic>
+            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Chaque fois qu’une unité ennemie cible cette figurine, une fois que cette unité a fini de résoudre ses attaques, cette figurine peut soit tirer comme s’il s’agissait de votre phase de Tir, soit combattre comme s’il s’agissait de la phase de Combat.</characteristic>
           </characteristics>
         </profile>
         <profile name="Magna-grapple" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="bdca-ea55-dd4a-8d3f">
           <characteristics>
-            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Ajoutez 2 aux jets de Charge faits pour le porteur si l'une ou plusieurs des cibles de cette charge est une unité MOSNTER ou VEHICLE.</characteristic>
+            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Ajoutez 2 aux jets de Charge effectués pour le porteur si une ou plusieurs cibles de cette charge sont des unités MOSNTER ou VEHICLE.</characteristic>
           </characteristics>
           <modifiers>
             <modifier type="set" value="true" field="hidden">
@@ -1631,7 +1631,7 @@
         </profile>
         <profile name="An Honourable Death in Combat" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="5b90-43fc-7d4c-513e">
           <characteristics>
-            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Chaque fois qu'une figurine dans cette unité effectue une attaque, cette attaque a la aptitude [Touches soutenues 1] si cette unité est inférieure à son Effectif Initial, ou la aptitude [Touches soutenues 2] si cette unité est en dessous de son Demi-effectif.</characteristic>
+            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Chaque fois qu'une figurine dans cette unité effectue une attaque, cette attaque a l’aptitude [Touches soutenues 1] si cette unité est inférieure à son Effectif Initial, ou l’aptitude [Touches soutenues 2] si cette unité est En Dessous de son Demi-effectif.</characteristic>
           </characteristics>
         </profile>
         <profile name="Attached Leader" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="40bf-8f05-f081-8fe0">
@@ -1859,7 +1859,7 @@ Si une unité Character de votre armée dotée de l’aptitude Meneur peut être
         </profile>
         <profile name="Savage Fury" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="6353-b576-82ad-a3fb">
           <characteristics>
-            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Vous pouvez relancer les jets de Charge faits pour cette unité.</characteristic>
+            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Vous pouvez relancer les jets de Charge effectués pour cette unité.</characteristic>
           </characteristics>
         </profile>
         <profile name="Attached Unit" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="fa3d-61ea-538d-3a98">
@@ -2270,7 +2270,7 @@ Si une unité Character de votre armée dotée de l’aptitude Meneur peut être
         </profile>
         <profile name="Wrathful Rampage" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="8cf6-e018-6131-88d1">
           <characteristics>
-            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Chaque fois que cette figurine est sélectionné pour combattre, vous pouvez sélectionner une unité ennemi dans la Portée d’Engagement de celui-ci et lancez un D6, ajoutant 2 au résultat si cette figurine a fait un effectuer un mouvement de Charge ce tour: sur un 4-5, cette unité ennemi subit D3 Blessures Mortelles; sur un 6+, cette unité ennemi subit 3 Blessures Mortelles.</characteristic>
+            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Chaque fois que cette figurine est sélectionnée pour combattre, vous pouvez sélectionner une unité ennemie dans Portée d’Engagement de celui-ci et lancez un D6, ajoutant 2 au résultat si cette figurine a fait un mouvement de Charge ce tour: sur un 4-5, que cette unité ennemie souffre D3 Blessures Mortelles; sur un 6+, que WhAnT00009X souffre 3 Blessures Mortelles.</characteristic>
           </characteristics>
         </profile>
       </profiles>
@@ -2584,7 +2584,7 @@ Si une unité Character de votre armée dotée de l’aptitude Meneur peut être
       <profiles>
         <profile name="Magna-grapple" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="c5b0-88dc-12d1-c106">
           <characteristics>
-            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Le porteur perd le mot-clé Smoke, mais ajoute 2 aux jets de Charge faits pour le porteur si une ou plusieurs des cibles de cette charge est une unité Monster ou Vehicle</characteristic>
+            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Le porteur perd le mot-clé Smoke, mais ajoutez 2 aux jets de Charge effectués pour le porteur si une ou plusieurs cibles de cette charge sont des unités Monster ou Vehicle.</characteristic>
           </characteristics>
         </profile>
       </profiles>
@@ -2658,12 +2658,12 @@ Si une unité Character de votre armée dotée de l’aptitude Meneur peut être
         </profile>
         <profile name="Lord of Slaughter" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="82e7-b329-1f35-91e7">
           <characteristics>
-            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Alors que cette figurine mène une unité, cette unité est éligible à déclarer une charge à un tour dans lequel elle</characteristic>
+            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Tant que cette figurine mène une unité, cette unité est éligible pour déclarer une charge durant un tour où elle a Avancé.</characteristic>
           </characteristics>
         </profile>
         <profile name="Whirlwind of Rage" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="6ff5-66f5-8a9f-2834">
           <characteristics>
-            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Chaque fois que cette figurine se bat, jusqu'à ce que ce combat soit résolu, ajoutez 1 aux caractéristique d’Attaques de ce figurines Blood Reaver pour chaque figurine ennemie 5 à 6" ou moins de cette figurine.</characteristic>
+            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Chaque fois que cette figurine combat, jusqu’à la résolution de ce combat, ajoutez 1 à la caractéristique d’Attaques du Blood Reaver de cette figurine pour chaque tranche de 5 figurines ennemies à 6" ou moins de cette figurine.</characteristic>
           </characteristics>
         </profile>
         <profile name="Meneur" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="4be3-3742-bb89-5787">
@@ -2808,7 +2808,7 @@ Si une unité Character de votre armée dotée de l’aptitude Meneur peut être
         </profile>
         <profile name="Fury Unbound" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="3863-f078-be63-9230">
           <characteristics>
-            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Alors que cette figurine mène une unité, les armes de mêlée équipées de figurines dans cette unité ont la aptitude [Touches fatales].</characteristic>
+            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Alors que cette figurine mène une unité, les armes de mêlée équipées des figurines de cette unité ont l’aptitude [Touches fatales].</characteristic>
           </characteristics>
         </profile>
         <profile name="Meneur" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="b59a-25b8-9dc3-3f25">
@@ -2905,13 +2905,13 @@ Si une unité Character de votre armée dotée de l’aptitude Meneur peut être
         </profile>
         <profile name="Shield of Sanguinius (Aura, Psychic)" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="701b-9655-4af1-e452">
           <characteristics>
-            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Alors qu'une unité amicale Adeptus Astartes est à 6" ou moins de cette figurine, les figurines de cette unité ont la aptitude Insensible à la douleur 5+ contre les Blessures Mortelles et attaques Psychiques.</characteristic>
+            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Alors qu'une unité amicale d'Adeptus Astartes est à 6" ou moins de cette figurine, les figurines de cette unité ont l’aptitude Insensible à la douleur 5+ contre les Blessures Mortelles et attaques Psychiques.</characteristic>
           </characteristics>
         </profile>
         <profile name="Wings of Sanguinius (Psychic)" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="78af-53ce-b84c-2b1e">
           <characteristics>
-            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Une fois par tour, à la fin de votre phase de Mouvement, un Psyker de votre armée avec cette aptitude peut l'utiliser. Si c'est le cas, lancez un D6: sur une 1, que Psyker souffre D3 Blessures Mortelles; sur une 2+, sélectionnez une unité d'infanterie Adeptus Astartes amicale à 12" ou moins de ce Psyker et retirez l'unité sélectionnée du champ de bataille, puis réinstallez-la n'importe où sur le champ de bataille qui est plus que 9"
-horizontalement loin de tous les figurines ennemies.</characteristic>
+            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Une fois par tour, à la fin de votre phase de Mouvement, un Psyker de votre armée avec cette aptitude peut l'utiliser. Si c'est le cas, lancez un D6: sur un 1, que Psyker souffre D3 Blessures Mortelles; sur un 2+, sélectionnez une unité d'infanterie adéquate Adeptus Astartes à 12" ou moins de ce Psyker et retirez l'unité sélectionnée du champ de bataille, puis réinstallez-la n'importe où sur le champ de bataille qui est plus que 9"
+horizontalement éloigné de tous les ennemis.</characteristic>
           </characteristics>
         </profile>
       </profiles>
@@ -3173,7 +3173,7 @@ horizontalement loin de tous les figurines ennemies.</characteristic>
         </profile>
         <profile name="Heirs of Azkaellon" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="48cf-9858-89c4-f598">
           <characteristics>
-            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Pendant qu'une figurine de personnage dirige cette unité, chaque fois qu'une attaque au corps à corps vise cette unité, Soustrayez 1 du jet de Blessure.</characteristic>
+            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Alors qu'un caractère figurine dirige cette unité, chaque fois qu'une attaque de mêlée cible cette unité, Soustrayez 1 du jet de Blessure.</characteristic>
           </characteristics>
         </profile>
         <profile name="Attached Unit" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="62ff-e5e0-9783-7024">
@@ -3446,17 +3446,17 @@ horizontalement loin de tous les figurines ennemies.</characteristic>
         </profile>
         <profile name="Sanguinary Priest" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="bb06-73be-d05e-4541">
           <characteristics>
-            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Alors que cette figurine conduit une unité, les figurines de cette unité ont la aptitude Insensible à la douleur 5+</characteristic>
+            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Alors que cette figurine conduit une unité, les figurines de cette unité ont l’aptitude Insensible à la douleur 5+</characteristic>
           </characteristics>
         </profile>
         <profile name="Blood Chalice" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="2271-e1ab-2fb9-93c5">
           <characteristics>
-            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Pendant que cette figurine mène une unité, Améliorez la caractéristique de Pénétration d’Armure des armes de mêlée équipées par des figurines dans cette unité de 1.</characteristic>
+            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Tant que cette figurine mène une unité, améliorez de 1 la caractéristique de Pénétration d’Armure des armes de mêlée dont sont équipées les figurines de cette unité.</characteristic>
           </characteristics>
         </profile>
         <profile name="Meneur" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="5d3b-5258-5aad-75ca">
           <characteristics>
-            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Cette figurine peut être attachée aux unités suivantes:
+            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Cette figurine peut être attachée aux unités suivantes : 
 - **^^Assault Intercessor Squad^^**
 - **^^Bladeguard Veteran Squad^^**
 - **^^Desolation Squad^^**
@@ -3468,7 +3468,7 @@ horizontalement loin de tous les figurines ennemies.</characteristic>
 - **^^Sternguard Veteran Squad^^**
 
 
-Vous pouvez attacher cette figurine à l'une des unités ci-dessus, même si une figurine **^^Captain, Chapter Master^^** ou **^^Lieutenant**^^ a déjà été attaché. Si vous le faites, et que l'unité Bodyguard est détruite, les unités Meneur attachés à elle deviennent des unités séparées, avec leur Effectif Initial d’origine</characteristic>
+Vous pouvez attacher cette figurine à l’une des unités ci-dessus, même si une figurine **^^Captain, Chapter Master^^** ou **^^Lieutenant**^^ lui a déjà été attachée. Si vous le faites et que cette unité Bodyguard est détruite, les unités Leader qui lui sont attachées deviennent des unités distinctes, avec leur Effectif Initial d’origine</characteristic>
           </characteristics>
         </profile>
       </profiles>
@@ -3613,12 +3613,12 @@ Vous pouvez attacher cette figurine à l'une des unités ci-dessus, même si une
         </profile>
         <profile name="Aura of Fervour (Aura)" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="a3b2-4a68-fe8f-f5fa">
           <characteristics>
-            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Alors qu'une unité amicale d'Adeptus Astartes est à 6" ou moins de cette figurine, vous pouvez relancer les tests d’Ébranlement et de Commandement pris pour cette unité</characteristic>
+            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Tant qu’une unité Adeptus Astartes amie est à 6" ou moins de cette figurine, vous pouvez relancer les tests d’Ébranlement et de Commandement effectués pour cette unité</characteristic>
           </characteristics>
         </profile>
         <profile name="Miraculous Savior" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="9c8e-d8c0-5604-60f0">
           <characteristics>
-            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Une fois par bataille, à la fin de la phase de Charge de votre adversaire, si cette figurine est toujours en Réserves, vous pouvez sélectionner une unité ennemie qui a fait un Charge déplacer cette phase. Mettez cette figurine sur le champ de bataille dans la Portée d’Engagement de cette unité ennemie.</characteristic>
+            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Une fois par bataille, à la fin de votre adversaire s phase de Charge, si cette figurine est encore dans les réserves, vous pouvez sélectionner une unité ennemie qui a fait un mouvement de Charge cette phase. Mettez cette figurine sur le champ de bataille dans l'engagement Portée de cette unité ennemie.</characteristic>
           </characteristics>
         </profile>
       </profiles>
@@ -3713,12 +3713,12 @@ Vous pouvez attacher cette figurine à l'une des unités ci-dessus, même si une
         </profile>
         <profile name="Sanguinary Priest" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="a752-2aba-3ea3-4da8">
           <characteristics>
-            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Alors que cette figurine conduit une unité, les figurines de cette unité ont la aptitude Insensible à la douleur 5+</characteristic>
+            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Alors que cette figurine conduit une unité, les figurines de cette unité ont l’aptitude Insensible à la douleur 5+</characteristic>
           </characteristics>
         </profile>
         <profile name="Blood Chalice" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="4652-4462-711c-484c">
           <characteristics>
-            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Pendant que cette figurine mène une unité, Améliorez la caractéristique de Pénétration d’Armure des armes de mêlée équipées par des figurines dans cette unité de 1.</characteristic>
+            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Tant que cette figurine mène une unité, améliorez de 1 la caractéristique de Pénétration d’Armure des armes de mêlée dont sont équipées les figurines de cette unité.</characteristic>
           </characteristics>
         </profile>
         <profile name="Meneur" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="c994-11e8-ea71-2324">
@@ -3729,7 +3729,7 @@ Vous pouvez attacher cette figurine à l'une des unités ci-dessus, même si une
 ■ Vanguard Veteran Squad with Jump packs
 ■ Assault Intercessors with Jump Packs
 
-Vous pouvez attacher cette figurine à l'une des unités ci-dessus, même si une figurine Captain, Chapter Master ou Lieutenant a déjà été attaché. Si vous le faites, et que l'unité Bodyguard est détruite, les unités Meneur attachées à elle deviennent des unités séparées, avec leur Effectif Initial d’origine.</characteristic>
+Vous pouvez attacher cette figurine à l'une des unités ci-dessus, même si un Captain, Chapter Master ou Lieutenant figurine y a déjà été attaché. Si vous le faites, et que l'unité Bodyguard est détruite, les unités Meneur attachés à elle deviennent des unités séparées, avec leur original Effectifs Initiaux.</characteristic>
           </characteristics>
         </profile>
       </profiles>
@@ -3902,7 +3902,7 @@ Vous pouvez attacher cette figurine à l'une des unités ci-dessus, même si une
       <profiles>
         <profile name="Blood Chalice" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="2445-e8cc-6cb1-80f4">
           <characteristics>
-            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Pendant que cette figurine mène une unité, Améliorez la caractéristique de Pénétration d’Armure des armes de mêlée équipées par des figurines dans cette unité de 1.</characteristic>
+            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Tant que cette figurine mène une unité, améliorez de 1 la caractéristique de Pénétration d’Armure des armes de mêlée dont sont équipées les figurines de cette unité.</characteristic>
           </characteristics>
         </profile>
         <profile name="Meneur" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="4a66-2580-e1a0-b4c2">
@@ -3915,7 +3915,7 @@ Vous pouvez attacher cette figurine à l'une des unités ci-dessus, même si une
         </profile>
         <profile name="Sanguinary Priest" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="76a3-866c-256-fa24">
           <characteristics>
-            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Alors que cette figurine conduit une unité, les figurines de cette unité ont la aptitude Insensible à la douleur 5+</characteristic>
+            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Alors que cette figurine conduit une unité, les figurines de cette unité ont l’aptitude Insensible à la douleur 5+</characteristic>
           </characteristics>
         </profile>
         <profile name="Sanguinary Priest on Bike" typeId="c547-1836-d8a-ff4f" typeName="Unit" hidden="false" id="5a50-3301-55a4-ba52">
@@ -4454,12 +4454,12 @@ Vous pouvez attacher cette figurine à l'une des unités ci-dessus, même si une
         </profile>
         <profile name="Forlorn Hero" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="064b-d740-a982-6678">
           <characteristics>
-            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Alors que cette figurine mène une unité, à moins que cette unité ne commence la bataille embarquée dans un Transport, les figurines de cette unité ont la aptitude Éclaireurs 6"</characteristic>
+            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Alors que cette figurine est à la tête d'une unité, à moins que cette unité commence la bataille engagée dans un Transport, les figurines de cette unité ont l’aptitude Éclaireurs 6"</characteristic>
           </characteristics>
         </profile>
         <profile name="Death Vision of Sanguinius" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="b276-0bcd-8baf-3c14">
           <characteristics>
-            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Si cette figurine est détruit par une attaque de mêlée, après que l'unité attaquante ait terminé d'effectuer ses attaques, vous pouvez rouler un D6, ajoutant 2 au résultat si l'unité attaquante contient l'ennemi Warlord. Sur un 2-3, cette unité ennemie subit D3 Blessures Mortelles; sur un 4-5, cette unité ennemie subit 3 Blessures Mortelles; sur un 6+ cette unité ennemie subit D3+3 Blessures Mortelles.</characteristic>
+            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Si cette figurine est détruite par une attaque de mêlée, une fois que l’unité attaquante a fini de résoudre ses attaques, vous pouvez lancer un D6, en ajoutant 2 au résultat si l’unité attaquante contient le Warlord ennemi. Sur 2-3, cette unité ennemie subit D3 blessures mortelles ; sur 4-5, cette unité ennemie subit 3 blessures mortelles ; sur 6+, cette unité ennemie subit D3+3 blessures mortelles.</characteristic>
           </characteristics>
         </profile>
       </profiles>
@@ -4628,7 +4628,7 @@ Vous pouvez attacher cette figurine à l'une des unités ci-dessus, même si une
       <profiles>
         <profile name="Death Vision of Sanguinius" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="165c-259e-fbfe-4298">
           <characteristics>
-            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Si cette figurine est détruit par une attaque de mêlée, après que l'unité attaquante ait terminé d'effectuer ses attaques, vous pouvez rouler un D6, ajoutant 2 au résultat si l'unité attaquante contient l'ennemi Warlord. Sur un 2-3, cette unité ennemie subit D3 Blessures Mortelles; sur un 4-5, cette unité ennemie subit 3 Blessures Mortelles; sur un 6+ cette unité ennemie subit D3+3 Blessures Mortelles.</characteristic>
+            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Si cette figurine est détruite par une attaque de mêlée, une fois que l’unité attaquante a fini de résoudre ses attaques, vous pouvez lancer un D6, en ajoutant 2 au résultat si l’unité attaquante contient le Warlord ennemi. Sur 2-3, cette unité ennemie subit D3 blessures mortelles ; sur 4-5, cette unité ennemie subit 3 blessures mortelles ; sur 6+, cette unité ennemie subit D3+3 blessures mortelles.</characteristic>
           </characteristics>
         </profile>
         <profile name="Death Company Captain with Jump Pack" typeId="c547-1836-d8a-ff4f" typeName="Unit" hidden="false" id="7c67-3ef1-6e01-f830">
@@ -4643,7 +4643,7 @@ Vous pouvez attacher cette figurine à l'une des unités ci-dessus, même si une
         </profile>
         <profile name="Lost to Fury" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="2569-0de4-1748-b6da">
           <characteristics>
-            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Lorsque cette figurine conduit une unité, les armes de mêlée équipées par des figurines dans cette unité ont la aptitude [Touches soutenues 1]</characteristic>
+            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Tant que cette figurine mène une unité, les armes de mêlée dont les figurines de cette unité sont équipées ont l’aptitude [SUSTAINED HITS 1]</characteristic>
           </characteristics>
         </profile>
         <profile name="Meneur" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="38fc-ca21-107e-ed79">
@@ -5305,7 +5305,7 @@ Vous pouvez attacher cette figurine à l'une des unités ci-dessus, même si une
         </profile>
         <profile name="An Honourable Death in Combat" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="e4bd-d365-f2b5-26d1">
           <characteristics>
-            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Chaque fois qu'une figurine dans cette unité effectue une attaque, cette attaque a la aptitude [Touches soutenues 1] si cette unité est inférieure à son Effectif Initial, ou la aptitude [Touches soutenues 2] si cette unité est en dessous de son Demi-effectif.</characteristic>
+            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Chaque fois qu'une figurine dans cette unité effectue une attaque, cette attaque a l’aptitude [Touches soutenues 1] si cette unité est inférieure à son Effectif Initial, ou l’aptitude [Touches soutenues 2] si cette unité est En Dessous de son Demi-effectif.</characteristic>
           </characteristics>
         </profile>
         <profile name="Attached Unit" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="2c20-3899-13f8-e9c5">
@@ -5702,7 +5702,7 @@ Portée d’Engagement de cette unité ennemie. Une figurine ne peut pas effectu
         </profile>
         <profile name="Beserk Fury" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="1d96-649b-fed0-e796">
           <characteristics>
-            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Vous pouvez relancer les jets de Charge faits pour cette unité</characteristic>
+            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Vous pouvez relancer les jets de Charge effectués pour cette unité</characteristic>
           </characteristics>
         </profile>
         <profile name="Attached Leader" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="8c1b-2833-573d-bae7">
@@ -5925,12 +5925,12 @@ Si une unité Character de votre armée dotée de l’aptitude Meneur peut être
   <sharedProfiles>
     <profile name="Black Rage" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="3e0a-31f-8be-e293">
       <characteristics>
-        <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Chaque fois que cette figurine fait une attaque au corps à corps, vous pouvez relancer le jet de Touche. Alors que l'unité de cette figurine n'est pas à 6" ou moins d’une ou plusieurs figurines amies ^^**Blood Angels Character**^^, ou 12" d’une ou plusieurs figurines plus sympathiques ^^**Chaplain**^^, Il ne peuvent pas être sélectionnées pour Battre en Retraite. et la caractéristique de Contrôle d’Objectif des figurines de cette unité est 0.</characteristic>
+        <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Chaque fois que cette figurine fait une attaque de mêlée, vous pouvez relancer le jet de Touche. Tant que l'unité de cette figurine n’est pas à 6" ou moins d'un ou plusieurs ^^**Blood Angels Character**^^ figurines amicaux, ou 12" d'un ou plusieurs ^^**Chaplain**^^ figurines amicaux, elle ne peuvent pas être sélectionnée pour Battre en Retraite et la caractéristique de Contrôle d’Objectif des figurines de cette unité sont 0.</characteristic>
       </characteristics>
     </profile>
     <profile name="Visions of Heresy" hidden="false" id="6b69-8f10-6d74-706c" typeName="Abilities" typeId="9cc3-6d83-4dd3-9b64">
       <characteristics>
-        <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Une fois par tour, vous pouvez cibler cette unité avec le Fire Overwatch Stratagème ou le Heroic Intervention Stratagème pour 0CP. Tout en résolvant ce Strategem, chaque fois qu'une figurine dans cette unité fait une attaque de tir, vous pouvez relancer le jet de Touche, ou vous pouvez relancer le jet de Charge fait pour cette unité [whichever applies]</characteristic>
+        <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Une fois par tour, vous pouvez cibler cette unité avec le Fire Overwatch Stratagème ou l'intervention héroïque Stratagème pour 0CP. Tout en résolvant cette stratégie, chaque fois qu'une figurine dans cette unité fait une attaque de tir vous pouvez relancer le jet de Touche, ou vous pouvez relancer le jet de Charge fait pour cette unité [whichever applies]</characteristic>
       </characteristics>
     </profile>
   </sharedProfiles>

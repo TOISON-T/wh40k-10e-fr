@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue xmlns="http://www.battlescribe.net/schema/catalogueSchema" library="false" id="f5e9-c30e-bc8c-f2c2" name="Imperium - Adepta Sororitas" gameSystemId="sys-0e45-705d-f6bc-806a" gameSystemRevision="1" revision="111" battleScribeVersion="2.03" authorName="CrusherJoe" type="catalogue" authorContact="@CrusherJoe on Discord">
+<catalogue xmlns="http://www.battlescribe.net/schema/catalogueSchema" library="false" id="b39e-4401-8f3e-fdf7" name="Imperium - Adepta Sororitas" gameSystemId="sys-352e-adc2-7639-d6a9" gameSystemRevision="1" revision="111" battleScribeVersion="2.03" authorName="CrusherJoe" type="catalogue" authorContact="@CrusherJoe on Discord">
   <categoryEntries>
     <categoryEntry name="Aestred Thurga and Agathae Dolan" hidden="false" id="c8ba-2b2d-e47f-d7a6" />
     <categoryEntry name="Arco-flagellants" hidden="false" id="63f8-3a5d-ef9c-d86e" />
@@ -71,7 +71,7 @@
             </profile>
             <profile name="Auto-Tapestry of the Emperor's Judgement" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="4ced-f030-661-af4c">
               <characteristics>
-                <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Alors que cette unité mène une unité et contient une figurine Aestred Thurga, les armes équipées par des figurines dans cette unité ont la aptitude [Blessures dévastatrices]</characteristic>
+                <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Tant que cette unité mène une unité et contient une figurine Aestred Thurga, les armes dont sont équipées les figurines de cette unité ont l’aptitude [DEVASTATING WOUNDS]</characteristic>
               </characteristics>
             </profile>
           </profiles>
@@ -128,7 +128,7 @@
             </profile>
             <profile name="Recount the Deeds of the Saints" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="aa7c-b9b-2657-ddbd">
               <characteristics>
-                <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Alors que cette unité mène une unité et contient une figurine Agathae Dolan, chaque fois que cette unité détruit une unité ennemie, vous gagnez des dés 1 Miracle. Quand cette figurine Agathae Dolan est détruit, vous gagnez les dés du Miracle D3.</characteristic>
+                <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Alors que cette unité mène une unité et contient et Agathae Dolan figurine, chaque fois que cette unité détruit une unité ennemie, vous gagnez 1 Miracle dés. Quand ce Agathae Dolan figurine est détruit, vous gagnez des dés Miracle D3.</characteristic>
               </characteristics>
             </profile>
           </profiles>
@@ -171,7 +171,7 @@
       <profiles>
         <profile name="Sauvegarde Invulnérable" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="ed83-17a1-a012-95c3">
           <characteristics>
-            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Les figurines de cette unité ont un sauvegarde invulnérable de 4+</characteristic>
+            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">figurines dans ces unités ont un sauvegarde invulnérable de 4+</characteristic>
           </characteristics>
         </profile>
       </profiles>
@@ -319,7 +319,7 @@
       <profiles>
         <profile name="Extremis Trigger Word" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="b91b-e2eb-4678-72c7">
           <characteristics>
-            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Chaque fois que cette unité est sélectionnée pour combattre, vous pouvez choisir d'invoquer son mot déclencheur extremis. Si c'est le cas, jusqu'à la fin de la phase, les arcs-flails équipés de figurines dans cette unité ont une caractéristique d’Attaques de 6 et la aptitude À Risque.</characteristic>
+            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Chaque fois que cette unité est sélectionnée pour combattre, vous pouvez choisir d'invoquer son mot déclencheur extremis. Si c'est le cas, alors Jusqu’à la fin de la phase, les arc-flails équipés des figurines de cette unité ont une caractéristique d’Attaques de 6 et l’aptitude À Risque.</characteristic>
           </characteristics>
         </profile>
         <profile name="Arco-Flagellants" typeId="c547-1836-d8a-ff4f" typeName="Unit" hidden="false" id="f777-d73c-fdbb-b61e">
@@ -630,7 +630,7 @@
       <profiles>
         <profile name="Defenders of the Faith" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="f4b9-855b-cce7-f501">
           <characteristics>
-            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">À la fin de votre phase de Commandement, si cette unité est à portée d'un marqueur objectif que vous contrôlez, ce marqueur objectif reste sous votre contrôle, même si vous n'avez pas de figurines à portée de celui-ci, jusqu'à ce que votre adversaire le contrôle au début ou à la fin de tout tour.</characteristic>
+            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">À la fin de votre phase de Commandement, si cette unité est à l'intérieur de Portée d'un pion d’objectif que vous contrôlez, ce pion d’objectif reste sous votre contrôle, même si vous n'avez pas de figurines à l'intérieur de Portée de celui-ci, jusqu'à ce que votre adversaire le contrôle au début ou à la fin de tout tour.</characteristic>
           </characteristics>
         </profile>
         <profile name="Sauvegarde Invulnérable" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="7048-aade-fcf3-9011">
@@ -856,7 +856,7 @@
       <profiles>
         <profile name="Simulacrum Imperialis" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="ee6b-50fc-3b24-6884">
           <characteristics>
-            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">À la fin de votre phase de Commandement, pour chaque marqueur objectif que vous contrôlez qui a une ou plusieurs unités de votre armée avec cette aptitude dans sa portée, lancez un D6: sur un 4+, vous gagnez 1 Miracle dés montrant une valeur égale à ce résultat.</characteristic>
+            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">À la fin de votre phase de Commandement, pour chaque pion d’objectif que vous contrôlez qui a une ou plusieurs unités de votre armée avec cette aptitude dans Portée de celui-ci, lancez un D6: sur un 4+, vous gagnez 1 Miracle dés montrant une valeur égale à ce résultat.</characteristic>
           </characteristics>
         </profile>
       </profiles>
@@ -977,7 +977,7 @@
                   <profiles>
                     <profile name="Null Rod" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="77ff-2463-354-23fd" page="77">
                       <characteristics>
-                        <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Les figurines de l’unité du porteur ont la aptitude Insensible à la douleur 4+ contre les Blessures Mortelles et attaques Psychiques.</characteristic>
+                        <characteristic name="Description" typeId="9b8f-694b-e5e-b573">les figurines de l’unité du porteur ont l’aptitude Insensible à la douleur 4+ contre Blessures Mortelles et attaques Psychiques.</characteristic>
                       </characteristics>
                     </profile>
                   </profiles>
@@ -1050,7 +1050,7 @@
                   <profiles>
                     <profile name="Rod of Office" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="4dce-d8aa-02ec-abef">
                       <characteristics>
-                        <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Chaque fois qu'une figurine dans l'unité du porteur fait une attaque, relancez un jet de Touche de 1.</characteristic>
+                        <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Chaque fois qu’une figurine de l’unité du porteur effectue une attaque, relancez un jet de Touche de 1.</characteristic>
                       </characteristics>
                     </profile>
                   </profiles>
@@ -1507,7 +1507,7 @@
         </profile>
         <profile name="Rites of Castigation" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="56dc-ead8-d1a8-9d4">
           <characteristics>
-            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Dans votre phase de Tir, après que cette figurine ait tiré, sélectionnez une unité ennemie touchée par une ou plusieurs de ces attaques. Jusqu'à la fin du tour, chaque fois qu'une unité amicale Adepta Sororitas fait une attaque de tir qui cible cette unité ennemie, améliore la caractéristique de Pénétration d’Armure de cette attaque de 1. La même unité ennemie ne peut être affectée par cette aptitude qu'une seule fois par tour.</characteristic>
+            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Dans votre phase de Tir, après que cette figurine a tiré, sélectionnez une unité ennemie frappé par un ou plusieurs de ces Attaques. Jusqu'à la fin du tour, chaque fois qu'une unité amicale Adepta Sororitas fait une attaque de tir qui cible cette unité ennemie, améliore la caractéristique de Pénétration d’Armure de cette attaque de 1. Le même unité ennemie ne peut être affecté que par cette aptitude Une fois par tour.</characteristic>
           </characteristics>
         </profile>
         <profile name="Damaged: 1-4 Wounds Remaining" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="888-b727-daf1-e113">
@@ -1793,7 +1793,7 @@
         </profile>
         <profile name="Sauvegarde Invulnérable" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="289a-1246-3dd7-677c">
           <characteristics>
-            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Les figurines de cette unité ont un sauvegarde invulnérable de 4+.</characteristic>
+            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Les les figurines de cette unité ont un sauvegarde invulnérable de 4+.</characteristic>
           </characteristics>
         </profile>
       </profiles>
@@ -2085,12 +2085,12 @@
         </profile>
         <profile name="Mysterious Saviours" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="6a83-9f06-f020-25bf">
           <characteristics>
-            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Vous pouvez cibler cette unité avec le Stratagème d'intervention héroïque pour 0CP, et vous pouvez le faire même si vous avez déjà ciblé une autre unité avec ce Stratagème cette phase.</characteristic>
+            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Vous pouvez cibler cette unité avec l'intervention héroïque Stratagème pour 0CP, et vous pouvez le faire même si vous avez déjà ciblé une unité différente avec ce Stratagème cette phase.</characteristic>
           </characteristics>
         </profile>
         <profile name="Sauvegarde Invulnérable" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="ee8f-866e-34f2-5704">
           <characteristics>
-            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Les figurines de cette unité ont un sauvegarde invulnérable de 4+</characteristic>
+            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">figurines dans ces unités ont un sauvegarde invulnérable de 4+</characteristic>
           </characteristics>
         </profile>
       </profiles>
@@ -2143,7 +2143,7 @@
 ■ Dominion Squad
 ■ Retributor Squad
 ■ Sisters Novitiate Squad
-cette figurine peut être attachée à une unité Battle Sisters Squad, même si une unité Canoness, Palatine, Junith Eruita ou Aestred Thurga y a déjà été attachée. Si vous le faites, et que l'unité Bodyguard est détruite, les unités Meneur attachées à elle deviennent des unités séparées, avec leur Effectif Initial d’origine.</characteristic>
+cette figurine peut être attachée à un Battle Sisters Squad, même si une unité Canoness, Palatine, Junith Eruita ou Aestred Thurga y a déjà été attachée. Si vous le faites, et que l'unité Bodyguard est détruite, les unités Meneur attachés à elle deviennent des unités séparées, avec leur original Effectifs Initiaux.</characteristic>
               </characteristics>
             </profile>
           </profiles>
@@ -2167,7 +2167,7 @@ cette figurine peut être attachée à une unité Battle Sisters Squad, même si
         </profile>
         <profile name="Laud Hailer" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="857a-682e-d2bd-5943">
           <characteristics>
-            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Une fois par bataille, au début de n'importe quelle phase, vous pouvez sélectionner une unité Adepta Sororitas amicale qui est Ébranlée et à 12" ou moins de cette figurine. Cette unité n'est plus Ébranlée.</characteristic>
+            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Une fois par bataille, au début de n’importe quelle phase, vous pouvez sélectionner une unité Adepta Sororitas amie qui est Ébranlée et à 12" ou moins de cette figurine. Cette unité n’est plus Ébranlée.</characteristic>
           </characteristics>
         </profile>
         <profile name="Stirring Rhetoric" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="c7dc-3ddb-ce59-3c1e">
@@ -2340,7 +2340,7 @@ cette figurine peut être attachée à une unité Battle Sisters Squad, même si
         </profile>
         <profile name="Executioner of Heretics (Aura)" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="c25b-5648-cc0e-6916">
           <characteristics>
-            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Alors qu'une unité ennemie est à 6" ou moins de cette figurine, aggraver la caractéristique de Commandement des figurines dans cette unité par 1.</characteristic>
+            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Lorsqu'une unité ennemie se trouve à 6" ou moins de cette figurine, aggraver la caractéristique de Commandement des figurines de cette unité par 1.</characteristic>
           </characteristics>
         </profile>
         <profile name="Unflinching Determination" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="a7f7-40f-4d82-235d">
@@ -2367,7 +2367,7 @@ cette figurine peut être attachée à une unité Battle Sisters Squad, même si
 ■ Celestian Sacresants
 ■ Dominion Squad
 ■ Retributor Squad
-cette figurine peut être attachée à une unité Battle Sisters Squad, même si une unité Canoness, Palatine, Junith Eruita ou Aestred Thurga y a déjà été attachée. Si vous le faites, et que l'unité Bodyguard est détruite, les unités Meneur attachées à elle deviennent des unités séparées, avec leur Effectif Initial d’origine.</characteristic>
+cette figurine peut être attachée à un Battle Sisters Squad, même si une unité Canoness, Palatine, Junith Eruita ou Aestred Thurga y a déjà été attachée. Si vous le faites, et que l'unité Bodyguard est détruite, les unités Meneur attachés à elle deviennent des unités séparées, avec leur original Effectifs Initiaux.</characteristic>
               </characteristics>
             </profile>
           </profiles>
@@ -2740,17 +2740,17 @@ cette figurine peut être attachée à une unité Battle Sisters Squad, même si
       <profiles>
         <profile name="Holy Vanguard" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="efb6-3f52-fbf1-4519">
           <characteristics>
-            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Si cette unité a une unité Meneur attachée à elle pendant l'étape Déclarer les Formations de Bataille et que cette unité démarre la bataille engagée dans un Transport, cette unité Meneur obtient la aptitude Éclaireurs 6".</characteristic>
+            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Si une unité Leader est attachée à cette unité à l’étape Déclarer les Formations de Bataille et que cette unité commence la bataille embarquée dans un Transport, cette unité Leader gagne l’aptitude Scouts 6".</characteristic>
           </characteristics>
         </profile>
         <profile name="Righteous Awareness" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="7a52-508a-d0da-2099">
           <characteristics>
-            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Une fois par tour, lorsqu'une unité ennemie termine un mouvement normal, d'avance ou de Retraite à 9" ou moins de cette unité, si cette unité n'est pas dans la Portée d’Engagement d'une ou plusieurs unités ennemies, elle peut effectuer un mouvement normal jusqu'à D6.</characteristic>
+            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Une fois par tour, lorsqu'une unité ennemie termine une Normal, Avance ou mouvement de Retraite à 9" ou moins de cette unité, si cette unité n'est pas dans Portée d’Engagement d'une ou de plusieurs unités ennemies, elle peut effectuer un mouvement Normal jusqu'à D6".</characteristic>
           </characteristics>
         </profile>
         <profile name="Sauvegarde Invulnérable" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="7042-ea47-441c-57ca">
           <characteristics>
-            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Les figurines de cette unité ont un sauvegarde invulnérable de 6+.</characteristic>
+            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Les les figurines de cette unité ont un sauvegarde invulnérable de 6+.</characteristic>
           </characteristics>
         </profile>
       </profiles>
@@ -3101,7 +3101,7 @@ cette figurine peut être attachée à une unité Battle Sisters Squad, même si
 ■ Dominion Squad
 ■ Retributor Squad
 ■ Sisters Novitiate Squad
-cette figurine peut être attachée à une unité Battle Sisters Squad, même si une unité Canoness, Palatine, Junith Eruita ou Aestred Thurga y a déjà été attachée. Si vous le faites, et que l'unité Bodyguard est détruite, les unités Meneur attachées à elle deviennent des unités séparées, avec leur Effectif Initial d’origine.</characteristic>
+cette figurine peut être attachée à un Battle Sisters Squad, même si une unité Canoness, Palatine, Junith Eruita ou Aestred Thurga y a déjà été attachée. Si vous le faites, et que l'unité Bodyguard est détruite, les unités Meneur attachés à elle deviennent des unités séparées, avec leur original Effectifs Initiaux.</characteristic>
               </characteristics>
             </profile>
           </profiles>
@@ -3125,7 +3125,7 @@ cette figurine peut être attachée à une unité Battle Sisters Squad, même si
         </profile>
         <profile name="Medicus Ministorum" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="2ad4-2722-1059-760c">
           <characteristics>
-            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Alors que cette figurine mène une unité, les figurines de cette unité ont la aptitude Insensible à la douleur 5+.</characteristic>
+            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Alors que cette figurine mène une unité, les figurines de cette unité ont l’aptitude Insensible à la douleur 5+.</characteristic>
           </characteristics>
         </profile>
         <profile name="Sacred Healing" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="acf-9a6a-c5b4-93fe">
@@ -3298,7 +3298,7 @@ cette figurine peut être attachée à une unité Battle Sisters Squad, même si
 ■ Celestian Sacresants
 ■ Dominion Squad
 ■ Retributor Squad
-cette figurine peut être attachée à une unité Battle Sisters Squad, même si une unité Canoness, Palatine, Junith Eruita ou Aestred Thurga y a déjà été attachée. Si vous le faites, et que l'unité Bodyguard est détruite, les unités Meneur attachées à elle deviennent des unités séparées, avec leur Effectif Initial d’origine.</characteristic>
+cette figurine peut être attachée à un Battle Sisters Squad, même si une unité Canoness, Palatine, Junith Eruita ou Aestred Thurga y a déjà été attachée. Si vous le faites, et que l'unité Bodyguard est détruite, les unités Meneur attachés à elle deviennent des unités séparées, avec leur original Effectifs Initiaux.</characteristic>
               </characteristics>
             </profile>
           </profiles>
@@ -3325,12 +3325,12 @@ cette figurine peut être attachée à une unité Battle Sisters Squad, même si
         </profile>
         <profile name="Litany of Deeds" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="72b8-e076-cff5-2e74">
           <characteristics>
-            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Chaque fois que vous gagnez un jeu de dés Miracle à la suite d'une unité ou une figurine amie ADEPTA SORORITAS détruit, si cette unité ou cette figurine a été détruit à 12" ou moins de cette figurine, vous pouvez relancer le résultat de ce jeu de dés Miracle avant de l'ajouter à votre pool de dés Miracle.</characteristic>
+            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Chaque fois que vous gagnez un dé de Miracle parce qu’une unité ou une figurine ADEPTA SORORITAS amie est détruite, si cette unité ou figurine a été détruite à 12" ou moins de cette figurine, vous pouvez relancer le résultat de ce dé de Miracle avant de l’ajouter à votre réserve de dés de Miracle.</characteristic>
           </characteristics>
         </profile>
         <profile name="Stanchion of Holy Martyrs" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="ecf0-4fea-74c7-1091">
           <characteristics>
-            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Alors que cette figurine mène une unité, les figurines de cette unité ont une caractéristique Save de 2+ et un 4+ sauvegarde invulnérable.</characteristic>
+            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Alors que cette figurine mène une unité, les figurines de cette unité possède une caractéristique de Sauvegarde de 2+ et un 4+ sauvegarde invulnérable.</characteristic>
           </characteristics>
         </profile>
         <profile name="Sauvegarde Invulnérable" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="e47a-617-31f5-8186">
@@ -3510,14 +3510,14 @@ cette figurine peut être attachée à une unité Battle Sisters Squad, même si
       <profiles>
         <profile name="Transport" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="cf41-7ae4-6a73-5490">
           <characteristics>
-            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Cette figurine a une capacité de transport de 6 figurines ADEPTA SORORITAS INFANTRY. Il ne peut pas transporter les figurines Réacteur dorsal ou le Triumph of Saint Katherine.
+            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Cette figurine a une capacité de transport de 6 figurines ADEPTA SORORITAS INFANTRY. Elle ne peut pas transporter de figurines JUMP PACK ni le Triumph of Saint Katherine.
 
-Au début de l'étape Déclarer les Formations de Bataille, vous pouvez sélectionner un Battle Sisters Squad, Dominion Squad ou Sisters Novitiate Squad de votre armée. Si vous le faites, cette unité est divisée en deux unités, chacune contenant un nombre aussi égal de figurines que possible (lorsque vous divisez une unité de cette façon, notez les figurines qui forment chacune des deux nouvelles unités. Si vous partagez une unité qui a la aptitude Cherub, seule une des nouvelles unités peut utiliser cette aptitude pendant la bataille faire une note de laquelle des nouvelles unités ce sera). L'une de ces unités doit commencer la bataille engagée dans ce Transport; l'autre peut commencer la bataille engagée dans un autre Transport, ou il peut être déployé comme une unité séparée.</characteristic>
+Au début de l’étape Déclarer les Formations de Bataille, vous pouvez sélectionner une unité BATTLE SISTERS SQUAD, DOMINION SQUAD ou SISTERS NOVITIATE SQUAD de votre armée. Si vous le faites, cette unité est divisée en deux unités contenant chacune un nombre de figurines aussi égal que possible (lorsque vous divisez une unité ainsi, notez quelles figurines forment chacune des deux nouvelles unités. Si vous divisez une unité dotée de l’aptitude Cherub, seule l’une des nouvelles unités peut utiliser cette aptitude durant la bataille ; notez laquelle). L’une de ces unités doit commencer la bataille embarquée dans ce TRANSPORT ; l’autre peut commencer la bataille embarquée dans un autre TRANSPORT ou être déployée comme une unité distincte.</characteristic>
           </characteristics>
         </profile>
         <profile name="Purge and Cleanse" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="5def-c759-39f-94ca">
           <characteristics>
-            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Dans votre phase de Tir, après que cette figurine ait tiré, sélectionnez une unité ennemie touchée par une ou plusieurs de ces attaques. Jusqu'à la fin de la phase, cette unité ennemie ne pourra pas bénéficier de la couverture.</characteristic>
+            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Durant votre phase de Tir, après que cette figurine a tiré, sélectionnez une unité ennemie touchée par une ou plusieurs de ces attaques. Jusqu’à la fin de la phase, cette unité ennemie ne peut pas avoir le Bénéfice du Couvert.</characteristic>
           </characteristics>
         </profile>
         <profile name="Immolator" typeId="c547-1836-d8a-ff4f" typeName="Unit" hidden="false" id="d020-141c-433-8aa">
@@ -3810,7 +3810,7 @@ Au début de l'étape Déclarer les Formations de Bataille, vous pouvez sélecti
             <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Si cette figurine est sur le champ de bataille au début
 de votre phase de Commandement, vous pouvez choisir l'un des éléments suivants:
 ■ Discard 1 Miracle dice et gagnez 1CP.
-■ Faites un test de Commandement pour cette figurine, si ce test est passé, gagnez 1CP.</characteristic>
+■ Prenez un test de Commandement pour cette figurine, si ce test est passé, gagnez 1CP.</characteristic>
           </characteristics>
         </profile>
         <profile name="Sauvegarde Invulnérable" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="dbf3-7183-63e4-e7bf">
@@ -3942,7 +3942,7 @@ de votre phase de Commandement, vous pouvez choisir l'un des éléments suivants
                       <profiles>
                         <profile name="Anchorite Sarcophagus" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="e650-bbf0-a74f-44c0">
                           <characteristics>
-                            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Le porteur possède une caractéristique de mouvement de 7" et une caractéristique de sauvegarde de 3+.</characteristic>
+                            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">le porteur a une caractéristique de mouvement de 7" et une caractéristique de Sauvegarde de 3+.</characteristic>
                           </characteristics>
                         </profile>
                       </profiles>
@@ -4201,7 +4201,7 @@ de votre phase de Commandement, vous pouvez choisir l'un des éléments suivants
       <profiles>
         <profile name="Anguish of the Unredeemed" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="b337-3b2d-d22b-9ca9">
           <characteristics>
-            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Chaque fois qu'une figurine dans cette unité est détruite par une attaque de mêlée, si cette figurine n'a pas combattu cette phase, lancez un D6. Sur un 2+, ne le retirez pas du jeu; cette figurine détruit peut combattre après que l'unité d'attaque ait terminé ses attaques, et est ensuite retiré du jeu.</characteristic>
+            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Chaque fois qu’une figurine de cette unité est détruite par une attaque de mêlée, si cette figurine n’a pas combattu à cette phase, lancez un D6. Sur 2+, ne la retirez pas du jeu ; cette figurine détruite peut combattre une fois que l’unité attaquante a fini de résoudre ses attaques, puis elle est retirée du jeu.</characteristic>
           </characteristics>
         </profile>
         <profile name="Sauvegarde Invulnérable" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="a6d5-54f2-962a-7371">
@@ -4348,7 +4348,7 @@ de votre phase de Commandement, vous pouvez choisir l'un des éléments suivants
         </profile>
         <profile name="Abbess Sanctorum" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="5e86-cb68-9205-16c4">
           <characteristics>
-            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Alors que cette figurine conduit une unité, chaque fois qu'une figurine dans cette unité fait une attaque, vous pouvez relancer le jet de Touche et vous pouvez relancer le jet de Blessure.</characteristic>
+            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Alors que cette figurine mène une unité, chaque fois qu'une figurine dans cette unité fait une attaque, vous pouvez relancer le jet de Touche et vous pouvez relancer le jet de Blessure.</characteristic>
           </characteristics>
         </profile>
         <profile name="Righteous Repugnance" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="83e4-fab8-e77c-b285">
@@ -4371,7 +4371,7 @@ de votre phase de Commandement, vous pouvez choisir l'un des éléments suivants
       </entryLinks>
       <rules>
         <rule name="Supreme Commander" hidden="false" id="cf3-ee88-e068-a03a">
-          <description>Si cette figurine est dans votre armée, il doit être votre WARLORD.</description>
+          <description>Si cette figurine est dans votre armée, elle doit être votre WARLORD.</description>
         </rule>
       </rules>
       <selectionEntries>
@@ -4636,12 +4636,12 @@ de votre phase de Commandement, vous pouvez choisir l'un des éléments suivants
         </profile>
         <profile name="Fury of the Righteous" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="7cb-2ac3-fef5-f533">
           <characteristics>
-            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Alors que cette figurine mène une unité, les armes équipées de figurines dans cette unité ont la aptitude [Touches fatales].</characteristic>
+            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Alors que cette figurine mène une unité, les armes équipées des figurines de cette unité ont l’aptitude [Touches fatales].</characteristic>
           </characteristics>
         </profile>
         <profile name="Rapturous Blows" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="d505-3475-8bdc-a018">
           <characteristics>
-            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Chaque fois que cette unité est sélectionnée pour le combat, vous pouvez jeter les dés du Miracle 1. Si vous le faites, alors jusqu'à la fin de la phase, chaque fois qu'une attaque au corps à corps effectuée par cette figurine marque une blessure, la cible de cette attaque subit une blessure mortelle 1 en plus de tout Dégât normal.</characteristic>
+            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Chaque fois que l’unité de cette figurine est sélectionnée pour combattre, vous pouvez jeter 1 Miracle dés. Si vous le faites, alors Jusqu’à la fin de la phase, chaque fois qu'une attaque de mêlée créé par cette figurine marque une blessure, la cible de cette attaque souffre 1 blessure mortelle en plus de tout Dégâts normal.</characteristic>
           </characteristics>
         </profile>
         <profile name="Sauvegarde Invulnérable" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="20b3-dac6-46c2-361b">
@@ -4746,12 +4746,12 @@ de votre phase de Commandement, vous pouvez choisir l'un des éléments suivants
       <profiles>
         <profile name="Righteous Paragons" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="4a86-1713-528f-cf2a">
           <characteristics>
-            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Chaque fois qu'une figurine de cette unité fait une attaque qui vise un MONSTER ou L'unité VEHICLE, Ajoutez 1 au jet de Touche et Ajoutez 1 au jet de Blessure.</characteristic>
+            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Chaque fois qu'une figurine de cette unité effectue une attaque visant une unité MONSTER ou VEHICLE, ajoutez 1 au jet de Touche et 1 au jet de Blessure.</characteristic>
           </characteristics>
         </profile>
         <profile name="Sauvegarde Invulnérable" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="290a-217e-2cfe-3b03">
           <characteristics>
-            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Les figurines de cette unité ont un sauvegarde invulnérable de 4+.</characteristic>
+            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Les figurines dans ces unités ont un sauvegarde invulnérable de 4+.</characteristic>
           </characteristics>
         </profile>
       </profiles>
@@ -5716,17 +5716,17 @@ de votre phase de Commandement, vous pouvez choisir l'un des éléments suivants
         </profile>
         <profile name="Righteous Smiting" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="58d7-8724-689e-61f3">
           <characteristics>
-            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Pendant que cette figurine mène une unité, chaque fois qu'une figurine de cette unité fait une attaque au corps à corps, ajoutez 1 au jet de Blessure.</characteristic>
+            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Pendant que cette figurine mène une unité, chaque fois qu'une figurine dans cette unité fait une attaque de mêlée, ajoutez 1 au jet de Blessure.</characteristic>
           </characteristics>
         </profile>
         <profile name="Zealot" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="cf7e-519e-c4e1-5abc">
           <characteristics>
-            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Une fois par bataille, dans la phase de Combat, cette figurine peut utiliser cette aptitude. Si tel est le cas, jusqu'à la fin de la phase, Améliorez les caractéristiques de force et d'attaque des armes de mêlée équipées de cette figurine de 3.</characteristic>
+            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Une fois par bataille, dans la phase de Combat, cette figurine peut utiliser cette aptitude. Si c'est le cas, Jusqu’à la fin de la phase améliore les caractéristiques de Force et d’Attaques d’armes de mêlée équipé de cette figurine de 3.</characteristic>
           </characteristics>
         </profile>
         <profile name="Holy Mission" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="672b-2d5c-38af-1861">
           <characteristics>
-            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Si cette figurine est attaché à un Dominion Squad pendant l'étape Déclarer les Formations de Bataille, il obtient la aptitude Éclaireurs 6". Si cette figurine est attaché à un Sisters Novitiate Squad pendant l'étape Déclarer les Formations de Bataille, il acquiert la aptitude Infiltrators.</characteristic>
+            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Si cette figurine est attachée à une Dominion Squad à l’étape Déclarer les Formations de Bataille, elle gagne l’aptitude Scouts 6". Si cette figurine est attachée à une Sisters Novitiate Squad à l’étape Déclarer les Formations de Bataille, elle gagne l’aptitude Infiltrators.</characteristic>
           </characteristics>
         </profile>
         <profile name="Sauvegarde Invulnérable" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="50af-95f-288c-b59">
@@ -6150,17 +6150,17 @@ de votre phase de Commandement, vous pouvez choisir l'un des éléments suivants
       <profiles>
         <profile name="Cherubs" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="e9c6-6fd8-b88e-39d1">
           <characteristics>
-            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Deux fois par bataille, après que cette unité ait effectué un acte de foi, vous gagnez 1 Miracle dice.</characteristic>
+            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Deux fois par bataille, après que cette unité a accompli un Acte de Foi, vous gagnez 1 dé de Miracle.</characteristic>
           </characteristics>
         </profile>
         <profile name="Storm of Retribution" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="8eef-f65c-7895-183f">
           <characteristics>
-            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Chaque fois qu'une figurine de cette unité effectue une attaque de tir, relancez un jet de Touche de 1 et un jet de Blessure de 1. Si une telle attaque cible une unité ennemie qui a détruit une ou plusieurs unités ^^**Adepta Sororitas^^** de votre armée pendant la bataille, ajoutez 1 au jet de Touche et ajoutez 1 au jet de Blessure aussi bien.</characteristic>
+            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Chaque fois qu'une figurine dans cette unité fait une attaque de tir, relancez une jet de Touche de 1 et le dépôt de la demande de remplacement de jet de Blessure par 1. Si une telle attaque vise une unité ennemie qui a détruit une ou plusieurs unités ^^**Adepta Sororitas^^** de votre armée pendant la bataille, ajoutez 1 au jet de Touche et ajoutez 1 au jet de Blessure également.</characteristic>
           </characteristics>
         </profile>
         <profile name="Sauvegarde Invulnérable" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="4e02-e55f-a394-e326">
           <characteristics>
-            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Les figurines de cette unité ont un sauvegarde invulnérable de 6+</characteristic>
+            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">figurines dans ces unités ont un sauvegarde invulnérable de 6+</characteristic>
           </characteristics>
         </profile>
       </profiles>
@@ -6349,22 +6349,22 @@ de votre phase de Commandement, vous pouvez choisir l'un des éléments suivants
       <profiles>
         <profile name="Healing Tears" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="2f-70aa-d0e5-a709">
           <characteristics>
-            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Alors que cette unité contient une figurine Celestine, dans votre phase de Commandement, si cette unité est inférieure à son Effectif Initial, soit une figurine Geminae Superia détruit ou jusqu'à D3 d'autres figurines Bodyguard sont retournés à cette unité.</characteristic>
+            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Alors que cette unité contient une Celestine Pour figurine, dans votre phase de Commandement, si cette unité est en dessous de son Effectif Initial, soit un détruit Geminae Superia figurine ou jusqu'à D3 autre Bodyguard figurines sont retournés à cette unité.</characteristic>
           </characteristics>
         </profile>
         <profile name="Lifewards" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="c06a-41c6-5749-25c0">
           <characteristics>
-            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Alors que cette unité contient une ou plusieurs figurines Geminae Superia, Celestine a la aptitude Insensible à la douleur 4+.</characteristic>
+            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Si cette unité contient un ou plusieurs Geminae Superia figurines, Celestine possède l’aptitude Insensible à la douleur 4+.</characteristic>
           </characteristics>
         </profile>
         <profile name="Miraculous Intervention" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="eee9-b689-1a73-742b">
           <characteristics>
-            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">La première fois que cette figurine Celestine est détruit, lancez un D6 à la fin de la phase. Sur un 2+, mettez cette figurine Celestine sur le champ de bataille, le plus près possible de l'endroit où il a été détruit et pas à l'intérieur de la Portée d’Engagement des unités ennemies, avec tous ses PV.</characteristic>
+            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">La première fois que cette unité, Celestine figurine, est détruite, , lancez un D6 à la fin de la phase. Sur un 2+, mettez ce Celestine figurine en arrière sur le champ de bataille, aussi près que possible de l'endroit où il a été détruit et pas à l'intérieur de Portée d’Engagement de toute unité ennemie, avec son tous ses PV.</characteristic>
           </characteristics>
         </profile>
         <profile name="Sauvegarde Invulnérable" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="3cae-8884-fe99-233f">
           <characteristics>
-            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Les figurines de cette unité ont un 4+ sauvegarde invulnérable.</characteristic>
+            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Les figurines de cette unité ont une sauvegarde invulnérable de 4+.</characteristic>
           </characteristics>
         </profile>
       </profiles>
@@ -6405,12 +6405,12 @@ de votre phase de Commandement, vous pouvez choisir l'un des éléments suivants
       <profiles>
         <profile name="Angelic Ascent" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="505c-e6aa-a712-a093">
           <characteristics>
-            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Dans votre phase de Tir, une fois que cette unité a tiré, si elle n'est pas dans la Portée d’Engagement des unités ennemies, elle peut faire un mouvement normal jusqu'à 6". Si tel est le cas, jusqu'à la fin du tour, cette unité n'est pas éligible à la déclaration d'une charge.</characteristic>
+            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Dans votre phase de Tir, après que cette unité a tiré, s'il n'est pas à l'intérieur de Portée d’Engagement de toute unité ennemie, il peut effectuer un mouvement Normal de jusqu'à 6". Si tel est le cas, jusqu'à la fin du tour, cette unité n'est pas éligible à la déclaration d'une charge.</characteristic>
           </characteristics>
         </profile>
         <profile name="Sauvegarde Invulnérable" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="860d-8fcb-4b93-d871">
           <characteristics>
-            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Les figurines de cette unité ont un sauvegarde invulnérable de 5+.</characteristic>
+            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Les figurines dans ces unités ont un sauvegarde invulnérable de 5+.</characteristic>
           </characteristics>
         </profile>
       </profiles>
@@ -6915,7 +6915,7 @@ de votre phase de Commandement, vous pouvez choisir l'un des éléments suivants
                   <profiles>
                     <profile name="Sacred Banner" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="a98b-c507-2078-b22">
                       <characteristics>
-                        <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Vous pouvez relancer les jets d’Avance et de Charge faits pour l'unité du porteur.</characteristic>
+                        <characteristic name="Description" typeId="9b8f-694b-e5e-b573">vous pouvez relancer Advance et jets de Charge de l’unité du porteur.</characteristic>
                       </characteristics>
                     </profile>
                   </profiles>
@@ -7098,7 +7098,7 @@ de votre phase de Commandement, vous pouvez choisir l'un des éléments suivants
       <profiles>
         <profile name="Impetuous Fervour" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="e35-588d-b21e-33d8">
           <characteristics>
-            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Impetuous Fervour: Chaque fois qu'une figurine dans cette unité effectue une attaque, relancez un jet de Touche de 1. Si la cible de cette attaque est une unité ennemi dans la portée d'un marqueur objectif, vous pouvez relancer le jet de Touche à la place.</characteristic>
+            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Impetuous Fervour: Chaque fois qu'une figurine dans cette unité fait une attaque, relancer est un jet de Touche de 1. Si la cible de cette attaque est une unité ennemie dans Portée d'un pion d’objectif, vous pouvez relancer le jet de Touche à la place.</characteristic>
           </characteristics>
         </profile>
         <profile name="Sauvegarde Invulnérable" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="dbdc-2f28-490b-e918">
@@ -7216,7 +7216,7 @@ de votre phase de Commandement, vous pouvez choisir l'un des éléments suivants
       <profiles>
         <profile name="Transport" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="fb9d-4606-f887-5967">
           <characteristics>
-            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Cette figurine a une capacité de transport de 12 figurines ADEPTA SORORITAS INFANTRY. Il ne peut pas transporter les figurines Réacteur dorsal ou le Triumph of Saint Katherine.</characteristic>
+            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Cette figurine a une capacité de transport de 12 figurines ADEPTA SORORITAS INFANTRY. Elle ne peut pas transporter de figurines JUMP PACK ni le TRIUMPH OF SAINT KATHERINE.</characteristic>
           </characteristics>
         </profile>
         <profile name="Sauvegarde Invulnérable" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="8f6c-1048-7b9b-e67e">
@@ -7434,7 +7434,7 @@ de votre phase de Commandement, vous pouvez choisir l'un des éléments suivants
         </profile>
         <profile name="Damaged: 1-6 Wounds Remaining" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="c785-9209-5db8-d5e7">
           <characteristics>
-            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Alors que cette figurine a 1-6 PV restants, Les caractéristiques d'attaque de toutes ses armes sont réduites de moitié., et Vous ne pouvez sélectionner qu'une seule aptitude lorsque vous utilisez la aptitude Relics of the Matriarchs, au lieu de deux.</characteristic>
+            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Tant qu’il reste 1-6 PV à cette figurine, les caractéristiques d’Attaques de toutes ses armes sont divisées par deux et, lorsqu’elle utilise son aptitude Relics of the Matriarchs, vous ne pouvez sélectionner qu’une aptitude au lieu de jusqu’à deux.</characteristic>
           </characteristics>
         </profile>
         <profile name="Relics of the Matriarchs" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="a09c-e5cb-4ad9-8630">
@@ -7444,37 +7444,37 @@ de votre phase de Commandement, vous pouvez choisir l'un des éléments suivants
         </profile>
         <profile name="Relic of the Matriarch - The Fiery Heart (Aura)" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="af36-63c-5792-332d">
           <characteristics>
-            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Alors qu'une unité Adepta Sororitas conviviale est à 6" ou moins de cette figurine, ajoutez 2" à la caractéristique de mouvement de cette unité et ajoutez 1 aux jets d’Avance et de Charge faits pour cette unité.</characteristic>
+            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Alors qu'une unité amicale Adepta Sororitas est à 6" ou moins de cette figurine, ajoutez 2" à la caractéristique de mouvement de cette unité et ajoutez 1 à l'avance et jets de Charge de cette unité.</characteristic>
           </characteristics>
         </profile>
         <profile name="Relic of the Matriarch - Censer of the Sacred Rose (Aura)" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="bc2a-1efd-5bf1-16c7">
           <characteristics>
-            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Alors qu'une unité amicale Adepta Sororitas est à 6" ou moins de cette figurine, vous pouvez relancer tous les tests d’Ébranlement pris pour cette unité.</characteristic>
+            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Tant qu’une unité Adepta Sororitas amie est à 6" ou moins de cette figurine, vous pouvez relancer tous les tests d’Ébranlement effectués pour cette unité.</characteristic>
           </characteristics>
         </profile>
         <profile name="Relic of the Matriarch - Simulacrum of the Ebon Chalice (Aura)" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="7dfb-33ee-debe-bc02">
           <characteristics>
-            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Alors qu'une unité Adepta Sororitas amicale est à 6" ou moins de cette figurine, cette unité peut effectuer jusqu'à deux Acts of Faith par phase, au lieu d'une seule.</characteristic>
+            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Alors qu'une unité amicale Adepta Sororitas est à 6" ou moins de cette figurine, cette unité peut effectuer jusqu'à deux Acts of Faith par phase, au lieu de seulement une.</characteristic>
           </characteristics>
         </profile>
         <profile name="Relic of the Matriarch - Simulacrum of the Argent Shroud (Aura)" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="ba51-e749-8362-b9af">
           <characteristics>
-            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Alors qu'une unité amicale Adepta Sororitas est à 6" ou moins de cette figurine, chaque fois qu'une figurine dans cette unité fait une attaque de tir, relancez un jet de Blessure de 1.</characteristic>
+            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Alors qu'une unité amicale Adepta Sororitas est à 6" ou moins de cette figurine, chaque fois qu'une figurine dans cette unité fait une attaque de tir, relancer un jet de Blessure de 1.</characteristic>
           </characteristics>
         </profile>
         <profile name="Relic of the Matriarch - Icon of the Valorous Heart (Aura)" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="79b6-f74e-253c-153f">
           <characteristics>
-            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Alors qu'une unité amicale Adepta Sororitas est à 6" ou moins de cette figurine, les figurines de cette unité ont la aptitude Insensible à la douleur 6+.</characteristic>
+            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Alors qu'une unité amicale Adepta Sororitas est à 6" ou moins de cette figurine, les figurines de cette unité ont l’aptitude Insensible à la douleur 6+.</characteristic>
           </characteristics>
         </profile>
         <profile name="Relic of the Matriarch - Petals of the Bloody Rose (Aura)" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="ee9f-15cc-2a69-8a31">
           <characteristics>
-            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Alors qu'une unité amicale Adepta Sororitas est à 6" ou moins de cette figurine, Améliorez la caractéristique de Pénétration d’Armure des armes de mêlée équipées par figurine dans cette unité de 1.</characteristic>
+            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Alors qu'une unité amicale Adepta Sororitas se trouve à 6" ou moins de cette figurine, Améliorez la caractéristique de Pénétration d’Armure d’armes de mêlée équipée de figurine dans cette unité de 1.</characteristic>
           </characteristics>
         </profile>
         <profile name="Solemn Procession" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="3d31-2f99-c625-f047">
           <characteristics>
-            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Chaque fois que vous gagnez 1 Miracle dice au début du tour de bataille, si cette figurine est sur le champ de bataille, ne lancez pas un D6 pour déterminer la valeur de ce Miracle dice; il a une valeur de 6.</characteristic>
+            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Chaque fois que vous gagnez 1 Miracle dice au début du tour de bataille, si cette figurine est sur le champ de bataille, ne faites pas lancez un D6 pour déterminer la valeur de ce Miracle dice; il a une valeur de 6.</characteristic>
           </characteristics>
         </profile>
         <profile name="Sauvegarde Invulnérable" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="3eb6-8c59-3e85-181f">
@@ -7574,7 +7574,7 @@ de votre phase de Commandement, vous pouvez choisir l'un des éléments suivants
               <profiles>
                 <profile name="Sacred Banner" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="9e87-6eab-3517-165d">
                   <characteristics>
-                    <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Vous pouvez relancer les jets d’Avance et de Charge faits pour l'unité du porteur.</characteristic>
+                    <characteristic name="Description" typeId="9b8f-694b-e5e-b573">vous pouvez relancer Advance et jets de Charge de l’unité du porteur.</characteristic>
                   </characteristics>
                 </profile>
               </profiles>
@@ -7620,12 +7620,12 @@ de votre phase de Commandement, vous pouvez choisir l'un des éléments suivants
       <profiles>
         <profile name="Embodied Prophecy" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="e068-824b-2210-13c1">
           <characteristics>
-            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Chaque fois que cette unité est sélectionnée pour le combat, sélectionnez l'une des capacités suivantes à appliquer aux armes de mêlée équipées de figurines de cette unité jusqu'à la fin de la phase:
+            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Chaque fois que cette unité est sélectionnée pour combattre, sélectionnez l'une des unités suivantes aptitudes pour s'appliquer à armes de mêlée dont sont équipées les figurines de cette unité Jusqu’à la fin de la phase:
 - Touches soutenues 1
 - Touches fatales
 
 
-Si cette unité effectuer un mouvement de Charge à ce tour, jusqu'à la fin de la phase, sélectionnez les deux capacités ci-dessus pour les appliquer aux armes de mêlée équipées par des figurines dans cette unité à la place.</characteristic>
+Si cette unité a fait un mouvement de Charge ce tour, Jusqu’à la fin de la phase, sélectionnez les deux aptitudes ci-dessus pour appliquer à armes de mêlée dont sont équipées les figurines de cette unité à la place.</characteristic>
           </characteristics>
         </profile>
         <profile name="Zephyrim Squad" typeId="c547-1836-d8a-ff4f" typeName="Unit" hidden="false" id="6151-213d-9f0b-1af2">
@@ -7640,7 +7640,7 @@ Si cette unité effectuer un mouvement de Charge à ce tour, jusqu'à la fin de 
         </profile>
         <profile name="Sauvegarde Invulnérable" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="5994-fa4a-62d9-d0d8">
           <characteristics>
-            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Les figurines de cette unité ont un sauvegarde invulnérable de 5+.</characteristic>
+            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Les les figurines de cette unité ont un sauvegarde invulnérable de 5+.</characteristic>
           </characteristics>
         </profile>
       </profiles>
@@ -7932,7 +7932,7 @@ Si cette unité effectuer un mouvement de Charge à ce tour, jusqu'à la fin de 
       <profiles>
         <profile name="Transport" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="9627-db7d-202c-4bfb">
           <characteristics>
-            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Cette figurine a une capacité de transport de 12 figurines ADEPTA SORORITAS INFANTRY. Il ne peut pas transporter les figurines Réacteur dorsal ou le Triumph of Saint Katherine.</characteristic>
+            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Cette figurine a une capacité de transport de 12 figurines ADEPTA SORORITAS INFANTRY. Elle ne peut pas transporter de figurines JUMP PACK ni le Triumph of Saint Katherine.</characteristic>
           </characteristics>
         </profile>
         <profile name="Repressor" typeId="c547-1836-d8a-ff4f" typeName="Unit" hidden="false" id="5840-8104-6a94-cf44">
@@ -7952,7 +7952,7 @@ Si cette unité effectuer un mouvement de Charge à ce tour, jusqu'à la fin de 
         </profile>
         <profile name="Emergency Combat Embarkation" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="2ef3-61bf-fe5-434c">
           <characteristics>
-            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Une fois par tour, dans la phase de Charge de votre adversaire, après qu'une unité ennemie ait sélectionné des cibles pour sa charge mais avant qu'elle fasse un mouvement de charge, vous pouvez sélectionner une unité ADEPTA SORORITAS de votre armée qui a été sélectionnée comme cible de cette charge. À condition que l'unité ne soit pas dans la Portée d’Engagement des unités ennemies et que chaque figurine de cette unité soit à 3" ou moins de ce Transport, elle peut embarquer dans cette Transport.</characteristic>
+            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Une fois par tour, dans votre adversaire s phase de Charge, après une unité ennemie a sélectionné des cibles pour sa charge mais avant qu'il fasse un mouvement de Charge, vous pouvez sélectionner une ADEPTA SORORITAS unité de votre armée qui a été sélectionné comme une cible de cette charge. À condition que cette unité ne soit pas à l'intérieur de Portée d’Engagement d'aucune unité ennemie et que chaque figurine de cette unité soit à 3" ou moins de ce Transport, elle peut embarquer dans ce Transport.</characteristic>
           </characteristics>
         </profile>
       </profiles>
@@ -8334,7 +8334,7 @@ Si cette unité effectuer un mouvement de Charge à ce tour, jusqu'à la fin de 
         </profile>
         <profile name="Divine Deliverance" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="d29e-6553-723c-5067">
           <characteristics>
-            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Une fois par bataille, au début de la phase de Combat, cette figurine peut utiliser cette aptitude. Si c'est le cas, jusqu'à la fin de la phase, ajoutez 3 aux caractéristique d’Attaques des armes de mêlée équipées par la figurine et ces armes ont la aptitude [Blessures dévastatrices]</characteristic>
+            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Une fois par bataille, au début de la phase de Combat, cette figurine peut utiliser cette aptitude. Si elle le fait, jusqu’à la fin de la phase, ajoutez 3 à la caractéristique d’Attaques des armes de mêlée dont cette figurine est équipée et ces armes ont l’aptitude [Blessures dévastatrices]</characteristic>
           </characteristics>
         </profile>
         <profile name="Sauvegarde Invulnérable" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="7506-7743-d517-3826">
@@ -8462,7 +8462,7 @@ Si cette unité effectuer un mouvement de Charge à ce tour, jusqu'à la fin de 
         </profile>
         <profile name="Sauvegarde Invulnérable" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="4a62-1352-4db-d0d0">
           <characteristics>
-            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Les figurines de cette unité ont un sauvegarde invulnérable de 5+.</characteristic>
+            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Les les figurines de cette unité ont un sauvegarde invulnérable de 5+.</characteristic>
           </characteristics>
         </profile>
       </profiles>
@@ -8670,17 +8670,17 @@ Si cette unité effectuer un mouvement de Charge à ce tour, jusqu'à la fin de 
       <profiles>
         <profile name="Spiritual Fortitude" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="3a47-84c9-767e-fe13">
           <characteristics>
-            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Les figurines de cette unité ont la aptitude Insensible à la douleur 4+ contre les attaques Psychiques et Blessures Mortelles.</characteristic>
+            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">les figurines de cette unité ont l’aptitude Insensible à la douleur 4+ contre les attaques Psychiques et Blessures Mortelles.</characteristic>
           </characteristics>
         </profile>
         <profile name="Attached Unit" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="ed35-bc75-d910-59f1">
           <characteristics>
-            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Si une figurine de votre armée avec la aptitude Meneur peut être attaché à un Battle Sisters Squad, il peut être attaché à cette unité à la place.</characteristic>
+            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Si une figurine de votre armée avec l’aptitude Meneur peut être attaché à un Battle Sisters Squad, il peut être attaché à cette unité à la place.</characteristic>
           </characteristics>
         </profile>
         <profile name="Sauvegarde Invulnérable" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="3dc2-22d4-2748-a419">
           <characteristics>
-            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Les figurines de cette unité ont un sauvegarde invulnérable de 4+.</characteristic>
+            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Les les figurines de cette unité ont un sauvegarde invulnérable de 4+.</characteristic>
           </characteristics>
         </profile>
       </profiles>
@@ -8781,12 +8781,12 @@ Si cette unité effectuer un mouvement de Charge à ce tour, jusqu'à la fin de 
         </profile>
         <profile name="Consecrated Ground" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="e082-93e0-86d5-1129">
           <characteristics>
-            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Lorsque ce Fortification est configuré, toutes ses parties doivent être placées à 1" ou moins d'une autre partie. Les figurines ADEPTA SORORITAS INFANTRY peuvent être installés ou mettre fin à tout type de mouvement sur les sections de plancher de ce Fortification. Alors qu'une unité ADEPTA SORORITAS de votre armée est à 1" ou moins de cette Fortification, Cette unité peut effectuer un acte de foi supplémentaire par phase.</characteristic>
+            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Lorsque cette FORTIFICATION est placée, chacune de ses parties doit être placée à 1" ou moins d’une autre partie. Les figurines ADEPTA SORORITAS INFANTRY amies peuvent être placées ou terminer n’importe quel type de mouvement sur les sections de plancher de cette FORTIFICATION. Tant qu’une unité ADEPTA SORORITAS de votre armée est à 1" ou moins de cette FORTIFICATION, cette unité peut effectuer un Acte de Foi supplémentaire par phase.</characteristic>
           </characteristics>
         </profile>
         <profile name="Holy Cover" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="1e64-6be4-df39-120c">
           <characteristics>
-            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Chaque fois qu'une attaque de tir est attribuée à une figurine, si cette figurine n'est pas pleinement visible à tous les figurines de l'unité d'attaque à cause de ce Fortification, cette figurine a le Bénéfice du Couvert contre cette attaque.</characteristic>
+            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Chaque fois qu’une attaque de tir est allouée à une figurine, si cette figurine n’est pas entièrement visible de toutes les figurines de l’unité attaquante à cause de cette FORTIFICATION, cette figurine a le Bénéfice du Couvert contre cette attaque.</characteristic>
           </characteristics>
         </profile>
       </profiles>
@@ -8842,7 +8842,7 @@ Si cette unité effectuer un mouvement de Charge à ce tour, jusqu'à la fin de 
         </profile>
         <profile name="Instrument of the Emperor's Wrath" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="946d-6991-50ea-72c1">
           <characteristics>
-            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Une fois par bataille, au début de la phase de Combat, cette figurine peut utiliser cette aptitude. Si c'est le cas, jusqu'à la fin de la phase, ajoutez 3 aux caractéristique d’Attaques des armes de mêlée équipées de cette figurine et ces armes ont la aptitude [Blessures dévastatrices].</characteristic>
+            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Une fois par bataille, au début de la phase de Combat, cette figurine peut utiliser cette aptitude. Si elle le fait, jusqu’à la fin de la phase, ajoutez 3 à la caractéristique d’Attaques des armes de mêlée dont cette figurine est équipée et ces armes ont l’aptitude [Blessures dévastatrices].</characteristic>
           </characteristics>
         </profile>
         <profile name="Daemonbreaker" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="758b-f18b-98a9-0fe4">
@@ -8928,22 +8928,22 @@ Si cette unité effectuer un mouvement de Charge à ce tour, jusqu'à la fin de 
         </profile>
         <profile name="Ministorum Sermon" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="8a3c-df78-6d77-f5e2">
           <characteristics>
-            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Alors que cette unité contient un **^^Ministorum Priest**^^, les armes de mêlée équipées de figurines de cette unité ont la aptitude [Touches soutenues 1].</characteristic>
+            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Alors que cette unité contient un **^^Ministorum Priest**^^, armes de mêlée dont sont équipées les figurines de cette unité ont l’aptitude [Touches soutenues 1].</characteristic>
           </characteristics>
         </profile>
         <profile name="Cherub" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="297a-b626-a0c5-a84b">
           <characteristics>
-            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Une fois par bataille, après que cette unité ait effectué un acte de foi, vous gagnez 1 Miracle dés.</characteristic>
+            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Une fois par bataille, après que cette unité ait effectué un acte de foi, vous gagnez des dés miraculeux 1.</characteristic>
           </characteristics>
         </profile>
         <profile name="Attached Unit" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="3907-15ad-c461-6590">
           <characteristics>
-            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Si une figurine ^^**Ministorum Priest^^** de votre armée dotée de l’aptitude Meneur peut être attachée à une unité ^^**Battle Sisters Squad^^**, elle peut être attachée à cette unité à la place. Si une figurine ^^**Ministorum Priest^^** de votre armée est attaché à cette unité pendant l'étape Déclarer les Formations de Bataille, cette figurine acquiert la aptitude Éclaireurs 6".</characteristic>
+            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Si une figurine ^^**Ministorum Priest^^** de votre armée dotée de l’aptitude Meneur peut être attachée à une unité ^^**Battle Sisters Squad^^**, elle peut être attachée à cette unité à la place. Si une figurine ^^**Ministorum Priest^^** de votre armée est attachée à cette unité durant l’étape Déclarer les Formations de Bataille, cette figurine gagne l’aptitude Éclaireurs 6".</characteristic>
           </characteristics>
         </profile>
         <profile name="Sauvegarde Invulnérable" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="4540-bee4-a354-4d09">
           <characteristics>
-            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Les figurines de cette unité ont un 5+ sauvegarde invulnérable.</characteristic>
+            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Les figurines de cette unité ont une sauvegarde invulnérable de 5+.</characteristic>
           </characteristics>
         </profile>
       </profiles>
@@ -9006,7 +9006,7 @@ Si cette unité effectuer un mouvement de Charge à ce tour, jusqu'à la fin de 
                   <profiles>
                     <profile name="Simulacrum Imperialis" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="733c-91f4-956f-310b">
                       <characteristics>
-                        <characteristic name="Description" typeId="9b8f-694b-e5e-b573">À la fin de votre phase de Commandement, pour chaque marqueur objectif que vous contrôlez qui a une ou plusieurs unités de votre armée avec cette aptitude dans sa portée, lancez un D6: sur un 4+, vous gagnez 1 Miracle dés montrant une valeur égale à ce résultat.</characteristic>
+                        <characteristic name="Description" typeId="9b8f-694b-e5e-b573">À la fin de votre phase de Commandement, pour chaque pion d’objectif que vous contrôlez qui a une ou plusieurs unités de votre armée avec cette aptitude dans Portée de celui-ci, lancez un D6: sur un 4+, vous gagnez 1 Miracle dés montrant une valeur égale à ce résultat.</characteristic>
                       </characteristics>
                     </profile>
                   </profiles>
@@ -9360,7 +9360,7 @@ Si cette unité effectuer un mouvement de Charge à ce tour, jusqu'à la fin de 
                   <profiles>
                     <profile name="Salvationist Medikit" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="a83b-6c57-683f-57ea">
                       <characteristics>
-                        <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Dans votre phase de Commandement, si le porteur est sur le champ de bataille, vous pouvez retourner jusqu'à D3 les figurines détruits (à l'exclusion de ^^**Character models^^**) à cette unité.</characteristic>
+                        <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Dans votre phase de Commandement, si le porteur est sur le champ de bataille, vous pouvez retourner jusqu'à D3 détruit figurines (à l’exclusion de ^^**Character models^^**) à cette unité.</characteristic>
                       </characteristics>
                     </profile>
                   </profiles>
@@ -9500,12 +9500,12 @@ Si cette unité effectuer un mouvement de Charge à ce tour, jusqu'à la fin de 
       <profiles>
         <profile name="Sauvegarde Invulnérable" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="0052-2c5c-6221-266a">
           <characteristics>
-            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Les figurines de cette unité ont un sauvegarde invulnérable de 5+.</characteristic>
+            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Les les figurines de cette unité ont un sauvegarde invulnérable de 5+.</characteristic>
           </characteristics>
         </profile>
         <profile name="Rituale Nullificatus" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="26d9-e27b-c1cb-8ecb">
           <characteristics>
-            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Les figurines de cette unité ont la aptitude Insensible à la douleur 4+ contre les attaques Psychiques et Blessures Mortelles.</characteristic>
+            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">les figurines de cette unité ont l’aptitude Insensible à la douleur 4+ contre les attaques Psychiques et Blessures Mortelles.</characteristic>
           </characteristics>
         </profile>
         <profile name="Celestian Insidiants" typeId="c547-1836-d8a-ff4f" typeName="Unit" hidden="false" id="6b6a-f710-8f71-dad0">
@@ -9520,12 +9520,12 @@ Si cette unité effectuer un mouvement de Charge à ce tour, jusqu'à la fin de 
         </profile>
         <profile name="Virtue of Intolerance" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="76e2-fa16-cbc9-d420">
           <characteristics>
-            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Au début de la bataille, sélectionnez une unité de l'armée de votre adversaire pour être la carrière de cette unité. Chaque fois qu'une figurine dans cette unité effectue une attaque visant sa carrière, cette attaque a la aptitude ^^**[Precision]^^** et vous pouvez relancer le jet de Touche. Cette aptitude peut être utilisée même si cette unité est embarquée dans un ^^**Transport**^^.</characteristic>
+            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Au début de la bataille, sélectionnez une unité de l’armée de votre adversaire comme proie de cette unité. Chaque fois qu’une figurine de cette unité effectue une attaque qui cible sa proie, cette attaque a l’aptitude ^^**[Precision]^^** et vous pouvez relancer le jet de Touche. Cette aptitude peut être utilisée même si cette unité est embarquée dans un ^^**Transport**^^.</characteristic>
           </characteristics>
         </profile>
         <profile name="Attached Unit" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="d4e9-0707-582f-0385">
           <characteristics>
-            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Si une unité ^^**Character^^** unité de votre armée peut être attachée à a ^^**Dominion Squad^^** peut être rattachée à cette unité à la place.</characteristic>
+            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Si une unité ^^**Character^^** de votre armée peut être attachée à une unité ^^**Dominion Squad^^**, elle peut être attachée à cette unité à la place.</characteristic>
           </characteristics>
         </profile>
       </profiles>
@@ -9793,7 +9793,7 @@ Si cette unité effectuer un mouvement de Charge à ce tour, jusqu'à la fin de 
                   <profiles>
                     <profile name="Simulacrum Imperialis" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="6894-ba17-e451-a786">
                       <characteristics>
-                        <characteristic name="Description" typeId="9b8f-694b-e5e-b573">À la fin de votre phase de Commandement, pour chaque marqueur objectif que vous contrôlez qui a une ou plusieurs unités de votre armée avec cette aptitude dans sa portée, lancez un D6: sur un 4+, vous gagnez 1 Miracle dés montrant une valeur égale à ce résultat.</characteristic>
+                        <characteristic name="Description" typeId="9b8f-694b-e5e-b573">À la fin de votre phase de Commandement, pour chaque pion d’objectif que vous contrôlez qui a une ou plusieurs unités de votre armée avec cette aptitude dans Portée de celui-ci, lancez un D6: sur un 4+, vous gagnez 1 Miracle dés montrant une valeur égale à ce résultat.</characteristic>
                       </characteristics>
                     </profile>
                   </profiles>
@@ -9911,7 +9911,7 @@ Si cette unité effectuer un mouvement de Charge à ce tour, jusqu'à la fin de 
         </profile>
         <profile name="Sacred Command" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="e2df-1161-191f-1b8a">
           <characteristics>
-            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Une fois par tour de bataille, une unité de votre armée avec la aptitude peut être ciblée avec un Stratagème pour 0CP, même si une autre unité de votre armée a déjà été ciblée avec ce Stratagème cette phase.</characteristic>
+            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Une fois par round de bataille, une unité de votre armée dotée de cette aptitude peut être ciblée par un Stratagème pour 0CP, même si une autre unité de votre armée a déjà été ciblée par ce Stratagème durant cette phase.</characteristic>
           </characteristics>
         </profile>
         <profile name="Meneur" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="3c7a-adb8-5b32-b1ed">
@@ -10249,7 +10249,7 @@ Si cette unité effectuer un mouvement de Charge à ce tour, jusqu'à la fin de 
         </profile>
         <profile name="Adamant Wrath" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="30eb-e98b-93b3-29ab">
           <characteristics>
-            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Vous pouvez relancer les jets d’Avance et de Charge faits pour cette unité.</characteristic>
+            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">vous pouvez relancer Advance et jets de Charge effectués pour cette unité.</characteristic>
           </characteristics>
         </profile>
         <profile name="Meneur" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="0097-9664-c0ac-ed29">
@@ -10535,12 +10535,12 @@ Si cette unité effectuer un mouvement de Charge à ce tour, jusqu'à la fin de 
         </profile>
         <profile name="Righteous Denunciation" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="c898-5167-e688-8d81">
           <characteristics>
-            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Au début de la phase de Combat, chaque unité ennemie à 6" ou moins de cette figurine doit passer un test d’Ébranlement, en soustrayant 1 de ce test.</characteristic>
+            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Au début de la phase de Combat, chaque unité ennemie à 6" ou moins de cette figurine doit effectuer un test d’Ébranlement, en soustrayant le 1 de ce test.</characteristic>
           </characteristics>
         </profile>
         <profile name="Judged for Execution" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="795c-9a7f-fc73-3380">
           <characteristics>
-            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">À la fin de votre phase de Mouvement, vous pouvez sélectionner une unité ennemi à 18" ou moins et visible à cette figurine. Jusqu'au début de votre prochaine phase de Commandement, chaque fois qu'une figurine amie ^^**Adepta Sororitas**^^ fait une attaque qui cible cette unité ennemie, cette attaque a la aptitude [Touches fatales].</characteristic>
+            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">À la fin de votre phase de Mouvement, vous pouvez sélectionner une unité ennemie à 18" ou moins et visible à cette figurine. Jusqu'au début de votre prochaine phase de Commandement, chaque fois qu'un ami ^^**Adepta Sororitas**^^ figurine fait une attaque qui cible cette unité ennemie, cette attaque a l’aptitude [Touches fatales].</characteristic>
           </characteristics>
         </profile>
       </profiles>
@@ -10600,7 +10600,7 @@ Si cette unité effectuer un mouvement de Charge à ce tour, jusqu'à la fin de 
     </profile>
     <profile name="Cherub" hidden="false" id="7351-977f-72f0-68b6" typeName="Abilities" typeId="9cc3-6d83-4dd3-9b64">
       <characteristics>
-        <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Une fois par bataille, après que cette unité ait effectué un acte de foi, vous gagnez 1 Miracle dés.</characteristic>
+        <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Une fois par bataille, après que cette unité ait effectué un acte de foi, vous gagnez des dés miraculeux 1.</characteristic>
       </characteristics>
     </profile>
     <profile id="135c-b9f6-befe-a2cc" name="Celestian Sacresant" hidden="false" typeId="c547-1836-d8a-ff4f" typeName="Unit">
@@ -10758,16 +10758,16 @@ Absolution in Battle: Chaque fois qu’une unité de votre armée est sélection
 Death Before Disgrace: Chaque fois qu’une figurine PENITENT de votre armée est détruite par une attaque de mêlée, si cette figurine n’a pas combattu pendant cette phase, lancez un D6. Sur 2+, ne la retirez pas du jeu ; la figurine détruite peut combattre après que l’unité attaquante a fini d’effectuer ses attaques, puis elle est retirée du jeu.</description>
     </rule>
     <rule name="Fervent Purgation" id="4130-3962-d1f1-2a04" hidden="false">
-      <description>Les armes de tir équipées de figurines ADEPTA SORORITAS de votre armée ont la aptitude [Assaut], et chaque fois qu'une attaque effectuée avec une telle arme cible une unité à 6" ou moins, ajoutez 1 à la caractéristique de Force de cette attaque.</description>
+      <description>armes de tir équipé de ADEPTA SORORITAS figurines de votre armée ont l’aptitude [Assaut], et chaque fois qu'une attaque effectuée avec une telle arme cible une unité à 6" ou moins, ajoutez 1 à la caractéristique de Force de cette attaque.</description>
     </rule>
     <rule name="Sacred Rites" id="acd2-395b-e1b4-0918" hidden="false">
-      <description>Chaque unité Adepta Sororitas de votre armée peut effectuer jusqu'à deux Acts of Faith par phase, au lieu d'une seule.</description>
+      <description>Chaque unité Adepta Sororitas de votre armée peut effectuer jusqu'à deux Acts of Faith par phase, au lieu de seulement une.</description>
     </rule>
     <rule name="Righteous Purpose" id="cb5e-57b9-c416-c2a5" hidden="false">
-      <description>Dans votre phase de Commandement, vous pouvez sélectionner jusqu'à 3 ^^**Adepta Sororitas^^** unités de votre armée (including unités cette sont embarked à ^^**Transports^^**), jusqu'au début de votre prochaine phase de Commandement, ces unités sont Righteous. Alors qu'une unité est Righteous:
-■ Ajoutez 1" à la caractéristique de mouvement des figurines de cette unité.
-■ Améliorez la caractéristique de Commandement des figurines de cette unité de 1.
-■ Améliorez les caractéristiques de caractéristique de Capacité de Combat et de caractéristique de Capacité de Tir des armes équipées des figurines ^^**Battle Sisters Squad^^**, ^^**Celestian Sacresants^^** et ^^**Paragon Warsuits^^** dans cette unité de 1.</description>
+      <description>Durant votre phase de Commandement, vous pouvez sélectionner jusqu’à 3 unités ^^**Adepta Sororitas^^** de votre armée (y compris des unités embarquées dans des ^^**Transports^^**) ; jusqu’au début de votre prochaine phase de Commandement, ces unités sont Righteous. Tant qu’une unité est Righteous :
+■ Ajoutez 1" à la caractéristique de Mouvement des figurines de cette unité.
+■ Améliorez de 1 la caractéristique de Commandement des figurines de cette unité.
+■ Améliorez de 1 les caractéristiques de Capacité de Combat et de Capacité de Tir des armes dont sont équipées les figurines ^^**Battle Sisters Squad^^**, ^^**Celestian Sacresants^^** et ^^**Paragon Warsuits^^** de cette unité.</description>
     </rule>
     <rule name="Keywords" id="f84c-5011-816f-3fb6" hidden="false">
       <description>Tant qu’une unité ^^**Celestian Sacresants^^** de votre armée n’est pas Ébranlée, ajoutez 1 à la caractéristique de Contrôle d’Objectif des figurines ^^**Celestian Sacresants^^** de cette unité.</description>
@@ -11055,7 +11055,7 @@ Death Before Disgrace: Chaque fois qu’une figurine PENITENT de votre armée es
               <profiles>
                 <profile name="Triptych of the Macharian Crusade" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="854e-64e3-4b87-3eef">
                   <characteristics>
-                    <characteristic name="Description" typeId="9b8f-694b-e5e-b573">ADEPTA SORORITAS figurine uniquement. Chaque fois que le porteur utilise un acte de foi pour remplacer un jet de sauvegarde, ce jet de sauvegarde réussit, quelle que soit la valeur des dés miraculeux utilisés.</characteristic>
+                    <characteristic name="Description" typeId="9b8f-694b-e5e-b573">ADEPTA SORORITAS figurine uniquement. Chaque fois que le porteur utilise un acte de foi pour remplacer un jet de sauvegarde, ce jet de sauvegarde est réussi, indépendamment de la valeur des dés Miracle utilisés.</characteristic>
                   </characteristics>
                 </profile>
               </profiles>
@@ -11071,7 +11071,7 @@ Death Before Disgrace: Chaque fois qu’une figurine PENITENT de votre armée es
               <profiles>
                 <profile name="Blade of Saint Ellynor" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="8588-e644-dec8-3265">
                   <characteristics>
-                    <characteristic name="Description" typeId="9b8f-694b-e5e-b573">ADEPTA SORORITAS figurine uniquement. améliorez la Force et caractéristique de Pénétration d’Armure du porteur's armes de mêlée de 1, et ces armes ont l’ [Précision] aptitude. De plus, chaque fois que le porteur se bat, si une ou plusieurs figurines ennemies sont détruits par ces attaques, vous gagnez des dés 1 Miracle.</characteristic>
+                    <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Figurine ADEPTA SORORITAS uniquement. Améliorez de 1 les caractéristiques de Force et de Pénétration d’Armure des armes de mêlée du porteur, et ces armes ont l’aptitude [Precision]. De plus, chaque fois que le porteur combat, si une ou plusieurs figurines ennemies sont détruites par ces attaques, vous gagnez 1 dé Miracle.</characteristic>
                   </characteristics>
                 </profile>
               </profiles>
@@ -11143,7 +11143,7 @@ Death Before Disgrace: Chaque fois qu’une figurine PENITENT de votre armée es
               <profiles>
                 <profile name="Saintly Example" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="519f-ffd5-db56-e30">
                   <characteristics>
-                    <characteristic name="Description" typeId="9b8f-694b-e5e-b573">ADEPTA SORORITAS figurine uniquement. lorsque la porteur est détruite, vous gagnez an additional D3 Miracle dice.</characteristic>
+                    <characteristic name="Description" typeId="9b8f-694b-e5e-b573">ADEPTA SORORITAS figurine uniquement. Quand le porteur est détruit, vous gagnez un autre D3 Miracle dice.</characteristic>
                   </characteristics>
                 </profile>
               </profiles>
@@ -11159,7 +11159,7 @@ Death Before Disgrace: Chaque fois qu’une figurine PENITENT de votre armée es
               <profiles>
                 <profile name="Through Suffering, Strength" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="729-3c0a-779b-e740">
                   <characteristics>
-                    <characteristic name="Description" typeId="9b8f-694b-e5e-b573">**^^Adepta Sororitas^^** figurine uniquement. Ajoutez 1 aux caractéristiques d'attaque, de force et de dégâts des armes de mêlée du porteur. Si le porteur a perdu un ou plusieurs PV, ajoutez 2 aux caractéristiques d'attaque, de force et de Dégâts des armes de mêlée du porteur à la place.</characteristic>
+                    <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Figurine **^^Adepta Sororitas^^** uniquement. Ajoutez 1 aux caractéristiques d’Attaques, de Force et de Dégâts des armes de mêlée du porteur. Si le porteur a perdu un ou plusieurs PV, ajoutez 2 aux caractéristiques d’Attaques, de Force et de Dégâts des armes de mêlée du porteur à la place.</characteristic>
                   </characteristics>
                 </profile>
               </profiles>
@@ -11210,7 +11210,7 @@ Death Before Disgrace: Chaque fois qu’une figurine PENITENT de votre armée es
               <profiles>
                 <profile name="Mantle of Ophelia" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="9fc1-6072-30f8-21c8">
                   <characteristics>
-                    <characteristic name="Description" typeId="9b8f-694b-e5e-b573">**^^Canoness^^** ou **^^Palatine^^** figurine uniquement. Chaque fois qu'une attaque est attribuée au porteur, modifiez la caractéristique de Dégât de cette attaque à 1.</characteristic>
+                    <characteristic name="Description" typeId="9b8f-694b-e5e-b573">**^^Canoness^^** ou **^^Palatine^^** figurine uniquement. Chaque fois qu'une attaque est attribuée au porteur, modifiez la caractéristique de Dégâts de cette attaque à 1.</characteristic>
                   </characteristics>
                 </profile>
               </profiles>
@@ -11257,7 +11257,7 @@ Death Before Disgrace: Chaque fois qu’une figurine PENITENT de votre armée es
               <profiles>
                 <profile name="Catechism of Divine Penitence" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="2e4b-b1b1-8eae-d495">
                   <characteristics>
-                    <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Canoness, Palatine, or Ministorum Priest figurine uniquement. Le porteur obtient le mot-clé PENITENT et, au cours de l'étape Déclarer les Formations de Bataille, peut être attaché à une unité Repentia Squad.</characteristic>
+                    <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Canoness, Palatine, or Ministorum Priest figurine uniquement. le porteur gagne le PENITENT mot-clé et, pendant le étape Déclarer les Formations de Bataille, peut être attaché à une unité Repentia Squad.</characteristic>
                   </characteristics>
                 </profile>
               </profiles>
@@ -11287,7 +11287,7 @@ Death Before Disgrace: Chaque fois qu’une figurine PENITENT de votre armée es
               <profiles>
                 <profile name="Psalm of Righteous Judgement" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="320d-daae-e2f2-1379">
                   <characteristics>
-                    <characteristic name="Description" typeId="9b8f-694b-e5e-b573">ADEPTA SORORITAS figurine uniquement. Pendant que le porteur est sur le champ de bataille, chaque fois qu'une unité ennemie est détruite par une unité PENITENT de votre armée, vous pouvez jeter 1 Miracle dés pour gagner 1 Miracle dés montrant une valeur de 6.</characteristic>
+                    <characteristic name="Description" typeId="9b8f-694b-e5e-b573">ADEPTA SORORITAS figurine uniquement. Alors que le porteur est sur le champ de bataille, chaque fois qu'une unité ennemie est détruite par une unité PENITENT de votre armée, vous pouvez jeter 1 Miracle dés pour gagner 1 Miracle dés montrant une valeur de 6.</characteristic>
                   </characteristics>
                 </profile>
               </profiles>
@@ -11303,7 +11303,7 @@ Death Before Disgrace: Chaque fois qu’une figurine PENITENT de votre armée es
               <profiles>
                 <profile name="Verse of Holy Piety" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="114b-c6f4-be4c-61e5">
                   <characteristics>
-                    <characteristic name="Description" typeId="9b8f-694b-e5e-b573">PENITENT figurine uniquement. Une fois par bataille, au début du tour de bataille, sélectionnez un vœu d'expiation. Jusqu'au début du prochain tour de bataille, ce Vœu d'Expiation est actif pour l'unité du porteur en plus de tout ce qui est actif pour votre armée, même si vous avez déjà sélectionné ce Vœu d'Expiation cette bataille.</characteristic>
+                    <characteristic name="Description" typeId="9b8f-694b-e5e-b573">PENITENT figurine uniquement. Une fois par bataille, au début du tour de bataille, sélectionnez un vœu d'expiation. Jusqu'au début du prochain tour de bataille, ce Vœu d'Expiation est actif pour l’unité du porteur en plus de tout ce qui est actif pour votre armée, même si vous avez déjà sélectionné ce Vœu d'Expiation cette bataille.</characteristic>
                   </characteristics>
                 </profile>
               </profiles>
@@ -11326,7 +11326,7 @@ Death Before Disgrace: Chaque fois qu’une figurine PENITENT de votre armée es
               <profiles>
                 <profile name="Refrain of Enduring Faith" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="8bb0-e954-199b-d118">
                   <characteristics>
-                    <characteristic name="Description" typeId="9b8f-694b-e5e-b573">PENITENT figurine uniquement. Pendant que le porteur mène une unité, les figurines de cette unité ont un 5+ sauvegarde invulnérable.</characteristic>
+                    <characteristic name="Description" typeId="9b8f-694b-e5e-b573">PENITENT figurine uniquement. Alors que le porteur est à la tête d'une unité, les figurines de cette unité ont un 5+ sauvegarde invulnérable.</characteristic>
                   </characteristics>
                 </profile>
               </profiles>
@@ -11368,7 +11368,7 @@ Death Before Disgrace: Chaque fois qu’une figurine PENITENT de votre armée es
               <profiles>
                 <profile name="Iron Surplice of Saint Istalela" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="ab2c-0599-3bf5-22a2">
                   <characteristics>
-                    <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Canoness or Palatine figurine uniquement. Le porteur a une caractéristique de sauvegarde de 2+ et la aptitude Insensible à la douleur 5+.</characteristic>
+                    <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Canoness or Palatine figurine uniquement. le porteur a une caractéristique de Sauvegarde de 2+ et l’aptitude Insensible à la douleur 5+.</characteristic>
                   </characteristics>
                 </profile>
               </profiles>
@@ -11400,7 +11400,7 @@ Death Before Disgrace: Chaque fois qu’une figurine PENITENT de votre armée es
               <profiles>
                 <profile name="Righteous Rage" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="55c7-c97f-7158-f4a9">
                   <characteristics>
-                    <characteristic name="Description" typeId="9b8f-694b-e5e-b573">**^^Adepta Sororitas^^** figurine uniquement. Chaque fois que le porteur est sélectionné pour le combat, vous pouvez d'abord jeter jusqu'à 3 Miracle dice. Pour chaque dés Miracle jeté, jusqu'à la fin de la phase, ajoutez 1 aux caractéristiques d'attaque et de force des armes de mêlée du porteur.</characteristic>
+                    <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Figurine **^^Adepta Sororitas^^** uniquement. Chaque fois que le porteur est sélectionné pour combattre, vous pouvez d’abord défausser jusqu’à 3 dés Miracle. Pour chaque dé Miracle ainsi défaussé, jusqu’à la fin de la phase, ajoutez 1 aux caractéristiques d’Attaques et de Force des armes de mêlée du porteur.</characteristic>
                   </characteristics>
                 </profile>
               </profiles>
@@ -11420,7 +11420,7 @@ Death Before Disgrace: Chaque fois qu’une figurine PENITENT de votre armée es
               <profiles>
                 <profile name="Manual of Saint Griselda" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="3f0e-68b6-f173-2140">
                   <characteristics>
-                    <characteristic name="Description" typeId="9b8f-694b-e5e-b573">ADEPTA SORORITAS figurine uniquement. Au début de votre phase de Commandement, vous pouvez jeter jusqu'à 2 Miracle dice. Ensuite, ajoutez 1 Miracle dice à votre pool de Miracle Dice montrant une valeur égale à la somme des deux dés Miracle que vous avez jetés (au maximum de 6).</characteristic>
+                    <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Figurine ADEPTA SORORITAS uniquement. Au début de votre phase de Commandement, vous pouvez défausser jusqu’à 2 dés de Miracle. Ajoutez ensuite 1 dé de Miracle à votre réserve de dés de Miracle, indiquant une valeur égale à la somme des deux dés de Miracle que vous avez défaussés (jusqu’à un maximum de 6).</characteristic>
                   </characteristics>
                 </profile>
               </profiles>
@@ -11440,7 +11440,7 @@ Death Before Disgrace: Chaque fois qu’une figurine PENITENT de votre armée es
               <profiles>
                 <profile name="Fire and Fury" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="aff3-1dba-b4f6-3f28">
                   <characteristics>
-                    <characteristic name="Description" typeId="9b8f-694b-e5e-b573">**^^Adepta Sororitas^^** figurine uniquement. Pendant que le porteur mène une unité, Ajoutez 1 à la caractéristique d’Attaques des armes Torrent équipées de figurines de cette unité, et Toutes les autres armes de tir équipées par les figurines de cette unité ont la aptitude **[SUSTAINED HITS 1]**.</characteristic>
+                    <characteristic name="Description" typeId="9b8f-694b-e5e-b573">**^^Adepta Sororitas^^** figurine uniquement. Alors que le porteur mène une unité, ajoutez 1 à la caractéristique d’Attaques des armes Torrent équipées par les figurines de cette unité, et toutes les autres armes de tir équipées par figurines que l'unité ont l’aptitude **[SUSTAINED HITS 1]**.</characteristic>
                   </characteristics>
                 </profile>
               </profiles>
@@ -11508,7 +11508,7 @@ Death Before Disgrace: Chaque fois qu’une figurine PENITENT de votre armée es
               <profiles>
                 <profile name="Mark of Devotion" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="2458-a30b-3f7d-69ca">
                   <characteristics>
-                    <characteristic name="Description" typeId="9b8f-694b-e5e-b573">**^^Adepta Sororitas^^** figurine uniquement. Ajoutez 1 aux caractéristique d’Attaques des armes de mêlée du porteur. Alors que l'unité du porteur est Righteous, ajoutez 2 à la caractéristique d’Attaques et ajoutez 1 à la caractéristique des Dégâts des armes de mêlée du porteur à la place.</characteristic>
+                    <characteristic name="Description" typeId="9b8f-694b-e5e-b573">**^^Adepta Sororitas^^** figurine uniquement. Ajoutez 1 à la caractéristique d’Attaques des armes de mêlée du porteur. Alors que l’unité du porteur est Righteous, ajoutez 2 à la caractéristique d’Attaques et ajoutez 1 à la caractéristique de Dégâts des armes de mêlée du porteur à la place.</characteristic>
                   </characteristics>
                 </profile>
               </profiles>
@@ -11540,7 +11540,7 @@ Death Before Disgrace: Chaque fois qu’une figurine PENITENT de votre armée es
               <profiles>
                 <profile name="Eyes of the Oracle" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="0565-355a-2b90-415c">
                   <characteristics>
-                    <characteristic name="Description" typeId="9b8f-694b-e5e-b573">ADEPTA SORORITAS figurine uniquement. Les armes du porteur ont la aptitude [Précision]. Chaque fois que l'unité du porteur détruit une figurine de caractère ennemi, vous gagnez 1CP.</characteristic>
+                    <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Figurine ADEPTA SORORITAS uniquement. Les armes du porteur ont l’aptitude [PRECISION]. Chaque fois que l’unité du porteur détruit une figurine Character ennemie, vous gagnez 1CP.</characteristic>
                   </characteristics>
                 </profile>
               </profiles>
@@ -11559,7 +11559,7 @@ Death Before Disgrace: Chaque fois qu’une figurine PENITENT de votre armée es
               <profiles>
                 <profile name="Sanctified Amulet" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="ef03-fbc3-b77b-a35a">
                   <characteristics>
-                    <characteristic name="Description" typeId="9b8f-694b-e5e-b573">ADEPTA SORORITAS figurine uniquement. Les unités ennemies qui sont placées sur le champ de bataille depuis les réserves ne peuvent pas être placées à 12" ou moins du porteur</characteristic>
+                    <characteristic name="Description" typeId="9b8f-694b-e5e-b573">ADEPTA SORORITAS figurine uniquement. Les unités ennemies qui sont installées sur le champ de bataille des réserves ne peuvent pas être installées à 12" ou moins du porteur</characteristic>
                   </characteristics>
                 </profile>
               </profiles>
@@ -11703,7 +11703,7 @@ Death Before Disgrace: Chaque fois qu’une figurine PENITENT de votre armée es
           <profiles>
             <profile name="Valour of Saints" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="f4b0-9e61-a7bb-0201">
               <characteristics>
-                <characteristic name="Description" typeId="9b8f-694b-e5e-b573">chaque fois que cette unité takes a Ébranlement or test de Commandement, vous pouvez premier discard 1 Miracle dice. Si vous le faites, ce test passe automatiquement.</characteristic>
+                <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Chaque fois que cette unité prend un Ébranlement ou test de Commandement, vous pouvez d'abord jeter 1 Miracle dés. Si vous le faites, ce test passe automatiquement.</characteristic>
               </characteristics>
             </profile>
           </profiles>
@@ -11740,7 +11740,7 @@ Death Before Disgrace: Chaque fois qu’une figurine PENITENT de votre armée es
           <profiles>
             <profile name="Armour of Faith" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="1052-994f-1876-9713">
               <characteristics>
-                <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Une fois par phase, lorsque cette unité est sélectionnée comme cible d'une attaque, vous pouvez jeter 1 Miracle dice. Si vous le faites, jusqu'à la fin de la phase, chaque fois qu'une attaque cible cette unité, aggraver la caractéristique de Pénétration d’Armure de cette attaque par 1.</characteristic>
+                <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Une fois par phase, lorsque cette unité est sélectionnée comme cible d'une attaque, vous pouvez jeter 1 Miracle dice. Si vous le faites, Jusqu’à la fin de la phase, chaque fois qu'une attaque cible cette unité, aggraver la caractéristique de Pénétration d’Armure de cette attaque par 1.</characteristic>
               </characteristics>
             </profile>
           </profiles>
@@ -11777,7 +11777,7 @@ Death Before Disgrace: Chaque fois qu’une figurine PENITENT de votre armée es
           <profiles>
             <profile name="Veterans of the Convent" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="4f1a-dcea-e4b6-dbd0">
               <characteristics>
-                <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Vous pouvez relancer les tests hors d'action échoués pris pour cette unité, et chaque fois que cette unité est marquée pour la grandeur, il gagne un 2XP supplémentaire.</characteristic>
+                <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Vous pouvez relancer les tests Out of Action ratés effectués pour cette unité et, chaque fois que cette unité est Marked for Greatness, elle gagne 2XP supplémentaires.</characteristic>
               </characteristics>
             </profile>
           </profiles>
@@ -11814,7 +11814,7 @@ Death Before Disgrace: Chaque fois qu’une figurine PENITENT de votre armée es
           <profiles>
             <profile name="Thrice-blessed Hull" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="8194-3dbb-f3be-90e7">
               <characteristics>
-                <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Cette unité a la aptitude Insensible à la douleur 4+ contre les Blessures Mortelles.</characteristic>
+                <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Cette unité a l’aptitude Insensible à la douleur 4+ contre Blessures Mortelles.</characteristic>
               </characteristics>
             </profile>
           </profiles>
@@ -11858,7 +11858,7 @@ Death Before Disgrace: Chaque fois qu’une figurine PENITENT de votre armée es
           <profiles>
             <profile name="Zealous Devotion" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="2425-636f-288f-cbda">
               <characteristics>
-                <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Chaque fois que cette unité fait un mouvement de Charge, jusqu'à la fin du tour, améliorez la caractéristique de Capacité de Combat des armes de mêlée équipées par les figurines de cette unité de 1.</characteristic>
+                <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Chaque fois que cette unité fait un mouvement de Charge, jusqu'à la fin du tour, améliorez la caractéristique de Capacité de Combat des armes de mêlée dont sont équipées les figurines de cette unité de 1.</characteristic>
               </characteristics>
             </profile>
           </profiles>
@@ -11890,7 +11890,7 @@ Death Before Disgrace: Chaque fois qu’une figurine PENITENT de votre armée es
           <profiles>
             <profile name="Unquenchable Fanaticism" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="c5ea-3e66-44ee-610f">
               <characteristics>
-                <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Ajoutez 1 aux jets d’Avance et de Charge effectués pour cette unité.</characteristic>
+                <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Ajoutez 1 à Advance et jets de Charge effectués pour cette unité.</characteristic>
               </characteristics>
             </profile>
           </profiles>
@@ -11922,7 +11922,7 @@ Death Before Disgrace: Chaque fois qu’une figurine PENITENT de votre armée es
           <profiles>
             <profile name="Faithful Devotee" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="2dfe-d334-c4b1-1dde">
               <characteristics>
-                <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Chaque fois que cette unité est sélectionnée comme cible d'une attaque, si cette unité est inférieure à la Demi-effectif, les figurines de cette unité ont la aptitude Insensible à la douleur 4+ contre cette attaque.</characteristic>
+                <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Chaque fois que cette unité est sélectionnée comme cible d'une attaque, si cette unité est En Dessous de son Demi-effectif, les figurines de cette unité ont l’aptitude Insensible à la douleur 4+ contre cette attaque.</characteristic>
               </characteristics>
             </profile>
           </profiles>
@@ -11961,7 +11961,7 @@ Death Before Disgrace: Chaque fois qu’une figurine PENITENT de votre armée es
           <profiles>
             <profile name="Blood Begets Absolution" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="fcb8-ac84-e68f-c348">
               <characteristics>
-                <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Chaque fois que cette unité détruit une unité ennemie dans la phase de Combat, vous gagnez 1 Miracle dés.</characteristic>
+                <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Chaque fois que cette unité détruit une unité ennemie dans la phase de Combat, vous gagnez 1 Miracle dice.</characteristic>
               </characteristics>
             </profile>
           </profiles>
@@ -12025,7 +12025,7 @@ Death Before Disgrace: Chaque fois qu’une figurine PENITENT de votre armée es
           <profiles>
             <profile name="Aegis of Belief" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="6f31-ba65-a5ad-1202">
               <characteristics>
-                <characteristic name="Description" typeId="9b8f-694b-e5e-b573">cette figurine a la aptitude Insensible à la douleur 5+ et, au début de votre phase de Commandement, cette figurine récupère la PV perdus 1.</characteristic>
+                <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Cette figurine a l’aptitude Feel No Pain 5+ et, au début de votre phase de Commandement, elle récupère 1 PV perdu.</characteristic>
               </characteristics>
             </profile>
           </profiles>
@@ -12239,7 +12239,7 @@ Death Before Disgrace: Chaque fois qu’une figurine PENITENT de votre armée es
               <profiles>
                 <profile name="Icon of Sanctity" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="fdfc-6092-18e6-4506">
                   <characteristics>
-                    <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Chaque fois qu'une unité ennemie sélectionne l'unité du porteur comme cible d'une charge, cette unité ennemie doit effectuer un test d’Ébranlement; si ce test échoue, Soustrayez 2 du jet de Charge fait pour cette charge.</characteristic>
+                    <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Chaque fois qu’une unité ennemie sélectionne l’unité du porteur comme cible d’une charge, cette unité ennemie doit effectuer un test d’Ébranlement ; si ce test échoue, soustrayez 2 au jet de Charge effectué pour cette charge.</characteristic>
                   </characteristics>
                 </profile>
               </profiles>
@@ -12349,7 +12349,7 @@ Death Before Disgrace: Chaque fois qu’une figurine PENITENT de votre armée es
               <profiles>
                 <profile name="Tears of the Emperor" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="1dc7-8961-7532-3d25">
                   <characteristics>
-                    <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Améliorez les caractéristiques d'attaque, de force et de Dégâts des armes de tir du porteur de 1, et ces armes ont les capacités **[DEVASTATING WOUNDS]** et **[ANTI-CHAOS 4+]**.</characteristic>
+                    <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Améliorez les caractéristiques d’Attaques, de Force et de Dégâts des armes du porteur de tir de 1, et ces armes ont les aptitudes **[DEVASTATING WOUNDS]** et **[ANTI-CHAOS 4+]**.</characteristic>
                   </characteristics>
                 </profile>
               </profiles>
@@ -12409,7 +12409,7 @@ Death Before Disgrace: Chaque fois qu’une figurine PENITENT de votre armée es
               <profiles>
                 <profile name="Phial of Dolan" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="0903-97f2-cc77-9c26">
                   <characteristics>
-                    <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Améliorez les caractéristiques des blessures, du Commandement et de la caractéristique de Contrôle d’Objectif du porteur de 1.</characteristic>
+                    <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Améliorez les caractéristiques des blessures du porteur, Commandement et Contrôle d’Objectif de 1.</characteristic>
                   </characteristics>
                 </profile>
               </profiles>
@@ -12501,7 +12501,7 @@ Death Before Disgrace: Chaque fois qu’une figurine PENITENT de votre armée es
               <profiles>
                 <profile name="Praesidium Rosarius" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="a86e-07c1-9af5-c151">
                   <characteristics>
-                    <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Le porteur a un 4+ sauvegarde invulnérable. Chaque fois que l'unité du porteur est sélectionnée comme cible d'une attaque, vous pouvez jeter 1 Miracle dice. Si vous le faites, jusqu'à la fin de la phase, le porteur a un 3+ sauvegarde invulnérable.</characteristic>
+                    <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Le porteur a une sauvegarde invulnérable de 4+. Chaque fois que l’unité du porteur est sélectionnée comme cible d’une attaque, vous pouvez défausser 1 dé Miracle. Si vous le faites, jusqu’à la fin de la phase, le porteur a une sauvegarde invulnérable de 3+.</characteristic>
                   </characteristics>
                 </profile>
               </profiles>
@@ -12670,7 +12670,7 @@ Death Before Disgrace: Chaque fois qu’une figurine PENITENT de votre armée es
               <profiles>
                 <profile name="Holy Crusader" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="1aaf-1725-52a1-69e6">
                   <characteristics>
-                    <characteristic name="Description" typeId="9b8f-694b-e5e-b573">gagnez 3 Saint points à la fin d'une bataille si cette figurine est entièrement à la zone de déploiement de votre adversaire.</characteristic>
+                    <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Gagnez 3 Saint points à la fin d’une bataille si cette figurine est entièrement dans la zone de déploiement de votre adversaire.</characteristic>
                   </characteristics>
                 </profile>
                 <profile name="Pious Reputation" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="ced7-b95d-3bce-27eb">
@@ -12687,12 +12687,12 @@ Death Before Disgrace: Chaque fois qu’une figurine PENITENT de votre armée es
               <profiles>
                 <profile name="Glory to the Emperor" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="74b8-36ca-2a98-3a27">
                   <characteristics>
-                    <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Obtenez 1 Saint point à la fin d'une bataille pour chaque dés Miracle restant dans votre pool de dés Miracle (au maximum de points 2 Saint).</characteristic>
+                    <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Gagnez 1 point Saint à la fin d’une bataille pour chaque dé de Miracle restant dans votre réserve de dés de Miracle (jusqu’à un maximum de 2 points Saint).</characteristic>
                   </characteristics>
                 </profile>
                 <profile name="Beacon of Divine Grace" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="36b8-c27b-cd6b-593b">
                   <characteristics>
-                    <characteristic name="Description" typeId="9b8f-694b-e5e-b573">gagnez 2 Saint points à la fin d'une bataille si cette figurine a effectué 3 ou plus Acts of Faith pendant cette bataille.</characteristic>
+                    <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Gagnez 2 Saint points à la fin d’une bataille si cette figurine a accompli au moins 3 Acts of Faith durant cette bataille.</characteristic>
                   </characteristics>
                 </profile>
               </profiles>
@@ -12704,7 +12704,7 @@ Death Before Disgrace: Chaque fois qu’une figurine PENITENT de votre armée es
               <profiles>
                 <profile name="Martyr's Wounds" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="7a95-2c10-059e-b863">
                   <characteristics>
-                    <characteristic name="Description" typeId="9b8f-694b-e5e-b573">gagnez 1 Saint point à la fin d'une bataille si cette figurine est en dessous de son Effectif Initial. gagnez 2 Saint points à la place si cette figurine a été détruit alors que dans la portée d'un marqueur objectif.</characteristic>
+                    <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Obtenez le point 1 Saint à la fin d'une bataille si cette figurine est en dessous de son Effectif Initial. gagnez 2 Saint points à la place si cette figurine a été détruit alors que dans Portée d'un pion d’objectif.</characteristic>
                   </characteristics>
                 </profile>
                 <profile name="Scars of the Penitent" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="0612-a63a-c32b-0400">
@@ -12726,7 +12726,7 @@ Death Before Disgrace: Chaque fois qu’une figurine PENITENT de votre armée es
                 </profile>
                 <profile name="Divine Will" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="4260-60dc-288b-05a2">
                   <characteristics>
-                    <characteristic name="Description" typeId="9b8f-694b-e5e-b573">gagnez 2 Saint points à la fin d'une bataille si l'unité de cette figurine n'a pas échoué à un test d’Ébranlement pendant cette bataille.</characteristic>
+                    <characteristic name="Description" typeId="9b8f-694b-e5e-b573">gagnez 2 Saint points à la fin d'une bataille si l'unité de cette figurine n'a pas raté un test d’Ébranlement pendant cette bataille.</characteristic>
                   </characteristics>
                 </profile>
               </profiles>
@@ -12738,12 +12738,12 @@ Death Before Disgrace: Chaque fois qu’une figurine PENITENT de votre armée es
               <profiles>
                 <profile name="Slay the Demagogue" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="c8db-243c-18f6-961c">
                   <characteristics>
-                    <characteristic name="Description" typeId="9b8f-694b-e5e-b573">gagnez 2 Saint points à la fin d'une bataille si cette figurine a détruit une ou plusieurs unités ennemies **^^Character^^** pendant cette bataille. gagne an additional 2 Saint points si une de ces destroyed unités contained le ennemie **^^Warlord^^**.</characteristic>
+                    <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Gagnez 2 Saint points à la fin d’une bataille si cette figurine a détruit une ou plusieurs unités **^^Character^^** ennemies durant cette bataille. Gagnez 2 Saint points supplémentaires si l’une de ces unités détruites contenait le **^^Warlord^^** ennemi.</characteristic>
                   </characteristics>
                 </profile>
                 <profile name="Smite the Unbelievers" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="3557-c0a8-1a97-eeec">
                   <characteristics>
-                    <characteristic name="Description" typeId="9b8f-694b-e5e-b573">gagnez 2 Saint points à la fin d'une bataille si cette figurine a détruit 5 ou plus de figurines ennemies pendant cette bataille.</characteristic>
+                    <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Gagnez 2 Saint points à la fin d’une bataille si cette figurine a détruit au moins 5 figurines ennemies durant cette bataille.</characteristic>
                   </characteristics>
                 </profile>
               </profiles>
@@ -12791,7 +12791,7 @@ Death Before Disgrace: Chaque fois qu’une figurine PENITENT de votre armée es
               <profiles>
                 <profile name="Voice of the Emperor" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="8609-9bac-e35f-e1ce">
                   <characteristics>
-                    <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Au début de la phase de bataille-choc de la phase de Commandement de votre adversaire, vous pouvez jeter les dés Miracle 1. Si vous le faites, chaque unité ennemie qui est à 12" ou moins de cette figurine et en dessous de son Effectif Initial doit passer un test d’Ébranlement. Si une telle unité est inférieure à la Demi-effectif, Soustrayez 1 des tests d’Ébranlement effectués pour cette unité à cette phase à la place.</characteristic>
+                    <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Au début de l’étape d’Ébranlement de la phase de Commandement de votre adversaire, vous pouvez défausser 1 dé Miracle. Si vous le faites, chaque unité ennemie à 12" ou moins de cette figurine et en dessous de son Effectif Initial doit effectuer un test d’Ébranlement. Si une telle unité est en dessous de son Demi-effectif, soustrayez 1 à la place aux tests d’Ébranlement effectués pour cette unité durant cette phase.</characteristic>
                   </characteristics>
                 </profile>
               </profiles>
@@ -12817,7 +12817,7 @@ Death Before Disgrace: Chaque fois qu’une figurine PENITENT de votre armée es
               <profiles>
                 <profile name="Miraculous Recovery" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="dca9-a772-76fd-9e6f">
                   <characteristics>
-                    <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Au début de n'importe quelle phase, vous pouvez jeter 1 Miracle dice. Si vous le faites, cette figurine récupère toutes ses PV perdus.</characteristic>
+                    <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Au début de n'importe quelle phase, vous pouvez jeter 1 Miracle dice. Si vous le faites, cette figurine récupère tout son PV perdus.</characteristic>
                   </characteristics>
                 </profile>
               </profiles>
@@ -12869,7 +12869,7 @@ Death Before Disgrace: Chaque fois qu’une figurine PENITENT de votre armée es
               <profiles>
                 <profile name="Righteous Judgement" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="40b5-b4ba-e914-6e86">
                   <characteristics>
-                    <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Chaque fois que l'unité de cette figurine est sélectionnée pour tourner, vous pouvez jeter 1 Miracle die. Si vous le faites, jusqu'à la fin de la phase, des armes de tir équipées de figurines dans cette unité ont la aptitude **[IGNORES COVER]** et chaque fois qu'une attaque faite par une telle arme marque une blessure critique, cette attaque a la aptitude **[PRECISION]**.</characteristic>
+                    <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Chaque fois que l’unité de cette figurine est sélectionnée pour tirer, vous pouvez défausser 1 dé de Miracle. Si vous le faites, jusqu’à la fin de la phase, les armes de tir dont sont équipées les figurines de cette unité ont l’aptitude **[IGNORE LE COUVERT]** et, chaque fois qu’une attaque effectuée avec une telle arme obtient une Blessure Critique, cette attaque a l’aptitude **[Précision]**.</characteristic>
                   </characteristics>
                 </profile>
               </profiles>
@@ -12934,9 +12934,9 @@ Death Before Disgrace: Chaque fois qu’une figurine PENITENT de votre armée es
           <profiles>
             <profile name="Intoning Hymns of Battle" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="e386-9fc2-6ec5-e877">
               <characteristics>
-                <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Une fois par bataille, au début du tour de bataille, si vous avez une ou plusieurs unités **^^Adepta Sororitas Character^^** sur le champ de bataille et si votre armée de la Croisade a été dirigée dans la prière avant cette bataille, vous pouvez jeter deux dés Miracle. Si vous le faites, vous entonnez les hymnes de bataille de ce tour de bataille et, jusqu'au début du prochain tour de bataille, toutes les unités **^^Adepta Sororitas Character^^** de votre armée gagnent un bonus selon les hymnes de bataille que vous sélectionnez. Alors qu'une unité est Ébranlée, elle perd le bonus des hymnes qui s'appliqueraient à elle (si une règle entraînerait une telle unité à ne plus être Ébranlée, tous les bonus des hymnes qui s'appliqueraient à elle s'appliquent à nouveau).
+                <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Une fois par bataille, au début du round de bataille, si vous avez une ou plusieurs unités **^^Adepta Sororitas Character^^** sur le champ de bataille et si votre armée de Croisade a prié avant cette bataille, vous pouvez défausser deux dés Miracle. Si vous le faites, vous entonnez les Hymns of Battle durant ce round de bataille et, jusqu’au début du prochain round de bataille, toutes les unités **^^Adepta Sororitas Character^^** de votre armée gagnent un bonus dépendant des Hymns of Battle sélectionnés. Tant qu’une unité est Ébranlée, elle perd le bonus de tout Hymne qui s’appliquerait à elle (si une règle fait qu’une telle unité n’est plus Ébranlée, tous les bonus des Hymnes qui s’appliqueraient à elle s’appliquent de nouveau).
 
-Lorsque vous entonnez Hymnes de bataille, vous pouvez soit sélectionner un Hymne à appliquer aux unités de votre armée de la liste, soit vous pouvez sélectionner au hasard deux en faisant rouler deux D6 et en consultant la table (si un double est roulé, rouler les deux dés à nouveau jusqu'à ce que deux résultats différents soient roulés).</characteristic>
+Lorsque vous entonnez les Hymns of Battle, vous pouvez soit sélectionner dans la liste un Hymne à appliquer aux unités de votre armée, soit en sélectionner deux aléatoirement en lançant deux D6 et en consultant le tableau (si vous obtenez un double, relancez les deux dés jusqu’à obtenir deux résultats différents).</characteristic>
               </characteristics>
             </profile>
             <profile name="Litany of the Emperor's Will" typeId="080e-29ff-c83f-bc44" typeName="Hymn of Battle" hidden="false" id="91c3-71f9-2e44-f475">
@@ -13074,7 +13074,7 @@ Lorsque vous entonnez Hymnes de bataille, vous pouvez soit sélectionner un Hymn
           <profiles>
             <profile name="Inspiring Orator" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="159a-6683-6836-05e9">
               <characteristics>
-                <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Au début de chaque tour de bataille, lancez un D6 et consultez la table des hymnes de bataille. Si vous le souhaitez, vous pouvez ensuite choisir de jeter 1 Miracle dice; si vous le faites, alors jusqu'à la fin du tour de bataille, cet hymne s'applique à l'unité de cette figurine (Hymnes de bataille dupliqués ne sont pas cumulatifs et n'ont pas d'effet supplémentaire).</characteristic>
+                <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Au début de chaque tour de bataille, lancez un D6 et consulter la table des hymnes de bataille. Si vous le souhaitez, vous pouvez ensuite choisir de jeter 1 Miracle dice; si vous le faites, alors jusqu'à la fin du tour de bataille, cet hymne s'applique à l'unité de cette figurine (Hymnes de bataille dupliqués ne sont pas cumulatifs et n'ont pas d'effet supplémentaire).</characteristic>
               </characteristics>
             </profile>
           </profiles>
@@ -13106,7 +13106,7 @@ Lorsque vous entonnez Hymnes de bataille, vous pouvez soit sélectionner un Hymn
           <profiles>
             <profile name="Raging Fervour" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="6073-c1ae-e3d3-2311">
               <characteristics>
-                <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Pendant que le porteur mène une unité, chaque fois qu'une figurine dans cette unité fait une attaque, relancez un jet de Touche de 1. Si votre armée est Intoning Hymns of Battle, alors pendant que le porteur est à la tête d'une unité, chaque fois qu'une figurine dans cette unité fait une attaque, vous pouvez relancer un jet de Blessure de 1 aussi bien.</characteristic>
+                <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Alors que le porteur mène une unité, chaque fois qu'une figurine dans cette unité fait une attaque, relancer un jet de Touche de 1. Si votre armée est Intoning Hymns of Battle, alors alors que le porteur est à la tête d'une unité, chaque fois qu'une figurine dans cette unité fait une attaque, vous pouvez relancer un jet de Blessure de 1 aussi bien.</characteristic>
               </characteristics>
             </profile>
           </profiles>
@@ -13138,7 +13138,7 @@ Lorsque vous entonnez Hymnes de bataille, vous pouvez soit sélectionner un Hymn
           <profiles>
             <profile name="Solemn in Prayer" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="3734-4085-c0e6-bba4">
               <characteristics>
-                <characteristic name="Description" typeId="9b8f-694b-e5e-b573">À la fin de votre phase de Commandement, si cette figurine est sur le champ de bataille, vous pouvez relancer un dés Miracle de votre pool de dés Miracle et le relancer à votre pool de dés Miracle avec le nouveau résultat que vous avez relancé.</characteristic>
+                <characteristic name="Description" typeId="9b8f-694b-e5e-b573">À la fin de votre phase de Commandement, si cette figurine est sur le champ de bataille, vous pouvez relancer un dé Miracle de votre réserve de dés Miracle et le remettre dans cette réserve avec le nouveau résultat obtenu.</characteristic>
               </characteristics>
             </profile>
           </profiles>
@@ -13170,7 +13170,7 @@ Lorsque vous entonnez Hymnes de bataille, vous pouvez soit sélectionner un Hymn
           <profiles>
             <profile name="Bombastic Projection (Aura)" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="fbb8-64ff-1702-2eed">
               <characteristics>
-                <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Alors qu'une unité **^^Adepta Sororitas^^** amicale se trouve à 6" ou moins de cette figurine, cette unité est considérée comme une unité **^^Character^^** aux fins de gagner des bonus pour la règle Hymns de Battle.</characteristic>
+                <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Alors qu'une unité amicale **^^Adepta Sororitas^^** se trouve à 6" ou moins de cette figurine, cette unité est considérée comme une unité **^^Character^^** aux fins d'obtenir des bonus pour la règle des hymnes de bataille.</characteristic>
               </characteristics>
             </profile>
           </profiles>
@@ -13202,7 +13202,7 @@ Lorsque vous entonnez Hymnes de bataille, vous pouvez soit sélectionner un Hymn
           <profiles>
             <profile name="Faithful Devotee (Aura)" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="6bd3-aebd-01be-5606">
               <characteristics>
-                <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Alors qu'une unité amicale **^^Adepta Sororitas^^** est à 6" ou moins de cette figurine, chaque fois que cette unité effectue un acte de foi, lancez un D6: un 6, vous gagnez des dés du miracle 1.</characteristic>
+                <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Alors qu'une unité sympathique **^^Adepta Sororitas^^** est à 6" ou moins de cette figurine, chaque fois que cette unité effectue un acte de foi, lancez un D6: un 6, vous gagnez des dés du Miracle 1.</characteristic>
               </characteristics>
             </profile>
           </profiles>
@@ -13267,7 +13267,7 @@ Lorsque vous entonnez Hymnes de bataille, vous pouvez soit sélectionner un Hymn
           <profiles>
             <profile name="Final Rites" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="d114-0224-b3b4-3a54">
               <characteristics>
-                <characteristic name="Description" typeId="9b8f-694b-e5e-b573">**^^Hospitaller^^** uniquement. Une fois par bataille, si cette figurine est sur le champ de bataille quand une unité **^^Adepta Sororitas^^** de votre armée échoue à un test hors action, toutes les unités **^^Adepta Sororitas^^** de votre armée qui sont sur le champ de bataille gagnent 1XP.</characteristic>
+                <characteristic name="Description" typeId="9b8f-694b-e5e-b573">**^^Hospitaller^^** uniquement. Une fois par bataille, si cette figurine est sur le champ de bataille lorsqu’une unité **^^Adepta Sororitas^^** de votre armée rate un test Hors de Combat, toutes les unités **^^Adepta Sororitas^^** de votre armée qui sont sur le champ de bataille gagnent 1XP.</characteristic>
               </characteristics>
             </profile>
           </profiles>
@@ -13323,7 +13323,7 @@ Lorsque vous entonnez Hymnes de bataille, vous pouvez soit sélectionner un Hymn
               <profiles>
                 <profile name="Triptych of the Macharian Crusade" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="3ea7-e149-640a-ad40">
                   <characteristics>
-                    <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Pendant que le porteur mène une unité, les figurines de cette unité ont un 5+ sauvegarde invulnérable. Une fois par phase, lorsqu'une attaque est attribuée à une figurine dans l'unité du porteur, vous pouvez jeter 1 Miracle dice; si vous le faites, la caractéristique de Dégâts de cette attaque est changée à 0.</characteristic>
+                    <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Alors que le porteur est à la tête d'une unité, les figurines de cette unité ont un 5+ sauvegarde invulnérable. Une fois par phase, lorsqu'une attaque est attribuée à une figurine dans l’unité du porteur, vous pouvez jeter 1 Miracle dice; si vous le faites, la caractéristique de Dégâts de cette attaque est changé en 0.</characteristic>
                   </characteristics>
                 </profile>
               </profiles>
@@ -13366,7 +13366,7 @@ Lorsque vous entonnez Hymnes de bataille, vous pouvez soit sélectionner un Hymn
               <profiles>
                 <profile name="Rod of Grace" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="b8b3-5446-3985-d85b">
                   <characteristics>
-                    <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Si cette figurine est votre **^^Blessed Orator^^**, vous pouvez chanter Hymns de Battle jusqu'à deux fois pendant la bataille, plutôt qu'un seul (vous devez jeter les dés 2 Miracle à chaque fois que vous le souhaitez). Vous ne pouvez pas chanter Hymnes de bataille deux fois au début du même tour de bataille en utilisant cette relique de la Croisade.</characteristic>
+                    <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Si cette figurine est votre **^^Blessed Orator^^**, vous pouvez chanter des hymnes de bataille jusqu'à deux fois pendant la bataille, plutôt qu'un seul (vous devez jeter les dés 2 Miracle chaque fois que vous le souhaitez). Vous ne pouvez pas chanter Hymnes de bataille deux fois au début du même tour de bataille en utilisant cette relique de la Croisade.</characteristic>
                   </characteristics>
                 </profile>
               </profiles>
@@ -13413,7 +13413,7 @@ Lorsque vous entonnez Hymnes de bataille, vous pouvez soit sélectionner un Hymn
               <profiles>
                 <profile name="Book of Saint Lucius" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="3156-cd9c-ca71-732d">
                   <characteristics>
-                    <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Si le porteur est votre **^^Blessed Orator^^**, chaque fois que votre armée chante des hymnes de bataille, si le porteur est sur le champ de bataille, après avoir sélectionné les hymnes qui s'appliqueront à votre armée, vous pouvez sélectionner au hasard un hymne de bataille supplémentaire pour s'appliquer à votre armée (si vous lancez un résultat que vous avez déjà sélectionné, lancez à nouveau jusqu'à ce que vous obteniez le résultat que vous n'avez pas roulé).</characteristic>
+                    <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Si le porteur est votre **^^Blessed Orator^^**, chaque fois que votre armée entonne les Hymns of Battle, si le porteur est sur le champ de bataille, après avoir sélectionné les Hymns qui s’appliqueront à votre armée, vous pouvez sélectionner aléatoirement un Hymn of Battle supplémentaire à appliquer à votre armée (si vous obtenez un résultat que vous avez déjà sélectionné, relancez jusqu’à obtenir un résultat que vous n’avez pas déjà obtenu).</characteristic>
                   </characteristics>
                 </profile>
               </profiles>
@@ -13460,7 +13460,7 @@ Lorsque vous entonnez Hymnes de bataille, vous pouvez soit sélectionner un Hymn
               <profiles>
                 <profile name="Armour of Saints" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="c27d-8821-d4d7-03f4">
                   <characteristics>
-                    <characteristic name="Description" typeId="9b8f-694b-e5e-b573">**^^Adepta Sororitas^^** figurine uniquement (à l’exclusion des figurines **^^Ministorum Priest^^**). Le porteur a une caractéristique de sauvegarde de 2+. La première fois que le porteur perd un ou plusieurs PV, à la fin de la phase dans laquelle ces PV ont été perdus, vous gagnez des dés Miracle 1 (la valeur de ce dés Miracle est toujours un 6).</characteristic>
+                    <characteristic name="Description" typeId="9b8f-694b-e5e-b573">**^^Adepta Sororitas^^** figurine uniquement (à l’exclusion des figurines **^^Ministorum Priest^^**). le porteur a une caractéristique de Sauvegarde de 2+. La première fois que le porteur perd un ou plusieurs PV, à la fin de la phase dans laquelle ces PV ont été perdus, vous gagnez des dés Miracle 1 (la valeur de ces dés Miracle est toujours un 6).</characteristic>
                   </characteristics>
                 </profile>
               </profiles>
@@ -13512,7 +13512,7 @@ Lorsque vous entonnez Hymnes de bataille, vous pouvez soit sélectionner un Hymn
               <profiles>
                 <profile name="Icon of Chiros" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="6c19-413a-0ebc-7bb7">
                   <characteristics>
-                    <characteristic name="Description" typeId="9b8f-694b-e5e-b573">**^^Canoness^^**, **^^Ministorum Priest^^** ou **^^Dialogus^^** uniquement. Le porteur peut utiliser la aptitude Une fois par bataille énumérée sur sa fiche de données une fois de plus pendant la bataille.</characteristic>
+                    <characteristic name="Description" typeId="9b8f-694b-e5e-b573">**^^Canoness^^**, **^^Ministorum Priest^^** ou **^^Dialogus^^** uniquement. Le porteur peut utiliser une fois supplémentaire durant la bataille l’aptitude Une fois par Bataille indiquée sur sa fiche technique.</characteristic>
                   </characteristics>
                 </profile>
               </profiles>
@@ -13559,7 +13559,7 @@ Lorsque vous entonnez Hymnes de bataille, vous pouvez soit sélectionner un Hymn
               <profiles>
                 <profile name="Sigil Sanctorum" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="a6fd-f501-36da-8d29">
                   <characteristics>
-                    <characteristic name="Description" typeId="9b8f-694b-e5e-b573">L'unité du porteur est admissible à tirer ou à déclarer une charge dans un tour dans lequel a Battu en Retraite, si votre armée chante des hymnes de bataille ce tour de bataille, l'unité du porteur est admissible à tirer et à déclarer une charge dans un tour dans lequel a Battu en Retraite.</characteristic>
+                    <characteristic name="Description" typeId="9b8f-694b-e5e-b573">L’unité du porteur est éligible pour tirer ou déclarer une charge durant un tour où elle a Battu en Retraite. Si votre armée entonne les Hymns of Battle durant ce round de bataille, l’unité du porteur est éligible pour tirer et déclarer une charge durant un tour où elle a Battu en Retraite.</characteristic>
                   </characteristics>
                 </profile>
               </profiles>
@@ -13640,7 +13640,7 @@ Lorsque vous entonnez Hymnes de bataille, vous pouvez soit sélectionner un Hymn
           <profiles>
             <profile name="Cherub" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="6991-b011-0d26-414a">
               <characteristics>
-                <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Une fois par bataille, après que l'unité de cette figurine ait effectué un acte de foi, vous gagnez un 1 Miracle dés.</characteristic>
+                <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Une fois par bataille, après que l'unité de cette figurine ait effectué un acte de foi, vous gagnez des dés miraculeux 1.</characteristic>
               </characteristics>
             </profile>
           </profiles>
@@ -13679,7 +13679,7 @@ Lorsque vous entonnez Hymnes de bataille, vous pouvez soit sélectionner un Hymn
           <profiles>
             <profile name="Divine Authority" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="3e22-58ca-3f4a-2ce6">
               <characteristics>
-                <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Chaque fois qu'une figurine dans cette unité fait une attaque, relance un jet de Touche de 1.</characteristic>
+                <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Chaque fois qu’une figurine de cette unité effectue une attaque, relancez un jet de Touche de 1.</characteristic>
               </characteristics>
             </profile>
           </profiles>
@@ -13688,7 +13688,7 @@ Lorsque vous entonnez Hymnes de bataille, vous pouvez soit sélectionner un Hymn
           <profiles>
             <profile name="Fury of the Righteous" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="459f-b6fe-6656-7e08">
               <characteristics>
-                <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Alors que cette figurine mène une unité, les armes équipées de figurines dans cette unité ont la aptitude [^^Lethal Hits^^].</characteristic>
+                <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Alors que cette figurine mène une unité, les armes équipées des figurines de cette unité ont l’aptitude [^^Lethal Hits^^].</characteristic>
               </characteristics>
             </profile>
           </profiles>
@@ -13697,7 +13697,7 @@ Lorsque vous entonnez Hymnes de bataille, vous pouvez soit sélectionner un Hymn
           <profiles>
             <profile name="Laud Hailer" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="ae57-7a45-1aa0-2a38">
               <characteristics>
-                <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Une fois par bataille, au début de toute phase, vous pouvez sélectionner une unité ^^**Adepta Sororitas**^^ amicale qui est Ébranlée et à 12" ou moins de cette figurine. Cette unité n'est plus Ébranlée.</characteristic>
+                <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Une fois par bataille, au début de toute phase, vous pouvez sélectionner une unité amicale ^^**Adepta Sororitas**^^ qui est Ébranlé et à 12" ou moins de cette figurine. Cette unité n'est plus Ébranlé.</characteristic>
               </characteristics>
             </profile>
           </profiles>
@@ -13714,7 +13714,7 @@ Lorsque vous entonnez Hymnes de bataille, vous pouvez soit sélectionner un Hymn
           <profiles>
             <profile name="Shield of the Righteous" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="1c2c-6600-523d-4363">
               <characteristics>
-                <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Les figurines de cette unité ont un 4+ sauvegarde invulnérable.</characteristic>
+                <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Les figurines de cette unité ont une sauvegarde invulnérable de 4+.</characteristic>
               </characteristics>
             </profile>
           </profiles>
@@ -14703,9 +14703,9 @@ Lorsque vous entonnez Hymnes de bataille, vous pouvez soit sélectionner un Hymn
     <entryLink import="true" name="Intranzia Fraye" hidden="false" id="d25b-ed9c-7b3c-bc4b" type="selectionEntry" targetId="e59a-2a90-e102-940f" />
   </entryLinks>
   <catalogueLinks>
-    <catalogueLink type="catalogue" name="Imperium - Imperial Knights - Library" id="f82d-fbeb-8ed2-4284" targetId="1787-6721-8649-a4a8" importRootEntries="true" />
-    <catalogueLink type="catalogue" name="Imperium - Agents of the Imperium" id="40ad-450d-52f8-cdb7" targetId="58ea-21f3-3da9-74dd" importRootEntries="true" />
-    <catalogueLink type="catalogue" name="Library - Titans" id="3d9-6f43-e1de-ae2b" targetId="701a-a154-08d0-db72" importRootEntries="true" />
+    <catalogueLink type="catalogue" name="Imperium - Imperial Knights - Library" id="f82d-fbeb-8ed2-4284" targetId="1b6d-dc06-5db9-c7d1" importRootEntries="true" />
+    <catalogueLink type="catalogue" name="Imperium - Agents of the Imperium" id="40ad-450d-52f8-cdb7" targetId="b00-cd86-4b4c-97ba" importRootEntries="true" />
+    <catalogueLink type="catalogue" name="Library - Titans" id="3d9-6f43-e1de-ae2b" targetId="7481-280e-b55e-7867" importRootEntries="true" />
   </catalogueLinks>
   <readme>GW just LOVES to nerf Sisters</readme>
   <publications>

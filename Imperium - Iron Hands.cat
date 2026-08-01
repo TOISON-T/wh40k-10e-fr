@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue xmlns="http://www.battlescribe.net/schema/catalogueSchema" library="false" id="c161-30a1-5947-6e2f" name="Imperium - Adeptus Astartes - Iron Hands" gameSystemId="sys-0e45-705d-f6bc-806a" gameSystemRevision="1" revision="11" battleScribeVersion="2.03" type="catalogue">
+<catalogue xmlns="http://www.battlescribe.net/schema/catalogueSchema" library="false" id="f27e-18c0-b73e-748e" name="Imperium - Adeptus Astartes - Iron Hands" gameSystemId="sys-352e-adc2-7639-d6a9" gameSystemRevision="1" revision="11" battleScribeVersion="2.03" type="catalogue">
   <catalogueLinks>
-    <catalogueLink type="catalogue" name="Imperium - Space Marines" id="58f2-3ff2-63db-c44f" targetId="c64a-a8a4-fe12-90fd" importRootEntries="true" />
-    <catalogueLink type="catalogue" name="Imperium - Imperial Knights - Library" id="c928-54a6-64c3-7d5" targetId="1787-6721-8649-a4a8" importRootEntries="true" />
-    <catalogueLink type="catalogue" name="Imperium - Agents of the Imperium" id="fcde-dbec-a498-fb3d" targetId="58ea-21f3-3da9-74dd" importRootEntries="true" />
+    <catalogueLink type="catalogue" name="Imperium - Space Marines" id="58f2-3ff2-63db-c44f" targetId="e0af-67df-9d63-8fb7" importRootEntries="true" />
+    <catalogueLink type="catalogue" name="Imperium - Imperial Knights - Library" id="c928-54a6-64c3-7d5" targetId="1b6d-dc06-5db9-c7d1" importRootEntries="true" />
+    <catalogueLink type="catalogue" name="Imperium - Agents of the Imperium" id="fcde-dbec-a498-fb3d" targetId="b00-cd86-4b4c-97ba" importRootEntries="true" />
   </catalogueLinks>
   <sharedSelectionEntries>
     <selectionEntry type="model" import="true" name="Iron Father Feirros" hidden="false" id="6c9d-4ec3-69dd-90b2">
@@ -37,7 +37,7 @@
         </profile>
         <profile name="Rites of Tempering" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="219d-340d-6681-ab1">
           <characteristics>
-            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Alors que cette figurine conduit une unité, les figurines de cette unité ont la aptitude Insensible à la douleur 5+</characteristic>
+            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Alors que cette figurine conduit une unité, les figurines de cette unité ont l’aptitude Insensible à la douleur 5+</characteristic>
           </characteristics>
         </profile>
         <profile name="Iron Father" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="2095-1be1-e5cc-1cee">
@@ -61,9 +61,9 @@
         </profile>
         <profile name="Inspiring Commander" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="1d65-986b-9266-a544">
           <characteristics>
-            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Si vous incluez cette figurine dans votre armée, jusqu'à la fin de la bataille, les figurines non-Character dans Lourd
-Les unités Intercessor Squad de votre armée ont une caractéristique de caractéristique de Contrôle d’Objectif de 3 alors qu'elles sont
-Pas Ébranlé.</characteristic>
+            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Si vous incluez cette figurine dans votre armée, jusqu’à la fin de la bataille, les figurines non-Character des unités Heavy
+Intercessor Squad de votre armée ont une caractéristique de Contrôle d’Objectif de 3 tant qu’elles ne sont
+pas Ébranlées.</characteristic>
           </characteristics>
         </profile>
       </profiles>
@@ -179,16 +179,16 @@ Pas Ébranlé.</characteristic>
         </profile>
         <profile name="Cold and Calculating" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="10ac-79f8-b15d-f71e">
           <characteristics>
-            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Chaque fois qu'une figurine dans l’unité de cette figurine effectue une attaque visant un monstre ou un véhicule,
-L'attaque a la aptitude [Touches fatales]. Chaque fois qu'une figurine dans l’unité de cette figurine effectue une attaque visant une autre unité, cette attaque a la aptitude [Touches soutenues 1].</characteristic>
+            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Chaque fois qu'une figurine dans l’unité de cette figurine fait une attaque qui cible une unité Monster ou Vehicle,
+L'attaque a l’aptitude [Touches fatales]. Chaque fois qu'une figurine dans l’unité de cette figurine fait une attaque qui cible une autre unité, cette attaque a l’aptitude [Touches soutenues 1].</characteristic>
           </characteristics>
         </profile>
         <profile name="Cerebrex Logic Engine" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="1799-5ca3-1b00-be16">
           <characteristics>
-            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">■ Au début de l'étape Déclarer les Formations de Bataille, vous pouvez sélectionner une unité d'infanterie Adeptus Astartes et une une de votre armée. Jusqu'à la fin de la bataille, cette unité acquiert la aptitude Éclaireurs 6".
+            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">■ Au début de l’étape Déclarer les Formations de Bataille, vous pouvez sélectionner une unité Adeptus Astartes Infantry de votre armée. Jusqu’à la fin de la bataille, cette unité gagne l’aptitude Éclaireurs 6".
 
 
-■ Après que les deux joueurs aient déployé leurs armées, vous pouvez sélectionner une unité Adeptus Astartes de votre armée et la redéployer. Lorsque vous le faites, vous pouvez configurer cette unité dans les réserves stratégiques si vous le souhaitez, quel que soit le nombre d'unités déjà dans les réserves stratégiques.</characteristic>
+■ Après que les deux joueurs ont déployé leurs armées, vous pouvez sélectionner une unité Adeptus Astartes de votre armée et la redéployer. Ce faisant, vous pouvez placer cette unité en Réserves Stratégiques si vous le souhaitez, quel que soit le nombre d’unités déjà en Réserves Stratégiques.</characteristic>
           </characteristics>
         </profile>
         <profile name="Meneur" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="02a1-6815-f043-2fd8">

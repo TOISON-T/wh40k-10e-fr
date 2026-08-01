@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue xmlns="http://www.battlescribe.net/schema/catalogueSchema" library="true" id="701a-a154-08d0-db72" name="Library - Titans" gameSystemId="sys-0e45-705d-f6bc-806a" gameSystemRevision="1" revision="10" battleScribeVersion="2.03" type="catalogue">
+<catalogue xmlns="http://www.battlescribe.net/schema/catalogueSchema" library="true" id="7481-280e-b55e-7867" name="Library - Titans" gameSystemId="sys-352e-adc2-7639-d6a9" gameSystemRevision="1" revision="10" battleScribeVersion="2.03" type="catalogue">
   <sharedSelectionEntries>
     <selectionEntry type="model" import="true" name="Warhound Titan" hidden="false" id="8eb5-a990-6eb0-9b41">
       <costs>
@@ -33,12 +33,12 @@
         </profile>
         <profile name="Flank Speed" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="bd21-6f2e-3403-b96c">
           <characteristics>
-            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Chaque fois que cette figurine avance, ne faites pas un jet d’Avance pour lui. Au lieu de cela, jusqu'à la fin de la phase, ajoutez 8" à la caractéristique de mouvement de cette figurine.</characteristic>
+            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Chaque fois que cette figurine avance, ne faites pas un jet d’Avance pour lui. Au lieu de cela, Jusqu’à la fin de la phase, ajoutez 8" à la caractéristique de mouvement de cette figurine.</characteristic>
           </characteristics>
         </profile>
         <profile name="Damaged: 1-13 wounds remaining" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="9eb2-afd9-2ff6-ccb">
           <characteristics>
-            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Alors que cette figurine a 1-13 PV restants, Soustrayez 8 de cette caractéristique de la figurine de caractéristique de Contrôle d’Objectif et chaque fois que cette figurine effectue une attaque, Soustrayez 1 du jet de Touche.</characteristic>
+            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Tant que cette figurine a 1-13 PV restants, soustrayez 8 à la caractéristique de Contrôle d’Objectif de cette figurine et, chaque fois que cette figurine effectue une attaque, soustrayez 1 au jet de Touche.</characteristic>
           </characteristics>
         </profile>
         <profile name="Sauvegarde Invulnérable" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="ccd3-9673-d196-29d1">
@@ -48,7 +48,7 @@
         </profile>
         <profile name="Striding Colossus" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="5c94-3166-58ec-6f3f">
           <characteristics>
-            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Chaque fois que vous ciblez cette figurine avec un Stratagème, vous devez dépenser le double du coût déclaré par Stratagems CP pour le faire.</characteristic>
+            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Chaque fois que vous ciblez cette figurine avec un Stratagème, vous devez dépenser deux fois le coût en CP indiqué de ce Stratagème.</characteristic>
           </characteristics>
         </profile>
       </profiles>
@@ -311,7 +311,7 @@
       <profiles>
         <profile name="Damaged: 1-20 wounds remaining" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="3832-c8f7-c7b2-2bd9">
           <characteristics>
-            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Alors que cette figurine a 1-20 PV restants, Soustrayez 10 de cette caractéristique de la figurine de caractéristique de Contrôle d’Objectif et chaque fois que cette figurine effectue une attaque, Soustrayez 1 du jet de Touche.</characteristic>
+            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Tant que cette figurine a 1-20 PV restants, soustrayez 10 à la caractéristique de Contrôle d’Objectif de cette figurine et, chaque fois que cette figurine effectue une attaque, soustrayez 1 au jet de Touche.</characteristic>
           </characteristics>
         </profile>
         <profile name="Reaver Titan" typeId="c547-1836-d8a-ff4f" typeName="Unit" hidden="false" id="e964-103-3eac-60ab">
@@ -336,7 +336,7 @@
         </profile>
         <profile name="Striding Colossus" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="6c35-830c-5afe-7127">
           <characteristics>
-            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Chaque fois que vous ciblez cette figurine avec un Stratagème, vous devez dépenser trois fois le coût déclaré par Stratagème s CP pour le faire.</characteristic>
+            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Chaque fois que vous ciblez cette figurine avec un Stratagème, vous devez dépenser trois fois le coût en CP indiqué de ce Stratagème pour le faire.</characteristic>
           </characteristics>
         </profile>
       </profiles>
@@ -643,7 +643,7 @@
       <profiles>
         <profile name="Damaged: 1-26 wounds remaining" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="d4dc-52c7-2eda-ae83">
           <characteristics>
-            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Alors que cette figurine a 1-26 PV restants, Soustrayez 10 de cette caractéristique de la figurine de caractéristique de Contrôle d’Objectif et chaque fois que cette figurine effectue une attaque, Soustrayez 1 du jet de Touche.</characteristic>
+            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Tant que cette figurine a 1-26 PV restants, soustrayez 10 à la caractéristique de Contrôle d’Objectif de cette figurine et, chaque fois que cette figurine effectue une attaque, soustrayez 1 au jet de Touche.</characteristic>
           </characteristics>
         </profile>
         <profile name="Sauvegarde Invulnérable" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="67b7-d3fa-b713-b17f">
@@ -663,7 +663,7 @@
         </profile>
         <profile name="Titanic Fire Support" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="dd8e-2c98-72cd-1a06">
           <characteristics>
-            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Dans votre phase de Tir, après que cette figurine ait tiré, sélectionnez une unité ennemie touchée par une ou plusieurs de ces attaques. Jusqu'à la fin de la phase, chaque fois qu'une figurine IMPERIUM amical effectue une attaque qui cible cette unité ennemie, sur une blessure critique, améliore la caractéristique de Pénétration d’Armure de cette attaque de 1.</characteristic>
+            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Durant votre phase de Tir, après que cette figurine a tiré, sélectionnez une unité ennemie touchée par une ou plusieurs de ces attaques. Jusqu’à la fin de la phase, chaque fois qu’une figurine IMPERIUM amie effectue une attaque qui cible cette unité ennemie, si une Blessure Critique est obtenue, améliorez de 1 la caractéristique de Pénétration d’Armure de cette attaque.</characteristic>
           </characteristics>
           <modifiers>
             <modifier type="set" value="true" field="hidden">
@@ -675,7 +675,7 @@
         </profile>
         <profile name="Titanic Fire Support" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="efce-899b-2abc-f846">
           <characteristics>
-            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Dans votre phase de Tir, après que cette figurine ait tiré, sélectionnez une unité ennemie touchée par une ou plusieurs de ces attaques. Jusqu'à la fin de la phase, chaque fois qu'une figurine CHAOS amical effectue une attaque qui cible cette unité ennemie, sur une blessure critique, améliore la caractéristique de Pénétration d’Armure de cette attaque de 1.</characteristic>
+            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Durant votre phase de Tir, après que cette figurine a tiré, sélectionnez une unité ennemie touchée par une ou plusieurs de ces attaques. Jusqu’à la fin de la phase, chaque fois qu’une figurine CHAOS amie effectue une attaque qui cible cette unité ennemie, sur une Blessure Critique, améliorez de 1 la caractéristique de Pénétration d’Armure de cette attaque.</characteristic>
           </characteristics>
           <modifiers>
             <modifier type="set" value="true" field="hidden">
@@ -687,7 +687,7 @@
         </profile>
         <profile name="Striding Colossus" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="994c-cee5-cbac-bb41">
           <characteristics>
-            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Chaque fois que vous ciblez cette figurine avec un Stratagème, vous devez dépenser trois fois le coût déclaré par Stratagème s CP pour le faire.</characteristic>
+            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Chaque fois que vous ciblez cette figurine avec un Stratagème, vous devez dépenser trois fois le coût en CP indiqué de ce Stratagème pour le faire.</characteristic>
           </characteristics>
         </profile>
       </profiles>
@@ -1036,7 +1036,7 @@
         </profile>
         <profile name="Damaged: 1-33 wounds remaining" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="e646-46a8-6c93-eb83">
           <characteristics>
-            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Alors que cette figurine a 1-33 PV restants, Soustrayez 15 de cette caractéristique de la figurine de caractéristique de Contrôle d’Objectif et chaque fois que cette figurine effectue une attaque, Soustrayez 1 du jet de Touche.</characteristic>
+            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Tant que cette figurine a 1-33 PV restants, soustrayez 15 à la caractéristique de Contrôle d’Objectif de cette figurine et, chaque fois que cette figurine effectue une attaque, soustrayez 1 au jet de Touche.</characteristic>
           </characteristics>
         </profile>
         <profile name="Warlord Titan" typeId="c547-1836-d8a-ff4f" typeName="Unit" hidden="false" id="74c9-bcda-24c4-8eb5">
@@ -1051,12 +1051,12 @@
         </profile>
         <profile name="Wrath of the Omnissiah" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="6f4-dec8-e-8c72">
           <characteristics>
-            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Dans votre phase de Tir, après que cette figurine ait tiré, sélectionnez une unité ennemie touchée par une ou plusieurs de ces attaques. Cette unité doit passer un test d’Ébranlement.</characteristic>
+            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Durant votre phase de Tir, après que cette figurine a tiré, sélectionnez une unité ennemie touchée par une ou plusieurs de ces attaques. Cette unité doit effectuer un test d’Ébranlement.</characteristic>
           </characteristics>
         </profile>
         <profile name="Striding Colossus" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="a218-707c-e948-f5fb">
           <characteristics>
-            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Chaque fois que vous ciblez cette figurine avec un Stratagème, vous devez dépenser quatre fois le coût déclaré par Stratagème s CP pour le faire.</characteristic>
+            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Chaque fois que vous ciblez cette figurine avec un Stratagème, vous devez dépenser quatre fois le coût en CP indiqué de ce Stratagème pour le faire.</characteristic>
           </characteristics>
         </profile>
       </profiles>
@@ -1497,12 +1497,12 @@
           <conditionGroups>
             <conditionGroup type="and">
               <conditions>
-                <condition type="notInstanceOf" value="1" field="selections" scope="primary-catalogue" childId="03cf-b34d-0126-12c8" shared="true" />
-                <condition type="notInstanceOf" value="1" field="selections" scope="primary-catalogue" childId="f0ff-96fa-6715-5265" shared="true" />
-                <condition type="notInstanceOf" value="1" field="selections" scope="primary-catalogue" childId="62a9-45cc-b749-3616" shared="true" />
-                <condition type="notInstanceOf" value="1" field="selections" scope="primary-catalogue" childId="5ff8-5a62-176a-87a6" shared="true" />
-                <condition type="notInstanceOf" value="1" field="selections" scope="primary-catalogue" childId="2b88-ba4a-f464-e32d" shared="true" />
-                <condition type="notInstanceOf" value="1" field="selections" scope="primary-catalogue" childId="5b2e-e089-2987-125c" shared="true" />
+                <condition type="notInstanceOf" value="1" field="selections" scope="primary-catalogue" childId="d265-877b-e03d-30ca" shared="true" />
+                <condition type="notInstanceOf" value="1" field="selections" scope="primary-catalogue" childId="46d8-abc8-ef3a-9f85" shared="true" />
+                <condition type="notInstanceOf" value="1" field="selections" scope="primary-catalogue" childId="c8da-e875-58f7-f6d6" shared="true" />
+                <condition type="notInstanceOf" value="1" field="selections" scope="primary-catalogue" childId="5108-f98-63c2-53cb" shared="true" />
+                <condition type="notInstanceOf" value="1" field="selections" scope="primary-catalogue" childId="1069-10ff-3ba9-873b" shared="true" />
+                <condition type="notInstanceOf" value="1" field="selections" scope="primary-catalogue" childId="df9a-59b2-f464-59ad" shared="true" />
               </conditions>
             </conditionGroup>
           </conditionGroups>
@@ -1527,12 +1527,12 @@
           <conditionGroups>
             <conditionGroup type="or">
               <conditions>
-                <condition type="instanceOf" value="1" field="selections" scope="primary-catalogue" childId="03cf-b34d-0126-12c8" shared="true" />
-                <condition type="instanceOf" value="1" field="selections" scope="primary-catalogue" childId="f0ff-96fa-6715-5265" shared="true" />
-                <condition type="instanceOf" value="1" field="selections" scope="primary-catalogue" childId="62a9-45cc-b749-3616" shared="true" />
-                <condition type="instanceOf" value="1" field="selections" scope="primary-catalogue" childId="5ff8-5a62-176a-87a6" shared="true" />
-                <condition type="instanceOf" value="1" field="selections" scope="primary-catalogue" childId="2b88-ba4a-f464-e32d" shared="true" />
-                <condition type="instanceOf" value="1" field="selections" scope="primary-catalogue" childId="5b2e-e089-2987-125c" shared="true" />
+                <condition type="instanceOf" value="1" field="selections" scope="primary-catalogue" childId="d265-877b-e03d-30ca" shared="true" />
+                <condition type="instanceOf" value="1" field="selections" scope="primary-catalogue" childId="46d8-abc8-ef3a-9f85" shared="true" />
+                <condition type="instanceOf" value="1" field="selections" scope="primary-catalogue" childId="c8da-e875-58f7-f6d6" shared="true" />
+                <condition type="instanceOf" value="1" field="selections" scope="primary-catalogue" childId="5108-f98-63c2-53cb" shared="true" />
+                <condition type="instanceOf" value="1" field="selections" scope="primary-catalogue" childId="1069-10ff-3ba9-873b" shared="true" />
+                <condition type="instanceOf" value="1" field="selections" scope="primary-catalogue" childId="df9a-59b2-f464-59ad" shared="true" />
               </conditions>
             </conditionGroup>
           </conditionGroups>
@@ -1557,12 +1557,12 @@
           <conditionGroups>
             <conditionGroup type="and">
               <conditions>
-                <condition type="notInstanceOf" value="1" field="selections" scope="primary-catalogue" childId="03cf-b34d-0126-12c8" shared="true" />
-                <condition type="notInstanceOf" value="1" field="selections" scope="primary-catalogue" childId="f0ff-96fa-6715-5265" shared="true" />
-                <condition type="notInstanceOf" value="1" field="selections" scope="primary-catalogue" childId="62a9-45cc-b749-3616" shared="true" />
-                <condition type="notInstanceOf" value="1" field="selections" scope="primary-catalogue" childId="5ff8-5a62-176a-87a6" shared="true" />
-                <condition type="notInstanceOf" value="1" field="selections" scope="primary-catalogue" childId="2b88-ba4a-f464-e32d" shared="true" />
-                <condition type="notInstanceOf" value="1" field="selections" scope="primary-catalogue" childId="5b2e-e089-2987-125c" shared="true" />
+                <condition type="notInstanceOf" value="1" field="selections" scope="primary-catalogue" childId="d265-877b-e03d-30ca" shared="true" />
+                <condition type="notInstanceOf" value="1" field="selections" scope="primary-catalogue" childId="46d8-abc8-ef3a-9f85" shared="true" />
+                <condition type="notInstanceOf" value="1" field="selections" scope="primary-catalogue" childId="c8da-e875-58f7-f6d6" shared="true" />
+                <condition type="notInstanceOf" value="1" field="selections" scope="primary-catalogue" childId="5108-f98-63c2-53cb" shared="true" />
+                <condition type="notInstanceOf" value="1" field="selections" scope="primary-catalogue" childId="1069-10ff-3ba9-873b" shared="true" />
+                <condition type="notInstanceOf" value="1" field="selections" scope="primary-catalogue" childId="df9a-59b2-f464-59ad" shared="true" />
               </conditions>
             </conditionGroup>
           </conditionGroups>
@@ -1587,12 +1587,12 @@
           <conditionGroups>
             <conditionGroup type="and">
               <conditions>
-                <condition type="notInstanceOf" value="1" field="selections" scope="primary-catalogue" childId="03cf-b34d-0126-12c8" shared="true" />
-                <condition type="notInstanceOf" value="1" field="selections" scope="primary-catalogue" childId="f0ff-96fa-6715-5265" shared="true" />
-                <condition type="notInstanceOf" value="1" field="selections" scope="primary-catalogue" childId="62a9-45cc-b749-3616" shared="true" />
-                <condition type="notInstanceOf" value="1" field="selections" scope="primary-catalogue" childId="5ff8-5a62-176a-87a6" shared="true" />
-                <condition type="notInstanceOf" value="1" field="selections" scope="primary-catalogue" childId="2b88-ba4a-f464-e32d" shared="true" />
-                <condition type="notInstanceOf" value="1" field="selections" scope="primary-catalogue" childId="5b2e-e089-2987-125c" shared="true" />
+                <condition type="notInstanceOf" value="1" field="selections" scope="primary-catalogue" childId="d265-877b-e03d-30ca" shared="true" />
+                <condition type="notInstanceOf" value="1" field="selections" scope="primary-catalogue" childId="46d8-abc8-ef3a-9f85" shared="true" />
+                <condition type="notInstanceOf" value="1" field="selections" scope="primary-catalogue" childId="c8da-e875-58f7-f6d6" shared="true" />
+                <condition type="notInstanceOf" value="1" field="selections" scope="primary-catalogue" childId="5108-f98-63c2-53cb" shared="true" />
+                <condition type="notInstanceOf" value="1" field="selections" scope="primary-catalogue" childId="1069-10ff-3ba9-873b" shared="true" />
+                <condition type="notInstanceOf" value="1" field="selections" scope="primary-catalogue" childId="df9a-59b2-f464-59ad" shared="true" />
               </conditions>
             </conditionGroup>
           </conditionGroups>
@@ -1617,12 +1617,12 @@
           <conditionGroups>
             <conditionGroup type="and">
               <conditions>
-                <condition type="notInstanceOf" value="1" field="selections" scope="primary-catalogue" childId="03cf-b34d-0126-12c8" shared="true" />
-                <condition type="notInstanceOf" value="1" field="selections" scope="primary-catalogue" childId="f0ff-96fa-6715-5265" shared="true" />
-                <condition type="notInstanceOf" value="1" field="selections" scope="primary-catalogue" childId="62a9-45cc-b749-3616" shared="true" />
-                <condition type="notInstanceOf" value="1" field="selections" scope="primary-catalogue" childId="5ff8-5a62-176a-87a6" shared="true" />
-                <condition type="notInstanceOf" value="1" field="selections" scope="primary-catalogue" childId="2b88-ba4a-f464-e32d" shared="true" />
-                <condition type="notInstanceOf" value="1" field="selections" scope="primary-catalogue" childId="5b2e-e089-2987-125c" shared="true" />
+                <condition type="notInstanceOf" value="1" field="selections" scope="primary-catalogue" childId="d265-877b-e03d-30ca" shared="true" />
+                <condition type="notInstanceOf" value="1" field="selections" scope="primary-catalogue" childId="46d8-abc8-ef3a-9f85" shared="true" />
+                <condition type="notInstanceOf" value="1" field="selections" scope="primary-catalogue" childId="c8da-e875-58f7-f6d6" shared="true" />
+                <condition type="notInstanceOf" value="1" field="selections" scope="primary-catalogue" childId="5108-f98-63c2-53cb" shared="true" />
+                <condition type="notInstanceOf" value="1" field="selections" scope="primary-catalogue" childId="1069-10ff-3ba9-873b" shared="true" />
+                <condition type="notInstanceOf" value="1" field="selections" scope="primary-catalogue" childId="df9a-59b2-f464-59ad" shared="true" />
               </conditions>
             </conditionGroup>
           </conditionGroups>
@@ -1647,12 +1647,12 @@
           <conditionGroups>
             <conditionGroup type="or">
               <conditions>
-                <condition type="instanceOf" value="1" field="selections" scope="primary-catalogue" childId="03cf-b34d-0126-12c8" shared="true" />
-                <condition type="instanceOf" value="1" field="selections" scope="primary-catalogue" childId="f0ff-96fa-6715-5265" shared="true" />
-                <condition type="instanceOf" value="1" field="selections" scope="primary-catalogue" childId="62a9-45cc-b749-3616" shared="true" />
-                <condition type="instanceOf" value="1" field="selections" scope="primary-catalogue" childId="5ff8-5a62-176a-87a6" shared="true" />
-                <condition type="instanceOf" value="1" field="selections" scope="primary-catalogue" childId="2b88-ba4a-f464-e32d" shared="true" />
-                <condition type="instanceOf" value="1" field="selections" scope="primary-catalogue" childId="5b2e-e089-2987-125c" shared="true" />
+                <condition type="instanceOf" value="1" field="selections" scope="primary-catalogue" childId="d265-877b-e03d-30ca" shared="true" />
+                <condition type="instanceOf" value="1" field="selections" scope="primary-catalogue" childId="46d8-abc8-ef3a-9f85" shared="true" />
+                <condition type="instanceOf" value="1" field="selections" scope="primary-catalogue" childId="c8da-e875-58f7-f6d6" shared="true" />
+                <condition type="instanceOf" value="1" field="selections" scope="primary-catalogue" childId="5108-f98-63c2-53cb" shared="true" />
+                <condition type="instanceOf" value="1" field="selections" scope="primary-catalogue" childId="1069-10ff-3ba9-873b" shared="true" />
+                <condition type="instanceOf" value="1" field="selections" scope="primary-catalogue" childId="df9a-59b2-f464-59ad" shared="true" />
               </conditions>
             </conditionGroup>
           </conditionGroups>
@@ -1677,12 +1677,12 @@
           <conditionGroups>
             <conditionGroup type="or">
               <conditions>
-                <condition type="instanceOf" value="1" field="selections" scope="primary-catalogue" childId="03cf-b34d-0126-12c8" shared="true" />
-                <condition type="instanceOf" value="1" field="selections" scope="primary-catalogue" childId="f0ff-96fa-6715-5265" shared="true" />
-                <condition type="instanceOf" value="1" field="selections" scope="primary-catalogue" childId="62a9-45cc-b749-3616" shared="true" />
-                <condition type="instanceOf" value="1" field="selections" scope="primary-catalogue" childId="5ff8-5a62-176a-87a6" shared="true" />
-                <condition type="instanceOf" value="1" field="selections" scope="primary-catalogue" childId="2b88-ba4a-f464-e32d" shared="true" />
-                <condition type="instanceOf" value="1" field="selections" scope="primary-catalogue" childId="5b2e-e089-2987-125c" shared="true" />
+                <condition type="instanceOf" value="1" field="selections" scope="primary-catalogue" childId="d265-877b-e03d-30ca" shared="true" />
+                <condition type="instanceOf" value="1" field="selections" scope="primary-catalogue" childId="46d8-abc8-ef3a-9f85" shared="true" />
+                <condition type="instanceOf" value="1" field="selections" scope="primary-catalogue" childId="c8da-e875-58f7-f6d6" shared="true" />
+                <condition type="instanceOf" value="1" field="selections" scope="primary-catalogue" childId="5108-f98-63c2-53cb" shared="true" />
+                <condition type="instanceOf" value="1" field="selections" scope="primary-catalogue" childId="1069-10ff-3ba9-873b" shared="true" />
+                <condition type="instanceOf" value="1" field="selections" scope="primary-catalogue" childId="df9a-59b2-f464-59ad" shared="true" />
               </conditions>
             </conditionGroup>
           </conditionGroups>
@@ -1707,12 +1707,12 @@
           <conditionGroups>
             <conditionGroup type="or">
               <conditions>
-                <condition type="instanceOf" value="1" field="selections" scope="primary-catalogue" childId="03cf-b34d-0126-12c8" shared="true" />
-                <condition type="instanceOf" value="1" field="selections" scope="primary-catalogue" childId="f0ff-96fa-6715-5265" shared="true" />
-                <condition type="instanceOf" value="1" field="selections" scope="primary-catalogue" childId="62a9-45cc-b749-3616" shared="true" />
-                <condition type="instanceOf" value="1" field="selections" scope="primary-catalogue" childId="5ff8-5a62-176a-87a6" shared="true" />
-                <condition type="instanceOf" value="1" field="selections" scope="primary-catalogue" childId="2b88-ba4a-f464-e32d" shared="true" />
-                <condition type="instanceOf" value="1" field="selections" scope="primary-catalogue" childId="5b2e-e089-2987-125c" shared="true" />
+                <condition type="instanceOf" value="1" field="selections" scope="primary-catalogue" childId="d265-877b-e03d-30ca" shared="true" />
+                <condition type="instanceOf" value="1" field="selections" scope="primary-catalogue" childId="46d8-abc8-ef3a-9f85" shared="true" />
+                <condition type="instanceOf" value="1" field="selections" scope="primary-catalogue" childId="c8da-e875-58f7-f6d6" shared="true" />
+                <condition type="instanceOf" value="1" field="selections" scope="primary-catalogue" childId="5108-f98-63c2-53cb" shared="true" />
+                <condition type="instanceOf" value="1" field="selections" scope="primary-catalogue" childId="1069-10ff-3ba9-873b" shared="true" />
+                <condition type="instanceOf" value="1" field="selections" scope="primary-catalogue" childId="df9a-59b2-f464-59ad" shared="true" />
               </conditions>
             </conditionGroup>
           </conditionGroups>

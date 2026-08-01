@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue xmlns="http://www.battlescribe.net/schema/catalogueSchema" library="false" id="260a-6aec-6579-37e2" name="Xenos - Necrons" gameSystemId="sys-0e45-705d-f6bc-806a" gameSystemRevision="1" revision="106" battleScribeVersion="2.03" type="catalogue">
+<catalogue xmlns="http://www.battlescribe.net/schema/catalogueSchema" library="false" id="b654-a18a-ea1-3bf2" name="Xenos - Necrons" gameSystemId="sys-352e-adc2-7639-d6a9" gameSystemRevision="1" revision="106" battleScribeVersion="2.03" type="catalogue">
   <sharedSelectionEntryGroups>
     <selectionEntryGroup name="Enhancements" hidden="false" id="9574-b5d1-8b0a-d95d" collapsible="true">
       <constraints>
@@ -14,7 +14,7 @@
           <profiles>
             <profile name="Veil of Darkness" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="134a-950c-df71-1a76">
               <characteristics>
-                <characteristic name="Description" typeId="9b8f-694b-e5e-b573">NECRONS figurine uniquement. Une fois par bataille, à la fin du tour de votre adversaire, si l'unité du porteur n'est pas dans la Portée d’Engagement d'une ou de plusieurs unités ennemies, le porteur peut utiliser cette Optimisation. Si c'est le cas, retirez cette unité du champ de bataille. Puis, dans l'étape de renfort de votre prochaine phase de Mouvement, installez cette unité n'importe où sur le champ de bataille qui est plus que 9" horizontalement loin de tous les figurines ennemies.</characteristic>
+                <characteristic name="Description" typeId="9b8f-694b-e5e-b573">NECRONS figurine uniquement. Une fois par bataille, à la fin du tour de votre adversaire, si l’unité du porteur n'est pas à l'intérieur de Portée d’Engagement d'une ou plusieurs unités ennemies, le porteur peut utiliser ce Optimisation. Si c'est le cas, retirez cette unité du champ de bataille. Ensuite, dans l'étape de renforcement de votre prochaine phase de Mouvement, installez cette unité n'importe où sur le champ de bataille qui est plus que 9" horizontalement loin de tous les ennemis figurines.</characteristic>
               </characteristics>
             </profile>
           </profiles>
@@ -42,7 +42,7 @@
           <profiles>
             <profile name="Nether-realm Casket" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="471d-7d60-1f1d-f7e1">
               <characteristics>
-                <characteristic name="Description" typeId="9b8f-694b-e5e-b573">NECRONS figurine uniquement. Alors que le porteur mène une unité, les figurines de cette unité ont la aptitude Discrétion.</characteristic>
+                <characteristic name="Description" typeId="9b8f-694b-e5e-b573">NECRONS figurine uniquement. Alors que le porteur est à la tête d'une unité, les figurines de cette unité ont l’aptitude Discrétion.</characteristic>
               </characteristics>
             </profile>
           </profiles>
@@ -98,7 +98,7 @@
           <profiles>
             <profile name="Dimensional Overseer" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="d2be-fc47-cd4e-92a4">
               <characteristics>
-                <characteristic name="Description" typeId="9b8f-694b-e5e-b573">NECRONS figurine uniquement. Pendant que le porteur est sur le champ de bataille ou dans les réserves stratégiques, ajoutez 1 au nombre d'unités de votre armée que vous pouvez sélectionner pour la règle Hyperphasing.</characteristic>
+                <characteristic name="Description" typeId="9b8f-694b-e5e-b573">NECRONS figurine uniquement. Alors que le porteur est sur le champ de bataille ou dans Réserves Stratégiques, ajoutez 1 au nombre d'unités de votre armée que vous pouvez sélectionner pour la règle Hyperphasing.</characteristic>
               </characteristics>
             </profile>
           </profiles>
@@ -135,7 +135,7 @@
           <profiles>
             <profile name="Eternal Madness" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="90c3-4762-cc9b-34dc">
               <characteristics>
-                <characteristic name="Description" typeId="9b8f-694b-e5e-b573">NECRONS figurine uniquement. Dans la phase de Combat, chaque fois qu'une figurine dans l'unité du porteur est détruite, si cette figurine n'avait pas combattu cette phase, lancez un D6. Sur un 4+, ne retirez pas la figurine détruit du jeu; il peut se battre après que l'unité de la figurine attaquant a terminé ses attaques, et est ensuite retiré du jeu.</characteristic>
+                <characteristic name="Description" typeId="9b8f-694b-e5e-b573">NECRONS figurine uniquement. Durant la phase de Combat, chaque fois qu’une figurine de l’unité du porteur est détruite, si elle n’avait pas combattu à cette phase, lancez un D6. Sur 4+, ne retirez pas la figurine détruite du jeu ; elle peut combattre une fois que l’unité de la figurine attaquante a fini de résoudre ses attaques, puis elle est retirée du jeu.</characteristic>
               </characteristics>
             </profile>
           </profiles>
@@ -163,7 +163,7 @@
           <profiles>
             <profile name="Ingrained Superiority" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="572a-806f-52a7-36e6">
               <characteristics>
-                <characteristic name="Description" typeId="9b8f-694b-e5e-b573">NECRONS figurine uniquement. Chaque fois qu'une figurine dans l'unité du porteur fait une attaque, sur une blessure critique, améliorez la caractéristique de Pénétration d’Armure de cette attaque de 1.</characteristic>
+                <characteristic name="Description" typeId="9b8f-694b-e5e-b573">NECRONS figurine uniquement. Chaque fois qu'une figurine dans l’unité du porteur fait une attaque, sur un Blessure Critique, améliorez la caractéristique de Pénétration d’Armure de cette attaque de 1.</characteristic>
               </characteristics>
             </profile>
           </profiles>
@@ -191,7 +191,7 @@
           <profiles>
             <profile name="Soulless Reaper" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="a148-5cca-37f2-764a">
               <characteristics>
-                <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Destroyer Cult figurine uniquement. Chaque fois qu'une unité ennemie dans la Portée d’Engagement de l'unité du porteur est sélectionnée pour Battre en Retraite, lancez un D6. Sur un 3+, cette unité ne peut pas Battre en Retraite et doit rester stationnaire.</characteristic>
+                <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Destroyer Cult figurine uniquement. Chaque fois qu'une unité ennemie dans Portée d’Engagement de l’unité du porteur est sélectionné pour Battre en Retraite, lancez un D6. Sur un 3+, cette unité ne peut pas Battre en Retraite et doit rester stationnaire.</characteristic>
               </characteristics>
             </profile>
           </profiles>
@@ -226,7 +226,7 @@
           <profiles>
             <profile name="Eldritch Nightmare" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="9553-37b3-1dfc-fef5">
               <characteristics>
-                <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Destroyer Cult figurine uniquement. Au début de la phase de Combat, chaque unité ennemie dans la Portée d’Engagement du porteur doit passer un test d’Ébranlement.</characteristic>
+                <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Figurine DESTROYER CULT uniquement. Au début de la phase de Combat, chaque unité ennemie à Portée d’Engagement du porteur doit effectuer un test d’Ébranlement.</characteristic>
               </characteristics>
             </profile>
           </profiles>
@@ -261,7 +261,7 @@
           <profiles>
             <profile name="Dimensional Sanctum" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="6012-9e87-6e69-8a7b">
               <characteristics>
-                <characteristic name="Description" typeId="9b8f-694b-e5e-b573">CRYPTEK figurine uniquement. Les figurines dans l'unité du porteur ont la aptitude Infiltrators.</characteristic>
+                <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Figurine CRYPTEK uniquement. Les figurines de l’unité du porteur ont l’aptitude Infiltrators.</characteristic>
               </characteristics>
             </profile>
           </profiles>
@@ -299,7 +299,7 @@
           <profiles>
             <profile name="Hyperphasic Fulcrum" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="aba5-2733-6f8-21c3">
               <characteristics>
-                <characteristic name="Description" typeId="9b8f-694b-e5e-b573">CRYPTEK figurine uniquement. Pendant que le porteur mène une unité, si cette unité est entièrement à votre armée Power Matrix, chaque fois qu'une figurine dans cette unité fait une attaque, relancez un jet de Blessure de 1.</characteristic>
+                <characteristic name="Description" typeId="9b8f-694b-e5e-b573">CRYPTEK figurine uniquement. Alors que le porteur mène une unité, si cette unité est entièrement à Power Matrix de votre armée, chaque fois qu'une figurine dans cette unité fait une attaque, relancer un jet de Blessure de 1.</characteristic>
               </characteristics>
             </profile>
           </profiles>
@@ -334,7 +334,7 @@
           <profiles>
             <profile name="Autodivinator" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="58c9-70f7-6e21-8031">
               <characteristics>
-                <characteristic name="Description" typeId="9b8f-694b-e5e-b573">CRYPTEK figurine uniquement. Chaque fois que votre adversaire gagne un CP à la suite d'une aptitude, lancez un D6: sur un 2+, vous gagnez aussi 1CP.</characteristic>
+                <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Figurine CRYPTEK uniquement. Chaque fois que votre adversaire gagne un CP grâce à une aptitude, lancez un D6 : sur 2+, vous gagnez également 1CP.</characteristic>
               </characteristics>
             </profile>
           </profiles>
@@ -369,7 +369,7 @@
           <profiles>
             <profile name="Metalodermal Tesla Weave" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="3899-6b21-3566-a998">
               <characteristics>
-                <characteristic name="Description" typeId="9b8f-694b-e5e-b573">CRYPTEK figurine uniquement. Une fois par phase, lorsqu'une unité ennemie sélectionne l'unité du porteur comme cible d'une charge, lancez un D6: sur une 2-5, cette unité ennemie subit D3 Blessures Mortelles, sur une 6, cette unité ennemie subit 3 Blessures Mortelles.</characteristic>
+                <characteristic name="Description" typeId="9b8f-694b-e5e-b573">CRYPTEK figurine uniquement. Une fois par phase, lorsqu'un Whunité ennemie sélectionne l'unité de Whle porteur comme cible d'une charge, lancez un D6: sur un 2-5, que cette unité ennemie souffre D3 Blessures Mortelles, sur un 6, que cette unité ennemie souffre 3 Blessures Mortelles.</characteristic>
               </characteristics>
             </profile>
           </profiles>
@@ -404,7 +404,7 @@
           <profiles>
             <profile name="Honourable Combatant" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="2695-8fb-ef38-9535">
               <characteristics>
-                <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Overlord figurine uniquement. Chaque fois que l'unité du porteur détruit une unité ennemie CHARACTER, votre adversaire perd 1CP s'il en a une.</characteristic>
+                <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Overlord figurine uniquement. Chaque fois que l’unité du porteur détruit une unité ennemie CHARACTER, votre adversaire perd 1CP s'il en a une.</characteristic>
               </characteristics>
             </profile>
           </profiles>
@@ -440,7 +440,7 @@
           <profiles>
             <profile name="Unflinching Will" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="2cac-9b4b-a8d4-7b76">
               <characteristics>
-                <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Overlord figurine uniquement. Les armes de mêlée du porteur ont les capacités [Précision] et [ANTI-INFANTRY 5+].</characteristic>
+                <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Overlord figurine uniquement. Les des armes de mêlée du porteur ont les aptitudes [Précision] et [ANTI-INFANTRY 5+].</characteristic>
               </characteristics>
             </profile>
           </profiles>
@@ -475,7 +475,7 @@
           <profiles>
             <profile name="Warrior Noble" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="4d66-d140-3901-6bf">
               <characteristics>
-                <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Overlord figurine uniquement. Chaque fois qu'une attaque de mêlée cible l'unité du porteur, Soustrayez 1 du jet de Touche.</characteristic>
+                <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Overlord figurine uniquement. Chaque fois qu'une attaque de mêlée cible l’unité du porteur, Soustrayez 1 du jet de Touche.</characteristic>
               </characteristics>
             </profile>
           </profiles>
@@ -510,7 +510,7 @@
           <profiles>
             <profile name="Eternal Conqueror" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="7a4d-f2b7-34a5-8d8d">
               <characteristics>
-                <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Overlord figurine uniquement. Chaque fois qu'une figurine dans l'unité du porteur effectue une attaque visant une unité ennemi dans la portée d'un marqueur objectif, vous pouvez relancer le jet de Touche.</characteristic>
+                <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Overlord figurine uniquement. Chaque fois qu'une figurine dans l’unité du porteur effectue une attaque visant une unité ennemie dans Portée d'un pion d’objectif, vous pouvez relancer est le jet de Touche.</characteristic>
               </characteristics>
             </profile>
           </profiles>
@@ -529,7 +529,7 @@
           <profiles>
             <profile name="Enaegic Dermal Bond" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="1f5-2b97-2b2c-60dc">
               <characteristics>
-                <characteristic name="Description" typeId="9b8f-694b-e5e-b573">NECRONS figurine uniquement. Le porteur possède la aptitude Insensible à la douleur 4+.</characteristic>
+                <characteristic name="Description" typeId="9b8f-694b-e5e-b573">NECRONS figurine uniquement. le porteur a l’aptitude Insensible à la douleur 4+.</characteristic>
               </characteristics>
             </profile>
           </profiles>
@@ -561,7 +561,7 @@
           <profiles>
             <profile name="Arisen Tyrant" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="65b7-8f59-2648-ae5f">
               <characteristics>
-                <characteristic name="Description" typeId="9b8f-694b-e5e-b573">NECRONS figurine uniquement. Chaque fois qu'une figurine dans l'unité du porteur fait une attaque, relancez un jet de Touche de 1. Si l'unité du porteur a été mise en place sur le champ de bataille à ce moment-là, vous pouvez relancer le jet de Touche à la place.</characteristic>
+                <characteristic name="Description" typeId="9b8f-694b-e5e-b573">NECRONS figurine uniquement. Chaque fois qu’une figurine de l’unité du porteur effectue une attaque, relancez un jet de Touche de 1. Si l’unité du porteur a été placée sur le champ de bataille durant ce tour, vous pouvez relancer le jet de Touche à la place.</characteristic>
               </characteristics>
             </profile>
           </profiles>
@@ -589,7 +589,7 @@
           <profiles>
             <profile name="Hyperspatial Transfer Node" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="e845-c3a1-38e0-bfb9">
               <characteristics>
-                <characteristic name="Description" typeId="9b8f-694b-e5e-b573">NECRONS figurine uniquement. Chaque fois que l'unité du porteur avance, ne faites pas un jet d’Avance pour elle. Au lieu de cela, jusqu'à la fin de la phase, ajoutez 6" à la caractéristique de mouvement des figurines dans l'unité du porteur.</characteristic>
+                <characteristic name="Description" typeId="9b8f-694b-e5e-b573">NECRONS figurine uniquement. Chaque fois que l’unité du porteur avance, ne faites pas un jet d’Avance pour elle. Au lieu de cela, Jusqu’à la fin de la phase, ajoutez 6" à la caractéristique de mouvement des figurines de l’unité du porteur.</characteristic>
               </characteristics>
             </profile>
           </profiles>
@@ -617,7 +617,7 @@
           <profiles>
             <profile name="Osteoclave Fulcrum" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="b2e-c6a4-6252-9699">
               <characteristics>
-                <characteristic name="Description" typeId="9b8f-694b-e5e-b573">NECRONS figurine uniquement. Les figurines dans l'unité du porteur ont la aptitude Frappe en profondeur.</characteristic>
+                <characteristic name="Description" typeId="9b8f-694b-e5e-b573">NECRONS figurine uniquement. Les figurines de l’unité du porteur ont l’aptitude Frappe en profondeur.</characteristic>
               </characteristics>
             </profile>
           </profiles>
@@ -704,7 +704,7 @@
           <profiles>
             <profile name="Miniaturised Nebuloscope" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="bd49-399b-926c-936d">
               <characteristics>
-                <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Les armes de tir équipées par des figurines dans l'unité du porteur ont la aptitude [Ignore le couvert].</characteristic>
+                <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Les armes de tir dont les figurines de l’unité du porteur sont équipées ont l’aptitude [IGNORES COVER].</characteristic>
               </characteristics>
             </profile>
           </profiles>
@@ -736,7 +736,7 @@
           <profiles>
             <profile name="Demanding Leader" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="91f5-bbc1-8ec9-68cc">
               <characteristics>
-                <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Dans votre phase de Commandement., sélectionnez un ami NECRONS VEHICLE ou L'unité NECRONS MOUNTED (à l'exclusion des unités TITANIC) située à 6" ou moins du porteur. Jusqu' au début de votre prochaine phase de Commandement., Cette unité est éligible pour tirer durant un tour où elle a Battu en Retraite.</characteristic>
+                <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Dans votre phase de Commandement, sélectionnez une unité NECRONS VEHICLE ou NECRONS MOUNTED (unités à l’exclusion de TITANIC) à 6" ou moins du porteur. Jusqu'au début de votre prochaine phase de Commandement, cette unité est éligible pour tirer dans un tour dans lequel il a Battu en Retraite.</characteristic>
               </characteristics>
             </profile>
           </profiles>
@@ -768,7 +768,7 @@
           <profiles>
             <profile name="Chrono-impedance Fields" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="0ce9-aaa0-f90b-2d7e">
               <characteristics>
-                <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Dans votre phase de Commandement, sélectionnez une unité **^^Necrons Vehicle^^** ou **^^Necrons Mounted^^** amicale (à l'exclusion des unités Titanic) à 6" ou moins du porteur. Jusqu'au début de votre prochaine phase de Commandement, chaque fois qu'une attaque est attribuée à une figurine dans cette unité, Soustrayez 1 de la caractéristique de Dégâts de cette attaque.</characteristic>
+                <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Dans votre phase de Commandement, sélectionnez une unité sympathique **^^Necrons Vehicle^^** ou **^^Necrons Mounted^^** (unités à l’exclusion de Titanic) à 6" ou moins du porteur. Jusqu'au début de votre prochaine phase de Commandement, chaque fois qu'une attaque est attribuée à une figurine dans cette unité, Soustrayez 1 de la caractéristique de Dégâts de cette attaque.</characteristic>
               </characteristics>
             </profile>
           </profiles>
@@ -794,7 +794,7 @@
           <profiles>
             <profile name="Gauntlet of Compression" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="348c-7fd1-256f-d62d">
               <characteristics>
-                <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Ajoutez 6" à la caractéristique de Portée des armes de tir équipées de figurines dans l'unité du porteur.</characteristic>
+                <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Ajoutez 6" à la caractéristique de Portée des armes de tir dont les figurines de l’unité du porteur sont équipées.</characteristic>
               </characteristics>
             </profile>
           </profiles>
@@ -834,7 +834,7 @@
           <profiles>
             <profile name="Atomic Disintegrators" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="785d-95b4-30f3-f71f">
               <characteristics>
-                <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Dans votre phase de Tir, chaque fois que l'unité du porteur est sélectionnée pour tirer, lors de la sélection d'une aptitude pour la règle de détachement Technosorcerous Augmentations, vous pouvez également sélectionner parmi les capacités suivantes: [ANTI‑MONSTER 5+], [ANTI‑VEHICLE 5+].</characteristic>
+                <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Durant votre phase de Tir, chaque fois que l’unité du porteur est sélectionnée pour tirer, lorsque vous sélectionnez une aptitude pour la règle de Détachement Technosorcerous Augmentations, vous pouvez également sélectionner l’une des aptitudes suivantes : [ANTI‑MONSTER 5+], [ANTI‑VEHICLE 5+].</characteristic>
               </characteristics>
             </profile>
           </profiles>
@@ -867,7 +867,7 @@
           <profiles>
             <profile name="Quantum Abacus" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="de27-bb94-7f0b-8175">
               <characteristics>
-                <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Chaque fois que vous sélectionnez l'unité du porteur comme cible d'un Stratagème, lancez un D6, en ajoutant 1 si elle se trouve dans la plage d'un ou plusieurs objectifs: sur un 4+, vous gagnez 1CP.</characteristic>
+                <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Chaque fois que vous sélectionnez l’unité du porteur comme cible d'un Stratagème, lancez un D6, en ajoutant 1 si elle est à l'intérieur de Portée d'un ou plusieurs objectifs: sur un 4+, vous gagnez 1CP.</characteristic>
               </characteristics>
             </profile>
           </profiles>
@@ -961,7 +961,7 @@
           <profiles>
             <profile name="Destroyer Ankh" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="37bd-f09d-4fd8-c80f">
               <characteristics>
-                <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Le porteur a le mot-clé ^^**Destroyer Cult^^**. Ajoutez 2" à la caractéristique de mouvement des figurines de l'unité du porteur et ajouter 2 à la caractéristique d’Attaques des armes de mêlée équipées par le porteur.</characteristic>
+                <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Le porteur a le mot-clé ^^**Destroyer Cult^^**. Ajoutez 2" à la caractéristique de Mouvement des figurines de l’unité du porteur et 2 à la caractéristique d’Attaques des armes de mêlée dont le porteur est équipé.</characteristic>
               </characteristics>
             </profile>
           </profiles>
@@ -1003,7 +1003,7 @@
           <profiles>
             <profile name="Murdermind" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="9070-0d7e-2212-90c7">
               <characteristics>
-                <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Le porteur possède le mot-clé Destroyer Cult et pendant l'étape Déclarer les Formations de Bataille, le porteur peut être attaché à une unité Destroyer Cult (à l'exclusion des unités Character). Si vous le faites, l'unité du porteur ne peut contenir aucune figurine sans le mot-clé Destroyer Cult. Ajoutez 3" à la caractéristique de mouvement du porteur.</characteristic>
+                <characteristic name="Description" typeId="9b8f-694b-e5e-b573">le porteur a le Destroyer Cult mot-clé et pendant le étape Déclarer les Formations de Bataille, le porteur peut être attaché à une unité Destroyer Cult (unités de caractères à l’exclusion de). Si vous le faites, l’unité du porteur ne peut contenir aucun figurines sans le Destroyer Cult mot-clé. Ajoutez 3" à la caractéristique de mouvement du porteur.</characteristic>
               </characteristics>
             </profile>
           </profiles>
@@ -1050,7 +1050,7 @@
           <profiles>
             <profile name="Mark of the Nekrosor" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="a326-99df-85de-947f">
               <characteristics>
-                <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Chaque fois qu'une figurine dans l'unité du porteur effectue une attaque, ajoutez 1 au jet de Touche.</characteristic>
+                <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Chaque fois qu'une figurine dans l’unité du porteur fait une attaque, ajoutez 1 au jet de Touche.</characteristic>
               </characteristics>
             </profile>
           </profiles>
@@ -1097,8 +1097,8 @@
           <profiles>
             <profile name="Cursed Circlet" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="9627-f05c-4013-0140">
               <characteristics>
-                <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Chaque fois qu'une unité ennemie est sélectionnée pour tirer, après que cette unité ait tiré, si des figurines de l'unité du porteur ont été détruits à la suite de ces attaques, l'unité du porteur peut effectuer un mouvement d’élan. Pour ce faire, lancez un D6: l'unité du porteur peut être déplacée d’un nombre de pouces inférieur ou égal au résultat, mais l'unité du porteur doit terminer ce mouvement le plus près possible de l'unité ennemie la plus proche (à l'exclusion de ^^**Aircraft^^**).
-En faisant cela, ces figurines peuvent être déplacés dans la Portée d’Engagement de cette unité ennemie. Une unité ne peut pas effectuer un mouvement d’élan alors qu'elle est Ébranlée.</characteristic>
+                <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Chaque fois qu’une unité ennemie est sélectionnée pour tirer, après que cette unité a tiré, si une ou plusieurs figurines de l’unité du porteur ont été détruites par ces attaques, l’unité du porteur peut effectuer un mouvement d’Élan. Pour ce faire, lancez un D6 : l’unité du porteur peut être déplacée d’un nombre de pouces inférieur ou égal au résultat, mais elle doit terminer ce mouvement aussi près que possible de l’unité ennemie la plus proche (à l’exclusion des ^^**Aircraft^^**). 
+Ce faisant, ces figurines peuvent être déplacées à Portée d’Engagement de cette unité ennemie. Une unité ne peut pas effectuer de mouvement d’Élan tant qu’elle est Ébranlée.</characteristic>
               </characteristics>
             </profile>
           </profiles>
@@ -1146,7 +1146,7 @@ En faisant cela, ces figurines peuvent être déplacés dans la Portée d’Enga
           <profiles>
             <profile name="Autocratic Avarice" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="e4bd-02a6-6c13-fc0f">
               <characteristics>
-                <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Au début de la bataille, sélectionnez un marqueur objectif dans No Man's Land. Tant que cette figurine est dans la plage de ce marqueur objectif, modifiez sa caractéristique de Contrôle d’Objectif à 4.</characteristic>
+                <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Au début de la bataille, sélectionnez un pion d’objectif dans le No Man's Land. Tant que cette figurine est à portée de ce pion d’objectif, remplacez sa caractéristique de Contrôle d’Objectif par 4.</characteristic>
               </characteristics>
             </profile>
           </profiles>
@@ -1178,7 +1178,7 @@ En faisant cela, ces figurines peuvent être déplacés dans la Portée d’Enga
           <profiles>
             <profile name="Martial Apotheosis" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="9f37-2936-02ea-8ffe">
               <characteristics>
-                <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Chaque fois que cette figurine fait une attaque, relance un jet de Touche de 1 et relance un jet de Blessure de 1.</characteristic>
+                <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Chaque fois que cette figurine fait une attaque, relancer un jet de Touche de 1 et relancer un jet de Blessure de 1.</characteristic>
               </characteristics>
             </profile>
           </profiles>
@@ -1210,7 +1210,7 @@ En faisant cela, ces figurines peuvent être déplacés dans la Portée d’Enga
           <profiles>
             <profile name="Endless Legions" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="6ae2-06a1-50e3-a3d8">
               <characteristics>
-                <characteristic name="Description" typeId="9b8f-694b-e5e-b573">À la fin de la bataille de la bataille, si cette figurine fait partie de votre armée de la Croisade et qu'il a gagné 3 ou plus XP (à l'exclusion de XP gagné de Marqué pour la grandeur), vous gagnez 1RP.</characteristic>
+                <characteristic name="Description" typeId="9b8f-694b-e5e-b573">À la fin de la bataille de la bataille, si cette figurine fait partie de votre armée de croisade et qu'il a gagné 3 ou plus XP (à l’exclusion de XP gagné de Marqué pour la grandeur), vous gagnez 1RP.</characteristic>
               </characteristics>
             </profile>
           </profiles>
@@ -1247,7 +1247,7 @@ En faisant cela, ces figurines peuvent être déplacés dans la Portée d’Enga
           <profiles>
             <profile name="The Will To Serve" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="4b65-81d6-dcc1-b6b5">
               <characteristics>
-                <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Les essais hors action effectués pour cette unité sont effectués automatiquement.</characteristic>
+                <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Les tests Hors de Combat effectués pour cette unité réussissent automatiquement.</characteristic>
               </characteristics>
             </profile>
           </profiles>
@@ -1346,7 +1346,7 @@ En faisant cela, ces figurines peuvent être déplacés dans la Portée d’Enga
           <profiles>
             <profile name="Engrammatic Imprinting" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="60dd-11ed-c7f5-8d9c">
               <characteristics>
-                <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Alors que cette unité se trouve à 6" ou moins d'une ou plusieurs figurines **^^Character^^** de votre armée de la Croisade, chaque fois qu'une figurine dans cette unité fait une attaque, relancez un jet de Touche de 1.</characteristic>
+                <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Alors que cette unité est à 6" ou moins d'un ou plusieurs **^^Character^^** figurines de votre armée de la Croisade, chaque fois qu'une figurine dans cette unité fait une attaque, relancer un jet de Touche de 1.</characteristic>
               </characteristics>
             </profile>
           </profiles>
@@ -1427,7 +1427,7 @@ En faisant cela, ces figurines peuvent être déplacés dans la Portée d’Enga
           <profiles>
             <profile name="Spectral Disassembly Targeters" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="21ab-9f38-7657-0496">
               <characteristics>
-                <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Les armes de tir équipées par des figurines de cette unité ont la aptitude **[IGNORES COVER]**.</characteristic>
+                <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Les armes de tir dont les figurines de cette unité sont équipées ont l’aptitude **[IGNORES COVER]**.</characteristic>
               </characteristics>
             </profile>
           </profiles>
@@ -1487,7 +1487,7 @@ En faisant cela, ces figurines peuvent être déplacés dans la Portée d’Enga
           <profiles>
             <profile name="Subdual Protocols" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="ed90-b51e-d219-0d32">
               <characteristics>
-                <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Alors que cette unité est Ébranlée, réduisez de moitié la caractéristique de Contrôle d’Objectif des figurines de cette unité au lieu de la changer en 0.</characteristic>
+                <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Alors que cette unité est Ébranlée, réduire de moitié la caractéristique de Contrôle d’Objectif des figurines de cette unité au lieu de en le changeant en 0.</characteristic>
               </characteristics>
             </profile>
           </profiles>
@@ -1519,7 +1519,7 @@ En faisant cela, ces figurines peuvent être déplacés dans la Portée d’Enga
           <profiles>
             <profile name="Self-replicator Nodes" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="62b8-04c8-a4a2-d6ec">
               <characteristics>
-                <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Une fois par tour, une unité de votre armée de la Croisade avec ce trait de bataille peut changer le résultat de son tour Reanimation Protocols à 3.</characteristic>
+                <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Une fois par tour, une unité de votre armée de Croisade avec ce trait de bataille peut changer le résultat de son Reanimation Protocols tour à 3.</characteristic>
               </characteristics>
             </profile>
           </profiles>
@@ -1551,7 +1551,7 @@ En faisant cela, ces figurines peuvent être déplacés dans la Portée d’Enga
           <profiles>
             <profile name="Guardian Constructs" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="d723-5652-3f58-a2c4">
               <characteristics>
-                <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Alors qu'une unité amie ^^**Cryptek**^^ est sur le champ de bataille, chaque fois qu'une figurine dans cette unité fait une attaque de mêlée, relancez un jet de Blessure de 1.</characteristic>
+                <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Tant qu’une unité ^^**Cryptek**^^ amie est sur le champ de bataille, chaque fois qu’une figurine de cette unité effectue une attaque de mêlée, relancez un jet de Blessure de 1.</characteristic>
               </characteristics>
             </profile>
           </profiles>
@@ -1583,7 +1583,7 @@ En faisant cela, ces figurines peuvent être déplacés dans la Portée d’Enga
           <profiles>
             <profile name="Optimised Aggressors" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="d613-7683-2f67-3b92">
               <characteristics>
-                <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Vous pouvez relancer les jets d’Avance et de Charge faits pour cette unité.</characteristic>
+                <characteristic name="Description" typeId="9b8f-694b-e5e-b573">vous pouvez relancer Advance et jets de Charge effectués pour cette unité.</characteristic>
               </characteristics>
             </profile>
           </profiles>
@@ -1598,7 +1598,7 @@ En faisant cela, ces figurines peuvent être déplacés dans la Portée d’Enga
               <profiles>
                 <profile name="Tachyon Field Phase Inducer" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="2a98-bf22-f0af-4a1e">
                   <characteristics>
-                    <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Le porteur possède la aptitude Destruction Néfaste D3. En outre, sélectionnez l'une des armes de mêlée du porteur; ajoutez 2 à la force et aux caractéristique d’Attaques de cette arme, et cette arme a la aptitude **[LETHAL HITS]**.</characteristic>
+                    <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Le porteur a l’aptitude Destruction Néfaste D3. De plus, sélectionnez une arme de mêlée du porteur ; ajoutez 2 à la caractéristique de Force et à la caractéristique d’Attaques de cette arme. Cette arme a également l’aptitude **[Touches fatales]**.</characteristic>
                   </characteristics>
                 </profile>
               </profiles>
@@ -1649,7 +1649,7 @@ En faisant cela, ces figurines peuvent être déplacés dans la Portée d’Enga
               <profiles>
                 <profile name="Orb of Eternity" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="33c7-e11c-0019-5435">
                   <characteristics>
-                    <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Pendant que le porteur mène une unité, chaque fois que l'unité Reanimation Protocols est activée, elle réanimera les blessures 3 au lieu des blessures D3.</characteristic>
+                    <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Alors que le porteur mène une unité, chaque fois que l'unité Reanimation Protocols est activée, elle réanimera 3 blessures au lieu de D3 blessures.</characteristic>
                   </characteristics>
                 </profile>
               </profiles>
@@ -1696,7 +1696,7 @@ En faisant cela, ces figurines peuvent être déplacés dans la Portée d’Enga
               <profiles>
                 <profile name="Casket of Heshkefnet" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="8545-2084-8eb8-39f3">
                   <characteristics>
-                    <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Une fois par bataille, au début de votre phase de Commandement, sélectionnez une unité de l'armée de votre adversaire. Jusqu'au début de votre prochaine phase de Commandement, chaque fois qu'une figurine de votre armée de la Croisade fait une attaque qui cible cette unité ennemie, vous pouvez relancer le jet de Touche.</characteristic>
+                    <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Une fois par bataille, au début de votre phase de Commandement, choisissez une unité de l'armée de votre adversaire. Jusqu'au début de votre prochaine phase de Commandement, chaque fois qu'une figurine de votre armée de la Croisade fait une attaque qui cible que cette unité ennemie, vous pouvez relancer le jet de Touche.</characteristic>
                   </characteristics>
                 </profile>
               </profiles>
@@ -1743,7 +1743,7 @@ En faisant cela, ces figurines peuvent être déplacés dans la Portée d’Enga
               <profiles>
                 <profile name="Godpyre Mantle" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="4875-3021-6838-95b5">
                   <characteristics>
-                    <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Les figurines dans l'unité du porteur ont la aptitude Discrétion.</characteristic>
+                    <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Les figurines de l’unité du porteur ont l’aptitude Discrétion.</characteristic>
                   </characteristics>
                 </profile>
               </profiles>
@@ -1871,8 +1871,8 @@ En faisant cela, ces figurines peuvent être déplacés dans la Portée d’Enga
           <profiles>
             <profile name="Creeping Madness" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="ea31-2582-622a-52fe">
               <characteristics>
-                <characteristic name="Description" typeId="9b8f-694b-e5e-b573">- Ajoutez le 1 à l'Unité pour la Force et les caractéristique d’Attaques des armes de mêlée équipées par cette unité.
-- Cette unité a la aptitude Agent solitaire et perd la aptitude Meneur.</characteristic>
+                <characteristic name="Description" typeId="9b8f-694b-e5e-b573">- Ajoutez 1 à l'unité Force et caractéristique d’Attaques d’armes de mêlée équipée par cette unité.
+- Cette unité a l’aptitude Agent solitaire et perd l’aptitude Meneur.</characteristic>
               </characteristics>
             </profile>
           </profiles>
@@ -1961,8 +1961,8 @@ En faisant cela, ces figurines peuvent être déplacés dans la Portée d’Enga
           <profiles>
             <profile name="Engrammatic Degradation" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="3d2a-ad86-2223-f911">
               <characteristics>
-                <characteristic name="Description" typeId="9b8f-694b-e5e-b573">- Chaque fois que vous ciblez cette unité avec un Stratagème, réduisez le coût de ce Stratagème de 1CP pour cette utilisation.
-- Ce n'est pas possible de Battre en Retraite ou d'avancer.</characteristic>
+                <characteristic name="Description" typeId="9b8f-694b-e5e-b573">- Chaque fois que vous ciblez cette unité avec un Stratagème, réduisez le coût de Stratagème par 1CP pour cette utilisation.
+- Cela ne peut pas être Battre en Retraite ou Advance.</characteristic>
               </characteristics>
             </profile>
           </profiles>
@@ -1993,8 +1993,8 @@ En faisant cela, ces figurines peuvent être déplacés dans la Portée d’Enga
           <profiles>
             <profile name="Depleted Transmaterial Reserves" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="271e-3791-de91-b1ec">
               <characteristics>
-                <characteristic name="Description" typeId="9b8f-694b-e5e-b573">- Ajoutez 1 à la caractéristique d’Attaques des armes de mêlée équipées de figurines de cette unité.
-- Cette unité ne peut pas utiliser sa aptitude Reanimation Protocols.</characteristic>
+                <characteristic name="Description" typeId="9b8f-694b-e5e-b573">- Ajoutez 1 à la caractéristique d’Attaques des armes de mêlée dont sont équipées les figurines de cette unité.
+- Cette unité ne peut pas utiliser son système Reanimation Protocols aptitude.</characteristic>
               </characteristics>
             </profile>
           </profiles>
@@ -2039,7 +2039,7 @@ En faisant cela, ces figurines peuvent être déplacés dans la Portée d’Enga
               <profiles>
                 <profile name="Rapid Reanimation" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="e9f1-5c72-01f8-64e6">
                   <characteristics>
-                    <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Une fois par tour de bataille, vous pouvez relancer le rôle pour une unité dans la aptitude Reanimation Protocols de votre armée de la Croisade.</characteristic>
+                    <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Une fois par round de bataille, vous pouvez relancer le jet de l’aptitude Reanimation Protocols d’une unité de votre armée de Croisade.</characteristic>
                   </characteristics>
                 </profile>
               </profiles>
@@ -2054,7 +2054,7 @@ En faisant cela, ces figurines peuvent être déplacés dans la Portée d’Enga
               <profiles>
                 <profile name="Resurrection Flux" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="dd02-9468-e232-e878">
                   <characteristics>
-                    <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Pendant qu'une unité est inférieure à la Demi-effectif, ajoutez 1 au résultat du roulement Reanimation Protocols de cette unité.</characteristic>
+                    <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Alors qu'une unité est En Dessous de son Demi-effectif, ajoutez 1 au résultat du roulement Reanimation Protocols de cette unité.</characteristic>
                   </characteristics>
                 </profile>
               </profiles>
@@ -2069,7 +2069,7 @@ En faisant cela, ces figurines peuvent être déplacés dans la Portée d’Enga
               <profiles>
                 <profile name="Anastasic Contingency" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="be82-970f-fcac-0e56">
                   <characteristics>
-                    <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Une fois par bataille, après qu'une unité ennemie ait causé une unité de votre armée de la Croisade à descendre en dessous de son Effectif Initial, cette unité peut utiliser sa aptitude Reanimation Protocols.</characteristic>
+                    <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Une fois par bataille, après une unité ennemie a causé une unité de votre armée de la Croisade à aller en dessous de son Effectif Initial, cette unité peut utiliser son Reanimation Protocols aptitude.</characteristic>
                   </characteristics>
                 </profile>
               </profiles>
@@ -2103,7 +2103,7 @@ En faisant cela, ces figurines peuvent être déplacés dans la Portée d’Enga
               <profiles>
                 <profile name="Servile Preservation Protocols" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="605b-ae70-86a3-9ba0">
                   <characteristics>
-                    <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Au début de la bataille, sélectionnez une unité ^^**Character^^**. Chaque fois qu'une figurine Bodyguard dans cette unité est détruite par une attaque de mêlée, si cette figurine n'a pas combattu cette phase, lancez un D6: sur un 3+, ne le retirez pas du jeu. la figurine détruit peut se battre après que l'unité de la figurine attaquant a terminé ses attaques, et est ensuite retiré du jeu.</characteristic>
+                    <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Au début de la bataille, sélectionnez une unité ^^**Character^^**. Chaque fois qu’une figurine Bodyguard de cette unité est détruite par une attaque de mêlée, si cette figurine n’a pas combattu durant cette phase, lancez un D6 : sur 3+, ne la retirez pas du jeu. La figurine détruite peut combattre après que l’unité de la figurine attaquante a terminé d’effectuer ses attaques, puis elle est retirée du jeu.</characteristic>
                   </characteristics>
                 </profile>
               </profiles>
@@ -2137,7 +2137,7 @@ En faisant cela, ces figurines peuvent être déplacés dans la Portée d’Enga
               <profiles>
                 <profile name="Astromantic Perception Portal" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="01c3-ee26-6917-3af8">
                   <characteristics>
-                    <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Une fois par tour, sélectionnez une unité **^^Necrons^^** qui a été mise en place sur le champ de bataille en utilisant la aptitude Frappe en profondeur ce tour. Jusqu'à la fin du tour, chaque fois qu'une figurine dans cette unité fait une attaque, vous pouvez relancer le jet de Touche.</characteristic>
+                    <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Une fois par tour, sélectionnez une unité **^^Necrons^^** qui a été configurée sur le champ de bataille en utilisant l’aptitude Frappe en profondeur ce tour. Jusqu'à la fin du tour, chaque fois qu'une figurine dans cette unité fait une attaque, vous pouvez relancer le jet de Touche.</characteristic>
                   </characteristics>
                 </profile>
               </profiles>
@@ -2152,7 +2152,7 @@ En faisant cela, ces figurines peuvent être déplacés dans la Portée d’Enga
               <profiles>
                 <profile name="Dimensional Catacombs" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="fbdf-93b0-0f7e-a518">
                   <characteristics>
-                    <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Avant le début de la bataille, sélectionnez jusqu'à trois unités **^^Necrons Infantry^^** de votre armée de la Croisade. Ces unités ont la aptitude Éclaireurs 6", et tout en utilisant cette aptitude, ils peuvent **^^Fly^^**.</characteristic>
+                    <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Avant le début de la bataille, sélectionnez jusqu'à trois unités **^^Necrons Infantry^^** de votre armée de la Croisade. Ces unités ont l’aptitude Éclaireurs 6", et tout en utilisant cette aptitude, ils peuvent **^^Fly^^**.</characteristic>
                   </characteristics>
                 </profile>
               </profiles>
@@ -2168,7 +2168,7 @@ En faisant cela, ces figurines peuvent être déplacés dans la Portée d’Enga
               <profiles>
                 <profile name="Transtemporal Acceleration" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="8989-e8a0-0b97-4447">
                   <characteristics>
-                    <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Une fois par bataille, dans votre phase de Commandement, sélectionnez une unité **^^Necrons^^** de votre armée de la Croisade. Jusqu'à la fin du tour, ajoutez 2 au jet d’Avance et de Charge fait pour cette unité.</characteristic>
+                    <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Une fois par bataille, dans votre phase de Commandement, sélectionnez une unité **^^Necrons^^** de votre armée de la Croisade. Jusqu'à la fin du tour, ajoutez 2 à Advance et jet de Charge de cette unité.</characteristic>
                   </characteristics>
                 </profile>
               </profiles>
@@ -2305,7 +2305,7 @@ En faisant cela, ces figurines peuvent être déplacés dans la Portée d’Enga
               <profiles>
                 <profile name="Harbinger of Despair" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="8dda-f24b-7127-8cd4">
                   <characteristics>
-                    <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Une fois par tour de bataille, au début d'une phase pendant votre tour, vous pouvez sélectionner une unité ennemi à 18" ou moins de cette figurine. Cette unité doit effectuer un test d’Ébranlement, en soustrayant 1 du test lorsqu'elle le fait.</characteristic>
+                    <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Une fois par round de bataille, au début d’une phase durant votre tour, vous pouvez sélectionner une unité ennemie à 18" ou moins de cette figurine. Cette unité doit effectuer un test d’Ébranlement, en soustrayant 1 à ce test lorsqu’elle le fait.</characteristic>
                   </characteristics>
                 </profile>
               </profiles>
@@ -2317,7 +2317,7 @@ En faisant cela, ces figurines peuvent être déplacés dans la Portée d’Enga
               <profiles>
                 <profile name="Harbinger of Destruction" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="e9f4-8df1-7b3d-4cd1">
                   <characteristics>
-                    <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Chaque fois qu'une figurine de cette unité effectue une attaque de tir, un jet de Touche non modifié de 5+ marque un hit critique.</characteristic>
+                    <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Chaque fois qu'une figurine dans cette unité fait une attaque de tir, un jet de Touche non modifié de 5+ marque un Touche Critique.</characteristic>
                   </characteristics>
                 </profile>
               </profiles>
@@ -2329,7 +2329,7 @@ En faisant cela, ces figurines peuvent être déplacés dans la Portée d’Enga
               <profiles>
                 <profile name="Living Lightning" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="09c6-a765-6ebf-d08a">
                   <characteristics>
-                    <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Dans votre phase de Tir, sélectionnez une unité ennemie à 18" ou moins et visible pour cette figurine et lancez 4 D6: pour chaque 4+, cette unité ennemie subit 1 blessure mortelle.</characteristic>
+                    <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Dans votre phase de Tir, sélectionnez une unité ennemie à 18" ou moins et visible à cet figurine et lancez 4 D6: pour chaque 4+, cette unité ennemie souffre de 1 blessure mortelle.</characteristic>
                   </characteristics>
                 </profile>
               </profiles>
@@ -2376,7 +2376,7 @@ En faisant cela, ces figurines peuvent être déplacés dans la Portée d’Enga
               <profiles>
                 <profile name="Engrammatic Logic" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="7c85-e129-82a4-3972">
                   <characteristics>
-                    <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Une fois par bataille, au début de toute phase, vous pouvez sélectionner une unité ^^**Necrons**^^ amicale qui est Ébranlée et à 12" ou moins de cette figurine. Cette unité n'est plus Ébranlée.</characteristic>
+                    <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Une fois par bataille, au début de n’importe quelle phase, vous pouvez sélectionner une unité ^^**Necrons**^^ amie qui est Ébranlée et à 12" ou moins de cette figurine. Cette unité n’est plus Ébranlée.</characteristic>
                   </characteristics>
                 </profile>
               </profiles>
@@ -2410,7 +2410,7 @@ En faisant cela, ces figurines peuvent être déplacés dans la Portée d’Enga
               <profiles>
                 <profile name="United in Destruction" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="8aac-f21c-5602-29fe">
                   <characteristics>
-                    <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Alors que cette figurine mène une unité, les armes de mêlée équipées de figurines dans cette unité ont la aptitude [^^Lethal Hits^^].</characteristic>
+                    <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Tant que cette figurine mène une unité, les armes de mêlée dont les figurines de cette unité sont équipées ont l’aptitude [^^Lethal Hits^^].</characteristic>
                   </characteristics>
                 </profile>
               </profiles>
@@ -3411,7 +3411,7 @@ En faisant cela, ces figurines peuvent être déplacés dans la Portée d’Enga
         </profile>
         <profile name="Master Chronomancer" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="4c02-411-e9be-6773">
           <characteristics>
-            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Alors que cette figurine mène une unité, les figurines de cette unité ont un 4+ sauvegarde invulnérable.</characteristic>
+            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Alors que cette figurine est à la tête d'une unité, les figurines de cette unité ont un 4+ sauvegarde invulnérable.</characteristic>
           </characteristics>
         </profile>
         <profile name="Sauvegarde Invulnérable" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="f817-4f10-91dd-cf9d">
@@ -3421,7 +3421,7 @@ En faisant cela, ces figurines peuvent être déplacés dans la Portée d’Enga
         </profile>
         <profile name="The Stars Are Right" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="7003-283b-1b84-c602">
           <characteristics>
-            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Une fois par bataille, au début de la phase de Combat, cette figurine peut utiliser cette aptitude. S'il le fait, jusqu'à la fin de la phase, triple les caractéristiques d'attaque et de force de cette figurine Staff de Tomorrow et chaque jet de Blessure réussi réalisé pour ces attaques de cette figurine marque une blessure critique.</characteristic>
+            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Une fois par bataille, au début de la phase de Combat, cette figurine peut utiliser cette aptitude. Si c'est le cas, jusqu'à la fin de la phase, triple les caractéristiques Attaques et Force de ce figurines Staff de Tomorrow et chaque jet de Blessure réussi réalisé pour ce figurines Attaques marque un Blessure Critique.</characteristic>
           </characteristics>
         </profile>
         <profile name="Meneur" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="b567-98ec-597b-f8c9">
@@ -3429,7 +3429,7 @@ En faisant cela, ces figurines peuvent être déplacés dans la Portée d’Enga
             <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Cette figurine peut être attachée aux unités suivantes:
 ■ IMMORTALS
 ■ NECRON WARRIORS
-Vous pouvez attacher cette figurine à l'une des unités ci-dessus même si une figurine Royal Warden ou NOBLE a déjà été attaché. Si vous le faites, et que l'unité Bodyguard est détruite, les unités Meneur attachées à elle deviennent des unités séparées, avec leur Effectif Initial d’origine.</characteristic>
+Vous pouvez attacher cette figurine à l'une des unités ci-dessus même si un Royal Warden ou NOBLE figurine a déjà été attaché à elle. Si vous le faites, et que l'unité Bodyguard est détruite, les unités Meneur attachés à elle deviennent des unités séparées, avec leur original Effectifs Initiaux.</characteristic>
           </characteristics>
         </profile>
       </profiles>
@@ -3511,7 +3511,7 @@ Vous pouvez attacher cette figurine à l'une des unités ci-dessus même si une 
         </profile>
         <profile name="Lord of the Storm" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="608f-b219-23b8-5568">
           <characteristics>
-            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Une fois par bataille, à la fin de votre phase de Commandement, cette figurine peut utiliser cette aptitude. Si c'est le cas, lancez un D6 pour chaque unité ennemie à 12" ou moins de cette figurine: sur un 2-5, cette unité ennemie subit D3 Blessures Mortelles; sur un 6, cette unité ennemie subit D3+3 Blessures Mortelles.</characteristic>
+            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Une fois par bataille, à la fin de votre phase de Commandement, cette figurine peut utiliser cette aptitude. Si c'est le cas, lancez un D6 pour chaque unité ennemie à 12" ou moins de cette figurine: sur un 2-5, que cette unité ennemie souffre D3 Blessures Mortelles; sur un 6, que l'unité ennemie souffre D3+3 Blessures Mortelles.</characteristic>
           </characteristics>
         </profile>
         <profile name="Imotekh the Stormlord" typeId="c547-1836-d8a-ff4f" typeName="Unit" hidden="false" id="2421-336c-d2d0-fef5">
@@ -3635,7 +3635,7 @@ Vous pouvez attacher cette figurine à l'une des unités ci-dessus même si une 
         </profile>
         <profile name="Mind in the Machine" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="db0b-31e9-f3d7-bc67">
           <characteristics>
-            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Au début de la phase de Tir de votre adversaire, sélectionnez une unité ennemie VEHICLE à 12" ou moins et visible pour cette figurine. Cette unité doit passer un test Commandement. Si ce test est passé, jusqu'à la fin de la phase, chaque fois qu'une figurine dans cette unité fait une attaque, Soustrayez 1 du jet de Touche; si ce test échoue, cette unité n'est pas éligible pour tirer cette phase.</characteristic>
+            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Au début de la phase de Tir de votre adversaire, sélectionnez une unité VEHICLE ennemie à 12" ou moins de cette figurine et visible de celle-ci. Cette unité doit effectuer un test de Commandement. Si ce test est réussi, jusqu’à la fin de la phase, chaque fois qu’une figurine de cette unité effectue une attaque, soustrayez 1 au jet de Touche ; si ce test est raté, cette unité n’est pas éligible pour tirer durant cette phase.</characteristic>
           </characteristics>
         </profile>
       </profiles>
@@ -3715,21 +3715,21 @@ Vous pouvez attacher cette figurine à l'une des unités ci-dessus même si une 
         </profile>
         <profile name="Meneur" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="6c1-e306-7422-f026">
           <characteristics>
-            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Cette figurine peut être attachée aux unités suivantes:
+            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Cette figurine peut être attachée aux unités suivantes :
 ■ IMMORTALS
 ■ LYCHGUARD
 ■ NECRON WARRIORS
-Vous pouvez attacher cette figurine à l'une des unités ci-dessus même si Nemesor Zahndrekh a déjà été attaché à elle. Si c'est le cas, et que l'unité Bodyguard est détruite, les unités Meneur qui lui sont attachées deviennent des unités distinctes, avec leur Effectif Initial d’origine.</characteristic>
+Vous pouvez attacher cette figurine à l’une des unités ci-dessus même si NEMESOR ZAHNDREKH lui a déjà été attaché. Si c’est le cas et que cette unité Bodyguard est détruite, les unités Leader qui lui étaient attachées deviennent des unités distinctes avec leur Effectif Initial d’origine.</characteristic>
           </characteristics>
         </profile>
         <profile name="Ghostwalk Mantle" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="d6ff-586b-5829-295b">
           <characteristics>
-            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Alors que cette figurine mène une unité, les figurines de cette unité ont la aptitude Fights First.</characteristic>
+            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Alors que cette figurine mène une unité, les figurines de cette unité ont l’aptitude Fights First.</characteristic>
           </characteristics>
         </profile>
         <profile name="The Vargard’s Duty" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="bcff-d655-2af7-c51a">
           <characteristics>
-            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Alors que cette figurine est dans la même unité que Nemesor Zahndrekh, les figurines CHARACTER dans cette unité ont la aptitude Insensible à la douleur 4+.</characteristic>
+            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Alors que cette figurine est dans la même unité que Nemesor Zahndrekh, CHARACTER les figurines de cette unité ont l’aptitude Insensible à la douleur 4+.</characteristic>
           </characteristics>
         </profile>
       </profiles>
@@ -3824,7 +3824,7 @@ Vous pouvez attacher cette figurine à l'une des unités ci-dessus même si Neme
         </profile>
         <profile name="Atomic Energy Manipulator" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="4164-8dc9-421-f281">
           <characteristics>
-            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">À la fin de la phase de Combat, si cette figurine détruit une ou plusieurs figurines de cette phase, jusqu'à la fin de la bataille, ajoutez 3" à la plage de sa aptitude d'augmentation mécanique (au maximum de 12").</characteristic>
+            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">À la fin de la phase de Combat, si cette figurine a détruit une ou plusieurs figurines à cette phase, jusqu’à la fin de la bataille, ajoutez 3" à la portée de son aptitude Mechanical Augmentation (jusqu’à un maximum de 12").</characteristic>
           </characteristics>
         </profile>
         <profile name="Illuminor Szeras" typeId="c547-1836-d8a-ff4f" typeName="Unit" hidden="false" id="b58-b800-d98e-9e43">
@@ -3947,15 +3947,15 @@ Vous pouvez attacher cette figurine à l'une des unités ci-dessus même si Neme
         </profile>
         <profile name="Transient Madness" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="62a8-d797-4bb6-c406">
           <characteristics>
-            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Pendant que cette figurine mène une unité, au début de votre phase de Commandement, lancez un D6: jusqu'au début de votre prochaine phase de Commandement, les armes équipées de figurines dans cette unité acquièrent la aptitude ci-dessous qui correspond à ce rôle:
-■ 1-2: [Touches soutenues 1]
-■ 3-4: [Touches fatales]
-■ 5-6: [Blessures dévastatrices]</characteristic>
+            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Tant que cette figurine mène une unité, au début de votre phase de Commandement, lancez un D6 : jusqu’au début de votre prochaine phase de Commandement, les armes dont sont équipées les figurines de cette unité gagnent l’aptitude ci-dessous correspondant au résultat :
+■ 1-2 : [Touches soutenues 1]
+■ 3-4 : [Touches fatales]
+■ 5-6 : [Blessures dévastatrices]</characteristic>
           </characteristics>
         </profile>
         <profile name="Counter-tactics" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="true" id="42fd-7e9a-3a34-ab24">
           <characteristics>
-            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Une fois par bataille, après que votre adversaire utilise un Stratagème, si cette figurine est sur le champ de bataille, il peut utiliser cette aptitude. Si c'est le cas, jusqu'à la fin de la bataille, le coût CP que votre adversaire doit payer pour utiliser ce Stratagème à nouveau est augmenté par 1CP.</characteristic>
+            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Une fois par bataille, après que votre adversaire utilise un Stratagème, si cette figurine est sur le champ de bataille, il peut utiliser cette aptitude. Si c'est le cas, jusqu'à la fin de la bataille, le coût CP votre adversaire doit payer pour utiliser que Stratagème à nouveau est augmenté par 1CP.</characteristic>
           </characteristics>
         </profile>
       </profiles>
@@ -4055,13 +4055,13 @@ Vous pouvez attacher cette figurine à l'une des unités ci-dessus même si Neme
         </profile>
         <profile name="Ancient Collector" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="2c95-7ec0-b887-a2ec">
           <characteristics>
-            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Alors que cette figurine mène une unité, à la fin de votre phase de Commandement, si cette unité est à la portée d'un marqueur objectif que vous contrôlez, ce marqueur objectif reste sous votre contrôle, même si vous n'avez pas de figurines à la portée de celui-ci, jusqu'à ce que votre adversaire le contrôle au début ou à la fin de tout tour.</characteristic>
+            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Alors que cette figurine mène une unité, à la fin de votre phase de Commandement, si cette unité se trouve à l'intérieur de Portée d'un pion d’objectif que vous contrôlez, ce pion d’objectif reste sous votre contrôle, même si vous n'avez pas de figurines à l'intérieur de Portée de celui-ci, jusqu'à ce que votre adversaire le contrôle au début ou à la fin de tout tour.</characteristic>
           </characteristics>
         </profile>
         <profile name="Surrogate Hosts" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="4bc-1a26-267-ad58">
           <characteristics>
-            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Au début de votre phase de Commandement, si cette figurine est sur le champ de bataille, vous pouvez sélectionner un autre figurine NECRONS INFANTRY CHARACTER sur le champ de bataille (à l'exclusion des figurines Skorpekh Lord ou EPIC HERO). la figurine sélectionné est détruit (ignorant toutes les règles qui sont déclenchées lorsqu'une figurine est détruite) et cette figurine est placé
-à sa place, avec tous ses PV (si la figurine sélectionné conduisait une unité, cette figurine s'attache maintenant à cette unité comme son Meneur).</characteristic>
+            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Au début de votre phase de Commandement, si cette figurine est sur le champ de bataille, vous pouvez sélectionner une autre figurine NECRONS INFANTRY CHARACTER sur le champ de bataille (à l’exclusion des figurines SKORPEKH LORD et EPIC HERO). La figurine sélectionnée est détruite (en ignorant toutes les règles déclenchées lorsqu’une figurine est détruite) et cette figurine est placée
+à sa place avec tous ses PV restants (si la figurine sélectionnée menait une unité, cette figurine s’y attache désormais en tant que Meneur).</characteristic>
           </characteristics>
         </profile>
       </profiles>
@@ -4149,7 +4149,7 @@ Vous pouvez attacher cette figurine à l'une des unités ci-dessus même si Neme
         </profile>
         <profile name="Engrammatic Logic" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="154b-abc2-af76-a8dc">
           <characteristics>
-            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Une fois par bataille, au début de toute phase, vous pouvez sélectionner une unité NECRONS amicale qui est Ébranlée et à 12" ou moins de cette figurine. Cette unité n'est plus Ébranlée.</characteristic>
+            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Une fois par bataille, au début de toute phase, vous pouvez sélectionner une unité amicale NECRONS qui est Ébranlé et à 12" ou moins de cette figurine. Cette unité n'est plus Ébranlé.</characteristic>
           </characteristics>
         </profile>
       </profiles>
@@ -4334,12 +4334,12 @@ Vous pouvez attacher cette figurine à l'une des unités ci-dessus même si Neme
         </profile>
         <profile name="United In Destruction" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="34b3-af3e-2476-eaae">
           <characteristics>
-            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Alors que cette figurine mène une unité, les armes de mêlée équipées de figurines dans cette unité ont la aptitude [Touches fatales].</characteristic>
+            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Tant que cette figurine mène une unité, les armes de mêlée dont les figurines de cette unité sont équipées ont l’aptitude [LETHAL HITS].</characteristic>
           </characteristics>
         </profile>
         <profile name="Crimson Harvest" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="cf05-2e44-6e86-f2e3">
           <characteristics>
-            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Chaque fois que cette figurine termine un mouvement Charge, sélectionnez une unité ennemi dans la Portée d’Engagement de cette figurine et lancez un D6: sur une 2-5, cette unité souffre de Blessures Mortelles D3; sur une 6, cette unité souffre de Blessures Mortelles D3+3.</characteristic>
+            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Chaque fois que cette figurine termine un mouvement de Charge, sélectionnez une unité ennemie dans Portée d’Engagement de cette figurine et lancez un D6: sur un 2-5, cette unité subit D3 Blessures Mortelles; sur un 6, cette unité subit D3+3 Blessures Mortelles.</characteristic>
           </characteristics>
         </profile>
         <profile name="Sauvegarde Invulnérable" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="fae1-b4ef-7e00-1eb8">
@@ -4558,12 +4558,12 @@ Vous pouvez attacher cette figurine à l'une des unités ci-dessus même si Neme
         </profile>
         <profile name="Destroyer Cult" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="9b1c-a931-479e-7222" noindex="true">
           <characteristics>
-            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Alors que cette figurine mène une unité, chaque fois qu'une figurine dans cette unité effectue une attaque de tir, un succès non modifié jet de Touche de 5+ marque un Hit critique.</characteristic>
+            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Tant que cette figurine mène une unité, chaque fois qu’une figurine de cette unité effectue une attaque de tir, tout jet de Touche non modifié réussi de 5+ est une Touche Critique.</characteristic>
           </characteristics>
         </profile>
         <profile name="Driven by Hatred" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="dab3-3e69-8bde-aed6">
           <characteristics>
-            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Chaque fois que cette figurine effectue une attaque visant une unité ennemie qui est en dessous de son Demi-effectif, vous pouvez relancer le jet de Touche et vous pouvez relancer le jet de Blessure.</characteristic>
+            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Chaque fois que cette figurine fait une attaque qui cible une unité ennemie qui est En Dessous de son Demi-effectif, vous pouvez relancer le jet de Touche et vous pouvez relancer le jet de Blessure.</characteristic>
           </characteristics>
         </profile>
       </profiles>
@@ -4646,7 +4646,7 @@ Vous pouvez attacher cette figurine à l'une des unités ci-dessus même si Neme
                   <profiles>
                     <profile name="Nanoscarab amulet" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="df4c-f512-dc01-b78a">
                       <characteristics>
-                        <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Le porteur possède la aptitude Insensible à la douleur 5+.</characteristic>
+                        <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Le porteur a l’aptitude Insensible à la douleur 5+.</characteristic>
                       </characteristics>
                     </profile>
                   </profiles>
@@ -4784,7 +4784,7 @@ Vous pouvez attacher cette figurine à l'une des unités ci-dessus même si Neme
         </profile>
         <profile name="The Lord’s Will" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="5ebc-3ae5-e0ea-b8ac">
           <characteristics>
-            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Alors que cette figurine mène une unité, vous pouvez cibler cette unité avec des Stratagems même lorsqu'elle est Ébranlée.</characteristic>
+            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Alors que cette figurine mène une unité, vous pouvez cibler cette unité avec Stratagems même quand c'est Ébranlé.</characteristic>
           </characteristics>
         </profile>
       </profiles>
@@ -4979,7 +4979,7 @@ Vous pouvez attacher cette figurine à l'une des unités ci-dessus même si Neme
       <profiles>
         <profile name="Resurrection orb" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="c20d-dbc0-c38d-f255">
           <characteristics>
-            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Une fois par bataille, pendant que le porteur mène une unité, à la fin de n'importe quelle phase, il peut ressusciter cette unité si elle est sur le champ de bataille. Lorsque vous le faites, l'unité Reanimation Protocols est activée réanimant les blessures D6 au lieu de D3 en le faisant. Vous ne pouvez pas ressusciter plus d'une unité par tour.</characteristic>
+            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Une fois par bataille, alors que le porteur mène une unité, à la fin de toute phase, il peut ressusciter cette unité si elle est sur le champ de bataille. Lorsque vous le faites, l'unité Reanimation Protocols est activée réanimant D6 blessures au lieu de D3 en le faisant. Vous ne pouvez pas ressusciter plus d'une unité par tour.</characteristic>
           </characteristics>
         </profile>
       </profiles>
@@ -5034,12 +5034,12 @@ Vous pouvez attacher cette figurine à l'une des unités ci-dessus même si Neme
         </profile>
         <profile name="Carrier Wave (Aura)" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="23f9-a017-6911-33d3">
           <characteristics>
-            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Alors qu'une unité NECRONS conviviale se trouve à 6" ou moins de cette figurine, ajoutez 1 à la caractéristique de Contrôle d’Objectif des figurines de cette unité.</characteristic>
+            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Lorsqu'une unité NECRONS amicale est à 6" ou moins de cette figurine, ajoutez 1 à la caractéristique de Contrôle d’Objectif des figurines de cette unité.</characteristic>
           </characteristics>
         </profile>
         <profile name="Advanced Quantum Shielding" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="8024-526b-d055-1551">
           <characteristics>
-            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Chaque fois qu'une attaque cible cette figurine, si la caractéristique de Force de cette attaque est supérieure à la caractéristique d’Endurance de cette figurine, Soustrayez 1 du jet de Blessure.</characteristic>
+            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Chaque fois qu’une attaque cible cette figurine, si la caractéristique de Force de cette attaque est supérieure à la caractéristique d’Endurance de cette figurine, soustrayez 1 au jet de Blessure.</characteristic>
           </characteristics>
         </profile>
       </profiles>
@@ -5053,7 +5053,7 @@ Vous pouvez attacher cette figurine à l'une des unités ci-dessus même si Neme
               <profiles>
                 <profile name="Resurrection orb" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="50db-a36b-f520-5afa">
                   <characteristics>
-                    <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Une fois par bataille, à la fin de toute phase, sélectionnez une unité NECRONS INFANTRY ou NECRONS MOUNTED à 6" ou moins du porteur et ressuscitez cette unité. Lorsque vous le faites, l'unité Reanimation Protocols est activée réanimant les blessures D6 au lieu de D3 en le faisant. Vous ne pouvez pas ressusciter plus d'une unité par tour.</characteristic>
+                    <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Une fois par bataille, à la fin de n'importe quelle phase, sélectionnez une unité amicale NECRONS INFANTRY ou NECRONS MOUNTED à 6" ou moins du porteur et ressuscitez cette unité. Lorsque vous le faites, l'unité Reanimation Protocols est activée réanimant D6 blessures au lieu de D3 en le faisant. Vous ne pouvez pas ressusciter plus d'une unité par tour.</characteristic>
                   </characteristics>
                 </profile>
               </profiles>
@@ -5283,7 +5283,7 @@ Vous pouvez attacher cette figurine à l'une des unités ci-dessus même si Neme
         </profile>
         <profile name="Implacable Resilience" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="7eaa-f4a5-901d-2420">
           <characteristics>
-            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Chaque fois qu'une attaque est attribuée à cette figurine, Soustrayez 1 de la caractéristique de Dégâts de cette attaque.</characteristic>
+            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Chaque fois qu'une attaque est attribuée à cette figurine, Soustrayez 1 de cette caractéristique d’Attaques de Dégâts.</characteristic>
           </characteristics>
         </profile>
         <profile name="Sauvegarde Invulnérable" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="70b4-8797-3592-64d">
@@ -5596,7 +5596,7 @@ Vous pouvez attacher cette figurine à l'une des unités ci-dessus même si Neme
 ■ CANOPTEK WRAITHS
 ■ IMMORTALS
 ■ NECRON WARRIORS
-Vous pouvez attacher cette figurine à l'une des unités ci-dessus même si une figurine Royal Warden ou NOBLE a déjà été attaché. Si vous le faites, et que l'unité Bodyguard est détruite, les unités Meneur attachées à elle deviennent des unités séparées, avec leur Effectif Initial d’origine.</characteristic>
+Vous pouvez attacher cette figurine à l'une des unités ci-dessus même si un Royal Warden ou NOBLE figurine a déjà été attaché à elle. Si vous le faites, et que l'unité Bodyguard est détruite, les unités Meneur attachés à elle deviennent des unités séparées, avec leur original Effectifs Initiaux.</characteristic>
           </characteristics>
         </profile>
         <profile name="Technomancer" typeId="c547-1836-d8a-ff4f" typeName="Unit" hidden="false" id="8de-5db6-b19e-104c">
@@ -5611,12 +5611,12 @@ Vous pouvez attacher cette figurine à l'une des unités ci-dessus même si une 
         </profile>
         <profile name="Rites of Reanimation" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="ff0b-8063-e5bc-1646">
           <characteristics>
-            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Alors que cette figurine mène une unité, les figurines de cette unité ont la aptitude Insensible à la douleur 5+.</characteristic>
+            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Alors que cette figurine mène une unité, les figurines de cette unité ont l’aptitude Insensible à la douleur 5+.</characteristic>
           </characteristics>
         </profile>
         <profile name="Technomancer" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="760c-f4f5-c2b9-7ebc">
           <characteristics>
-            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">À la fin de votre phase de Mouvement, sélectionnez une figurine NECRONS ami à 6" ou moins du porteur. cette figurine récupère jusqu'à D3 PV perdus. Chaque figurine ne peut être sélectionné pour cette aptitude qu'une seule fois par tour.</characteristic>
+            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">À la fin de votre phase de Mouvement, sélectionnez une figurine NECRONS amie à 6" ou moins du porteur. Cette figurine récupère jusqu’à D3 PV perdus. Chaque figurine ne peut être sélectionnée pour cette aptitude qu’une fois par tour.</characteristic>
           </characteristics>
         </profile>
       </profiles>
@@ -5768,7 +5768,7 @@ Vous pouvez attacher cette figurine à l'une des unités ci-dessus même si une 
             <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Cette figurine peut être attachée aux unités suivantes:
 ■ IMMORTALS
 ■ NECRON WARRIORS
-Vous pouvez attacher cette figurine à l'une des unités ci-dessus même si une figurine Royal Warden ou NOBLE a déjà été attaché. Si vous le faites, et que l'unité Bodyguard est détruite, les unités Meneur attachées à elle deviennent des unités séparées, avec leur Effectif Initial d’origine.</characteristic>
+Vous pouvez attacher cette figurine à l'une des unités ci-dessus même si un Royal Warden ou NOBLE figurine a déjà été attaché à elle. Si vous le faites, et que l'unité Bodyguard est détruite, les unités Meneur attachés à elle deviennent des unités séparées, avec leur original Effectifs Initiaux.</characteristic>
           </characteristics>
         </profile>
         <profile name="Psychomancer" typeId="c547-1836-d8a-ff4f" typeName="Unit" hidden="false" id="b4b-f591-8741-ffd5">
@@ -5783,12 +5783,12 @@ Vous pouvez attacher cette figurine à l'une des unités ci-dessus même si une 
         </profile>
         <profile name="Nightmare Shroud (Aura)" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="b1f0-60f5-c9a0-aeae">
           <characteristics>
-            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Dans l'étape d’Ébranlement de la phase de Commandement de votre adversaire, si une unité ennemie qui est inférieure à son Effectif Initial est à 6" ou moins de cette figurine, cette unité ennemie doit passer un test d’Ébranlement, en soustrayant 1 du jet lorsqu'elle le fait.</characteristic>
+            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">À l’étape Ébranlement de la phase de Commandement de votre adversaire, si une unité ennemie En Dessous de son Effectif Initial est à 6" ou moins de cette figurine, cette unité ennemie doit effectuer un test d’Ébranlement en soustrayant 1 au jet.</characteristic>
           </characteristics>
         </profile>
         <profile name="Harbinger of Despair" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="88bf-1fe6-205b-272e">
           <characteristics>
-            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Une fois par tour, au début de votre phase de commandement, de mouvement, de tir, de charge ou de combat, vous pouvez sélectionner une unité ennemie à 18" ou moins de cette figurine. Cette unité doit passer un test d’Ébranlement, en soustrayant 1 du jet lorsqu'elle le fait.</characteristic>
+            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Une fois par tour, au début de votre commande, mouvement, tir, charge ou phase de Combat, vous pouvez sélectionner une unité ennemie à 18" ou moins de cette figurine. Cette unité doit prendre un test d’Ébranlement, en soustrayant 1 du jet lorsqu'elle le fait.</characteristic>
           </characteristics>
         </profile>
       </profiles>
@@ -5940,7 +5940,7 @@ Vous pouvez attacher cette figurine à l'une des unités ci-dessus même si une 
             <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Cette figurine peut être attachée aux unités suivantes:
 ■ IMMORTALS
 ■ NECRON WARRIORS
-Vous pouvez attacher cette figurine à l'une des unités ci-dessus même si une figurine Royal Warden ou NOBLE a déjà été attaché. Si vous le faites, et que l'unité Bodyguard est détruite, les unités Meneur attachées à elle deviennent des unités séparées, avec leur Effectif Initial d’origine.</characteristic>
+Vous pouvez attacher cette figurine à l'une des unités ci-dessus même si un Royal Warden ou NOBLE figurine a déjà été attaché à elle. Si vous le faites, et que l'unité Bodyguard est détruite, les unités Meneur attachés à elle deviennent des unités séparées, avec leur original Effectifs Initiaux.</characteristic>
           </characteristics>
         </profile>
         <profile name="Chronomancer" typeId="c547-1836-d8a-ff4f" typeName="Unit" hidden="false" id="e241-7e15-5a1d-54fb">
@@ -5960,7 +5960,7 @@ Vous pouvez attacher cette figurine à l'une des unités ci-dessus même si une 
         </profile>
         <profile name="Chronometron" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="eb1e-dd99-1745-54b2">
           <characteristics>
-            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Dans votre phase de Tir, après que l'unité de la figurine ait tiré, si elle n'est pas dans la Portée d’Engagement des unités ennemies, cette unité peut effectuer un mouvement normal jusqu'à 5". Si tel est le cas, jusqu'à la fin du tour, cette unité n'est pas éligible à la déclaration d'une charge.</characteristic>
+            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Dans votre phase de Tir, après que l'unité figurines ait tiré, si elle n'est pas à l'intérieur de Portée d’Engagement de toute unité ennemie, cette unité peut effectuer un mouvement Normal jusqu'à 5". Si tel est le cas, jusqu'à la fin du tour, cette unité n'est pas éligible à la déclaration d'une charge.</characteristic>
           </characteristics>
         </profile>
         <profile name="Sauvegarde Invulnérable" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="d972-5e2-b478-f439">
@@ -6125,7 +6125,7 @@ Vous pouvez attacher cette figurine à l'une des unités ci-dessus même si une 
             <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Cette figurine peut être attachée aux unités suivantes:
 ■ IMMORTALS
 ■ NECRON WARRIORS
-Vous pouvez attacher cette figurine à l'une des unités ci-dessus même si une figurine Royal Warden ou NOBLE a déjà été attaché. Si vous le faites, et que l'unité Bodyguard est détruite, les unités Meneur attachées à elle deviennent des unités séparées, avec leur Effectif Initial d’origine.</characteristic>
+Vous pouvez attacher cette figurine à l'une des unités ci-dessus même si un Royal Warden ou NOBLE figurine a déjà été attaché à elle. Si vous le faites, et que l'unité Bodyguard est détruite, les unités Meneur attachés à elle deviennent des unités séparées, avec leur original Effectifs Initiaux.</characteristic>
           </characteristics>
         </profile>
         <profile name="Plasmancer" typeId="c547-1836-d8a-ff4f" typeName="Unit" hidden="false" id="2d47-39ce-ad3a-b47d">
@@ -6140,12 +6140,12 @@ Vous pouvez attacher cette figurine à l'une des unités ci-dessus même si une 
         </profile>
         <profile name="Harbinger of Destruction" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="b56-d882-46c2-f3f1">
           <characteristics>
-            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Alors que cette figurine mène une unité, chaque fois qu'une figurine dans cette unité effectue une attaque de tir, un succès non modifié jet de Touche de 5+ marque un Hit critique.</characteristic>
+            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Tant que cette figurine mène une unité, chaque fois qu’une figurine de cette unité effectue une attaque de tir, tout jet de Touche non modifié réussi de 5+ est une Touche Critique.</characteristic>
           </characteristics>
         </profile>
         <profile name="Living Lightning" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="b23c-448a-ac40-33f6">
           <characteristics>
-            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Dans votre phase de Tir, sélectionnez une unité ennemi à 18" ou moins et visible pour cette figurine (à l'exclusion des unités avec la aptitude Agent solitaire qui ne font pas partie d'une unité attachée et ne sont pas à 12" ou moins de cette figurine) et lancez quatre D6: pour chaque 4+, cette unité ennemi subit une blessure mortelle 1.</characteristic>
+            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Dans votre phase de Tir, sélectionnez une unité ennemi à 18" ou moins de et visible à cette figurine (à l’exclusion de unités avec l’aptitude Agent solitaire qui ne sont pas partie d’une unité Attachée et ne sont pas à 12" ou moins de cette figurine) et rouler quatre D6: pour chaque 4+, que cette unité ennemie souffre 1 blessure mortelle.</characteristic>
           </characteristics>
         </profile>
       </profiles>
@@ -6650,7 +6650,7 @@ Vous pouvez attacher cette figurine à l'une des unités ci-dessus même si une 
         </profile>
         <profile name="Implacable Eradication" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="a1de-4afc-f922-ff9f">
           <characteristics>
-            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Chaque fois qu'une figurine dans cette unité fait une attaque, relancez un jet de Blessure de 1. Si la cible de cette attaque est une unité ennemi à portée d'un marqueur objectif, vous pouvez relancer le jet de Blessure à la place.</characteristic>
+            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Chaque fois qu'une figurine dans cette unité fait une attaque, relancer est un jet de Blessure de 1. Si la cible de cette attaque est une unité ennemie dans Portée d'un pion d’objectif, vous pouvez relancer le jet de Blessure à la place.</characteristic>
           </characteristics>
         </profile>
       </profiles>
@@ -6756,7 +6756,7 @@ Vous pouvez attacher cette figurine à l'une des unités ci-dessus même si une 
         </profile>
         <profile name="Nanoscarab Reanimation Beam (Aura)" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="20e1-eb82-bf57-db38">
           <characteristics>
-            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Alors qu'une unité amicale NECRONS est à 3" ou moins de cette figurine, chaque fois que les unités Reanimation Protocols sont activées, cette unité réanimera une blessure D3 supplémentaire.</characteristic>
+            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Alors qu'une unité amicale NECRONS se trouve à 3" ou moins de cette figurine, chaque fois que les unités Reanimation Protocols s'activent, cette unité réanimera une blessure D3 supplémentaire.</characteristic>
           </characteristics>
         </profile>
       </profiles>
@@ -6920,12 +6920,12 @@ Vous pouvez attacher cette figurine à l'une des unités ci-dessus même si une 
         </profile>
         <profile name="Inescapable Death" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="3ba1-9027-f91a-8436">
           <characteristics>
-            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Une fois par tour, une unité de votre armée avec cette aptitude peut être ciblée avec le Fire Overwatch Stratagème pour 0CP, même si vous avez déjà utilisé ce Stratagème sur une autre unité cette phase. En outre, chaque fois que vous ciblez cette unité avec le Stratagème Fire Overwatch, tout en résolvant ce Stratagème, les Touches sont réussies sur des jets de Touche non modifiés de 2+.</characteristic>
+            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Une fois par tour, une unité de votre armée dotée de cette aptitude peut être ciblée avec le Stratagème Fire Overwatch pour 0CP, même si vous avez déjà utilisé ce Stratagème sur une autre unité durant cette phase. De plus, chaque fois que vous ciblez cette unité avec le Stratagème Fire Overwatch, lors de la résolution de ce Stratagème, les touches sont obtenues sur des jets de Touche non modifiés de 2+.</characteristic>
           </characteristics>
         </profile>
         <profile name="Multi-threat Eliminator" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="5fb0-75f-103d-6ab9">
           <characteristics>
-            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Une fois par tour, dans la phase de Tir de votre adversaire, lorsqu'une unité ennemie effectue une attaque de tir qui cible une unité amique NECRONS à 3" ou moins d'une figurine avec cette aptitude, après que l'ennemi ait tiré, une figurine avec cette aptitude qui se trouve à 3" ou moins de cette cible peut tirer comme si c'était votre phase de Tir, mais doit cibler cette unité ennemie en faisant cela, et ne peut le faire que si cette unité ennemie est une cible admissible.</characteristic>
+            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Une fois par tour, durant la phase de Tir de votre adversaire, lorsqu’une unité ennemie effectue une attaque de tir qui cible une unité NECRONS amie à 3" ou moins d’une figurine dotée de cette aptitude, après que cette unité ennemie a tiré, une figurine dotée de cette aptitude à 3" ou moins de cette cible peut tirer comme s’il s’agissait de votre phase de Tir. Elle doit alors cibler cette unité ennemie et ne peut le faire que si cette dernière est une cible éligible.</characteristic>
           </characteristics>
         </profile>
       </profiles>
@@ -7184,7 +7184,7 @@ Vous pouvez attacher cette figurine à l'une des unités ci-dessus même si une 
                           <profiles>
                             <profile name="Dispersion Shield" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="3154-b43-deb7-ce47">
                               <characteristics>
-                                <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Le porteur a un 4+ sauvegarde invulnérable.</characteristic>
+                                <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Le porteur a une sauvegarde invulnérable de 4+.</characteristic>
                               </characteristics>
                             </profile>
                           </profiles>
@@ -7335,7 +7335,7 @@ Vous pouvez attacher cette figurine à l'une des unités ci-dessus même si une 
       <profiles>
         <profile name="Hyperspace Hunters" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="ae04-1c6f-bc7b-fe8">
           <characteristics>
-            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Une fois par tour, dans l'étape de renforcement de la phase de Mouvement de votre adversaire, lorsqu'une unité ennemie est installée sur le champ de bataille depuis les réserves à 18" ou moins et visible à cette unité, cette unité peut tirer comme si c'était votre phase de Tir, mais ne doit cibler que cette unité ennemie en faisant cela, et ne peut le faire que si cette unité ennemie est une cible admissible.</characteristic>
+            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Une fois par tour, à l’étape des Renforts de la phase de Mouvement de votre adversaire, lorsqu’une unité ennemie est placée sur le champ de bataille depuis les Réserves à 18" ou moins de cette unité et visible par elle, cette unité peut tirer comme s’il s’agissait de votre phase de Tir, mais elle doit uniquement cibler cette unité ennemie et ne peut le faire que si cette unité ennemie est une cible éligible.</characteristic>
           </characteristics>
         </profile>
         <profile name="Deathmarks" typeId="c547-1836-d8a-ff4f" typeName="Unit" hidden="false" id="c8a6-d361-66fc-c3af">
@@ -7522,7 +7522,7 @@ Vous pouvez attacher cette figurine à l'une des unités ci-dessus même si une 
         </profile>
         <profile name="Flesh Hunger" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="bd6a-144a-e94-92ae">
           <characteristics>
-            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Chaque fois qu'une figurine dans cette unité fait une attaque de mêlée, si la cible de cette attaque est en dessous de son Demi-effectif, un succès jet de Touche marque un Hit critique.</characteristic>
+            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Chaque fois qu’une figurine de cette unité effectue une attaque de mêlée, si la cible de cette attaque est En Dessous de son Demi-effectif, tout jet de Touche réussi est une Touche Critique.</characteristic>
           </characteristics>
         </profile>
       </profiles>
@@ -7666,12 +7666,12 @@ Vous pouvez attacher cette figurine à l'une des unités ci-dessus même si une 
         </profile>
         <profile name="Bound Creation" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="fed9-4f4c-13cd-6663">
           <characteristics>
-            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Tant que cette unité est dans la même unité qu'une figurine CRYPTEK, cette figurine CRYPTEK a la aptitude Insensible à la douleur 4+.</characteristic>
+            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Tant que cette unité fait partie de la même unité qu’une figurine CRYPTEK, cette figurine CRYPTEK a l’aptitude Feel No Pain 4+.</characteristic>
           </characteristics>
         </profile>
         <profile name="Systematic Vigour" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="7d1b-80ba-7c17-e8a7">
           <characteristics>
-            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Chaque fois qu'une figurine Cryptothrall dans cette unité est détruite par une attaque de mêlée, si cette figurine n'a pas combattu cette phase, lancez un D6: sur un 2+, ne le retirez pas du jeu. la figurine détruit peut se battre après que l'unité de la figurine attaquant a terminé ses attaques, et il est ensuite retiré du jeu.</characteristic>
+            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Chaque fois qu’une figurine CRYPTOTHRALL de cette unité est détruite par une attaque de mêlée, si elle n’a pas combattu durant cette phase, lancez un D6 : sur 2+, ne la retirez pas du jeu. La figurine détruite peut combattre après que l’unité de la figurine attaquante a terminé d’effectuer ses attaques, puis elle est retirée du jeu.</characteristic>
           </characteristics>
         </profile>
         <profile name="Cryptek Retinue" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="af59-a206-8db4-f4eb">
@@ -7842,7 +7842,7 @@ Vous pouvez attacher cette figurine à l'une des unités ci-dessus même si une 
         </profile>
         <profile name="Whirling Onslaught" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="ba2f-e69c-95b4-cc4d">
           <characteristics>
-            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Chaque fois qu'une figurine dans cette unité fait une attaque de mêlée, relance un jet de Touche de 1. Si cette unité a fait un effectuer un mouvement de Charge ce tour, vous pouvez relancer le jet de Touche à la place.</characteristic>
+            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Chaque fois qu'une figurine dans cette unité fait une attaque de mêlée, relancer est un jet de Touche de 1. Si cette unité a fait un mouvement de Charge ce tour, vous pouvez relancer le jet de Touche à la place.</characteristic>
           </characteristics>
         </profile>
       </profiles>
@@ -8281,7 +8281,7 @@ Vous pouvez attacher cette figurine à l'une des unités ci-dessus même si une 
         </profile>
         <profile name="Grand Illusion" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="eb12-6f85-4791-9a9e">
           <characteristics>
-            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Si votre armée comprend cette figurine, après que les deux joueurs aient déployé leurs armées, sélectionnez jusqu'à trois unités ^^**NECRONS^^** de votre armée et redéployez-les. Lorsqu'ils le font, l'une ou l'autre de ces unités peut être placée dans des réserves stratégiques, quel que soit le nombre d'unités déjà dans des réserves stratégiques.</characteristic>
+            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Si votre armée comprend cette figurine, après que les deux joueurs ont déployé leurs armées, sélectionnez jusqu'à trois ^^**NECRONS^^** unités de votre armée et redéployer. Lorsque vous faites cela, l'une ou l'autre de ces unités peut être placée dans Réserves Stratégiques, quel que soit le nombre d'unités déjà dans Réserves Stratégiques.</characteristic>
           </characteristics>
         </profile>
       </profiles>
@@ -8357,7 +8357,7 @@ Vous pouvez attacher cette figurine à l'une des unités ci-dessus même si une 
           <profiles>
             <profile name="Lord of Deceit (Aura)" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="be97-c23f-c4e7-fd26">
               <characteristics>
-                <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Chaque fois que votre adversaire cible une unité de son armée avec un Stratagème, si cette unité se trouve à 12" ou moins de cette figurine, augmentez le coût de cette utilisation de ce Stratagème par 1CP.</characteristic>
+                <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Chaque fois que votre adversaire cible une unité de son armée avec un Stratagème, si cette unité est à 12" ou moins de cette figurine, augmenter le coût de l'utilisation de ce Stratagème par 1CP.</characteristic>
               </characteristics>
             </profile>
           </profiles>
@@ -8421,7 +8421,7 @@ Vous pouvez attacher cette figurine à l'une des unités ci-dessus même si une 
         </profile>
         <profile name="Drain Life" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="dfac-c392-eb70-34b8">
           <characteristics>
-            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">À la fin de la phase de Combat, lancez un D6 pour chaque unité ennemie à 6" ou moins de cette figurine: sur un 4+, cette unité ennemie souffre de Blessures Mortelles D3.</characteristic>
+            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">À la fin de la phase de Combat, lancez un D6 pour chaque unité ennemie à 6" ou moins de cette figurine: sur un 4+, que cette unité ennemie souffre D3 Blessures Mortelles.</characteristic>
           </characteristics>
         </profile>
       </profiles>
@@ -8566,7 +8566,7 @@ Vous pouvez attacher cette figurine à l'une des unités ci-dessus même si une 
         </profile>
         <profile name="Matter Absorption" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="2d35-82e1-a1b4-850b">
           <characteristics>
-            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Au début de votre phase de Tir, sélectionnez une unité ennemie ^^**VEHICLE^^** à 12" ou moins de cette figurine et lancez un D6: sur une 2+, cette unité ennemie subit des Blessures Mortelles D3 et cette figurine récupère jusqu'à autant de PV perdus.</characteristic>
+            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Au début de votre phase de Tir, sélectionnez une unité ennemie ^^**VEHICLE^^** à 12" ou moins de cette figurine et lancez un D6: sur un 2+, cette unité ennemie subit D3 Blessures Mortelles et cette figurine récupère jusqu'à ce nombre de PV perdus.</characteristic>
           </characteristics>
         </profile>
       </profiles>
@@ -8690,7 +8690,7 @@ Vous pouvez attacher cette figurine à l'une des unités ci-dessus même si une 
           <profiles>
             <profile name="Animus Damper" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="8b66-9566-b3ef-5f11">
               <characteristics>
-                <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Une fois par tour, au début de la phase de Tir de votre adversaire, sélectionnez une unité ennemie ^^**Vehicle^^** visible pour le porteur. Cette unité doit passer un test de Commandement. Jusqu'à la fin de la phase, chaque fois qu'une figurine de cette unité fait une attaque, Soustrayez 1 du jet de Touche la série Hit, si ce test de Commandement a échoué, Soustrayez 1 du jet de Blessure aussi.</characteristic>
+                <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Une fois par tour, au début de la phase de Tir de votre adversaire, sélectionnez une unité ^^**Vehicle^^** ennemie visible du porteur. Cette unité doit effectuer un test de Commandement. Jusqu’à la fin de la phase, chaque fois qu’une figurine de cette unité effectue une attaque, soustrayez 1 au jet de Touche et, si ce test de Commandement a échoué, soustrayez également 1 au jet de Blessure.</characteristic>
               </characteristics>
             </profile>
           </profiles>
@@ -8758,12 +8758,12 @@ Vous pouvez attacher cette figurine à l'une des unités ci-dessus même si une 
         </profile>
         <profile name="Transdimensional Displacement" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="e55c-f2ef-d3d0-a41a">
           <characteristics>
-            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Chaque fois que cette figurine est sélectionné pour Advance, vous pouvez le retirer du champ de bataille et le réinstaller n'importe où sur le champ de bataille qui est plus que 9" horizontalement loin de tous les figurines ennemies.</characteristic>
+            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Chaque fois que cette figurine est sélectionné pour Avancer, vous pouvez le retirer du champ de bataille et le réinitialiser n'importe où sur le champ de bataille qui est plus que 9" horizontalement loin de tous les ennemis figurines.</characteristic>
           </characteristics>
         </profile>
         <profile name="C'tan Shard" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="e3b7-d666-dd22-7d60">
           <characteristics>
-            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">cette figurine ne peut pas être amélioré.</characteristic>
+            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Cette figurine ne peut recevoir aucune Optimisation.</characteristic>
           </characteristics>
         </profile>
       </profiles>
@@ -8856,7 +8856,7 @@ Vous pouvez attacher cette figurine à l'une des unités ci-dessus même si une 
               <profiles>
                 <profile name="Relatavistic Tether" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="de3c-6924-0b09-f175">
                   <characteristics>
-                    <characteristic name="Description" typeId="9b8f-694b-e5e-b573">À votre tour, chaque fois que cette figurine est mis en place sur le champ de bataille en utilisant les capacités Frappe en profondeur ou Transdimensional Displacement, il peut être mis en place n'importe où sur le champ de bataille qui est plus de 6" horizontalement loin de toutes les unités ennemies. Si cette figurine est installé à 9" ou moins d'une ou de plusieurs unités ennemies, jusqu'à la fin du tour, il n'est pas admissible à déclarer une charge.</characteristic>
+                    <characteristic name="Description" typeId="9b8f-694b-e5e-b573">À votre tour, chaque fois que cette figurine est configuré sur le champ de bataille en utilisant les aptitudes Frappe en profondeur ou Transdimensional Displacement, il peut être configuré n'importe où sur le champ de bataille qui est plus de 6" horizontalement loin de toutes les unités ennemies. Si cette figurine est installé à 9" ou moins d'une ou de plusieurs unités ennemies, jusqu'à la fin du tour, il n'est pas admissible à déclarer une charge.</characteristic>
                   </characteristics>
                 </profile>
               </profiles>
@@ -9000,7 +9000,7 @@ Vous pouvez attacher cette figurine à l'une des unités ci-dessus même si une 
                   <profiles>
                     <profile name="Fabricator Claw Array (Aura)" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="486c-f4fd-5ec1-38e3">
                       <characteristics>
-                        <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Alors qu'une unité NECRONS VEHICLE conviviale est à 6" ou moins du porteur, les figurines de cette unité ont la aptitude Insensible à la douleur 6+.</characteristic>
+                        <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Alors qu'une unité sympathique NECRONS VEHICLE est à 6" ou moins du porteur, les figurines de cette unité ont l’aptitude Insensible à la douleur 6+.</characteristic>
                       </characteristics>
                     </profile>
                   </profiles>
@@ -9071,7 +9071,7 @@ Vous pouvez attacher cette figurine à l'une des unités ci-dessus même si une 
       <profiles>
         <profile name="Canoptek Swarm" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="1dff-4e6e-f50a-4a18">
           <characteristics>
-            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Dans votre phase de Commandement, sélectionnez une unité Canoptek Scarab Swarm à 6" ou moins de cette unité. une figurine détruit est renvoyé à cette unité Canoptek Scarab Swarm pour chaque figurine SPYDER dans cette unité.</characteristic>
+            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Durant votre phase de Commandement, sélectionnez une unité CANOPTEK SCARAB SWARM amie à 6" ou moins de cette unité. Une figurine détruite est replacée dans cette unité CANOPTEK SCARAB SWARM pour chaque figurine SPYDER de cette unité.</characteristic>
           </characteristics>
         </profile>
       </profiles>
@@ -9227,12 +9227,12 @@ Vous pouvez attacher cette figurine à l'une des unités ci-dessus même si une 
         </profile>
         <profile name="Self-destruction" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="cd1b-54d7-820c-cd0b">
           <characteristics>
-            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Au début de la phase de Combat, si cette unité est dans la Portée d’Engagement d'une ou plusieurs unités ennemies, vous pouvez sélectionner une figurine dans cette unité pour détruire. Si vous le faites, sélectionnez une unité ennemi dans la Portée d’Engagement de cette figurine et lancez un D6, ajoutant 1 au résultat si cette unité est un VEHICLE. Sur un 2-5, cette unité souffre de Blessures Mortelles D3; sur un 6+, cette unité souffre de Blessures Mortelles 3.</characteristic>
+            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Au début de la phase de Combat, si cette unité est à l'intérieur de Portée d’Engagement d'une ou plusieurs unités ennemies, vous pouvez sélectionner une figurine dans cette unité pour détruire. Si vous le faites, sélectionnez une unité ennemie dans Portée d’Engagement de cette figurine et lancez un D6, en ajoutant 1 au résultat si cette unité est un VEHICLE. Sur un 2-5, cette unité souffre D3 Blessures Mortelles; sur un 6+, cette unité souffre 3 Blessures Mortelles.</characteristic>
           </characteristics>
         </profile>
         <profile name="Chittering Swarm" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="91c6-fc89-f3ab-c7e2">
           <characteristics>
-            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Lorsqu'une unité ennemie se trouve dans la Portée d’Engagement de cette unité, Soustrayez 1 de la caractéristique de Contrôle d’Objectif des figurines de cette unité ennemie (à un minimum de 1). Tant que cette unité se situe à 6" ou moins d'un ou de plusieurs figurines CRYPTEK conviviaux, la caractéristique de Contrôle d’Objectif des figurines de cette unité est 1.</characteristic>
+            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Tant qu’une unité ennemie est à Portée d’Engagement de cette unité, soustrayez 1 à la caractéristique de Contrôle d’Objectif des figurines de cette unité ennemie (jusqu’à un minimum de 1). Tant que cette unité est à 6" ou moins d’une ou plusieurs figurines CRYPTEK amies, la caractéristique de Contrôle d’Objectif des figurines de cette unité est de 1.</characteristic>
           </characteristics>
         </profile>
       </profiles>
@@ -9402,7 +9402,7 @@ Vous pouvez attacher cette figurine à l'une des unités ci-dessus même si une 
       <profiles>
         <profile name="Tunnelling Horrors" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="94fa-32fb-d0d5-fc8d">
           <characteristics>
-            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">À la fin du tour de votre adversaire, si cette unité n'est pas dans la Portée d’Engagement d'une ou plusieurs unités ennemies, vous pouvez retirer cette unité du champ de bataille. Dans l'étape de renfort de votre prochaine phase de Mouvement, mettez-le n'importe où sur le champ de bataille qui est plus que 9" horizontalement loin de tous les figurines ennemies.</characteristic>
+            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">À la fin du tour de votre adversaire, si cette unité n'est pas à l'intérieur du Portée d’Engagement d'une ou de plusieurs unités ennemies, vous pouvez retirer cette unité du champ de bataille. Dans le étape des Renforts de votre prochaine phase de Mouvement, mettez-le n'importe où sur le champ de bataille qui est plus que 9" horizontalement loin de tous les ennemis figurines.</characteristic>
           </characteristics>
         </profile>
         <profile name="Ophydian Destroyers" typeId="c547-1836-d8a-ff4f" typeName="Unit" hidden="false" id="689c-1c75-aeac-10fa">
@@ -9505,7 +9505,7 @@ Vous pouvez attacher cette figurine à l'une des unités ci-dessus même si une 
       <profiles>
         <profile name="Plasmacyte" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="890e-3ea5-7d83-e665">
           <characteristics>
-            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Une fois par bataille pour chaque Plasmacyte cette unité a, quand cette unité est sélectionnée pour combattre, vous pouvez utiliser cette aptitude. Si vous le faites, jusqu'à la fin de la phase, les armes de mêlée équipées de figurines dans cette unité ont la aptitude [Blessures dévastatrices].</characteristic>
+            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Une fois par bataille pour chaque Plasmacyte cette unité a, lorsque cette unité est sélectionnée pour combattre, vous pouvez utiliser cette aptitude. Si vous le faites, Jusqu’à la fin de la phase, les armes de mêlée équipées par les figurines de cette unité ont l’aptitude [Blessures dévastatrices].</characteristic>
           </characteristics>
         </profile>
       </profiles>
@@ -9532,7 +9532,7 @@ Vous pouvez attacher cette figurine à l'une des unités ci-dessus même si une 
       <profiles>
         <profile name="Evasion Engrams" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="6659-892-f296-90ef">
           <characteristics>
-            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Dans votre phase de Tir, après que cette unité a tiré, il peut faire un déplacement normal de jusqu'à 6". Si tel est le cas, jusqu'à la fin du tour, cette unité n'est pas éligible à la déclaration d'une charge.</characteristic>
+            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Dans votre phase de Tir, après que cette unité a tiré, il peut effectuer un mouvement Normal de jusqu'à 6". Si tel est le cas, jusqu'à la fin du tour, cette unité n'est pas éligible à la déclaration d'une charge.</characteristic>
           </characteristics>
         </profile>
       </profiles>
@@ -9632,7 +9632,7 @@ Vous pouvez attacher cette figurine à l'une des unités ci-dessus même si une 
                       <profiles>
                         <profile name="Shadowloom" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="3816-f555-728b-9a3b">
                           <characteristics>
-                            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Le porteur possède la aptitude Discrétion.</characteristic>
+                            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">le porteur a l’aptitude Discrétion.</characteristic>
                           </characteristics>
                         </profile>
                       </profiles>
@@ -9644,7 +9644,7 @@ Vous pouvez attacher cette figurine à l'une des unités ci-dessus même si une 
                       <profiles>
                         <profile name="Nebuloscope" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="32c-463b-ec70-ebc2">
                           <characteristics>
-                            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Les armes de tir équipées par le porteur ont la aptitude [Ignore le couvert].</characteristic>
+                            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Les armes de tir dont le porteur est équipé ont l’aptitude [Ignore le couvert].</characteristic>
                           </characteristics>
                         </profile>
                       </profiles>
@@ -9663,7 +9663,7 @@ Vous pouvez attacher cette figurine à l'une des unités ci-dessus même si une 
                   <profiles>
                     <profile name="Shieldvanes" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="d6d-bb49-bf4c-d1d">
                       <characteristics>
-                        <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Le porteur possède une caractéristique Save de 3+ et une caractéristique de mouvement de 8".</characteristic>
+                        <characteristic name="Description" typeId="9b8f-694b-e5e-b573">le porteur a une caractéristique de Sauvegarde de 3+ et une caractéristique de mouvement de 8".</characteristic>
                       </characteristics>
                     </profile>
                   </profiles>
@@ -9928,7 +9928,7 @@ Vous pouvez attacher cette figurine à l'une des unités ci-dessus même si une 
         </profile>
         <profile name="Relentless Combatants" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="c070-2782-440f-5647">
           <characteristics>
-            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Vous pouvez relancer les jets de Charge faits pour cette unité, et cette unité est éligible à déclarer une charge à un tour dans lequel il a Battu en Retraite.</characteristic>
+            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Vous pouvez relancer les jets de Charge effectués pour cette unité, et cette unité est éligible pour déclarer une charge durant un tour où elle a Battu en Retraite.</characteristic>
           </characteristics>
         </profile>
       </profiles>
@@ -10040,12 +10040,12 @@ Vous pouvez attacher cette figurine à l'une des unités ci-dessus même si une 
         </profile>
         <profile name="Wraith Form" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="b3e0-9cd2-735c-91f1">
           <characteristics>
-            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Chaque fois que cette unité termine un mouvement normal, vous pouvez sélectionner une unité ennemie par-dessus laquelle cette unité s’est déplacée pendant ce mouvement et lancez un D6 pour chaque figurine dans cette unité: pour chaque 4+, cette unité ennemie souffre 1 blessure mortelle.</characteristic>
+            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Chaque fois que cette unité termine un mouvement Normal, vous pouvez sélectionner une unité ennemie qu’elle a survolée durant ce mouvement, puis lancez un D6 pour chaque figurine de cette unité : pour chaque 4+, cette unité ennemie subit 1 blessure mortelle.</characteristic>
           </characteristics>
         </profile>
         <profile name="Sauvegarde Invulnérable" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="a6dd-2eb2-3b5a-c6a4">
           <characteristics>
-            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Les figurines de cette unité ont un 4+ sauvegarde invulnérable.</characteristic>
+            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Les figurines de cette unité ont une sauvegarde invulnérable de 4+.</characteristic>
           </characteristics>
         </profile>
       </profiles>
@@ -10322,7 +10322,7 @@ Vous pouvez attacher cette figurine à l'une des unités ci-dessus même si une 
         </profile>
         <profile name="Malevolent Arcing" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="af48-1639-cfd1-b199">
           <characteristics>
-            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Dans votre phase de Tir, chaque fois que vous sélectionnez une cible pour cette figurine de destructeur TESLA jumeau, lancez un D6 pour l'unité cible et lancez un D6 pour chaque autre unité ennemie à 3" ou moins de l'unité cible. Sur un 5+, l'unité pour laquelle sur roule est frappée par des énergies d'arc; après avoir résolu toutes les attaques de cette figurine contre l'unité cible, chaque unité frappée par des énergies d'arc subit des Blessures Mortelles D3.</characteristic>
+            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Durant votre phase de Tir, chaque fois que vous sélectionnez une cible pour le twin tesla destructor de cette figurine, lancez un D6 pour l’unité cible et un D6 pour chaque autre unité ennemie à 3" ou moins de l’unité cible. Sur 5+, l’unité pour laquelle vous avez lancé le dé est frappée par des décharges en arc ; après avoir résolu toutes les attaques de cette figurine contre l’unité cible, chaque unité frappée par des décharges en arc subit D3 blessures mortelles.</characteristic>
           </characteristics>
         </profile>
         <profile name="Sauvegarde Invulnérable" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="2e32-4a45-813f-7e1d">
@@ -10544,7 +10544,7 @@ Vous pouvez attacher cette figurine à l'une des unités ci-dessus même si une 
         </profile>
         <profile name="Overwhelming Obliteration" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="8e12-af7c-5f2c-50d5">
           <characteristics>
-            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Dans votre phase de Mouvement, si cette figurine reste stationnaire, jusqu'à la fin du tour, son canon du jour du jugement aura la aptitude [Blessures dévastatrices].</characteristic>
+            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Dans votre phase de Mouvement, si cette figurine reste stationnaire, jusqu'à la fin du tour, son canon du jour du Jugement dernier a l’aptitude [Blessures dévastatrices].</characteristic>
           </characteristics>
         </profile>
       </profiles>
@@ -10753,7 +10753,7 @@ Vous pouvez attacher cette figurine à l'une des unités ci-dessus même si une 
         </profile>
         <profile name="Hard-wired for Destruction" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="1c5f-64ca-b1cf-d514">
           <characteristics>
-            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Chaque fois qu'une figurine de cette unité effectue une attaque de tir qui cible l'unité ennemie la plus proche éligible, relancez un jet de Touche de 1. Si la cible de cette attaque est dans la portée d'un marqueur objectif que votre adversaire contrôle, vous pouvez relancer le jet de Touche à la place.</characteristic>
+            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Chaque fois qu'une figurine de cette unité produit une attaque de tir qui cible le unité ennemie admissible le plus proche, relancer est un jet de Touche de 1. Si la cible de cette attaque est à l'intérieur de Portée d'un pion d’objectif votre adversaire contrôle, vous pouvez relancer le jet de Touche à la place.</characteristic>
           </characteristics>
         </profile>
       </profiles>
@@ -10925,7 +10925,7 @@ Vous pouvez attacher cette figurine à l'une des unités ci-dessus même si une 
         </profile>
         <profile name="Optimised for Slaughter" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="627-120b-3ae8-df3b">
           <characteristics>
-            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Chaque fois qu'une figurine dans cette unité effectue une attaque avec un exterminateur ennemi qui cible une unité (à l'exclusion de MONSTERS et VEHICLES), relancez un jet de Blessure de 1. Chaque fois qu'une figurine de cette unité fait une attaque avec un destructeur gauss contre une unité MONSTER ou VEHICLE, relancez un jet de Blessure de 1.</characteristic>
+            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Chaque fois qu'une figurine dans cette unité fait une attaque avec un exterminateur ennemi qui cible une unité (à l’exclusion de MONSTERS et VEHICLES), relancer un jet de Blessure de 1. Chaque fois qu'une figurine dans cette unité fait une attaque avec un destructeur gauss contre une unité MONSTER ou VEHICLE, relancer est un jet de Blessure de 1.</characteristic>
           </characteristics>
         </profile>
       </profiles>
@@ -11159,7 +11159,7 @@ Vous pouvez attacher cette figurine à l'une des unités ci-dessus même si une 
         </profile>
         <profile name="Sentinel Construct" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="7ed5-5030-b90e-4626">
           <characteristics>
-            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Chaque fois que vous ciblez cette unité avec le Fire Overwatch Stratagème, tout en résolvant ce Stratagème, les coups sont marqués sur des jets de Touche non modifiés de 5+.</characteristic>
+            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Chaque fois que vous ciblez cette unité avec le Fire Overwatch Stratagème, tout en résolvant que Stratagème, les hits sont marqués sur jets de Touche non modifiés de 5+.</characteristic>
           </characteristics>
         </profile>
         <profile name="Sauvegarde Invulnérable" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="827d-cdf3-3f28-3106">
@@ -11536,7 +11536,7 @@ Vous pouvez attacher cette figurine à l'une des unités ci-dessus même si une 
         </profile>
         <profile name="Invasion Beams" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="7d3b-c221-6f25-e32a">
           <characteristics>
-            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">À la fin de la phase de Combat, s'il n'y a pas de figurines actuellement embarqués dans ce Transport, vous pouvez sélectionner une unité NECRONS INFANTRY entièrement à 6" ou moins de ce Transport. À moins que cette unité ne soit dans la Portée d’Engagement d'une ou plusieurs unités ennemies, elle peut embarquer dans ce Transport.</characteristic>
+            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">À la fin de la phase de Combat, s'il n'y a pas de figurines actuellement embarqué dans ce Transport, vous pouvez sélectionner une unité NECRONS INFANTRY entièrement à 6" ou moins de ce Transport. À moins que cette unité ne soit à l'intérieur de l'engagement Portée d'une ou de plusieurs unités ennemies, elle peut embarquer à l'intérieur de ce Transport.</characteristic>
           </characteristics>
         </profile>
         <profile name="Damaged: 1-4 wounds remaining" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="3ee1-5d44-8794-827e">
@@ -11551,7 +11551,7 @@ Vous pouvez attacher cette figurine à l'une des unités ci-dessus même si une 
         </profile>
         <profile name="Quantum Invader" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="1111-a91-fad5-a9ab">
           <characteristics>
-            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">cette figurine peut être mis en place à l'étape des Renforts de votre première, deuxième ou troisième phase de Mouvement, quelles que soient les règles de la mission.</characteristic>
+            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Cette figurine peut être placée à l’étape des Renforts de votre première, deuxième ou troisième phase de Mouvement, quelles que soient les règles de mission.</characteristic>
           </characteristics>
         </profile>
       </profiles>
@@ -11703,9 +11703,9 @@ Vous pouvez attacher cette figurine à l'une des unités ci-dessus même si une 
         </profile>
         <profile name="Atavistic Instigation" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="cbe7-5f04-88ae-4900">
           <characteristics>
-            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Chaque fois que cette figurine cible une unité ennemie avec son rayon mortel Lourd, votre adversaire doit déclarer si cette unité va tenir ferme ou se cacher:
-■ Si elle reste ferme, lors de la résolution des attaques contre cette unité cette phase, un succès non modifié jet de Touche de 5+ marque un Hit critique.
-■ Si elle échappe à la couverture, jusqu'au début de votre prochaine phase de Tir, chaque fois qu'une figurine dans cette unité fait une attaque, Soustrayez 1 du jet de Touche.</characteristic>
+            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Chaque fois que cette figurine cible une unité ennemie avec son heavy death ray, votre adversaire doit déclarer si cette unité tiendra bon ou se jettera à couvert :
+■ Si elle tient bon, lors de la résolution des attaques contre cette unité à cette phase, tout jet de Touche non modifié réussi de 5+ est une Touche Critique.
+■ Si elle se jette à couvert, jusqu’au début de votre prochaine phase de Tir, chaque fois qu’une figurine de cette unité effectue une attaque, soustrayez 1 au jet de Touche.</characteristic>
           </characteristics>
         </profile>
         <profile name="Damaged: 1-4 wounds remaining" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="ec8b-fd4f-8fdc-7873">
@@ -11893,12 +11893,12 @@ Vous pouvez attacher cette figurine à l'une des unités ci-dessus même si une 
         </profile>
         <profile name="Damaged: 1-8 wounds remaining" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="2ec0-29f0-9fb3-dfc3">
           <characteristics>
-            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Alors que cette figurine a 1-8 PV restants, Soustrayez 4 de sa caractéristique de contrôle d'objectif et chaque fois que cette figurine fait une attaque, Soustrayez 1 du jet de Touche.</characteristic>
+            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Tant que cette figurine a 1-8 PV restants, soustrayez 4 à sa caractéristique de Contrôle d’Objectif et, chaque fois que cette figurine effectue une attaque, soustrayez 1 au jet de Touche.</characteristic>
           </characteristics>
         </profile>
         <profile name="Gravitic Pulse" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="4997-7da8-34d2-6efa">
           <characteristics>
-            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Au début de la phase de Mouvement de votre adversaire, vous pouvez sélectionner une unité ennemi à 18" ou moins et visible à cette figurine. Jusqu'à la fin du tour, réduisez de moitié la caractéristique de mouvement des figurines de cette unité et de moitié les jets d’Avance et de Charge effectués pour cette unité. De plus, si cette unité peut FLY, jusqu'au début de votre prochaine phase de Mouvement, lancez un D6 à chaque fois que cette unité termine un type de mouvement: sur une 4+, cette unité souffre de Blessures Mortelles D3.</characteristic>
+            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Au début de la phase de Mouvement de votre adversaire, vous pouvez sélectionner une unité ennemie à 18" ou moins et visible à cette figurine. Jusqu'à la fin du tour, réduisez de moitié la caractéristique de mouvement des figurines de cette unité et de moitié Advance et jets de Charge de cette unité. En outre, si cette unité peut FLY, jusqu'au début de votre prochaine phase de Mouvement, lancez un D6 à chaque fois que cette unité termine un type de mouvement: sur un 4+, cette unité souffre D3 Blessures Mortelles.</characteristic>
           </characteristics>
         </profile>
       </profiles>
@@ -12070,12 +12070,12 @@ Vous pouvez attacher cette figurine à l'une des unités ci-dessus même si une 
         </profile>
         <profile name="Damaged: 1-8 wounds remaining" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="fb71-ce0a-b73c-cd9d">
           <characteristics>
-            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Alors que cette figurine a 1-8 PV restants, Soustrayez 4 de sa caractéristique de Contrôle d’Objectif et Vous ne pouvez sélectionner qu'une des armes C'tan Powers dans votre phase de Tir., au lieu de deux.</characteristic>
+            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Tant que cette figurine a 1-8 PV restants, soustrayez 4 à sa caractéristique de Contrôle d’Objectif et vous ne pouvez sélectionner qu’une seule des armes C'tan Powers durant votre phase de Tir, au lieu de deux.</characteristic>
           </characteristics>
         </profile>
         <profile name="Powers of the C’tan" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="e526-90ef-5531-526f">
           <characteristics>
-            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Dans votre phase de Tir, lorsque cette figurine est sélectionné pour tirer, sélectionnez d'abord jusqu'à 2 différentes armes Ctan Powers. Jusqu'à la fin de la phase, cette figurine est équipé de ces armes en plus de ses autres armes (cette figurine ne peut pas attaquer avec une autre arme Ctan Powers que vous n'avez pas sélectionnée de cette façon cette phase).</characteristic>
+            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Durant votre phase de Tir, lorsque cette figurine est sélectionnée pour tirer, sélectionnez d’abord jusqu’à 2 armes C’tan Powers différentes. Jusqu’à la fin de la phase, cette figurine est équipée de ces armes en plus de ses autres armes (cette figurine ne peut effectuer aucune attaque avec une autre arme C’tan Powers que vous n’avez pas sélectionnée de cette manière durant cette phase).</characteristic>
           </characteristics>
         </profile>
         <profile name="Sauvegarde Invulnérable" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="c2a6-f36c-8147-5971">
@@ -12292,7 +12292,7 @@ Vous pouvez attacher cette figurine à l'une des unités ci-dessus même si une 
       <profiles>
         <profile name="Damaged: 1-7 wounds remaining" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="6dd8-33d2-6527-401e">
           <characteristics>
-            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Alors que cette figurine a 1-7 PV restants, Soustrayez 4 de sa caractéristique de contrôle d'objectif et chaque fois que cette figurine fait une attaque, Soustrayez 1 du jet de Touche.</characteristic>
+            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Tant qu’il reste 1 à 7 PV à cette figurine, soustrayez 4 à sa caractéristique de Contrôle d’Objectif et, chaque fois que cette figurine effectue une attaque, soustrayez 1 au jet de Touche.</characteristic>
           </characteristics>
         </profile>
         <profile name="Monolith" typeId="c547-1836-d8a-ff4f" typeName="Unit" hidden="false" id="d5b9-ce3b-1ca1-5b71">
@@ -12307,7 +12307,7 @@ Vous pouvez attacher cette figurine à l'une des unités ci-dessus même si une 
         </profile>
         <profile name="Eternity Gate" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="35bb-28ec-497-5cff">
           <characteristics>
-            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Dans la phase de renforcement de votre phase de Mouvement, vous pouvez sélectionner une unité NECRONS INFANTRY de votre armée qui est soit dans les réserves ou sur le champ de bataille (si vous sélectionnez ce dernier, retirez cette unité du champ de bataille et placez-la dans les réserves). Cette unité est ensuite installée n'importe où sur le champ de bataille qui est entièrement à 6" ou moins de cette figurine et pas à l'intérieur de la Portée d’Engagement de n'importe quel figurine ennemie. Cette unité ne peut pas déclarer une charge à ce tour.</characteristic>
+            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Dans le étape des Renforts de votre phase de Mouvement, vous pouvez sélectionner une unité NECRONS INFANTRY de votre armée qui est soit dans les réserves ou sur le champ de bataille (si vous sélectionnez ce dernier, retirez cette unité du champ de bataille et placez-la dans les réserves). Cette unité est ensuite installée n'importe où sur le champ de bataille qui est entièrement à 6" ou moins de cette figurine et pas à l'intérieur de Portée d’Engagement de tout ennemi figurines. Cette unité ne peut pas déclarer une charge à ce tour.</characteristic>
           </characteristics>
         </profile>
       </profiles>
@@ -12535,12 +12535,12 @@ Vous pouvez attacher cette figurine à l'une des unités ci-dessus même si une 
       <profiles>
         <profile name="Sauvegarde Invulnérable" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="6bc2-17c8-cdd7-1505">
           <characteristics>
-            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Les figurines de cette unité ont un 4+ sauvegarde invulnérable.</characteristic>
+            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Les figurines de cette unité ont une sauvegarde invulnérable de 4+.</characteristic>
           </characteristics>
         </profile>
         <profile name="Damaged: 1-6 wounds remaining" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="ba94-15fe-27b1-fe9">
           <characteristics>
-            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Alors que cette unité est Szarekh figurine a 1-6 PV restants, réduire de moitié les caractéristique d’Attaques des armes de cette figurine, et Chaque fois que cette unité fait une attaque, Soustrayez 1 du jet de Touche.</characteristic>
+            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Tant qu’il reste 1-6 PV à la figurine Szarekh de cette unité, divisez par deux la caractéristique d’Attaques des armes de cette figurine et, chaque fois que cette unité effectue une attaque, soustrayez 1 au jet de Touche.</characteristic>
           </characteristics>
         </profile>
         <profile name="Voice of the Triarch" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="2be5-77b0-af86-2bd0">
@@ -12550,7 +12550,7 @@ Vous pouvez attacher cette figurine à l'une des unités ci-dessus même si une 
         </profile>
         <profile name="The Silent King (Aura)" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="a7b-b3f0-3fa3-85a">
           <characteristics>
-            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Alors qu'une unité NECRONS conviviale est à 6" ou moins de la figurine Szarekh de cette unité, améliorez la caractéristique de Commandement de cette unité de 1.</characteristic>
+            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Pendant qu'une unité NECRONS amicale est à 6" ou moins de Szarekh figurine de cette unité, améliorez caractéristique de Commandement de cette unité avec 1.</characteristic>
           </characteristics>
         </profile>
         <profile name="Phaeron of the Stars (Aura)" typeId="b289-e7b4-432c-e2dd" typeName="Triarch Abilities" hidden="false" id="2feb-ae85-c8e0-9f61">
@@ -12685,7 +12685,7 @@ Vous pouvez attacher cette figurine à l'une des unités ci-dessus même si une 
             </profile>
             <profile name="Triarchal Menhirs" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="426d-33c9-9649-f01e">
               <characteristics>
-                <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Si la figurine Szarekh de cette unité est détruit, tous les figurines Triarchal Menhir restants de cette unité sont également détruits.</characteristic>
+                <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Si la figurine Szarekh de cette unité est détruite, toutes les figurines Triarchal Menhir restantes de cette unité sont également détruites.</characteristic>
               </characteristics>
             </profile>
           </profiles>
@@ -12771,17 +12771,17 @@ Vous pouvez attacher cette figurine à l'une des unités ci-dessus même si une 
         </profile>
         <profile name="Reanimation Nodes (Aura)" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="e1-9726-a4fc-c9ae">
           <characteristics>
-            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">tant qu’une amie NECRONS INFANTRY unité est à 6” ou moins de cette Fortification, figurines dans cette unité ont l’ Insensible à la douleur 6+ aptitude.</characteristic>
+            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">tant qu’une amie NECRONS INFANTRY unité est à 6” ou moins de cette Fortification, les figurines de cette unité ont l’aptitude Insensible à la douleur 6+.</characteristic>
           </characteristics>
         </profile>
         <profile name="Ancient Cover" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="e969-204a-7adb-7aa9">
           <characteristics>
-            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Chaque fois qu'une attaque de tir est attribuée à une figurine, si cette figurine n'est pas pleinement visible à tous les figurines de l'unité d'attaque à cause de ce Fortification, cette figurine a le Bénéfice du Couvert contre cette attaque.</characteristic>
+            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Chaque fois qu’une attaque de tir est allouée à une figurine, si cette figurine n’est pas entièrement visible de toutes les figurines de l’unité attaquante à cause de cette FORTIFICATION, cette figurine a le Bénéfice du Couvert contre cette attaque.</characteristic>
           </characteristics>
         </profile>
         <profile name="Deployment" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="729d-b06e-ad2b-f6ff">
           <characteristics>
-            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Lorsque cette unité est installée pour la première fois sur le champ de bataille, ses figurines ne doivent pas être installés dans l'unité de cohérence. Au lieu de cela, chaque figurine doit être intégralement installé à 12" ou moins d'un autre figurine de son unité. À partir de ce moment, chaque figurine de cette unité est traité comme une unité séparée.</characteristic>
+            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Lorsque cette unité est placée pour la première fois sur le champ de bataille, ses figurines ne sont pas obligées d’être placées en Cohésion d’Unité. À la place, chaque figurine doit être placée entièrement à 12" ou moins d’une autre figurine de son unité. À partir de cet instant, chaque figurine de cette unité est traitée comme une unité distincte.</characteristic>
           </characteristics>
         </profile>
       </profiles>
@@ -12852,7 +12852,7 @@ Vous pouvez attacher cette figurine à l'une des unités ci-dessus même si une 
         </profile>
         <profile name="Snaking Ambush" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="40eb-6985-aac6-1086">
           <characteristics>
-            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Vous pouvez cibler cette unité avec le Stratagème d'intervention héroïque pour 0CP, et vous pouvez le faire même si vous avez déjà utilisé ce Stratagème sur une unité différente à cette phase.</characteristic>
+            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Vous pouvez cibler cette unité avec l'intervention héroïque Stratagème pour 0CP, et vous pouvez le faire même si vous avez déjà utilisé ce Stratagème sur une unité différente cette phase.</characteristic>
           </characteristics>
         </profile>
       </profiles>
@@ -13030,7 +13030,7 @@ Vous pouvez attacher cette figurine à l'une des unités ci-dessus même si une 
         </profile>
         <profile name="Aggressor Guardian" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="9379-cb84-2ddf-7e47">
           <characteristics>
-            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Chaque fois qu'une attaque cible cette figurine, si cette figurine est à la portée d'un marqueur objectif, aggraver la caractéristique de Pénétration d’Armure de cette attaque par 1. En outre, chaque fois que cette figurine effectue une attaque visant une unité à l'intérieur de la portée d'un marqueur objectif, améliorez la caractéristique de Pénétration d’Armure de cette attaque de 1.</characteristic>
+            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Chaque fois qu'une attaque cible cette figurine, si cette figurine est à l'intérieur de Portée d'un pion d’objectif, aggraver la caractéristique de Pénétration d’Armure de cette attaque par 1. En outre, chaque fois que cette figurine effectue une attaque visant une unité à l'intérieur de Portée d'un pion d’objectif, améliorez la caractéristique de Pénétration d’Armure de cette attaque de 1.</characteristic>
           </characteristics>
         </profile>
       </profiles>
@@ -13190,7 +13190,7 @@ Vous pouvez attacher cette figurine à l'une des unités ci-dessus même si une 
       <profiles>
         <profile name="Gloom Prism (Aura)" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="9320-4c37-14b9-d6e3">
           <characteristics>
-            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Alors qu'une unité amie **^^Necrons^^** est à 6" ou moins du porteur, les figurines de cette unité ont la aptitude Insensible à la douleur 5+ contre les Blessures Mortelles et attaques Psychiques.</characteristic>
+            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Alors qu'une unité amicale **^^Necrons^^** est à 6" ou moins du porteur, les figurines de cette unité ont l’aptitude Insensible à la douleur 5+ contre Blessures Mortelles et attaques Psychiques.</characteristic>
           </characteristics>
         </profile>
       </profiles>
@@ -13224,7 +13224,7 @@ Vous pouvez attacher cette figurine à l'une des unités ci-dessus même si une 
         </profile>
         <profile name="Damaged Armour" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="2e26-ee50-c66b-6b0e">
           <characteristics>
-            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Dans votre phase de Tir, après que cette unité ait tiré, sélectionnez une unité ennemie touchée par une ou plusieurs de ces attaques. Jusqu'à la fin de la phase, chaque fois qu'une figurine NECRONS amical effectue une attaque qui cible cette unité, sur une blessure critique, améliore la caractéristique de Pénétration d’Armure de cette attaque de 1.</characteristic>
+            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Durant votre phase de Tir, après que cette unité a tiré, sélectionnez une unité ennemie touchée par une ou plusieurs de ces attaques. Jusqu’à la fin de la phase, chaque fois qu’une figurine NECRONS amie effectue une attaque qui cible cette unité, sur une Blessure Critique, améliorez de 1 la caractéristique de Pénétration d’Armure de cette attaque.</characteristic>
           </characteristics>
         </profile>
       </profiles>
@@ -13412,12 +13412,12 @@ Vous pouvez attacher cette figurine à l'une des unités ci-dessus même si une 
         </profile>
         <profile name="Sauvegarde Invulnérable" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="9c7d-1793-8f4b-2dd4">
           <characteristics>
-            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Les figurines de cette unité ont un 4+ sauvegarde invulnérable.</characteristic>
+            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Les figurines de cette unité ont une sauvegarde invulnérable de 4+.</characteristic>
           </characteristics>
         </profile>
         <profile name="Gravitational Field" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="ab0a-e989-4fab-f66c">
           <characteristics>
-            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Chaque fois qu'une unité ennemie sélectionne cette figurine comme cible d'une charge, Soustrayez 2 du jet de Charge (ce n'est pas cumulé avec d'autres réductions de ce jet de Charge).</characteristic>
+            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Chaque fois qu'une unité ennemie sélectionne cette figurine comme cible d'une charge, Soustrayez 2 du jet de Charge (ce n'est pas cumulé avec d'autres réductions à ce jet de Charge).</characteristic>
           </characteristics>
         </profile>
       </profiles>
@@ -13697,12 +13697,12 @@ Vous pouvez attacher cette figurine à l'une des unités ci-dessus même si une 
         </profile>
         <profile name="Terrifying Monstrosity" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="ff7-5985-34db-4f48">
           <characteristics>
-            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Au début de la phase de Combat, chaque unité ennemi dans la Portée d’Engagement d'une ou plusieurs unités avec cette aptitude doit passer un test d’Ébranlement.</characteristic>
+            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Au début de la phase de Combat, chaque unité ennemie à Portée d’Engagement d’une ou plusieurs unités dotées de cette aptitude doit effectuer un test d’Ébranlement.</characteristic>
           </characteristics>
         </profile>
         <profile name="Damaged: 1-9 wounds remaining" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="e496-2e4a-e286-ab98">
           <characteristics>
-            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Alors que cette figurine a 1-9 PV restants, Soustrayez 5 de cette caractéristique de contrôle d'objectif de figurine et chaque fois que cette figurine fait une attaque, Soustrayez 1 du jet de Touche.</characteristic>
+            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Tant que cette figurine a 1-9 PV restants, soustrayez 5 à la caractéristique de Contrôle d’Objectif de cette figurine et, chaque fois que cette figurine effectue une attaque, soustrayez 1 au jet de Touche.</characteristic>
           </characteristics>
         </profile>
         <profile name="Sauvegarde Invulnérable" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="45c-afd6-3d15-bf3e">
@@ -13921,7 +13921,7 @@ Vous pouvez attacher cette figurine à l'une des unités ci-dessus même si une 
       </modifierGroups>
       <rules>
         <rule name="Titanic Walker" id="c99b-1a4b-53f5-d202" hidden="false">
-          <description>Chaque fois que cette figurine effectue un mouvement Normal, Advance ou Battre en Retraite, il peut se déplacer sur des figurines (à l'exclusion des figurines ^^**Titanic**^^) et des caractéristiques de terrain dont la hauteur est 4" ou moins comme s'ils n'étaient pas là.</description>
+          <description>Chaque fois que cette figurine fait un Normal, Avance ou mouvement de Retraite, il peut se déplacer sur figurines (à l’exclusion de ^^**Titanic**^^ figurines) et éléments de terrain qui sont 4" ou moins en hauteur comme s'ils n'étaient pas là.</description>
         </rule>
       </rules>
     </selectionEntry>
@@ -13962,12 +13962,12 @@ Vous pouvez attacher cette figurine à l'une des unités ci-dessus même si une 
         </profile>
         <profile name="Phase Shift Generator (Aura)" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="c6d3-ff20-7a9f-7fa9">
           <characteristics>
-            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Alors qu'une unité amicale NECRONS est à 3" ou moins de ce Fortification, les figurines de cette unité ont un 5+ sauvegarde invulnérable contre les attaques de tir.</characteristic>
+            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Tant qu’une unité NECRONS amie est à 3" ou moins de cette Fortification, les figurines de cette unité ont une sauvegarde invulnérable de 5+ contre les attaques de tir.</characteristic>
           </characteristics>
         </profile>
         <profile name="Phase-shifted Cover" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="d441-6f10-fc92-80f3">
           <characteristics>
-            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Chaque fois qu'une attaque de tir est attribuée à une figurine, si cette figurine n'est pas entièrement visible à tous les figurines de l'unité d'attaque à cause de ce Fortification, cette figurine a le Bénéfice du Couvert contre cette attaque.</characteristic>
+            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Chaque fois qu’une attaque de tir est allouée à une figurine, si cette figurine n’est pas entièrement visible de toutes les figurines de l’unité attaquante à cause de cette Fortification, cette figurine a le Bénéfice du Couvert contre cette attaque.</characteristic>
           </characteristics>
         </profile>
         <profile name="Damaged: 1-7 wounds remaining" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="a375-dc94-e838-aa">
@@ -14057,12 +14057,12 @@ Vous pouvez attacher cette figurine à l'une des unités ci-dessus même si une 
         </profile>
         <profile name="Teleportation Matrix" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="5646-8d87-8186-7872">
           <characteristics>
-            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Une fois par bataille, à la fin du tour de votre adversaire, si ce Fortification n'est pas dans la Portée d’Engagement d'une ou plusieurs unités ennemies, vous pouvez le retirer du champ de bataille. Dans l'étape de renfort de votre prochaine phase de Mouvement, mettez-le n'importe où sur le champ de bataille qui est plus que 9" horizontalement loin de tous les figurines ennemies. Si la bataille se termine et que ce Fortification ne soit pas sur le champ de bataille, il sera détruit.</characteristic>
+            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Une fois par bataille, à la fin du tour de votre adversaire, si cette FORTIFICATION n’est pas à Portée d’Engagement d’une ou plusieurs unités ennemies, vous pouvez la retirer du champ de bataille. À l’étape des Renforts de votre prochaine phase de Mouvement, placez-la n’importe où sur le champ de bataille à plus de 9" horizontalement de toute figurine ennemie. Si la bataille se termine alors que cette FORTIFICATION n’est pas sur le champ de bataille, elle est détruite.</characteristic>
           </characteristics>
         </profile>
         <profile name="Phase-shifted Cover" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="d167-8f2e-101f-f228">
           <characteristics>
-            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Chaque fois qu'une attaque de tir est attribuée à une figurine, si cette figurine n'est pas pleinement visible à tous les figurines de l'unité d'attaque à cause de ce Fortification, cette figurine a le Bénéfice du Couvert contre cette attaque.</characteristic>
+            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Chaque fois qu’une attaque de tir est allouée à une figurine, si cette figurine n’est pas entièrement visible de toutes les figurines de l’unité attaquante à cause de cette FORTIFICATION, cette figurine a le Bénéfice du Couvert contre cette attaque.</characteristic>
           </characteristics>
         </profile>
       </profiles>
@@ -14171,7 +14171,7 @@ Vous pouvez attacher cette figurine à l'une des unités ci-dessus même si une 
         </profile>
         <profile name="Death Sphere Bombardment" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="5e4e-69ab-3c9e-f953">
           <characteristics>
-            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Chaque fois que cette figurine termine un mouvement normal, vous pouvez sélectionner une unité ennemie par-dessus laquelle cette figurine s’est déplacée au cours de ce mouvement et rouler six D6: pour chaque 3+, cette unité souffre 1 blessure mortelle.</characteristic>
+            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Chaque fois que cette figurine termine un mouvement Normal, vous pouvez sélectionner une unité ennemie qu’elle a survolée durant ce mouvement et lancer six D6 : pour chaque 3+, cette unité subit 1 blessure mortelle.</characteristic>
           </characteristics>
         </profile>
         <profile name="Damaged: 1-5 wounds remaining" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="fd7c-c09d-f836-c06a">
@@ -14366,7 +14366,7 @@ Vous pouvez attacher cette figurine à l'une des unités ci-dessus même si une 
         </profile>
         <profile name="Translocation Shroud" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="3131-c5e7-912d-7c9b">
           <characteristics>
-            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Chaque fois que l'unité de cette figurine avance, ne faites pas un jet d’Avance pour elle. Au lieu de cela, jusqu'à la fin de la phase, ajoutez 6" à la caractéristique de mouvement des figurines de cette unité. De plus, chaque fois qu'une figurine dans cette unité fait un mouvement normal, avancé ou en Retraite, jusqu'à ce que ce mouvement soit terminé, il peut se déplacer horizontalement à travers les figurines et les caractéristiques du terrain (il ne peuvent pas terminer un mouvement au-dessus d'un autre figurine ou de sa base).</characteristic>
+            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Chaque fois que l'unité de cette figurine avance, ne faites pas un jet d’Avance pour elle. Au lieu de cela, Jusqu’à la fin de la phase, ajoutez 6" à la caractéristique de mouvement des figurines de cette unité. En outre, chaque fois qu'une figurine dans cette unité fait un Normal, Avance ou mouvement de Retraite, jusqu'à ce que ce mouvement soit terminé, il peut se déplacer horizontalement à travers figurines et éléments de terrain (il ne peuvent pas terminer un mouvement sur une autre figurine ou sa base).</characteristic>
           </characteristics>
         </profile>
         <profile name="Sauvegarde Invulnérable" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="70d5-9a58-6ff2-b4a3">
@@ -14510,7 +14510,7 @@ Vous pouvez attacher cette figurine à l'une des unités ci-dessus même si une 
       <profiles>
         <profile name="Gloom Prism (Aura)" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="6e01-88f9-87f0-d595">
           <characteristics>
-            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Alors qu'une unité **^^Necrons^^** conviviale est à 6" ou moins du porteur, les figurines de cette unité ont la aptitude Insensible à la douleur 4+ contre les attaques Psychiques.</characteristic>
+            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Alors qu'une unité amicale **^^Necrons^^** est à 6" ou moins du porteur, les figurines de cette unité ont l’aptitude Insensible à la douleur 4+ contre les attaques Psychiques.</characteristic>
           </characteristics>
         </profile>
       </profiles>
@@ -14587,7 +14587,7 @@ Vous pouvez attacher cette figurine à l'une des unités ci-dessus même si une 
       <profiles>
         <profile name="Harassment Swarm (Aura)" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="7931-826c-80c8-67c9">
           <characteristics>
-            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Alors qu'une unité ennemie (à l'exclusion de ^^**Monsters^^** et ^^**Vehicles^^**) se trouve à 3" ou moins de cette unité, chaque fois qu'une figurine de cette unité fait une attaque, Soustrayez 1 du jet de Touche.</characteristic>
+            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Alors qu'une unité ennemie (à l’exclusion de ^^**Monsters^^** et ^^**Vehicles^^**) se trouve à 3" ou moins de cette unité, chaque fois qu'une figurine de cette unité effectue une attaque, Soustrayez 1 du jet de Touche.</characteristic>
           </characteristics>
         </profile>
         <profile name="Canoptek Macrocytes" typeId="c547-1836-d8a-ff4f" typeName="Unit" hidden="false" id="9839-6ab6-d3ab-a7a9">
@@ -14639,7 +14639,7 @@ Vous pouvez attacher cette figurine à l'une des unités ci-dessus même si une 
                   <profiles>
                     <profile name="Nanoscarab Projector" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="6997-d7ed-c23b-90dc">
                       <characteristics>
-                        <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Une fois par tour de bataille, lorsqu'une unité amicale ^^**Necrons^^** à 3" ou moins du porteur active son Reanimation Protocols, le porteur peut utiliser cette aptitude. si c’est le cas, cette unité reanimates 1 additional wound.</characteristic>
+                        <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Une fois par round de bataille, lorsqu’une unité ^^**Necrons^^** amie à 3" ou moins du porteur active ses Reanimation Protocols, le porteur peut utiliser cette aptitude. S’il le fait, cette unité réanime 1 PV supplémentaire.</characteristic>
                       </characteristics>
                     </profile>
                   </profiles>
@@ -14710,7 +14710,7 @@ Vous pouvez attacher cette figurine à l'une des unités ci-dessus même si une 
                   <profiles>
                     <profile name="Accelerator Mandible" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="acca-1ed4-d8d2-99d8">
                       <characteristics>
-                        <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Au début de la phase de Combat, sélectionnez une unité amie ^^**Canoptek^^** à 3" ou moins de l'unité du porteur. Jusqu'à la fin de la phase, Améliorez la caractéristique de caractéristique de Capacité de Combat des armes équipées de figurines dans cette unité de 1.</characteristic>
+                        <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Au début de la phase de Combat, sélectionnez une unité sympathique ^^**Canoptek^^** à 3" ou moins de l’unité du porteur. Jusqu’à la fin de la phase, Améliorez la caractéristique de Capacité de Combat des armes équipées par les figurines de cette unité de 1.</characteristic>
                       </characteristics>
                     </profile>
                   </profiles>
@@ -15122,7 +15122,7 @@ Vous pouvez attacher cette figurine à l'une des unités ci-dessus même si une 
       <profiles>
         <profile name="Weapon Sentinels" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="48b5-f665-e088-07e4">
           <characteristics>
-            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Chaque fois qu'une figurine dans cette unité effectue une attaque de tir qui cible une unité à 12" ou moins, vous pouvez ignorer tout ou partie des modificateurs suivants: cette attaque s caractéristique de caractéristique de Capacité de Tir; le jet de Touche; le jet de Blessure.</characteristic>
+            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Chaque fois qu'une figurine dans cette unité fait une attaque de tir qui cible une unité à 12" ou moins, vous pouvez ignorer tout ou partie des modificateurs suivants: cette attaque s caractéristique de Capacité de Tir; le jet de Touche; le jet de Blessure.</characteristic>
           </characteristics>
         </profile>
         <profile name="Canoptek Tomb Crawlers" typeId="c547-1836-d8a-ff4f" typeName="Unit" hidden="false" id="dfd0-f0c6-969c-d56f">
@@ -15258,12 +15258,12 @@ Vous pouvez attacher cette figurine à l'une des unités ci-dessus même si une 
         </profile>
         <profile name="Tectonic Reverberations" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="775c-fc7c-2f20-deff">
           <characteristics>
-            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Dans votre phase de Mouvement, vous pouvez sélectionner une unité ennemi à 18" ou moins et visible à cette figurine. Jusqu'au début de votre prochaine phase de Mouvement, cette unité ennemie est coincée. Pendant qu'une unité est fixée, Soustrayez 2 de cette unités caractéristique de mouvement et soustraire 2 des jets de Charge faits pour elle.</characteristic>
+            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Durant votre phase de Mouvement, vous pouvez sélectionner une unité ennemie à 18" ou moins de cette figurine et qui lui est visible. Jusqu’au début de votre prochaine phase de Mouvement, cette unité ennemie est clouée. Tant qu’une unité est clouée, soustrayez 2 à sa caractéristique de Mouvement et soustrayez 2 aux jets de Charge effectués pour elle.</characteristic>
           </characteristics>
         </profile>
         <profile name="Obelisk Node Control" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="a2ff-7525-af56-38b2">
           <characteristics>
-            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Tant que cette figurine est à portée d'un marqueur objectif que vous contrôlez, les unités ennemies placées sur le champ de bataille depuis les réserves ne peuvent pas être placées à 12" ou moins de cette figurine.</characteristic>
+            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Alors que cette figurine se trouve à l'intérieur de Portée d'un pion d’objectif que vous contrôlez, les unités ennemies qui sont installées sur le champ de bataille des réserves ne peuvent pas être installées à 12" ou moins de cette figurine.</characteristic>
           </characteristics>
         </profile>
         <profile name="Meneur" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="97b2-3a6c-79b6-181c">
@@ -15271,7 +15271,7 @@ Vous pouvez attacher cette figurine à l'une des unités ci-dessus même si une 
             <characteristic name="Description" typeId="9b8f-694b-e5e-b573">cette figurine peut être attachée aux unités suivantes: ^^**Canoptek Macrocytes, Immortals, Necron Warriors^^**.
 
 
-*Vous pouvez attacher cette figurine à l'une des unités ci-dessus même si une figurine ^^**Royal Warden^^** ou ^^**Noble^^** a déjà été attaché. Si vous le faites, et que l'unité Bodyguard est détruite, les unités Meneur attachées à elle deviennent des unités distinctes, avec leur Effectif Initial d’origine.*</characteristic>
+*Vous pouvez attacher cette figurine à l'une des unités ci-dessus même si un ^^**Royal Warden^^** ou ^^**Noble^^** figurine y a déjà été attaché. Si vous le faites, et que l'unité Bodyguard est détruite, les unités Meneur attachées à elle deviennent des unités distinctes, avec leur original Effectifs Initiaux.*</characteristic>
           </characteristics>
         </profile>
       </profiles>
@@ -15367,7 +15367,7 @@ Vous pouvez attacher cette figurine à l'une des unités ci-dessus même si une 
         </profile>
         <profile name="Protective Disciples" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="a6e1-4d25-d946-d610">
           <characteristics>
-            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Tant que cette figurine est à 3" ou moins d'une ou de plusieurs autres unités ^^**Destroyer Cult^^** amicales, cette figurine a la aptitude Agent solitaire.</characteristic>
+            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Alors que cette figurine est à 3" ou moins d'une ou de plusieurs autres unités amies ^^**Destroyer Cult^^**, cette figurine a l’aptitude Agent solitaire.</characteristic>
           </characteristics>
         </profile>
         <profile name="Infectious Murder‑madness (Aura)" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="aa95-5ab8-9b69-cbb1">
@@ -15456,7 +15456,7 @@ Vous pouvez attacher cette figurine à l'une des unités ci-dessus même si une 
               <profiles>
                 <profile name="Nullstone Field Generator (Aura)" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="1b37-0a10-61d8-0eeb">
                   <characteristics>
-                    <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Alors qu'une unité amie ^^**Necrons^^** se trouve à 6" ou moins du porteur, les figurines de cette unité ont la aptitude Insensible à la douleur 5+ contre les Blessures Mortelles et attaques Psychiques.</characteristic>
+                    <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Alors qu'une unité amicale ^^**Necrons^^** se trouve à 6" ou moins du porteur, les figurines de cette unité ont l’aptitude Insensible à la douleur 5+ contre Blessures Mortelles et attaques Psychiques.</characteristic>
                   </characteristics>
                 </profile>
               </profiles>
@@ -15554,7 +15554,7 @@ Vous pouvez attacher cette figurine à l'une des unités ci-dessus même si une 
         </profile>
         <profile name="Implacable Resistance" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="d4b0-322e-1e4e-7df9">
           <characteristics>
-            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Chaque fois qu'une attaque est attribuée à cette figurine, Soustrayez 1 de la caractéristique Dégât de cette attaque.</characteristic>
+            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Chaque fois qu'une attaque est attribuée à cette figurine, Soustrayez 1 de la caractéristique de Dégâts de cette attaque.</characteristic>
           </characteristics>
         </profile>
       </profiles>
@@ -15841,7 +15841,7 @@ Vous pouvez attacher cette figurine à l'une des unités ci-dessus même si une 
         </profile>
         <profile name="Targeting Relay" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="82fd-0d82-9969-531f">
           <characteristics>
-            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Dans votre phase de Tir, après que cette figurine ait tiré, sélectionnez une unité ennemie touchée par une ou plusieurs de ces attaques. Jusqu'à la fin de la phase, cette unité ne peut pas bénéficier du le Bénéfice du Couvert.</characteristic>
+            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Durant votre phase de Tir, après que cette figurine a tiré, sélectionnez une unité ennemie touchée par une ou plusieurs de ces attaques. Jusqu’à la fin de la phase, cette unité ne peut pas avoir le Bénéfice du Couvert.</characteristic>
           </characteristics>
         </profile>
       </profiles>
@@ -15949,55 +15949,55 @@ Vous pouvez attacher cette figurine à l'une des unités ci-dessus même si une 
   </sharedSelectionEntries>
   <sharedRules>
     <rule name="Reanimation Protocols" hidden="false" id="a511-d9ca-17d0-42c5">
-      <description>Si votre faction d'armée est NECRONS, à la fin de votre phase de Commandement, chaque unité de votre armée avec cette aptitude qui est sur le champ de bataille active son Reanimation Protocols et réanimation D3 blessures. Chaque fois qu' une telle unité réanimera une blessure:
-■ ・Si cette unité comprend une ou plusieurs figurines avec moins de tous ses PV que leur nombre initial, choisissez l'un de ces figurines; cette figurine récupère une PV perdus.
-■ Si tous les figurines de cette unité ont leur nombre initial de blessures, mais que cette unité n'est pas à son Effectif Initial, une figurine détruit est renvoyé à cette unité avec une tous ses PV.
-Une fois qu'une telle unité est à son Effectif Initial et que tous ses figurines ont leur nombre de blessures de départ, rien ne se passe de plus.</description>
+      <description>Si votre faction d'armée est NECRONS, à la fin de votre phase de Commandement, chaque unité de votre armée avec cette aptitude qui est sur le champ de bataille active son Reanimation Protocols et revitaliser D3 blessures. Chaque fois qu' une telle unité réanimera une blessure:
+■ Si cette unité contient un ou plusieurs joints figurines avec moins de leur numéro de départ de PV restants, sélectionnez l'un de ces joints figurines; que figurine récupère une PV perdus.
+■ Si tous les les figurines de cette unité ont leur nombre de blessures de départ, mais que l'unité n'est pas à son Effectif Initial, une figurine détruit est renvoyé à cette unité avec une tous ses PV.
+Une fois qu'une telle unité est à son Effectif Initial et tous ses figurines ont leur nombre de blessures de départ, rien de plus ne se passe.</description>
     </rule>
     <rule name="Annihilation Protocol" id="cb2f-c68b-f66e-93ae" hidden="false">
-      <description>Chaque fois qu'une unité Destroyer Cult ou Flayed Ones de votre armée déclare une charge, vous pouvez relancer le jet de Charge. Si une ou plusieurs cibles de cette charge sont inférieures à la Demi-effectif, ajoutez 1 au jet de Charge également.
-Chaque fois qu'une unité Destroyer Cult de votre armée effectue une attaque de tir qui cible la cible admissible la plus proche, ajoutez 1 à la caractéristique de Pénétration d’Armure de cette attaque.</description>
+      <description>Chaque fois qu'une unité Destroyer Cult ou Flayed Ones de votre armée déclare une charge, vous pouvez relancer le jet de Charge. Si une ou plusieurs cibles de cette charge sont En Dessous de son Demi-effectif, ajoutez aussi 1 au jet de Charge.
+Chaque fois qu'une unité Destroyer Cult de votre armée fait une attaque de tir qui cible le cible éligible le plus proche, ajoutez 1 à la caractéristique de Pénétration d’Armure de cette attaque.</description>
     </rule>
     <rule name="Command Protocols" id="388f-814a-df25-c988" hidden="false">
       <description>Alors qu'une figurine NECRONS CHARACTER est à la tête de cette unité, chaque fois qu'une figurine dans cette unité fait une attaque, ajoutez 1 au jet de Touche.</description>
     </rule>
     <rule name="Hyperphasing" id="bf08-bb20-d69d-1063" hidden="false">
-      <description>À la fin du tour de votre adversaire, vous pouvez sélectionner un certain nombre d'unités NECRONS de votre armée (à l'exclusion des unités situées dans la Portée d’Engagement d'une ou de plusieurs unités ennemies). Le nombre maximum d'unités que vous pouvez sélectionner dépend de la taille de la bataille, comme suit:
+      <description>À la fin du tour de votre adversaire, vous pouvez sélectionner un certain nombre d'unités NECRONS de votre armée (unités à l’exclusion de qui sont à l'intérieur de Portée d’Engagement d'une ou plusieurs unités ennemies). Le nombre maximum d'unités que vous pouvez sélectionner dépend de la taille de la bataille, comme suit:
 Incursion - jusqu'à l'unité 1.
 Force de frappe - Jusqu'à unités 2
 Onslaught - jusqu’à 3 unités
-Une fois que vous aurez fait votre choix, retirez ces unités du champ de bataille et placez-les dans les réserves stratégiques.</description>
+Une fois que vous avez fait votre sélection, retirez ces unités du champ de bataille et placez-les dans Réserves Stratégiques.</description>
     </rule>
     <rule name="Power Matrix" id="5aff-abb1-f06d-23a5" hidden="false">
-      <description>Certaines zones du champ de bataille sont considérées comme étant dans le Power Matrix de votre armée, comme suit:
+      <description>Certaines zones du champ de bataille sont considérées comme à l'intérieur du Power Matrix de votre armée, comme suit:
 - Votre zone de déploiement est toujours dans le Power Matrix de votre armée.
-- Au début de n'importe quelle phase, si vous contrôlez au moins la moitié des marqueurs objectifs au sein du No Man's Land, jusqu'à la fin de cette phase, le No Man's Land est dans le Power Matrix de votre armée.
-- Pour le début de n'importe quelle phase, si vous contrôlez au moins la moitié des marqueurs objectifs dans la zone de déploiement de votre adversaire, jusqu'à la fin de cette phase, la zone de déploiement de votre adversaire est dans le Power Matrix de votre armée.
-Chaque fois qu'une figurine d'une unité CRYPTEK ou CANOPTEK de votre armée fait une attaque, relancez un jet de Touche de 1. Si une telle unité est entièrement à votre Power Matrix, vous pouvez relancer le jet de Touche à la place.</description>
+- Au début de n'importe quelle phase, si vous contrôlez au moins la moitié du pions d’objectif dans le No Man's Land, jusqu'à la fin de cette phase, le No Man's Land est dans le Power Matrix de votre armée.
+- Au début de toute phase, si vous contrôlez au moins la moitié du pions d’objectif dans le zone de déploiement de votre adversaire, jusqu'à la fin de cette phase, le zone de déploiement de votre adversaire est dans le Power Matrix de votre armée.
+Chaque fois qu'une figurine dans une unité CRYPTEK ou CANOPTEK de votre armée fait une attaque, relancer un jet de Touche de 1. Si une telle unité est entièrement à votre Power Matrix, vous pouvez relancer le jet de Touche à la place.</description>
     </rule>
     <rule name="Worthy Foes" id="a0f8-2836-4418-50a4" hidden="false">
       <description>Dans votre phase de Commandement, sélectionnez une unité ennemie. Jusqu'au début de votre prochaine phase de Commandement, chaque fois qu'une unité NOBLE, Lychguard ou TRIARCH de votre armée attaque cette unité, ajoutez 1 au jet de Blessure.</description>
     </rule>
     <rule name="Relentless Onslaught" id="1dfc-5377-99ac-a700" hidden="false">
-      <description>Chaque fois qu'une figurine NECRONS de votre armée fait une attaque qui cible une unité à portée d’une ou plusieurs marqueurs plus objectifs, Ajoutez 1 au jet de Touche. En plus, armes de tir équipées de NECRONS VEHICLE et Les figurines NECRONS MOUNTED (à l'exclusion des figurines TITANIC) de votre armée ont la aptitude [Assaut].</description>
+      <description>Chaque fois qu’une figurine NECRONS de votre armée effectue une attaque qui cible une unité à portée d’un ou plusieurs pions d’objectif, ajoutez 1 au jet de Touche. De plus, les armes de tir dont sont équipées les figurines NECRONS VEHICLE et NECRONS MOUNTED de votre armée (à l’exclusion des figurines TITANIC) ont l’aptitude [Assaut].</description>
     </rule>
     <rule name="Technosorcerous Augmentations" id="666e-a57a-9fe0-65e6" hidden="false">
-      <description>- Les armes de tir équipées de figurines ^^**Cryptek^^** de votre armée ont la aptitude [Assaut].
-- Dans votre phase de Tir, chaque fois qu'une unité ^^**Cryptek^^** de votre armée est sélectionnée pour tirer, sélectionnez l'une des capacités suivantes: [ANTI‑INFANTRY 3+], [ANTI‑MOUNTED 4+], [Assaut], [Lourd], [Ignore le couvert]. Jusqu'à la fin de la phase, les armes de tir équipées de figurines dans cette unité ont cette aptitude</description>
+      <description>- Les armes de tir dont les figurines ^^**Cryptek^^** de votre armée sont équipées ont l’aptitude [ASSAULT].
+- Durant votre phase de Tir, chaque fois qu’une unité ^^**Cryptek^^** de votre armée est sélectionnée pour tirer, sélectionnez l’une des aptitudes suivantes : [ANTI‑INFANTRY 3+], [ANTI‑MOUNTED 4+], [ASSAULT], [HEAVY], [IGNORES COVER]. Jusqu’à la fin de la phase, les armes de tir dont les figurines de cette unité sont équipées ont cette aptitude</description>
     </rule>
     <rule name="Cold Fervour" id="6033-8abb-9299-a5dc" hidden="false">
       <description>- Ajoutez 2 à la caractéristique de Force des armes dont sont équipées les figurines ^^**Destroyer Cult^^** de votre armée. 
 - La première fois à chaque tour qu’une unité ^^**Destroyer Cult^^** de votre armée effectue des attaques qui détruisent une unité ou l’amènent en dessous de son Demi-effectif, une fois que cette unité a fini de résoudre ses attaques, jusqu’à la fin du tour, ajoutez 2 à la caractéristique de Force des armes dont sont équipées les figurines ^^**Necrons^^** amies (à l’exclusion des figurines ^^**Destroyer Cult, Monster^^** et ^^**Titanic^^**).</description>
     </rule>
     <rule name="Cosmic Distortion" id="9f16-c77e-568e-a88a" hidden="false">
-      <description>^^**Necrons Monster^^** unités de votre armée ont l’ suivants aptitude: 
+      <description>^^**Necrons Monster^^** les unités de votre armée ont les suivants aptitude:
 
-Distortion Fields (Aura): Alors qu'une unité ennemie se trouve à 6" ou moins de cette unité, elle se déchaîne. Alors qu'une unité ennemie se déchaîne, chaque fois qu'une attaque cible cette unité, Améliorez la caractéristique de Pénétration d’Armure de cette attaque de 1.
-Au début de chaque phase, pour chaque unité ^^**Necrons Monster^^** de votre armée, cette unité peut subir 3 Blessures Mortelles. Si c'est le cas, jusqu'à la fin de la phase, la plage de cette unité s Distortion Fields Aura aptitude est augmentée à 9".
+Distortion Fields (Aura): Alors qu'une unité ennemie se trouve à 6" ou moins de cette unité, il est déroulant. Alors qu'une unité ennemie se déchaîne, chaque fois qu'une attaque cible cette unité, améliorez la caractéristique de Pénétration d’Armure de cette attaque de 1.
+Au début de chaque phase, pour chaque unité ^^**Necrons Monster^^** de votre armée, cette unité peut souffrir 3 Blessures Mortelles. Si c'est le cas, Jusqu’à la fin de la phase, l’aptitude Portée de cette unité s Distortion champs Aura est augmenté à 9".
 
 Restrictions
 
-Lorsque vous rassemblez votre armée, chaque unité ^^**Necrons Monster^^** de votre armée a la aptitude de liaison nécrodérmale pertinente indiquée à droite, et vous devez augmenter le coût des points de chacune de ces unités par le montant indiqué dans le manuel de terrain Munitorum. Si cela fait que votre armée dépasse la limite de points pour la bataille que vous jouez, vous ne pouvez pas inclure cette unité dans votre armée.</description>
+Lorsque vous rassemblez votre armée, chaque unité ^^**Necrons Monster^^** de votre armée a le lien nécrodérmal correspondant aptitude indiqué à droite, et vous devez augmenter le coût des points de chacune de ces unités par le montant indiqué dans le manuel de terrain Munitorum. Si cela fait que votre armée dépasse la limite de points pour la bataille que vous jouez, vous ne pouvez pas inclure cette unité dans votre armée.</description>
     </rule>
   </sharedRules>
   <categoryEntries>
@@ -16375,7 +16375,7 @@ Lorsque vous rassemblez votre armée, chaque unité ^^**Necrons Monster^^** de v
       <profiles>
         <profile name="Vanguard Protocols" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="0e51-1487-b016-368e">
           <characteristics>
-            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Si cette figurine est attaché à une unité ^^**Canoptek Macrocytes^^** au cours de l'étape Déclarer les Formations de Bataille, cette figurine a la aptitude Éclaireurs 8".</characteristic>
+            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Si cette figurine est attachée à une unité ^^**Canoptek Macrocytes^^** durant l’étape Déclarer les Formations de Bataille, cette figurine a l’aptitude Éclaireurs 8".</characteristic>
           </characteristics>
         </profile>
       </profiles>
@@ -16388,7 +16388,7 @@ Lorsque vous rassemblez votre armée, chaque unité ^^**Necrons Monster^^** de v
   <sharedProfiles>
     <profile name="Necrodermis" hidden="false" id="61c9-1b37-b067-44ba" typeName="Abilities" typeId="9cc3-6d83-4dd3-9b64">
       <characteristics>
-        <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Chaque fois qu'une attaque est attribuée à cette figurine, Soustrayez 1 de la caractéristique Dégât de cette attaque.</characteristic>
+        <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Chaque fois qu'une attaque est attribuée à cette figurine, Soustrayez 1 de la caractéristique de Dégâts de cette attaque.</characteristic>
       </characteristics>
     </profile>
     <profile name="Enslaved Star God" hidden="false" id="3eeb-1140-c828-a4c5" typeName="Abilities" typeId="9cc3-6d83-4dd3-9b64">
@@ -16403,31 +16403,31 @@ Lorsque vous rassemblez votre armée, chaque unité ^^**Necrons Monster^^** de v
     </profile>
     <profile name="Command Master System Ability - Directive Override" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="20c2-d3b0-78a7-e025">
       <characteristics>
-        <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Si vous avez accès à cette aptitude du système maître, vous pouvez l'utiliser de l'une des manières suivantes:
+        <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Si vous avez accès à ce système maître aptitude, vous pouvez l'utiliser de l'une des manières suivantes:
 
-- Une fois par combat, au début de votre phase de Commandement, vous pouvez utiliser cette aptitude. Si vous le faites, jusqu'à la fin de la phase, vous pourrez relancer les tests d’Ébranlement effectués pour les unités **^^Necrons^^** de votre armée de la Croisade.
+- Au début de votre phase de Commandement, vous pouvez utiliser cette aptitude. Si vous le faites, Jusqu’à la fin de la phase, vous pouvez relancer tests d’Ébranlement pris pour les unités **^^Necrons^^** de votre armée de la Croisade.
 ***OR***
-- Une fois par combat, au début de votre phase de Commandement, vous pouvez utiliser cette aptitude. Si vous le faites, jusqu'à la fin de la phase, ajoutez 1 à la caractéristique de Contrôle d’Objectif des unités **^^Necrons^^** de votre armée de la Croisade.</characteristic>
+- Au début de votre phase de Commandement, vous pouvez utiliser cette aptitude. Si vous le faites, Jusqu’à la fin de la phase, ajoutez 1 à la caractéristique de Contrôle d’Objectif des unités **^^Necrons^^** de votre armée de la Croisade.</characteristic>
       </characteristics>
       <comment>Crusade content</comment>
     </profile>
     <profile name="Reanimation Master System Ability - Contra-mortis Protocol" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="ae48-c326-c13c-8442">
       <characteristics>
-        <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Si vous avez accès à cette aptitude du système maître, vous pouvez l'utiliser de l'une des manières suivantes:
+        <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Si vous avez accès à ce système maître aptitude, vous pouvez l'utiliser de l'une des manières suivantes:
 
-- Une fois par bataille, quand une unité **^^Necrons^^** utilise sa aptitude Reanimation Protocols, vous pouvez utiliser cette aptitude. Si vous le faites, cette unité **^^Necrons^^** peut immédiatement utiliser sa aptitude Reanimation Protocols une deuxième fois.
+- Pour Une fois par bataille, lorsque l'unité **^^Necrons^^** utilise son Reanimation Protocols aptitude, vous pouvez utiliser cette aptitude. Si vous le faites, cette unité **^^Necrons^^** peut immédiatement utiliser son Reanimation Protocols aptitude une deuxième fois.
 ***OR***
-- Une fois par combat, au début de votre phase de Commandement, vous pouvez utiliser cette aptitude. Si vous le faites, jusqu'à la fin de la phase, chaque fois qu'une unité **^^Necrons^^** de votre armée de la Croisade utilise sa aptitude Reanimation Protocols, ajoutez 1 au résultat.</characteristic>
+- Au début de votre phase de Commandement, vous pouvez utiliser cette aptitude. Si vous le faites, Jusqu’à la fin de la phase, chaque fois qu'une unité **^^Necrons^^** de votre armée de la Croisade utilise son Reanimation Protocols aptitude, ajoutez 1 au résultat.</characteristic>
       </characteristics>
       <comment>Crusade content</comment>
     </profile>
     <profile name="Translocation Master System Ability - Special Relocation" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="90f4-f767-7647-b9cc">
       <characteristics>
-        <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Si vous avez accès à cette aptitude du système maître, vous pouvez l'utiliser de l'une des manières suivantes:
+        <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Si vous avez accès à cette aptitude de Système Maître, vous pouvez l’utiliser de l’une des manières suivantes :
 
-- Une fois par bataille, à la fin de votre phase de Mouvement, sélectionnez pour moi une unité **^^Necrons^^** de votre armée de la Croisade et retirez-la du champ de bataille et placez-la dans les réserves. Vous pouvez sélectionner une autre unité **^^Necrons Infantry^^** de votre armée de la Croisade qui est dans les réserves et l'installer aussi près que possible de l'endroit où était l'unité précédente et pas dans la Portée d’Engagement des unités ennemies. Jusqu'à la fin de la bataille, l'unité placée dans les réserves a la aptitude Frappe en profondeur si elle ne l'avait pas déjà..
+- Une fois par bataille, à la fin de votre phase de Mouvement, sélectionnez une unité **^^Necrons^^** de votre armée de Croisade, retirez-la du champ de bataille et placez-la en Réserves. Vous pouvez sélectionner une autre unité **^^Necrons Infantry^^** de votre armée de Croisade qui est en Réserves et la placer aussi près que possible de l’emplacement de l’unité précédente, mais pas à Portée d’Engagement d’une unité ennemie. Jusqu’à la fin de la bataille, l’unité placée en Réserves a l’aptitude Frappe en Profondeur si elle ne l’avait pas déjà.
 ***OR***
-- Une fois par bataille, après que les deux joueurs ont déployé leurs armées et déterminé qui a le premier tour, vous pouvez sélectionner jusqu'à trois unités **^^Necrons Infantry^^** de votre armée de Croisade et redéployer toutes ces unités. Lorsqu'ils le font, l'une ou l'autre de ces unités peut être placée dans des réserves stratégiques, quel que soit le nombre d'unités déjà dans des réserves stratégiques.</characteristic>
+- Une fois par bataille, après que les deux joueurs ont déployé leurs armées et déterminé qui a le premier tour, vous pouvez sélectionner jusqu’à trois unités **^^Necrons Infantry^^** de votre armée de Croisade et redéployer toutes ces unités. Ce faisant, chacune de ces unités peut être placée en Réserves Stratégiques, quel que soit le nombre d’unités déjà en Réserves Stratégiques.</characteristic>
       </characteristics>
       <comment>Crusade content</comment>
     </profile>
@@ -16464,7 +16464,7 @@ Au début de chaque phase, pour chaque unité ^^**Necrons Monster^^** de votre a
     </profileType>
   </profileTypes>
   <catalogueLinks>
-    <catalogueLink type="catalogue" name="Unaligned Forces" id="2660-21-2feb-f1c5" targetId="61f1-ce52-d345-5048" importRootEntries="true" />
+    <catalogueLink type="catalogue" name="Unaligned Forces" id="2660-21-2feb-f1c5" targetId="581a-46b9-5b86-44b7" importRootEntries="true" />
   </catalogueLinks>
   <sharedInfoGroups>
     <infoGroup name="Detachment Rules" hidden="false" id="4ee-d749-4ddc-323d">

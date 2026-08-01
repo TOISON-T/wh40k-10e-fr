@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue xmlns="http://www.battlescribe.net/schema/catalogueSchema" id="5ff8-5a62-176a-87a6" name="Chaos - Death Guard" revision="114" battleScribeVersion="2.03" library="false" gameSystemId="sys-0e45-705d-f6bc-806a" gameSystemRevision="1" type="catalogue">
+<catalogue xmlns="http://www.battlescribe.net/schema/catalogueSchema" id="5108-f98-63c2-53cb" name="Chaos - Death Guard" revision="114" battleScribeVersion="2.03" library="false" gameSystemId="sys-352e-adc2-7639-d6a9" gameSystemRevision="1" type="catalogue">
   <catalogueLinks>
-    <catalogueLink id="9fec-b3ad-9626-6706" name="Chaos - Chaos Knights Library" targetId="2a4a-abd1-67f0-3a80" type="catalogue" importRootEntries="true" />
-    <catalogueLink type="catalogue" name="Library - Astartes Heresy Legends" id="ff65-1828-b2a0-477" targetId="ff25-972c-b995-3383" importRootEntries="true" />
-    <catalogueLink type="catalogue" name="Library - Titans" id="95ad-ce51-ebd4-583d" targetId="701a-a154-08d0-db72" importRootEntries="true" />
-    <catalogueLink type="catalogue" name="Unaligned Forces" id="c7e2-a100-b046-bb95" targetId="61f1-ce52-d345-5048" importRootEntries="true" />
-    <catalogueLink type="catalogue" name="Chaos - Daemons Library" id="54cd-05de-52f3-45d6" targetId="b886-a6f4-c733-74ed" />
+    <catalogueLink id="9fec-b3ad-9626-6706" name="Chaos - Chaos Knights Library" targetId="8106-aad2-918a-9ac" type="catalogue" importRootEntries="true" />
+    <catalogueLink type="catalogue" name="Library - Astartes Heresy Legends" id="ff65-1828-b2a0-477" targetId="ac3b-689c-4ad4-70cb" importRootEntries="true" />
+    <catalogueLink type="catalogue" name="Library - Titans" id="95ad-ce51-ebd4-583d" targetId="7481-280e-b55e-7867" importRootEntries="true" />
+    <catalogueLink type="catalogue" name="Unaligned Forces" id="c7e2-a100-b046-bb95" targetId="581a-46b9-5b86-44b7" importRootEntries="true" />
+    <catalogueLink type="catalogue" name="Chaos - Daemons Library" id="54cd-05de-52f3-45d6" targetId="b45c-af22-788a-dfd6" />
   </catalogueLinks>
   <entryLinks>
     <entryLink import="true" name="Detachment" hidden="false" type="selectionEntry" id="60ed-ab58-d20f-75e7" targetId="57f2-e2d6-47ed-ddd2" />
@@ -2136,7 +2136,7 @@
             <selectionEntry type="upgrade" import="true" name="Virulent Vectorium" hidden="false" id="e2ff-ece0-6cbb-be05">
               <rules>
                 <rule name="Worldblight" id="7fd0-7e69-2e30-8a86" hidden="false">
-                  <description>Si vous contrôlez un marqueur objectif à la fin de votre phase de Commandement et qu'une unité ^^**Death Guard**^^ de votre armée (à l'exclusion des unités Ébranlées) est à la portée de ce marqueur objectif, ce marqueur objectif reste sous votre contrôle jusqu'à ce que le niveau de contrôle de votre adversaire sur ce marqueur objectif soit supérieur au vôtre à la fin d'une phase. En plus, jusqu'à ce que vous perdiez le contrôle de ce marqueur objectif., Il possède la aptitude de cadeau de Nurgle comme si c'était une unité ^^**Death Guard**^^ de votre armée.</description>
+                  <description>Si vous contrôlez un pion d’objectif à la fin de votre phase de Commandement et une unité ^^**Death Guard**^^ de votre armée (à l’exclusion de unités Ébranlées) est à l'intérieur de Portée de ce pion d’objectif, que pion d’objectif reste sous votre contrôle jusqu'à ce que le niveau de contrôle de votre adversaire sur ce pion d’objectif est plus grand que le vôtre à la fin d'une phase. De plus, jusqu'à ce que vous perdiez le contrôle de ce pion d’objectif, il a le cadeau de Nurgle aptitude comme si c'était une unité ^^**Death Guard**^^ de votre armée.</description>
                 </rule>
               </rules>
             </selectionEntry>
@@ -2158,7 +2158,7 @@ Les unités ^^**Poxwalkers**^^ de votre armée gagnent le mot-clé ^^**Battlelin
             <selectionEntry type="upgrade" import="true" name="Death Lord's Chosen" hidden="false" id="f038-29f5-5625-6cc1">
               <rules>
                 <rule name="Deadly Vectors" id="f105-0f20-ed0e-317f" hidden="false">
-                  <description>Dans la phase de Commandement de votre adversaire, lancez 2D6 pour chaque unité ennemie affligée, en soustrayant 1 du résultat si cette unité est inférieure à la Demi-effectif. Si le résultat est 6 ou moins, cette unité ennemie subit D3 Blessures Mortelles.</description>
+                  <description>Dans la phase de Commandement de votre adversaire, lancez 2D6 pour chaque unité ennemie affligé, en soustrayant 1 du résultat si cette unité est En Dessous de son Demi-effectif. Si le résultat est 6 ou moins, cette unité ennemie souffre D3 Blessures Mortelles.</description>
                 </rule>
               </rules>
             </selectionEntry>
@@ -2177,7 +2177,7 @@ Onslaught - 3 Units</description>
             <selectionEntry type="upgrade" import="true" name="Champions of Contagion" hidden="false" id="fd92-8b6d-0ef2-e14d">
               <rules>
                 <rule name="Manifold Maladies" id="0ce6-ea96-c84b-c600" hidden="false">
-                  <description>Au début du tour de bataille, vous pouvez sélectionner l'une des Pestes énumérées dans le cadeau de Nurgle. Jusqu'à la fin de la bataille, c'est votre Peste choisie au lieu de n'importe quelle Peste choisie précédemment.</description>
+                  <description>Au début du tour de bataille, vous pouvez sélectionner l'un des Pestes figurant dans le cadeau de Nurgle. Jusqu'à la fin de la bataille, c'est votre Peste au lieu de tout Peste précédemment choisi.</description>
                 </rule>
               </rules>
             </selectionEntry>
@@ -2243,7 +2243,7 @@ Tant qu’une unité ^^**Death Guard^^** de votre armée est à 7" ou moins d’
       <profiles>
         <profile name="Death Guard Defenders" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="a62-2152-78a8-d7c8">
           <characteristics>
-            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Tant que cette figurine est à 3" ou moins d'une ou de plusieurs unités ^^**Death Guard Infantry^^** amicales, cette figurine a la aptitude Agent solitaire.</characteristic>
+            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Alors que cette figurine se trouve à 3" ou moins d'une ou de plusieurs unités amies ^^**Death Guard Infantry^^**, cette figurine a l’aptitude Agent solitaire.</characteristic>
           </characteristics>
         </profile>
         <profile name="Sauvegarde Invulnérable" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="6e8c-70d5-2b8f-2b2c">
@@ -2263,12 +2263,12 @@ Tant qu’une unité ^^**Death Guard^^** de votre armée est à 7" ou moins d’
         </profile>
         <profile name="Fevered Strategist" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="0f8a-2008-862e-8af6">
           <characteristics>
-            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Une fois par tour de bataille, une figurine de votre armée avec cette aptitude peut l'utiliser quand une unité amie ^^**Death Guard^^** à 12" ou moins de cette figurine est ciblé avec un Stratagème. Si c'est le cas, réduisez le coût CP de ce Stratagème par 1CP.</characteristic>
+            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Une fois par round de bataille, une figurine de votre armée dotée de cette aptitude peut l’utiliser lorsqu’une unité ^^**Death Guard^^** amie à 12" ou moins de cette figurine est ciblée par un Stratagème. Si elle le fait, réduisez de 1CP le coût en CP de ce Stratagème.</characteristic>
           </characteristics>
         </profile>
         <profile name="Miasma of Pestilence (Aura)" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="0c92-aa1c-c7e5-a527">
           <characteristics>
-            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Alors qu'une unité amie ^^**Death Guard^^** est à 6" ou moins de cette figurine, chaque fois qu'une attaque de tir cible cette unité, les figurines de cette unité ont le Bénéfice du Couvert contre cette attaque.</characteristic>
+            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Tant qu’une unité ^^**Death Guard^^** amie est à 6" ou moins de cette figurine, chaque fois qu’une attaque de tir cible cette unité, les figurines de cette unité ont le Bénéfice du Couvert contre cette attaque.</characteristic>
           </characteristics>
         </profile>
       </profiles>
@@ -2407,7 +2407,7 @@ Tant qu’une unité ^^**Death Guard^^** de votre armée est à 7" ou moins d’
       <profiles>
         <profile name="Horrifying Visage" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="8ce2-6dec-6caf-3777">
           <characteristics>
-            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Chaque fois que cette figurine termine un mouvement de Charge, sélectionnez une unité ennemie dans sa Portée d’Engagement. Cette unité doit passer un test d’Ébranlement, en soustrayant 1 de ce test.</characteristic>
+            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Chaque fois que cette figurine termine un mouvement de Charge, sélectionnez une unité ennemie à Portée d’Engagement de cette figurine. Cette unité doit effectuer un test d’Ébranlement, en soustrayant 1 à ce test.</characteristic>
           </characteristics>
         </profile>
         <profile name="Sauvegarde Invulnérable" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="d376-c886-6c02-923f">
@@ -2599,7 +2599,7 @@ Tant qu’une unité ^^**Death Guard^^** de votre armée est à 7" ou moins d’
         </profile>
         <profile name="The Destroyer Hive" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="e1de-40a6-c9a9-7316">
           <characteristics>
-            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Alors que cette figurine mène une unité, chaque fois qu'une attaque de mêlée cible cette unité, Soustrayez 1 du jet de Touche.</characteristic>
+            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Alors que cette figurine est à la tête d'une unité, chaque fois qu'une attaque de mêlée cible cette unité, Soustrayez 1 du jet de Touche.</characteristic>
           </characteristics>
         </profile>
         <profile name="Eater Plague (Psychic)" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="595f-4a7d-3845-2131">
@@ -3487,12 +3487,12 @@ Tant qu’une unité ^^**Death Guard^^** de votre armée est à 7" ou moins d’
         </profile>
         <profile name="Virulent Aura" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="c011-8b42-c9f3-e3cc">
           <characteristics>
-            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Alors que cette figurine mène une unité, chaque fois qu'une figurine dans cette unité fait une attaque de tir, vous pouvez relancer le jet de Blessure.</characteristic>
+            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Alors que cette figurine conduit une unité, chaque fois qu'une figurine dans cette unité fait une attaque de tir, vous pouvez relancer le jet de Blessure.</characteristic>
           </characteristics>
         </profile>
         <profile name="Blight Bombardment" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="b-b5eb-2ac6-b6df">
           <characteristics>
-            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Au début de votre phase de Tir, sélectionnez une unité ennemi à 30" ou moins et visible pour cette figurine. Jusqu'à la fin de la phase, à chaque fois qu'une unité amicale ^^**Death Guard^^** effectue une attaque de tir qui cible cette unité, relance un jet de Touche de 1 (si cette attaque est effectuée avec une arme Déflagration, vous pouvez relancer le jet de Touche à la place).</characteristic>
+            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Au début de votre phase de Tir, sélectionnez une unité ennemie à 30" ou moins et visible à cette figurine. Jusqu’à la fin de la phase, chaque fois qu'une unité amicale ^^**Death Guard^^** fait une attaque de tir qui cible cette unité, relancer un jet de Touche de 1 (si cette attaque est faite avec une arme Déflagration, vous pouvez relancer le jet de Touche à la place).</characteristic>
           </characteristics>
         </profile>
         <profile name="Meneur" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="e778-6ccb-2016-6cb5">
@@ -3687,12 +3687,12 @@ Tant qu’une unité ^^**Death Guard^^** de votre armée est à 7" ou moins d’
         </profile>
         <profile name="Vector of Disease" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="df3c-ad72-1ad5-4d0d">
           <characteristics>
-            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Alors que cette figurine mène une unité, les armes de mêlée équipées par des figurines de cette unité ont les compétences **[Sustained Hits 1]** et **[Lance]**.</characteristic>
+            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Tant que cette figurine mène une unité, les armes de mêlée dont les figurines de cette unité sont équipées ont les aptitudes **[Sustained Hits 1]** et **[Lance]**.</characteristic>
           </characteristics>
         </profile>
         <profile name="Unholy Resilience" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="e96b-953c-dbe9-f622">
           <characteristics>
-            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">La première fois qu'une figurine avec cette aptitude est détruite dans un tour de bataille, lancez un D6 à la fin de la phase. Sur un 2+, remettez cette figurine sur le champ de bataille, le plus près possible de l'endroit où il a été détruit et pas à la portée de l'engagement de toute unité ennemie, avec 3 PV restants. Chaque figurine ne peut être configuré de cette façon qu'une seule fois par bataille.</characteristic>
+            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">La première fois qu’une figurine dotée de cette aptitude est détruite lors d’un round de bataille, lancez un D6 à la fin de la phase. Sur 2+, replacez cette figurine sur le champ de bataille, aussi près que possible de l’endroit où elle a été détruite et hors de Portée d’Engagement de toute unité ennemie, avec 3 PV restants. Chaque figurine ne peut être replacée ainsi qu’une fois par bataille.</characteristic>
           </characteristics>
         </profile>
         <profile name="Lord of Contagion" typeId="c547-1836-d8a-ff4f" typeName="Unit" hidden="false" id="ea4-ab31-bb7d-7e9f">
@@ -3875,12 +3875,12 @@ Tant qu’une unité ^^**Death Guard^^** de votre armée est à 7" ou moins d’
         </profile>
         <profile name="Putrescent Vitality (Psychic)" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="c9ea-1d59-9bf-bb00">
           <characteristics>
-            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Au début de la phase de Combat, vous pouvez rouler un D6: sur un 1, cette unité PSYKERs souffre de Blessures Mortelles D3; sur un 2+, jusqu'à la fin de la phase, chaque fois qu'une attaque est attribuée à une figurine dans cette unité PSYKERs, Soustrayez 1 de la caractéristique de Dégâts de cette attaque.</characteristic>
+            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Au début de la phase de Combat, vous pouvez lancer un D6 : sur 1, l’unité de ce PSYKER subit D3 blessures mortelles ; sur 2+, jusqu’à la fin de la phase, chaque fois qu’une attaque est allouée à une figurine de l’unité de ce PSYKER, soustrayez 1 à la caractéristique de Dégâts de cette attaque.</characteristic>
           </characteristics>
         </profile>
         <profile name="Pestilent Familiar (Psychic)" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="6dc6-e465-e8ff-a4eb">
           <characteristics>
-            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Une fois par bataille, après avoir sélectionné des cibles pour une arme Psychique équipée de cette figurine, jusqu'à la fin de la phase, améliorez les caractéristiques de force et de Dégâts de cette arme de 2.</characteristic>
+            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Une fois par bataille, après avoir sélectionné les cibles d’une arme Psychique dont cette figurine est équipée, jusqu’à la fin de la phase, améliorez de 2 les caractéristiques de Force et de Dégâts de cette arme.</characteristic>
           </characteristics>
         </profile>
       </profiles>
@@ -4207,12 +4207,12 @@ Tant qu’une unité ^^**Death Guard^^** de votre armée est à 7" ou moins d’
       <profiles>
         <profile name="Gift of Contagion (Psychic)" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="20c4-9b25-4f77-852e">
           <characteristics>
-            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Alors que cette figurine mène une unité, chaque fois qu'une figurine dans cette unité fait une attaque qui cible une unité qui est affligée, cette attaque a la aptitude [Touches soutenues 1].</characteristic>
+            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Alors que cette figurine est à la tête d'une unité, chaque fois qu'une figurine dans cette unité fait une attaque qui cible une unité qui est affligée, cette attaque a l’aptitude [Touches soutenues 1].</characteristic>
           </characteristics>
         </profile>
         <profile name="Pestilent Fallout (Psychic)" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="4108-2036-c473-aa46">
           <characteristics>
-            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Dans votre phase de Tir, après que cette figurine ait tiré, sélectionnez une unité ennemie ^^**Infantry^^** touchée par une ou plusieurs de ces attaques faites avec son vent de peste. Jusqu'à la fin du prochain tour de votre adversaire, cette unité est affaiblie. Lorsqu'une unité est affaiblie, Soustrayez 2" de la caractéristique de mouvement des figurines de cette unité.</characteristic>
+            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Durant votre phase de Tir, après que cette figurine a tiré, sélectionnez une unité ^^**Infantry^^** ennemie touchée par une ou plusieurs de ces attaques effectuées avec son Plague Wind. Jusqu’à la fin du prochain tour de votre adversaire, cette unité est affaiblie. Tant qu’une unité est affaiblie, soustrayez 2" à la caractéristique de Mouvement des figurines de cette unité.</characteristic>
           </characteristics>
         </profile>
         <profile name="Meneur" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="290-e59f-d3bd-9a68">
@@ -4465,7 +4465,7 @@ Tant qu’une unité ^^**Death Guard^^** de votre armée est à 7" ou moins d’
         </profile>
         <profile id="90ad-b6be-844c-365d" name="Infused with the Blessings of Nurgle" hidden="false" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities">
           <characteristics>
-            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Dans votre phase de Tir, chaque fois que cette unité est sélectionnée pour tirer, après que cette unité a tiré, sélectionnez une unité ennemie touchée par une ou plusieurs de ces attaques. Jusqu'au début de votre tour suivant, cette unité est affligée.</characteristic>
+            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Durant votre phase de Tir, chaque fois que cette unité est sélectionnée pour tirer, après que cette unité a tiré, sélectionnez une unité ennemie touchée par une ou plusieurs de ces attaques. Jusqu’au début de votre prochain tour, cette unité est Afflicted.</characteristic>
           </characteristics>
         </profile>
       </profiles>
@@ -5653,18 +5653,18 @@ Tant que ^^**Typhus^^** dirige cette unité, les figurines ennemies détruites p
         </profile>
         <profile name="Sickening Vitality" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="67fb-5245-68ef-56de">
           <characteristics>
-            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Pendant que cette figurine conduit une unité, ajoutez 1" à la caractéristique de mouvement des figurines de cette unité et vous pouvez relancer les jets d’Avance et de Charge faits pour cette unité.</characteristic>
+            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Alors que cette figurine mène une unité, ajoutez 1" à la caractéristique de mouvement des figurines de cette unité et vous pouvez relancer Advance et jets de Charge de cette unité.</characteristic>
           </characteristics>
         </profile>
         <profile name="Tocsin of Misery (Aura)" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="617e-b283-8a90-df5a">
           <characteristics>
-            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Dans l'étape d’Ébranlement de la phase de Commandement de votre adversaire, si une unité ennemi inférieure à son Effectif Initial se trouve à 9" ou moins de cette figurine, cette unité ennemie doit effectuer un test d’Ébranlement, en soustrayant 1 de ce test si elle est une unité ^^**Psyker^^**.</characteristic>
+            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">À l’étape Ébranlement de la phase de Commandement de votre adversaire, si une unité ennemie En Dessous de son Effectif Initial est à 9" ou moins de cette figurine, cette unité ennemie doit effectuer un test d’Ébranlement en soustrayant 1 à ce test si elle est une unité ^^**Psyker^^**.</characteristic>
           </characteristics>
         </profile>
         <profile name="Meneur" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="5df1-a522-e690-dddc">
           <characteristics>
-            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">cette figurine peut être attachée aux unités suivantes: ^^**Plague Marines^^**, ^^**Poxwalkers^^**
-*Vous pouvez attacher cette figurine à une unité ^^**Plague Marines^^** ou ^^**Poxwalkers^^**, même si une autre unité Meneur y a déjà été attachée (vous ne pouvez pas attacher plus d'une même Meneur à la même unité). Si vous le faites, et que l'unité Bodyguard est détruite, les unités Meneur attachées à elle deviennent des unités distinctes, avec leur Effectif Initial d’origine.*</characteristic>
+            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Cette figurine peut être attachée aux unités suivantes : ^^**Plague Marines^^**, ^^**Poxwalkers^^**
+*Vous pouvez attacher cette figurine à une unité ^^**Plague Marines^^** ou ^^**Poxwalkers^^**, même si une autre unité Leader lui a déjà été attachée (vous ne pouvez pas attacher plus d’une unité Leader du même type à la même unité). Si vous le faites et que cette unité Bodyguard est détruite, les unités Leader qui lui sont attachées deviennent des unités distinctes, avec leur Effectif Initial d’origine.*</characteristic>
           </characteristics>
         </profile>
       </profiles>
@@ -5823,12 +5823,12 @@ Tant que ^^**Typhus^^** dirige cette unité, les figurines ennemies détruites p
         </profile>
         <profile name="Putrefying Stink" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="f33c-eeb8-429d-2a2f">
           <characteristics>
-            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Les figurines ennemies ne peuvent pas démarrer ou terminer un mouvement Advance à 9" ou moins de cette figurine.</characteristic>
+            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">L'ennemi figurines ne peuvent pas démarrer ou mettre fin à un mouvement d’Avance à 9" ou moins de cette figurine.</characteristic>
           </characteristics>
         </profile>
         <profile name="Blinding Spray" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="be78-8c3d-c31a-67f5">
           <characteristics>
-            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Dans la phase de Combat, vous pouvez sélectionner une figurine de votre armée avec cette aptitude pour utiliser cette aptitude. Si vous le faites, jusqu'à la fin de cette phase, l'unité de cette figurine a la aptitude Fights First. Chaque figurine ne peut être sélectionné qu'une seule fois par bataille.</characteristic>
+            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Durant la phase de Combat, vous pouvez sélectionner une figurine de votre armée dotée de cette aptitude pour qu’elle utilise cette aptitude. Si vous le faites, jusqu’à la fin de cette phase, l’unité de cette figurine a l’aptitude Fights First. Chaque figurine ne peut être sélectionnée pour cette aptitude qu’une fois par bataille.</characteristic>
           </characteristics>
         </profile>
       </profiles>
@@ -6018,7 +6018,7 @@ Tant que ^^**Typhus^^** dirige cette unité, les figurines ennemies détruites p
         </profile>
         <profile name="Foul Infusion" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="a1e3-4ac3-299c-1417">
           <characteristics>
-            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Alors que cette figurine mène une unité, les armes équipées de figurines dans cette unité ont la aptitude [Touches fatales]. En outre, chaque fois qu'une figurine dans cette unité fait une attaque, un Hit critique est marqué sur un jet de un jet de Touche non modifié de 5+, au lieu de seulement sur un 6.</characteristic>
+            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Tant que cette figurine mène une unité, les armes dont sont équipées les figurines de cette unité ont l’aptitude [Touches fatales]. De plus, chaque fois qu’une figurine de cette unité effectue une attaque, une Touche Critique est obtenue sur un jet de Touche non modifié de 5+, au lieu de seulement sur un 6.</characteristic>
           </characteristics>
         </profile>
       </profiles>
@@ -6245,7 +6245,7 @@ Tant que ^^**Typhus^^** dirige cette unité, les figurines ennemies détruites p
         </profile>
         <profile name="Malicious Calculations" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="4b43-4623-e0e1-f159">
           <characteristics>
-            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Pendant que cette figurine mène une unité, Chaque fois qu'une figurine de cette unité fait une attaque, vous pouvez ignorer n'importe ou tous les modificateurs de la caractéristique de Capacité de Tir de l'attaque. ou caractéristique de Capacité de Combat et/ou tout ou tous les modificateurs du jet de Touche.</characteristic>
+            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Tant que cette figurine dirige une unité, chaque fois qu’une figurine de cette unité effectue une attaque, vous pouvez ignorer un ou tous les modificateurs à la caractéristique de Capacité de Tir ou à la caractéristique de Capacité de Combat de cette attaque et/ou un ou tous les modificateurs au jet de Touche.</characteristic>
           </characteristics>
         </profile>
         <profile name="Seven-fold Chant" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="a8a2-18de-801d-6470">
@@ -6414,12 +6414,12 @@ Tant que ^^**Typhus^^** dirige cette unité, les figurines ennemies détruites p
         </profile>
         <profile name="Tainted Narthecium" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="61c7-91ec-614-fa78">
           <characteristics>
-            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Pendant que cette figurine mène une unité, dans votre phase de Commandement, vous pouvez retourner la figurine 1 détruit Bodyguard à cette unité.</characteristic>
+            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Alors que cette figurine mène une unité, dans votre phase de Commandement, vous pouvez retourner 1 détruit Bodyguard figurine à cette unité.</characteristic>
           </characteristics>
         </profile>
         <profile name="Inflamed Infections" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="96ee-97c4-3b67-e45">
           <characteristics>
-            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Au début de la phase de Combat, sélectionnez une unité ennemi dans la Portée d’Engagement de cette figurine. Jusqu'à la fin de la phase, chaque fois que cette figurine effectue une attaque qui cible cette unité, un jet de Touche non modifié de 5+ marque un hit critique. Si cette unité est inférieure à Demi-effectif, un jet de Touche non modifié de 4+ marque un hit critique à la place.</characteristic>
+            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Au début de la phase de Combat, sélectionnez une unité ennemie à Portée d’Engagement de cette figurine. Jusqu’à la fin de la phase, chaque fois que cette figurine effectue une attaque qui cible cette unité, un jet de Touche non modifié de 5+ inflige une Touche Critique. Si cette unité est En Dessous de son Demi-effectif, un jet de Touche non modifié de 4+ inflige une Touche Critique à la place.</characteristic>
           </characteristics>
         </profile>
       </profiles>
@@ -6585,17 +6585,17 @@ Tant que ^^**Typhus^^** dirige cette unité, les figurines ennemies détruites p
         </profile>
         <profile name="Silent Bodyguard" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="a4ac-68a4-3849-3695">
           <characteristics>
-            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Alors qu'une figurine ^^**Character^^** figurine est leading cette unité, cette ^^**Character^^** a la aptitude Insensible à la douleur 4+.</characteristic>
+            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Alors qu'une ^^**Character^^** figurine est leading cette unité, cette ^^**Character^^** figurine a l’aptitude Insensible à la douleur 4+.</characteristic>
           </characteristics>
         </profile>
         <profile name="Sauvegarde Invulnérable" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="71fc-4706-77d0-25e9">
           <characteristics>
-            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Les figurines de cette unité ont un 4+ sauvegarde invulnérable.</characteristic>
+            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Les figurines de cette unité ont une sauvegarde invulnérable de 4+.</characteristic>
           </characteristics>
         </profile>
         <profile name="Death Approaches" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="4245-0a58-3995-1671">
           <characteristics>
-            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Dans votre phase de Mouvement, lorsque cette unité est mise en place sur le champ de bataille en utilisant la aptitude Frappe en profondeur, elle peut être mise en place n'importe où sur le champ de bataille qui est plus de 6" horizontalement loin de toutes les unités ennemies affligées, et plus de 9" horizontalement loin de toutes les autres unités ennemies.</characteristic>
+            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Dans votre phase de Mouvement, lorsque cette unité est configurée sur le champ de bataille en utilisant l’aptitude Frappe en profondeur, elle peut être configurée n'importe où sur le champ de bataille qui est plus de 6" horizontalement loin de toutes les unités ennemies affligées, et plus de 9" horizontalement loin de toutes les autres unités ennemies.</characteristic>
           </characteristics>
         </profile>
       </profiles>
@@ -6813,12 +6813,12 @@ Tant que ^^**Typhus^^** dirige cette unité, les figurines ennemies détruites p
         </profile>
         <profile name="Diseased Malice" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="39dd-f8e7-418a-a141">
           <characteristics>
-            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Chaque fois que cette figurine fait une attaque visant une unité affligée, ajoutez 1 au jet de Blessure.</characteristic>
+            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Chaque fois que cette figurine effectue une attaque visant une unité affligée, ajoutez 1 au jet de Blessure.</characteristic>
           </characteristics>
         </profile>
         <profile name="Froth-spattered Frenzy" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="af7f-a1a3-d20e-9c">
           <characteristics>
-            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Si cette figurine est équipé de deux armes de mêlée en plus de son arme de mêlée à proximité, ajoutez 2 aux caractéristique d’Attaques de ces deux armes.</characteristic>
+            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Si cette figurine est équipée de deux armes de mêlée en plus de son arme de corps à corps, ajoutez 2 à la caractéristique d’Attaques de ces deux armes.</characteristic>
           </characteristics>
         </profile>
       </profiles>
@@ -7702,12 +7702,12 @@ Tant que ^^**Typhus^^** dirige cette unité, les figurines ennemies détruites p
         </profile>
         <profile name="Sauvegarde Invulnérable" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="75a9-938d-b369-6d81">
           <characteristics>
-            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Les figurines de cette unité ont un 4+ sauvegarde invulnérable.</characteristic>
+            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Les figurines de cette unité ont une sauvegarde invulnérable de 4+.</characteristic>
           </characteristics>
         </profile>
         <profile name="Blistering Fusillade" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="c485-d6a6-8913-c29a">
           <characteristics>
-            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Si cette unité a une Effectif Initial de 5 ou plus, ou si une ^^**Character^^** est à la tête de cette unité, alors chaque fois qu'une figurine de cette unité effectue une attaque de tir qui cible une unité affectée, améliorez les caractéristiques de pénétration de la force et de l'armure de cette attaque de 1.</characteristic>
+            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Si cette unité a un Effectif Initial de 5 ou plus, ou si un ^^**Character^^** dirige cette unité, alors chaque fois qu'une figurine dans cette unité fait une attaque de tir qui cible une unité affligée, Améliorez les caractéristiques de Force et de Pénétration d’Armure de cette attaque de 1.</characteristic>
           </characteristics>
         </profile>
       </profiles>
@@ -7888,7 +7888,7 @@ Tant que ^^**Typhus^^** dirige cette unité, les figurines ennemies détruites p
         </profile>
         <profile id="345b-e060-85c4-3a04" name="Lethal Ichor" hidden="false" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities">
           <characteristics>
-            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Chaque fois qu'une attaque de mêlée est attribuée à une figurine dans cette unité, après que l'unité attaquante ait terminé ses attaques, lancez un D6 (au maximum six D6 par unité attaquante): pour chaque 4+, l'unité attaquante subit une blessure mortelle 1.</characteristic>
+            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Chaque fois qu’une attaque de mêlée est allouée à une figurine de cette unité, après que l’unité attaquante a terminé d’effectuer ses attaques, lancez un D6 (jusqu’à un maximum de six D6 par unité attaquante) : pour chaque résultat de 4+, l’unité attaquante subit 1 blessure mortelle.</characteristic>
           </characteristics>
         </profile>
       </profiles>
@@ -8235,12 +8235,12 @@ Tant que ^^**Typhus^^** dirige cette unité, les figurines ennemies détruites p
       <profiles>
         <profile name="Tank Hunters" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="e47-254c-cdf9-7c5e">
           <characteristics>
-            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Dans ta phase de Tir, Chaque fois qu'une figurine de cette unité fait une attaque qui cible un ^^**Monster^^** ou ^^**Vehicle^^** unité, Ajoutez 1 au jet de Touche et Ajoutez 1 au jet de Blessure.</characteristic>
+            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Dans votre phase de Tir, chaque fois qu'une figurine de cette unité effectue une attaque visant une unité ^^**Monster^^** ou ^^**Vehicle^^**, ajoutez 1 au jet de Touche et ajoutez 1 au jet de Blessure.</characteristic>
           </characteristics>
         </profile>
         <profile name="Sauvegarde Invulnérable" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="f24e-d919-2175-70bb">
           <characteristics>
-            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Les figurines de cette unité ont un 5+ sauvegarde invulnérable.</characteristic>
+            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Les figurines de cette unité ont une sauvegarde invulnérable de 5+.</characteristic>
           </characteristics>
         </profile>
       </profiles>
@@ -8572,7 +8572,7 @@ Tant que ^^**Typhus^^** dirige cette unité, les figurines ennemies détruites p
         </profile>
         <profile name="Spore-laced Shock Waves" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="51dd-7b91-7f32-bd8f">
           <characteristics>
-            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Dans votre phase de Tir, chaque fois que vous sélectionnez une cible pour le mortier Plagueburst de cette figurine, lancez un D6 pour l'unité cible et toutes les autres unités ennemies à 3" ou moins de l'unité cible, en ajoutant 1 à ce jet si l'unité pour laquelle vous lancez est affectée. Sur un 6+, l'unité pour laquelle sur roule est frappée par des spores; après avoir résolu toutes les attaques de cette figurine contre l'unité cible, chaque unité frappée par des spores subit des Blessures Mortelles D3.</characteristic>
+            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Durant votre phase de Tir, chaque fois que vous sélectionnez une cible pour le Plagueburst mortar de cette figurine, lancez un D6 pour l’unité cible et chaque autre unité ennemie à 3" ou moins de l’unité cible, en ajoutant 1 à ce jet si l’unité concernée est Afflicted. Sur 6+, l’unité concernée est frappée par des spores ; après avoir résolu toutes les attaques de cette figurine contre l’unité cible, chaque unité frappée par des spores subit D3 blessures mortelles.</characteristic>
           </characteristics>
         </profile>
         <profile name="Sauvegarde Invulnérable" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="85e5-391a-502b-3260">
@@ -8918,7 +8918,7 @@ Tant que ^^**Typhus^^** dirige cette unité, les figurines ennemies détruites p
         </profile>
         <profile id="4fa1-d53f-feff-9180" name="Assault Ramp" hidden="false" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities">
           <characteristics>
-            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Chaque fois qu'une unité débarque de cette figurine après avoir effectué un déplacement normal, cette unité est toujours éligible à déclarer une charge à ce tour.</characteristic>
+            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Chaque fois qu'une unité débarque de cette figurine après avoir effectué un mouvement Normal, cette unité est toujours éligible à déclarer une charge à ce tour.</characteristic>
           </characteristics>
         </profile>
         <profile id="1faf-2468-730f-28b0" name="Chaos Land Raider" hidden="false" typeId="74f8-5443-9d6d-1f1e" typeName="Transport">
@@ -9156,7 +9156,7 @@ Tant que ^^**Typhus^^** dirige cette unité, les figurines ennemies détruites p
         </profile>
         <profile id="a5c8-bcd-15d5-32ae" name="Metalophagic Infection" hidden="false" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities">
           <characteristics>
-            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Dans votre phase de Tir, après que cette figurine ait tiré, sélectionnez une unité ennemie ^^**Monster^^** ou ^^**Vehicle^^** frappée par une ou plusieurs de ces attaques. Lancez un D6, ajoutant 1 au résultat si cette unité est affectée; sur un 5+, cette unité souffre de Blessures Mortelles D3.</characteristic>
+            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Dans votre phase de Tir, après que cette figurine ait tiré, sélectionnez un ennemi ^^**Monster^^** ou ^^**Vehicle^^** frappé par une ou plusieurs de ces Attaques. Lancez un D6, ajoutant 1 au résultat si cette unité est affectée; sur un 5+, cette unité souffre D3 Blessures Mortelles.</characteristic>
           </characteristics>
         </profile>
       </profiles>
@@ -9370,7 +9370,7 @@ Tant que ^^**Typhus^^** dirige cette unité, les figurines ennemies détruites p
         </profile>
         <profile id="d42e-f8ea-a29a-2766" name="Hail of Corrosive Disease" hidden="false" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities">
           <characteristics>
-            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Dans votre phase de Tir, après que cette figurine ait tiré, sélectionnez une unité ennemi (à l'exclusion de ^^**Monsters^^** et ^^**Vehicles^^**) frappée par une ou plusieurs de ces attaques. Jusqu'à la fin de la phase, chaque fois qu'une unité ^^**Death Guard^^** fait une attaque de tir qui cible cette unité ennemie, améliore la caractéristique de Pénétration d’Armure de cette attaque de 1. La même unité ennemie ne peut être affectée par cette aptitude qu'une seule fois par phase.</characteristic>
+            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Dans votre phase de Tir, après que cette figurine a tourné, sélectionnez une unité ennemie (à l’exclusion de ^^**Monsters^^** et ^^**Vehicles^^**) frappé par un ou plusieurs de ces Attaques. Jusqu’à la fin de la phase, chaque fois qu'une unité d'amitié ^^**Death Guard^^** fait une attaque de tir qui cible cette unité ennemie, améliore la caractéristique de Pénétration d’Armure de cette attaque de 1. Le même unité ennemie ne peut être affecté par cette aptitude qu'une seule fois par phase.</characteristic>
           </characteristics>
         </profile>
       </profiles>
@@ -9642,7 +9642,7 @@ Tant que ^^**Typhus^^** dirige cette unité, les figurines ennemies détruites p
         </profile>
         <profile id="c0c9-74ff-68a4-bbec" name="Fire Support" hidden="false" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities">
           <characteristics>
-            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Dans votre phase de Tir, après que cette figurine ait tiré, sélectionnez une unité ennemie touchée par une ou plusieurs de ces attaques. Jusqu'à la fin de la phase, chaque fois qu'une figurine amie qui a débarqué de ce ^^**Transport**^^ à ce tour fait une attaque qui cible cette unité, vous pouvez relancer le jet de Blessure.</characteristic>
+            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Durant votre phase de Tir, après que cette figurine a tiré, sélectionnez une unité ennemie touchée par une ou plusieurs de ces attaques. Jusqu’à la fin de la phase, chaque fois qu’une figurine amie qui a débarqué de ce ^^**Transport**^^ à ce tour effectue une attaque qui cible cette unité, vous pouvez relancer le jet de Blessure.</characteristic>
           </characteristics>
         </profile>
         <profile id="a30-f657-cd89-33c1" name="Chaos Rhino" hidden="false" typeId="74f8-5443-9d6d-1f1e" typeName="Transport">
@@ -9833,12 +9833,12 @@ Tant que ^^**Typhus^^** dirige cette unité, les figurines ennemies détruites p
         </profile>
         <profile name="Host of Plagues" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="f80d-c92e-8aa-d3d1">
           <characteristics>
-            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">À la fin de votre phase de Mouvement, lancez un D6 pour chaque unité ennemi à 6" ou moins de cette figurine, ajoutant 1 au résultat si cette unité est affectée; sur un 3+, cette unité ennemi souffre D3 Blessures Mortelles.</characteristic>
+            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">À la fin de votre phase de Mouvement, lancez un D6 pour chaque unité ennemie à 6" ou moins de cette figurine, ajoutant 1 au résultat si cette unité est affectée; sur un 3+, que cette unité ennemie souffre D3 Blessures Mortelles.</characteristic>
           </characteristics>
         </profile>
         <profile name="Lord of the Death Guard" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="5ab4-d691-93a8-3d21">
           <characteristics>
-            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Une fois par tour, cette figurine peut utiliser l'une des capacités Lord of the Death Guard.</characteristic>
+            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Une fois par tour, cette figurine peut utiliser l’une des aptitudes Lord of the Death Guard.</characteristic>
           </characteristics>
         </profile>
         <profile name="Damaged: 1-6 wounds remaining" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="518f-419c-f428-4fb9">
@@ -10018,7 +10018,7 @@ Tant que ^^**Typhus^^** dirige cette unité, les figurines ennemies détruites p
         </profile>
         <profile name="Blessed Icon of Disease" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="57f2-2abe-dcb7-2355">
           <characteristics>
-            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Une fois par bataille, au début de toute phase, vous pouvez sélectionner une unité ^^**Death Guard^^** amicale qui est Ébranlée et à 12" ou moins de cette figurine. Cette unité n'est plus Ébranlée.</characteristic>
+            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Une fois par bataille, au début de n’importe quelle phase, vous pouvez sélectionner une unité ^^**Death Guard^^** amie qui est Ébranlée et à 12" ou moins de cette figurine. Cette unité n’est plus Ébranlée.</characteristic>
           </characteristics>
         </profile>
       </profiles>
@@ -10180,17 +10180,17 @@ Tant que ^^**Typhus^^** dirige cette unité, les figurines ennemies détruites p
         </profile>
         <profile name="Putrescent Fog (Aura)" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="f006-4a66-c5fb-edcd">
           <characteristics>
-            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Les unités ennemies placées sur le champ de bataille en tant que renforts ne peuvent pas être placées à 12" ou moins de cette figurine.</characteristic>
+            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Les unités ennemies qui sont installées sur le champ de bataille en tant que Renforcements ne peuvent pas être installées à 12" ou moins de cette figurine.</characteristic>
           </characteristics>
         </profile>
         <profile name="Diseased Cover" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="7d03-829f-56a1-940d">
           <characteristics>
-            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Chaque fois qu'une attaque de tir est attribuée à une figurine, si cette figurine n'est pas pleinement visible à tous les figurines de l'unité d'attaque à cause de ce **^^Fortification^^**, cette figurine a le Bénéfice du Couvert contre cette attaque.</characteristic>
+            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Chaque fois qu’une attaque de tir est allouée à une figurine, si cette figurine n’est pas entièrement visible de toutes les figurines de l’unité attaquante à cause de cette **^^Fortification^^**, cette figurine a le Bénéfice du Couvert contre cette attaque.</characteristic>
           </characteristics>
         </profile>
         <profile name="Deployment" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="2e2d-33de-e666-96f9">
           <characteristics>
-            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Les deux parties de ce ^^**Fortification**^^ doivent être déployées à 1" ou moins de l'autre. Les deux parties sont alors traitées comme une figurine unique pour toutes les règles.</characteristic>
+            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Les deux parties de cette ^^**Fortification**^^ doivent être déployées à 1" ou moins l’une de l’autre. Elles sont ensuite traitées comme une seule figurine pour l’application de toutes les règles.</characteristic>
           </characteristics>
         </profile>
       </profiles>
@@ -10829,7 +10829,7 @@ Tant que ^^**Typhus^^** dirige cette unité, les figurines ennemies détruites p
       <profiles>
         <profile name="Fearsome (Aura)" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="cced-5e5d-5eb4-2c2e">
           <characteristics>
-            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Alors qu'une unité ennemie est à 6" ou moins de cette unité, chaque fois que cette unité ennemie fait un test d’Ébranlement ou de Commandement, Soustrayez 1 du résultat.</characteristic>
+            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Alors qu'une unité ennemie est à 6" ou moins de cette unité, chaque fois que cette unité ennemie prend un Ébranlement ou test de Commandement, Soustrayez 1 du résultat.</characteristic>
           </characteristics>
         </profile>
       </profiles>
@@ -11097,7 +11097,7 @@ Tant que ^^**Typhus^^** dirige cette unité, les figurines ennemies détruites p
         </profile>
         <profile name="Interceptor" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="abbf-56ef-4bbb-e773">
           <characteristics>
-            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Chaque fois que cette figurine fait une attaque de tir qui vise une unité qui peut FLY, Ajoutez 1 au jet de Touche.</characteristic>
+            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Chaque fois que cette figurine fait une attaque de tir qui cible une unité qui peut FLY, ajoutez 1 au jet de Touche.</characteristic>
           </characteristics>
         </profile>
       </profiles>
@@ -11293,7 +11293,7 @@ Tant que ^^**Typhus^^** dirige cette unité, les figurines ennemies détruites p
         </profile>
         <profile name="Bomb Rack" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="9574-8920-9f24-b62b">
           <characteristics>
-            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Chaque fois que cette figurine termine un mouvement normal, vous pouvez sélectionner une unité ennemie qu'elle a traversée pendant ce mouvement et rouler six D6: pour chaque 3+, cette unité souffre 1 blessure mortelle.</characteristic>
+            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Chaque fois que cette figurine termine un mouvement Normal, vous pouvez sélectionner une unité ennemie qu’elle a traversée durant ce mouvement et lancer six D6 : pour chaque 3+, cette unité subit 1 blessure mortelle.</characteristic>
           </characteristics>
         </profile>
         <profile name="Hell Talon" typeId="c547-1836-d8a-ff4f" typeName="Unit" hidden="false" id="150d-70ce-80-b50f">
@@ -11483,7 +11483,7 @@ Tant que ^^**Typhus^^** dirige cette unité, les figurines ennemies détruites p
         </profile>
         <profile name="Mischief Makers (Aura)" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="7bab-2277-35bc-d39a">
           <characteristics>
-            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Alors qu'une unité ennemie (à l'exclusion de MONSTERS et VEHICLES) se trouve à 6" ou moins de cette unité, chaque fois qu'une figurine dans cette unité effectue une attaque de mêlée, Soustrayez 1 du jet de Touche.</characteristic>
+            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Alors qu'une unité ennemie (à l’exclusion de MONSTERS et VEHICLES) se trouve à 6" ou moins de cette unité, chaque fois qu'une figurine dans cette unité fait une attaque de mêlée, Soustrayez 1 du jet de Touche.</characteristic>
           </characteristics>
         </profile>
       </profiles>
@@ -11583,12 +11583,12 @@ Tant que ^^**Typhus^^** dirige cette unité, les figurines ennemies détruites p
         </profile>
         <profile name="Gift of Poxes (Psychic)" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="4bc3-6d49-d99d-ff2c">
           <characteristics>
-            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Alors que cette figurine mène une unité, les armes équipées de figurines dans cette unité ont la aptitude [Touches soutenues 1].</characteristic>
+            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Alors que cette figurine mène une unité, les armes équipées des figurines de cette unité ont l’aptitude [Touches soutenues 1].</characteristic>
           </characteristics>
         </profile>
         <profile name="Feculent Despair (Aura, Psychic)" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="7104-86cd-2534-e8ac">
           <characteristics>
-            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Alors qu'une unité ennemie est à 6" ou moins de cette figurine, chaque fois que cette unité effectue un test d’Ébranlement, Soustrayez 1 de ce test.</characteristic>
+            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Lorsqu'une unité ennemie se trouve à 6" ou moins de cette figurine, chaque fois que l'unité prend un test d’Ébranlement, Soustrayez la 1 de ce test.</characteristic>
           </characteristics>
         </profile>
         <profile name="Sorcerer on Palanquin of Nurgle" hidden="false" id="c9c2-7445-bdb2-e735" typeId="c547-1836-d8a-ff4f" typeName="Unit">
@@ -12006,7 +12006,7 @@ Tant que ^^**Typhus^^** dirige cette unité, les figurines ennemies détruites p
       <profiles>
         <profile name="Infectious Bloodshed" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="b147-cef6-450f-b85e">
           <characteristics>
-            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Chaque fois que cette unité fait un mouvement de Charge, jusqu'à la fin du tour, les armes équipées de figurines dans cette unité ont la aptitude [Touches soutenues 1].</characteristic>
+            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Chaque fois que cette unité fait un mouvement de charge, jusqu'à la fin du tour, les armes équipées par les figurines de cette unité ont l’aptitude [Touches soutenues 1].</characteristic>
           </characteristics>
         </profile>
         <profile name="Death Guard Possessed" typeId="c547-1836-d8a-ff4f" typeName="Unit" hidden="false" id="dc24-6621-3f4d-a0db">
@@ -12021,7 +12021,7 @@ Tant que ^^**Typhus^^** dirige cette unité, les figurines ennemies détruites p
         </profile>
         <profile name="Sauvegarde Invulnérable" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="75e4-8863-1d83-ea57">
           <characteristics>
-            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Les figurines de cette unité ont un 5+ sauvegarde invulnérable.</characteristic>
+            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Les figurines de cette unité ont une sauvegarde invulnérable de 5+.</characteristic>
           </characteristics>
         </profile>
       </profiles>
@@ -12036,7 +12036,7 @@ Tant que ^^**Typhus^^** dirige cette unité, les figurines ennemies détruites p
           <profiles>
             <profile name="Diseased icon" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="22b2-d9d0-69ed-4540">
               <characteristics>
-                <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Les armes de Melee dans l'unité du porteur ont la aptitude [Touches fatales].</characteristic>
+                <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Les armes de mêlée de l’unité du porteur ont l’aptitude [Touches fatales].</characteristic>
               </characteristics>
             </profile>
           </profiles>
@@ -12258,7 +12258,7 @@ Tant que ^^**Typhus^^** dirige cette unité, les figurines ennemies détruites p
         </profile>
         <profile name="Shroud of Disease" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="4acf-b450-25c4-fe66">
           <characteristics>
-            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Tant que cette figurine mène une unité, cette unité ne peut pas être ciblée par des attaques de tir à moins que l'unité attaquante ne soit à 18" ou moins.</characteristic>
+            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Tant que cette figurine mène une unité, cette unité ne peut pas être ciblée par des attaques de tir, à moins que l’unité attaquante soit à 18" ou moins.</characteristic>
           </characteristics>
         </profile>
       </profiles>
@@ -12413,7 +12413,7 @@ Tant que ^^**Typhus^^** dirige cette unité, les figurines ennemies détruites p
       <profiles>
         <profile name="Icon of Despair (Aura)" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="7f4f-bece-9a6f-8b55">
           <characteristics>
-            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Alors qu'une unité ennemie est à 6" ou moins du porteur, aggraver la caractéristique de Commandement des figurines dans cette unité par 1.</characteristic>
+            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Alors qu'une unité ennemie est à 6" ou moins du porteur, aggraver la caractéristique de Commandement des figurines de cette unité par 1.</characteristic>
           </characteristics>
         </profile>
       </profiles>
@@ -12588,12 +12588,12 @@ Tant que ^^**Typhus^^** dirige cette unité, les figurines ennemies détruites p
         </profile>
         <profile name="Daemon Lord of Nurgle (Aura)" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="5bca-e25c-b5a7-0670">
           <characteristics>
-            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Alors qu'une unité ^^Plague Legions^^ conviviale se trouve à 6" ou moins de cette figurine, ajoutez 1 à la caractéristique d’Endurance des figurines de cette unité.</characteristic>
+            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Lorsqu'une unité amicale ^^Plague Legions^^ se trouve à 6" ou moins de cette figurine, ajoutez 1 à la caractéristique d’Endurance des figurines de cette unité.</characteristic>
           </characteristics>
         </profile>
         <profile name="Nurgle’s Rot (Psychic)" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="dbf3-eb68-32ee-5cac">
           <characteristics>
-            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">À la fin de votre phase de Mouvement, vous pouvez sélectionner une unité ennemi à 12" ou moins de cette figurine. Jusqu'au début de votre prochaine phase de Mouvement, cette unité est pourrie. Pendant qu'une unité est pourrie, Soustrayez 1 à la caractéristique d’Endurance des figurines de cette unité.</characteristic>
+            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">À la fin de votre phase de Mouvement, vous pouvez sélectionner une unité ennemie à 12" ou moins de cette figurine. Jusqu'au début de votre prochaine phase de Mouvement, cette unité est pourrie. Pendant qu'une unité est pourrie, Soustrayez 1 à partir de la caractéristique d’Endurance des figurines de cette unité.</characteristic>
           </characteristics>
         </profile>
         <profile name="Great Unclean One" typeId="c547-1836-d8a-ff4f" typeName="Unit" hidden="false" id="09d4-4702-f9b5-69e0">
@@ -12770,7 +12770,7 @@ Tant que ^^**Typhus^^** dirige cette unité, les figurines ennemies détruites p
               </profiles>
               <rules>
                 <rule name="Reverberating Summons" id="fe85-1202-bb76-e157" hidden="false">
-                  <description>Chaque fois qu'une figurine est détruite par cette arme, vous pouvez sélectionner une unité ^^**Plaguebearers**^^ amicale à 12" ou moins du porteur et retourner 1 détruit Plaguebearer figurine à cette unité.</description>
+                  <description>Chaque fois qu'une figurine est détruite par cette arme, vous pouvez sélectionner une unité amicale ^^**Plaguebearers**^^ à 12" ou moins du porteur et retourner 1 détruit Plaguebearer figurine à cette unité.</description>
                 </rule>
               </rules>
               <infoLinks>
@@ -12828,12 +12828,12 @@ Tant que ^^**Typhus^^** dirige cette unité, les figurines ennemies détruites p
         </profile>
         <profile name="Virulent Blessing (Psychic)" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="2179-a9f0-2bbf-85a5">
           <characteristics>
-            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Au début de la phase de Combat, vous pouvez sélectionner une unité ennemi à 24" ou moins et visible à cette figurine. Jusqu'à la fin de la phase, chaque fois qu'une attaque effectuée par une figurine ^^**Plague Legions^^** est attribuée à une figurine de cette unité, ajoutez 1 à la caractéristique de Dégâts de cette attaque.</characteristic>
+            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Au début de la phase de Combat, vous pouvez sélectionner une unité ennemie à 24" ou moins et visible à cette figurine. Jusqu’à la fin de la phase, chaque fois qu'une attaque effectuée par une ^^**Plague Legions^^** figurine est attribuée à une figurine dans cette unité, ajoutez 1 à la caractéristique de Dégâts de cette attaque.</characteristic>
           </characteristics>
         </profile>
         <profile name="Deluge of Nurgle (Aura)" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="feaf-5fb0-18a5-2834">
           <characteristics>
-            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Alors qu'une unité ennemie se trouve à 6" ou moins de cette figurine, Soustrayez 2 de la caractéristique de mouvement et soustraire 1 de la caractéristique de Contrôle d’Objectif des figurines de cette unité.</characteristic>
+            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Lorsqu'une unité ennemie se trouve à 6" ou moins de cette figurine, Soustrayez 2 de la caractéristique de mouvement et soustraire 1 de la caractéristique de Contrôle d’Objectif du les figurines de cette unité.</characteristic>
           </characteristics>
         </profile>
         <profile name="Damaged: 1-7 wounds remaining" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="5b12-fe98-38b5-dc24">
@@ -12968,12 +12968,12 @@ Tant que ^^**Typhus^^** dirige cette unité, les figurines ennemies détruites p
       <profiles>
         <profile name="Sauvegarde Invulnérable" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="0e97-eb55-217b-80da">
           <characteristics>
-            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Les figurines de cette unité ont un 5+ sauvegarde invulnérable.</characteristic>
+            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Les figurines de cette unité ont une sauvegarde invulnérable de 5+.</characteristic>
           </characteristics>
         </profile>
         <profile name="Infected Outbreak" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="96e0-4568-6c3f-47dc">
           <characteristics>
-            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Si vous contrôlez un marqueur objectif à la fin de votre phase de Commandement et que cette unité est à la portée de ce marqueur objectif, ce marqueur objectif reste sous votre contrôle, même si vous n'avez pas de figurines à la portée de celui-ci, jusqu'à ce que votre adversaire le contrôle au début ou à la fin de tout tour.</characteristic>
+            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Si vous contrôlez un pion d’objectif à la fin de votre phase de Commandement et que cette unité se trouve à l'intérieur de Portée de ce pion d’objectif, ce pion d’objectif reste sous votre contrôle, même si vous n'avez pas de figurines à l'intérieur de Portée de celui-ci, jusqu'à ce que votre adversaire le contrôle au début ou à la fin de tout tour.</characteristic>
           </characteristics>
         </profile>
         <profile name="Plaguebearers" typeId="c547-1836-d8a-ff4f" typeName="Unit" hidden="false" id="2f51-51bb-24ac-5385">
@@ -13127,7 +13127,7 @@ Tant que ^^**Typhus^^** dirige cette unité, les figurines ennemies détruites p
       <profiles>
         <profile name="Instrument of Chaos" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="051c-0336-f156-ca63">
           <characteristics>
-            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Ajoutez 1 aux jets de Charge de l'unité du porteur.</characteristic>
+            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Ajoutez 1 aux jets de Charge effectués pour l’unité du porteur.</characteristic>
           </characteristics>
         </profile>
       </profiles>
@@ -13159,7 +13159,7 @@ Tant que ^^**Typhus^^** dirige cette unité, les figurines ennemies détruites p
       <profiles>
         <profile name="Sauvegarde Invulnérable" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="5a11-1380-7c06-d39b">
           <characteristics>
-            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Les figurines de cette unité ont un 5+ sauvegarde invulnérable.</characteristic>
+            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Les figurines de cette unité ont une sauvegarde invulnérable de 5+.</characteristic>
           </characteristics>
         </profile>
         <profile name="Plague Drones" typeId="c547-1836-d8a-ff4f" typeName="Unit" hidden="false" id="1367-eed7-3f74-9e99">
@@ -13174,7 +13174,7 @@ Tant que ^^**Typhus^^** dirige cette unité, les figurines ennemies détruites p
         </profile>
         <profile name="Death’s Heads" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="8da3-6aff-8906-96b2">
           <characteristics>
-            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Dans votre phase de Tir, après que cette unité ait tiré, sélectionnez une unité ennemie touchée par une ou plusieurs de ces attaques. Jusqu'à la fin du tour, à chaque fois qu'une unité amicale Nurgle LEGIONES DAEMONICA fait une attaque qui cible cette unité, vous pouvez relancer le jet de Blessure.</characteristic>
+            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Durant votre phase de Tir, après que cette unité a tiré, sélectionnez une unité ennemie touchée par une ou plusieurs de ces attaques. Jusqu’à la fin du tour, chaque fois qu’une unité NURGLE LEGIONES DAEMONICA amie effectue une attaque qui cible cette unité, vous pouvez relancer le jet de Blessure.</characteristic>
           </characteristics>
         </profile>
       </profiles>
@@ -13408,7 +13408,7 @@ Tant que ^^**Typhus^^** dirige cette unité, les figurines ennemies détruites p
       <profiles>
         <profile name="Sauvegarde Invulnérable" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="96fc-d0b7-506d-6eec">
           <characteristics>
-            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Les figurines de cette unité ont un 5+ sauvegarde invulnérable.</characteristic>
+            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Les figurines de cette unité ont une sauvegarde invulnérable de 5+.</characteristic>
           </characteristics>
         </profile>
         <profile name="Beasts of Nurgle" typeId="c547-1836-d8a-ff4f" typeName="Unit" hidden="false" id="49f8-9450-1fd3-d962">
@@ -13423,7 +13423,7 @@ Tant que ^^**Typhus^^** dirige cette unité, les figurines ennemies détruites p
         </profile>
         <profile name="Grotesque Regeneration" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="fc0f-94b2-caf8-5c06">
           <characteristics>
-            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">À la fin de chaque phase, si une figurine Beasts of Nurgle dans cette unité a perdu des blessures mais n'est pas détruit, cette figurine récupère toutes ses PV perdus.</characteristic>
+            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">À la fin de chaque phase, si une figurine Beasts of Nurgle de cette unité a perdu un ou plusieurs PV mais n’est pas détruite, cette figurine récupère tous ses PV perdus.</characteristic>
           </characteristics>
         </profile>
       </profiles>
@@ -13531,7 +13531,7 @@ Tant que ^^**Typhus^^** dirige cette unité, les figurines ennemies détruites p
       <profiles>
         <profile name="Sauvegarde Invulnérable" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="af2e-e08a-47af-6b32">
           <characteristics>
-            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Les figurines de cette unité ont un 5+ sauvegarde invulnérable.</characteristic>
+            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Les figurines de cette unité ont une sauvegarde invulnérable de 5+.</characteristic>
           </characteristics>
         </profile>
         <profile name="Nurglings" typeId="c547-1836-d8a-ff4f" typeName="Unit" hidden="false" id="93a1-947c-4137-22f5">
@@ -13546,7 +13546,7 @@ Tant que ^^**Typhus^^** dirige cette unité, les figurines ennemies détruites p
         </profile>
         <profile name="Mischief Makers (Aura)" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="d2a9-5017-31c5-378e">
           <characteristics>
-            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Chaque fois qu'une unité ennemie (à l'exclusion des unités ^^Titanic^^) dans la Portée d’Engagement d'une ou de plusieurs unités avec cette aptitude est sélectionnée pour combattre, jusqu'à la fin de la phase, chaque fois qu'une figurine dans cette unité ennemie effectue une attaque de mêlée, Soustrayez 1 du jet de Touche.</characteristic>
+            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Chaque fois qu'une unité ennemie (à l’exclusion de ^^Titanic^^ unités) dans Portée d’Engagement d'une ou de plusieurs unités avec cette aptitude est sélectionnée pour combattre, Jusqu’à la fin de la phase, chaque fois qu'une figurine dans cette unité ennemie fait une attaque de mêlée, Soustrayez 1 du jet de Touche.</characteristic>
           </characteristics>
         </profile>
       </profiles>
@@ -13639,7 +13639,7 @@ Tant que ^^**Typhus^^** dirige cette unité, les figurines ennemies détruites p
         </profile>
         <profile name="Explosive Blight" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="2f84-c15e-e6e9-b7f8">
           <characteristics>
-            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Dans votre phase de Tir, chaque fois que cette figurine effectue une attaque qui détruit une unité ennemie, avant de retirer le dernier figurine de cette unité du jeu, lancez un D6, ajoutant 1 au résultat si cette unité est affligée; sur un 5+, chaque unité ennemie à 6" ou moins de cette figurine est affligée jusqu'au début de votre prochain tour.</characteristic>
+            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Durant votre phase de Tir, chaque fois que cette figurine effectue une attaque qui détruit une unité ennemie, avant de retirer du jeu la dernière figurine de cette unité, lancez un D6 en ajoutant 1 au résultat si cette unité est Afflicted : sur 5+, chaque unité ennemie à 6" ou moins de cette figurine est Afflicted jusqu’au début de votre prochain tour.</characteristic>
           </characteristics>
         </profile>
         <profile name="Sauvegarde Invulnérable" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="4770-c987-e24d-7f8b">
@@ -13841,7 +13841,7 @@ Tant que ^^**Typhus^^** dirige cette unité, les figurines ennemies détruites p
         </profile>
         <profile name="Gift of Contagion (Psychic)" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="b3d3-39f2-9432-a856">
           <characteristics>
-            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Chaque fois qu'une figurine dans cette unité fait une attaque qui cible une unité qui est affligée, cette attaque a la aptitude [Touches soutenues 1].</characteristic>
+            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Chaque fois qu'une figurine dans cette unité fait une attaque qui cible une unité qui est affligée, cette attaque a l’aptitude [Touches soutenues 1].</characteristic>
           </characteristics>
         </profile>
         <profile name="Meneur" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="78e7-f41c-53c5-0b6f">
@@ -14306,12 +14306,12 @@ Tant que ^^**Typhus^^** dirige cette unité, les figurines ennemies détruites p
         </profile>
         <profile name="Scuttling Walker" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="3916-ac4e-b0af-7cbe">
           <characteristics>
-            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Chaque fois que cette unité effectue un mouvement normal, d'avance ou de Retraite, elle peut se déplacer à travers des figurines (à l'exclusion des figurines ^^**Titanic**^^) et des caractéristiques du terrain. Lorsqu'il le fait, il peut se déplacer à l'intérieur de la Portée d’Engagement des figurines ennemies, mais ne peuvent pas terminer ce mouvement à l'intérieur de la Portée d’Engagement de ceux-ci, et tout test d'évasion désespérée est automatiquement passé.</characteristic>
+            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Chaque fois que cette unité fait un Normal, Advance ou mouvement de Retraite, elle peut passer par figurines (à l’exclusion de ^^**Titanic**^^ figurines) et éléments de terrain. Lorsqu'il le fait, il peut se déplacer à l'intérieur de Portée d’Engagement de l'ennemi figurines, mais ne peuvent pas terminer ce mouvement à l'intérieur de Portée d’Engagement d'eux, et tout test de Fuite Désespérée est automatiquement passé.</characteristic>
           </characteristics>
         </profile>
         <profile name="Barrage of Filth" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="4aeb-d675-b699-1130">
           <characteristics>
-            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Dans votre phase de Tir, après que cette figurine ait tiré, sélectionnez une unité ennemie touchée par une ou plusieurs de ces attaques. Jusqu'à la fin de la phase, cette unité ne peut pas bénéficier du le Bénéfice du Couvert.</characteristic>
+            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Durant votre phase de Tir, après que cette figurine a tiré, sélectionnez une unité ennemie touchée par une ou plusieurs de ces attaques. Jusqu’à la fin de la phase, cette unité ne peut pas avoir le Bénéfice du Couvert.</characteristic>
           </characteristics>
         </profile>
       </profiles>
@@ -14829,7 +14829,7 @@ Dégradez de 1 les caractéristiques de Mouvement, de Commandement et de Contrô
           <profiles>
             <profile name="Droning Chorus" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="21cf-1329-2644-6007">
               <characteristics>
-                <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Les armes de tir équipées par des figurines dans l'unité du porteur ont la aptitude [Assaut].</characteristic>
+                <characteristic name="Description" typeId="9b8f-694b-e5e-b573">armes de tir équipé des figurines de l’unité du porteur ont l’aptitude [Assaut].</characteristic>
               </characteristics>
             </profile>
           </profiles>
@@ -14905,7 +14905,7 @@ Dégradez de 1 les caractéristiques de Mouvement, de Commandement et de Contrô
           <profiles>
             <profile name="Rejuvenating Swarm" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="e245-8e53-4eb5-b72f">
               <characteristics>
-                <characteristic name="Description" typeId="9b8f-694b-e5e-b573">À la fin de chaque phase, le porteur récupère toutes ses PV perdus.</characteristic>
+                <characteristic name="Description" typeId="9b8f-694b-e5e-b573">À la fin de chaque phase, le porteur récupère tout son PV perdus.</characteristic>
               </characteristics>
             </profile>
           </profiles>
@@ -14943,7 +14943,7 @@ Dégradez de 1 les caractéristiques de Mouvement, de Commandement et de Contrô
           <profiles>
             <profile name="Plagueveil" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="40cb-8e8d-0f78-1843">
               <characteristics>
-                <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Alors que l'unité du porteur est à l'intérieur de la portée d'un ou plusieurs marqueurs objectifs que vous contrôlez, cette unité ne peut être sélectionnée comme cible d'une attaque de tir que si la figurine attaquant est à 18" ou moins.</characteristic>
+                <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Alors que l’unité du porteur se trouve à l'intérieur de Portée d'un ou plusieurs pions d’objectif que vous contrôlez, cette unité ne peut être sélectionnée comme cible d'une attaque de tir que si l'attaquant figurine se trouve à 18" ou moins.</characteristic>
               </characteristics>
             </profile>
           </profiles>
@@ -14973,7 +14973,7 @@ Dégradez de 1 les caractéristiques de Mouvement, de Commandement et de Contrô
           <profiles>
             <profile name="Daemon Weapon of Nurgle" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="cd5a-0fc0-fe54-6b9d">
               <characteristics>
-                <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Chaque fois que le porteur effectue une attaque de mêlée, un jet de Touche non modifié de 5+ marque un hit critique.</characteristic>
+                <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Chaque fois que le porteur effectue une attaque de mêlée, tout jet de Touche non modifié de 5+ est une Touche Critique.</characteristic>
               </characteristics>
             </profile>
           </profiles>
@@ -15012,7 +15012,7 @@ Dégradez de 1 les caractéristiques de Mouvement, de Commandement et de Contrô
           <profiles>
             <profile name="Furnace of Plagues" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="42cb-ad3c-fc75-34f2">
               <characteristics>
-                <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Ajoutez 1 aux caractéristiques de force et d'attaque des armes de mêlée du porteur, et les armes de mêlée du porteur ont l'habileté Blessures dévastatrices.</characteristic>
+                <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Ajoutez 1 au caractéristiques de Force et d’Attaques des armes du porteur de mêlée, et les armes du porteur de mêlée ont l'habileté Blessures dévastatrices.</characteristic>
               </characteristics>
             </profile>
           </profiles>
@@ -15069,7 +15069,7 @@ Dégradez de 1 les caractéristiques de Mouvement, de Commandement et de Contrô
           <profiles>
             <profile name="Lord of the Walking Pox" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="ca20-9172-4038-5c01">
               <characteristics>
-                <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Si le porteur mène une unité ^^**Poxwalkers**^^, et qu'il se trouve dans les réserves stratégiques, aux fins de la mise en place de cette unité sur le champ de bataille, considérez la ronde de bataille actuelle comme la troisième ronde de bataille.</characteristic>
+                <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Si le porteur est à la tête d'une unité ^^**Poxwalkers**^^, et est dans Réserves Stratégiques, aux fins de la mise en place de cette unité sur le champ de bataille, considérez la ronde de bataille actuelle comme la troisième ronde de bataille.</characteristic>
               </characteristics>
             </profile>
           </profiles>
@@ -15108,7 +15108,7 @@ Dégradez de 1 les caractéristiques de Mouvement, de Commandement et de Contrô
           <profiles>
             <profile name="Revolting Regeneration" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="4ab4-3b9c-be82-adce">
               <characteristics>
-                <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Le porteur possède la aptitude Insensible à la douleur 5+.</characteristic>
+                <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Le porteur a l’aptitude Insensible à la douleur 5+.</characteristic>
               </characteristics>
             </profile>
           </profiles>
@@ -15154,7 +15154,7 @@ Dégradez de 1 les caractéristiques de Mouvement, de Commandement et de Contrô
           <profiles>
             <profile name="Eye of Affliction" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="7c3d-f406-1c82-3f2d">
               <characteristics>
-                <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Les armes de tir équipées par des figurines dans l'unité du porteur ont la aptitude [Ignore le couvert] tout en ciblant une unité ennemie affligée.</characteristic>
+                <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Les armes de tir dont les figurines de l’unité du porteur sont équipées ont l’aptitude [Ignores Cover] lorsqu’elles ciblent une unité ennemie Afflicted.</characteristic>
               </characteristics>
             </profile>
           </profiles>
@@ -15193,7 +15193,7 @@ Dégradez de 1 les caractéristiques de Mouvement, de Commandement et de Contrô
           <profiles>
             <profile name="Talisman of Burgeoning" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="3e63-c4f4-87ba-6edc">
               <characteristics>
-                <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Pendant que le porteur mène une unité ^^**Poxwalkers**^^, ajoutez 1 à la caractéristique d’Endurance des figurines ^^**Poxwalkers**^^ de cette unité.</characteristic>
+                <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Alors que le porteur mène une unité ^^**Poxwalkers**^^, ajoutez 1 à la caractéristique d’Endurance de ^^**Poxwalkers**^^ les figurines de cette unité.</characteristic>
               </characteristics>
             </profile>
           </profiles>
@@ -15230,7 +15230,7 @@ Dégradez de 1 les caractéristiques de Mouvement, de Commandement et de Contrô
           <profiles>
             <profile name="Witherbone Pipes" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="a31b-3f7d-9eb5-423a">
               <characteristics>
-                <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Pendant que le porteur mène une unité ^^**Poxwalkers**^^, ajoutez 1 à la caractéristique de Contrôle d’Objectif des figurines de cette unité, et chaque fois que cette unité effectue un test d’Ébranlement ou de Commandement, ajoutez 1 à ce test.</characteristic>
+                <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Pendant que le porteur mène une unité ^^**Poxwalkers**^^, ajoutez 1 à la caractéristique de Contrôle d’Objectif des figurines de cette unité, et chaque fois que cette unité prend une Ébranlement ou test de Commandement, ajoutez 1 à ce test.</characteristic>
               </characteristics>
             </profile>
           </profiles>
@@ -15267,7 +15267,7 @@ Dégradez de 1 les caractéristiques de Mouvement, de Commandement et de Contrô
           <profiles>
             <profile name="Sorrowsyphon" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="f464-5e4d-63ab-9472">
               <characteristics>
-                <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Pendant que le porteur mène une unité ^^**Poxwalkers**^^, ajoutez 1 à la caractéristique de Dégâts de l'arme du porteur. Chaque fois que le porteur effectue une ou plusieurs attaques avec une arme Peste Wind, après que l'unité du porteur ait résolu ses attaques, les figurines D3 Bodyguard de l'unité du porteur sont détruits.</characteristic>
+                <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Tant que le porteur mène une unité ^^**Poxwalkers**^^, ajoutez 1 à la caractéristique de Dégâts de l’arme Plague Wind du porteur. Chaque fois que le porteur effectue une ou plusieurs attaques avec une arme Plague Wind, après que l’unité du porteur a résolu ses attaques, D3 figurines Bodyguard de l’unité du porteur sont détruites.</characteristic>
               </characteristics>
             </profile>
           </profiles>
@@ -15304,7 +15304,7 @@ Dégradez de 1 les caractéristiques de Mouvement, de Commandement et de Contrô
           <profiles>
             <profile name="Face of Death" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="613e-8b3e-17e5-a710">
               <characteristics>
-                <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Au début de la phase de Combat, chaque unité ennemi dans la Portée d’Engagement de l’unité du porteur doit passer un test d’Ébranlement.</characteristic>
+                <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Au début de la phase de Combat, chaque unité ennemie à Portée d’Engagement de l’unité du porteur doit effectuer un test d’Ébranlement.</characteristic>
               </characteristics>
             </profile>
           </profiles>
@@ -15341,7 +15341,7 @@ Dégradez de 1 les caractéristiques de Mouvement, de Commandement et de Contrô
           <profiles>
             <profile name="Vile Vigour" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="2a65-6c5c-0861-eb9f">
               <characteristics>
-                <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Pendant que le porteur mène une unité, ajoutez 1" aux caractéristiques de mouvement des figurines de cette unité et vous pouvez relancer les jets d’Avance de cette unité.</characteristic>
+                <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Alors que le porteur mène une unité, ajoutez 1" aux caractéristiques de mouvement des figurines de cette unité et vous pouvez relancer jets d’Avance de cette unité.</characteristic>
               </characteristics>
             </profile>
           </profiles>
@@ -15378,7 +15378,7 @@ Dégradez de 1 les caractéristiques de Mouvement, de Commandement et de Contrô
           <profiles>
             <profile name="Warprot Talisman" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="2781-1569-1803-d365">
               <characteristics>
-                <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Une fois par bataille, à la fin du tour de votre adversaire, si l'unité du porteur n'est pas dans la Portée d’Engagement d'une ou plusieurs unités ennemies, vous pouvez la retirer du champ de bataille et la placer dans les réserves stratégiques.</characteristic>
+                <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Une fois par bataille, à la fin du tour de votre adversaire, si l’unité du porteur n'est pas à l'intérieur de Portée d’Engagement d'une ou de plusieurs unités ennemies, vous pouvez le retirer du champ de bataille et le placer dans Réserves Stratégiques.</characteristic>
               </characteristics>
             </profile>
           </profiles>
@@ -15454,7 +15454,7 @@ Dégradez de 1 les caractéristiques de Mouvement, de Commandement et de Contrô
           <profiles>
             <profile name="Arch Contaminator" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="6a4d-7777-cded-5443">
               <characteristics>
-                <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Alors que l'unité du porteur est à la portée d'un marqueur objectif que vous contrôlez, chaque fois qu'une figurine dans l'unité du porteur fait une attaque, vous pouvez relancer le jet de Blessure.</characteristic>
+                <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Alors que l’unité du porteur est à l'intérieur de Portée d'un pion d’objectif que vous contrôlez, chaque fois qu'une figurine dans l’unité du porteur fait une attaque, vous pouvez relancer le jet de Blessure.</characteristic>
               </characteristics>
             </profile>
           </profiles>
@@ -15491,7 +15491,7 @@ Dégradez de 1 les caractéristiques de Mouvement, de Commandement et de Contrô
           <profiles>
             <profile name="Bilemaw Blight" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="64d6-38d3-6aac-a57e">
               <characteristics>
-                <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Au début de votre phase de Tir, jusqu'à la fin de la phase, ajoutez 12" aux caractéristiques de portée de l'arme de la Peste Wind du porteur.</characteristic>
+                <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Au début de votre phase de Tir, Jusqu’à la fin de la phase, ajoutez 12" aux caractéristiques Portée de l'arme du vent le porteur.</characteristic>
               </characteristics>
             </profile>
           </profiles>
@@ -15567,7 +15567,7 @@ Dégradez de 1 les caractéristiques de Mouvement, de Commandement et de Contrô
           <profiles>
             <profile name="Tendrilous Emissions" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="b5ee-e208-d8bc-8fad">
               <characteristics>
-                <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Alors que le porteur est à 3" ou moins d’une ou plusieurs unités ^^**Death Guard Vehicle**^^ plus amicales, le porteur a la aptitude Agent solitaire, et Chaque fois qu'une de ces unités ^^**Vehicle**^^ fait une attaque de tir qui vise une unité ennemie visible par le porteur, relancez un jet de Blessure de 1.</characteristic>
+                <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Tant que le porteur est à 3" ou moins d’une ou plusieurs unités ^^**Death Guard Vehicle**^^ amies, il a l’aptitude Agent solitaire et, chaque fois que l’une de ces unités ^^**Vehicle**^^ effectue une attaque de tir qui cible une unité ennemie visible du porteur, relancez un jet de Blessure de 1.</characteristic>
               </characteristics>
             </profile>
           </profiles>
@@ -15604,7 +15604,7 @@ Dégradez de 1 les caractéristiques de Mouvement, de Commandement et de Contrô
           <profiles>
             <profile name="Final Ingredient" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="ecc0-019a-6cf5-eb8c">
               <characteristics>
-                <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Une fois par bataille, après que l'unité du porteur ait combattu, si une ou plusieurs figurines ^^**Character**^^ ont été détruits par ces attaques, sélectionnez une Peste. Jusqu'à la fin de la bataille, si une unité ennemie est affligée, cette unité a l'effet de la peste sélectionnée en plus de toute autre.</characteristic>
+                <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Une fois par bataille, après que l’unité du porteur a combattu, si une ou plusieurs figurines ^^**Character**^^ ont été détruites par ces attaques, sélectionnez une Plague. Jusqu’à la fin de la bataille, si une unité ennemie est Afflicted, cette unité subit l’effet de la Plague sélectionnée en plus de tout autre effet.</characteristic>
               </characteristics>
             </profile>
           </profiles>
@@ -15641,7 +15641,7 @@ Dégradez de 1 les caractéristiques de Mouvement, de Commandement et de Contrô
           <profiles>
             <profile name="Visions of Virulence" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="0c30-5b86-c670-0830">
               <characteristics>
-                <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Alors qu'une unité ennemie est affaiblie par la aptitude du porteur de Pestilence Fallout, cette unité est également affligée.</characteristic>
+                <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Tant qu’une unité ennemie est affaiblie par l’aptitude Pestilent Fallout du porteur, cette unité est également Afflicted.</characteristic>
               </characteristics>
             </profile>
           </profiles>
@@ -15678,7 +15678,7 @@ Dégradez de 1 les caractéristiques de Mouvement, de Commandement et de Contrô
           <profiles>
             <profile name="Needle of Nurgle" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="24a1-b435-231d-d5df">
               <characteristics>
-                <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Chaque fois que le porteur utilise sa aptitude Tainted Narthecium, vous pouvez renvoyer jusqu'à D3 les figurines détruits à l'unité du porteur (au lieu de 1).</characteristic>
+                <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Chaque fois que le porteur utilise son Tainted Narthecium aptitude, vous pouvez retourner jusqu'à D3 détruit figurines à l’unité du porteur (au lieu de 1).</characteristic>
               </characteristics>
             </profile>
           </profiles>
@@ -15715,7 +15715,7 @@ Dégradez de 1 les caractéristiques de Mouvement, de Commandement et de Contrô
           <profiles>
             <profile name="Cornucophagus" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="ee05-1b1d-3465-53ae">
               <characteristics>
-                <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Dans l'étape Déclarer les Formations de Bataille, sélectionnez une peste. Jusqu'à la fin de la bataille, pendant qu'un ennemi est dans la plage de contagion du porteur, cette unité ennemie a l'effet de cette peste en plus de toute autre.</characteristic>
+                <characteristic name="Description" typeId="9b8f-694b-e5e-b573">À l’étape Déclarer les Formations de Bataille, sélectionnez une Plague. Jusqu’à la fin de la bataille, tant qu’une unité ennemie est à Portée de Contagion du porteur, cette unité ennemie subit l’effet de cette Plague en plus de tout autre effet.</characteristic>
               </characteristics>
             </profile>
           </profiles>
@@ -15752,7 +15752,7 @@ Dégradez de 1 les caractéristiques de Mouvement, de Commandement et de Contrô
           <profiles>
             <profile name="Beckoning Blight" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="4e12-0cc8-e5d8-f248">
               <characteristics>
-                <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Chaque fois qu'une unité ^^**Plague Legions^^** de votre armée est installée sur le champ de bataille en utilisant la aptitude Frappe en profondeur, si elle est installée entièrement à 12" ou moins du porteur, elle peut être installée n'importe où qui est plus de 6" horizontalement loin de tout figurine ennemie, au lieu de plus de 9".</characteristic>
+                <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Chaque fois qu'une unité ^^**Plague Legions^^** de votre armée est mise en place sur le champ de bataille en utilisant l’aptitude Frappe en profondeur, si elle est mise en place entièrement à 12" ou moins du porteur, elle peut être mise en place n'importe où qui est plus de 6" horizontalement éloigné de tout ennemi figurines, au lieu de plus de 9".</characteristic>
               </characteristics>
             </profile>
           </profiles>
@@ -15789,7 +15789,7 @@ Dégradez de 1 les caractéristiques de Mouvement, de Commandement et de Contrô
           <profiles>
             <profile name="Fell Harvester" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="4eeb-5bad-c9ef-cd9a">
               <characteristics>
-                <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Ajoutez 2 aux caractéristique d’Attaques des armes de mêlée du porteur.</characteristic>
+                <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Ajoutez 2 à la caractéristique d’Attaques des armes de mêlée du porteur.</characteristic>
               </characteristics>
             </profile>
           </profiles>
@@ -15839,7 +15839,7 @@ Dégradez de 1 les caractéristiques de Mouvement, de Commandement et de Contrô
           <profiles>
             <profile name="Entropic Knell" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="5d0c-6610-28af-b290">
               <characteristics>
-                <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Dans la étape d’Ébranlement de la phase de Commandement de votre adversaire, chaque unité ennemie à 6" ou moins du porteur qui est en dessous de son Effectif Initial doit passer un test d’Ébranlement, en soustraisant 1 de ce test.</characteristic>
+                <characteristic name="Description" typeId="9b8f-694b-e5e-b573">À l’étape d’Ébranlement de la phase de Commandement de votre adversaire, chaque unité ennemie à 6" ou moins du porteur et en dessous de son Effectif Initial doit effectuer un test d’Ébranlement, en soustrayant 1 à ce test.</characteristic>
               </characteristics>
             </profile>
           </profiles>
@@ -15930,7 +15930,7 @@ Dégradez de 1 les caractéristiques de Mouvement, de Commandement et de Contrô
           <profiles>
             <profile name="Skittering Limbs" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="1661-7355-3181-dae9">
               <characteristics>
-                <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Chaque fois qu'une figurine de cette unité fait un mouvement normal, avance ou Retraite, il peut passer à travers les figurines ennemies. Lorsqu'il le fait, il peut se déplacer à l'intérieur de la Portée d’Engagement de ces figurines, mais ne peuvent pas terminer ce mouvement à l'intérieur de la Portée d’Engagement de ceux-ci, et tout test Desperate Escape est automatiquement passé.</characteristic>
+                <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Chaque fois qu'une figurine dans cette unité fait un Normal, Avance ou mouvement de Retraite, il peut passer à travers l'ennemi figurines. Lorsqu'il le fait, il peut se déplacer à l'intérieur de Portée d’Engagement de ce figurines mais ne peuvent pas terminer ce mouvement à l'intérieur de Portée d’Engagement d'eux, et tout test de Fuite Désespérée est automatiquement passé.</characteristic>
               </characteristics>
             </profile>
           </profiles>
@@ -15962,7 +15962,7 @@ Dégradez de 1 les caractéristiques de Mouvement, de Commandement et de Contrô
           <profiles>
             <profile name="Spatterfilth" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="0069-720c-b0c2-db77">
               <characteristics>
-                <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Chaque fois qu'une figurine dans cette unité fait une attaque de mêlée, vous pouvez ignorer tout ou partie des modifications du jet de Touche, du jet de Blessure et de la caractéristique de Pénétration d’Armure.</characteristic>
+                <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Chaque fois qu'une figurine dans cette unité fait une attaque de mêlée, vous pouvez ignorer tout ou partie des modificateurs du jet de Touche, du jet de Blessure et de la caractéristique de Pénétration d’Armure.</characteristic>
               </characteristics>
             </profile>
           </profiles>
@@ -15994,7 +15994,7 @@ Dégradez de 1 les caractéristiques de Mouvement, de Commandement et de Contrô
           <profiles>
             <profile name="Choking Mist" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="dd7b-ac49-5ac1-be84">
               <characteristics>
-                <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Une fois par bataille, lorsque cette unité est sélectionnée pour effectuer un mouvement normal, avancer ou Battre en Retraite, est mise en place sur le champ de bataille ou déclare une charge, elle peut utiliser ce trait de bataille. Jusqu'à la fin du tour, les unités ennemies ne peuvent pas utiliser le Fire Overwatch Stratagème pour tirer sur cette unité.</characteristic>
+                <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Une fois par bataille, quand cette unité est sélectionnée pour faire un Normal, Avance ou mouvement de Retraite, est configuré sur le champ de bataille, ou déclare une charge il peut utiliser ce Trait de bataille. Jusqu'à la fin du tour, les unités ennemies ne peuvent pas utiliser le Fire Overwatch Stratagème pour tirer sur cette unité.</characteristic>
               </characteristics>
             </profile>
           </profiles>
@@ -16026,7 +16026,7 @@ Dégradez de 1 les caractéristiques de Mouvement, de Commandement et de Contrô
           <profiles>
             <profile name="Bone Horns" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="f2ea-fc31-acb3-3777">
               <characteristics>
-                <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Chaque fois que cette unité termine un mouvement Charge, sélectionnez une unité ennemie à l'intérieur de la Portée d’Engagement de celle-ci et lancez un D6 pour chaque figurine de cette unité qui se trouve à l'intérieur de la Portée d’Engagement de cette unité ennemie: pour chaque 5+, cette unité ennemie subit 1 blessure mortelle.</characteristic>
+                <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Chaque fois que cette unité termine un mouvement de Charge, sélectionnez une unité ennemie dans Portée d’Engagement de celui-ci et lancez un D6 pour chaque figurine dans cette unité qui se trouve dans Portée d’Engagement de cette unité ennemie: pour chaque 5+, que cette unité ennemie souffre 1 blessure mortelle.</characteristic>
               </characteristics>
             </profile>
           </profiles>
@@ -16058,7 +16058,7 @@ Dégradez de 1 les caractéristiques de Mouvement, de Commandement et de Contrô
           <profiles>
             <profile name="Stolid Bulk" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="dca3-8d19-1837-acbf">
               <characteristics>
-                <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Ajoutez 1 à la caractéristique de caractéristique de Capacité de Tir des armes de tir équipées de figurines de cette unité.</characteristic>
+                <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Ajoutez 1 à la caractéristique de Capacité de Tir des armes de tir dont sont équipées les figurines de cette unité.</characteristic>
               </characteristics>
             </profile>
           </profiles>
@@ -16111,7 +16111,7 @@ Dégradez de 1 les caractéristiques de Mouvement, de Commandement et de Contrô
           <profiles>
             <profile name="Cackling Plague Mites" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="4bf7-19ff-4761-8e69">
               <characteristics>
-                <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Les armes de tir équipées par des figurines de cette unité ont la aptitude **[IGNORES COVER]**.</characteristic>
+                <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Les armes de tir dont les figurines de cette unité sont équipées ont l’aptitude **[IGNORES COVER]**.</characteristic>
               </characteristics>
             </profile>
           </profiles>
@@ -16162,7 +16162,7 @@ Dégradez de 1 les caractéristiques de Mouvement, de Commandement et de Contrô
           <profiles>
             <profile name="Quivering Cilia" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="1992-27a1-d4fe-db50">
               <characteristics>
-                <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Chaque fois que vous ciblez cette unité avec le Stratagème Fire Overwatch, des les Touches sont réussies sur des jets de Touche non modifiés de 5+ tout en résolvant ce Stratagème.</characteristic>
+                <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Chaque fois que vous ciblez cette unité avec le Fire Overwatch Stratagème, des hits sont marqués sur jets de Touche non modifiés de 5+ tout en résolvant que Stratagème.</characteristic>
               </characteristics>
             </profile>
           </profiles>
@@ -16194,7 +16194,7 @@ Dégradez de 1 les caractéristiques de Mouvement, de Commandement et de Contrô
           <profiles>
             <profile name="Infectious Buboes" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="edfb-c93a-acb5-05fc">
               <characteristics>
-                <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Chaque fois qu'une attaque de mêlée est attribuée à cette unité, après que l'unité attaquante ait terminé d'effectuer ses attaques, lancez un D6 (au maximum six D6 par unité attaquante): pour chaque 5+, l'unité attaquante subit une blessure mortelle 1.</characteristic>
+                <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Chaque fois qu’une attaque de mêlée est allouée à cette unité, une fois que l’unité attaquante a fini de résoudre ses attaques, lancez un D6 (jusqu’à un maximum de six D6 par unité attaquante) : pour chaque résultat de 5+, l’unité attaquante subit 1 blessure mortelle.</characteristic>
               </characteristics>
             </profile>
           </profiles>
@@ -16226,7 +16226,7 @@ Dégradez de 1 les caractéristiques de Mouvement, de Commandement et de Contrô
           <profiles>
             <profile name="Sporebelch" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="ddc8-6145-c7e7-442a">
               <characteristics>
-                <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Chaque fois que cette unité termine un mouvement Battre en Retraite, sélectionnez une unité ennemie qui se trouvait dans la Portée d’Engagement de cette unité au début de la phase. Roule trois D6: pour chaque 4+, cette unité ennemie subit 1 blessure mortelle.</characteristic>
+                <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Chaque fois que cette unité termine un mouvement de Retraite, sélectionnez une unité ennemie qui était à l'intérieur de Portée d’Engagement de cette unité au début de la phase. Roll three D6: pour chaque 4+, cette unité ennemie subit 1 blessure mortelle.</characteristic>
               </characteristics>
             </profile>
           </profiles>
@@ -16258,7 +16258,7 @@ Dégradez de 1 les caractéristiques de Mouvement, de Commandement et de Contrô
           <profiles>
             <profile name="Lambent Taint" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="240a-982f-b03f-b617">
               <characteristics>
-                <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Dans votre phase de Tir, après que cette unité ait tiré, sélectionnez une unité ennemie visible touchée par une ou plusieurs de ces attaques. Jusqu'à la fin de la phase, chaque fois qu'une figurine amie **^^Nurgle Daemon^^** effectue une attaque qui cible cette unité, relance un jet de Touche de 1.</characteristic>
+                <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Dans votre phase de Tir, après que cette unité ait tiré, sélectionnez une unité ennemie visible touché par un ou plusieurs de ces Attaques. Jusqu’à la fin de la phase, chaque fois qu'un ami **^^Nurgle Daemon^^** figurine fait une attaque qui cible cette unité, relancer un jet de Touche de 1.</characteristic>
               </characteristics>
             </profile>
           </profiles>
@@ -16337,7 +16337,7 @@ Dégradez de 1 les caractéristiques de Mouvement, de Commandement et de Contrô
               <profiles>
                 <profile name="Casket of Corruption" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="7dfd-a008-f52d-263e">
                   <characteristics>
-                    <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Le porteur possède la aptitude Destruction Néfaste D3. En outre, à la fin de la bataille, si l'unité du porteur est entièrement à la zone de déploiement de votre adversaire, la prochaine fois que vous suivrez le chemin de la contagion, vous pouvez sauter l'étape des contre-agents.</characteristic>
+                    <characteristic name="Description" typeId="9b8f-694b-e5e-b573">le porteur a l’aptitude Destruction Néfaste D3. En outre, à la fin de la bataille, si l’unité du porteur est entièrement à de votre adversaire zone de déploiement, lorsque vous suivez la prochaine fois le Chemin de Contagion, vous pouvez sauter l'étape Counteragents.</characteristic>
                   </characteristics>
                 </profile>
               </profiles>
@@ -16387,7 +16387,7 @@ Dégradez de 1 les caractéristiques de Mouvement, de Commandement et de Contrô
               <profiles>
                 <profile name="Orb of Decay" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="9b24-83b4-1550-158d">
                   <characteristics>
-                    <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Une fois par bataille, lorsque vous ciblez l'unité du porteur avec la Grenade Stratagème, le porteur peut utiliser cette relique de la Croisade. Si c'est le cas, jusqu'à ce que ce Stratagème soit résolu, ajoutez 2 au résultat de chaque dés que vous lancez pour ce Stratagème.</characteristic>
+                    <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Une fois par bataille, lorsque vous ciblez l’unité du porteur avec le Stratagème Grenade, le porteur peut utiliser cette Relique de Croisade. S’il le fait, jusqu’à ce que ce Stratagème soit résolu, ajoutez 2 au résultat de chaque dé que vous lancez pour ce Stratagème.</characteristic>
                   </characteristics>
                 </profile>
               </profiles>
@@ -16434,7 +16434,7 @@ Dégradez de 1 les caractéristiques de Mouvement, de Commandement et de Contrô
               <profiles>
                 <profile name="Putrid Heart" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="5c21-b9d3-63f3-db33">
                   <characteristics>
-                    <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Le porteur possède la aptitude Insensible à la douleur 5+. En outre, ajoutez 6" à la gamme de contagion des figurines de l'unité du porteur.</characteristic>
+                    <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Le porteur a l’aptitude Insensible à la Douleur 5+. De plus, ajoutez 6" à la Portée de Contagion des figurines de l’unité du porteur.</characteristic>
                   </characteristics>
                 </profile>
               </profiles>
@@ -16488,7 +16488,7 @@ Dégradez de 1 les caractéristiques de Mouvement, de Commandement et de Contrô
               <profiles>
                 <profile name="Bountiful Censer" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="49ad-305c-1247-9696">
                   <characteristics>
-                    <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Chaque fois qu'une figurine amie avec la aptitude Destruction Néfaste à 9" ou moins du porteur est détruite, le porteur peut utiliser cette relique de la Croisade. Si c'est le cas, ajoutez 2 au jet pour déterminer si les Blessures Mortelles sont infligées par la aptitude Destruction Néfaste de cette figurine. Vous ne pouvez pas cibler cette figurine avec le stratagème de détonation putride.</characteristic>
+                    <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Chaque fois qu'une figurine amie avec l’aptitude Destruction Néfaste à 9" ou moins du porteur est détruite, le porteur peut utiliser cette relique de la Croisade. Si c'est le cas, ajoutez 2 au jet pour déterminer si Blessures Mortelles est infligé par de la figurine Destruction Néfaste aptitude. Vous ne pouvez pas cibler cette figurine avec la détonation putride Stratagème.</characteristic>
                   </characteristics>
                 </profile>
               </profiles>
@@ -16524,7 +16524,7 @@ Dégradez de 1 les caractéristiques de Mouvement, de Commandement et de Contrô
               <profiles>
                 <profile name="Gnawing Tome" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="e4e3-66ba-a360-24ea">
                   <characteristics>
-                    <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Chaque fois qu'une unité ennemie à 9" ou moins de l'unité du porteur échoue à un test d’Ébranlement, lancez un D6: sur une 4+, vous gagnez un point de requête 1.</characteristic>
+                    <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Chaque fois qu'une unité ennemie à 9" ou moins de l’unité du porteur échoue un test d’Ébranlement, lancez un D6: sur un 4+, vous gagnez un point d'exigence 1.</characteristic>
                   </characteristics>
                 </profile>
               </profiles>
@@ -16560,7 +16560,7 @@ Dégradez de 1 les caractéristiques de Mouvement, de Commandement et de Contrô
               <profiles>
                 <profile name="Foulforged Armour" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="36dd-1965-297e-1fa9">
                   <characteristics>
-                    <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Le porteur a une caractéristique Save de 2+.</characteristic>
+                    <characteristic name="Description" typeId="9b8f-694b-e5e-b573">le porteur a une caractéristique de Sauvegarde de 2+.</characteristic>
                   </characteristics>
                 </profile>
               </profiles>
@@ -16737,7 +16737,7 @@ Dégradez de 1 les caractéristiques de Mouvement, de Commandement et de Contrô
           <profiles>
             <profile name="Slitherswift Limbs" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="cf77-79c0-6533-8a2f">
               <characteristics>
-                <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Ajoutez 1 aux jets d’Avance et de Charge effectués pour l'unité de cette figurine.</characteristic>
+                <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Ajoutez 1 à Advance et jets de Charge effectués pour l'unité de cette figurine.</characteristic>
               </characteristics>
             </profile>
           </profiles>
@@ -16764,7 +16764,7 @@ Dégradez de 1 les caractéristiques de Mouvement, de Commandement et de Contrô
           <profiles>
             <profile name="Veil of Flies" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="2d84-aaba-d748-34e1">
               <characteristics>
-                <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Les figurines de cette unité ont la aptitude Discrétion.</characteristic>
+                <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Les figurines de l’unité de cette figurine ont l’aptitude Discrétion.</characteristic>
               </characteristics>
             </profile>
           </profiles>
@@ -16794,7 +16794,7 @@ Dégradez de 1 les caractéristiques de Mouvement, de Commandement et de Contrô
           <profiles>
             <profile name="Febrile Vitality" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="ddc6-1b63-2732-1252">
               <characteristics>
-                <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Ajoutez 1" à la caractéristique de mouvement des figurines de l'unité de cette figurine.</characteristic>
+                <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Ajoutez 1" à la caractéristique de Mouvement des figurines de l’unité de cette figurine.</characteristic>
               </characteristics>
             </profile>
           </profiles>
@@ -16837,7 +16837,7 @@ Dégradez de 1 les caractéristiques de Mouvement, de Commandement et de Contrô
           <profiles>
             <profile name="Billowing Miasma" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="5fce-71b8-3c03-adc1">
               <characteristics>
-                <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Ajoutez 6" à la plage de contagion de cette figurine.</characteristic>
+                <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Ajoutez 6" à la Portée de Contagion de cette figurine.</characteristic>
               </characteristics>
             </profile>
           </profiles>
@@ -16907,7 +16907,7 @@ Dégradez de 1 les caractéristiques de Mouvement, de Commandement et de Contrô
           <profiles>
             <profile name="Leprous Insensibility" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="25e0-520a-a78a-e6f8">
               <characteristics>
-                <characteristic name="Description" typeId="9b8f-694b-e5e-b573">cette figurine a la aptitude Insensible à la douleur 5+.</characteristic>
+                <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Cette figurine a l’aptitude Insensible à la Douleur 5+.</characteristic>
               </characteristics>
             </profile>
           </profiles>
@@ -16941,7 +16941,7 @@ Dégradez de 1 les caractéristiques de Mouvement, de Commandement et de Contrô
           <profiles>
             <profile name="Writhing Tentacles" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="b7f2-7b8d-d56c-dbf7">
               <characteristics>
-                <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Ajoutez 1 aux caractéristique d’Attaques des armes de mêlée équipées de cette figurine.</characteristic>
+                <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Ajoutez 1 à la caractéristique d’Attaques d’armes de mêlée équipé de cette figurine.</characteristic>
               </characteristics>
             </profile>
           </profiles>
@@ -16981,7 +16981,7 @@ Dégradez de 1 les caractéristiques de Mouvement, de Commandement et de Contrô
           <profiles>
             <profile name="Touch of Rot" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="f560-4712-3887-4d02">
               <characteristics>
-                <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Améliorez la caractéristique de Pénétration d’Armure des armes de mêlée équipées de cette figurine de 1.</characteristic>
+                <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Améliorez la caractéristique de Pénétration d’Armure d’armes de mêlée équipé de cette figurine de 1.</characteristic>
               </characteristics>
             </profile>
           </profiles>
@@ -17024,7 +17024,7 @@ Dégradez de 1 les caractéristiques de Mouvement, de Commandement et de Contrô
           <profiles>
             <profile name="Plaguesight" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="fdac-9184-0120-bbf5">
               <characteristics>
-                <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Chaque fois que cette figurine effectue une attaque visant une unité affligée, vous pouvez relancer le jet de Touche.</characteristic>
+                <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Chaque fois que cette figurine fait une attaque qui cible une unité affligée, vous pouvez relancer le jet de Touche.</characteristic>
               </characteristics>
             </profile>
           </profiles>
@@ -17050,7 +17050,7 @@ Dégradez de 1 les caractéristiques de Mouvement, de Commandement et de Contrô
               <profiles>
                 <profile name="Vile Possession" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="698e-f1ce-309b-5211">
                   <characteristics>
-                    <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Chaque fois que vous ajoutez une unité **^^Vehicle^^** à votre force de Croisade, ajoutez le mot-clé **^^Daemon^^** aux mots clés de cette unité (si elle ne l'a pas déjà) et cette unité gagne 6XP (obtenant immédiatement le rang de sang); sélectionnez un honneur de bataille pour elle comme normal.</characteristic>
+                    <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Chaque fois que vous ajoutez une unité **^^Vehicle^^** à votre force de Croisade, ajoutez le mot-clé **^^Daemon^^** aux mots-clés de cette unité (si elle ne l’a pas déjà) et cette unité gagne 6XP (et gagne immédiatement le rang Blooded) ; sélectionnez pour elle un Honneur de Bataille comme d’habitude.</characteristic>
                   </characteristics>
                 </profile>
               </profiles>
@@ -17091,7 +17091,7 @@ Dégradez de 1 les caractéristiques de Mouvement, de Commandement et de Contrô
               <profiles>
                 <profile name="Eye of Nurgle" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="77fc-9299-3964-25a0">
                   <characteristics>
-                    <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Après chaque bataille de la Croisade, lancez un D6, ajoutant 1 au résultat si vous avez gagné la bataille. Sur un 6+, sélectionnez une unité supplémentaire à marquer pour la grandeur.</characteristic>
+                    <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Après chaque bataille de la Croisade, lancez un D6, ajoutant 1 au résultat si vous gagnez la bataille. Sur un 6+, sélectionnez une unité supplémentaire à marquer pour la grandeur.</characteristic>
                   </characteristics>
                 </profile>
               </profiles>
@@ -17129,7 +17129,7 @@ Dégradez de 1 les caractéristiques de Mouvement, de Commandement et de Contrô
               <profiles>
                 <profile name="Seeping Poisons" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="6c3d-88cb-6c39-716b">
                   <characteristics>
-                    <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Quand une unité de votre force de Croisade obtient l'honneur de bataille des modifications d'armes, vous pouvez choisir pour cette arme de gagner **[LETHAL HITS]** au lieu de générer au hasard des modifications d'armes pour cette arme.</characteristic>
+                    <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Quand une unité de votre force de Croisade obtient l'honneur de la bataille des modifications d'armes, vous pouvez choisir pour cette arme d'obtenir **[LETHAL HITS]** au lieu de générant aléatoirement des modifications d'armes pour cette arme.</characteristic>
                   </characteristics>
                 </profile>
               </profiles>
@@ -17163,7 +17163,7 @@ Dégradez de 1 les caractéristiques de Mouvement, de Commandement et de Contrô
               <profiles>
                 <profile name="Endless Harvest" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="900c-f651-48b4-8bd0">
                   <characteristics>
-                    <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Après chaque bataille de la Croisade, lancez un D6: sur un 4+, vous gagnez un point de requête supplémentaire 1.</characteristic>
+                    <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Après chaque bataille de la Croisade, lancez un D6: sur un 4+, vous gagnez 1 point de requête supplémentaire.</characteristic>
                   </characteristics>
                 </profile>
               </profiles>
@@ -17240,7 +17240,7 @@ Dégradez de 1 les caractéristiques de Mouvement, de Commandement et de Contrô
                   <profiles>
                     <profile name="Spreading Pox" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="a6f0-21b3-6de8-de34">
                       <characteristics>
-                        <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Si une ou plusieurs unités ont été détruites par des attaques effectuées avec des armes Touches fatales pendant que votre Pathogen est actif, la première unité **^^Poxwalkers^^** ajoutée à votre force de Croisade après cette bataille gagne 6XP (acquérant immédiatement le rang de Blooded); sélectionnez un honneur de bataille pour cela comme normal (même si les unités **^^Poxwalkers^^** ne peuvent normalement pas obtenir XP ou honneurs de bataille).</characteristic>
+                        <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Si une ou plusieurs unités ont été détruites par des attaques effectuées avec des armes Lethal Hits tant que votre Pathogen est actif, la première unité **^^Poxwalkers^^** ajoutée à votre force de Croisade après cette bataille gagne 6XP (et gagne immédiatement le rang Blooded) ; sélectionnez pour elle un Honneur de Bataille comme d’habitude (même si les unités **^^Poxwalkers^^** ne peuvent normalement pas gagner d’XP ni d’Honneurs de Bataille).</characteristic>
                       </characteristics>
                     </profile>
                   </profiles>
@@ -17252,7 +17252,7 @@ Dégradez de 1 les caractéristiques de Mouvement, de Commandement et de Contrô
                   <profiles>
                     <profile name="Putridity" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="2055-2504-fd8e-7483">
                       <characteristics>
-                        <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Chaque fois que cette figurine fait une attaque avec une arme Touches fatales, un jet de Touche de 5+ marque un Hit critique.</characteristic>
+                        <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Chaque fois que cette figurine effectue une attaque avec une arme Lethal Hits, tout jet de Touche non modifié de 5+ est une Touche Critique.</characteristic>
                       </characteristics>
                     </profile>
                   </profiles>
@@ -17267,7 +17267,7 @@ Dégradez de 1 les caractéristiques de Mouvement, de Commandement et de Contrô
                       <profiles>
                         <profile name="Drawback" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="73c3-ce4a-7fb7-3fcf">
                           <characteristics>
-                            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Soustrayez 3 de la caractéristique de Force des armes Touches fatales équipées par cette figurine.</characteristic>
+                            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Soustrayez le 3 de la caractéristique de Force des armes Touches fatales équipées de cette figurine.</characteristic>
                           </characteristics>
                         </profile>
                       </profiles>
@@ -17278,7 +17278,7 @@ Dégradez de 1 les caractéristiques de Mouvement, de Commandement et de Contrô
                   <profiles>
                     <profile name="Hypervector" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="85a2-7294-a223-c609">
                       <characteristics>
-                        <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Dans votre phase de Tir, après que l'unité de cette figurine ait tiré, si cette figurine a effectué une ou plusieurs attaques avec une arme Touches fatales, sélectionnez une unité ennemie touchée par une ou plusieurs de ces attaques. Jusqu'à la fin de la bataille, cette unité ennemie est affligée. Seul une figurine dans chaque unité peut utiliser cette aptitude par tour.</characteristic>
+                        <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Dans votre phase de Tir, après que l'unité de cette figurine a tiré, si cette figurine a fait un ou plusieurs Attaques avec une arme Touches fatales, sélectionnez une unité ennemie frappé par un ou plusieurs de ces Attaques. Jusqu'à la fin de la bataille, cette unité ennemie est affligé. Seul une figurine dans chaque unité peut utiliser cette aptitude par tour.</characteristic>
                       </characteristics>
                     </profile>
                   </profiles>
@@ -17290,7 +17290,7 @@ Dégradez de 1 les caractéristiques de Mouvement, de Commandement et de Contrô
                       <profiles>
                         <profile name="Drawback" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="e583-3218-7a54-da39">
                           <characteristics>
-                            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Soustrayez 1 des caractéristique d’Attaques des armes Touches fatales à portée de gamme équipées de cette figurine.</characteristic>
+                            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Soustrayez le 1 de la caractéristique d’Attaques des armes de tir Touches fatales équipées de cette figurine.</characteristic>
                           </characteristics>
                         </profile>
                       </profiles>
@@ -17304,7 +17304,7 @@ Dégradez de 1 les caractéristiques de Mouvement, de Commandement et de Contrô
                   <profiles>
                     <profile name="Parasitic Implantation" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="d40d-deae-b7a2-a424">
                       <characteristics>
-                        <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Les armes Touches fatales équipées de cette figurine ont la aptitude **[SUSTAINED HITS 1]**.</characteristic>
+                        <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Les armes Lethal Hits dont cette figurine est équipée ont l’aptitude **[SUSTAINED HITS 1]**.</characteristic>
                       </characteristics>
                     </profile>
                   </profiles>
@@ -17333,7 +17333,7 @@ Dégradez de 1 les caractéristiques de Mouvement, de Commandement et de Contrô
                   <profiles>
                     <profile name="Lurid Flux" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="4f50-7ded-d201-1e2b">
                       <characteristics>
-                        <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Dans la phase de Combat, après que l'unité de cette figurine ait combattu, si cette figurine a effectué une ou plusieurs attaques avec une arme Touches fatales, sélectionnez une unité ennemie touchée par une ou plusieurs de ces attaques. Cette unité ennemie doit passer un test d’Ébranlement. Seul une figurine dans chaque unité peut utiliser cette aptitude par tour.</characteristic>
+                        <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Durant la phase de Combat, après que l’unité de cette figurine a combattu, si cette figurine a effectué une ou plusieurs attaques avec une arme Lethal Hits, sélectionnez une unité ennemie touchée par une ou plusieurs de ces attaques. Cette unité ennemie doit effectuer un test d’Ébranlement. Une seule figurine de chaque unité peut utiliser cette aptitude par tour.</characteristic>
                       </characteristics>
                     </profile>
                   </profiles>
@@ -17411,7 +17411,7 @@ Dégradez de 1 les caractéristiques de Mouvement, de Commandement et de Contrô
           <profiles>
             <profile name="Foul Infusion" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="407b-4251-b15f-a019">
               <characteristics>
-                <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Alors que cette figurine mène une unité, les armes équipées de figurines dans cette unité ont la aptitude [Touches fatales]. En outre, chaque fois qu'une figurine dans cette unité fait une attaque, un hit critique est marqué sur un jet de Touche non modifié de 5+, au lieu de seulement 6.</characteristic>
+                <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Tant que cette figurine mène une unité, les armes dont sont équipées les figurines de cette unité ont l’aptitude [Touches fatales]. De plus, chaque fois qu’une figurine de cette unité effectue une attaque, une Touche Critique est obtenue sur un jet de Touche non modifié de 5+, au lieu de seulement sur un 6.</characteristic>
               </characteristics>
             </profile>
           </profiles>
@@ -17420,7 +17420,7 @@ Dégradez de 1 les caractéristiques de Mouvement, de Commandement et de Contrô
           <profiles>
             <profile name="Malicious Calculations" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="ab06-97e9-3e68-0972">
               <characteristics>
-                <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Pendant que cette figurine mène une unité, Chaque fois qu'une figurine de cette unité fait une attaque, vous pouvez ignorer n'importe ou tous les modificateurs de la caractéristique de Capacité de Tir de l'attaque. ou caractéristique de Capacité de Combat et/ou tout ou tous les modificateurs du jet de Touche.</characteristic>
+                <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Tant que cette figurine dirige une unité, chaque fois qu’une figurine de cette unité effectue une attaque, vous pouvez ignorer un ou tous les modificateurs à la caractéristique de Capacité de Tir ou à la caractéristique de Capacité de Combat de cette attaque et/ou un ou tous les modificateurs au jet de Touche.</characteristic>
               </characteristics>
             </profile>
           </profiles>
@@ -17429,7 +17429,7 @@ Dégradez de 1 les caractéristiques de Mouvement, de Commandement et de Contrô
           <profiles>
             <profile name="Putrefying Stink" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="f33c-8a8e-cd74-2832">
               <characteristics>
-                <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Les figurines ennemies ne peuvent pas démarrer ou terminer un mouvement Advance à 9" ou moins de cette figurine.</characteristic>
+                <characteristic name="Description" typeId="9b8f-694b-e5e-b573">L'ennemi figurines ne peuvent pas démarrer ou mettre fin à un mouvement d’Avance à 9" ou moins de cette figurine.</characteristic>
               </characteristics>
             </profile>
           </profiles>
@@ -17438,7 +17438,7 @@ Dégradez de 1 les caractéristiques de Mouvement, de Commandement et de Contrô
           <profiles>
             <profile name="Shroud of Disease" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="9aac-d419-5d40-3245">
               <characteristics>
-                <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Tant que cette figurine mène une unité, cette unité ne peut pas être visée par des attaques de tir à moins que la figurine attaquant ne soit à 18" ou moins.</characteristic>
+                <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Tant que cette figurine est à la tête d'une unité, cette unité ne peut pas être visée par attaques de tir à moins que la figurine attaquant ne soit à 18" ou moins.</characteristic>
               </characteristics>
             </profile>
           </profiles>
@@ -17455,7 +17455,7 @@ Dégradez de 1 les caractéristiques de Mouvement, de Commandement et de Contrô
           <profiles>
             <profile name="Sickening Vitality" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="f331-71b0-3600-d0ab">
               <characteristics>
-                <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Pendant que cette figurine conduit une unité, ajoutez 1" à la caractéristique de mouvement des figurines de cette unité et vous pouvez relancer les jets d’Avance et de Charge faits pour cette unité.</characteristic>
+                <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Alors que cette figurine mène une unité, ajoutez 1" à la caractéristique de mouvement des figurines de cette unité et vous pouvez relancer Advance et jets de Charge de cette unité.</characteristic>
               </characteristics>
             </profile>
           </profiles>
@@ -17464,7 +17464,7 @@ Dégradez de 1 les caractéristiques de Mouvement, de Commandement et de Contrô
           <profiles>
             <profile name="Tainted Narthecium" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="f0cf-c30c-a24f-8c54">
               <characteristics>
-                <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Pendant que cette figurine mène une unité, dans votre phase de Commandement, vous pouvez renvoyer une figurine Bodyguard détruit à cette unité.</characteristic>
+                <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Alors que cette figurine mène une unité, dans votre phase de Commandement, vous pouvez renvoyer un détruit Bodyguard figurine à cette unité.</characteristic>
               </characteristics>
             </profile>
           </profiles>
@@ -17481,7 +17481,7 @@ Dégradez de 1 les caractéristiques de Mouvement, de Commandement et de Contrô
           <profiles>
             <profile name="Tocsin of Misery (Aura)" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="aa6d-8fdd-77b7-b039">
               <characteristics>
-                <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Dans l'étape d’Ébranlement de la phase de Commandement de votre adversaire, si une unité ennemie qui est inférieure à son Effectif Initial se trouve à 9" ou moins d'un ou de plusieurs figurines avec cette aptitude, cette unité ennemie doit passer un test d’Ébranlement, en soustrayant 1 de ce test si elle est une unité ^^**Psyker**^^.</characteristic>
+                <characteristic name="Description" typeId="9b8f-694b-e5e-b573">À l’étape d’Ébranlement de la phase de Commandement de votre adversaire, si une unité ennemie qui est en dessous de son Effectif Initial est à 9" ou moins d’une ou plusieurs figurines dotées de cette aptitude, cette unité ennemie doit effectuer un test d’Ébranlement en soustrayant 1 à ce test s’il s’agit d’une unité ^^**Psyker**^^.</characteristic>
               </characteristics>
             </profile>
           </profiles>
@@ -17499,7 +17499,7 @@ Dégradez de 1 les caractéristiques de Mouvement, de Commandement et de Contrô
           <profiles>
             <profile name="Vector of Disease" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="9aed-b4af-dc99-cf97">
               <characteristics>
-                <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Alors que cette figurine mène une unité, les armes de mêlée équipées de figurines de cette unité ont les capacités [Touches soutenues 1] et [Lance].</characteristic>
+                <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Tant que cette figurine mène une unité, les armes de mêlée dont les figurines de cette unité sont équipées ont les aptitudes [Sustained Hits 1] et [Lance].</characteristic>
               </characteristics>
             </profile>
           </profiles>
@@ -18540,12 +18540,12 @@ Dégradez de 1 les caractéristiques de Mouvement, de Commandement et de Contrô
   <sharedProfiles>
     <profile name="Chaos Lord" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="2e70-7085-af42-e162">
       <characteristics>
-        <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Pendant que cette figurine mène une unité, Chaque fois qu'une figurine de cette unité fait une attaque, relancer un jet de Touche de 1.</characteristic>
+        <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Alors que cette figurine mène une unité, chaque fois qu'une figurine dans cette unité fait une attaque, relancer un jet de Touche de 1.</characteristic>
       </characteristics>
     </profile>
     <profile name="Dessication Conduit (Aura)" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="8e2-8f3e-c390-791a">
       <characteristics>
-        <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Alors qu'une unité ennemie est dans la plage de contagion de cette figurine, à la fin du tour, lancez un D6: sur un 4+, cette unité ennemie souffre de Blessures Mortelles D3.</characteristic>
+        <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Alors qu'une unité ennemie est à l'intérieur de Contagion Portée de cette figurine, à la fin du tour, lancez un D6: sur un 4+, que cette unité ennemie souffre D3 Blessures Mortelles.</characteristic>
       </characteristics>
     </profile>
     <profile id="9af1-f954-9e43-747f" name="Damaged: 1-5 wounds remaining" hidden="false" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities">
@@ -18555,8 +18555,8 @@ Dégradez de 1 les caractéristiques de Mouvement, de Commandement et de Contrô
     </profile>
     <profile name="Meneur" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="b102-6947-89c2-991f">
       <characteristics>
-        <characteristic name="Description" typeId="9b8f-694b-e5e-b573">cette figurine peut être attachée à l'unité suivante: ^^**Plague Marines^^**
-*Vous pouvez attacher cette figurine à une unité ^^**Plague Marines^^**, même si une autre unité Meneur y a déjà été attachée (vous ne pouvez pas attacher plus d'une même Meneur à la même unité). Si vous le faites, et que l'unité Bodyguard est détruite, les unités Meneur attachées à elle deviennent des unités distinctes, avec leur Effectif Initial d’origine.*</characteristic>
+        <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Cette figurine peut être attachée à l’unité suivante : ^^**Plague Marines^^**
+*Vous pouvez attacher cette figurine à une unité ^^**Plague Marines^^**, même si une autre unité Leader lui a déjà été attachée (vous ne pouvez pas attacher plus d’une unité du même Leader à la même unité). Si vous le faites et que cette unité Bodyguard est détruite, les unités Leader qui lui étaient attachées deviennent des unités distinctes avec leur Effectif Initial d’origine.*</characteristic>
       </characteristics>
       <comment>Plagues only</comment>
     </profile>

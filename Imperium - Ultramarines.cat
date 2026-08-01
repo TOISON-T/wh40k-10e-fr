@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue xmlns="http://www.battlescribe.net/schema/catalogueSchema" library="false" id="f829-170e-44db-4d35" name="Imperium - Adeptus Astartes - Ultramarines" gameSystemId="sys-0e45-705d-f6bc-806a" gameSystemRevision="1" revision="48" battleScribeVersion="2.03" type="catalogue">
+<catalogue xmlns="http://www.battlescribe.net/schema/catalogueSchema" library="false" id="4029-9237-e8db-af55" name="Imperium - Adeptus Astartes - Ultramarines" gameSystemId="sys-352e-adc2-7639-d6a9" gameSystemRevision="1" revision="48" battleScribeVersion="2.03" type="catalogue">
   <entryLinks>
     <entryLink import="true" name="Captain Sicarius" hidden="false" type="selectionEntry" id="7740-af66-ac4f-68b6" targetId="2ae8-40ec-ba34-dfe5" />
     <entryLink import="true" name="Chaplain Cassius [Legends]" hidden="false" type="selectionEntry" id="e1e-1c6b-bb62-f9c8" targetId="b180-3cac-9124-b818" />
@@ -23,9 +23,9 @@
     <entryLink import="true" name="Wardens of Ultramar" hidden="false" id="67b4-7b11-a48e-1791" type="selectionEntry" targetId="b793-b77e-9e49-d397" />
   </entryLinks>
   <catalogueLinks>
-    <catalogueLink name="Imperium - Space Marines" id="da8e-75bd-17ec-90f8" targetId="c64a-a8a4-fe12-90fd" importRootEntries="true" type="catalogue" />
-    <catalogueLink type="catalogue" name="Imperium - Imperial Knights - Library" id="4797-b324-7691-9186" targetId="1787-6721-8649-a4a8" importRootEntries="true" />
-    <catalogueLink type="catalogue" name="Imperium - Agents of the Imperium" id="fc79-7373-2e12-276b" targetId="58ea-21f3-3da9-74dd" importRootEntries="true" />
+    <catalogueLink name="Imperium - Space Marines" id="da8e-75bd-17ec-90f8" targetId="e0af-67df-9d63-8fb7" importRootEntries="true" type="catalogue" />
+    <catalogueLink type="catalogue" name="Imperium - Imperial Knights - Library" id="4797-b324-7691-9186" targetId="1b6d-dc06-5db9-c7d1" importRootEntries="true" />
+    <catalogueLink type="catalogue" name="Imperium - Agents of the Imperium" id="fc79-7373-2e12-276b" targetId="b00-cd86-4b4c-97ba" importRootEntries="true" />
   </catalogueLinks>
   <sharedSelectionEntries>
     <selectionEntry type="model" import="true" name="Captain Sicarius" hidden="true" id="2ae8-40ec-ba34-dfe5">
@@ -50,7 +50,7 @@
       <profiles>
         <profile name="Lead From the Front" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="5553-620a-d5da-ecb1">
           <characteristics>
-            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Alors que cette figurine mène une unité, les figurines de cette unité ont la aptitude Éclaireurs 6" et les armes de tir équipées par les figurines de cette unité ont la aptitude [Assaut].</characteristic>
+            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Tant que cette figurine mène une unité, les figurines de cette unité ont l’aptitude Éclaireurs 6" et les armes de tir dont sont équipées les figurines de cette unité ont l’aptitude [Assaut].</characteristic>
           </characteristics>
         </profile>
         <profile name="Captain Sicarius" typeId="c547-1836-d8a-ff4f" typeName="Unit" hidden="false" id="aeb4-b4da-9ad8-5d91">
@@ -65,7 +65,7 @@
         </profile>
         <profile name="Knight Champion of Macragge" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="c742-ab19-d4ed-607e">
           <characteristics>
-            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Une fois par tour, lorsqu'une unité ennemie termine un mouvement Normal, Avance ou Battre en Retraite à 9" ou moins de cette figurine, si l’unité de cette figurine n'est pas dans la Portée d’Engagement d'une ou de plusieurs unités ennemies, elle peut effectuer un mouvement Normal jusqu'à 6".</characteristic>
+            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Une fois par tour, lorsqu’une unité ennemie termine un mouvement Normal, d’Avance ou de Retraite à 9" ou moins de cette figurine, si l’unité de cette figurine n’est pas à Portée d’Engagement d’une ou plusieurs unités ennemies, elle peut effectuer un mouvement Normal de jusqu’à 6".</characteristic>
           </characteristics>
         </profile>
         <profile name="Meneur" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="a3-79c9-601-8467">
@@ -172,12 +172,12 @@
         </profile>
         <profile name="Catechism of Death" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="e4a5-bf61-572d-569b">
           <characteristics>
-            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Alors que cette figurine mène une unité, les armes de mêlée équipées de figurines dans cette unité ont la aptitude [Blessures dévastatrices].</characteristic>
+            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Tant que cette figurine mène une unité, les armes de mêlée dont les figurines de cette unité sont équipées ont l’aptitude [DEVASTATING WOUNDS].</characteristic>
           </characteristics>
         </profile>
         <profile name="Inspired Retribution" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="d58e-1e52-6332-2f71">
           <characteristics>
-            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Alors que cette figurine mène une unité, chaque fois qu'une figurine dans cette unité est détruite par une attaque de mêlée, si cette figurine n'a pas combattu cette phase, lancez un D6. Sur un 4+, ne le retirez pas du jeu; cette figurine détruit peut se battre après que l'unité de la figurine attaquant a terminé ses attaques, et est ensuite retiré du jeu.</characteristic>
+            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Tant que cette figurine mène une unité, chaque fois qu’une figurine de cette unité est détruite par une attaque de mêlée, si cette figurine n’a pas combattu à cette phase, lancez un D6. Sur 4+, ne la retirez pas du jeu ; cette figurine détruite peut combattre une fois que l’unité de la figurine attaquante a fini de résoudre ses attaques, puis elle est retirée du jeu.</characteristic>
           </characteristics>
         </profile>
         <profile name="Meneur" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="e2c1-7cbf-bfcd-716a">
@@ -292,13 +292,13 @@
         </profile>
         <profile name="Hood of Hellfire" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="6d80-d11e-231d-1014">
           <characteristics>
-            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Alors que cette figurine mène une unité, les figurines de cette unité ont la aptitude Insensible à la douleur 4+ contre les attaques Psychique et les Blessures Mortelles.</characteristic>
+            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Alors que cette figurine mène une unité, les figurines de cette unité ont l’aptitude Insensible à la douleur 4+ contre les attaques Psychiques et Blessures Mortelles.</characteristic>
           </characteristics>
         </profile>
         <profile name="Master of Prescience (Psychic)" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="712b-2536-4360-4d74">
           <characteristics>
-            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Alors que cette figurine mène une unité, chaque fois qu'une attaque cible cette unité, Soustrayez 1 du jet de Touche. De plus, une fois par tour de bataille, vous pouvez cibler cette unité avec l'un des stratagèmes suivants pour 0CP: contre-offensive; Fire Overwatch; Go à Ground;
-Une intervention héroïque.</characteristic>
+            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Tant que cette figurine mène une unité, chaque fois qu’une attaque cible cette unité, soustrayez 1 au jet de Touche. De plus, une fois par tour de bataille, vous pouvez cibler cette unité avec l’un des Stratagèmes suivants pour 0CP : Counter-offensive ; Fire Overwatch ; Go to Ground ;
+Heroic Intervention.</characteristic>
           </characteristics>
         </profile>
         <profile name="Meneur" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="af75-67b0-4fcb-d9e8">
@@ -431,17 +431,17 @@ Une intervention héroïque.</characteristic>
         </profile>
         <profile name="Inspiring Leader" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="aa9c-84b5-b51-8755">
           <characteristics>
-            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Alors que cette figurine mène une unité, cette unité est éligible pour tirer et déclarer une charge à un tour où elle a Avancé ou Battu en Retraite.</characteristic>
+            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Tant que cette figurine mène une unité, cette unité est éligible pour tirer et déclarer une charge durant un tour où elle a Avancé ou Battu en Retraite.</characteristic>
           </characteristics>
         </profile>
         <profile name="Master Tactician" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="7370-225b-feb9-5d86">
           <characteristics>
-            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Au début de votre phase de Commandement, si cette figurine Marneus Calgar est votre WARLORD et est sur le champ de bataille, vous gagnez 1CP.</characteristic>
+            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Au début de votre phase de Commandement, si la figurine Marneus Calgar de cette unité est votre WARLORD et se trouve sur le champ de bataille, vous gagnez 1CP.</characteristic>
           </characteristics>
         </profile>
         <profile name="Honour Guard of Macragge" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="5bb-e17c-f1ac-9efc">
           <characteristics>
-            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Alors que cette unité contient une ou plusieurs figurines Victrix Honour Guard, cette figurine Marneus Calgar de cette unité a la aptitude Insensible à la douleur 4+.</characteristic>
+            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Tant que cette unité contient au moins une figurine Victrix Honour Guard, sa figurine Marneus Calgar a l’aptitude Insensible à la douleur 4+.</characteristic>
           </characteristics>
         </profile>
         <profile name="Meneur" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="19d7-a45d-830a-99">
@@ -602,17 +602,17 @@ Supreme Strategist: Une fois par tour de bataille, vous pouvez cibler une unité
         </profile>
         <profile name="Ultramarines Bodyguard" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="7a88-482-fa96-f382">
           <characteristics>
-            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Alors que cette figurine est à 3" ou moins d'une ou plusieurs unités amies Adeptus Astartes Infantry, cette figurine a la aptitude Agent solitaire</characteristic>
+            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Alors que cette figurine est à 3" ou moins d'une ou de plusieurs unités amies d'Infanterie Adeptus Astartes, cette figurine a l’aptitude Agent solitaire</characteristic>
           </characteristics>
         </profile>
         <profile name="Armour of Fate" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="72ce-755f-7843-e428">
           <characteristics>
-            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">La première fois que cette figurine est détruit, lancez un D6 à la fin de la phase: sur un 3+, remettez cette figurine sur le champ de bataille aussi près que possible de l'endroit où il a été détruit et pas à l'intérieur de la Portée d’Engagement de tout figurine ennemie, avec 6 PV restants.</characteristic>
+            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">La première fois que cette figurine est détruite, lancez un D6 à la fin de la phase : sur 3+, replacez cette figurine sur le champ de bataille aussi près que possible de l’endroit où elle a été détruite et hors de Portée d’Engagement de toute figurine ennemie, avec 6 PV restants.</characteristic>
           </characteristics>
         </profile>
         <profile name="Supreme Commander" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="ef49-87ed-43b1-1644">
           <characteristics>
-            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Si cette figurine est dans votre armée, c'est votre Seigneur de la Guerre.</characteristic>
+            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Si cette figurine est dans votre armée, elle doit être votre Seigneur de la Guerre.</characteristic>
           </characteristics>
         </profile>
       </profiles>
@@ -719,12 +719,12 @@ Supreme Strategist: Une fois par tour de bataille, vous pouvez cibler une unité
         </profile>
         <profile name="Tank Commander" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="72c3-d3f3-5ba8-3c67">
           <characteristics>
-            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Alors que cette figurine commande une figurine de véhicule (voir l'inverse):
+            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Tant que cette figurine commande une figurine Vehicle (voir au verso) :
 
-■ Les armes de tir équipées de cette figurine de véhicule possèdent une caractéristique de Capacité de Tir de 2+.
-■ Chaque fois que la figurine de véhicule est sélectionné pour la prise de vue, vous pouvez relancer un jet de Blessure lors de la résolution de ces attaques.
+■ Les armes de tir dont cette figurine Vehicle est équipée ont une caractéristique de Capacité de Tir de 2+.
+■ Chaque fois que cette figurine Vehicle est sélectionnée pour tirer, vous pouvez relancer un jet de Blessure lors de la résolution de ces attaques.
 
-Si votre armée comprend un ou plusieurs des figurines de véhicules énumérés ci-dessous, Sergeant Chronus doit commencer la bataille engagée dans l'un de ces figurines comme s'il s'agissait d'un Transport. Sergeant Chronus ne peut débarquer de ce véhicule que s'il est détruit. Alors qu'il s'embarquait de cette façon, Sergeant Chronus aurait commandé ce véhicule.
+Si votre armée inclut une ou plusieurs des figurines Vehicle listées ci-dessous, Sergeant Chronus doit commencer la bataille embarqué dans l’une de ces figurines comme s’il s’agissait d’un Transport. Sergeant Chronus ne peut débarquer de cette figurine Vehicle que si elle est détruite. Tant qu’il est embarqué de cette manière, Sergeant Chronus est considéré comme commandant cette figurine Vehicle.
 
 ■ Hunter
 ■ Land Raider
@@ -739,7 +739,7 @@ Si votre armée comprend un ou plusieurs des figurines de véhicules énumérés
         </profile>
         <profile name="Chronus" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="bc23-bd70-e4d0-f355">
           <characteristics>
-            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Quand cette figurine débarque d'une figurine de véhicule qu'il commandait, il a la aptitude Agent solitaire jusqu'à la fin de la bataille.</characteristic>
+            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Lorsque cette figurine débarque d'un véhicule figurine qu'il commandait, il possède l’aptitude Agent solitaire jusqu'à la fin de la bataille.</characteristic>
           </characteristics>
         </profile>
       </profiles>
@@ -831,12 +831,12 @@ Si votre armée comprend un ou plusieurs des figurines de véhicules énumérés
         </profile>
         <profile name="Voice of Experience" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="ce2f-2282-d8d5-abb9">
           <characteristics>
-            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Pendant que cette figurine mène une unité, améliorez la caractéristique de Contrôle d’Objectif des figurines de cette unité par 1 et chaque fois qu'une figurine de cette unité fait une attaque, ajoutez 1 au jet de Touche.</characteristic>
+            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Pendant que cette figurine mène une unité, améliorez la caractéristique de Contrôle d’Objectif des figurines de cette unité par 1 et chaque fois qu'une figurine dans cette unité fait une attaque, ajoutez 1 au jet de Touche.</characteristic>
           </characteristics>
         </profile>
         <profile name="Guiding Hand" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="eae6-c930-f4cc-34d1">
           <characteristics>
-            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Pendant que cette figurine mène une unité, chaque fois que cette unité est sélectionnée pour tirer ou combattre, sélectionnez l'une des capacités suivantes à appliquer aux armes équipées par des figurines dans cette unité jusqu'à la fin de la phase:
+            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Tant que cette figurine mène une unité, chaque fois que cette unité est sélectionnée pour tirer ou combattre, sélectionnez l’une des aptitudes suivantes à appliquer aux armes dont sont équipées les figurines de cette unité jusqu’à la fin de la phase :
 
 
 ■ [Touches fatales]
@@ -1142,7 +1142,7 @@ Si votre armée comprend un ou plusieurs des figurines de véhicules énumérés
       <profiles>
         <profile name="Tyrannic War Veterans" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="fdcb-433f-b79f-1ec1">
           <characteristics>
-            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Les armes équipées de figurines de cette unité ont la aptitude [Blessures dévastatrices] pour cibler les unités Tyranides.</characteristic>
+            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Les armes équipées des figurines de cette unité ont l’aptitude [Blessures dévastatrices] lorsqu'elles visent des unités Tyranides.</characteristic>
           </characteristics>
         </profile>
       </profiles>
@@ -1271,12 +1271,12 @@ Si votre armée comprend un ou plusieurs des figurines de véhicules énumérés
         </profile>
         <profile name="Unorthodox Strategist [Aura]" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="fad2-9c1c-44ce-ad0e">
           <characteristics>
-            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Chaque fois que votre adversaire cible une unité de son armée avec une stratagème, si cette unité se trouve à 12" ou moins de cette figurine, augmentez le coût de cette utilisation de ce stratagème de 1CP (ce qui n'est pas cumulé avec aucune autre règle qui augmenterait le coût CP de ce stratagème).</characteristic>
+            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Chaque fois que votre adversaire vise une unité de son armée avec un Stratagème, si cette unité est à 12" ou moins de cette figurine, augmentez le coût de cette utilisation de ce Stratagème par 1CP (ce n'est pas cumulatif avec toute autre règle qui augmenterait le coût CP de ce Stratagème).</characteristic>
           </characteristics>
         </profile>
         <profile name="Master of the Fleet" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="4e8a-9ef1-43e4-9ab2">
           <characteristics>
-            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Au cours de l'étape Déclarer les Formations de Bataille, Si votre armée inclut cette figurine, Choisissez une Phobos., Le gravis, ou Tacticus Adeptus Astartes, unité d'infanterie de votre armée, cette unité acquiert la aptitude Frappe en profondeur.</characteristic>
+            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Au cours de l'étape Déclarer les Formations de Bataille, si votre armée comprend cette figurine, sélectionnez une unité d'infanterie Phobos, Gravis ou Tacticus Adeptus Astartes de votre armée. Cette unité gagne l’aptitude Frappe en profondeur.</characteristic>
           </characteristics>
         </profile>
         <profile name="Meneur" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="2ce2-dd82-241a-a38f">
@@ -1402,7 +1402,7 @@ Si votre armée comprend un ou plusieurs des figurines de véhicules énumérés
           <profiles>
             <profile name="Astartes Banner" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="9470-edd5-3d88-e7d6">
               <characteristics>
-                <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Alors que cette unité contient un Company Ancient, ajoutez 1 à la caractéristique de Contrôle d’Objectif des figurines de cette unité.</characteristic>
+                <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Si cette unité contient un Company Ancient, ajoutez 1 à la caractéristique de Contrôle d’Objectif de figurines de cette unité.</characteristic>
               </characteristics>
             </profile>
             <profile name="Ultramarines Honor Guard" typeId="c547-1836-d8a-ff4f" typeName="Unit" hidden="false" id="af17-e66b-1bda-424b">
@@ -1425,7 +1425,7 @@ Si votre armée comprend un ou plusieurs des figurines de véhicules énumérés
           <profiles>
             <profile name="Honour or Death" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="f50a-ca82-aec9-fc60">
               <characteristics>
-                <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Alors que cette unité contient un Company Champion, ajoutez 1 aux jets d’Avance et de Charge faits pour cette unité et vous pouvez cibler cette unité avec le Stratagème d'intervention héroïque pour 0CP, même si vous avez déjà utilisé ce Stratagème sur une unité différente cette phase.</characteristic>
+                <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Tant que cette unité contient un Company Champion, ajoutez 1 aux jets d’Avance et de Charge effectués pour cette unité et vous pouvez cibler cette unité avec le Stratagème Heroic Intervention pour 0CP, même si vous avez déjà utilisé ce Stratagème sur une autre unité à cette phase.</characteristic>
               </characteristics>
             </profile>
             <profile name="Ultramarines Honor Guard" typeId="c547-1836-d8a-ff4f" typeName="Unit" hidden="false" id="fa74-c3f8-2b4a-104f">
@@ -1528,7 +1528,7 @@ Si votre armée comprend un ou plusieurs des figurines de véhicules énumérés
       <profiles>
         <profile name="Honour Guard" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="f473-baff-f5e1-a7d0">
           <characteristics>
-            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Alors qu'un Captain ou Le maître figurine dirige cette unité., chaque fois qu'une attaque vise cette unité, Soustrayez 1 du jet de Blessure.</characteristic>
+            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Tant qu’une figurine Captain ou Chapter Master mène cette unité, chaque fois qu’une attaque cible cette unité, soustrayez 1 au jet de Blessure.</characteristic>
           </characteristics>
         </profile>
         <profile name="Honour Guard of Macragge" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="b8b0-9ce7-d362-94cc">
@@ -1652,12 +1652,12 @@ Si votre armée comprend un ou plusieurs des figurines de véhicules énumérés
         </profile>
         <profile name="Press the Attack" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="e284-c8a4-7a2a-24c9">
           <characteristics>
-            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">: Les armes équipées par des figurines de cette figurine ont la aptitude [Touches soutenues 1].</characteristic>
+            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">: Les armes équipées par les figurines de l’unité de cette figurine ont l’aptitude [Touches soutenues 1].</characteristic>
           </characteristics>
         </profile>
         <profile name="Honour of the Chapter" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="682e-f7df-8750-52e0">
           <characteristics>
-            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Si cette figurine est détruit par une attaque de mêlée, s'il n'a pas combattu cette phase, lancez un D6: sur un 2+, ne le retirez pas du jeu. cette figurine peut se battre après que l'unité attaquante ait terminé ses attaques, et est ensuite retiré du jeu.</characteristic>
+            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Si cette figurine est détruite par une attaque de mêlée, si elle n’a pas combattu à cette phase, lancez un D6 : sur 2+, ne la retirez pas du jeu. Cette figurine peut combattre une fois que l’unité attaquante a fini de résoudre ses attaques, puis elle est retirée du jeu.</characteristic>
           </characteristics>
         </profile>
         <profile name="Meneur" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="977d-26f6-d16a-83fd">
@@ -1749,7 +1749,7 @@ Si votre armée comprend un ou plusieurs des figurines de véhicules énumérés
         </profile>
         <profile name="Master Tactician" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="0362-19d9-c371-10a4">
           <characteristics>
-            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Au début de votre phase de Commandement, si cette figurine Marneus Calgar de cette unité est votre ^^**Warlord**^^ et est sur le champ de bataille, vous gagnez 1CP.</characteristic>
+            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Au début de votre phase de Commandement, si la figurine Marneus Calgar de cette unité est votre ^^**Warlord**^^ et se trouve sur le champ de bataille, vous gagnez 1CP.</characteristic>
           </characteristics>
         </profile>
         <profile name="Meneur" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="5bc3-8b43-1671-83d7">
@@ -1861,12 +1861,12 @@ Si votre armée comprend un ou plusieurs des figurines de véhicules énumérés
         </profile>
         <profile name="Knight Champion of Macragge" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="1826-c5e3-0789-3e47">
           <characteristics>
-            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Une fois par tour, lorsqu'une unité ennemie termine un mouvement Normal, Avance ou Retraite à 9" ou moins de l'unité de cette figurine, si cette unité n'est pas dans la Portée d’Engagement d'une ou de plusieurs unités ennemies, elle peut effectuer un mouvement Normal jusqu'à 6".</characteristic>
+            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Une fois par tour, lorsqu'une unité ennemie termine une normale, une avance ou une mouvement de Retraite à 9" ou moins de l’unité de cette figurine, si cette unité n'est pas à l'intérieur de Engagement Portée d'une ou de plusieurs unités ennemies, elle peut effectuer un déplacement normal jusqu'à 6".</characteristic>
           </characteristics>
         </profile>
         <profile name="Honour or Death" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="b7f6-25ea-33f0-655f">
           <characteristics>
-            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Vous pouvez cibler cette unité avec le stratagème d'intervention héroïque pour 0CP, même si vous avez déjà utilisé
+            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Vous pouvez cibler cette unité avec l'intervention héroïque Stratagème pour 0CP, même si vous avez déjà utilisé
 que Stratagème sur une unité différente cette phase.</characteristic>
           </characteristics>
         </profile>
@@ -1877,7 +1877,7 @@ que Stratagème sur une unité différente cette phase.</characteristic>
 
 Vous pouvez fixer cette figurine à l'unité ci-dessus même si une unité Marneus Calgar a déjà été fixée
 à lui. Si vous le faites, et que l'unité Bodyguard est détruite, les unités Meneur attachés à elle deviennent séparés
-unités, avec leur Effectif Initial d’origine</characteristic>
+unités, avec leur Effectifs Initiaux d'origine</characteristic>
           </characteristics>
         </profile>
       </profiles>
@@ -2086,7 +2086,7 @@ unités, avec leur Effectif Initial d’origine</characteristic>
                   <profiles>
                     <profile name="Banner of Macragge" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="9b12-3d8f-7b51-eb52">
                       <characteristics>
-                        <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Une fois par bataille, au début de la phase de Combat, le porteur peut utiliser cette aptitude. Si c'est le cas, jusqu'à la fin de la phase, ajoutez 1 aux caractéristiques de force et d'attaque des armes de mêlée équipées de figurines dans l'unité du porteur.</characteristic>
+                        <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Une fois par bataille, au début de la phase de Combat, le porteur peut utiliser cette aptitude. Si c'est le cas, Jusqu’à la fin de la phase, ajoutez 1 au caractéristiques de Force et d’Attaques d’armes de mêlée équipé des figurines de l’unité du porteur.</characteristic>
                       </characteristics>
                     </profile>
                   </profiles>
@@ -2167,7 +2167,7 @@ unités, avec leur Effectif Initial d’origine</characteristic>
       <profiles>
         <profile name="Ultramarines Honour Guard" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="dac0-5dcc-dca5-b00a">
           <characteristics>
-            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Pendant qu'une figurine Captain ou Chapter Master dirige cette unité, chaque fois qu'une attaque cible cette unité, Soustrayez 1 du jet de Blessure</characteristic>
+            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Tant qu’une figurine Captain ou Chapter Master mène cette unité, chaque fois qu’une attaque cible cette unité, soustrayez 1 au jet de Blessure</characteristic>
           </characteristics>
         </profile>
         <profile name="Glory of Ultramar" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="f114-0598-c696-6d57">
@@ -2316,13 +2316,13 @@ déplacées à Portée d’Engagement de cette unité ennemie. Cette unité ne p
         </profile>
         <profile name="Press the Attack" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="5403-758b-7dcc-6733">
           <characteristics>
-            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Les armes équipées de figurines de l’unité de cette figurine ont la aptitude [Touches soutenues 1]</characteristic>
+            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Les armes équipées par les figurines de l’unité de cette figurine ont l’aptitude [Touches soutenues 1]</characteristic>
           </characteristics>
         </profile>
         <profile name="Honour of Ultramar" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="881c-c896-6d69-b2b9">
           <characteristics>
-            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Si cette figurine est détruit par une attaque de mêlée, s'il n'a pas combattu cette phase, lancez un D6: sur un 2+,
-Ne le retirez pas du jeu. cette figurine peut combattre après que l'unité attaquante ait terminé ses attaques. Si une ou plusieurs figurines ennemies sont détruits à la suite de ces attaques, cette figurine récupère les PV perdus D3 et n'est pas détruit; autrement, il est retiré du jeu.</characteristic>
+            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Si cette figurine est détruite par une attaque de mêlée, si elle n’a pas combattu à cette phase, lancez un D6 : sur 2+,
+ne la retirez pas du jeu. Cette figurine peut combattre une fois que l’unité attaquante a fini de résoudre ses attaques. Si une ou plusieurs figurines ennemies sont détruites par ces attaques, cette figurine récupère D3 PV perdus et n’est pas détruite ; sinon, elle est retirée du jeu.</characteristic>
           </characteristics>
         </profile>
         <profile name="Meneur" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="446d-a792-b36b-0a21">
@@ -2428,13 +2428,13 @@ Ne le retirez pas du jeu. cette figurine peut combattre après que l'unité atta
         </profile>
         <profile name="Second Company Banner" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="061c-2a25-4596-64bf">
           <characteristics>
-            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Alors que cette unité contient Ancient Gadriel, ajoutez 1 à la caractéristique de Contrôle d’Objectif des figurines de cette unité. Alors que cette unité contient Ancient Gadriel et Captain Titus, Améliorez la caractéristique de Commandement des figurines dans cette unité par 1 aussi bien.</characteristic>
+            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Alors que cette unité contient Ancient Gadriel, ajoutez 1 à la caractéristique de Contrôle d’Objectif des figurines de cette unité. Alors que cette unité contient Ancient Gadriel et Captain Titus, Améliorez la caractéristique de Commandement des figurines de cette unité par 1 aussi bien.</characteristic>
           </characteristics>
         </profile>
         <profile name="Strategium Command" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="4925-3113-252d-675c">
           <characteristics>
-            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Après que les deux joueurs aient déployé leurs armées, si cette unité est sur le champ de bataille (ou tout autre Transport)
-Il est sur le champ de bataille, choisissez jusqu'à trois unités d'Adeptus Astartes de votre armée et redéployez-les. Lorsque vous le faites, vous pouvez mettre ces unités en réserve stratégique, quel que soit le nombre d'unités déjà en réserve stratégique.</characteristic>
+            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Après que les deux joueurs ont déployé leurs armées, si cette unité est sur le champ de bataille (ou si un Transport dans
+lequel elle est embarquée est sur le champ de bataille), sélectionnez jusqu’à trois unités Adeptus Astartes de votre armée et redéployez-les. Ce faisant, vous pouvez placer ces unités en Réserves Stratégiques, quel que soit le nombre d’unités qui s’y trouvent déjà.</characteristic>
           </characteristics>
         </profile>
         <profile name="Heroes of Ultramar" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="e761-9683-7201-bbe0">
@@ -2510,7 +2510,7 @@ Cette unité ne peut pas rejoindre une unité Attachée, et seul Captain Titus p
               <profiles>
                 <profile name="Storm Shield" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="ee15-87bc-e1ef-c8be">
                   <characteristics>
-                    <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Le porteur a un 4+ sauvegarde invulnérable.</characteristic>
+                    <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Le le porteur possède un 4+ sauvegarde invulnérable.</characteristic>
                   </characteristics>
                 </profile>
               </profiles>
@@ -2549,7 +2549,7 @@ Cette unité ne peut pas rejoindre une unité Attachée, et seul Captain Titus p
               <profiles>
                 <profile name="Refractor Field" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="2df7-0cd3-224f-2269">
                   <characteristics>
-                    <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Le porteur a un 5+ sauvegarde invulnérable.</characteristic>
+                    <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Le le porteur possède un 5+ sauvegarde invulnérable.</characteristic>
                   </characteristics>
                 </profile>
               </profiles>

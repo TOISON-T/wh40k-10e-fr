@@ -1,14 +1,14 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue xmlns="http://www.battlescribe.net/schema/catalogueSchema" library="false" id="146a-ec25-6b63-1dd3" name="Xenos - T'au Empire" gameSystemId="sys-0e45-705d-f6bc-806a" gameSystemRevision="1" revision="160" battleScribeVersion="2.03" authorContact="Dunamis55 &amp; AbonShell" authorName="BSData Developers" type="catalogue">
+<catalogue xmlns="http://www.battlescribe.net/schema/catalogueSchema" library="false" id="d81a-61dd-6d27-a3ce" name="Xenos - T'au Empire" gameSystemId="sys-352e-adc2-7639-d6a9" gameSystemRevision="1" revision="160" battleScribeVersion="2.03" authorContact="Dunamis55 &amp; AbonShell" authorName="BSData Developers" type="catalogue">
   <rules>
     <rule name="For The Greater Good" hidden="false" id="eeb6-c42-48f7-cc21">
-      <description>Si votre faction d'armée est **^^T’au Empire^^**, au début de votre phase de Tir, vous pouvez sélectionner des unités de votre armée avec cette aptitude pour devenir des unités d'observateur.
+      <description>Si votre faction d'armée est **^^T’au Empire^^**, au début de votre phase de Tir vous pouvez sélectionner des unités de votre armée avec cette aptitude pour devenir des unités d'observateur.
 
-Au cours de votre phase de Tir, pour chaque unité Observateur de votre armée qui n'a pas été sélectionnée pour tirer cette phase et qui est admissible à tirer (à l'exclusion des unités **^^Fortification^^** et Ébranlé), sélectionnez une unité ennemi visible pour être marquée comme leur unité Spotted jusqu'à la fin de la phase. Chaque unité ennemie ne peut être marquée qu'une seule fois par phase.
+Au cours de votre phase de Tir, pour chaque unité Observateur de votre armée qui n'a pas été sélectionnée pour filmer cette phase et qui est éligible pour tirer (à l’exclusion de **^^Fortification^^** et Ébranlé unités) choisissez une unité ennemie qui est visible pour être marqué comme leur Unité Spotted Jusqu’à la fin de la phase. Chaque unité ennemie ne peut être marquée qu'une seule fois par phase.
 
-Les unités de votre armée avec la aptitude pour le plus grand bien (à l'exclusion des unités d'observateur) sont des unités guidées tout en ciblant une ou plusieurs unités Spotted.
+Les unités de votre armée avec l’aptitude pour le Greater Good (Unités d'observateur à l’exclusion de) sont des unités guidées tout en ciblant une ou plusieurs unités Spotted.
 
-Jusqu'à la fin de la phase, chaque fois qu'une figurine de votre armée dans une unité guidée effectue une attaque visant une unité Spotted, améliorez la caractéristique de caractéristique de Capacité de Tir de cette attaque par 1 et, si l'unité Spotted a été marquée par une unité Observer qui a le mot-clé Markerlight, cette attaque a la aptitude **[IGNORES COVER]**.</description>
+Jusqu’à la fin de la phase, chaque fois qu'une figurine de votre armée dans une unité guidée effectue une attaque qui cible une unité Spotted, améliore la caractéristique de caractéristique de Capacité de Tir de cette attaque par 1 et, si l'unité Spotted a été marquée par une unité Observateur qui a l’aptitude Markerlight mot-clé, cette attaque a le **[IGNORE LE COUVERT]**.</description>
       <modifiers>
         <modifier type="set" value="true" field="hidden">
           <conditions>
@@ -43,7 +43,7 @@ Jusqu'à la fin de la phase, chaque fois qu'une figurine de votre armée dans un
       <profiles>
         <profile name="Guardian Drone" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="7c13-8707-b827-3d35">
           <characteristics>
-            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Chaque fois qu'une figurine effectue une attaque de tir qui vise l'unité du porteur, Soustrayez 1 du jet de Blessure.</characteristic>
+            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Chaque fois qu’une figurine effectue une attaque de tir qui cible l’unité du porteur, soustrayez 1 au jet de Blessure.</characteristic>
           </characteristics>
         </profile>
       </profiles>
@@ -52,7 +52,7 @@ Jusqu'à la fin de la phase, chaque fois qu'une figurine de votre armée dans un
       <profiles>
         <profile name="Marker Drone" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="2026-4469-a453-d24e">
           <characteristics>
-            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">l’unité du porteur possède le mot-clé **^^Markerlight^^** et peut agir comme une unité Observateur pour une autre unité même si elle avance ce tour.</characteristic>
+            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">L’unité du porteur a le mot-clé **^^Markerlight^^** et peut agir comme unité Observer pour une autre unité même si elle a Avancé à ce tour.</characteristic>
           </characteristics>
         </profile>
       </profiles>
@@ -144,22 +144,22 @@ Jusqu'à la fin de la phase, chaque fois qu'une figurine de votre armée dans un
         </profile>
         <profile name="Hero of the Empire (Aura)" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="b13-dc2f-2104-2ba2">
           <characteristics>
-            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Alors qu'une unité amicale **^^T’au Empire^^** se trouve à 6" ou moins de cette figurine, chaque fois qu'une figurine dans cette unité effectue une attaque de tir, relancez un jet de Touche de 1.</characteristic>
+            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Tant qu’une unité **^^T’au Empire^^** amie est à 6" ou moins de cette figurine, chaque fois qu’une figurine de cette unité effectue une attaque de tir, relancez un jet de Touche de 1.</characteristic>
           </characteristics>
         </profile>
         <profile name="Advanced Guardian Drone" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="d1d-2e4f-db3d-b3c4">
           <characteristics>
-            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Chaque fois qu'une attaque de tir vise le porteur, Soustrayez 1 du jet de Blessure.</characteristic>
+            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Chaque fois qu'une attaque de tir cible le porteur, Soustrayez 1 du jet de Blessure.</characteristic>
           </characteristics>
         </profile>
         <profile name="Command-link Drone (Aura)" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="8d40-9af2-d279-b0e2">
           <characteristics>
-            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Alors qu'une unité **^^T’au Empire^^** conviviale est à 6" ou moins du porteur, chaque fois que vous sélectionnez cette unité comme cible d'un Stratagème, lancez un D6: sur une 5+, vous gagnez 1CP.</characteristic>
+            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Tant qu’une unité **^^T’au Empire^^** amie est à 6" ou moins du porteur, chaque fois que vous sélectionnez cette unité comme cible d’un Stratagème, lancez un D6 : sur 5+, vous gagnez 1CP.</characteristic>
           </characteristics>
         </profile>
         <profile name="Supreme Commander" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="8bf2-521f-d66-b9c">
           <characteristics>
-            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Si cette figurine est dans votre armée, il doit être votre **^^Warlord^^**.</characteristic>
+            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Si cette figurine est dans votre armée, elle doit être votre **^^Warlord^^**.</characteristic>
           </characteristics>
         </profile>
         <profile name="Commander Shadowsun" typeId="c547-1836-d8a-ff4f" typeName="Unit" hidden="false" id="278f-dd0d-f414-5f1a">
@@ -311,7 +311,7 @@ Jusqu'à la fin de la phase, chaque fois qu'une figurine de votre armée dans un
       <profiles>
         <profile name="Way of the Short Blade" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="b518-dfb4-ed41-6393">
           <characteristics>
-            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Pendant que cette figurine mène une unité, chaque fois qu'une figurine de cette unité effectue une attaque visant une unité ennemie à 9" ou moins, ajoutez 1 au jet de Blessure.</characteristic>
+            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Alors que cette figurine mène une unité, chaque fois qu'une figurine dans cette unité effectue une attaque visant une unité ennemie à 9" ou moins, ajoutez 1 au jet de Blessure.</characteristic>
           </characteristics>
         </profile>
         <profile name="Puretide's Teachings" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="49a3-e55-9ec9-32fd">
@@ -495,7 +495,7 @@ Jusqu'à la fin de la phase, chaque fois qu'une figurine de votre armée dans un
       <profiles>
         <profile name="Crisis Commander" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="1597-2952-693f-60f2">
           <characteristics>
-            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Alors que cette figurine mène une unité, chaque fois qu'une figurine dans cette unité fait une attaque de tir, relancez un jet de Touche de 1.</characteristic>
+            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Alors que cette figurine conduit une unité, chaque fois qu'une figurine dans cette unité fait une attaque de tir, relancer un jet de Touche de 1.</characteristic>
           </characteristics>
         </profile>
         <profile name="Commander in Crisis Battlesuit" typeId="c547-1836-d8a-ff4f" typeName="Unit" hidden="false" id="1b5b-8bc9-907e-3372">
@@ -773,7 +773,7 @@ Jusqu'à la fin de la phase, chaque fois qu'une figurine de votre armée dans un
       <profiles>
         <profile name="Shield Generator" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="82af-7e9a-2d1a-5637">
           <characteristics>
-            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Le porteur a un 4+ sauvegarde invulnérable.</characteristic>
+            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Le porteur a une sauvegarde invulnérable de 4+.</characteristic>
           </characteristics>
         </profile>
       </profiles>
@@ -807,7 +807,7 @@ Jusqu'à la fin de la phase, chaque fois qu'une figurine de votre armée dans un
       <profiles>
         <profile name="Enforcer Commander" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="a2d3-2ad-5805-8a37">
           <characteristics>
-            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Alors que cette figurine mène une unité, chaque fois qu'une attaque de tir vise cette unité, la caractéristique de Pénétration d’Armure de cette attaque est aggravée par 1.</characteristic>
+            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Alors que cette figurine mène une unité, chaque fois qu'une attaque de tir cible cette unité, il aggrave la caractéristique de Pénétration d’Armure de cette attaque par 1.</characteristic>
           </characteristics>
         </profile>
         <profile name="Commander in Enforcer Battlesuit" typeId="c547-1836-d8a-ff4f" typeName="Unit" hidden="false" id="374a-f353-ddb0-f709">
@@ -1111,7 +1111,7 @@ Jusqu'à la fin de la phase, chaque fois qu'une figurine de votre armée dans un
         </profile>
         <profile name="Coldstar Commander" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="e09d-50a0-b1a2-f705">
           <characteristics>
-            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Alors que cette figurine mène une unité, les figurines de cette unité ont une caractéristique de mouvement de 12" et les armes de tir équipées par les figurines de cette unité ont la aptitude **[ASSAULT]**.</characteristic>
+            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Tant que cette figurine mène une unité, les figurines de cette unité ont une caractéristique de Mouvement de 12" et les armes de tir dont sont équipées les figurines de cette unité ont l’aptitude **[ASSAULT]**.</characteristic>
           </characteristics>
         </profile>
       </profiles>
@@ -1413,12 +1413,12 @@ Jusqu'à la fin de la phase, chaque fois qu'une figurine de votre armée dans un
         </profile>
         <profile name="Volley Fire" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="5fe0-afe2-451c-38d2">
           <characteristics>
-            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Pendant que cette figurine mène une unité, ajoutez 1 aux caractéristique d’Attaques des armes de tir équipées de figurines dans cette unité.</characteristic>
+            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Tant que cette figurine mène une unité, ajoutez 1 à la caractéristique d’Attaques des armes de tir dont les figurines de cette unité sont équipées.</characteristic>
           </characteristics>
         </profile>
         <profile name="Crack Shot" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="7c91-fe45-cd-7abc">
           <characteristics>
-            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Chaque fois que cette figurine effectue une attaque de tir, sur une blessure critique, cette attaque a une caractéristique de Pénétration d’Armure de -3.</characteristic>
+            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Chaque fois que cette figurine effectue une attaque de tir, sur une Blessure Critique, cette attaque a une caractéristique de Pénétration d’Armure de -3.</characteristic>
           </characteristics>
         </profile>
         <profile name="Meneur" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="e084-9d6c-36d3-d635">
@@ -1630,7 +1630,7 @@ Jusqu'à la fin de la phase, chaque fois qu'une figurine de votre armée dans un
           <profiles>
             <profile name="Failure Is Not an Option" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="77a0-3cc8-dacf-bbdf">
               <characteristics>
-                <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Alors que cette figurine mène une unité, les figurines de cette unité ont la aptitude Insensible à la douleur 5+.</characteristic>
+                <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Alors que cette figurine mène une unité, les figurines de cette unité ont l’aptitude Insensible à la douleur 5+.</characteristic>
               </characteristics>
             </profile>
           </profiles>
@@ -1648,7 +1648,7 @@ Jusqu'à la fin de la phase, chaque fois qu'une figurine de votre armée dans un
                   <profiles>
                     <profile name="Hover Drone" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="a3bb-77b8-a18f-23e1">
                       <characteristics>
-                        <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Le porteur peut **^^Fly^^** et possède une caractéristique de mouvement de 10".</characteristic>
+                        <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Le porteur peut **^^Fly^^** et a une caractéristique de Mouvement de 10".</characteristic>
                       </characteristics>
                     </profile>
                   </profiles>
@@ -1849,17 +1849,17 @@ Jusqu'à la fin de la phase, chaque fois qu'une figurine de votre armée dans un
       <profiles>
         <profile name="Duality Shield" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="d75c-8807-c2d9-2fcc">
           <characteristics>
-            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Une fois par bataille, chaque fois qu'une attaque cible cette unité, elle peut utiliser cette aptitude. Si c'est le cas, jusqu'à la fin de la phase, les figurines de cette unité ont un 2+ sauvegarde invulnérable.</characteristic>
+            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Une fois par bataille, chaque fois qu'une attaque cible cette unité, elle peut utiliser cette aptitude. Si c'est le cas, Jusqu’à la fin de la phase, les figurines de cette unité ont un 2+ sauvegarde invulnérable.</characteristic>
           </characteristics>
         </profile>
         <profile name="Paradox of Duality" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="726c-8c32-9fa2-6c2e">
           <characteristics>
-            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Chaque fois qu'une attaque vise cette unité, , Soustrayez 1 du jet de Touche et Soustrayez 1 du jet de Blessure.</characteristic>
+            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Chaque fois qu'une attaque vise cette unité, Soustrayez 1 du jet de Touche et soustraire 1 du jet de Blessure.</characteristic>
           </characteristics>
         </profile>
         <profile name="Supreme Loyalty (Aura)" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="8f07-3db6-72e6-2d9c">
           <characteristics>
-            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Alors qu'une unité amicale TAU EMPIRE se trouve à 6" ou moins de cette unité, chaque fois que cette unité passe un test d’Ébranlement ou de Commandement, ajoutez 1 à ce test.</characteristic>
+            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Alors qu'une unité amicale TAU EMPIRE se trouve à 6" ou moins de cette unité, chaque fois que cette unité prend un Ébranlement ou test de Commandement, ajoutez 1 à ce test.</characteristic>
           </characteristics>
         </profile>
       </profiles>
@@ -2116,12 +2116,12 @@ Jusqu'à la fin de la phase, chaque fois qu'une figurine de votre armée dans un
         </profile>
         <profile name="Structural Analyser" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="2760-a977-5b19-6364">
           <characteristics>
-            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Pendant que cette figurine mène une unité, chaque fois qu'une figurine de cette unité fait une attaque de tir, ajoutez 1 au jet de Blessure.</characteristic>
+            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Pendant que cette figurine mène une unité, chaque fois qu'une figurine dans cette unité fait une attaque de tir, ajoutez 1 au jet de Blessure.</characteristic>
           </characteristics>
         </profile>
         <profile name="Jammer Array" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="784c-ed1d-8f6-7c7b">
           <characteristics>
-            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Les unités ennemies déployées sur le champ de bataille depuis les réserves ne peuvent pas être déployées à 12" ou moins de cette figurine.</characteristic>
+            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Les unités ennemies installées sur le champ de bataille des Réserves ne peuvent pas être installées à 12" ou moins de cette figurine.</characteristic>
           </characteristics>
         </profile>
         <profile name="Meneur" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="7872-ee2c-cffa-7dfb">
@@ -2250,7 +2250,7 @@ Jusqu'à la fin de la phase, chaque fois qu'une figurine de votre armée dans un
         </profile>
         <profile name="Armour Hunter" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="db46-1f35-2996-964f">
           <characteristics>
-            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Chaque fois que cette figurine effectue une attaque qui cible un MONSTER ou VEHICLE, ajoutez 1 au jet de Touche.</characteristic>
+            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Chaque fois que cette figurine effectue une attaque visant un MONSTER ou un VEHICLE, ajoutez 1 au jet de Touche.</characteristic>
           </characteristics>
         </profile>
       </profiles>
@@ -2272,7 +2272,7 @@ Jusqu'à la fin de la phase, chaque fois qu'une figurine de votre armée dans un
           <profiles>
             <profile name="XV02 Pilot Battlesuit" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="fefe-3546-8754-2e26">
               <characteristics>
-                <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Dans votre phase de Commandement, vous pouvez sélectionner une unité amicale Hammerhead Gunship à 12" ou moins. Jusqu'au début de votre prochaine phase de Commandement, les armes de tir équipées de figurines dans cette unité ont la aptitude [Touches fatales].</characteristic>
+                <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Dans votre phase de Commandement, vous pouvez sélectionner une unité conviviale Hammerhead Gunship à 12" ou moins. Jusqu'au début de votre prochaine phase de Commandement, armes de tir équipé des figurines de cette unité possède l’aptitude [Touches fatales].</characteristic>
               </characteristics>
             </profile>
           </profiles>
@@ -2462,14 +2462,14 @@ Jusqu'à la fin de la phase, chaque fois qu'une figurine de votre armée dans un
       <profiles>
         <profile name="Suppression Volley" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="62df-a9ee-3931-13d">
           <characteristics>
-            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Dans votre phase de Tir, après que cette unité ait tiré, sélectionnez une unité ennemie INFANTRY touchée par une ou plusieurs de ces attaques. Jusqu'au début de votre tour suivant, pendant que l'unité est sur le champ de bataille, cette unité ennemie est supprimée. Tant qu’une unité est supprimée, chaque fois qu'une figurine dans cette unité fait une attaque, Soustrayez 1 du jet de Touche.</characteristic>
+            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Dans votre phase de Tir, après que cette unité ait tiré, sélectionnez une unité ennemie INFANTRY frappée par un ou plusieurs de ces Attaques. Jusqu'au début de votre prochain tour, pendant que l'unité est sur le champ de bataille, que cette unité ennemie est supprimé. Tant qu’une unité est supprimée, chaque fois qu'une figurine dans cette unité fait une attaque, Soustrayez 1 du jet de Touche.</characteristic>
           </characteristics>
         </profile>
         <profile name="DS8 Support Turret" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="d2e6-f139-acad-1b30">
           <characteristics>
-            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Dans votre phase de Mouvement, si cette unité reste stationnaire, jusqu'au début de votre prochain tour, son figurine Shasui est équipé de l'arme de support tourette.
+            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Durant votre phase de Mouvement, si cette unité Reste Immobile, jusqu’au début de votre prochain tour, sa figurine Shas’ui est équipée de l’arme support turret.
 
-Remarque du concepteur: Placez un jeton de support à côté de cette unité pour vous rappeler.</characteristic>
+Note du concepteur : Placez un pion Support Turret à côté de cette unité en guise de rappel.</characteristic>
           </characteristics>
         </profile>
       </profiles>
@@ -2799,14 +2799,14 @@ Remarque du concepteur: Placez un jeton de support à côté de cette unité pou
       <profiles>
         <profile name="Breach and Clear" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="3926-4865-e8c7-c5eb">
           <characteristics>
-            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Chaque fois qu'une figurine dans cette unité fait une attaque de tir qui cible une unité ennemi dans la portée d'un marqueur objectif, vous pouvez relancer le jet de Blessure.</characteristic>
+            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Chaque fois qu’une figurine de cette unité effectue une attaque de tir qui cible une unité ennemie à portée d’un pion d’objectif, vous pouvez relancer le jet de Blessure.</characteristic>
           </characteristics>
         </profile>
         <profile name="DS8 Support Turret" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="3354-9520-c907-c618">
           <characteristics>
-            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Dans votre phase de Mouvement, si cette unité reste stationnaire, jusqu'au début de votre prochain tour, son figurine Shasui est équipé de l'arme de support tourette.
+            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Durant votre phase de Mouvement, si cette unité Reste Immobile, jusqu’au début de votre prochain tour, sa figurine Shas’ui est équipée de l’arme support turret.
 
-Remarque du concepteur: Placez un jeton de support à côté de cette unité pour vous rappeler.</characteristic>
+Note du concepteur : Placez un pion Support Turret à côté de cette unité en guise de rappel.</characteristic>
           </characteristics>
         </profile>
       </profiles>
@@ -3077,7 +3077,7 @@ Remarque du concepteur: Placez un jeton de support à côté de cette unité pou
         </profile>
         <profile name="Fieldcraft" hidden="false" id="2d1d-ea81-7078-938b" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities">
           <characteristics>
-            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">À la fin de votre phase de Commandement, si cette unité est à la portée d'un marqueur objectif que vous contrôlez, ce marqueur objectif reste sous votre contrôle, même si vous n'avez pas de figurines à la portée de celui-ci, jusqu'à ce que votre adversaire le contrôle au début ou à la fin de tout tour.</characteristic>
+            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">À la fin de votre phase de Commandement, si cette unité dans Portée d'un pion d’objectif que vous contrôlez, que pion d’objectif reste sous votre contrôle, même si vous n'avez pas figurines dans Portée de celui-ci, jusqu'à ce que votre adversaire le contrôle au début ou à la fin de tout tour.</characteristic>
           </characteristics>
           <modifiers>
             <modifier type="set" value="true" field="hidden">
@@ -3089,7 +3089,7 @@ Remarque du concepteur: Placez un jeton de support à côté de cette unité pou
         </profile>
         <profile name="Bodyguard" hidden="false" id="d0e7-bbff-a4f8-1b2d" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities">
           <characteristics>
-            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Si cette unité a une Effectif Initial de 20, vous pouvez y joindre jusqu'à deux unités Meneur au lieu d'une, à condition que ces leaders ne soient pas des duplicates (p. ex. vous ne pouvez pas joindre deux WAR SHAPERS à cette unité). Si vous le faites, et cette unité est détruite, les unités Meneur attachées à elle deviennent des unités séparées avec leur Effectif Initial d’origine.</characteristic>
+            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Si cette unité a un Effectif Initial de 20, vous pouvez lui attacher jusqu’à deux unités Meneur au lieu d’une, à condition que ces Meneurs ne soient pas identiques (p. ex. vous ne pouvez pas attacher deux WAR SHAPERS à cette unité). Si vous le faites et que cette unité est détruite, les unités Meneur qui lui sont attachées deviennent des unités séparées avec leur Effectif Initial d’origine.</characteristic>
           </characteristics>
         </profile>
       </profiles>
@@ -3407,7 +3407,7 @@ Remarque du concepteur: Placez un jeton de support à côté de cette unité pou
         </profile>
         <profile name="Kroot Packmates" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="a0b-cde0-58da-af93">
           <characteristics>
-            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Une fois par tour, dans la phase de Tir de votre adversaire, quand une unité amicale KROOT INFANTRY à 6" ou moins de cette unité est sélectionnée comme cible d'une attaque, une unité de votre armée avec cette aptitude peut l'utiliser. S'il le fait, après que l'unité ennemie ait terminé d'effectuer ses attaques, cette unité avec cette aptitude peut tirer comme si c'était votre phase de Tir, mais lors de la résolution de ces attaques, elle ne peut cibler que cette unité ennemie (et seulement si c'est une cible admissible).</characteristic>
+            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Une fois par tour, durant la phase de Tir de votre adversaire, lorsqu’une unité KROOT INFANTRY amie à 6" ou moins de cette unité est sélectionnée comme cible d’une attaque, une unité de votre armée dotée de cette aptitude peut l’utiliser. Si elle le fait, après que cette unité ennemie a terminé d’effectuer ses attaques, l’unité dotée de cette aptitude peut tirer comme s’il s’agissait de votre phase de Tir, mais elle ne peut alors cibler que cette unité ennemie, et seulement si celle-ci est une cible éligible.</characteristic>
           </characteristics>
           <modifiers>
             <modifier type="set" value="true" field="hidden">
@@ -3773,7 +3773,7 @@ Remarque du concepteur: Placez un jeton de support à côté de cette unité pou
       <profiles>
         <profile name="Turbo-jets" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="48d4-b938-de65-cd2">
           <characteristics>
-            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Chaque fois que cette unité avance, ne faites pas un jet d’Avance pour elle. Au lieu de cela, jusqu'à la fin de la phase, ajoutez 6" à la caractéristique de mouvement des figurines de cette unité.</characteristic>
+            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Chaque fois que cette unité avance, ne faites pas un jet d’Avance pour elle. Au lieu de cela, Jusqu’à la fin de la phase, ajoutez 6" à la caractéristique de mouvement des figurines de cette unité.</characteristic>
           </characteristics>
         </profile>
         <profile name="Crisis Bodyguard" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="ca95-3643-8ceb-8664">
@@ -4211,7 +4211,7 @@ Remarque du concepteur: Placez un jeton de support à côté de cette unité pou
       <profiles>
         <profile name="Forward Observers" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="c5b0-2214-2987-d0de">
           <characteristics>
-            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Chaque fois que cette unité est une unité Observateur, jusqu'à la fin de la phase, chaque fois qu'une attaque de tir est effectuée par une figurine dans une unité guidée qui cible son unité Spotted, relancez les jets de Touche de 1 et les jets de Blessure de 1.</characteristic>
+            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Chaque fois que cette unité est une unité Observateur, Jusqu’à la fin de la phase, chaque fois qu'une attaque de tir est faite par une figurine dans une unité guidée qui cible leur unité Spotted, relancer une jet de Touche de 1 et relancer une jet de Blessure de 1.</characteristic>
           </characteristics>
         </profile>
       </profiles>
@@ -4585,9 +4585,9 @@ Remarque du concepteur: Placez un jeton de support à côté de cette unité pou
         </profile>
         <profile name="Stealth Drones" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="ff15-6f06-1824-ea0b">
           <characteristics>
-            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Deux fois par bataille, après qu'une attaque ait été attribuée à cette figurine, vous pouvez modifier la caractéristique de Dégâts de cette attaque à 0.
+            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Deux fois par bataille, après qu’une attaque a été allouée à cette figurine, vous pouvez remplacer la caractéristique de Dégâts de cette attaque par 0.
 
-Note du concepteur: Placez deux jetons Discrétion Drone à côté de l'unité, en en enlevant un à chaque fois que cette aptitude a été utilisée.</characteristic>
+Designer’s Note: Placez deux pions Stealth Drone à côté de l’unité et retirez-en un chaque fois que cette aptitude est utilisée.</characteristic>
           </characteristics>
         </profile>
       </profiles>
@@ -4670,7 +4670,7 @@ Note du concepteur: Placez deux jetons Discrétion Drone à côté de l'unité, 
                   <profiles>
                     <profile name="Battlesuit Support System" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="5496-1077-da50-c494">
                       <characteristics>
-                        <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Le porteur est admissible à tirer dans un tour dans lequel a Battu en Retraite mais il perd le mot-clé **^^Smoke^^**.</characteristic>
+                        <characteristic name="Description" typeId="9b8f-694b-e5e-b573">le porteur est éligible pour tirer dans un tour dans lequel il a Battu en Retraite mais il perd mot-clé **^^Smoke^^**.</characteristic>
                       </characteristics>
                     </profile>
                   </profiles>
@@ -5098,7 +5098,7 @@ Note du concepteur: Placez deux jetons Discrétion Drone à côté de l'unité, 
       <profiles>
         <profile name="Target Uploaded" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="85b7-6da7-e356-82e5">
           <characteristics>
-            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Chaque fois qu'une figurine dans cette unité effectue une attaque qui cible leur unité Spotted, améliorez la caractéristique de caractéristique de Capacité de Tir de cette attaque par 1 et cette attaque a la aptitude **[IGNORES COVER]**.</characteristic>
+            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Chaque fois qu'une figurine dans cette unité effectue une attaque visant son unité Spotted, améliorez la caractéristique de Capacité de Tir de cette attaque par 1 et cette attaque a l’aptitude **[IGNORE LE COUVERT]**.</characteristic>
           </characteristics>
         </profile>
       </profiles>
@@ -5428,7 +5428,7 @@ Note du concepteur: Placez deux jetons Discrétion Drone à côté de l'unité, 
                           <profiles>
                             <profile name="Grav-inhibitor Drone" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="f75f-eefc-aff0-75cd">
                               <characteristics>
-                                <characteristic name="Description" id="44f5-8f25-8381-fa6d" hidden="false" typeId="9b8f-694b-e5e-b573">Chaque fois qu'une unité ennemie sélectionne l'unité du porteur comme cible d'une charge, Soustrayez 2 du jet de Charge (ce n'est pas cumulatif avec d'autres modificateurs négatifs de ce jet de Charge).</characteristic>
+                                <characteristic name="Description" id="44f5-8f25-8381-fa6d" hidden="false" typeId="9b8f-694b-e5e-b573">Chaque fois qu'une unité ennemie sélectionne l’unité du porteur comme cible d'une charge, Soustrayez 2 du jet de Charge (ce qui n'est pas cumulé avec d'autres modificateurs négatifs de ce jet de Charge).</characteristic>
                               </characteristics>
                             </profile>
                           </profiles>
@@ -5437,7 +5437,7 @@ Note du concepteur: Placez deux jetons Discrétion Drone à côté de l'unité, 
                           <profiles>
                             <profile name="Pulse Accelerator Drone" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="3ab8-c70d-b5d8-98b3">
                               <characteristics>
-                                <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Ajoutez 6" à la caractéristique de Portée des carbines à impulsion équipées de figurines de l’unité du porteur.</characteristic>
+                                <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Ajoutez 6" à la caractéristique de Portée des carbines à impulsions équipées par les figurines de l’unité du porteur.</characteristic>
                               </characteristics>
                             </profile>
                           </profiles>
@@ -5446,7 +5446,7 @@ Note du concepteur: Placez deux jetons Discrétion Drone à côté de l'unité, 
                           <profiles>
                             <profile name="Recon Drone" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="aaac-7647-9ecf-4fd1">
                               <characteristics>
-                                <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Le porteur est équipé d'un canon d'explosion de drone 1 et l'unité du porteur possède la aptitude Infiltrators.</characteristic>
+                                <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Le porteur est équipé de 1 drone burst cannon et l’unité du porteur a l’aptitude Infiltrateurs.</characteristic>
                               </characteristics>
                             </profile>
                           </profiles>
@@ -5702,7 +5702,7 @@ Note du concepteur: Placez deux jetons Discrétion Drone à côté de l'unité, 
       <profiles>
         <profile name="Piranha" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="9957-13e2-50a0-163c">
           <characteristics>
-            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">À la fin de votre phase de Mouvement, sélectionnez une unité ennemie à 12" ou moins de cette unité; cette unité ennemie doit passer un test d’Ébranlement.</characteristic>
+            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">À la fin de votre phase de Mouvement, sélectionnez une unité ennemie à 12" ou moins de cette unité ; cette unité ennemie doit effectuer un test d’Ébranlement.</characteristic>
           </characteristics>
         </profile>
       </profiles>
@@ -5992,7 +5992,7 @@ Note du concepteur: Placez deux jetons Discrétion Drone à côté de l'unité, 
         </profile>
         <profile name="Airborne Agility" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="86af-3f86-dca6-faff">
           <characteristics>
-            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">À la fin du tour de votre adversaire, si cette unité n'est pas dans la Portée d’Engagement d'une ou plusieurs unités ennemies, vous pouvez la retirer du champ de bataille et la placer dans les réserves stratégiques.</characteristic>
+            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">À la fin du tour de votre adversaire, si cette unité n’est pas à Portée d’Engagement d’une ou plusieurs unités ennemies, vous pouvez la retirer du champ de bataille et la placer en Réserves Stratégiques.</characteristic>
           </characteristics>
           <modifiers>
             <modifier type="set" value="true" field="hidden">
@@ -6094,9 +6094,9 @@ Note du concepteur: Placez deux jetons Discrétion Drone à côté de l'unité, 
                       <profiles>
                         <profile name="Oversight Drone" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="f1f8-0162-549a-a464">
                           <characteristics>
-                            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Une fois par bataille, lorsque l’unité du porteur est sélectionnée pour tirer, jusqu'à la fin de la phase, les armes de tir équipées de figurines dans cette unité ont la aptitude [Ignore le couvert].
+                            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Une fois par bataille, lorsque l’unité du porteur est sélectionnée pour tirer, jusqu’à la fin de la phase, les armes de tir dont les figurines de cette unité sont équipées ont l’aptitude [IGNORES COVER].
 
-Note du concepteur: Placez un jeton Oversight Drone à côté du porteur, en le retirant une fois cette aptitude utilisée.</characteristic>
+Note du Concepteur : placez un pion Oversight Drone à côté du porteur et retirez-le une fois cette aptitude utilisée.</characteristic>
                           </characteristics>
                         </profile>
                       </profiles>
@@ -6450,7 +6450,7 @@ Note du concepteur: Placez un jeton Oversight Drone à côté du porteur, en le 
         </profile>
         <profile name="Loping Pounce" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="fb24-c625-8e6a-eeb0">
           <characteristics>
-            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Au début de votre phase de Commandement, si cette unité se trouve à 6" ou moins d'une ou plusieurs unités amies KROOT INFANTRY, alors jusqu'à la fin du tour, cette unité est admissible à déclarer une charge dans un tour dans lequel elle avance.</characteristic>
+            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Au début de votre phase de Commandement, si cette unité se trouve à 6" ou moins d'une ou de plusieurs unités amies KROOT INFANTRY, alors jusqu'à la fin du tour, cette unité est admissible à déclarer une charge dans un tour dans lequel elle avance.</characteristic>
           </characteristics>
           <modifiers>
             <modifier type="set" value="true" field="hidden">
@@ -6462,7 +6462,7 @@ Note du concepteur: Placez un jeton Oversight Drone à côté du porteur, en le 
         </profile>
         <profile name="Hunting Hounds" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="3cfd-4cf6-9b8c-874b">
           <characteristics>
-            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Tant que cette unité se situe à 12" ou moins d'un ou de plusieurs figurines KROOT CHARACTER sympathiques, la caractéristique de Contrôle d’Objectif des figurines de cette unité est 1.</characteristic>
+            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Tant que cette unité est à 12" ou moins d’une ou plusieurs figurines KROOT CHARACTER amies, la caractéristique de Contrôle d’Objectif des figurines de cette unité est de 1.</characteristic>
           </characteristics>
         </profile>
       </profiles>
@@ -6960,7 +6960,7 @@ Note du concepteur: Placez un jeton Oversight Drone à côté du porteur, en le 
       <profiles>
         <profile name="Advanced Armour" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="45a8-1aaa-cff6-938b">
           <characteristics>
-            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Les figurines de cette unité ont la aptitude Insensible à la douleur 4+ contre les Blessures Mortelles.</characteristic>
+            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Le les figurines de cette unité ont l’aptitude Insensible à la douleur 4+ contre Blessures Mortelles.</characteristic>
           </characteristics>
         </profile>
       </profiles>
@@ -6979,7 +6979,7 @@ Note du concepteur: Placez un jeton Oversight Drone à côté du porteur, en le 
         </profile>
         <profile name="Nova Charge" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="8fb6-aff7-75ac-f206">
           <characteristics>
-            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Une fois par bataille, lorsque cette unité est sélectionnée pour tirer dans votre phase de Tir, sélectionnez une arme de tir équipée de cette figurine. Jusqu'à la fin de la phase, cette arme a la aptitude [Blessures dévastatrices].</characteristic>
+            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Une fois par bataille, lorsque cette unité est sélectionnée pour tirer dans votre phase de Tir, sélectionnez un arme de tir équipé de cette figurine. Jusqu’à la fin de la phase, cette arme a l’aptitude [Blessures dévastatrices].</characteristic>
           </characteristics>
         </profile>
       </profiles>
@@ -7289,7 +7289,7 @@ Note du concepteur: Placez un jeton Oversight Drone à côté du porteur, en le 
         </profile>
         <profile name="Armour Hunter" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="9e7-373-d0d6-af25">
           <characteristics>
-            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Chaque fois que cette figurine effectue une attaque qui cible un MONSTER ou VEHICLE, ajoutez 1 au jet de Touche.</characteristic>
+            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Chaque fois que cette figurine effectue une attaque visant un MONSTER ou un VEHICLE, ajoutez 1 au jet de Touche.</characteristic>
           </characteristics>
         </profile>
       </profiles>
@@ -7611,7 +7611,7 @@ Note du concepteur: Placez un jeton Oversight Drone à côté du porteur, en le 
         </profile>
         <profile name="Velocity Tracker" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="89bb-91cf-2e76-ae69">
           <characteristics>
-            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Chaque fois que cette figurine fait une attaque avec une arme de tir qui cible une unité qui peut FLY, vous pouvez relancer le jet de Touche.</characteristic>
+            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Chaque fois que cette figurine fait une attaque avec un arme de tir qui cible une unité qui peut FLY, vous pouvez relancer le jet de Touche.</characteristic>
           </characteristics>
         </profile>
       </profiles>
@@ -7857,7 +7857,7 @@ Note du concepteur: Placez un jeton Oversight Drone à côté du porteur, en le 
         </profile>
         <profile name="Rapid Deployment" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="6109-8d9d-d74-423f">
           <characteristics>
-            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Les unités peuvent débarquer de ce Transport après avoir avancé. Les unités qui le font comptent comme ayant fait un déplacement normal dans cette phase, et ne peuvent pas déclarer une charge dans le même tour, mais peuvent autrement agir normalement dans le reste du tour.</characteristic>
+            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Les unités peuvent débarquer de ce Transport après avoir avancé. Les unités qui le font comptent comme ayant fait un mouvement Normal cette phase, et ne peuvent pas déclarer une charge dans le même tour, mais peuvent autrement agir normalement dans le reste du tour.</characteristic>
           </characteristics>
         </profile>
         <profile name="Devilfish" typeId="74f8-5443-9d6d-1f1e" typeName="Transport" hidden="false" id="cdb4-e0e7-adc0-bb3b">
@@ -8067,7 +8067,7 @@ Note du concepteur: Placez un jeton Oversight Drone à côté du porteur, en le 
         </profile>
         <profile name="Ground Strike Fighter" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="1ee8-8fac-5c19-3b78">
           <characteristics>
-            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Chaque fois que cette figurine fait une attaque de tir qui vise une unité ennemie qui ne peut pas FLY, Ajoutez 1 au jet de Touche.</characteristic>
+            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Chaque fois que cette figurine fait une attaque de tir qui cible une unité ennemie qui ne peut pas FLY, ajoutez 1 au jet de Touche.</characteristic>
           </characteristics>
         </profile>
       </profiles>
@@ -8297,7 +8297,7 @@ Note du concepteur: Placez un jeton Oversight Drone à côté du porteur, en le 
         </profile>
         <profile name="Pulse Bombs" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="1a89-4e93-ec68-d5b6">
           <characteristics>
-            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Chaque fois que cette figurine termine un mouvement normal, vous pouvez sélectionner une unité ennemie par-dessus laquelle cette figurine s’est déplacée au cours de ce mouvement et rouler six D6: pour chaque 4+, cette unité souffre 1 blessure mortelle.</characteristic>
+            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Chaque fois que cette figurine termine un mouvement Normal, vous pouvez sélectionner une unité ennemie par-dessus laquelle cette figurine s’est déplacée pendant ce mouvement et rouler six D6: pour chaque 4+, cette unité souffre 1 blessure mortelle.</characteristic>
           </characteristics>
         </profile>
       </profiles>
@@ -8598,7 +8598,7 @@ Note du concepteur: Placez un jeton Oversight Drone à côté du porteur, en le 
               <profiles>
                 <profile name="Tidewall Defence Platform" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="6769-2de7-81ba-2a99">
                   <characteristics>
-                    <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Si elle est équipée d'une plate-forme de défense contre les marées, cette Fortification a une caractéristique de PV de 15.</characteristic>
+                    <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Si elle est équipée d'une plateforme de défense contre les marées, cette Fortification possède une caractéristique de PV de 15.</characteristic>
                   </characteristics>
                 </profile>
               </profiles>
@@ -8637,7 +8637,7 @@ Note du concepteur: Placez un jeton Oversight Drone à côté du porteur, en le 
         </profile>
         <profile name="Droneport" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="81a0-c679-23bd-77e3">
           <characteristics>
-            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Chaque fois que ce Fortification est sélectionné pour tirer, son arme de défense des drones ciblera et résoudra les attaques contre chaque unité ennemi qui est une cible admissible à ce Fortification.</characteristic>
+            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Chaque fois que cette FORTIFICATION est sélectionnée pour tirer, son arme drone defenders cible chaque unité ennemie qui est une cible éligible pour cette FORTIFICATION et résout ses attaques contre elle.</characteristic>
           </characteristics>
         </profile>
         <profile name="Tidewall Droneport" typeId="74f8-5443-9d6d-1f1e" typeName="Transport" hidden="false" id="a334-a990-143d-fe61">
@@ -8802,23 +8802,23 @@ Note du concepteur: Placez un jeton Oversight Drone à côté du porteur, en le 
         </profile>
         <profile name="Damaged: 1-5 Wounds Remaining" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="9b21-f9e4-2fe9-7895">
           <characteristics>
-            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Alors que cette figurine a 1-5 PV restants, Soustrayez 3 de cette caractéristique de contrôle d'objectif de figurines, et à chaque fois que cette figurine fait une attaque, Soustrayez 1 du jet de Touche.</characteristic>
+            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Tant que cette figurine a 1-5 PV restants, soustrayez 3 à la caractéristique de Contrôle d’Objectif de cette figurine et, chaque fois que cette figurine effectue une attaque, soustrayez 1 au jet de Touche.</characteristic>
           </characteristics>
           <comment>Stormsurge</comment>
         </profile>
         <profile name="Heavy Walker" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="d152-5323-f05c-bd84">
           <characteristics>
-            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Chaque fois que cette figurine fait une normale, À l'avance ou Retraite, il peut se déplacer sur plusieurs figurines (à l'exclusion des figurines TITANIC) et Les caractéristiques du terrain qui sont 4" ou moins en hauteur comme s'ils n'étaient pas là.</characteristic>
+            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Chaque fois que cette figurine fait un Normal, Avance ou mouvement de Retraite, il peut se déplacer sur figurines (à l’exclusion de TITANIC figurines) et éléments de terrain qui sont 4" ou moins en hauteur comme s'ils n'étaient pas là.</characteristic>
           </characteristics>
         </profile>
         <profile name="Support System" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="d61e-c391-27c4-cec9">
           <characteristics>
-            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Chaque fois que cette figurine effectue une attaque de tir, vous pouvez ignorer tous ou tous les modificateurs du jet de Touche.</characteristic>
+            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Chaque fois que cette figurine fait une attaque de tir, vous pouvez ignorer un ou tous les modificateurs du jet de Touche.</characteristic>
           </characteristics>
         </profile>
         <profile name="Titan-killer" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="f200-bc51-2065-ca29">
           <characteristics>
-            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Chaque fois que cette figurine effectue une attaque de tir qui cible une unité TITANIC ou TOWERING, vous pouvez relancer le jet de Touche.</characteristic>
+            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Chaque fois que cette figurine fait une attaque de tir qui cible une unité TITANIC ou TOWERING, vous pouvez relancer le jet de Touche.</characteristic>
           </characteristics>
         </profile>
       </profiles>
@@ -9398,7 +9398,7 @@ Note du concepteur: Placez un jeton Oversight Drone à côté du porteur, en le 
           <profiles>
             <profile name="Bounty Hunters" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="7899-d388-f303-592">
               <characteristics>
-                <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Au début de la bataille, sélectionnez une unité de l'armée de votre adversaire. Chaque fois qu'une figurine dans cette unité fait une attaque qui cible cette unité, cette attaque a les capacités [Touches fatales] et [Précision].</characteristic>
+                <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Au début de la bataille, sélectionnez une unité de l'armée de votre adversaire. Chaque fois qu'une figurine dans cette unité fait une attaque qui cible cette unité, cette attaque a les aptitudes [Touches fatales] et [Précision].</characteristic>
               </characteristics>
             </profile>
           </profiles>
@@ -9498,7 +9498,7 @@ Note du concepteur: Placez un jeton Oversight Drone à côté du porteur, en le 
                   <profiles>
                     <profile name="Pech'ra" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="567d-867a-3de8-fcab">
                       <characteristics>
-                        <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Les armes de tir équipées par l’unité du porteur ont la aptitude [Ignore le couvert].</characteristic>
+                        <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Les unités armes de tir dont est équipé le porteur ont la dénomination [Ignore le couvert].</characteristic>
                       </characteristics>
                     </profile>
                   </profiles>
@@ -9901,7 +9901,7 @@ Note du concepteur: Placez un jeton Oversight Drone à côté du porteur, en le 
         </profile>
         <profile name="Nova Shielding" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="3723-a2c0-a8e7-3f96">
           <characteristics>
-            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Une fois par bataille, quand cette figurine est sélectionné comme cible d'une attaque de tir, il peut utiliser cette aptitude. Si c'est le cas, jusqu'à la fin de la phase, chaque fois qu'une attaque cible cette figurine, si la caractéristique de Force de cette attaque est supérieure à la caractéristique d’Endurance de cette figurine, Soustrayez 1 du jet de Blessure.</characteristic>
+            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Une fois par bataille, lorsque cette figurine est sélectionnée comme cible d’une attaque de tir, elle peut utiliser cette aptitude. Si elle le fait, jusqu’à la fin de la phase, chaque fois qu’une attaque cible cette figurine, si la caractéristique de Force de cette attaque est supérieure à la caractéristique d’Endurance de cette figurine, soustrayez 1 au jet de Blessure.</characteristic>
           </characteristics>
         </profile>
       </profiles>
@@ -10403,7 +10403,7 @@ Note du concepteur: Placez un jeton Oversight Drone à côté du porteur, en le 
       <profiles>
         <profile name="High-intensity Markerlights" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="b7b7-8ee8-ef19-eefd">
           <characteristics>
-            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Chaque fois que cette unité est une unité Observateur, jusqu'à la fin de la phase, chaque fois qu'une figurine dans son unité Guidée fait une attaque qui cible son unité Spotted, vous pouvez relancer le jet de Touche.</characteristic>
+            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Chaque fois que cette unité est une unité Observateur, Jusqu’à la fin de la phase, chaque fois qu'une figurine dans son unité Guidée fait une attaque qui cible leur unité Spotted, vous pouvez relancer le jet de Touche.</characteristic>
           </characteristics>
         </profile>
       </profiles>
@@ -10592,7 +10592,7 @@ Note du concepteur: Placez un jeton Oversight Drone à côté du porteur, en le 
       <profiles>
         <profile name="Aerial Disengagement" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="49d-e53f-d6d7-83cd">
           <characteristics>
-            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Une fois par tour, lorsqu'une unité ennemie termine un mouvement Normal, Avance ou Retraite à 9" ou moins de cette unité, si cette unité n'est pas dans la Portée d’Engagement d'une ou de plusieurs unités ennemies, elle peut effectuer un mouvement Normal jusqu'à 6".</characteristic>
+            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Une fois par tour, lorsqu'une unité ennemie termine une normale, une avance ou une mouvement de Retraite à 9" ou moins de cette unité, si cette unité n'est pas dans Portée d’Engagement d'une ou de plusieurs unités ennemies, elle peut effectuer un mouvement Normal jusqu'à 6".</characteristic>
           </characteristics>
         </profile>
       </profiles>
@@ -10816,17 +10816,17 @@ Note du concepteur: Placez un jeton Oversight Drone à côté du porteur, en le 
         </profile>
         <profile name="Coordinated Strike" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="d6ef-b13d-f91a-ad20">
           <characteristics>
-            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Alors que cette figurine est une unité guidée, Chaque fois qu'il attaque son unité Spotted, relancer un jet de Touche de 1.</characteristic>
+            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Alors que cette figurine est une unité guidée, chaque fois qu'il effectue une attaque qui cible son unité Spotted, relancer est un jet de Touche de 1.</characteristic>
           </characteristics>
         </profile>
         <profile name="Damaged: 1-10 Wounds Remaining" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="63c6-ed19-c7e5-638">
           <characteristics>
-            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Alors que cette figurine a 1-10 PV restants, Soustrayez 5 de cette caractéristique de la figurine de caractéristique de Contrôle d’Objectif et chaque fois que cette figurine effectue une attaque, Soustrayez 1 du jet de Touche.</characteristic>
+            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Tant que cette figurine a 1-10 PV restants, soustrayez 5 à la caractéristique de Contrôle d’Objectif de cette figurine et, chaque fois que cette figurine effectue une attaque, soustrayez 1 au jet de Touche.</characteristic>
           </characteristics>
         </profile>
         <profile name="Super-Heavy Walker" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="ba9b-8ed5-933d-209e">
           <characteristics>
-            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Chaque fois qu'une figurine avec cette aptitude fait un mouvement normal, avancer ou Battre en Retraite, il peut se déplacer à travers des figurines (à l'exclusion des figurines **^^Titanic^^**) et des caractéristiques de terrain qui sont 4" ou moins en hauteur comme s'ils n'étaient pas là.</characteristic>
+            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Chaque fois qu'une figurine avec cette aptitude fait un Normal, Avance ou mouvement de Retraite, il peut se déplacer à travers figurines (à l’exclusion de **^^Titanic^^** figurines) et éléments de terrain qui sont 4" ou moins en hauteur comme s'ils n'étaient pas là.</characteristic>
           </characteristics>
         </profile>
       </profiles>
@@ -11514,7 +11514,7 @@ Note du concepteur: Placez un jeton Oversight Drone à côté du porteur, en le 
         </profile>
         <profile name="Strafing Run" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="5a71-e391-7d55-904f">
           <characteristics>
-            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Dans votre phase de Tir, après que cette figurine ait tiré, sélectionnez une unité ennemie touchée par une ou plusieurs de ces attaques qui ne peuvent pas FLY. Cette unité ennemie doit passer un test d’Ébranlement.</characteristic>
+            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Durant votre phase de Tir, après que cette figurine a tiré, sélectionnez une unité ennemie touchée par une ou plusieurs de ces attaques et qui ne peut pas FLY. Cette unité ennemie doit effectuer un test d’Ébranlement.</characteristic>
           </characteristics>
         </profile>
       </profiles>
@@ -11678,7 +11678,7 @@ Note du concepteur: Placez un jeton Oversight Drone à côté du porteur, en le 
                   <profiles>
                     <profile name="Transport bay" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="77ef-d268-6a82-a460">
                       <characteristics>
-                        <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Le porteur a le mot-clé Transport et a une capacité de Transport des figurines 12 Tactical Drones.</characteristic>
+                        <characteristic name="Description" typeId="9b8f-694b-e5e-b573">le porteur possède le Transport mot-clé et a une capacité Transport de 12 Tactical Drones figurines.</characteristic>
                       </characteristics>
                     </profile>
                   </profiles>
@@ -12009,7 +12009,7 @@ Note du concepteur: Placez un jeton Oversight Drone à côté du porteur, en le 
           <profiles>
             <profile name="Titan Hunter" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="b584-c327-fdf5-2b8b">
               <characteristics>
-                <characteristic name="Description" typeId="9b8f-694b-e5e-b573">cette figurine du canon ferroviaire jumeau Lourd et des missiles de recherche ont la aptitude [ANTI-TITANIC 3+] tout en ciblant une unité à demi-distance.</characteristic>
+                <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Ce canon de chemin de fer jumeau figurine et les missiles de recherche ont l’aptitude [ANTI-TITANIC 3+] tout en ciblant une unité dans la moitié de Portée.</characteristic>
               </characteristics>
             </profile>
           </profiles>
@@ -12149,12 +12149,12 @@ Note du concepteur: Placez un jeton Oversight Drone à côté du porteur, en le 
         </profile>
         <profile name="Aggressive Deployment" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="5188-f8f-edfa-1f82">
           <characteristics>
-            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Dans votre phase de Tir, après que cette figurine ait tiré, sélectionnez une unité ennemie touchée par une ou plusieurs de ces attaques. Jusqu'à la fin de la phase, à chaque fois qu'une figurine amie qui a débarqué de ce Transport à ce tour fait une attaque qui cible cette unité ennemie, vous pouvez relancer le jet de Blessure.</characteristic>
+            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Dans votre phase de Tir, après que cette figurine a tiré, sélectionnez une unité ennemie frappé par un ou plusieurs de ces Attaques. Jusqu’à la fin de la phase, chaque fois qu'une figurine amie qui a débarqué de ce Transport ce tour fait une attaque qui cible que cette unité ennemie, vous pouvez relancer le jet de Blessure.</characteristic>
           </characteristics>
         </profile>
         <profile name="Air Caste Colossus" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="3caf-102c-1f3c-d49">
           <characteristics>
-            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Chaque fois que vous ciblez cette figurine avec un Stratagème, vous devez dépenser trois fois le coût déclaré par Stratagème s CP pour le faire.</characteristic>
+            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Chaque fois que vous ciblez cette figurine avec un Stratagème, vous devez dépenser trois fois le coût en CP indiqué de ce Stratagème pour le faire.</characteristic>
           </characteristics>
         </profile>
         <profile name="Damaged: 1-20 Wounds Remaining" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="22fb-6e85-141e-589c">
@@ -12430,7 +12430,7 @@ Note du concepteur: Placez un jeton Oversight Drone à côté du porteur, en le 
         </profile>
         <profile name="Jet Pack Insertion" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="46c2-c2bc-f0bf-8229">
           <characteristics>
-            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">À la fin de la phase de Mouvement de votre adversaire, une ou plusieurs unités embarquées dans ce Transport peuvent y débarquer, à condition que chaque figurine dans chacune de ces unités débarquantes ait la aptitude Frappe en profondeur.</characteristic>
+            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">À la fin de la phase de Mouvement de votre adversaire, une ou plusieurs unités embarquées dans ce Transport peuvent y débarquer, à condition que chaque figurine de chacune de ces unités débarquantes ait l’aptitude Frappe en profondeur.</characteristic>
           </characteristics>
         </profile>
         <profile name="Damaged: 1-9 Wounds Remaining" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="47ad-d3d0-b44e-2b05">
@@ -12663,7 +12663,7 @@ Note du concepteur: Placez un jeton Oversight Drone à côté du porteur, en le 
       <profiles>
         <profile name="Drone Escort" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="3bab-3f92-4046-d303">
           <characteristics>
-            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Une fois par tour, dans la phase de Tir de votre adversaire, quand une unité amicale T'AU EMPIRE à 6" ou moins de cette unité est sélectionnée comme cible d'une attaque, une unité de votre armée avec cette aptitude peut l'utiliser. S'il le fait, après que l'unité ennemie ait terminé d'effectuer ses attaques, l'unité utilisant cette aptitude peut tirer comme si c'était votre phase de Tir, mais lors de la résolution de ces attaques, elle ne peut cibler que l'unité ennemie (et seulement si c'est une cible admissible).</characteristic>
+            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Une fois par tour, durant la phase de Tir de votre adversaire, lorsqu’une unité T’AU EMPIRE amie à 6" ou moins de cette unité est sélectionnée comme cible d’une attaque, une unité de votre armée dotée de cette aptitude peut l’utiliser. Si elle le fait, après que cette unité ennemie a terminé d’effectuer ses attaques, l’unité utilisant cette aptitude peut tirer comme s’il s’agissait de votre phase de Tir, mais elle ne peut alors cibler que cette unité ennemie, et seulement si celle-ci est une cible éligible.</characteristic>
           </characteristics>
         </profile>
       </profiles>
@@ -12887,7 +12887,7 @@ Note du concepteur: Placez un jeton Oversight Drone à côté du porteur, en le 
         </profile>
         <profile name="Loping Stride" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="7f50-eb0b-64e6-928f">
           <characteristics>
-            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Chaque fois que cette figurine avance, ne faites pas un jet d’Avance pour lui. Au lieu de cela, jusqu'à la fin de la phase, ajoutez 6" à la caractéristique de mouvement de cette figurine.</characteristic>
+            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Chaque fois que cette figurine avance, ne faites pas un jet d’Avance pour lui. Au lieu de cela, Jusqu’à la fin de la phase, ajoutez 6" à la caractéristique de mouvement de cette figurine.</characteristic>
           </characteristics>
         </profile>
       </profiles>
@@ -12971,7 +12971,7 @@ Note du concepteur: Placez un jeton Oversight Drone à côté du porteur, en le 
                   </profiles>
                   <rules>
                     <rule name="Hooked" id="c1f-6e36-93e8-c577" hidden="false">
-                      <description>Chaque fois que le porteur effectue une attaque avec cette arme qui cible une unité MONSTER ou VEHICLE, si un coup est marqué, jusqu'à la fin du tour, si le porteur sélectionne cette unité comme cible d'une charge, ajoutez 2 aux jets de Charge faits pour le porteur et les unités ennemies ne peuvent pas utiliser le Fire Overwatch Stratagème pour tirer sur le porteur.</description>
+                      <description>Chaque fois que le porteur effectue une attaque avec cette arme qui cible une unité MONSTER ou VEHICLE, si une touche est obtenue, jusqu’à la fin du tour, si le porteur sélectionne cette unité comme cible d’une charge, ajoutez 2 aux jets de Charge effectués pour le porteur et les unités ennemies ne peuvent pas utiliser le Stratagème Fire Overwatch pour tirer sur le porteur.</description>
                     </rule>
                   </rules>
                   <infoLinks>
@@ -13012,7 +13012,7 @@ Note du concepteur: Placez un jeton Oversight Drone à côté du porteur, en le 
                   <profiles>
                     <profile name="Baggage Harness (Aura)" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="b14f-7290-da41-f865">
                       <characteristics>
-                        <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Alors qu'une unité amie KROOT se trouve à 3" ou moins du porteur, les armes de tir équipées de figurines de cette unité ont la aptitude [Touches soutenues 1].</characteristic>
+                        <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Tant qu’une unité KROOT amie est à 3" ou moins du porteur, les armes de tir dont les figurines de cette unité sont équipées ont l’aptitude [SUSTAINED HITS 1].</characteristic>
                       </characteristics>
                     </profile>
                   </profiles>
@@ -13138,7 +13138,7 @@ Note du concepteur: Placez un jeton Oversight Drone à côté du porteur, en le 
         </profile>
         <profile name="Outflank" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="72a5-d809-5bea-8faa">
           <characteristics>
-            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Lorsque cette unité arrive des réserves stratégiques, elle peut être mise en place dans la zone de déploiement de votre adversaire (toutes les autres restrictions s'appliquent toujours).</characteristic>
+            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Lorsque cette unité arrive des Réserves Stratégiques, elle peut être placée dans la zone de déploiement de votre adversaire (toutes les autres restrictions continuent de s’appliquer).</characteristic>
           </characteristics>
         </profile>
       </profiles>
@@ -13478,7 +13478,7 @@ Note du concepteur: Placez un jeton Oversight Drone à côté du porteur, en le 
           <profiles>
             <profile name="Thunderous Pounce" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="882a-abc5-f5cf-ae5">
               <characteristics>
-                <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Chaque fois que cette unité termine un mouvement Charge, jusqu'à la fin du tour, le bec et les talons Knarloc équipés de figurines dans cette unité ont la aptitude [LANCE].</characteristic>
+                <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Chaque fois que cette unité termine un mouvement de Charge, jusqu'à la fin du tour, le bec et les talons Knarloc équipés des figurines de cette unité ont l’aptitude [LANCE].</characteristic>
               </characteristics>
             </profile>
           </profiles>
@@ -13609,7 +13609,7 @@ Note du concepteur: Placez un jeton Oversight Drone à côté du porteur, en le 
       <profiles>
         <profile name="Eclipse Field Generator" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="f119-114a-a83a-4d1c">
           <characteristics>
-            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Alors que cette figurine mène une unité, les figurines de cette unité ont un 5+ sauvegarde invulnérable.</characteristic>
+            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Alors que cette figurine est à la tête d'une unité, les figurines de cette unité ont un 5+ sauvegarde invulnérable.</characteristic>
           </characteristics>
         </profile>
         <profile name="Assassin" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="18a6-28f3-1242-fc24">
@@ -13639,8 +13639,8 @@ Note du concepteur: Placez un jeton Oversight Drone à côté du porteur, en le 
           <profiles>
             <profile name="Blacklight Marker Drones" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="2698-5ab4-26f8-a0c">
               <characteristics>
-                <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Deux fois par bataille, lorsque cette unité est une unité Observateur, jusqu'à la fin de la phase, chaque fois qu'une attaque de tir est effectuée par une figurine dans leur unité guidée qui cible leur unité Spotted, relancez un jet de Blessure de 1.
-**Designer’s Note:** *Placez deux jetons Marker Drone Blacklight à côté de cette figurine, en en enlevant un à chaque fois que cette aptitude a été utilisée.*</characteristic>
+                <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Deux fois par bataille, lorsque cette unité est une unité Observateur, jusqu’à la fin de la phase, chaque fois qu’une attaque de tir est effectuée par une figurine de son unité Guidée et cible son unité Repérée, relancez un jet de Blessure de 1.
+**Designer’s Note:** *Placez deux pions Blacklight Marker Drone à côté de cette figurine, en retirant un chaque fois que cette aptitude a été utilisée.*</characteristic>
               </characteristics>
             </profile>
           </profiles>
@@ -13773,7 +13773,7 @@ Note du concepteur: Placez un jeton Oversight Drone à côté du porteur, en le 
       <profiles>
         <profile name="Photon Casters" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="7747-2828-a402-1b7d">
           <characteristics>
-            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Dans votre phase de Tir, après que cette unité ait tiré, si une unité ennemie **^^Infantry^^** a été touchée par une ou plusieurs de ces attaques, jusqu'à la fin du prochain tour de votre adversaire, cette unité ennemie est stupéfaite. Tant qu’une unité est étonnée, Soustrayez 2 de la caractéristique de mouvement de cette unité, et soustraire 2 des jets d’Avance et de Charge faits pour cette unité.</characteristic>
+            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Durant votre phase de Tir, après que cette unité a tiré, si une unité **^^Infantry^^** ennemie a été touchée par une ou plusieurs de ces attaques, jusqu’à la fin du prochain tour de votre adversaire, cette unité ennemie est étourdie. Tant qu’une unité est étourdie, soustrayez 2 à sa caractéristique de Mouvement et soustrayez 2 aux jets d’Avance et de Charge effectués pour elle.</characteristic>
           </characteristics>
         </profile>
       </profiles>
@@ -14059,12 +14059,12 @@ Note du concepteur: Placez un jeton Oversight Drone à côté du porteur, en le 
         </profile>
         <profile name="Orbital Comms Array (Aura)" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="6bb3-5fb3-66ec-cd6d">
           <characteristics>
-            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Alors qu'une unité sympathique T'AU EMPIRE est à 6" ou moins de ce Fortification, chaque fois que vous ciblez cette unité avec un Stratagème, lancez un D6: sur un 5+, vous gagnez 1CP.</characteristic>
+            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Tant qu’une unité T'AU EMPIRE amie est à 6" ou moins de cette FORTIFICATION, chaque fois que vous ciblez cette unité avec un Stratagème, lancez un D6 : sur 5+, vous gagnez 1CP.</characteristic>
           </characteristics>
         </profile>
         <profile name="Reinforced Cover" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="8e52-4874-7ed0-287d">
           <characteristics>
-            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Chaque fois qu'une attaque de tir est attribuée à une figurine, si cette figurine n'est pas pleinement visible à tous les figurines de l'unité d'attaque à cause de ce Fortification, cette figurine a le Bénéfice du Couvert contre cette attaque.</characteristic>
+            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Chaque fois qu’une attaque de tir est allouée à une figurine, si cette figurine n’est pas entièrement visible de toutes les figurines de l’unité attaquante à cause de cette FORTIFICATION, cette figurine a le Bénéfice du Couvert contre cette attaque.</characteristic>
           </characteristics>
         </profile>
       </profiles>
@@ -14110,12 +14110,12 @@ Note du concepteur: Placez un jeton Oversight Drone à côté du porteur, en le 
         </profile>
         <profile name="Reinforced Cover" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="c353-23d0-a951-e186">
           <characteristics>
-            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Chaque fois qu'une attaque de tir est attribuée à une figurine, si cette figurine n'est pas pleinement visible à tous les figurines de l'unité d'attaque à cause de ce Fortification, cette figurine a le Bénéfice du Couvert contre cette attaque.</characteristic>
+            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Chaque fois qu’une attaque de tir est allouée à une figurine, si cette figurine n’est pas entièrement visible de toutes les figurines de l’unité attaquante à cause de cette FORTIFICATION, cette figurine a le Bénéfice du Couvert contre cette attaque.</characteristic>
           </characteristics>
         </profile>
         <profile name="Sentinel Protocols" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="725-b02-c08c-f668">
           <characteristics>
-            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Chaque fois que vous sélectionnez ce Fortification pour le Stratagème Fire Overwatch, les hits sont notés sur les jets de Touche non modifiés de 5+ lors de la résolution de ce Stratagème.</characteristic>
+            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Chaque fois que vous sélectionnez cette FORTIFICATION pour le Stratagème Fire Overwatch, lors de la résolution de ce Stratagème, les touches sont obtenues sur des jets de Touche non modifiés de 5+.</characteristic>
           </characteristics>
         </profile>
       </profiles>
@@ -14247,7 +14247,7 @@ Note du concepteur: Placez un jeton Oversight Drone à côté du porteur, en le 
       <profiles>
         <profile name="Sunforge" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="883e-96af-3014-6550">
           <characteristics>
-            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Chaque fois qu'une figurine dans cette unité effectue une attaque de tir qui cible une unité **^^Monster^^** ou **^^Vehicle^^**, vous pouvez relancer le jet de Blessure et vous pouvez relancer le jet Dégâts.</characteristic>
+            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Chaque fois qu'une figurine dans cette unité fait une attaque de tir qui cible une unité **^^Monster^^** ou **^^Vehicle^^**, vous pouvez relancer le jet de Blessure et vous pouvez relancer le jet de Dégâts.</characteristic>
           </characteristics>
         </profile>
       </profiles>
@@ -14515,12 +14515,12 @@ Note du concepteur: Placez un jeton Oversight Drone à côté du porteur, en le 
       <profiles>
         <profile name="Fireknife" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="f3d6-87dc-9a02-a9eb">
           <characteristics>
-            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Chaque fois qu'une figurine dans cette unité fait une attaque de tir, relance un jet de Touche de 1. Si cette attaque cible une unité qui est à son Effectif Initial, vous pouvez relancer le jet de Touche à la place.</characteristic>
+            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Chaque fois qu’une figurine de cette unité effectue une attaque de tir, relancez un jet de Touche de 1. Si cette attaque cible une unité à son Effectif Initial, vous pouvez relancer le jet de Touche à la place.</characteristic>
           </characteristics>
         </profile>
         <profile name="Weapon Support System" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="69a4-3159-581f-40ff">
           <characteristics>
-            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Chaque fois qu'une figurine dans cette unité fait une attaque de tir, vous pouvez ignorer tous ou tous les modificateurs du jet de Touche.</characteristic>
+            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Chaque fois qu'une figurine dans cette unité fait une attaque de tir, vous pouvez ignorer un ou tous les modificateurs du jet de Touche.</characteristic>
           </characteristics>
           <comment>Fireknife variant</comment>
         </profile>
@@ -14815,12 +14815,12 @@ Note du concepteur: Placez un jeton Oversight Drone à côté du porteur, en le 
       <profiles>
         <profile name="Starscythe" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="36a5-3ecd-bc4d-79f">
           <characteristics>
-            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Chaque fois qu'une figurine de cette unité effectue une attaque de tir (à l'exclusion des attaques ciblant MONSTERS et VEHICLES), améliorez la caractéristique de Pénétration d’Armure de cette attaque de 1.</characteristic>
+            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Chaque fois qu’une figurine de cette unité effectue une attaque de tir (à l’exclusion des attaques qui ciblent des MONSTERS ou VEHICLES), améliorez de 1 la caractéristique de Pénétration d’Armure de cette attaque.</characteristic>
           </characteristics>
         </profile>
         <profile name="Battlesuit Support System" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="daca-db7f-18e9-0322">
           <characteristics>
-            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">L'unité est éligible pour tirer durant lequel elle a Battu en Retraite.</characteristic>
+            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">L'unité est éligible pour tirer dans un tour dans lequel il a Battu en Retraite.</characteristic>
           </characteristics>
           <comment>Starscythe variant</comment>
         </profile>
@@ -15124,12 +15124,12 @@ Note du concepteur: Placez un jeton Oversight Drone à côté du porteur, en le 
         </profile>
         <profile name="Kroot Ambush" hidden="false" id="606b-11ed-9b98-9307" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities">
           <characteristics>
-            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Après que les deux joueurs aient déployé leurs armées, vous pouvez redéployer l'unité de cette figurine et une autre unité KROOT. Lorsqu'ils le font, l'une ou l'autre de ces unités peut être placée dans des réserves stratégiques, quel que soit le nombre d'unités déjà dans des réserves stratégiques.</characteristic>
+            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Après que les deux joueurs aient déployé leurs armées, vous pouvez redéployer l’unité de cette figurine et une autre unité KROOT amicale. Lorsque vous faites cela, l'une ou l'autre de ces unités peut être placée dans Réserves Stratégiques, quel que soit le nombre d'unités déjà dans Réserves Stratégiques.</characteristic>
           </characteristics>
         </profile>
         <profile name="Trail Finding" hidden="false" id="9b9d-2689-7f39-fb51" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities">
           <characteristics>
-            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Une fois par tour, lorsqu'une unité ennemie termine un mouvement normal, avancé ou Retraite à 9" ou moins de l'unité de cette figurine, si l'unité de cette figurine n'est pas dans la Portée d’Engagement d'une ou de plusieurs unités ennemies, elle peut effectuer un mouvement normal jusqu'à D6. "</characteristic>
+            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Une fois par tour, lorsqu'une unité ennemie termine une normale, une avance ou une mouvement de Retraite à 9" ou moins de l'unité de cette figurine, si l'unité de cette figurine n'est pas à l'intérieur de Portée d’Engagement d'une ou de plusieurs unités ennemies, elle peut effectuer un mouvement Normal jusqu'à D6".</characteristic>
           </characteristics>
         </profile>
         <profile name="Meneur" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="2f39-d906-7d32-f375">
@@ -15317,7 +15317,7 @@ Note du concepteur: Placez un jeton Oversight Drone à côté du porteur, en le 
         </profile>
         <profile name="Root of Honour" hidden="false" id="1f7c-c00-c61b-582d" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities">
           <characteristics>
-            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Une fois par bataille, au début de toute phase, vous pouvez sélectionner une unité KROOT amicale qui est Ébranlée et à 12" ou moins de cette figurine. Cette unité n'est plus Ébranlée.</characteristic>
+            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Une fois par bataille, au début de n’importe quelle phase, vous pouvez sélectionner une unité KROOT amie qui est Ébranlée et à 12" ou moins de cette figurine. Cette unité n’est plus Ébranlée.</characteristic>
           </characteristics>
         </profile>
         <profile name="Meneur" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="2f16-ccca-7d1e-6cc4">
@@ -15533,12 +15533,12 @@ Note du concepteur: Placez un jeton Oversight Drone à côté du porteur, en le 
         </profile>
         <profile name="Rites of Feasting" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="b698-3b5c-4503-4ed">
           <characteristics>
-            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Alors que cette figurine mène une unité, les figurines de cette unité ont la aptitude Feel Not Pain 6+. Si cette unité détruit une ou plusieurs unités ennemies dans la phase de Combat, jusqu'à la fin de la bataille, les figurines de cette unité ont la aptitude Insensible à la douleur 5+ à la place.</characteristic>
+            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Alors que cette figurine mène une unité, les figurines de cette unité ont l’aptitude Feel Not Pain 6+. Si cette unité détruit une ou plusieurs unités ennemies dans la phase de Combat, jusqu'à la fin de la bataille, les figurines de cette unité ont l’aptitude Insensible à la douleur 5+ à la place.</characteristic>
           </characteristics>
         </profile>
         <profile name="Ritual Butchery" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="c4f6-2b72-9aef-ce30">
           <characteristics>
-            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Alors que cette figurine mène une unité, les armes de mêlée équipées de figurines dans cette unité ont la aptitude [Touches soutenues 1].</characteristic>
+            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Tant que cette figurine mène une unité, les armes de mêlée dont les figurines de cette unité sont équipées ont l’aptitude [SUSTAINED HITS 1].</characteristic>
           </characteristics>
         </profile>
       </profiles>
@@ -15720,12 +15720,12 @@ Note du concepteur: Placez un jeton Oversight Drone à côté du porteur, en le 
         </profile>
         <profile name="Fire and Fade" hidden="false" id="fff7-dbdb-e49e-55ee" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities">
           <characteristics>
-            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Dans votre phase de Tir, après que cette figurine ait tiré, s'il n'est pas dans la Portée d’Engagement d'une ou de plusieurs unités ennemies, il peut effectuer un déplacement normal jusqu'à 6". Si tel est le cas, cette figurine n'est pas éligible à la déclaration d'une charge jusqu'à la fin du tour.</characteristic>
+            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Dans votre phase de Tir, après que cette figurine a tiré, s'il n'est pas à l'intérieur de Portée d’Engagement d'une ou de plusieurs unités ennemies, il peut effectuer un mouvement Normal jusqu'à 6". Si c'est le cas, jusqu'à la fin du tour, cette figurine n'est pas admissible à déclarer une charge.</characteristic>
           </characteristics>
         </profile>
         <profile name="Advanced Scouting" hidden="false" id="711e-6ae9-712a-8365" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities">
           <characteristics>
-            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Chaque fois que cette figurine effectue une attaque de tir qui frappe une unité ennemie, jusqu'à la fin du tour, chaque fois qu'un autre figurine KROOT de votre armée effectue une attaque qui cible cette unité ennemie, vous pouvez relancer le jet de Touche.</characteristic>
+            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Chaque fois que cette figurine effectue une attaque de tir qui touche une unité ennemie, jusqu’à la fin du tour, chaque fois qu’une autre figurine KROOT de votre armée effectue une attaque qui cible cette unité ennemie, vous pouvez relancer le jet de Touche.</characteristic>
           </characteristics>
         </profile>
       </profiles>
@@ -15951,7 +15951,7 @@ Note du concepteur: Placez un jeton Oversight Drone à côté du porteur, en le 
         </profile>
         <profile name="Kroot Linebreakers" hidden="false" id="83ff-716c-973a-60c8" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities">
           <characteristics>
-            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Chaque fois que cette unité termine un mouvement Charge, sélectionnez une unité ennemie dans la Portée d’Engagement de celui-ci, puis lancez un D6 pour chaque figurine dans cette unité qui se trouve dans la Portée d’Engagement de cette unité ennemie: pour chaque 4+, cette unité ennemie subit D3 Blessures Mortelles. Si une ou plusieurs figurines ennemies sont détruits à la suite de ces Blessures Mortelles, cette unité ennemie doit passer un test d’Ébranlement.</characteristic>
+            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Chaque fois que cette unité termine un mouvement de Charge, sélectionnez une unité ennemie à Portée d’Engagement de celle-ci, puis lancez un D6 pour chaque figurine de cette unité à Portée d’Engagement de cette unité ennemie : pour chaque 4+, cette unité ennemie subit D3 blessures mortelles. Si une ou plusieurs figurines ennemies sont détruites à cause de ces blessures mortelles, cette unité ennemie doit effectuer un test d’Ébranlement.</characteristic>
           </characteristics>
         </profile>
       </profiles>
@@ -16883,7 +16883,7 @@ Note du concepteur: Placez un jeton Oversight Drone à côté du porteur, en le 
         </profile>
         <profile name="Volley Fire" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="44e0-f176-3cd1-114b">
           <characteristics>
-            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Pendant que cette figurine mène une unité, ajoutez 1 aux caractéristique d’Attaques des armes de tir équipées de figurines dans cette unité.</characteristic>
+            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Tant que cette figurine mène une unité, ajoutez 1 à la caractéristique d’Attaques des armes de tir dont les figurines de cette unité sont équipées.</characteristic>
           </characteristics>
         </profile>
         <profile name="Meneur" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="b9be-facd-9169-a5e5">
@@ -17805,17 +17805,17 @@ Note du concepteur: Placez un jeton Oversight Drone à côté du porteur, en le 
       <profiles>
         <profile name="Neocapacitor Shields" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="faa8-1253-136d-3d91">
           <characteristics>
-            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Au début de la phase de Charge de votre adversaire, vous pouvez sélectionner une unité ennemie (à l'exclusion des unités **^^Monster^^** et **^^Vehicle^^**) à 12" ou moins de cette unité. Cette unité doit effectuer un test d’Ébranlement et, jusqu'à la fin du tour, Soustrayez 1 des jets de Charge de cette unité.</characteristic>
+            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Au début de la phase de Charge de votre adversaire, vous pouvez sélectionner une unité ennemie (à l’exclusion de **^^Monster^^** et **^^Vehicle^^** unités) à 12" ou moins de cette unité. Cette unité doit effectuer un test d’Ébranlement et, jusqu'à la fin du tour, Soustrayez 1 à jets de Charge de cette unité.</characteristic>
           </characteristics>
         </profile>
         <profile name="Exemplars of Mont’ka" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="7739-b230-6835-8caf">
           <characteristics>
-            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Chaque fois qu'une figurine de cette unité effectue une attaque de tir visant la cible admissible la plus proche, cette attaque a les capacités **[SUSTAINED HITS 1]** et **[IGNORES COVER]**.</characteristic>
+            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Chaque fois qu'une figurine de cette unité effectue une attaque de tir qui cible la cible admissible la plus proche, cette attaque a les aptitudes **[SUSTAINED HITS 1]** et **[IGNORE LE COUVERT]**.</characteristic>
           </characteristics>
         </profile>
         <profile name="Retro-thrusters" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="0026-c3fe-458f-2629">
           <characteristics>
-            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">À la fin de la phase de Combat, si cette unité était admissible à combattre cette phase, cette unité peut soit faire un mouvement normal jusqu'à 6" ou un mouvement Battre en Retraite.</characteristic>
+            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">À la fin de la phase de Combat, si cette unité était admissible à combattre cette phase, cette unité peut soit effectuer un mouvement Normal jusqu'à 6" ou un mouvement de Retraite.</characteristic>
           </characteristics>
         </profile>
       </profiles>
@@ -18065,7 +18065,7 @@ Note du concepteur: Placez un jeton Oversight Drone à côté du porteur, en le 
       <profiles>
         <profile name="MV15 Gun Drone" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="fe48-4217-ee0e-3a42">
           <characteristics>
-            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Le porteur est équipé d'un blaster à double impulsion 1.</characteristic>
+            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Le porteur est équipé de 1 twin pulse blaster.</characteristic>
           </characteristics>
         </profile>
       </profiles>
@@ -18102,8 +18102,8 @@ Note du concepteur: Placez un jeton Oversight Drone à côté du porteur, en le 
       <profiles>
         <profile name="Homing Beacon" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="1333-60c8-37d2-1a4d">
           <characteristics>
-            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Une fois par bataille, vous pouvez utiliser le Rapid Ingress Stratagème pour 0CP. La cible doit être placée à 3" ou moins de l'unité du porteur et à plus de 9" de toutes les unités ennemies.
-**Designer’s Note:** * Placez un jeton Homing Beacon à côté de cette unité, en le retirant une fois cette aptitude utilisée.*</characteristic>
+            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Une fois par bataille, vous pouvez utiliser le Rapid Ingress Stratagème pour 0CP. La cible doit être placée à 3" ou moins de l’unité du porteur et à plus de 9" de toutes les unités ennemies.
+**Designer’s Note:** * Placez un jeton Homing Beacon à côté de cette unité, en le supprimant une fois que cette aptitude est utilisé.*</characteristic>
           </characteristics>
         </profile>
       </profiles>
@@ -18206,7 +18206,7 @@ Note du concepteur: Placez un jeton Oversight Drone à côté du porteur, en le 
               <profiles>
                 <profile name="Exemplar of the Kauyon" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="1ba9-54fb-8c-3672">
                   <characteristics>
-                    <characteristic name="Description" typeId="9b8f-694b-e5e-b573">**^^T’au Empire^^** figurine uniquement (à l’exclusion des figurines **^^Kroot Shaper^^**). Pendant que le porteur mène une unité, la règle de détachement Patient Hunter s'applique à cette unité à partir du deuxième tour de bataille au lieu du troisième.</characteristic>
+                    <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Figurine **^^T’au Empire^^** uniquement (à l’exclusion des figurines **^^Kroot Shaper^^**). Tant que le porteur mène une unité, la règle de Détachement Patient Hunter s’applique à cette unité à partir du deuxième round de bataille au lieu du troisième.</characteristic>
                   </characteristics>
                 </profile>
               </profiles>
@@ -18243,7 +18243,7 @@ Note du concepteur: Placez un jeton Oversight Drone à côté du porteur, en le 
               <profiles>
                 <profile name="Precision of the Patient Hunter" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="672-a3ce-a316-9c18">
                   <characteristics>
-                    <characteristic name="Description" typeId="9b8f-694b-e5e-b573">**^^T’au Empire^^** figurine uniquement. Chaque fois que le porteur effectue une attaque de tir, ajoutez 1 au jet de Touche. À partir du troisième tour de bataille, ajoutez 1 au jet de Blessure.</characteristic>
+                    <characteristic name="Description" typeId="9b8f-694b-e5e-b573">**^^T’au Empire^^** figurine uniquement. Chaque fois que le porteur fait une attaque de tir, ajoutez 1 au jet de Touche. À partir du troisième tour de bataille, ajoutez aussi 1 au jet de Blessure.</characteristic>
                   </characteristics>
                 </profile>
               </profiles>
@@ -18270,7 +18270,7 @@ Note du concepteur: Placez un jeton Oversight Drone à côté du porteur, en le 
               <profiles>
                 <profile name="Solid-image Projection Unit" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="963c-f00c-fde4-579">
                   <characteristics>
-                    <characteristic name="Description" typeId="9b8f-694b-e5e-b573">**^^T’au Empire^^** figurine uniquement. Après que les deux joueurs aient déployé leurs armées, sélectionnez jusqu'à trois unités **^^T’au Empire^^** de votre armée et redéployez-les. Si vous le souhaitez, vous pouvez mettre ces unités en réserve stratégique, quel que soit le nombre d'unités déjà en réserve stratégique.</characteristic>
+                    <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Figurine **^^T’au Empire^^** uniquement. Après que les deux joueurs ont déployé leurs armées, sélectionnez jusqu’à trois unités **^^T’au Empire^^** de votre armée et redéployez-les. Ce faisant, vous pouvez placer ces unités en Réserves Stratégiques si vous le souhaitez, quel que soit le nombre d’unités déjà en Réserves Stratégiques.</characteristic>
                   </characteristics>
                 </profile>
               </profiles>
@@ -18297,7 +18297,7 @@ Note du concepteur: Placez un jeton Oversight Drone à côté du porteur, en le 
               <profiles>
                 <profile name="Through Unity, Devastation" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="aee6-81be-fb90-7ea5">
                   <characteristics>
-                    <characteristic name="Description" typeId="9b8f-694b-e5e-b573">**^^T’au Empire^^** figurine uniquement (à l’exclusion des figurines **^^Kroot Shaper^^**). Alors que cette figurine mène une unité, chaque fois que cette unité est une unité Observateur, jusqu'à la fin de la phase, les armes de tir équipées de figurines dans une unité guidée ont la aptitude **[LETHAL HITS]** tout en ciblant leur unité Spotted.</characteristic>
+                    <characteristic name="Description" typeId="9b8f-694b-e5e-b573">**^^T’au Empire^^** figurine uniquement (à l’exclusion des figurines **^^Kroot Shaper^^**). Alors que cette figurine mène une unité, chaque fois que cette unité est une unité Observateur, Jusqu’à la fin de la phase, armes de tir équipé de figurines dans une unité guidée ont l’aptitude **[LETHAL HITS]** tout en ciblant leur unité Spotted.</characteristic>
                   </characteristics>
                 </profile>
               </profiles>
@@ -18367,7 +18367,7 @@ Note du concepteur: Placez un jeton Oversight Drone à côté du porteur, en le 
               <profiles>
                 <profile name="Exemplar of the Mont'ka" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="cbeb-7971-c337-345d">
                   <characteristics>
-                    <characteristic name="Description" typeId="9b8f-694b-e5e-b573">**^^T’au Empire^^** figurine uniquement (à l’exclusion des figurines **^^Kroot Shaper^^**). Alors que le porteur mène une unité, la règle de détachement Killing Blow s'applique à cette unité aussi bien pendant le quatrième tour de bataille.</characteristic>
+                    <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Figurine **^^T’au Empire^^** uniquement (à l’exclusion des figurines **^^Kroot Shaper^^**). Tant que le porteur mène une unité, la règle de Détachement Killing Blow s’applique également à cette unité durant le quatrième round de bataille.</characteristic>
                   </characteristics>
                 </profile>
               </profiles>
@@ -18434,7 +18434,7 @@ Note du concepteur: Placez un jeton Oversight Drone à côté du porteur, en le 
               <profiles>
                 <profile name="Strategic Conqueror" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="acf5-712d-ca34-52be">
                   <characteristics>
-                    <characteristic name="Description" typeId="9b8f-694b-e5e-b573">**^^T’au Empire^^** figurine uniquement. Au début du premier tour de bataille, avant le début du premier tour, sélectionnez un marqueur objectif sur le champ de bataille. Alors qu'un ami **^^T’au Empire^^** figurine est dans la portée de ce marqueur objectif et le porteur est sur le champ de bataille, Ajoutez 1 à la caractéristique de Contrôle d’Objectif de cette figurine convivial.</characteristic>
+                    <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Figurine **^^T’au Empire^^** uniquement. Au début du premier round de bataille, avant le début du premier tour, sélectionnez un pion d’objectif sur le champ de bataille. Tant qu’une figurine **^^T’au Empire^^** amie est à portée de ce pion d’objectif et que le porteur est sur le champ de bataille, ajoutez 1 à la caractéristique de Contrôle d’Objectif de cette figurine amie.</characteristic>
                   </characteristics>
                 </profile>
               </profiles>
@@ -18461,7 +18461,7 @@ Note du concepteur: Placez un jeton Oversight Drone à côté du porteur, en le 
               <profiles>
                 <profile name="Coordinated Exploitation" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="9c36-d98a-7612-eb7f">
                   <characteristics>
-                    <characteristic name="Description" typeId="9b8f-694b-e5e-b573">**^^T’au Empire^^** figurine uniquement (à l’exclusion des figurines **^^Kroot Shaper^^**). Alors que cette figurine mène une unité, chaque fois que cette unité est une unité Observateur, jusqu'à la fin de la phase, les armes de tir équipées de figurines dans une unité guidée ont la aptitude **[SUSTAINED HITS 1]** tout en ciblant leur unité Spotted.</characteristic>
+                    <characteristic name="Description" typeId="9b8f-694b-e5e-b573">**^^T’au Empire^^** figurine uniquement (à l’exclusion des figurines **^^Kroot Shaper^^**). Alors que cette figurine mène une unité, chaque fois que cette unité est une unité Observateur, Jusqu’à la fin de la phase, armes de tir équipé de figurines dans une unité guidée ont l’aptitude **[SUSTAINED HITS 1]** tout en ciblant leur unité Spotted.</characteristic>
                   </characteristics>
                 </profile>
               </profiles>
@@ -18531,7 +18531,7 @@ Note du concepteur: Placez un jeton Oversight Drone à côté du porteur, en le 
               <profiles>
                 <profile name="Starflare Ignition System" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="b666-bb64-8e7b-c0e2">
                   <characteristics>
-                    <characteristic name="Description" typeId="9b8f-694b-e5e-b573">**^^T’au Empire Battlesuit^^** figurine uniquement. À la fin du tour de votre adversaire, si l'unité du porteur n'est pas dans la Portée d’Engagement d'une ou plusieurs unités ennemies, vous pouvez retirer cette unité du champ de bataille et la placer dans les réserves stratégiques.</characteristic>
+                    <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Figurine **^^T’au Empire Battlesuit^^** uniquement. À la fin du tour de votre adversaire, si l’unité du porteur n’est pas à Portée d’Engagement d’une ou plusieurs unités ennemies, vous pouvez la retirer du champ de bataille et la placer en Réserves Stratégiques.</characteristic>
                   </characteristics>
                 </profile>
               </profiles>
@@ -18565,7 +18565,7 @@ Note du concepteur: Placez un jeton Oversight Drone à côté du porteur, en le 
               <profiles>
                 <profile name="Prototype Weapon System" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="7298-a7da-114-92b0">
                   <characteristics>
-                    <characteristic name="Description" typeId="9b8f-694b-e5e-b573">**^^T’au Empire Battlesuit^^** figurine uniquement. Chaque fois que le porteur est sélectionné pour tirer, sélectionnez soit la aptitude **[LETHAL HITS]** ou **[SUSTAINED HITS 1]**. Jusqu'à ce que ces attaques soient résolues, les armes de tir équipées par le porteur ont la aptitude de sélectionner.</characteristic>
+                    <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Figurine **^^T’au Empire Battlesuit^^** uniquement. Chaque fois que le porteur est sélectionné pour tirer, sélectionnez l’aptitude **[LETHAL HITS]** ou **[SUSTAINED HITS 1]**. Jusqu’à ce que ces attaques soient résolues, les armes de tir dont le porteur est équipé ont l’aptitude sélectionnée.</characteristic>
                   </characteristics>
                 </profile>
               </profiles>
@@ -18603,7 +18603,7 @@ Note du concepteur: Placez un jeton Oversight Drone à côté du porteur, en le 
               <profiles>
                 <profile name="Internal Grenade Racks" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="6035-d441-48e-ab87">
                   <characteristics>
-                    <characteristic name="Description" typeId="9b8f-694b-e5e-b573">**^^T’au Empire Battlesuit^^** figurine uniquement. Le porteur a le mot-clé **^^Grenades^^**, et chaque fois que le porteur termine un mouvement normal, vous pouvez sélectionner une unité ennemie sur laquelle il s'est déplacé pendant ce mouvement. Si vous le faites, lancez six D6: pour chaque 4+, cette unité ennemie souffre 1 blessure mortelle.</characteristic>
+                    <characteristic name="Description" typeId="9b8f-694b-e5e-b573">**^^T’au Empire Battlesuit^^** figurine uniquement. Le porteur a le mot-clé **^^Grenades^^** et, chaque fois que le porteur termine un mouvement Normal, vous pouvez sélectionner une unité ennemie par-dessus laquelle il s’est déplacé au cours de ce mouvement. Si vous le faites, lancez six D6 : pour chaque résultat de 4+, cette unité ennemie subit 1 blessure mortelle.</characteristic>
                   </characteristics>
                 </profile>
               </profiles>
@@ -18640,7 +18640,7 @@ Note du concepteur: Placez un jeton Oversight Drone à côté du porteur, en le 
               <profiles>
                 <profile name="Puretide Engram Neurochip" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="25b-3ac9-879b-e3bf">
                   <characteristics>
-                    <characteristic name="Description" typeId="9b8f-694b-e5e-b573">**^^T’au Empire Battlesuit^^** figurine uniquement. Chaque fois que vous ciblez l'unité du porteur avec un Stratagème, lancez un D6: sur un 4+, vous gagnez 1CP.</characteristic>
+                    <characteristic name="Description" typeId="9b8f-694b-e5e-b573">**^^T’au Empire Battlesuit^^** figurine uniquement. Chaque fois que vous ciblez l’unité du porteur avec un Stratagème, lancez un D6: sur un 4+, vous gagnez 1CP.</characteristic>
                   </characteristics>
                 </profile>
               </profiles>
@@ -18698,7 +18698,7 @@ Note du concepteur: Placez un jeton Oversight Drone à côté du porteur, en le 
               <profiles>
                 <profile name="Nomadic Hunter" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="88d0-2637-381f-681e">
                   <characteristics>
-                    <characteristic name="Description" typeId="9b8f-694b-e5e-b573">**^^Kroot Trail Shaper^^** figurine uniquement. Pendant que le porteur mène une unité, ajoutez 3" à la caractéristique de mouvement des figurines de cette unité et les armes de tir équipées par les figurines de cette unité ont la aptitude **[ASSAULT]**.</characteristic>
+                    <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Figurine **^^Kroot Trail Shaper^^** uniquement. Tant que le porteur mène une unité, ajoutez 3" à la caractéristique de Mouvement des figurines de cette unité et les armes de tir dont sont équipées les figurines de cette unité ont l’aptitude **[ASSAULT]**.</characteristic>
                   </characteristics>
                 </profile>
               </profiles>
@@ -18738,7 +18738,7 @@ Note du concepteur: Placez un jeton Oversight Drone à côté du porteur, en le 
               <profiles>
                 <profile name="Borthrod Gland" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="2c94-4da5-66f4-e3d9">
                   <characteristics>
-                    <characteristic name="Description" typeId="9b8f-694b-e5e-b573">**^^Kroot Flesh Shaper^^** uniquement. Alors que le porteur mène une unité, chaque fois qu'une figurine dans cette unité fait une attaque de mêlée, un jet de un jet de Touche non modifié de 5+ marque un hit critique.</characteristic>
+                    <characteristic name="Description" typeId="9b8f-694b-e5e-b573">**^^Kroot Flesh Shaper^^** uniquement. Tant que le porteur mène une unité, chaque fois qu’une figurine de cette unité effectue une attaque de mêlée, tout jet de Touche non modifié de 5+ est une Touche Critique.</characteristic>
                   </characteristics>
                 </profile>
               </profiles>
@@ -18775,7 +18775,7 @@ Note du concepteur: Placez un jeton Oversight Drone à côté du porteur, en le 
               <profiles>
                 <profile name="Root-carved Weapons" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="97d2-25ee-4feb-5e83">
                   <characteristics>
-                    <characteristic name="Description" typeId="9b8f-694b-e5e-b573">**^^Kroot War Shaper^^** figurine uniquement. Toutes les armes équipées par le porteur ont les capacités **[PRECISION]** et **[DEVASTATING WOUNDS]**.</characteristic>
+                    <characteristic name="Description" typeId="9b8f-694b-e5e-b573">**^^Kroot War Shaper^^** figurine uniquement. Toutes les armes équipées par le porteur ont les aptitudes **[PRECISION]** et **[DEVASTATING WOUNDS]**.</characteristic>
                   </characteristics>
                 </profile>
               </profiles>
@@ -18816,7 +18816,7 @@ Note du concepteur: Placez un jeton Oversight Drone à côté du porteur, en le 
               <profiles>
                 <profile name="Kroothawk Flock" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="d6f9-7308-f063-7803">
                   <characteristics>
-                    <characteristic name="Description" typeId="9b8f-694b-e5e-b573">**^^Kroot^^** figurine uniquement. Les armes de tir équipées de figurines dans l'unité du porteur ont la aptitude **[IGNORES COVER]**, et les unités ennemies qui sont installées sur le champ de bataille en tant que renforts ne peuvent pas être installées à 12" ou moins horizontalement du porteur.</characteristic>
+                    <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Figurine **^^Kroot^^** uniquement. Les armes de tir dont sont équipées les figurines de l’unité du porteur ont l’aptitude **[IGNORES COVER]**, et les unités ennemies placées sur le champ de bataille en tant que Renforts ne peuvent pas être placées à 12" ou moins horizontalement du porteur.</characteristic>
                   </characteristics>
                 </profile>
               </profiles>
@@ -18877,7 +18877,7 @@ Note du concepteur: Placez un jeton Oversight Drone à côté du porteur, en le 
               <profiles>
                 <profile name="Student of Kauyon" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="7199-5e8a-e1a0-5119">
                   <characteristics>
-                    <characteristic name="Description" typeId="9b8f-694b-e5e-b573">**^^Kroot Shaper^^** figurine uniquement. Dans l'étape Déclarer les Formations de Bataille, vous pouvez sélectionner jusqu'à trois unités **^^Kroot Carnivores^^** ou **^^Kroot Farstalkers^^** de votre armée. Les figurines de ces unités ont la aptitude Frappe en profondeur.</characteristic>
+                    <characteristic name="Description" typeId="9b8f-694b-e5e-b573">**^^Kroot Shaper^^** figurine uniquement. Dans le étape Déclarer les Formations de Bataille, vous pouvez sélectionner jusqu'à trois unités **^^Kroot Carnivores^^** ou **^^Kroot Farstalkers^^** de votre armée. figurines dans ces unités ont l’aptitude Frappe en profondeur.</characteristic>
                   </characteristics>
                 </profile>
               </profiles>
@@ -18923,7 +18923,7 @@ Note du concepteur: Placez un jeton Oversight Drone à côté du porteur, en le 
               <profiles>
                 <profile name="Admired Leader" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="5e23-34b9-2d51-d981">
                   <characteristics>
-                    <characteristic name="Description" typeId="9b8f-694b-e5e-b573">**^^T'au Empire^^** figurine uniquement (à l’exclusion des figurines **^^Kroot^^**). Dans votre phase de Commandement, vous pouvez sélectionner une unité **^^Kroot^^** ou **^^Vespid Stingwings^^** à 12" ou moins du porteur. Si, jusqu'au début de votre prochaine phase de Commandement, vous améliorez la caractéristique de Commandement des figurines de cette unité de 1, et si une telle unité n'est pas Ébranlée, ajoutez 1 à la caractéristique de Contrôle d’Objectif des figurines de cette unité.</characteristic>
+                    <characteristic name="Description" typeId="9b8f-694b-e5e-b573">**^^T'au Empire^^** figurine uniquement (à l’exclusion des figurines **^^Kroot^^**). Dans votre phase de Commandement, vous pouvez sélectionner une unité **^^Kroot^^** ou **^^Vespid Stingwings^^** à 12" ou moins du porteur. Si vous le faites, jusqu'au début de votre prochaine phase de Commandement, améliorez la caractéristique de Commandement des figurines de cette unité de 1, et alors que cette unité n'est pas Ébranlé, ajoutez 1 à la caractéristique de Contrôle d’Objectif des figurines de cette unité.</characteristic>
                   </characteristics>
                 </profile>
               </profiles>
@@ -18963,7 +18963,7 @@ Note du concepteur: Placez un jeton Oversight Drone à côté du porteur, en le 
               <profiles>
                 <profile name="Fanatical Convert" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="bf89-9fa5-0f6d-dfed">
                   <characteristics>
-                    <characteristic name="Description" typeId="9b8f-694b-e5e-b573">**^^Kroot^^** figurine uniquement. l’unité du porteur possède la aptitude pour le bien supérieur.</characteristic>
+                    <characteristic name="Description" typeId="9b8f-694b-e5e-b573">**^^Kroot^^** figurine uniquement. l’unité du porteur possède l’aptitude pour le Greater Good.</characteristic>
                   </characteristics>
                 </profile>
               </profiles>
@@ -19003,7 +19003,7 @@ Note du concepteur: Placez un jeton Oversight Drone à côté du porteur, en le 
               <profiles>
                 <profile name="Transponder Lock Module" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="bcbb-af5d-4b68-30ad">
                   <characteristics>
-                    <characteristic name="Description" typeId="9b8f-694b-e5e-b573">figurine **^^T’au Empire Walker^^** avec la aptitude Frappe en profondeur seulement. l’unité du porteur peut être configurée à l'aide de la aptitude Frappe en profondeur dans l'étape de renforcement de votre première, deuxième ou troisième phase de Mouvement, indépendamment des règles de mission. Lors de votre première phase de Mouvement, lorsque vous installez l’unité du porteur, elle doit être installée à 12" ou moins d'une ou plusieurs unités amies **^^Kroot^^** ou **^^Vespid Stingwings^^** et non à 9" ou moins horizontalement d'une ou plusieurs unités ennemies.</characteristic>
+                    <characteristic name="Description" typeId="9b8f-694b-e5e-b573">**^^T’au Empire Walker^^** figurine avec l’aptitude Frappe en profondeur seulement. L’unité du porteur peut être placée à l’aide de l’aptitude Frappe en profondeur à l’étape des Renforts de votre première, deuxième ou troisième phase de Mouvement, quelles que soient les règles de mission. Lors de votre premier phase de Mouvement, lorsque vous installez l’unité du porteur, elle doit être installée à 12" ou moins d'une ou de plusieurs unités amies **^^Kroot^^** ou **^^Vespid Stingwings^^** et non à 9" ou moins horizontalement d'une ou de plusieurs unités ennemies.</characteristic>
                   </characteristics>
                 </profile>
               </profiles>
@@ -19064,7 +19064,7 @@ Note du concepteur: Placez un jeton Oversight Drone à côté du porteur, en le 
               <profiles>
                 <profile name="Fusion Blades" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="c940-22c6-dd77-179f">
                   <characteristics>
-                    <characteristic name="Description" typeId="9b8f-694b-e5e-b573">**^^T’au Empire^^** figurine uniquement. Sélectionnez un blaster de fusion équipé par le porteur. Améliorez les caractéristique d’Attaques de cette arme de 1, améliorez la caractéristique de Force de cette arme de 3, et cette arme a la aptitude **[MELTA 4]**.</characteristic>
+                    <characteristic name="Description" typeId="9b8f-694b-e5e-b573">**^^T’au Empire^^** figurine uniquement. Sélectionnez un blaster de fusion équipé du porteur. Améliorez la caractéristique d’Attaques de cette arme de 1, améliorez la caractéristique de Force de cette arme de 3, et cette arme a l’aptitude **[MELTA 4]**.</characteristic>
                   </characteristics>
                 </profile>
               </profiles>
@@ -19107,7 +19107,7 @@ Note du concepteur: Placez un jeton Oversight Drone à côté du porteur, en le 
               <profiles>
                 <profile name="Thermoneutronic Projector" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="a70a-bec9-6946-39fe">
                   <characteristics>
-                    <characteristic name="Description" typeId="9b8f-694b-e5e-b573">**^^T’au Empire^^** figurine uniquement. Choisissez un flammeur T'au équipé par le porteur. Améliorez les caractéristiques de résistance de cette arme de 2, et améliorer les caractéristiques de pénétration et de dégâts de cette arme de 1.</characteristic>
+                    <characteristic name="Description" typeId="9b8f-694b-e5e-b573">**^^T’au Empire^^** figurine uniquement. Choisissez un T'au lance-flammes équipé du porteur. Améliorez la caractéristique de Force de cette arme de 2, et améliorez les caractéristiques de Pénétration d’Armure et de Dégâts de cette arme de 1.</characteristic>
                   </characteristics>
                 </profile>
               </profiles>
@@ -19150,7 +19150,7 @@ Note du concepteur: Placez un jeton Oversight Drone à côté du porteur, en le 
               <profiles>
                 <profile name="Plasma Accelerator Rifle" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="b141-8e24-fab3-30d7">
                   <characteristics>
-                    <characteristic name="Description" typeId="9b8f-694b-e5e-b573">**^^T’au Empire^^** figurine uniquement. Choisissez un fusil plasma équipé par le porteur. Améliorez les caractéristiques de force de cette arme de 2, et améliorer les caractéristiques d'attaque, de pénétration d'armure et de Dégâts de cette arme de 1.</characteristic>
+                    <characteristic name="Description" typeId="9b8f-694b-e5e-b573">**^^T’au Empire^^** figurine uniquement. Choisissez un fusil plasma équipé du porteur. Améliorez la caractéristique de Force de cette arme de 2, et améliorez le Attaques, caractéristiques de Pénétration d’Armure et de Dégâts de cette arme de 1.</characteristic>
                   </characteristics>
                 </profile>
               </profiles>
@@ -19193,7 +19193,7 @@ Note du concepteur: Placez un jeton Oversight Drone à côté du porteur, en le 
               <profiles>
                 <profile name="Supernova Launcher" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="cf3b-e41a-078e-021a">
                   <characteristics>
-                    <characteristic name="Description" typeId="9b8f-694b-e5e-b573">**^^T’au Empire^^** figurine uniquement. Sélectionnez un projecteur de fragmentation d'explosion d'air équipé par le porteur. Améliorez les caractéristiques de résistance de cette arme de 3, et améliorer les caractéristiques de pénétration et de dégâts de cette arme de 1.</characteristic>
+                    <characteristic name="Description" typeId="9b8f-694b-e5e-b573">**^^T’au Empire^^** figurine uniquement. Sélectionnez un projecteur de fragmentation d'explosion d'air équipé du porteur. Améliorez la caractéristique de Force de cette arme de 3, et améliorez les caractéristiques de Pénétration d’Armure et de Dégâts de cette arme de 1.</characteristic>
                   </characteristics>
                 </profile>
               </profiles>
@@ -19280,7 +19280,7 @@ Note du concepteur: Placez un jeton Oversight Drone à côté du porteur, en le 
               <profiles>
                 <profile name="Quill Marker" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="440f-591d-a12a-f1f7">
                   <characteristics>
-                    <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Au début de votre phase de Charge, sélectionnez une unité ennemie à 12" ou moins du porteur. Jusqu'à la fin de la phase, chaque fois qu'une unité **^^Kroot^^** de votre armée déclare une charge, si elle est à 6" ou moins de cette unité ennemie, elle peut inclure cette unité ennemie comme cible de cette charge, même si elle n'est pas visible pour elle.</characteristic>
+                    <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Au début de votre phase de Charge, sélectionnez une unité ennemie à 12" ou moins du porteur. Jusqu’à la fin de la phase, chaque fois qu'une unité **^^Kroot^^** de votre armée déclare une charge, si elle est à 6" ou moins de cette unité ennemie, il peut inclure que cette unité ennemie comme cible de cette charge, même si elle n'est pas visible pour elle.</characteristic>
                   </characteristics>
                 </profile>
               </profiles>
@@ -19316,7 +19316,7 @@ Note du concepteur: Placez un jeton Oversight Drone à côté du porteur, en le 
               <profiles>
                 <profile name="Experienced Leader" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="1401-75a9-a358-7fdb">
                   <characteristics>
-                    <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Au début du premier tour de bataille, sélectionnez une unité ennemi sur le champ de bataille. Jusqu'à la fin de la bataille, chaque fois qu'une figurine **^^Kroot^^** de votre armée fait une attaque qui cible cette unité ennemie, si le porteur est sur le champ de bataille, vous pouvez relancer le jet de Blessure.</characteristic>
+                    <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Au début du premier tour de bataille, sélectionnez une unité ennemie sur le champ de bataille. Jusqu'à la fin de la bataille, chaque fois qu'une **^^Kroot^^** figurine de votre armée fait une attaque qui cible que cette unité ennemie, si le porteur est sur le champ de bataille, vous pouvez relancer le jet de Blessure.</characteristic>
                   </characteristics>
                 </profile>
               </profiles>
@@ -19369,7 +19369,7 @@ Note du concepteur: Placez un jeton Oversight Drone à côté du porteur, en le 
               <profiles>
                 <profile name="Target Optimisation Microdrones" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="9dc8-c377-559a-94e1">
                   <characteristics>
-                    <characteristic name="Description" typeId="9b8f-694b-e5e-b573">**^^Cadre Fireblade^^** figurine uniquement. Une fois par tour, dans la phase de Tir, lorsqu'une unité amie **^^Fire Warrior^^**, **^^Pathfinder Team^^** ou **^^Cadre Fireblade^^** à 6" ou moins du porteur est sélectionnée pour tirer, le porteur utilise cette Optimisation. Si tel est le cas, jusqu'à la fin de la phase, Améliorez la caractéristique de Pénétration d’Armure des armes de tir équipées de figurines dans cette unité de 1.</characteristic>
+                    <characteristic name="Description" typeId="9b8f-694b-e5e-b573">**^^Cadre Fireblade^^** figurine uniquement. Une fois par tour, dans votre phase de Tir, lorsqu'une unité amicale **^^Fire Warrior^^**, **^^Pathfinder Team^^** ou **^^Cadre Fireblade^^** à 6" ou moins du porteur est sélectionnée pour tirer, le porteur utilise ce Optimisation. Si c'est le cas, Jusqu’à la fin de la phase améliore la caractéristique de Pénétration d’Armure d’armes de tir équipé des figurines de cette unité de 1.</characteristic>
                   </characteristics>
                 </profile>
               </profiles>
@@ -19412,7 +19412,7 @@ Note du concepteur: Placez un jeton Oversight Drone à côté du porteur, en le 
               <profiles>
                 <profile name="Duty's Echo" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="8768-50c2-34b5-252f">
                   <characteristics>
-                    <characteristic name="Description" typeId="9b8f-694b-e5e-b573">**^^Ethereal^^** figurine uniquement. À la fin de votre phase de Tir, vous pouvez sélectionner une unité **^^Fire Warrior^^** ou **^^Pathfinder Team^^** amicale à 6" ou moins du porteur. Si vous le faites, cette unité peut effectuer un déplacement normal jusqu'à 3" et ensuite compte comme ayant effectué la Manœuvre Tactique de Surveillance.</characteristic>
+                    <characteristic name="Description" typeId="9b8f-694b-e5e-b573">**^^Ethereal^^** figurine uniquement. À la fin de votre phase de Tir, vous pouvez sélectionner une unité conviviale **^^Fire Warrior^^** ou **^^Pathfinder Team^^** à 6" ou moins du porteur. Si vous le faites, cette unité peut effectuer un mouvement Normal de jusqu'à 3" et compte alors comme ayant effectué la Manœuvre Tactique de Surveillance à ce tour.</characteristic>
                   </characteristics>
                 </profile>
               </profiles>
@@ -19590,7 +19590,7 @@ Note du concepteur: Placez un jeton Oversight Drone à côté du porteur, en le 
         <selectionEntry type="upgrade" import="true" name="Kauyon" id="e366-3583-f47a-986e">
           <rules>
             <rule name="Patient Hunter" id="317c-3f1d-9993-b610" hidden="false">
-              <description>pendant la troisième, fourth, et fifth battle rounds, armes de tir dont sont équipées **^^T’au Empire^^** figurines de votre armée ont l’ **[SUSTAINED HITS 1]** aptitude. Pendant les troisième, quatrième et cinquième tours de bataille, alors qu'une unité est une unité guidée (voir Pour le plus grand bien), chaque fois qu'une attaque de tir est effectuée par une figurine dans cette unité qui cible une unité Spotted, vous pouvez ignorer tous ou tous les modificateurs de ces caractéristiques de caractéristique de Capacité de Tir de l'attaque et / ou tous les modificateurs du jet de Touche.</description>
+              <description>Pendant les troisième, quatrième et cinquième tours de bataille, les armes de tir dont sont équipées les figurines **^^T’au Empire^^** de votre armée ont l’aptitude **[Touches soutenues 1]**. Pendant les troisième, quatrième et cinquième tours de bataille, tant qu’une unité est une unité Guided (voir For the Greater Good), chaque fois qu’une figurine de cette unité effectue une attaque de tir qui cible une unité Spotted, vous pouvez ignorer tout ou partie des modificateurs de la caractéristique de Capacité de Tir de cette attaque et/ou tous les modificateurs du jet de Touche.</description>
             </rule>
           </rules>
           <infoLinks>
@@ -19607,7 +19607,7 @@ Note du concepteur: Placez un jeton Oversight Drone à côté du porteur, en le 
         <selectionEntry type="upgrade" import="true" name="Mont'ka" id="6aea-8ba5-978e-8def">
           <rules>
             <rule name="Killing Blow" id="f9d3-b36b-e093-4fb4" hidden="false">
-              <description>pendant la premier, deuxième et troisième battle rounds, armes de tir dont sont équipées **^^T’au Empire^^** figurines de votre armée ont l’ **[ASSAULT]** aptitude. Pendant les premières, deuxième et troisième tours de bataille, alors qu'une unité est une unité guidée (voir Pour le plus grand bien), ses armes de tir ont la aptitude **[LETHAL HITS]**.</description>
+              <description>Au cours du premier, deuxième et troisième tour de bataille, armes de tir équipé de **^^T’au Empire^^** figurines de votre armée ont l’aptitude **[ASSAULT]**. Au cours du premier, deuxième et troisième tour de bataille, alors qu'une unité est une unité guidée (voir Pour le plus grand bien), ses armes de tir a l’aptitude **[LETHAL HITS]**.</description>
             </rule>
           </rules>
           <infoLinks>
@@ -19625,7 +19625,7 @@ Note du concepteur: Placez un jeton Oversight Drone à côté du porteur, en le 
         <selectionEntry type="upgrade" import="true" name="Retaliation Cadre" id="3bae-cf7-b9e3-4f00">
           <rules>
             <rule name="Bonded Heroes" id="400b-c724-6710-76b1" hidden="false">
-              <description>Chaque fois qu'une figurine **^^T'au Empire Battlesuit^^** de votre armée effectue une attaque de tir qui cible une unité à 12" ou moins, améliorez la caractéristique de Force de cette attaque de 1. Si cette attaque cible une unité à 9" ou moins, améliorez la caractéristique de Pénétration d’Armure de cette attaque par 1 aussi.</description>
+              <description>Chaque fois qu'une **^^T'au Empire Battlesuit^^** figurine de votre armée fait une attaque de tir qui cible une unité à 12" ou moins, améliorez la caractéristique de Force de cette attaque de 1. Si cette attaque cible une unité à 9" ou moins, améliorez la caractéristique de Pénétration d’Armure de cette attaque par 1 aussi.</description>
             </rule>
           </rules>
           <modifiers>
@@ -19639,10 +19639,10 @@ Note du concepteur: Placez un jeton Oversight Drone à côté du porteur, en le 
         <selectionEntry type="upgrade" import="true" name="Kroot Hunting Pack" id="452e-5b5b-cdbc-c94a">
           <rules>
             <rule name="Hunter's Instincts" id="4129-703-44-c6c" hidden="false">
-              <description>Chaque fois qu'une figurine **^^Kroot^^** de votre armée effectue une attaque, ajoutez 1 au jet de Touche si la cible de cette attaque est inférieure à son Effectif Initial, et ajoutez 1 au jet de Blessure aussi bien si la cible de cette attaque est en dessous de son Demi-effectif.</description>
+              <description>Chaque fois qu'une **^^Kroot^^** figurine de votre armée effectue une attaque, ajoutez 1 au jet de Touche si la cible de cette attaque est en dessous de son Effectif Initial, et ajoutez 1 au jet de Blessure aussi bien si la cible de cette attaque est En Dessous de son Demi-effectif.</description>
             </rule>
             <rule name="Skirmish Fighters" id="67b0-9549-34a5-63e5" hidden="false">
-              <description>Les figurines **^^Kroot^^** de votre armée ont un 6+ sauvegarde invulnérable contre les attaques de mêlée et un 5+ sauvegarde invulnérable contre les attaques de tir.</description>
+              <description>**^^Kroot^^** figurines de votre armée ont un 6+ sauvegarde invulnérable contre les attaques de mêlée et un 5+ sauvegarde invulnérable contre les attaques de tir.</description>
             </rule>
           </rules>
           <modifiers>
@@ -19656,13 +19656,13 @@ Note du concepteur: Placez un jeton Oversight Drone à côté du porteur, en le 
         <selectionEntry type="upgrade" import="true" name="Auxiliary Cadre" hidden="false" id="97bc-1349-fb9d-c04f">
           <rules>
             <rule name="Integrated Command Structure" id="eb32-1926-a607-c01c" hidden="false">
-              <description>Les unités **^^Kroot^^** et **^^Vespid Stingwings^^** de votre armée ont les capacités suivantes:
+              <description>Les unités **^^Kroot^^** et **^^Vespid Stingwings^^** de votre armée ont les unités aptitude suivantes:
 
-**Targeting Triangulation (Aura):** Alors qu'une unité ennemie se trouve à 9" ou moins et visible à cette unité, chaque fois qu'une attaque de tir effectuée par une figurine amique **^^T’au Empire^^** (à l'exclusion des figurines **^^Kroot^^**, **^^Vespid Stingwings^^** et TITANIC) cible cette unité ennemie, améliore la caractéristique de Pénétration d’Armure de cette attaque de 1.
+**Targeting Triangulation (Aura):** Alors qu'une unité ennemie est à 9" ou moins et visible pour cette unité, chaque fois qu'une attaque de tir fabriqué par un ami **^^T’au Empire^^** figurine (à l’exclusion de **^^Kroot^^**, **^^Vespid Stingwings^^** et TITANIC figurines) cible que cette unité ennemie, améliore la caractéristique de Pénétration d’Armure de cette attaque de 1.
 
-Les unités **^^T’au Empire^^** (à l'exclusion des unités **^^Kroot^^** et **^^Vespid Stingwings^^**) de votre armée ont les capacités suivantes:
+Les unités **^^T’au Empire^^** (à l’exclusion de **^^Kroot^^** et **^^Vespid Stingwings^^**) de votre armée ont les unités aptitude suivantes:
 
-**Localised Stealth Projectors (Aura):** Alors qu'une unité amicale **^^Kroot^^** ou **^^Vespid Stingwings^^** se trouve entièrement à 6" ou moins et visible à cette unité, cette unité **^^Kroot^^** ou **^^Vespid Stingwings^^** ne peut être sélectionnée comme cible d'une attaque de tir que si la figurine attaquant se trouve à 18" ou moins.</description>
+**Localised Stealth Projectors (Aura):** Alors qu'une unité amicale **^^Kroot^^** ou **^^Vespid Stingwings^^** est entièrement à 6" ou moins et visible pour cette unité, cette unité **^^Kroot^^** ou **^^Vespid Stingwings^^** ne peut être sélectionnée comme cible d'une attaque de tir que si l'attaquant figurine se trouve à 18" ou moins.</description>
             </rule>
           </rules>
           <modifiers>
@@ -19676,7 +19676,7 @@ Les unités **^^T’au Empire^^** (à l'exclusion des unités **^^Kroot^^** et *
         <selectionEntry type="upgrade" import="true" name="Experimental Prototype Cadre" id="1520-c344-f4fe-b414">
           <rules>
             <rule name="Superior Craftmanship" id="492b-52cc-f6f2-0d20" hidden="false">
-              <description>Ajoutez 6" à la caractéristique de Portée des armes de tir équipées de figurines **^^T'au Empire^^** de votre armée.</description>
+              <description>Ajoutez 6" à la caractéristique de Portée d’armes de tir équipé de **^^T'au Empire^^** figurines de votre armée.</description>
             </rule>
           </rules>
           <modifierGroups>
@@ -19714,10 +19714,10 @@ Les unités **^^T’au Empire^^** (à l'exclusion des unités **^^Kroot^^** et *
           </modifiers>
           <rules>
             <rule name="Guerrilla Ambushers" id="c3df-ad7c-8ae8-a589" hidden="false">
-              <description>Chaque fois qu'une unité ennemie est sélectionnée pour tirer sur Overwatch, lancez un D6: sur un 4+, jusqu'à la fin du tour, cette unité ne peut pas effectuer des attaques Overwatch qui ciblent les unités **^^Kroot^^** de votre armée.</description>
+              <description>Chaque fois qu’une unité ennemie est sélectionnée pour tirer en Overwatch, lancez un D6 : sur 4+, jusqu’à la fin du tour, cette unité ne peut pas effectuer d’attaques Overwatch qui ciblent des unités **^^Kroot^^** de votre armée.</description>
             </rule>
             <rule name="Forming Boarding Squads" id="c41b-d401-f3c3-5e52" hidden="false">
-              <description>Dans l'étape Form Boarding Squads, une unité **^^Kroot Farstalkers^^** est divisée en deux squadrons d'embarquement, chacun contenant des figurines 6.</description>
+              <description>Dans l'étape des escadrons d'embarquement du formulaire, une unité **^^Kroot Farstalkers^^** est divisée en deux escadrons d'embarquement, chacun contenant 6 figurines.</description>
             </rule>
             <rule name="Mustering A Boarding Patrol" id="28a8-2a95-66d4-7e00" hidden="false">
               <description>Vous pouvez inclure jusqu'à deux des unités suivantes (les duplicats ne sont pas autorisés):
@@ -19726,17 +19726,17 @@ Les unités **^^T’au Empire^^** (à l'exclusion des unités **^^Kroot^^** et *
 - **^^Kroot War Shaper^^**
 
 Vous pouvez inclure jusqu'à trois des unités suivantes:
-- Pour les figurines **^^Kroot Carnivores^^** (figurines 10)
+- **^^Kroot Carnivores^^** (10 figurines)
 
 Pour chaque unité **^^Kroot Carnivores^^** que vous incluez, vous pouvez inclure jusqu'à une des unités suivantes:
-- Pour les figurines **^^Kroot Farstalkers^^** (figurines 12)
-- Pour les figurines **^^Kroot Hounds^^** (figurines 5)
-- la figurine **^^Krootox Riders^^** (figurine 1)</description>
+- **^^Kroot Farstalkers^^** (12 figurines)
+- **^^Kroot Hounds^^** (5 figurines)
+- **^^Krootox Riders^^** (1 figurine)</description>
             </rule>
             <rule name="Rules Adaptions" id="2154-b6a4-d144-ca67" hidden="false">
-              <description>- Les unités **^^Kroot Carnivores^^** peuvent effectuer la manœuvre tactique du site sécurisé comme si elles avaient le mot-clé **^^Battleline^^**.
+              <description>- Les unités **^^Kroot Carnivores^^** peuvent effectuer la manœuvre tactique du site sécurisé comme si elles avaient mot-clé **^^Battleline^^**.
 - Chaque fois que vous installez une unité **^^Kroot Carnivores^^** dans une zone d'entrée, vous pouvez installer une unité **^^Kroot Hounds^^** et/ou une unité **^^Krootox Riders^^** dans la même zone d'entrée.
-- Si une unité **^^Kroot Carnivores^^** ou **^^Kroot Farstalkers^^** de votre armée détruit une unité ennemie tout en recevant les avantages de la aptitude **^^Kroot Flesh Shaper^^** de Rites of Feasting, la aptitude Insensible à la douleur 5+ qu'ils gagnent reste en vigueur, même après qu'ils ont cessé de recevoir les avantages de cette aptitude.
+- Si une unité **^^Kroot Carnivores^^** ou **^^Kroot Farstalkers^^** de votre armée détruit une unité ennemie tout en recevant les avantages du **^^Kroot Flesh Shaper^^**'s Rites of Feasting aptitude, l’aptitude Insensible à la douleur 5+ qu'ils gagnent reste en vigueur, même après qu'ils cessent de recevoir les avantages de cette aptitude.
 - L’unité **^^Kroot Carnivores^^** perd l’aptitude Fieldcraft.
 - L’unité **^^Kroot Hounds^^** perd l’aptitude Loping Pounce.
 - L’unité **^^Krootox Riders^^** perd l’aptitude Kroot Packmates.</description>
@@ -19770,25 +19770,25 @@ Pour chaque unité **^^Kroot Carnivores^^** que vous incluez, vous pouvez inclur
 - **^^Ethereal^^**
 
 Vous pouvez inclure jusqu'à trois des unités suivantes:
-- Pour les figurines **^^Breacher Team^^** (figurines 10)
-- Pour les figurines **^^Pathfinder Team^^** (5 ou 10)
-- Pour les figurines **^^Strike Team^^** (figurines 10)
+- **^^Breacher Team^^** (10 figurines)
+- **^^Pathfinder Team^^** (5 or 10 figurines)
+- **^^Strike Team^^** (10 figurines)
 
 Vous pouvez inclure jusqu'à une des unités suivantes:
-- Pour les figurines **^^Kroot Carnivores^^** (figurines 10)
-- Pour les figurines **^^Stealth Battlesuits^^** (figurines 3)
-- Pour les figurines **^^Vespid Stingwings^^** (figurines 5)
+- **^^Kroot Carnivores^^** (10 figurines)
+- **^^Stealth Battlesuits^^** (3 figurines)
+- **^^Vespid Stingwings^^** (5 figurines)
 
 Vous pouvez inclure jusqu'à l'une des unités suivantes:
-- Pour les figurines **^^Crisis Fireknife Battlesuits^^** (figurines 3)
-- Pour les figurines **^^Crisis Starscythe Battlesuits^^** (figurines 3)
-- Pour les figurines **^^Crisis Sunforge Battlesuits^^** (figurines 3)</description>
+- **^^Crisis Fireknife Battlesuits^^** (3 figurines)
+- **^^Crisis Starscythe Battlesuits^^** (3 figurines)
+- **^^Crisis Sunforge Battlesuits^^** (3 figurines)</description>
             </rule>
             <rule name="Forming Boarding Squads" id="dbdd-ec47-e3a2-45f0" hidden="false">
-              <description>Les unités **^^Fire Warrior^^** qui ne contiennent pas une figurine Fire Warrior Shas'ui ou Breacher Fire Warrior Shas'ui après que vous ayez des escadrons d'embarquement perdent le mot-clé **^^Markerlight^^**.</description>
+              <description>Les unités **^^Fire Warrior^^** qui ne contiennent pas un Fire Warrior Shas'ui ou Breacher Fire Warrior Shas'ui figurine après que les équipes d'embarquement aient perdu mot-clé **^^Markerlight^^**.</description>
             </rule>
             <rule name="Markerlight Precision" id="c53e-77f2-6562-9205" hidden="false">
-              <description>Chaque fois qu'une unité **^^T'au Empire^^** de votre armée (à l'exclusion des unités **^^Kroot^^**) est sélectionnée pour tirer, les armes à portée de gamme équipées de figurines dans votre unité ont leur caractéristique de caractéristique de Capacité de Tir améliorée par 1 et ont la aptitude **[SUSTAINED HITS 1]** tout en ciblant une unité ennemie qui est visible pour une ou plusieurs unités **^^Markerlight^^** amicales qui ne sont pas à la Portée d’Engagement d'une ou plusieurs figurines ennemies.</description>
+              <description>Chaque fois qu’une unité **^^T'au Empire^^** de votre armée (à l’exclusion des unités **^^Kroot^^**) est sélectionnée pour tirer, améliorez de 1 la caractéristique de Capacité de Tir des armes de tir dont sont équipées les figurines de votre unité et ces armes ont l’aptitude **[SUSTAINED HITS 1]** lorsqu’elles ciblent une unité ennemie visible d’une ou plusieurs unités **^^Markerlight^^** amies qui ne sont pas à Portée d’Engagement d’une ou plusieurs figurines ennemies.</description>
             </rule>
           </rules>
           <infoLinks>
@@ -19820,7 +19820,7 @@ Vous pouvez inclure jusqu'à l'une des unités suivantes:
               <profiles>
                 <profile name="Totemic Infusions - Imperium" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="3257-41a9-1808-dfbc">
                   <characteristics>
-                    <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Alors que cette figurine **^^Shaper^^** est à la tête d'une unité, relance les tests d’Ébranlement effectués pour cette unité.</characteristic>
+                    <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Tant que cette figurine **^^Shaper^^** mène une unité, relancez les tests d’Ébranlement effectués pour cette unité.</characteristic>
                   </characteristics>
                 </profile>
               </profiles>
@@ -19846,7 +19846,7 @@ Vous pouvez inclure jusqu'à l'une des unités suivantes:
               <profiles>
                 <profile name="Totemic Infusions - Aeldari" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="7342-4a38-d575-e8b3">
                   <characteristics>
-                    <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Alors que cette figurine **^^Shaper^^** est à la tête d'une unité, ajoutez 2" à cette unités caractéristique de mouvement.</characteristic>
+                    <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Tant que cette figurine **^^Shaper^^** mène une unité, ajoutez 2" à la caractéristique de Mouvement de cette unité.</characteristic>
                   </characteristics>
                 </profile>
               </profiles>
@@ -19872,7 +19872,7 @@ Vous pouvez inclure jusqu'à l'une des unités suivantes:
               <profiles>
                 <profile name="Totemic Infusions - Orks" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="298f-418e-2bd7-9d49">
                   <characteristics>
-                    <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Alors que cette figurine **^^Shaper^^** mène une unité, ajoutez 1 à la caractéristique de Force des armes de mêlée équipées par cette unité.</characteristic>
+                    <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Alors que **^^Shaper^^** figurine mène une unité, ajoutez 1 à la caractéristique de Force des armes de mêlée équipées par cette unité.</characteristic>
                   </characteristics>
                 </profile>
               </profiles>
@@ -19898,7 +19898,7 @@ Vous pouvez inclure jusqu'à l'une des unités suivantes:
               <profiles>
                 <profile name="Totemic Infusions - Leagues of Votann" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="da06-6971-6fd0-8105">
                   <characteristics>
-                    <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Alors que cette figurine **^^Shaper^^** est à la tête d'une unité, ajoutez 1 à la caractéristique d’Endurance des figurines de cette unité.</characteristic>
+                    <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Alors que **^^Shaper^^** figurine mène une unité, ajoutez 1 à la caractéristique Endurance des figurines de cette unité.</characteristic>
                   </characteristics>
                 </profile>
               </profiles>
@@ -19924,7 +19924,7 @@ Vous pouvez inclure jusqu'à l'une des unités suivantes:
               <profiles>
                 <profile name="Totemic Infusions - Other" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="6d36-0053-d930-d4b2">
                   <characteristics>
-                    <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Alors que cette figurine **^^Shaper^^** est à la tête d'une unité, chaque fois qu'une figurine dans cette unité effectue une attaque de mêlée, ajoutez 1 au jet de Touche.</characteristic>
+                    <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Alors que **^^Shaper^^** figurine est à la tête d'une unité, chaque fois qu'une figurine dans cette unité fait une attaque de mêlée, ajoutez 1 au jet de Touche.</characteristic>
                   </characteristics>
                 </profile>
               </profiles>
@@ -19983,7 +19983,7 @@ Vous pouvez inclure jusqu'à l'une des unités suivantes:
           <profiles>
             <profile name="Electrochaff Backups" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="3683-7b12-6447-916d">
               <characteristics>
-                <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Chaque fois qu'une attaque de tir cible cette unité, à moins que la figurine d'attaque ne soit à 18" ou moins, Soustrayez 1 du jet de Touche.</characteristic>
+                <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Chaque fois qu’une attaque de tir cible cette unité, à moins que la figurine attaquante soit à 18" ou moins, soustrayez 1 au jet de Touche.</characteristic>
               </characteristics>
             </profile>
           </profiles>
@@ -20047,7 +20047,7 @@ Vous pouvez inclure jusqu'à l'une des unités suivantes:
           <profiles>
             <profile name="Heralds of the T'au'va" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="37a8-d7b4-b997-0dc6">
               <characteristics>
-                <characteristic name="Description" typeId="9b8f-694b-e5e-b573">À la fin de la bataille, si cette figurine faisait partie de votre armée de la Croisade et n'a pas été détruit pendant la bataille, lancez un D6: sur un 5+, votre force de la Croisade gagne 1 point diplomatique.</characteristic>
+                <characteristic name="Description" typeId="9b8f-694b-e5e-b573">À la fin de la bataille, si cette figurine faisait partie de votre armée de croisade et n'a pas été détruit pendant la bataille, lancez un D6: sur un 5+, votre force de croisade gagne 1 point diplomatique.</characteristic>
               </characteristics>
             </profile>
           </profiles>
@@ -20079,7 +20079,7 @@ Vous pouvez inclure jusqu'à l'une des unités suivantes:
           <profiles>
             <profile name="Integrated Targeting AI" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="1cd4-c27b-45d2-5fcf">
               <characteristics>
-                <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Chaque fois que vous ciblez cette unité avec le Stratagème Fire Overwatch, des les Touches sont réussies sur des jets de Touche non modifiés de 5+ tout en résolvant ce Stratagème.</characteristic>
+                <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Chaque fois que vous ciblez cette unité avec le Fire Overwatch Stratagème, des hits sont marqués sur jets de Touche non modifiés de 5+ tout en résolvant que Stratagème.</characteristic>
               </characteristics>
             </profile>
           </profiles>
@@ -20111,7 +20111,7 @@ Vous pouvez inclure jusqu'à l'une des unités suivantes:
           <profiles>
             <profile name="Leaping Flame" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="081f-ef2c-ea7c-3b88">
               <characteristics>
-                <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Chaque fois que cette unité avance, jusqu'au début de votre prochaine phase de Mouvement, cette unité a la aptitude Discrétion.</characteristic>
+                <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Chaque fois que cette unité avance, jusqu'au début de votre prochaine phase de Mouvement, cette unité a l’aptitude Discrétion.</characteristic>
               </characteristics>
             </profile>
           </profiles>
@@ -20152,7 +20152,7 @@ Vous pouvez inclure jusqu'à l'une des unités suivantes:
           <profiles>
             <profile name="Merciless Marksmen" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="26c9-87df-bd88-1d5e">
               <characteristics>
-                <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Les armes de tir équipées de figurines de cette unité (à l'exclusion des tourelles de support) ont la aptitude **[LETHAL HITS]**.</characteristic>
+                <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Les armes de tir dont les figurines de cette unité sont équipées (à l’exclusion des support turrets) ont l’aptitude **[LETHAL HITS]**.</characteristic>
               </characteristics>
             </profile>
           </profiles>
@@ -20203,7 +20203,7 @@ Vous pouvez inclure jusqu'à l'une des unités suivantes:
           <profiles>
             <profile name="Practised Aim" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="fdd2-3f25-7c75-929d">
               <characteristics>
-                <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Ajoutez 1 à la caractéristique de caractéristique de Capacité de Tir des armes de tir équipées de figurines de cette unité.</characteristic>
+                <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Ajoutez 1 à la caractéristique de Capacité de Tir des armes de tir équipées des figurines de cette unité.</characteristic>
               </characteristics>
             </profile>
           </profiles>
@@ -20243,7 +20243,7 @@ Vous pouvez inclure jusqu'à l'une des unités suivantes:
           <profiles>
             <profile name="Prey Slayers" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="fed0-fa51-3add-ff75">
               <characteristics>
-                <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Au début de la bataille, sélectionnez une unité de l'armée de votre adversaire. Jusqu'à la fin de la bataille, chaque fois que cette unité **^^Kroot^^** fait une attaque qui cible cette unité ennemie, vous pouvez relancer le jet de Touche.</characteristic>
+                <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Au début de la bataille, sélectionnez une unité de l'armée de votre adversaire. Jusqu'à la fin de la bataille, chaque fois que cette unité **^^Kroot^^** fait une attaque qui cible que cette unité ennemie, vous pouvez relancer le jet de Touche.</characteristic>
               </characteristics>
             </profile>
           </profiles>
@@ -20313,7 +20313,7 @@ Vous pouvez inclure jusqu'à l'une des unités suivantes:
           <profiles>
             <profile name="Reactive Thrust System" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="dc4c-e87b-938e-f4d6">
               <characteristics>
-                <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Une fois par bataille, vous pouvez cibler cette unité avec le stratagème d'intervention héroïque pour 0CP.</characteristic>
+                <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Une fois par bataille, vous pouvez cibler cette unité avec l'intervention héroïque Stratagème pour 0CP.</characteristic>
               </characteristics>
             </profile>
           </profiles>
@@ -20345,7 +20345,7 @@ Vous pouvez inclure jusqu'à l'une des unités suivantes:
           <profiles>
             <profile name="Sentry AI" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="781d-2f4d-4fd7-b1e8">
               <characteristics>
-                <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Pendant que cette unité est Ébranlée, modifiez la caractéristique de Contrôle d’Objectif des figurines de cette unité à 1, au lieu de 0.</characteristic>
+                <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Alors que cette unité est Ébranlée, modifier la caractéristique de Contrôle d’Objectif des figurines de cette unité à 1, au lieu de 0.</characteristic>
               </characteristics>
             </profile>
           </profiles>
@@ -20377,7 +20377,7 @@ Vous pouvez inclure jusqu'à l'une des unités suivantes:
           <profiles>
             <profile name="Takers of Heads" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="c080-6d93-e857-2503">
               <characteristics>
-                <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Chaque fois que cette unité effectue une attaque qui cible une unité **^^Character^^**, ajoutez 1 à le jet de Touche.</characteristic>
+                <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Chaque fois que cette unité effectue une attaque visant une unité **^^Character^^**, ajoutez 1 au jet de Touche.</characteristic>
               </characteristics>
             </profile>
           </profiles>
@@ -20409,7 +20409,7 @@ Vous pouvez inclure jusqu'à l'une des unités suivantes:
           <profiles>
             <profile name="Technological Trophies" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="5d34-3c85-ef6b-be87">
               <characteristics>
-                <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Chaque fois que cette unité déclare une charge, si vous sélectionnez une unité Monster ou Vehicle comme cible de cette charge, jusqu'à la fin du tour, les armes de mêlée équipées de figurines dans cette unité ont la aptitude **[LANCE]**.</characteristic>
+                <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Chaque fois que cette unité déclare une charge, si vous sélectionnez une unité Monster ou Vehicle comme cible de cette charge, jusqu'à la fin du tour, armes de mêlée équipé des figurines de cette unité ont l’aptitude **[LANCE]**.</characteristic>
               </characteristics>
             </profile>
           </profiles>
@@ -21364,7 +21364,7 @@ Vous pouvez inclure jusqu'à l'une des unités suivantes:
               <profiles>
                 <profile name="The Be'gel Hunter's Plate" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="b12c-10be-1d5f-7793">
                   <characteristics>
-                    <characteristic name="Description" typeId="9b8f-694b-e5e-b573">BATTLESUIT figurine uniquement. Le porteur a une caractéristique de sauvegarde de 2+ et la aptitude Insensible à la douleur 5+.</characteristic>
+                    <characteristic name="Description" typeId="9b8f-694b-e5e-b573">BATTLESUIT figurine uniquement. le porteur a une caractéristique de Sauvegarde de 2+ et l’aptitude Insensible à la douleur 5+.</characteristic>
                   </characteristics>
                 </profile>
               </profiles>
@@ -21420,8 +21420,8 @@ Vous pouvez inclure jusqu'à l'une des unités suivantes:
                 <profile name="The Tidecrystal" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="45d1-b691-9326-ca5a">
                   <characteristics>
                     <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Une fois par bataille, au début de votre phase de Commandement, si le porteur est sur le champ de bataille, vous pouvez faire l'une des choses suivantes:
-■ Sélectionnez un marqueur objectif que vous ne contrôlez pas. Jusqu'au début de votre prochaine phase de Commandement, chaque fois qu'une unité de l'Empire Tau de votre armée de la Croisade fait une attaque de tir qui cible une unité à portée de ce marqueur objectif, cette unité de l'Empire Tau est considérée comme une unité guidée et cette unité cible est considérée comme l'unité Spotted de l'Empire Tau.
-■ Sélectionnez un marqueur objectif que vous contrôlez. Jusqu'au début de votre prochaine phase de Commandement, chaque fois qu'une unité ennemie attaque une unité de l'Empire Tau de votre armée de la Croisade qui est à portée de ce marqueur objectif, soustrayez 1 du jet de Blessure.</characteristic>
+■ Sélectionnez un pion d’objectif que vous ne contrôlez pas. Jusqu'au début de votre prochaine phase de Commandement, chaque fois qu'une unité de l'Empire Tau de votre armée de la Croisade fait une attaque de tir qui cible une unité à l'intérieur de Portée de ce pion d’objectif, cette unité de l'Empire Tau est considérée comme une unité guidée et cette unité cible est considérée comme l'unité Spotted de l'Empire Tau.
+■ Sélectionnez un pion d’objectif que vous contrôlez. Jusqu'au début de votre prochaine phase de Commandement, chaque fois qu'une unité ennemie effectue une attaque visant une unité de l'Empire Tau de votre armée de la Croisade qui est à l'intérieur de Portée de ce pion d’objectif, Soustrayez 1 du jet de Blessure.</characteristic>
                   </characteristics>
                 </profile>
               </profiles>
@@ -21504,7 +21504,7 @@ Vous pouvez inclure jusqu'à l'une des unités suivantes:
               <profiles>
                 <profile name="Krep'chak" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="ee43-e0ad-3721-af24">
                   <characteristics>
-                    <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Une fois par bataille, lorsque l’unité du porteur détruit une unité ennemie, sélectionnez une arme de mêlée équipée par le porteur (à l'exclusion des armes Attaques Bonus). Jusqu'à la fin de la bataille, ajoutez 1 aux caractéristiques d'attaque, de force et de pénétration d'armure de cette arme.</characteristic>
+                    <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Une fois par bataille, lorsque l’unité du porteur détruit une unité ennemie, sélectionnez une arme de mêlée dont est équipé le porteur (à l’exclusion des armes Attaques Bonus). Jusqu’à la fin de la bataille, ajoutez 1 aux caractéristiques d’Attaques, de Force et de Pénétration d’Armure de cette arme.</characteristic>
                   </characteristics>
                 </profile>
               </profiles>
@@ -21540,7 +21540,7 @@ Vous pouvez inclure jusqu'à l'une des unités suivantes:
               <profiles>
                 <profile name="Serenity (Aura)" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="b3ab-0d74-2482-66b1">
                   <characteristics>
-                    <characteristic name="Description" typeId="9b8f-694b-e5e-b573">**^^Ethereal^^** figurine uniquement. Alors qu'une unité **^^T'au Empire^^** conviviale est à 6" ou moins de cette figurine, ajoutez 1 à la caractéristique de Commandement de cette unité.</characteristic>
+                    <characteristic name="Description" typeId="9b8f-694b-e5e-b573">**^^Ethereal^^** figurine uniquement. Tant qu’une unité **^^T'au Empire^^** amie est à 6" ou moins de cette figurine, ajoutez 1 à la caractéristique de Commandement de cette unité.</characteristic>
                   </characteristics>
                 </profile>
               </profiles>
@@ -22089,7 +22089,7 @@ Vous pouvez inclure jusqu'à l'une des unités suivantes:
                   <profiles>
                     <profile name="Ambushed" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="c439-255b-1470-91d2">
                       <characteristics>
-                        <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Au début du premier tour, votre **^^Warlord^^** souffre D3 Blessures Mortelles.</characteristic>
+                        <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Au début du premier tour, votre **^^Warlord^^** souffre de D3 Blessures Mortelles.</characteristic>
                       </characteristics>
                     </profile>
                   </profiles>
@@ -22107,7 +22107,7 @@ Vous pouvez inclure jusqu'à l'une des unités suivantes:
                   <profiles>
                     <profile name="Waylaid" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="e1e9-2785-8f17-4a09">
                       <characteristics>
-                        <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Au début de l'étape Déclarer les Formations de Bataille, sélectionnez au hasard une unité de votre armée de la Croisade qui n'est pas dans les réserves. Vous devez placer cette unité dans les réserves stratégiques, quel que soit le nombre d'unités déjà dans les réserves stratégiques.</characteristic>
+                        <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Au début de l’étape Déclarer les Formations de Bataille, sélectionnez aléatoirement une unité de votre armée de Croisade qui n’est pas en Réserves. Vous devez placer cette unité en Réserves Stratégiques, quel que soit le nombre d’unités déjà en Réserves Stratégiques.</characteristic>
                       </characteristics>
                     </profile>
                   </profiles>
@@ -22171,7 +22171,7 @@ Vous pouvez inclure jusqu'à l'une des unités suivantes:
           <profiles>
             <profile name="Blade-sharp Senses" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="1373-7072-5276-9505">
               <characteristics>
-                <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Si cette unité se trouve dans les réserves stratégiques, aux fins de la mise en place de cette unité sur le champ de bataille, traitez le nombre de rondes de bataille actuel comme étant un plus élevé qu'il ne l'est réellement.</characteristic>
+                <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Si cette unité est dans Réserves Stratégiques, aux fins de la configuration de cette unité sur le champ de bataille, traitez le nombre de rondes de bataille actuel comme étant un plus élevé qu'il ne l'est réellement.</characteristic>
               </characteristics>
             </profile>
           </profiles>
@@ -22233,7 +22233,7 @@ Vous pouvez inclure jusqu'à l'une des unités suivantes:
           <profiles>
             <profile name="Predatory Swiftness" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="7f64-dccc-9ec8-f5de">
               <characteristics>
-                <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Vous pouvez relancer les jets d’Avance et de Charge faits pour cette unité.</characteristic>
+                <characteristic name="Description" typeId="9b8f-694b-e5e-b573">vous pouvez relancer Advance et jets de Charge effectués pour cette unité.</characteristic>
               </characteristics>
             </profile>
           </profiles>
@@ -22295,7 +22295,7 @@ Vous pouvez inclure jusqu'à l'une des unités suivantes:
           <profiles>
             <profile name="Lethal Instincts" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="c521-157b-8c79-8921">
               <characteristics>
-                <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Chaque fois qu'une figurine dans cette unité fait une attaque qui cible une unité en dessous de l’Effectif Initial, vous pouvez relancer le jet de Touche.</characteristic>
+                <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Chaque fois qu'une figurine dans cette unité fait une attaque qui cible une unité en dessous de son Effectif Initial, vous pouvez relancer le jet de Touche.</characteristic>
               </characteristics>
             </profile>
           </profiles>
@@ -22322,7 +22322,7 @@ Vous pouvez inclure jusqu'à l'une des unités suivantes:
           <profiles>
             <profile name="Corded Muscle" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="c94e-e4b9-2e65-de1f">
               <characteristics>
-                <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Ajoutez 1 aux caractéristiques d'attaque et de force des armes de mêlée équipées de figurines de cette unité.</characteristic>
+                <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Ajoutez 1 aux caractéristiques Attaques et Force des armes de mêlée dont sont équipées les figurines de cette unité.</characteristic>
               </characteristics>
             </profile>
           </profiles>
@@ -22385,7 +22385,7 @@ Vous pouvez inclure jusqu'à l'une des unités suivantes:
           <profiles>
             <profile name="Steedbond" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="606d-9f4c-cec0-1e00">
               <characteristics>
-                <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Chaque fois que cette unité effectue un mode Normal, Avance ou Battre en Retraite, les figurines de cette unité peuvent se déplacer à travers des figurines (à l'exclusion des figurines **^^Titanic^^**) et à travers des caractéristiques de terrain qui sont 4" ou moins en hauteur. Lorsqu'ils le font, ils peuvent se déplacer à l'intérieur de la Portée d’Engagement des figurines ennemies, mais ils ne peuvent pas terminer leur mouvement à l'intérieur de la Portée d’Engagement d'eux.</characteristic>
+                <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Chaque fois que cette unité effectue un mouvement Normal, d’Avance ou de Retraite, les figurines de cette unité peuvent se déplacer à travers les figurines (à l’exclusion des figurines **^^Titanic^^**) et les éléments de terrain d’une hauteur de 4" ou moins. Ce faisant, elles peuvent se déplacer à Portée d’Engagement des figurines ennemies, mais ne peuvent pas terminer leur mouvement à Portée d’Engagement de celles-ci.</characteristic>
               </characteristics>
             </profile>
           </profiles>
@@ -22459,7 +22459,7 @@ Vous pouvez inclure jusqu'à l'une des unités suivantes:
           <profiles>
             <profile name="Vicious Instinct" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="eabc-6ec1-cf79-e744">
               <characteristics>
-                <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Les armes Melee équipées par des figurines de cette unité ont la aptitude **[LETHAL HITS]**.</characteristic>
+                <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Les armes de mêlée dont les figurines de cette unité sont équipées ont l’aptitude **[LETHAL HITS]**.</characteristic>
               </characteristics>
             </profile>
           </profiles>
@@ -22507,7 +22507,7 @@ Vous pouvez inclure jusqu'à l'une des unités suivantes:
           <profiles>
             <profile name="Shiverquills" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="0676-2fc4-37c0-4cc9">
               <characteristics>
-                <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Les armes de tir équipées par des figurines de cette unité ont la aptitude **[IGNORES COVER]**.</characteristic>
+                <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Les armes de tir dont les figurines de cette unité sont équipées ont l’aptitude **[IGNORES COVER]**.</characteristic>
               </characteristics>
             </profile>
           </profiles>
@@ -22592,7 +22592,7 @@ Vous pouvez inclure jusqu'à l'une des unités suivantes:
           <profiles>
             <profile name="Canny Hunters" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="3f84-ce7d-f9a5-024e">
               <characteristics>
-                <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Améliorez la caractéristique de Pénétration d’Armure des armes de mêlée équipées de figurines de cette unité de 1.</characteristic>
+                <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Améliorez la caractéristique de Pénétration d’Armure des armes de mêlée dont sont équipées les figurines de cette unité de 1.</characteristic>
               </characteristics>
             </profile>
           </profiles>
@@ -22682,7 +22682,7 @@ Vous pouvez inclure jusqu'à l'une des unités suivantes:
           <profiles>
             <profile name="Brute Instinct" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="1198-4ec5-cd18-1825">
               <characteristics>
-                <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Ajoutez 2 à la caractéristique de Force des armes de mêlée Attaques Bonus équipées de figurines de cette unité.</characteristic>
+                <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Ajoutez 2 à la caractéristique de Force des armes de mêlée Attaques Bonus dont sont équipées les figurines de cette unité.</characteristic>
               </characteristics>
             </profile>
           </profiles>
@@ -22727,7 +22727,7 @@ Vous pouvez inclure jusqu'à l'une des unités suivantes:
           <profiles>
             <profile name="Predatory Roar (Aura)" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="8f96-7726-eebc-0752">
               <characteristics>
-                <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Alors qu'une unité ennemie est à 6" ou moins de cette figurine, aggraver la caractéristique de Commandement des figurines dans cette unité par 1.</characteristic>
+                <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Lorsqu'une unité ennemie se trouve à 6" ou moins de cette figurine, aggraver la caractéristique de Commandement des figurines de cette unité par 1.</characteristic>
               </characteristics>
             </profile>
           </profiles>
@@ -22749,7 +22749,7 @@ Vous pouvez inclure jusqu'à l'une des unités suivantes:
               <profiles>
                 <profile name="At'kah's Talon" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="c39a-86de-5ae8-7f8e">
                   <characteristics>
-                    <characteristic name="Description" typeId="9b8f-694b-e5e-b573">À la fin de la bataille, si l'unité du porteur a détruit une ou plusieurs unités ennemies dans la phase de Combat, vous pouvez relancer les tests de sortie d'action que vos unités **^^Kroot^^** doivent effectuer, et la première fois que vous utilisez la réparation et la récupération après la bataille, il coûte 0RP si vous sélectionnez une unité **^^Kroot^^**.</characteristic>
+                    <characteristic name="Description" typeId="9b8f-694b-e5e-b573">À la fin de la bataille, si l’unité du porteur a détruit une ou plusieurs unités ennemies dans la phase de Combat, vous pouvez relancer Tests hors d'action vos unités **^^Kroot^^** sont tenus de prendre, et la première fois que vous utilisez la réparation et récupérer Requisition après la bataille, il coûte 0RP si vous sélectionnez une **^^Kroot^^** unité.</characteristic>
                   </characteristics>
                 </profile>
               </profiles>
@@ -22793,7 +22793,7 @@ Vous pouvez inclure jusqu'à l'une des unités suivantes:
               <profiles>
                 <profile name="Eye of the Kalamandra" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="b3fb-b79a-2a72-5b28">
                   <characteristics>
-                    <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Chaque fois que l'unité du porteur avance, ne faites pas un jet d’Avance. Au lieu de cela, jusqu'à la fin de la phase, ajoutez 6" à la caractéristique de mouvement des figurines de cette unité. En outre, l'unité du porteur est admissible à tirer dans un tour dans lequel il avance.</characteristic>
+                    <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Chaque fois que l’unité du porteur avance, ne faites pas un jet d’Avance. Au lieu de cela, Jusqu’à la fin de la phase, ajoutez 6" à la caractéristique de mouvement des figurines de cette unité. En outre, l’unité du porteur est éligible pour tirer dans un tour dans lequel il avance.</characteristic>
                   </characteristics>
                 </profile>
               </profiles>
@@ -22841,7 +22841,7 @@ Vous pouvez inclure jusqu'à l'une des unités suivantes:
               <profiles>
                 <profile name="Totem of Prok" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="1725-a235-f42f-4584">
                   <characteristics>
-                    <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Ajoutez 2 aux caractéristiques d’Endurance et de PV du porteur, et le porteur a un 4+ sauvegarde invulnérable.</characteristic>
+                    <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Ajoutez 2 aux caractéristiques d’Endurance et de PV du porteur. Le porteur a également une sauvegarde invulnérable de 4+.</characteristic>
                   </characteristics>
                 </profile>
               </profiles>
@@ -22898,7 +22898,7 @@ Vous pouvez inclure jusqu'à l'une des unités suivantes:
               <profiles>
                 <profile name="Root-graven Weapon" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="552b-e379-9632-da7c">
                   <characteristics>
-                    <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Lorsque le porteur obtient cette relique de la Croisade, sélectionnez l'une des armes du porteur (à l'exclusion des armes Attaques Bonus). Chaque fois que le porteur fait une attaque avec cette arme, vous pouvez relancer le jet de Touche et relancer le jet de Blessure.</characteristic>
+                    <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Lorsque le porteur gagne cette relique de la Croisade, sélectionnez l'une des armes du porteur (à l’exclusion de Attaques Bonus armes). Chaque fois que le porteur fait une attaque avec cette arme, vous pouvez relancer le jet de Touche et relancer le jet de Blessure.</characteristic>
                   </characteristics>
                 </profile>
               </profiles>
@@ -22941,7 +22941,7 @@ Vous pouvez inclure jusqu'à l'une des unités suivantes:
               <profiles>
                 <profile name="Unifier" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="f36c-526a-dd21-67f2">
                   <characteristics>
-                    <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Améliorez les caractéristiques de Commandement et de caractéristique de Contrôle d’Objectif du porteur de 1.</characteristic>
+                    <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Améliorez les caractéristiques Commandement et Contrôle d’Objectif du porteur de 1.</characteristic>
                   </characteristics>
                 </profile>
               </profiles>
@@ -22993,7 +22993,7 @@ Vous pouvez inclure jusqu'à l'une des unités suivantes:
               <profiles>
                 <profile name="Stone of Pech" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="3371-50b9-5dff-e7fc">
                   <characteristics>
-                    <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Alors que l'unité du porteur est inférieure à l’Effectif Initial, chaque fois qu'une figurine dans l'unité du porteur fait une attaque, ajoutez 1 au jet de Touche. En outre, alors que l'unité du porteur est inférieure à la Demi-effectif, chaque fois qu'une figurine dans l'unité du porteur fait une attaque, ajoutez 1 au jet de Blessure.</characteristic>
+                    <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Alors que l’unité du porteur est en dessous de son Effectif Initial, chaque fois qu'une figurine dans l’unité du porteur fait une attaque, ajoutez 1 au jet de Touche. En outre, alors que l’unité du porteur est En Dessous de son Demi-effectif, chaque fois qu'une figurine dans l’unité du porteur fait une attaque, ajoutez 1 au jet de Blessure.</characteristic>
                   </characteristics>
                 </profile>
               </profiles>
@@ -23128,7 +23128,7 @@ Vous pouvez inclure jusqu'à l'une des unités suivantes:
           <profiles>
             <profile name="Ritual Butchery" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="1e0f-82d6-b1d4-c00e">
               <characteristics>
-                <characteristic name="Description" typeId="9b8f-694b-e5e-b573">**^^Kinband Champion^^** uniquement. Alors que cette figurine mène une unité, les armes de mêlée équipées de figurines dans cette unité ont la aptitude **[SUSTAINED HITS 1]**.</characteristic>
+                <characteristic name="Description" typeId="9b8f-694b-e5e-b573">**^^Kinband Champion^^** uniquement. Tant que cette figurine mène une unité, les armes de mêlée dont les figurines de cette unité sont équipées ont l’aptitude **[SUSTAINED HITS 1]**.</characteristic>
               </characteristics>
             </profile>
           </profiles>
@@ -23144,7 +23144,7 @@ Vous pouvez inclure jusqu'à l'une des unités suivantes:
           <profiles>
             <profile name="Fire and Fade" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="89c1-ed70-f0fa-24f3">
               <characteristics>
-                <characteristic name="Description" typeId="9b8f-694b-e5e-b573">**^^Kinband Champion^^** uniquement. Dans votre phase de Tir, après que cette unité ait tiré, si elle n'est pas dans la Portée d’Engagement d'une ou plusieurs unités ennemies, elle peut effectuer un mouvement normal jusqu'à 6". Si tel est le cas, jusqu'à la fin du tour, cette unité n'est pas éligible à la déclaration d'une charge.</characteristic>
+                <characteristic name="Description" typeId="9b8f-694b-e5e-b573">**^^Kinband Champion^^** uniquement. Dans votre phase de Tir, après que cette unité ait tiré, si elle n'est pas à l'intérieur de Portée d’Engagement d'une ou de plusieurs unités ennemies, elle peut effectuer un mouvement Normal jusqu'à 6". Si tel est le cas, jusqu'à la fin du tour, cette unité n'est pas éligible à la déclaration d'une charge.</characteristic>
               </characteristics>
             </profile>
           </profiles>
@@ -23160,7 +23160,7 @@ Vous pouvez inclure jusqu'à l'une des unités suivantes:
           <profiles>
             <profile name="Cunning Ambush" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="ff11-566b-7cc9-4409">
               <characteristics>
-                <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Après que les deux joueurs aient déployé leurs armées, vous pouvez redéployer l'unité de cette figurine et une autre unité **^^T'au Empire^^**. Lorsqu'ils le font, l'une ou l'autre de ces unités peut être placée dans des réserves stratégiques, quel que soit le nombre d'unités déjà dans des réserves stratégiques.</characteristic>
+                <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Après que les deux joueurs ont déployé leurs armées, vous pouvez redéployer l’unité de cette figurine et une autre unité **^^T'au Empire^^** amie. Ce faisant, n’importe laquelle de ces unités peut être placée en Réserves Stratégiques, quel que soit le nombre d’unités déjà en Réserves Stratégiques.</characteristic>
               </characteristics>
             </profile>
           </profiles>
@@ -23169,7 +23169,7 @@ Vous pouvez inclure jusqu'à l'une des unités suivantes:
           <profiles>
             <profile name="Warrior Bond" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="e2e0-d032-a183-71f5">
               <characteristics>
-                <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Une fois par bataille, au début de toute phase, vous pouvez sélectionner une unité **^^T'au Empire^^** amicale qui est Ébranlée et à 12" ou moins de cette figurine. Cette unité n'est plus Ébranlée.</characteristic>
+                <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Une fois par bataille, au début de n’importe quelle phase, vous pouvez sélectionner une unité **^^T'au Empire^^** amie qui est Ébranlée et à 12" ou moins de cette figurine. Cette unité n’est plus Ébranlée.</characteristic>
               </characteristics>
             </profile>
           </profiles>
@@ -23178,7 +23178,7 @@ Vous pouvez inclure jusqu'à l'une des unités suivantes:
           <profiles>
             <profile name="Fire Discipline" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="44f9-96ce-cf30-c1fb">
               <characteristics>
-                <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Chaque fois que cette unité effectue une attaque de tir, relance un jet de Touche de 1.</characteristic>
+                <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Chaque fois que cette unité effectue une attaque de tir, relancez un jet de Touche de 1.</characteristic>
               </characteristics>
             </profile>
           </profiles>
@@ -23196,7 +23196,7 @@ Vous pouvez inclure jusqu'à l'une des unités suivantes:
           <profiles>
             <profile name="Broadside Battlesuit" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="047c-a9e7-84af-f560">
               <characteristics>
-                <characteristic name="Description" typeId="9b8f-694b-e5e-b573">**^^Battlesuit Veteran^^** uniquement. Modifiez la caractéristique de mouvement de cette figurine à 5", sa caractéristique d’Endurance à 6, sa caractéristique de sauvegarde à 2+ et sa caractéristique de PV à 10. Supprimez le mot-clé **^^Infantry^^**, ajoutez les mots clés **^^Vehicle^^** et **^^Walker^^**, et supprimez les capacités Infiltrators et Discrétion. Il peut être équipé de jusqu'à trois armes de tir, et remplacer la liste des unités à laquelle cette figurine peut être attachée: **^^Broadside Battlesuits^^**.</characteristic>
+                <characteristic name="Description" typeId="9b8f-694b-e5e-b573">**^^Battlesuit Veteran^^** uniquement. Remplacez la caractéristique de Mouvement de cette figurine par 5", sa caractéristique d’Endurance par 6, sa caractéristique de Sauvegarde par 2+ et sa caractéristique de PV par 10. Retirez le mot-clé **^^Infantry^^**, ajoutez les mots-clés **^^Vehicle^^** et **^^Walker^^**, puis retirez les aptitudes Infiltrators et Stealth. Cette figurine peut être équipée de jusqu’à trois armes de tir, et remplacez la liste des unités auxquelles elle peut être attachée par : **^^Broadside Battlesuits^^**.</characteristic>
               </characteristics>
             </profile>
           </profiles>
@@ -23236,7 +23236,7 @@ Vous pouvez inclure jusqu'à l'une des unités suivantes:
           <profiles>
             <profile name="Kalamandra" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="d2c5-1f5f-d6a6-bbc5">
               <characteristics>
-                <characteristic name="Description" typeId="9b8f-694b-e5e-b573">**^^Kinband Champion^^** uniquement. Modifiez la caractéristique de mouvement de cette figurine à 12", sa caractéristique d’Endurance à 5, sa caractéristique de sauvegarde à 5+, sa caractéristique de PV à 6, et il est équipé de la morsure de Kalamandra 1 en plus des armes que vous choisissez dans l'étape 4. Retirez le mot-clé **^^Infantry^^**, ajoutez le mot-clé **^^Mounted^^** et il obtient la aptitude Agent solitaire.</characteristic>
+                <characteristic name="Description" typeId="9b8f-694b-e5e-b573">**^^Kinband Champion^^** uniquement. Remplacez la caractéristique de Mouvement de cette figurine par 12", sa caractéristique d’Endurance par 5, sa caractéristique de Sauvegarde par 5+ et sa caractéristique de PV par 6 ; elle est également équipée de 1 kalamandra's bite en plus des armes choisies à l’étape 4. Retirez le mot-clé **^^Infantry^^**, ajoutez le mot-clé **^^Mounted^^** et cette figurine gagne l’aptitude Lone Operative.</characteristic>
               </characteristics>
             </profile>
           </profiles>
@@ -23289,7 +23289,7 @@ Vous pouvez inclure jusqu'à l'une des unités suivantes:
           <profiles>
             <profile name="Krootox" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="69c6-2668-8f37-f828">
               <characteristics>
-                <characteristic name="Description" typeId="9b8f-694b-e5e-b573">**^^Kinband Champion^^** uniquement. Modifiez la caractéristique d’Endurance de cette figurine à 6, sa caractéristique de sauvegarde à 5+ et sa caractéristique de PV à 7, et il est équipé de poings de rampager 1 en plus des armes que vous choisissez dans l'étape 4. Supprimer le mot-clé **^^Infantry^^**, Ajoutez le mot-clé **^^Mounted^^**, et remplacer la liste des unités à cette figurine peut être attachée à: **^^Krootox Rampagers^^**, **^^Krootox Riders^^**.</characteristic>
+                <characteristic name="Description" typeId="9b8f-694b-e5e-b573">**^^Kinband Champion^^** uniquement. Remplacez la caractéristique d’Endurance de cette figurine par 6, sa caractéristique de Sauvegarde par 5+ et sa caractéristique de PV par 7, et elle est équipée de 1 Rampager fists en plus des armes que vous choisissez à l’étape 4. Retirez le mot-clé **^^Infantry^^**, ajoutez le mot-clé **^^Mounted^^** et remplacez la liste des unités auxquelles cette figurine peut être attachée par : **^^Krootox Rampagers^^**, **^^Krootox Riders^^**.</characteristic>
               </characteristics>
             </profile>
           </profiles>
@@ -24243,25 +24243,25 @@ Vous pouvez inclure jusqu'à l'une des unités suivantes:
     </profile>
     <profile name="Weapon Support System" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="3d6e-7d4-ba81-9a8f">
       <characteristics>
-        <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Chaque fois que le porteur effectue une attaque de tir, vous pouvez ignorer tous ou tous les modificateurs du jet de Touche.</characteristic>
+        <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Chaque fois que le porteur effectue une attaque de tir, vous pouvez ignorer tout ou partie des modificateurs au jet de Touche.</characteristic>
       </characteristics>
       <comment>Shared</comment>
     </profile>
     <profile name="Battlesuit Support System" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="b5b2-f430-5dc1-106b">
       <characteristics>
-        <characteristic name="Description" typeId="9b8f-694b-e5e-b573">L'unité du porteur est admissible à tirer dans un tour dans lequel a Battu en Retraite, mais lorsque cela se produit, seuls les figurines équipés de cette armure peuvent effectuer des attaques de tir.</characteristic>
+        <characteristic name="Description" typeId="9b8f-694b-e5e-b573">l’unité du porteur est éligible pour tirer dans un tour dans lequel elle a Battu en Retraite, mais lorsque cela se produit, seul figurines équipé de cette armure peut faire attaques de tir.</characteristic>
       </characteristics>
       <comment>Shared</comment>
     </profile>
     <profile name="Targeting Array" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="6c1e-179e-a2dc-85d6">
       <characteristics>
-        <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Chaque fois que cette figurine est sélectionnée pour tirer, vous pouvez relancer un jet de Touche ou vous pouvez relancer un jet de Blessure lors de la résolution de ces attaques.</characteristic>
+        <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Chaque fois que cette figurine est sélectionnée pour tirer, vous pouvez relancer un jet de Touche ou vous pouvez relancer un jet de Blessure lors de la résolution de ces Attaques.</characteristic>
       </characteristics>
       <comment>Shared</comment>
     </profile>
     <profile name="Tidewall Cover" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="2050-72df-fd02-7085">
       <characteristics>
-        <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Chaque fois qu'une attaque de tir est attribuée à une figurine, si cette figurine n'est pas pleinement visible à tous les figurines de l'unité d'attaque à cause de ce Fortification, cette figurine a le Bénéfice du Couvert contre cette attaque.</characteristic>
+        <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Chaque fois qu’une attaque de tir est allouée à une figurine, si cette figurine n’est pas entièrement visible de toutes les figurines de l’unité attaquante à cause de cette FORTIFICATION, cette figurine a le Bénéfice du Couvert contre cette attaque.</characteristic>
       </characteristics>
     </profile>
     <profile name="Damaged: 1-6 Wounds Remaining" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="3a1d-540f-ebbf-700e">
@@ -24276,7 +24276,7 @@ Vous pouvez inclure jusqu'à l'une des unités suivantes:
     </profile>
   </sharedProfiles>
   <catalogueLinks>
-    <catalogueLink type="catalogue" name="Unaligned Forces" id="31ce-9bc2-d362-37c4" targetId="61f1-ce52-d345-5048" importRootEntries="true" />
+    <catalogueLink type="catalogue" name="Unaligned Forces" id="31ce-9bc2-d362-37c4" targetId="581a-46b9-5b86-44b7" importRootEntries="true" />
   </catalogueLinks>
   <costTypes>
     <costType name="Diplomatic Power" id="4d7c-04b6-8a79-837f" defaultCostLimit="-1" hidden="true">

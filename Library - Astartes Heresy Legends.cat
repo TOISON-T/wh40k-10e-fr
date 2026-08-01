@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue xmlns="http://www.battlescribe.net/schema/catalogueSchema" id="ff25-972c-b995-3383" name="Library - Astartes Heresy Legends" revision="29" battleScribeVersion="2.03" library="true" gameSystemId="sys-0e45-705d-f6bc-806a" gameSystemRevision="1" type="catalogue">
+<catalogue xmlns="http://www.battlescribe.net/schema/catalogueSchema" id="ac3b-689c-4ad4-70cb" name="Library - Astartes Heresy Legends" revision="29" battleScribeVersion="2.03" library="true" gameSystemId="sys-352e-adc2-7639-d6a9" gameSystemRevision="1" type="catalogue">
   <categoryEntries>
     <categoryEntry id="39b9-56da-6787-1880" name="Kratos" hidden="false">
       <constraints>
@@ -203,7 +203,7 @@
         </profile>
         <profile id="fb5-f6b1-80d6-70fd" name="Line-breaker" hidden="false" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities">
           <characteristics>
-            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Lorsqu'il effectue des attaques de tir, cette figurine peut cibler les unités ennemies à l'intérieur de la Portée d’Engagement avec des armes Déflagration (à condition qu'aucune autre unité amique ne soit également à l'intérieur de la Portée d’Engagement de cette unité ennemie). En outre, lors des attaques de tir, cette figurine ne subit pas la pénalité aux jets de Touche de tir pour être à Portée d’Engagement d'une ou plusieurs unités ennemies.</characteristic>
+            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Lorsqu’elle effectue des attaques de tir, cette figurine peut cibler avec des armes Déflagration les unités ennemies à Portée d’Engagement d’elle (à condition qu’aucune autre unité amie ne soit également à Portée d’Engagement de cette unité ennemie). De plus, lorsqu’elle effectue des attaques de tir, cette figurine ne subit pas la pénalité à ses jets de Touche due au fait d’être à Portée d’Engagement d’une ou plusieurs unités ennemies.</characteristic>
           </characteristics>
         </profile>
       </profiles>
@@ -830,7 +830,7 @@
         </profile>
         <profile id="f060-be4d-a86a-b1fe" name="Deredeo Strike" hidden="false" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities">
           <characteristics>
-            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Chaque fois que cette figurine effectue une attaque de tir qui cible une unité qui n'est pas en dessous de son Demi-effectif, vous pouvez relancer le jet de Touche.</characteristic>
+            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Chaque fois que cette figurine fait une attaque de tir qui cible une unité qui n'est pas En Dessous de son Demi-effectif, vous pouvez relancer le jet de Touche.</characteristic>
           </characteristics>
         </profile>
         <profile id="94ae-19b0-b7b1-2b1e" name="Invunerable Save" hidden="false" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities">
@@ -1554,7 +1554,7 @@
         </profile>
         <profile id="731d-26c2-a9e8-d336" name="Duty Eternal" hidden="false" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities">
           <characteristics>
-            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Chaque fois qu'une attaque est attribuée à cette figurine, Soustrayez 1 de la caractéristique Dégât de cette attaque.</characteristic>
+            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Chaque fois qu'une attaque est attribuée à cette figurine, Soustrayez 1 de la caractéristique de Dégâts de cette attaque.</characteristic>
           </characteristics>
         </profile>
       </profiles>
@@ -1902,7 +1902,7 @@
         </profile>
         <profile id="98e6-37a7-3883-a9f3" name="Fire and Redeploy" hidden="false" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities">
           <characteristics>
-            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Dans votre phase de Tir, chaque fois que cette figurine tire, s'il n'est pas dans la Portée d’Engagement des unités ennemies, il peut effectuer un mouvement normal jusqu'à D6. Si tel est le cas, cette figurine n'est pas éligible à la déclaration d'une charge jusqu'à la fin du tour.</characteristic>
+            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Dans votre phase de Tir, chaque fois que cette figurine a tiré, s'il n'est pas à l'intérieur de Portée d’Engagement des unités ennemies, il peut effectuer un mouvement Normal jusqu'à D6". Si c'est le cas, jusqu'à la fin du tour, cette figurine n'est pas admissible à déclarer une charge.</characteristic>
           </characteristics>
         </profile>
       </profiles>
@@ -2068,7 +2068,7 @@
         </modifier>
         <modifier type="add" value="e9c7-1590-1bda-bf7f" field="category">
           <conditions>
-            <condition type="instanceOf" value="0" field="selections" scope="primary-catalogue" childId="615c-961c-7bea-18ef" shared="true" includeChildSelections="false" includeChildForces="false" />
+            <condition type="instanceOf" value="0" field="selections" scope="primary-catalogue" childId="470a-6daa-9014-12df" shared="true" includeChildSelections="false" includeChildForces="false" />
           </conditions>
         </modifier>
       </modifiers>
@@ -2087,7 +2087,7 @@
         </profile>
         <profile id="44e2-e0aa-839c-e60a" name="Deathstorm Assault" hidden="false" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities">
           <characteristics>
-            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">cette figurine doit commencer la bataille dans les réserves, mais il n'est pas compris dans les limites du nombre maximum d'unités de réserves avec lesquelles vous pouvez commencer la bataille. cette figurine peut être mis en place à l'étape des Renforts de votre première, deuxième ou troisième phase de Mouvement, indépendamment des règles de la mission.</characteristic>
+            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Cette figurine doit commencer la bataille en Réserves, mais elle ne compte dans aucune limite imposée au nombre maximal d’unités en Réserves avec lesquelles vous pouvez commencer la bataille. Cette figurine peut être placée à l’étape des Renforts de votre première, deuxième ou troisième phase de Mouvement, quelles que soient les règles de mission.</characteristic>
           </characteristics>
         </profile>
       </profiles>
@@ -2272,7 +2272,7 @@
               <profiles>
                 <profile name="Explorator Augury Web" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="5709-d17d-218e-b7c5">
                   <characteristics>
-                    <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Les unités ennemies qui sont placées sur le champ de bataille en tant que renforts ne peuvent pas être placées à 12" ou moins du porteur, mais le porteur doit réduire de moitié sa capacité de Transport.</characteristic>
+                    <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Les unités ennemies qui sont installées sur le champ de bataille en tant que renforts ne peuvent pas être installées à 12" ou moins du porteur, mais le porteur doit réduire de moitié sa capacité Transport.</characteristic>
                   </characteristics>
                 </profile>
               </profiles>
@@ -2616,7 +2616,7 @@
         </profile>
         <profile name="Armoured Spearhead" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="580-5564-9e3b-f24f">
           <characteristics>
-            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Chaque fois que cette figurine effectue une attaque qui cible une unité ennemie, relancez un jet de Touche de 1 et, si cette unité est à l'intérieur de la portée d'un marqueur objectif que vous ne contrôlez pas, vous pouvez relancer le jet de Touche à la place.</characteristic>
+            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Chaque fois que cette figurine fait une attaque qui cible une unité ennemie, relancer un jet de Touche de 1 et, si cette unité est à l'intérieur de Portée d'un pion d’objectif que vous ne contrôlez pas, vous pouvez relancer le jet de Touche à la place.</characteristic>
           </characteristics>
         </profile>
       </profiles>
@@ -2768,7 +2768,7 @@
         </profile>
         <profile name="Specialised Weapon System" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="4749-f1a9-a9a6-36c9">
           <characteristics>
-            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Chaque fois que cette figurine effectue une attaque qui cible l'unité ennemi que vous avez sélectionnée pour la aptitude Oath of Moment, cette attaque a la aptitude [Ignore le couvert] et peut ignorer la pénalité à leurs jets de Touche lorsqu'il effectue des attaques avec des armes Tir Indirect contre des cibles qui ne sont pas visibles pour eux.</characteristic>
+            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Chaque fois que cette figurine effectue une attaque qui cible l’unité ennemie sélectionnée pour l’aptitude Oath of Moment, cette attaque a l’aptitude [Ignore le couvert] et peut ignorer le malus aux jets de Touche subi lorsqu’elle est effectuée avec une arme à Tir Indirect contre une cible qui n’est pas visible de la figurine attaquante.</characteristic>
           </characteristics>
         </profile>
       </profiles>
@@ -2921,7 +2921,7 @@
         </profile>
         <profile name="Ferocious Assault" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="f48-7960-4b45-401c">
           <characteristics>
-            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Chaque fois que cette figurine effectue une attaque de tir qui cible l'unité MONSTER ou VEHICLE admissible la plus proche, ajoutez 1 à la jets de Touche.</characteristic>
+            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Chaque fois que cette figurine effectue une attaque de tir visant l'unité MONSTER ou VEHICLE admissible la plus proche, ajoutez 1 au jet de Touche.</characteristic>
           </characteristics>
         </profile>
       </profiles>
@@ -3071,7 +3071,7 @@
         </profile>
         <profile name="Rotating Death" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="796a-7701-6f9-7496">
           <characteristics>
-            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Ce canon rotatif Punisher de la figurine possède la aptitude [Touches soutenues 1] pour cibler les unités INFANTRY.</characteristic>
+            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Le canon rotatif Punisher de cette figurine a l’aptitude [SUSTAINED HITS 1] lorsqu’il cible une unité INFANTRY.</characteristic>
           </characteristics>
         </profile>
       </profiles>
@@ -3223,7 +3223,7 @@
         </profile>
         <profile name="Overwhelming Short-range Firepower" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="56dc-c61d-fed9-a85">
           <characteristics>
-            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Chaque fois que cette figurine effectue une attaque qui cible l'unité ennemie la plus proche éligible, relancez les jets de Touche de 1 et les jets de Blessure de 1.</characteristic>
+            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Chaque fois que cette figurine effectue une attaque qui cible l’unité ennemie éligible la plus proche, relancez un jet de Touche de 1 et un jet de Blessure de 1.</characteristic>
           </characteristics>
         </profile>
       </profiles>
@@ -3376,7 +3376,7 @@
         </profile>
         <profile name="Powerful Volley" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="97b5-36db-6062-3092">
           <characteristics>
-            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Chaque fois que cette figurine tire dans votre phase de Tir, à condition qu'il reste stationnaire ce tour, toutes les armes [Lourd] équipées par des figurines dans cette unité ont la aptitude [Touches fatales].</characteristic>
+            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Chaque fois que cette figurine tire dans votre phase de Tir, à condition qu'il reste stationnaire ce tour, toutes les armes [Lourd] équipées par les figurines de cette unité ont l’aptitude [Touches fatales].</characteristic>
           </characteristics>
         </profile>
       </profiles>
@@ -3589,7 +3589,7 @@
         </profile>
         <profile name="Pinning Bombardment" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="2e8-f1bb-932a-476e">
           <characteristics>
-            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Dans votre phase de Tir, après que cette figurine ait tiré, si une ou plusieurs des attaques effectuées avec son lanceur multi-Scorpius a marqué un coup contre une unité ennemie INFANTRY, cette unité doit passer un test d’Ébranlement.</characteristic>
+            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Dans votre phase de Tir, après que cette figurine ait tiré, si un ou plusieurs de ces Attaques fabriqués avec son lanceur multi-Scorpius ont marqué un coup contre une unité ennemie INFANTRY, cette unité doit prendre un test d’Ébranlement.</characteristic>
           </characteristics>
         </profile>
       </profiles>
@@ -3710,7 +3710,7 @@
         </profile>
         <profile name="Annihilator" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="eb5-4bb-8480-2166">
           <characteristics>
-            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Chaque fois que cette figurine effectue une attaque de tir qui cible une unité MONSTER ou VEHICLE, relancez un jet de Dégâts de 1.</characteristic>
+            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Chaque fois que cette figurine fait une attaque de tir qui cible une unité MONSTER ou VEHICLE, relancer fait un jet de Dégâts de 1.</characteristic>
           </characteristics>
         </profile>
       </profiles>
@@ -3818,7 +3818,7 @@
         </profile>
         <profile name="Drop Pod Assault" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="9325-c7c7-eb34-f93d">
           <characteristics>
-            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">cette figurine doit démarrer la bataille dans les réserves, mais ni lui ni les unités embarquées à l'intérieur ne sont comptées dans les limites imposées au nombre maximal d'unités des réserves avec lesquelles vous pouvez commencer la bataille. cette figurine peut être installé dans la phase de Renforcement de votre première, deuxième ou troisième phase de Mouvement, indépendamment des règles de mission. Toutes les unités embarquées dans cette figurine doivent débarquer immédiatement après avoir été installées sur le champ de bataille, et elles doivent être installées plus de 9" loin de tous les figurines ennemies. Une fois cette figurine installé sur le champ de bataille, aucune unité ne peut embarquer à l'intérieur.</characteristic>
+            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Cette figurine doit commencer la bataille en Réserves, mais ni elle ni les unités embarquées en son sein ne comptent dans les limites imposées au nombre maximal d’unités en Réserves avec lesquelles vous pouvez commencer la bataille. Cette figurine peut être placée à l’étape des Renforts de votre première, deuxième ou troisième phase de Mouvement, quelles que soient les règles de mission. Toute unité embarquée dans cette figurine doit immédiatement débarquer après son placement sur le champ de bataille et doit être placée à plus de 9" de toute figurine ennemie. Une fois cette figurine placée sur le champ de bataille, aucune unité ne peut embarquer en son sein.</characteristic>
           </characteristics>
         </profile>
         <profile name="Dreadnought Drop Pod" typeId="74f8-5443-9d6d-1f1e" typeName="Transport" hidden="false" id="abbc-353f-3514-e348">
@@ -3868,7 +3868,7 @@
         </profile>
         <profile name="Termite Assault" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="b6bc-a4b4-7cc9-fdc3">
           <characteristics>
-            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">cette figurine doit démarrer la bataille dans les réserves, mais ni lui ni les unités embarquées à l'intérieur ne sont comptées dans les limites imposées au nombre maximal d'unités des réserves avec lesquelles vous pouvez commencer la bataille. cette figurine peut être mis en place à l'étape des Renforts de votre première, deuxième ou troisième phase de Mouvement, indépendamment des règles de la mission. Toutes les unités embarquées à l'intérieur de cette figurine peuvent débarquer après avoir été installées sur le champ de bataille, et si elles le font, elles doivent être installées plus de 9" loin de tous les figurines ennemies.</characteristic>
+            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Cette figurine doit commencer la bataille en Réserves, mais ni elle ni les unités embarquées en son sein ne comptent dans les limites imposées au nombre maximal d’unités en Réserves avec lesquelles vous pouvez commencer la bataille. Cette figurine peut être placée à l’étape des Renforts de votre première, deuxième ou troisième phase de Mouvement, quelles que soient les règles de mission. Toute unité embarquée dans cette figurine peut débarquer après son placement sur le champ de bataille ; si elle le fait, elle doit être placée à plus de 9" de toute figurine ennemie.</characteristic>
           </characteristics>
         </profile>
         <profile name="Terrax-pattern Termite" typeId="74f8-5443-9d6d-1f1e" typeName="Transport" hidden="false" id="8173-34eb-fcaf-2aa5">
@@ -4056,7 +4056,7 @@
         </profile>
         <profile name="Interceptor" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="e615-b2f4-20b6-85c3">
           <characteristics>
-            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Chaque fois que cette figurine fait une attaque de tir qui vise une unité qui peut FLY, Ajoutez 1 au jet de Touche.</characteristic>
+            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Chaque fois que cette figurine fait une attaque de tir qui cible une unité qui peut FLY, ajoutez 1 au jet de Touche.</characteristic>
           </characteristics>
         </profile>
       </profiles>
@@ -4068,7 +4068,7 @@
         </modifier>
         <modifier type="add" value="e9c7-1590-1bda-bf7f" field="category">
           <conditions>
-            <condition type="instanceOf" value="0" field="selections" scope="primary-catalogue" childId="615c-961c-7bea-18ef" shared="true" includeChildSelections="false" includeChildForces="false" />
+            <condition type="instanceOf" value="0" field="selections" scope="primary-catalogue" childId="470a-6daa-9014-12df" shared="true" includeChildSelections="false" includeChildForces="false" />
           </conditions>
         </modifier>
       </modifiers>
@@ -4177,7 +4177,7 @@
         </profile>
         <profile name="Armoured Resilience" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="c11b-ccbd-83-ec10">
           <characteristics>
-            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Chaque fois qu'une attaque est attribuée à cette figurine, Soustrayez 1 de la caractéristique Dégât de cette attaque.</characteristic>
+            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Chaque fois qu'une attaque est attribuée à cette figurine, Soustrayez 1 de la caractéristique de Dégâts de cette attaque.</characteristic>
           </characteristics>
         </profile>
         <profile name="Storm Eagle Gunship" typeId="74f8-5443-9d6d-1f1e" typeName="Transport" hidden="false" id="f4af-eb57-83d8-8278">
@@ -4376,7 +4376,7 @@
         </modifier>
         <modifier type="add" value="e9c7-1590-1bda-bf7f" field="category">
           <conditions>
-            <condition type="instanceOf" value="0" field="selections" scope="primary-catalogue" childId="615c-961c-7bea-18ef" shared="true" includeChildSelections="false" includeChildForces="false" />
+            <condition type="instanceOf" value="0" field="selections" scope="primary-catalogue" childId="470a-6daa-9014-12df" shared="true" includeChildSelections="false" includeChildForces="false" />
           </conditions>
         </modifier>
         <modifier type="add" value="abee-1a02-8002-a13f" field="category">
@@ -4443,7 +4443,7 @@
         </profile>
         <profile name="Strafing Run" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="9b71-a898-4bdd-e80d">
           <characteristics>
-            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Chaque fois que cette figurine effectue une attaque de tir qui cible une unité qui ne peut pas FLY, ajoutez 1 à la jets de Touche.</characteristic>
+            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Chaque fois que cette figurine fait une attaque de tir qui cible une unité qui ne peut pas FLY, ajoutez 1 au jet de Touche.</characteristic>
           </characteristics>
         </profile>
       </profiles>
@@ -4593,7 +4593,7 @@
         </modifier>
         <modifier type="add" value="e9c7-1590-1bda-bf7f" field="category">
           <conditions>
-            <condition type="instanceOf" value="0" field="selections" scope="primary-catalogue" childId="615c-961c-7bea-18ef" shared="true" includeChildSelections="false" includeChildForces="false" />
+            <condition type="instanceOf" value="0" field="selections" scope="primary-catalogue" childId="470a-6daa-9014-12df" shared="true" includeChildSelections="false" includeChildForces="false" />
           </conditions>
         </modifier>
       </modifiers>
@@ -4787,7 +4787,7 @@
         </profile>
         <profile name="Atomantic Arc-reactor" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="5c3d-27e8-be23-15c3">
           <characteristics>
-            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Chaque fois que cette unité tire son tableau d'impulsions de neutrons Cerberus dans votre phase de Tir, à condition qu'il reste stationnaire ce tour, cette arme a la aptitude [Touches fatales].</characteristic>
+            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Chaque fois que cette unité tire son ensemble d'impulsions de neutrons Cerberus dans votre phase de Tir, à condition qu'il reste stationnaire ce tour, cette arme a l’aptitude [Touches fatales].</characteristic>
           </characteristics>
         </profile>
       </profiles>
@@ -5114,7 +5114,7 @@
         </profile>
         <profile name="Rolling Fortress" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="d704-af71-da93-83ae">
           <characteristics>
-            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Chaque fois qu'une attaque de tir est attribuée à une figurine de votre armée, si cette figurine n'est pas pleinement visible à tous les figurines de l'unité d'attaque à cause de cette figurine Fellblade, cette figurine a le Bénéfice du Couvert contre cette attaque.</characteristic>
+            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Chaque fois qu’une attaque de tir est allouée à une figurine de votre armée, si cette figurine n’est pas entièrement visible de toutes les figurines de l’unité attaquante à cause de cette figurine Fellblade, cette figurine a le Bénéfice du Couvert contre cette attaque.</characteristic>
           </characteristics>
         </profile>
       </profiles>
@@ -5392,7 +5392,7 @@
         </profile>
         <profile name="Titan-killer" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="b97d-4870-fc6a-48de">
           <characteristics>
-            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Chaque fois que cette figurine effectue une attaque de tir avec son canon volcanique jumeau Falchion qui cible une unité MONSTER ou VEHICLE, cette attaque a la aptitude [Blessures dévastatrices].</characteristic>
+            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Chaque fois que cette figurine effectue une attaque de tir avec son canon volcanique jumeau Falchion qui cible une unité MONSTER ou VEHICLE, cette attaque a l’aptitude [Blessures dévastatrices].</characteristic>
           </characteristics>
         </profile>
       </profiles>
@@ -5581,7 +5581,7 @@
       <profiles>
         <profile name="Damaged: 1-10 wounds remaining" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="6a33-178-237b-66f2">
           <characteristics>
-            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Alors que cette figurine a 1-10 PV restants, Soustrayez 6 de cette caractéristique de la figurine de caractéristique de Contrôle d’Objectif et chaque fois que cette figurine effectue une attaque, Soustrayez 1 du jet de Touche.</characteristic>
+            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Tant que cette figurine a 1-10 PV restants, soustrayez 6 à la caractéristique de Contrôle d’Objectif de cette figurine et, chaque fois que cette figurine effectue une attaque, soustrayez 1 au jet de Touche.</characteristic>
           </characteristics>
         </profile>
         <profile name="Mastodon" typeId="c547-1836-d8a-ff4f" typeName="Unit" hidden="false" id="8535-102e-42ec-ee10">
@@ -5843,7 +5843,7 @@
         </profile>
         <profile name="Aerial Assault" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="d437-ac14-5e9-b201">
           <characteristics>
-            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Chaque fois qu'une unité dotée de la aptitude Frappe en profondeur débarque de cette figurine après avoir effectué un déplacement normal, cette unité est toujours admissible à déclarer une charge à ce tour.</characteristic>
+            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Chaque fois qu'une unité avec l’aptitude Frappe en profondeur débarque de cette figurine après avoir effectué un mouvement Normal, cette unité est toujours admissible à déclarer une charge à ce tour.</characteristic>
           </characteristics>
         </profile>
         <profile name="Sokar-pattern Stormbird" typeId="74f8-5443-9d6d-1f1e" typeName="Transport" hidden="false" id="2227-a175-e719-f0b6">
@@ -5860,7 +5860,7 @@
         </modifier>
         <modifier type="add" value="e9c7-1590-1bda-bf7f" field="category">
           <conditions>
-            <condition type="instanceOf" value="0" field="selections" scope="primary-catalogue" childId="615c-961c-7bea-18ef" shared="true" includeChildSelections="false" includeChildForces="false" />
+            <condition type="instanceOf" value="0" field="selections" scope="primary-catalogue" childId="470a-6daa-9014-12df" shared="true" includeChildSelections="false" includeChildForces="false" />
           </conditions>
         </modifier>
         <modifier type="add" value="abee-1a02-8002-a13f" field="category">
@@ -5960,7 +5960,7 @@
         </profile>
         <profile name="Sentinel Protocols" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="2de0-4b8c-56c2-e909">
           <characteristics>
-            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Chaque fois que vous sélectionnez cette unité pour le Fire Overwatch, les Touches sont réussies sur des jets de Touche non modifiés de 4+ lors de la résolution de ce Stratagème.</characteristic>
+            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Chaque fois que vous sélectionnez cette unité pour le Fire Overwatch Stratagème, les hits sont notés sur jets de Touche non modifiés de 4+ lors de la résolution de ce Stratagème.</characteristic>
           </characteristics>
         </profile>
       </profiles>
@@ -6460,7 +6460,7 @@
         </profile>
         <profile name="Dreadclaw Assault" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="ed9f-5e9a-29d7-6a5">
           <characteristics>
-            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">cette figurine doit démarrer la bataille dans les réserves, mais ni lui ni les unités embarquées à l'intérieur ne sont comptées dans les limites imposées au nombre maximal d'unités des réserves avec lesquelles vous pouvez commencer la bataille. cette figurine peut être mis en place à l'étape des Renforts de votre première, deuxième ou troisième phase de Mouvement, indépendamment des règles de la mission. Toutes les unités embarquées à l'intérieur de cette figurine peuvent débarquer après avoir été installées sur le champ de bataille, et si elles le font, elles doivent être installées plus de 9" loin de tous les figurines ennemies.</characteristic>
+            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Cette figurine doit commencer la bataille en Réserves, mais ni elle ni les unités embarquées en son sein ne comptent dans les limites imposées au nombre maximal d’unités en Réserves avec lesquelles vous pouvez commencer la bataille. Cette figurine peut être placée à l’étape des Renforts de votre première, deuxième ou troisième phase de Mouvement, quelles que soient les règles de mission. Toute unité embarquée dans cette figurine peut débarquer après son placement sur le champ de bataille ; si elle le fait, elle doit être placée à plus de 9" de toute figurine ennemie.</characteristic>
           </characteristics>
         </profile>
       </profiles>
@@ -6537,7 +6537,7 @@
         </profile>
         <profile name="Scuttling Gait" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="a85d-54dc-a0a3-5625">
           <characteristics>
-            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Chaque fois que cette unité avance, ne faites pas un jet d’Avance pour elle. Au lieu de cela, jusqu'à la fin de la phase, ajoutez 6" à la caractéristique de mouvement des figurines de cette unité.</characteristic>
+            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Chaque fois que cette unité avance, ne faites pas un jet d’Avance pour elle. Au lieu de cela, Jusqu’à la fin de la phase, ajoutez 6" à la caractéristique de mouvement des figurines de cette unité.</characteristic>
           </characteristics>
         </profile>
       </profiles>
@@ -6573,7 +6573,7 @@
                   </infoLinks>
                   <rules>
                     <rule name="Impaled" hidden="false" id="e09d-8a3-4c29-cde2">
-                      <description>Chaque fois que cette arme marque un coup contre une unité ennemie MONSTER ou VEHICLE, jusqu'à la fin du tour, si le porteur sélectionne cette unité comme cible d'une charge, ajoutez 2 aux jets de Charge faits pour le porteur.</description>
+                      <description>Chaque fois que cette arme touche une unité MONSTER ou VEHICLE ennemie, jusqu’à la fin du tour, si le porteur sélectionne cette unité comme cible d’une charge, ajoutez 2 aux jets de Charge effectués pour le porteur.</description>
                     </rule>
                   </rules>
                   <entryLinks>
@@ -6658,12 +6658,12 @@
       <profiles>
         <profile name="Runes of the Blood God" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="7a21-d7fb-1f83-f292">
           <characteristics>
-            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">cette figurine a la aptitude Insensible à la douleur 4+ contre les Blessures Mortelles et les attaques Psychique.</characteristic>
+            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">cette figurine a l’aptitude Insensible à la douleur 4+ contre Blessures Mortelles et attaques Psychiques.</characteristic>
           </characteristics>
         </profile>
         <profile name="Damaged: 1-9 wounds remaining" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="9554-75c1-895-c090">
           <characteristics>
-            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Alors que cette figurine a 1-9 PV restants, Soustrayez 5 de cette caractéristique de contrôle d'objectif de figurine et chaque fois que cette figurine fait une attaque, Soustrayez 1 du jet de Touche.</characteristic>
+            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Tant que cette figurine a 1-9 PV restants, soustrayez 5 à la caractéristique de Contrôle d’Objectif de cette figurine et, chaque fois que cette figurine effectue une attaque, soustrayez 1 au jet de Touche.</characteristic>
           </characteristics>
         </profile>
         <profile name="Greater Brass Scorpion" typeId="c547-1836-d8a-ff4f" typeName="Unit" hidden="false" id="16a0-e4d0-4ec3-e038">
@@ -6840,12 +6840,12 @@
       <profiles>
         <profile name="Damaged: 1-8 wounds remaining" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="e230-1d28-9fc8-572a">
           <characteristics>
-            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Alors que cette figurine a 1-8 PV restants, Soustrayez 5 de cette caractéristique de la figurine de caractéristique de Contrôle d’Objectif et chaque fois que cette figurine effectue une attaque, Soustrayez 1 du jet de Touche.</characteristic>
+            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Tant que cette figurine a 1-8 PV restants, soustrayez 5 à la caractéristique de Contrôle d’Objectif de cette figurine et, chaque fois que cette figurine effectue une attaque, soustrayez 1 au jet de Touche.</characteristic>
           </characteristics>
         </profile>
         <profile name="Bloodlust" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="e04a-bafe-cc4a-6992">
           <characteristics>
-            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Chaque fois que cette figurine fait un mouvement Charge, jusqu'à la fin du tour, ses armes de mêlée ont la aptitude [Touches soutenues 1]. En outre, une fois par bataille, cette figurine est admissible à déclarer une charge dans un tour dans lequel il avance.</characteristic>
+            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Chaque fois que cette figurine effectue un mouvement de Charge, jusqu’à la fin du tour, ses armes de mêlée ont l’aptitude [Touches soutenues 1]. De plus, une fois par bataille, cette figurine est éligible pour déclarer une charge durant un tour où elle a Avancé.</characteristic>
           </characteristics>
         </profile>
         <profile name="Kytan Ravager" typeId="c547-1836-d8a-ff4f" typeName="Unit" hidden="false" id="fb5c-ab40-77e6-f564">
@@ -6962,7 +6962,7 @@
       <profiles>
         <profile name="Kharybdis Assault" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="2d23-1cc3-1a59-96c4">
           <characteristics>
-            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">cette figurine doit démarrer la bataille dans les réserves, mais ni lui ni les unités embarquées à l'intérieur ne sont comptées dans les limites imposées au nombre maximal d'unités des réserves avec lesquelles vous pouvez commencer la bataille. cette figurine peut être mis en place à l'étape des Renforts de votre première, deuxième ou troisième phase de Mouvement, indépendamment des règles de la mission. Toutes les unités embarquées à l'intérieur de cette figurine peuvent débarquer après avoir été installées sur le champ de bataille, et si elles le font, elles doivent être installées plus de 9" loin de tous les figurines ennemies.</characteristic>
+            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Cette figurine doit commencer la bataille en Réserves, mais ni elle ni les unités embarquées en son sein ne comptent dans les limites imposées au nombre maximal d’unités en Réserves avec lesquelles vous pouvez commencer la bataille. Cette figurine peut être placée à l’étape des Renforts de votre première, deuxième ou troisième phase de Mouvement, quelles que soient les règles de mission. Toute unité embarquée dans cette figurine peut débarquer après son placement sur le champ de bataille ; si elle le fait, elle doit être placée à plus de 9" de toute figurine ennemie.</characteristic>
           </characteristics>
         </profile>
         <profile name="Kharybdis Assault Claw" typeId="c547-1836-d8a-ff4f" typeName="Unit" hidden="false" id="335e-dde2-e256-5053">
@@ -7143,7 +7143,7 @@
         </profile>
         <profile name="Aerial Assault" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="c6bf-fc6c-319e-b88d">
           <characteristics>
-            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Chaque fois qu'une unité dotée de la aptitude Frappe en profondeur débarque de cette figurine après avoir effectué un déplacement normal, cette unité est toujours admissible à déclarer une charge à ce tour.</characteristic>
+            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Chaque fois qu'une unité avec l’aptitude Frappe en profondeur débarque de cette figurine après avoir effectué un mouvement Normal, cette unité est toujours admissible à déclarer une charge à ce tour.</characteristic>
           </characteristics>
         </profile>
         <profile name="Chaos Thunderhawk" typeId="74f8-5443-9d6d-1f1e" typeName="Transport" hidden="false" id="71d3-2168-473e-b649">
@@ -7190,7 +7190,7 @@
                   <profiles>
                     <profile name="Thunderhawk cluster bombs" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="60fa-c1c8-cc2-6e3f">
                       <characteristics>
-                        <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Chaque fois que le porteur termine un mouvement normal, vous pouvez sélectionner une unité ennemie par-dessus laquelle le porteur s’est déplacé au cours de ce mouvement et rouler six D6: pour chaque 3+, cette unité souffre 1 blessure mortelle.</characteristic>
+                        <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Chaque fois que le porteur termine un mouvement Normal, vous pouvez sélectionner une unité ennemie par-dessus laquelle le porteur s’est déplacé pendant ce mouvement et rouler six D6: pour chaque 3+, cette unité souffre 1 blessure mortelle.</characteristic>
                       </characteristics>
                     </profile>
                   </profiles>
@@ -7342,7 +7342,7 @@
       <profiles>
         <profile name="The Tyrant's Standard" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="9a9a-2ac8-c4f6-1f2e">
           <characteristics>
-            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Ajoutez 1 aux caractéristique d’Attaques des armes équipées par le porteur, et à chaque fois que le porteur effectue une attaque, vous pouvez relancer le jet de Blessure. De plus, chaque fois que l'unité du porteur détruit une unité ennemie, si votre force de croisade entreprend une campagne sous serment, vous gagnez 1 point d'honneur.</characteristic>
+            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Ajoutez 1 à la caractéristique d’Attaques des armes équipées par le porteur, et chaque fois que le porteur fait une attaque, vous pouvez relancer le jet de Blessure. De plus, chaque fois que l’unité du porteur détruit une unité ennemie, si votre force de Croisade mène une campagne de serment, vous gagnez un point d'honneur 1.</characteristic>
           </characteristics>
         </profile>
       </profiles>
@@ -7427,12 +7427,12 @@ Les unités Adeptus Astartes Transport de votre armée (à l’exclusion de FLY)
     </profile>
     <profile id="b1c6-8391-4b18-5d57" name="Assault Ramp" hidden="false" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities">
       <characteristics>
-        <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Chaque fois qu'une unité débarque de cette figurine après avoir effectué un déplacement normal, cette unité est toujours éligible à déclarer une charge à ce tour.</characteristic>
+        <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Chaque fois qu'une unité débarque de cette figurine après avoir effectué un mouvement Normal, cette unité est toujours éligible à déclarer une charge à ce tour.</characteristic>
       </characteristics>
     </profile>
     <profile name="Damaged: 1-8 wounds remaining" hidden="false" id="4362-2036-1522-de2e" typeName="Abilities" typeId="9cc3-6d83-4dd3-9b64">
       <characteristics>
-        <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Alors que cette figurine a 1-8 PV restants, Soustrayez 4 de cette caractéristique de la figurine de caractéristique de Contrôle d’Objectif et chaque fois que cette figurine effectue une attaque, Soustrayez 1 du jet de Touche.</characteristic>
+        <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Tant que cette figurine a 1-8 PV restants, soustrayez 4 à la caractéristique de Contrôle d’Objectif de cette figurine et, chaque fois que cette figurine effectue une attaque, soustrayez 1 au jet de Touche.</characteristic>
       </characteristics>
     </profile>
     <profile name="Hellflamer" typeId="f77d-b953-8fa4-b762" typeName="Ranged Weapons" hidden="false" id="cf56-3eca-1ad7-9340">
@@ -7449,7 +7449,7 @@ Les unités Adeptus Astartes Transport de votre armée (à l’exclusion de FLY)
   </sharedProfiles>
   <sharedRules>
     <rule id="a07b-d883-9916-4288" name="Conversion" hidden="false">
-      <description>Chaque fois qu'une attaque effectuée avec cette arme cible une unité plus que 12" du porteur, un succès non modifié jet de Touche de 4+ marque un Hit critique.</description>
+      <description>Chaque fois qu’une attaque effectuée avec cette arme cible une unité à plus de 12" du porteur, tout jet de Touche non modifié réussi de 4+ est une Touche Critique.</description>
     </rule>
   </sharedRules>
   <rules>
@@ -7472,26 +7472,26 @@ Si cette unité a le mot-clé **^^Infantry^^** :
       <modifiers>
         <modifier type="set" value="true" field="hidden">
           <conditions>
-            <condition type="notInstanceOf" value="1" field="selections" scope="primary-catalogue" childId="2d87-8699-5307-a64d" shared="true" />
+            <condition type="notInstanceOf" value="1" field="selections" scope="primary-catalogue" childId="36d3-36bc-68dd-40ac" shared="true" />
           </conditions>
         </modifier>
       </modifiers>
     </rule>
     <rule name="Oath of Moment" id="3b76-4053-ece9-6e7d" hidden="false">
-      <description>Si votre faction d'armée est **^^Adeptus Astartes^^**, au début de votre phase de Commandement, sélectionnez une unité de l'armée de votre adversaire. Jusqu'au début de votre prochaine phase de Commandement, cette unité ennemie est votre cible de l'Oath of Moment. Chaque fois qu' une figurine avec cette aptitude fait une attaque qui cible votre objectif de l' Oath of Moment:
-■ Tu peux relancer le jet de Touche
-■ Si vous utilisez un codex de la section des Marines de l'espace et que votre armée n'inclut pas une ou plusieurs unités avec les mots clés **^^Blood Angels^^**, **^^Dark Angels^^**, **^^Deathwatch^^** ou **^^Space Wolves^^**, ajoutez aussi 1 au jet de Blessure.</description>
+      <description>Si votre Faction d’Armée est **^^Adeptus Astartes^^**, au début de votre phase de Commandement, sélectionnez une unité de l’armée de votre adversaire. Jusqu’au début de votre prochaine phase de Commandement, cette unité ennemie est votre cible Oath of Moment. Chaque fois qu’une figurine dotée de cette aptitude effectue une attaque qui cible votre cible Oath of Moment :
+■ Vous pouvez relancer le jet de Touche.
+■ Si vous utilisez un Détachement Codex: Space Marines et que votre armée n’inclut aucune unité ayant un ou plusieurs des mots-clés **^^Blood Angels^^**, **^^Dark Angels^^**, **^^Deathwatch^^** ou **^^Space Wolves^^**, ajoutez également 1 au jet de Blessure.</description>
       <modifiers>
         <modifier type="set" value="true" field="hidden">
           <conditionGroups>
             <conditionGroup type="or">
               <conditions>
-                <condition type="instanceOf" value="1" field="selections" scope="primary-catalogue" childId="2d87-8699-5307-a64d" shared="true" />
-                <condition type="instanceOf" value="1" field="selections" scope="primary-catalogue" childId="62a9-45cc-b749-3616" shared="true" childName="Chaos - Chaos Space Marines" />
-                <condition type="instanceOf" value="1" field="selections" scope="primary-catalogue" childId="5ff8-5a62-176a-87a6" shared="true" childName="Chaos - Death Guard" />
-                <condition type="instanceOf" value="1" field="selections" scope="primary-catalogue" childId="9d03-ff50-e821-55da" shared="true" childName="Chaos - Emperor's Children" />
-                <condition type="instanceOf" value="1" field="selections" scope="primary-catalogue" childId="2b88-ba4a-f464-e32d" shared="true" childName="Chaos - Thousand Sons" />
-                <condition type="instanceOf" value="1" field="selections" scope="primary-catalogue" childId="5b2e-e089-2987-125c" shared="true" childName="Chaos - World Eaters" />
+                <condition type="instanceOf" value="1" field="selections" scope="primary-catalogue" childId="36d3-36bc-68dd-40ac" shared="true" />
+                <condition type="instanceOf" value="1" field="selections" scope="primary-catalogue" childId="c8da-e875-58f7-f6d6" shared="true" childName="Chaos - Chaos Space Marines" />
+                <condition type="instanceOf" value="1" field="selections" scope="primary-catalogue" childId="5108-f98-63c2-53cb" shared="true" childName="Chaos - Death Guard" />
+                <condition type="instanceOf" value="1" field="selections" scope="primary-catalogue" childId="03fe-a162-4c02-f07b" shared="true" childName="Chaos - Emperor's Children" />
+                <condition type="instanceOf" value="1" field="selections" scope="primary-catalogue" childId="1069-10ff-3ba9-873b" shared="true" childName="Chaos - Thousand Sons" />
+                <condition type="instanceOf" value="1" field="selections" scope="primary-catalogue" childId="df9a-59b2-f464-59ad" shared="true" childName="Chaos - World Eaters" />
               </conditions>
             </conditionGroup>
           </conditionGroups>

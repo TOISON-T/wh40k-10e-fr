@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue xmlns="http://www.battlescribe.net/schema/catalogueSchema" id="912d-fb01-78e2-8d22" name="Xenos - Leagues of Votann" revision="84" battleScribeVersion="2.03" library="false" gameSystemId="sys-0e45-705d-f6bc-806a" gameSystemRevision="1" type="catalogue">
+<catalogue xmlns="http://www.battlescribe.net/schema/catalogueSchema" id="f616-3f08-ee8e-3349" name="Xenos - Leagues of Votann" revision="84" battleScribeVersion="2.03" library="false" gameSystemId="sys-352e-adc2-7639-d6a9" gameSystemRevision="1" type="catalogue">
   <categoryEntries>
     <categoryEntry id="5a53-ae58-e0d9-0616" name="Hearthkyn Warriors" hidden="false" />
     <categoryEntry id="a360-cb11-e139-55df" name="Ûthar the Destined" hidden="false" />
@@ -97,9 +97,9 @@
             <selectionEntry type="upgrade" import="true" name="Persecution Prospect" hidden="false" id="e73f-ac86-44b1-c3f2">
               <rules>
                 <rule name="Assailed From Every Angle" id="bbb9-77f9-7c5f-a964" hidden="false">
-                  <description>^^**Leagues of Votann^^** unités de votre armée ont les capacités suivantes:
+                  <description>Les unités ^^**Leagues of Votann^^** de votre armée ont l’aptitude suivante :
 
-**Guerrilla Adepts:** Dans votre phase de Tir, juste après que cette unité ait été sélectionnée pour tirer, cette unité peut utiliser cette aptitude. Si c'est le cas, sélectionnez une unité ennemi (à l'exclusion de ^^**Monsters^^** et ^^**Vehicles^^**). Jusqu'à la fin de la phase, les attaques effectuées par des figurines dans cette unité ne peuvent attaquer que cette unité ennemie (et seulement si c'est une cible admissible) et, après avoir résolu ces attaques, si une ou plusieurs de ces attaques frappent cette unité ennemie, jusqu'au début de votre prochaine phase de Tir, cette unité ennemie est attaquée (ceci étiquette simplement cette unité aux fins de cette aptitude et certaines améliorations ou stratagèmes). Si cette unité est déjà attaquée, jusqu'au début de votre prochaine phase de Tir, elle est également coincée. Pendant qu'une unité est fixée, Soustrayez 2" de sa caractéristique de mouvement et soustraire 2 des jets de Charge faits pour elle.</description>
+**Guerrilla Adepts:** Durant votre phase de Tir, juste après que cette unité a été sélectionnée pour tirer, elle peut utiliser cette aptitude. Si elle le fait, sélectionnez une unité ennemie (à l’exclusion des ^^**Monsters^^** et des ^^**Vehicles^^**). Jusqu’à la fin de la phase, les figurines de cette unité ne peuvent effectuer d’attaques que contre cette unité ennemie, et seulement si elle est une cible éligible. Après la résolution de ces attaques, si une ou plusieurs de ces attaques ont touché cette unité ennemie, jusqu’au début de votre prochaine phase de Tir, cette unité ennemie est assaillie (cela ne fait qu’étiqueter cette unité pour les besoins de cette aptitude et de certaines Optimisations ou Stratagèmes). Si cette unité est déjà assaillie, jusqu’au début de votre prochaine phase de Tir, elle est aussi clouée. Tant qu’une unité est clouée, soustrayez 2" à sa caractéristique de Mouvement et 2 aux jets de Charge effectués pour elle.</description>
                 </rule>
               </rules>
             </selectionEntry>
@@ -122,7 +122,7 @@
             <selectionEntry type="upgrade" import="true" name="Dêlve Assault Shift" hidden="false" id="faf5-7477-8cdc-679f">
               <rules>
                 <rule name="Fury from the Dêlve" id="87c9-7c05-103b-ebe6" hidden="false">
-                  <description>^^**Cthonian Beserks^^** unités de votre armée ont l’ Frappe en profondeur aptitude.</description>
+                  <description>Les unités ^^**Cthonian Beserks^^** de votre armée ont l’aptitude Frappe en profondeur.</description>
                 </rule>
               </rules>
             </selectionEntry>
@@ -138,7 +138,7 @@
             <selectionEntry type="upgrade" import="true" name="Mercenary Oathband" hidden="false" id="b36b-1a84-3f57-2063">
               <rules>
                 <rule name="Ruthless Reinvestment" id="22cf-7f44-490e-df5f" hidden="false">
-                  <description>Vos unités ^^**Leagues of Votann^^** n'ont pas les capacités d'acquisition hostile ou de prise de contrôle de force, sauf comme décrit dans la présente règle. Au début de la bataille, vos unités ^^**Leagues of Votann^^** ont la aptitude d'acquisition ennemie. À la fin de votre phase de Commandement, vous pouvez dépenser 3YP. Si vous le faites, les unités ^^**Leagues of Votann^^** de votre armée perdent la aptitude d'acquisition ennemie et gagnent la aptitude de Fortify Takeover, ou vice versa.</description>
+                  <description>Vos unités ^^**Leagues of Votann^^** n’ont pas les aptitudes Hostile Acquisition ou Fortify Takeover, sauf comme décrit dans cette règle. Au début de la bataille, vos unités ^^**Leagues of Votann^^** ont l’aptitude Hostile Acquisition. À la fin de votre phase de Commandement, vous pouvez dépenser 3YP. Si vous le faites, les unités ^^**Leagues of Votann^^** de votre armée perdent l’aptitude Hostile Acquisition et gagnent l’aptitude Fortify Takeover, ou inversement.</description>
                 </rule>
               </rules>
             </selectionEntry>
@@ -173,7 +173,7 @@
         </profile>
         <profile id="a768-f399-5214-dfff" name="Ancestral Fortune" hidden="false" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities">
           <characteristics>
-            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Une fois par tour, vous pouvez dépenser 1YP pour remplacer un jet de Touche, un jet de Blessure ou un jet de sauvegarde fait pour cette figurine par un 6.</characteristic>
+            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Une fois par tour, vous pouvez dépenser 1YP pour changer un jet de Touche, un jet de Blessure ou un jet de sauvegarde effectués pour cette figurine à un 6.</characteristic>
           </characteristics>
         </profile>
         <profile id="e940-64a8-ba9a-42bc" name="Meneur" hidden="false" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities">
@@ -272,7 +272,7 @@
       <profiles>
         <profile id="183b-a8a1-b9eb-2dd5" name="Luck Has, Need Keeps, Toil Earns" hidden="false" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities">
           <characteristics>
-            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">À la fin de votre phase de Commandement, si cette unité est à la portée d'un marqueur objectif que vous contrôlez, ce marqueur objectif reste sous votre contrôle, jusqu'à ce que le niveau de contrôle de votre adversaire sur ce soit supérieur à la vôtre à la fin d'une phase.</characteristic>
+            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">À la fin de votre phase de Commandement, si cette unité est à l'intérieur de Portée d'un pion d’objectif que vous contrôlez, ce pion d’objectif reste sous votre contrôle, jusqu'à ce que le niveau de contrôle de votre adversaire sur ce soit supérieur au vôtre à la fin d'une phase.</characteristic>
           </characteristics>
         </profile>
         <profile id="15e9-df12-30b7-42cb" name="Hearthkyn Warriors" hidden="false" typeId="c547-1836-d8a-ff4f" typeName="Unit">
@@ -287,7 +287,7 @@
         </profile>
         <profile name="Pan-spectral Scanning" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="f1c3-6cf4-2e6e-c3c3">
           <characteristics>
-            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Chaque fois qu'une figurine dans cette unité fait une attaque de tir, relance un jet de Touche de 1.</characteristic>
+            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Chaque fois qu’une figurine de cette unité effectue une attaque de tir, relancez un jet de Touche de 1.</characteristic>
           </characteristics>
         </profile>
       </profiles>
@@ -1198,7 +1198,7 @@
       <profiles>
         <profile id="73c5-c517-7aa5-96fc" name="Rampart crest" hidden="false" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities">
           <characteristics>
-            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Pendant que le porteur mène une unité, les figurines de cette unité ont un 5+ sauvegarde invulnérable.</characteristic>
+            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Alors que le porteur est à la tête d'une unité, les figurines de cette unité ont un 5+ sauvegarde invulnérable.</characteristic>
           </characteristics>
         </profile>
       </profiles>
@@ -1226,7 +1226,7 @@
         </profile>
         <profile id="2769-d6d8-29c8-7689" name="Kindred Hero" hidden="false" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities">
           <characteristics>
-            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Alors que cette figurine mène une unité, les armes équipées de figurines dans cette unité ont la aptitude [Touches fatales].</characteristic>
+            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Alors que cette figurine mène une unité, les armes équipées des figurines de cette unité ont l’aptitude [Touches fatales].</characteristic>
           </characteristics>
         </profile>
         <profile id="7139-216a-b740-0af3" name="Meneur" hidden="false" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities">
@@ -1504,7 +1504,7 @@
       <profiles>
         <profile id="e7c8-1681-268e-e824" name="Teleport crest" hidden="false" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities">
           <characteristics>
-            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Pendant que le porteur mène une unité, les figurines de cette unité ont la aptitude Frappe en profondeur.</characteristic>
+            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Alors que le porteur est à la tête d'une unité, les figurines de cette unité ont l’aptitude Frappe en profondeur.</characteristic>
           </characteristics>
         </profile>
       </profiles>
@@ -1538,12 +1538,12 @@
         </profile>
         <profile id="cce9-1dea-2bfb-0600" name="Exemplar of the Einhyr" hidden="false" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities">
           <characteristics>
-            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Pendant que cette figurine mène une unité, ajoutez 1 aux jets d’Avance et de Charge faits pour cette unité.</characteristic>
+            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Alors que cette figurine mène une unité, ajoutez 1 à Advance et jets de Charge de cette unité.</characteristic>
           </characteristics>
         </profile>
         <profile id="666a-1075-30da-e3d6" name="Mass Driver Accelerators" hidden="false" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities">
           <characteristics>
-            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Chaque fois que cette figurine termine un mouvement Charge, vous pouvez sélectionner une unité ennemi dans la Portée d’Engagement de cette figurine et faire lancez un D6: sur un 2-5, cette unité ennemi subit D3 Blessures Mortelles; sur un 6, cette unité ennemi subit D3+3 Blessures Mortelles.</characteristic>
+            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Chaque fois que cette figurine termine un mouvement de Charge, vous pouvez sélectionner une unité ennemie dans Portée d’Engagement de cette figurine et lancez un D6: sur un 2-5, que cette unité ennemie souffre D3 Blessures Mortelles; sur un 6, que cette unité ennemie souffre D3+3 Blessures Mortelles.</characteristic>
           </characteristics>
         </profile>
       </profiles>
@@ -1594,7 +1594,7 @@
                   <profiles>
                     <profile name="Weavefield crest" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="7869-a23a-8332-6df1">
                       <characteristics>
-                        <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Le porteur a un 4+ sauvegarde invulnérable.</characteristic>
+                        <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Le porteur a une sauvegarde invulnérable de 4+.</characteristic>
                       </characteristics>
                     </profile>
                   </profiles>
@@ -1756,7 +1756,7 @@
       <profiles>
         <profile id="1fa8-d8d6-7361-c235" name="Weavefield crest" hidden="false" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities">
           <characteristics>
-            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Les figurines de l'unité du porteur ont un 5+ sauvegarde invulnérable.</characteristic>
+            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Les figurines de l’unité du porteur ont une sauvegarde invulnérable de 5+.</characteristic>
           </characteristics>
         </profile>
       </profiles>
@@ -1780,12 +1780,12 @@
         </profile>
         <profile id="c223-388d-3253-dd39" name="Sauvegarde Invulnérable" hidden="false" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities">
           <characteristics>
-            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Les figurines de cette unité ont un 4+ sauvegarde invulnérable.</characteristic>
+            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Les figurines de cette unité ont une sauvegarde invulnérable de 4+.</characteristic>
           </characteristics>
         </profile>
         <profile id="467f-6b90-9fac-e6bc" name="Fortify (Psychic)" hidden="false" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities">
           <characteristics>
-            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Alors que cette figurine mène une unité, les figurines de cette unité ont la aptitude Insensible à la douleur 5+.</characteristic>
+            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Alors que cette figurine mène une unité, les figurines de cette unité ont l’aptitude Insensible à la douleur 5+.</characteristic>
           </characteristics>
         </profile>
         <profile id="fed0-9336-a1da-52b5" name="Grimnyr's Regard" hidden="false" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities">
@@ -1795,7 +1795,7 @@
         </profile>
         <profile name="Unit Composition" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="3ad6-e5e5-dd75-ba65">
           <characteristics>
-            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Si la figurine Grimnyr de cette unité est détruit, tous les figurines CORV restants de cette unité sont également détruits. Tout en embarquant dans un ^^**Transport^^** et tant que embarked à a ^^**Transport^^**, Chaque figurine CORV occupe la place de 0 figurines.</characteristic>
+            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Si la figurine Grimnyr de cette unité est détruite, toutes les figurines CORV restantes de cette unité sont également détruites. Lorsqu’elles embarquent dans un ^^**Transport^^** et tant qu’elles sont embarquées dans un ^^**Transport^^**, chaque figurine CORV occupe l’espace de 0 figurine.</characteristic>
           </characteristics>
         </profile>
       </profiles>
@@ -2120,12 +2120,12 @@
       <profiles>
         <profile id="0b60-64ba-dab2-aba2" name="Multi-spectral visor" hidden="false" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities">
           <characteristics>
-            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Chaque fois qu'une figurine dans cette unité fait une attaque de tir, relance un jet de Blessure de 1.</characteristic>
+            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Chaque fois qu’une figurine de cette unité effectue une attaque de tir, relancez un jet de Blessure de 1.</characteristic>
           </characteristics>
         </profile>
         <profile id="5313-7669-e6a9-5577" name="Brôkhyr Guild Support" hidden="false" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities">
           <characteristics>
-            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Si cette unité se trouve à 3" ou moins d'une ou de plusieurs unités ^^**Leagues of Votann Vehicle**^^ ou ^^**Ironkin Steeljacks**^^ amicales, si cette unité n'est pas une unité attachée, elle a la aptitude Agent solitaire.</characteristic>
+            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Tant que cette unité est à 3" ou moins d’une ou plusieurs unités ^^**Leagues of Votann Vehicle**^^ ou ^^**Ironkin Steeljacks**^^ amies, si cette unité n’est pas une unité Attachée, elle a l’aptitude Agent Solitaire.</characteristic>
           </characteristics>
         </profile>
         <profile id="7d15-f4e4-387a-f14d" name="Meneur" hidden="false" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities">
@@ -2137,12 +2137,12 @@
         </profile>
         <profile name="Unit Composition" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="6f57-e143-7449-1760">
           <characteristics>
-            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Si la figurine Brôkhyr Iron-master de cette unité est détruit, tous les autres figurines E-COG de cette unité sont également détruits. Lorsqu'il embarque dans un ^^**Transport^^** et tant que embarked à a ^^**Transport^^**, chaque figurine E-COG occupe l'espace des figurines 0.</characteristic>
+            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Si la figurine Brôkhyr Iron-master de cette unité est détruite, toutes les figurines E-COG restantes de cette unité sont également détruites. Lorsqu’elle embarque dans un ^^**Transport^^** et tant qu’elle est embarquée dans un ^^**Transport^^**, chaque figurine E-COG occupe l’espace de 0 figurine.</characteristic>
           </characteristics>
         </profile>
         <profile name="Forgewrought Expertise" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="ce7a-e6ed-4d44-a5df">
           <characteristics>
-            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">À la fin de votre phase de Mouvement, cette figurine peut réparer une unité sympathique ^^**Leagues of Votann Vehicle, Exoframe^^** ou ^^**Ironkin Steeljacks^^** à 3" ou moins. une figurine dans cette unité récupère jusqu'à D3 PV perdus, ou jusqu'à 3 PV perdus si cette unité contient une figurine Ironkin Assistant. Chaque unité ne peut être réparée qu'une seule fois par tour.</characteristic>
+            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">À la fin de votre phase de Mouvement, cette figurine peut réparer une unité amicale ^^**Leagues of Votann Vehicle, Exoframe^^** ou ^^**Ironkin Steeljacks^^** à 3" ou moins de celui-ci. une figurine dans cette unité récupère jusqu'à D3 PV perdus, ou jusqu'à 3 PV perdus si cette unité contient un assistant Ironkin figurine. Chaque unité ne peut être réparée que Une fois par tour.</characteristic>
           </characteristics>
         </profile>
       </profiles>
@@ -2611,7 +2611,7 @@
       <profiles>
         <profile id="91da-72d3-657b-ee7c" name="Decisive Destruction" hidden="false" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities">
           <characteristics>
-            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Chaque fois qu'une figurine dans cette unité effectue une attaque de tir qui cible la cible admissible la plus proche, relancez un jet de Touche de 1.</characteristic>
+            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Chaque fois qu’une figurine de cette unité effectue une attaque de tir qui cible la cible éligible la plus proche, relancez un jet de Touche de 1.</characteristic>
           </characteristics>
         </profile>
       </profiles>
@@ -2901,7 +2901,7 @@
                   <profiles>
                     <profile name="Teleport crest" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="80e8-8ec7-90b9-1310">
                       <characteristics>
-                        <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Les figurines dans l'unité du porteur ont la aptitude Frappe en profondeur.</characteristic>
+                        <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Les figurines de l’unité du porteur ont l’aptitude Frappe en profondeur.</characteristic>
                       </characteristics>
                     </profile>
                   </profiles>
@@ -3205,7 +3205,7 @@
       <profiles>
         <profile id="668c-fdea-d78d-76da" name="Cyberstimms" hidden="false" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities">
           <characteristics>
-            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Chaque fois qu'une figurine dans cette unité est détruite par une attaque de mêlée, si cette figurine n'a pas combattu cette phase, lancez un D6, en ajoutant un au résultat si les unités de votre armée ont Fortify Takeover: sur un 4+, ne le retirez pas du jeu. la figurine détruit peut se battre après que l'unité attaquante ait terminé ses attaques, et est ensuite retiré du jeu.</characteristic>
+            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Chaque fois qu’une figurine de cette unité est détruite par une attaque de mêlée, si cette figurine n’a pas combattu à cette phase, lancez un D6, en ajoutant un au résultat si des unités de votre armée ont Fortify Takeover : sur 4+, ne la retirez pas du jeu. La figurine détruite peut combattre une fois que l’unité attaquante a fini de résoudre ses attaques, puis elle est retirée du jeu.</characteristic>
           </characteristics>
         </profile>
       </profiles>
@@ -3405,7 +3405,7 @@
               <profiles>
                 <profile id="6b1b-5b1b-e5de-f7c2" name="Subterranean Explosives" hidden="false" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities">
                   <characteristics>
-                    <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Dans votre phase de Tir, après que cette unité ait tiré, sélectionnez une unité ennemie (à l'exclusion de ^^**Monsters**^^ et ^^**Vehicles^^**) qui a été touchée par une ou plusieurs de ces attaques effectuées avec un lance-grenades mol. Jusqu'au début de votre prochaine phase de Tir, cette unité ennemie ne peut pas être ciblée avec le Fire Overwatch Stratagème.</characteristic>
+                    <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Durant votre phase de Tir, après que cette unité a tiré, sélectionnez une unité ennemie (à l’exclusion des ^^**Monsters**^^ et des ^^**Vehicles^^**) touchée par une ou plusieurs de ces attaques effectuées avec un mole grenade launcher. Jusqu’au début de votre prochaine phase de Tir, cette unité ennemie ne peut pas être ciblée par le Stratagème Fire Overwatch.</characteristic>
                   </characteristics>
                 </profile>
                 <profile name="Beserk" typeId="c547-1836-d8a-ff4f" typeName="Unit" hidden="false" id="2765-107e-1e51-064f">
@@ -3616,7 +3616,7 @@
       <profiles>
         <profile id="0a56-b381-c3ac-12bd" name="Outflanking Mag-Riders" hidden="false" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities">
           <characteristics>
-            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">À la fin du tour de votre adversaire, si cette unité est entièrement à 9" ou moins d'un ou plusieurs bords de champ de bataille et non à l'intérieur de la Portée d’Engagement d'une ou plusieurs unités ennemies, vous pouvez la retirer du champ de bataille et la placer dans les réserves stratégiques.</characteristic>
+            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">À la fin du tour de votre adversaire, si cette unité est entièrement à 9" ou moins d’un ou plusieurs bords du champ de bataille et qu’elle n’est pas à Portée d’Engagement d’une ou plusieurs unités ennemies, vous pouvez la retirer du champ de bataille et la placer en Réserves Stratégiques.</characteristic>
           </characteristics>
         </profile>
         <profile id="eed4-0f4c-f180-db12" name="Hernkyn Pioneer" hidden="false" typeId="c547-1836-d8a-ff4f" typeName="Unit">
@@ -3696,7 +3696,7 @@
                   <profiles>
                     <profile id="5594-0175-2fab-78d0" name="Comms array" hidden="false" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities">
                       <characteristics>
-                        <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Chaque fois que vous ciblez l'unité du porteur avec un Stratagème, lancez un D6: sur un 5+, vous gagnez 1CP.</characteristic>
+                        <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Chaque fois que vous ciblez l’unité du porteur avec un Stratagème, lancez un D6: sur un 5+, vous gagnez 1CP.</characteristic>
                       </characteristics>
                     </profile>
                   </profiles>
@@ -3744,7 +3744,7 @@
                   <profiles>
                     <profile id="2687-9d88-fa31-78e4" name="Pan-spectral scanner" hidden="false" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities">
                       <characteristics>
-                        <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Chaque fois qu'une figurine dans l'unité du porteur effectue une attaque de tir, relancez un jet de Touche de 1.</characteristic>
+                        <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Chaque fois qu’une figurine de l’unité du porteur effectue une attaque de tir, relancez un jet de Touche de 1.</characteristic>
                       </characteristics>
                     </profile>
                   </profiles>
@@ -3792,7 +3792,7 @@
                   <profiles>
                     <profile id="d4a7-4825-c105-69da" name="Rollbar searchlight" hidden="false" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities">
                       <characteristics>
-                        <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Chaque fois qu'une figurine dans l'unité du porteur effectue une attaque de tir, vous pouvez ignorer tous ou tous les modificateurs du jet de Touche.</characteristic>
+                        <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Chaque fois qu’une figurine de l’unité du porteur effectue une attaque de tir, vous pouvez ignorer tout ou partie des modificateurs au jet de Touche.</characteristic>
                       </characteristics>
                     </profile>
                   </profiles>
@@ -4170,7 +4170,7 @@
         </profile>
         <profile id="1cd2-5315-3e03-56d2" name="Blistering Advance" hidden="false" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities">
           <characteristics>
-            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Les unités peuvent débarquer de ce ^^**Transport^^** après avoir avancé. Les unités qui le font comptent comme ayant fait un déplacement normal dans cette phase, et ne peuvent pas déclarer une charge dans le même tour, mais peuvent autrement agir normalement dans le reste du tour.</characteristic>
+            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Les unités peuvent débarquer de ce ^^**Transport^^** après avoir avancé. Les unités qui le font comptent comme ayant fait un mouvement Normal cette phase, et ne peuvent pas déclarer une charge dans le même tour, mais peuvent autrement agir normalement dans le reste du tour.</characteristic>
           </characteristics>
         </profile>
         <profile id="c622-c5a6-391f-e9ec" name="Sagitaur" hidden="false" typeId="74f8-5443-9d6d-1f1e" typeName="Transport">
@@ -4431,7 +4431,7 @@ At the start of the Declare Battle Formations step, you can select one ^^**Heart
         </profile>
         <profile id="a40d-50a1-cd02-32c0" name="Breaching Fire" hidden="false" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities">
           <characteristics>
-            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Dans votre phase de Tir, après que cette unité ait tiré, sélectionnez une unité ennemie touchée par une ou plusieurs de ces attaques. Jusqu'au début de votre prochaine phase de Tir, cette unité ennemie ne pourra pas bénéficier de la couverture.</characteristic>
+            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Durant votre phase de Tir, après que cette unité a tiré, sélectionnez une unité ennemie touchée par une ou plusieurs de ces attaques. Jusqu’au début de votre prochaine phase de Tir, cette unité ennemie ne peut pas recevoir le Bénéfice du Couvert.</characteristic>
           </characteristics>
         </profile>
       </profiles>
@@ -4725,7 +4725,7 @@ At the start of the Declare Battle Formations step, you can select one ^^**Heart
         </profile>
         <profile id="caa1-a6c2-f241-ef7a" name="MultiCOG Targeting" hidden="false" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities">
           <characteristics>
-            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Chaque fois que cette figurine effectue une attaque de tir, vous pouvez ignorer l'une ou l'autre des modifications suivantes: la caractéristique de caractéristique de Capacité de Tir de cette attaque, le jet de Touche.</characteristic>
+            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Chaque fois que cette figurine effectue une attaque de tir, vous pouvez ignorer tout ou partie des modificateurs aux éléments suivants : la caractéristique de Capacité de Tir de cette attaque et le jet de Touche.</characteristic>
           </characteristics>
         </profile>
         <profile id="390f-db57-a56d-a66c" name="Damaged: 1-5 wounds remaining" hidden="false" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities">
@@ -4824,7 +4824,7 @@ At the start of the Declare Battle Formations step, you can select one ^^**Heart
                   </entryLinks>
                   <rules>
                     <rule name="Conversion" id="9591-6a18-3373-5ab0" hidden="false">
-                      <description>Chaque fois qu'une attaque effectuée avec cette arme cible une unité ennemie qui n'est pas à 12" ou moins, un succès non modifié jet de Touche de 4+ marque un Hit critique.</description>
+                      <description>Chaque fois qu’une attaque effectuée avec cette arme cible une unité ennemie qui n’est pas à 12" ou moins, tout jet de Touche non modifié réussi de 4+ est une Touche Critique.</description>
                     </rule>
                   </rules>
                 </selectionEntry>
@@ -4929,7 +4929,7 @@ At the start of the Declare Battle Formations step, you can select one ^^**Heart
                   <profiles>
                     <profile name="Pan spectral scanner" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="ebd6-d270-d7ee-bd1d">
                       <characteristics>
-                        <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Chaque fois qu'une figurine dans l'unité du porteur effectue une attaque de tir, relancez un jet de Touche de 1.</characteristic>
+                        <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Chaque fois qu’une figurine de l’unité du porteur effectue une attaque de tir, relancez un jet de Touche de 1.</characteristic>
                       </characteristics>
                     </profile>
                   </profiles>
@@ -5105,7 +5105,7 @@ At the start of the Declare Battle Formations step, you can select one ^^**Heart
       <profiles>
         <profile name="Pragmatic Hunters" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="9b20-7d92-1649-148f">
           <characteristics>
-            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Une fois par tour, lorsqu'une unité ennemie termine un mouvement Normal, Avance ou Retraite à 9" ou moins de cette unité, elle peut effectuer un mouvement Normal jusqu'à D6".</characteristic>
+            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Une fois par tour, lorsqu'une unité ennemie termine une normale, une avance ou une mouvement de Retraite à 9" ou moins de cette unité, elle peut effectuer un mouvement Normal jusqu'à D6".</characteristic>
           </characteristics>
         </profile>
         <profile name="Hernkyn Yaegirs" typeId="c547-1836-d8a-ff4f" typeName="Unit" hidden="false" id="3cb7-824f-70fc-ac53">
@@ -5543,12 +5543,12 @@ At the start of the Declare Battle Formations step, you can select one ^^**Heart
         </profile>
         <profile name="Grudge-fuelled Fortitude" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="e5f1-165b-ee7e-ce92">
           <characteristics>
-            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">La première fois que cette figurine est détruit, à la fin de la phase, lancez un D6: sur un 2+, remettez cette figurine sur le champ de bataille aussi près que possible de l'endroit où il a été détruit et non dans la Portée d’Engagement d'une ou de plusieurs unités ennemies, avec tous ses PV.</characteristic>
+            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">La première fois que cette figurine est détruite, à la fin de la phase, lancez un D6 : sur 2+, replacez cette figurine sur le champ de bataille aussi près que possible de l’endroit où elle a été détruite, hors de Portée d’Engagement d’une ou plusieurs unités ennemies, avec tous ses PV restants.</characteristic>
           </characteristics>
         </profile>
         <profile name="Unhinged Vengeance" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="d632-0763-8aee-ce98">
           <characteristics>
-            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Dans la phase de Tir de votre adversaire, chaque fois qu'une unité ennemie tire, si cette figurine perd un ou plusieurs PV à la suite de ces attaques, cette figurine peut faire un mouvement de Vengeance. Pour ce faire, lancez un D6 et ajouter 2 au résultat: il se déplace d’un nombre de pouces inférieur ou égal au résultat, mais il doit mettre fin à ce mouvement aussi près que possible de l'unité ennemie la plus proche (à l'exclusion de ^^**Aircraft**^^). En faisant cela, il peut être déplacé à l'intérieur de la Portée d’Engagement de cette unité ennemie. cette figurine ne peut pas faire un mouvement de Vengeance pendant qu'il est Ébranlé ou à l'intérieur de la Portée d’Engagement d'une ou de plusieurs unités ennemies, et ne peut faire qu'un mouvement de Vengeance par phase.</characteristic>
+            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Dans phase de Tir de votre adversaire, chaque fois qu'une unité ennemie a tiré, si cette figurine a perdu un ou plusieurs PV à la suite de ces Attaques, cette figurine peut faire un mouvement de Vengeance. Pour ce faire, lancez un D6 et ajouter 2 au résultat: il se déplace d’un nombre de pouces inférieur ou égal au résultat, mais il doit terminer ce mouvement le plus près possible du unité ennemie (à l’exclusion de ^^**Aircraft**^^). En faisant cela, il peut être déplacé dans Portée d’Engagement de cette unité ennemie. cette figurine ne peut pas faire un mouvement de Vengeance alors qu'il est Ébranlé ou à l'intérieur de Portée d’Engagement d'une ou de plusieurs unités ennemies, et ne peut faire qu'un mouvement de Vengeance par phase.</characteristic>
           </characteristics>
         </profile>
       </profiles>
@@ -5657,12 +5657,12 @@ At the start of the Declare Battle Formations step, you can select one ^^**Heart
         </profile>
         <profile name="Computational Mastermind" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="83a2-efc4-1e59-b3ea">
           <characteristics>
-            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">À la fin de votre phase de Commandement, avant de déterminer si les unités de votre armée ont l'acquisition hostile ou renforcer la prise de contrôle, pour chaque marqueur objectif que vous contrôlez qui a une ou plusieurs figurines avec cette aptitude dans sa portée, vous pouvez dépenser 1YP ou gagner 1YP.</characteristic>
+            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">À la fin de votre phase de Commandement, avant de déterminer si les unités de votre armée ont l'acquisition hostile ou renforcer la prise de contrôle, pour chaque pion d’objectif que vous contrôlez qui a une ou plusieurs figurines avec cette aptitude dans Portée de celui-ci, vous pouvez dépenser 1YP ou gagner 1YP.</characteristic>
           </characteristics>
         </profile>
         <profile name="Predictive Guidance" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="455d-1e24-c53e-c789">
           <characteristics>
-            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Une fois par tour de bataille, cette figurine peut utiliser cette aptitude. Si c'est le cas, vous pouvez cibler cette unité avec le Fire Overwatch ou le Stratagème d'intervention héroïque pour 0CP.</characteristic>
+            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Une fois par tour de bataille, cette figurine peut utiliser cette aptitude. Si elle le fait, vous pouvez cibler cette unité avec le Stratagème Fire Overwatch ou Heroic Intervention pour 0CP.</characteristic>
           </characteristics>
         </profile>
         <profile name="Meneur" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="8aae-1b2c-3dc5-e526">
@@ -5846,12 +5846,12 @@ At the start of the Declare Battle Formations step, you can select one ^^**Heart
         </profile>
         <profile name="Science Guild Support" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="a4aa-1f9d-f411-5e68">
           <characteristics>
-            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Tant que cette figurine est à 3" ou moins d'une ou de plusieurs autres unités ^^**Leagues of Votann Infantry**^^ amicales (à l'exclusion des unités avec la aptitude Agent solitaire), cette figurine a la aptitude Agent solitaire.</characteristic>
+            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Tant que cette figurine est à 3" ou moins d’une ou plusieurs autres unités ^^**Leagues of Votann Infantry**^^ amies (à l’exclusion des unités dotées de l’aptitude Agent Solitaire), cette figurine a l’aptitude Agent Solitaire.</characteristic>
           </characteristics>
         </profile>
         <profile name="Resource Transmutation" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="ee59-d825-22fa-51b8">
           <characteristics>
-            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Une fois par tour, dans votre phase de Tir, une figurine avec cette aptitude peut choisir de l'utiliser lorsqu'il est sélectionné pour tirer. Si c'est le cas, vous devez dépenser 1YP et, jusqu'à la fin de la phase, les armes de tir équipées par cette figurine ont la aptitude [^^**Sustained Hits 1**^^] et, après que cette figurine a tiré cette phase, si une ou plusieurs unités ennemies ont été détruites par ces attaques, vous pouvez gagner jusqu'à 2YP.</characteristic>
+            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Une fois par tour, dans votre phase de Tir, une figurine avec cette aptitude peut choisir de l'utiliser quand il est sélectionnée pour tirer. Si c'est le cas, vous devez dépenser 1YP et, Jusqu’à la fin de la phase, armes de tir équipé de cette figurine ont l’aptitude [^^**Sustained Hits 1**^^] et, après que figurine a tiré cette phase, si une ou plusieurs unités ennemies ont été détruites par ces Attaques, vous pouvez gagner jusqu'à 2YP.</characteristic>
           </characteristics>
         </profile>
       </profiles>
@@ -6055,7 +6055,7 @@ At the start of the Declare Battle Formations step, you can select one ^^**Heart
       <profiles>
         <profile name="Opportunistic Manoeuvre" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="e89d-42e8-03cf-8bda">
           <characteristics>
-            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Dans votre phase de Tir, après que cette unité a tiré, il peut faire un déplacement normal de jusqu'à D6". Si tel est le cas, jusqu'à la fin du tour, cette unité n'est pas éligible à la déclaration d'une charge.</characteristic>
+            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Dans votre phase de Tir, après que cette unité a tiré, il peut effectuer un mouvement Normal de jusqu'à D6". Si tel est le cas, jusqu'à la fin du tour, cette unité n'est pas éligible à la déclaration d'une charge.</characteristic>
           </characteristics>
         </profile>
       </profiles>
@@ -6115,7 +6115,7 @@ At the start of the Declare Battle Formations step, you can select one ^^**Heart
                   <profiles>
                     <profile name="Smoke Launcher" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="5923-f46a-2fa1-2f44">
                       <characteristics>
-                        <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Le porteur a le mot-clé ^^**Smoke**^^.</characteristic>
+                        <characteristic name="Description" typeId="9b8f-694b-e5e-b573">le porteur a mot-clé ^^**Smoke**^^.</characteristic>
                       </characteristics>
                     </profile>
                   </profiles>
@@ -6324,7 +6324,7 @@ At the start of the Declare Battle Formations step, you can select one ^^**Heart
         </profile>
         <profile name="Scanner Uplinks" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="087c-930f-dd21-38d9">
           <characteristics>
-            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Dans votre phase de Tir, après que cette figurine ait tiré, sélectionnez une unité ennemi (à l'exclusion de ^^**Monsters^^** et ^^**Vehicles^^**) touchée par une ou plusieurs de ces attaques. Jusqu'au début de votre tour suivant, cette unité ennemie est supprimée. Tant qu’une unité est supprimée, chaque fois qu'une figurine dans cette unité fait une attaque, Soustrayez 1 du jet de Touche.</characteristic>
+            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Durant votre phase de Tir, après que cette figurine a tiré, sélectionnez une unité ennemie (à l’exclusion des ^^**Monsters^^** et des ^^**Vehicles^^**) touchée par une ou plusieurs de ces attaques. Jusqu’au début de votre prochain tour, cette unité ennemie est neutralisée. Tant qu’une unité est neutralisée, chaque fois qu’une figurine de cette unité effectue une attaque, soustrayez 1 au jet de Touche.</characteristic>
           </characteristics>
         </profile>
         <profile name="Kapricus Carrier" typeId="74f8-5443-9d6d-1f1e" typeName="Transport" hidden="false" id="a659-a9e7-2c7d-b6d5">
@@ -6376,7 +6376,7 @@ At the start of the Declare Battle Formations step, you can select one ^^**Hernk
               <profiles>
                 <profile name="Smoke Launcher" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="fbbb-fa26-5133-b386">
                   <characteristics>
-                    <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Le porteur a le mot-clé ^^**Smoke**^^.</characteristic>
+                    <characteristic name="Description" typeId="9b8f-694b-e5e-b573">le porteur a mot-clé ^^**Smoke**^^.</characteristic>
                   </characteristics>
                 </profile>
               </profiles>
@@ -6857,7 +6857,7 @@ At the start of the Declare Battle Formations step, you can select one ^^**Hernk
         </profile>
         <profile name="Merciless Eradication" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="f407-03ed-dc32-44b4">
           <characteristics>
-            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Chaque fois qu'une unité ennemie (à l'exclusion de ^^**Monsters^^** et ^^**Vehicles^^**) qui se trouve à l'intérieur de la Portée d’Engagement de cette unité Bat en Retraite, tous les figurines de cette unité ennemie doivent passer un test d'évasion désespérée. Lorsque vous faites cela, si cette unité ennemie est Ébranlée, Soustrayez 1 de chacun de ces tests.</characteristic>
+            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Chaque fois qu’une unité ennemie (à l’exclusion des ^^**Monsters^^** et des ^^**Vehicles^^**) à Portée d’Engagement de cette unité Bat en Retraite, toutes les figurines de cette unité ennemie doivent effectuer un test de Fuite Désespérée. Ce faisant, si cette unité ennemie est Ébranlée, soustrayez 1 à chacun de ces tests.</characteristic>
           </characteristics>
         </profile>
       </profiles>
@@ -6962,7 +6962,7 @@ At the start of the Declare Battle Formations step, you can select one ^^**Hernk
       <profiles>
         <profile name="Preymark crest" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="c085-b752-358a-e7e9">
           <characteristics>
-            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Chaque fois qu'une figurine dans l'unité du porteur effectue une attaque visant une unité ennemi dans la portée d'un ou plusieurs marqueurs objectifs, sur une blessure critique, cette attaque a la aptitude [Précision].</characteristic>
+            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Chaque fois qu'une figurine dans l’unité du porteur effectue une attaque visant une unité ennemie dans Portée d'un ou plusieurs pions d’objectif, sur un Blessure Critique, cette attaque a l’aptitude [Précision].</characteristic>
           </characteristics>
         </profile>
       </profiles>
@@ -7093,7 +7093,7 @@ At the start of the Declare Battle Formations step, you can select one ^^**Hernk
                     </profile>
                     <profile name="Geomantic Hunters" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="a0e2-31bc-54e1-e3ac">
                       <characteristics>
-                        <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Jusqu'à deux fois par bataille, dans votre phase de Tir, quand cette unité est sélectionnée pour tirer, elle peut utiliser cette aptitude. Si c'est le cas, jusqu'à la fin de la phase, à chaque fois qu'une figurine dans cette unité attaque avec ses armes, vous pouvez relancer le jet de Blessure.</characteristic>
+                        <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Jusqu'à deux fois par bataille, dans votre phase de Tir, quand cette unité est sélectionnée pour tirer, il peut utiliser cette aptitude. Si c'est le cas, Jusqu’à la fin de la phase, chaque fois qu'une figurine dans cette unité fait une attaque avec ses munitions, vous pouvez relancer le jet de Blessure.</characteristic>
                       </characteristics>
                     </profile>
                   </profiles>
@@ -7121,7 +7121,7 @@ At the start of the Declare Battle Formations step, you can select one ^^**Hernk
                     </profile>
                     <profile name="Destabilising Quakes" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="ff77-7827-2e0b-4e6b">
                       <characteristics>
-                        <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Dans votre phase de Tir, après que cette unité ait tiré, sélectionnez une unité ennemie touchée par une ou plusieurs de ces attaques faites avec ses obus de tremblement. Cette unité doit passer un test d’Ébranlement, en soustrayant 1 du résultat.</characteristic>
+                        <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Durant votre phase de Tir, après que cette unité a tiré, sélectionnez une unité ennemie touchée par une ou plusieurs de ces attaques effectuées avec ses tremor shells. Cette unité doit effectuer un test d’Ébranlement, en soustrayant 1 au résultat.</characteristic>
                       </characteristics>
                     </profile>
                   </profiles>
@@ -7306,7 +7306,7 @@ At the start of the Declare Battle Formations step, you can select one ^^**Hernk
         </profile>
         <profile name="Grimnyr's Regard" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="5e18-5281-9f05-cb56">
           <characteristics>
-            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Une fois par bataille, au début de toute phase, vous pouvez sélectionner une unité ^^**Leagues of Votann**^^ amicale qui est Ébranlée et à 12" ou moins de cette figurine. Cette unité n'est plus Ébranlée.</characteristic>
+            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Une fois par bataille, au début de toute phase, vous pouvez sélectionner une unité amicale ^^**Leagues of Votann**^^ qui est Ébranlé et à 12" ou moins de cette figurine. Cette unité n'est plus Ébranlé.</characteristic>
           </characteristics>
         </profile>
       </profiles>
@@ -7771,12 +7771,12 @@ At the start of the Declare Battle Formations step, you can select one ^^**Hernk
         </profile>
         <profile name="Break the Foe" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="bde3-2380-e35d-4b9f">
           <characteristics>
-            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Les armes Melee équipées par des figurines de cette unité ont la aptitude [^^Sustained Hits 1^^].</characteristic>
+            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Les armes de mêlée dont les figurines de cette unité sont équipées ont l’aptitude [^^Sustained Hits 1^^].</characteristic>
           </characteristics>
         </profile>
         <profile name="Relentless Avalanche" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="90bf-038f-b323-01d7">
           <characteristics>
-            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Vous pouvez cibler l'unité de cette figurine avec le Stratagème d'intervention héroïque pour 0CP, et vous pouvez le faire même si vous avez déjà ciblé une unité différente avec ce Stratagème cette phase.</characteristic>
+            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Vous pouvez cibler l’unité de cette figurine avec l'intervention héroïque Stratagème pour 0CP, et vous pouvez le faire même si vous avez déjà ciblé une unité différente avec ce Stratagème cette phase.</characteristic>
           </characteristics>
         </profile>
         <profile name="Meneur" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="afcf-70e3-6e45-b361">
@@ -7879,7 +7879,7 @@ At the start of the Declare Battle Formations step, you can select one ^^**Hernk
           <profiles>
             <profile name="Bastion Shield" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="68fb-67e5-3675-c850">
               <characteristics>
-                <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Chaque fois qu'une attaque de tir cible l'unité du porteur, si la figurine d'attaque est à 12" ou moins de l'unité du porteur, aggraver la caractéristique de Pénétration d’Armure de cette attaque par 1. Si vous dépensez 1YP, jusqu'à la fin de la phase, si la figurine d'attaque est à 18" ou moins de l'unité du porteur, aggraver la caractéristique de Pénétration d’Armure de cette attaque par 1 à la place.</characteristic>
+                <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Chaque fois qu'une attaque de tir cible l’unité du porteur, si l'attaquant figurine se trouve à 12" ou moins de l’unité du porteur, aggrave la caractéristique de Pénétration d’Armure de cette attaque par 1. Si vous dépensez 1YP, Jusqu’à la fin de la phase, si l'attaquant figurine est à 18" ou moins de l’unité du porteur, aggraver la caractéristique de Pénétration d’Armure de cette attaque par 1 à la place.</characteristic>
               </characteristics>
             </profile>
           </profiles>
@@ -7918,7 +7918,7 @@ At the start of the Declare Battle Formations step, you can select one ^^**Hernk
           <profiles>
             <profile name="High Kâhl" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="c87b-83b3-96a4-45c9">
               <characteristics>
-                <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Chaque fois qu'une figurine dans l'unité du porteur est détruite par une attaque de mêlée, s'il n'a pas combattu cette phase, lancez un D6: sur un 4+, ne le retirez pas du jeu. la figurine détruit peut se battre après que l'unité attaquante ait terminé ses attaques, et est ensuite retiré du jeu.</characteristic>
+                <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Chaque fois qu’une figurine de l’unité du porteur est détruite par une attaque de mêlée, si elle n’a pas combattu à cette phase, lancez un D6 : sur 4+, ne la retirez pas du jeu. La figurine détruite peut combattre une fois que l’unité attaquante a fini de résoudre ses attaques, puis elle est retirée du jeu.</characteristic>
               </characteristics>
             </profile>
           </profiles>
@@ -7990,7 +7990,7 @@ At the start of the Declare Battle Formations step, you can select one ^^**Hernk
           <profiles>
             <profile name="Quake Multigenerator" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="dae0-e2e7-a42b-6566">
               <characteristics>
-                <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Dans votre phase de Tir, après que le porteur ait tiré, sélectionnez une unité ennemi (à l'exclusion des unités TITANIC) touchée par une ou plusieurs de ces attaques. Jusqu'au début de votre tour suivant, cette unité ennemie est supprimée. Tant qu’une unité est supprimée, chaque fois qu'une figurine dans cette unité fait une attaque, Soustrayez 1 du jet de Touche.</characteristic>
+                <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Dans votre phase de Tir, après que le porteur a tiré, sélectionnez une unité ennemie (à l’exclusion de TITANIC unités) frappé par un ou plusieurs de ces Attaques. Jusqu'au début de votre tour suivant, le unité ennemie est supprimé. Tant qu’une unité est supprimée, chaque fois qu'une figurine dans cette unité fait une attaque, Soustrayez 1 du jet de Touche.</characteristic>
               </characteristics>
             </profile>
           </profiles>
@@ -8013,7 +8013,7 @@ At the start of the Declare Battle Formations step, you can select one ^^**Hernk
           <profiles>
             <profile name="Oathbound Speculator" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="60bb-029d-adde-8c64">
               <characteristics>
-                <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Chaque fois qu'une figurine dans l'unité du porteur fait une attaque, relancez un jet de Blessure de 1. Chaque fois que l'unité du porteur est sélectionnée pour tirer ou se battre, vous pouvez dépenser 3YP. Si vous le faites, jusqu'à la fin de la phase, chaque fois qu'une figurine dans l'unité du porteur fait une attaque, ajoutez 1 au jet de Blessure.</characteristic>
+                <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Chaque fois qu'une figurine dans l’unité du porteur fait une attaque, relancer est un jet de Blessure de 1. Chaque fois que l’unité du porteur est sélectionnée pour tirer ou combat, vous pouvez dépenser 3YP. Si vous le faites, Jusqu’à la fin de la phase, chaque fois qu'une figurine dans l’unité du porteur fait une attaque, ajoutez 1 au jet de Blessure.</characteristic>
               </characteristics>
             </profile>
           </profiles>
@@ -8045,7 +8045,7 @@ At the start of the Declare Battle Formations step, you can select one ^^**Hernk
           <profiles>
             <profile name="Writ of Acquisition" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="990a-1483-ea2a-7717">
               <characteristics>
-                <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Dans votre phase de Tir, après que l'unité du porteur a tiré, vous gagnez 1YP pour chaque unité attaquée touchée par une ou plusieurs de ces attaques (au maximum 3YP).</characteristic>
+                <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Dans votre phase de Tir, après que l’unité du porteur ait tiré, vous gagnez 1YP pour chaque unité attaquée touchée par un ou plusieurs de ces Attaques (au maximum 3YP).</characteristic>
               </characteristics>
             </profile>
           </profiles>
@@ -8077,7 +8077,7 @@ At the start of the Declare Battle Formations step, you can select one ^^**Hernk
           <profiles>
             <profile name="Surgical Saboteur" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="4f9f-9690-d034-41e1">
               <characteristics>
-                <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Dans votre phase de Tir, après que cette figurine ait tiré, sélectionnez une unité ^^**Monster^^** ou ^^**Vehicle^^** frappée par une ou plusieurs de ces attaques; jusqu'au début de votre prochaine phase de Tir, cette figurine est fixé.</characteristic>
+                <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Durant votre phase de Tir, après que cette figurine a tiré, sélectionnez une unité ^^**Monster^^** ou ^^**Vehicle^^** touchée par une ou plusieurs de ces attaques ; jusqu’au début de votre prochaine phase de Tir, cette unité est clouée.</characteristic>
               </characteristics>
             </profile>
           </profiles>
@@ -8109,7 +8109,7 @@ At the start of the Declare Battle Formations step, you can select one ^^**Hernk
           <profiles>
             <profile name="Nomad Strategist" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="9e9d-d507-a29b-376d">
               <characteristics>
-                <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Une fois par bataille, à la fin de la phase de Combat de votre adversaire, si le porteur est sur le champ de bataille, il peut utiliser ce renforcement. Si c'est le cas, sélectionnez une unité ^^**Hernkyn^^** unité de votre armée, et, pour chaque 2YP vous just spent, sélectionnez jusqu’à une additional ^^**Hernkyn^^** de votre armée. Vous pouvez retirer ces unités du champ de bataille et les placer dans les réserves stratégiques. Vous ne pouvez pas sélectionner une unité qui se trouve dans la Portée d’Engagement d'une ou plusieurs unités ennemies (à l'exclusion des unités attaquées).</characteristic>
+                <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Une fois par bataille, à la fin de la phase de Combat de votre adversaire, si le porteur est sur le champ de bataille, il peut utiliser cette Optimisation. S’il le fait, sélectionnez une unité ^^**Hernkyn^^** de votre armée puis, pour chaque tranche de 2YP que vous venez de dépenser, sélectionnez jusqu’à une unité ^^**Hernkyn^^** supplémentaire de votre armée. Vous pouvez retirer ces unités du champ de bataille et les placer en Réserves Stratégiques. Vous ne pouvez pas sélectionner une unité à Portée d’Engagement d’une ou plusieurs unités ennemies (à l’exclusion des unités assaillies).</characteristic>
               </characteristics>
             </profile>
           </profiles>
@@ -8141,7 +8141,7 @@ At the start of the Declare Battle Formations step, you can select one ^^**Hernk
           <profiles>
             <profile name="Eye For Weakness" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="248d-6da7-057c-1d44">
               <characteristics>
-                <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Chaque fois qu'une figurine dans l'unité du porteur effectue une attaque visant une unité attaquée, ajoutez 1 au jet de Blessure.</characteristic>
+                <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Chaque fois qu'une figurine dans l’unité du porteur effectue une attaque visant une unité attaquée, ajoutez 1 au jet de Blessure.</characteristic>
               </characteristics>
             </profile>
           </profiles>
@@ -8205,7 +8205,7 @@ At the start of the Declare Battle Formations step, you can select one ^^**Hernk
           <profiles>
             <profile name="Iron Ambassador" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="117e-c438-62e4-e680">
               <characteristics>
-                <characteristic name="Description" typeId="9b8f-694b-e5e-b573">la figurine **^^Leagues of Votann^^** est équipé d'un boulonnage combiné de figurine Autoch uniquement. Une fois par bataille, lorsque l'unité du porteur est sélectionnée pour tirer, le porteur peut utiliser cette Optimisation. Si c'est le cas, dépensez jusqu'à 3YP, et, jusqu'à la fin de la phase, ajoutez le nombre de YP que vous venez de dépenser à la caractéristique de Dégâts des armes de tir du porteur.</characteristic>
+                <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Figurine **^^Leagues of Votann^^** équipée d’un Autoch-pattern combi-bolter uniquement. Une fois par bataille, lorsque l’unité du porteur est sélectionnée pour tirer, le porteur peut utiliser cette Optimisation. S’il le fait, dépensez jusqu’à 3YP et, jusqu’à la fin de la phase, ajoutez le nombre de YP que vous venez de dépenser à la caractéristique de Dégâts des armes de tir du porteur.</characteristic>
               </characteristics>
             </profile>
           </profiles>
@@ -8242,7 +8242,7 @@ At the start of the Declare Battle Formations step, you can select one ^^**Hernk
           <profiles>
             <profile name="Ancestral Crest" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="e77a-3fd5-3f29-0bf2">
               <characteristics>
-                <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Une fois par tour, lorsque vous ciblez l'unité du porteur avec le Command relancer Stratagème, le porteur peut utiliser cet Optimisation. Si c'est le cas, dépensez 1YP et réduisez le coût CP de ce Stratagème par 1CP.</characteristic>
+                <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Une fois par tour, lorsque vous ciblez l’unité du porteur avec le Stratagème Command Re-roll (Relance de Commandement), le porteur peut utiliser cette Optimisation. S’il le fait, dépensez 1YP et réduisez de 1CP le coût en CP de ce Stratagème.</characteristic>
               </characteristics>
             </profile>
           </profiles>
@@ -8274,7 +8274,7 @@ At the start of the Declare Battle Formations step, you can select one ^^**Hernk
           <profiles>
             <profile name="Fârstryder Node" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="f75b-09fb-c628-7542">
               <characteristics>
-                <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Les figurines de l'unité du porteur ont la capacité Frappe en profondeur.</characteristic>
+                <characteristic name="Description" typeId="9b8f-694b-e5e-b573">les figurines de l’unité du porteur ont la capacité Frappe en profondeur.</characteristic>
               </characteristics>
             </profile>
           </profiles>
@@ -8319,7 +8319,7 @@ At the start of the Declare Battle Formations step, you can select one ^^**Hernk
           <profiles>
             <profile name="Graviton Vault" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="f1bf-8f44-8a5a-d87b">
               <characteristics>
-                <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Dans votre phase de Tir, après que le porteur a tiré, et dans la phase de Combat, après que le porteur a combattu, sélectionnez un ennemi ^^**Monster^^** ou ^^**Vehicle**^^ unité frappée par une ou plusieurs de ces attaques. Jusqu'au début de votre tour suivant, cette unité ennemie est supprimée. Tant qu’une unité est supprimée, chaque fois qu'une figurine dans cette unité fait une attaque, Soustrayez 1 du jet de Touche.</characteristic>
+                <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Dans votre phase de Tir, après que le porteur a tiré, et dans la phase de Combat, après que le porteur a combattu, sélectionnez un ennemi ^^**Monster^^** ou ^^**Vehicle**^^ frappé par une ou plusieurs de ces unités Attaques. Jusqu'au début de votre tour suivant, le unité ennemie est supprimé. Tant qu’une unité est supprimée, chaque fois qu'une figurine dans cette unité fait une attaque, Soustrayez 1 du jet de Touche.</characteristic>
               </characteristics>
             </profile>
           </profiles>
@@ -8356,7 +8356,7 @@ At the start of the Declare Battle Formations step, you can select one ^^**Hernk
           <profiles>
             <profile name="Mantle of Elders" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="6ae8-76e7-5b11-937f">
               <characteristics>
-                <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Chaque fois que l'unité du porteur est sélectionnée pour tirer, si vous dépensez YP en utilisant la règle de détachement Optimal Application lorsque vous le faites, vous pouvez rouler un D6: sur un 2+, vous gagnez 1YP.</characteristic>
+                <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Chaque fois que l’unité du porteur est sélectionnée pour tirer, si vous dépensez des YP à l’aide de la règle de Détachement Optimal Application à ce moment-là, vous pouvez lancer un D6 : sur 2+, vous gagnez 1YP.</characteristic>
               </characteristics>
             </profile>
           </profiles>
@@ -8467,7 +8467,7 @@ At the start of the Declare Battle Formations step, you can select one ^^**Hernk
           <profiles>
             <profile name="Quake Supervisor" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="364f-3bc8-c79f-8188">
               <characteristics>
-                <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Alors que le porteur est à 3" ou moins d'un ou de plusieurs unités amies ^^**Leagues of Votann Artillery^^** unités, le porteur a l’ Agent solitaire aptitude, et chaque fois que une de ces ^^**Artillery^^** effectue une attaque de tir qui cible une unité ennemi visible pour le porteur, ajoutez 1 au jet de Touche.</characteristic>
+                <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Tant que le porteur est à 3" ou moins d’une ou plusieurs unités ^^**Leagues of Votann Artillery^^** amies, il a l’aptitude Lone Operative et, chaque fois que l’une de ces unités ^^**Artillery^^** effectue une attaque de tir qui cible une unité ennemie visible du porteur, ajoutez 1 au jet de Touche.</characteristic>
               </characteristics>
             </profile>
           </profiles>
@@ -8499,7 +8499,7 @@ At the start of the Declare Battle Formations step, you can select one ^^**Hernk
           <profiles>
             <profile name="Piledriver" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="4d1e-4abe-101d-3c11">
               <characteristics>
-                <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Chaque fois que l'unité du porteur est sélectionnée pour combattre, le porteur peut utiliser cette Optimisation. Si c'est le cas, dépensez jusqu'à 2YP et, jusqu'à la fin de la phase, ajoutez le nombre de YP que vous venez de dépenser à la caractéristique de Dégâts des armes de mêlée du porteur.</characteristic>
+                <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Chaque fois que l’unité du porteur est sélectionnée pour combattre, le porteur peut utiliser ce Optimisation. Si c'est le cas, dépensez jusqu'à 2YP et, Jusqu’à la fin de la phase, ajoutez le nombre de YP que vous venez de dépenser à la caractéristique de Dégâts des armes du porteur de mêlée.</characteristic>
               </characteristics>
             </profile>
           </profiles>
@@ -8531,7 +8531,7 @@ At the start of the Declare Battle Formations step, you can select one ^^**Hernk
           <profiles>
             <profile name="Multiwave System Jammer" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="3ea5-2e96-f349-86e6">
               <characteristics>
-                <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Une fois par bataille, dans votre phase de Mouvement, si le porteur est sur le champ de bataille, il peut utiliser cette Optimisation. Si c'est le cas, sélectionnez une unité ^^**Cthonian^^** qui est dans les réserves. Jusqu'à la fin de la phase, dans le but de mettre en place cette unité sur le champ de bataille, traitez le nombre de rondes de bataille actuel comme un plus élevé qu'il ne l'est réellement.</characteristic>
+                <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Une fois par bataille, dans votre phase de Mouvement, si le porteur est sur le champ de bataille, il peut utiliser ce Optimisation. Si c'est le cas, sélectionnez une unité ^^**Cthonian^^** qui est dans les réserves. Jusqu’à la fin de la phase, aux fins de la mise en place de cette unité sur le champ de bataille, traiter le numéro de tour de bataille actuel comme un plus élevé que ce qu'il est réellement.</characteristic>
               </characteristics>
             </profile>
           </profiles>
@@ -8563,7 +8563,7 @@ At the start of the Declare Battle Formations step, you can select one ^^**Hernk
           <profiles>
             <profile name="Tactical Alchemy" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="8446-8633-f438-d396">
               <characteristics>
-                <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Dans votre phase de Commandement, si l'unité du porteur est à la portée d'un ou plusieurs marqueurs objectifs que vous contrôlez qui ne sont pas dans votre zone de déploiement, vous pouvez dépenser 1YP. Si vous le faites, lancez un D6: sur un 4+, vous gagnez 1CP.</characteristic>
+                <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Dans votre phase de Commandement, si l’unité du porteur est dans Portée d'un ou plusieurs pions d’objectif que vous contrôlez qui ne sont pas dans votre zone de déploiement, vous pouvez dépenser 1YP. Si vous le faites, lancez un D6: sur un 4+, vous gagnez 1CP.</characteristic>
               </characteristics>
             </profile>
           </profiles>
@@ -8600,7 +8600,7 @@ At the start of the Declare Battle Formations step, you can select one ^^**Hernk
           <profiles>
             <profile name="Trivârg Cyber Implant" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="6b6c-34d4-6ad1-b0ab">
               <characteristics>
-                <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Dans votre phase de Tir, chaque fois que l'unité du porteur est sélectionnée pour tirer, si elle débarque d'une aptitude ^^**Transport^^** ce tour, or si vous spend 2YP, jusqu’à la fin de la phase, armes de tir dont sont équipées figurine dans cette unité ont l’ [**^^Sustained Hits 2^^**].</characteristic>
+                <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Durant votre phase de Tir, chaque fois que l’unité du porteur est sélectionnée pour tirer, si elle a débarqué d’un ^^**Transport^^** à ce tour, ou si vous dépensez 2YP, jusqu’à la fin de la phase, les armes de tir dont sont équipées les figurines de cette unité ont l’aptitude [**^^Sustained Hits 2^^**].</characteristic>
               </characteristics>
             </profile>
           </profiles>
@@ -8633,7 +8633,7 @@ At the start of the Declare Battle Formations step, you can select one ^^**Hernk
           <profiles>
             <profile name="Precursive Judgement" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="ffac-af2d-0470-7e85">
               <characteristics>
-                <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Alors que l'unité du porteur est entièrement à 6" ou moins d'une ou de plusieurs unités ^^**Leagues of Votann Transport^^** amicales, vous pouvez cibler l'unité du porteur avec le Fire Overwatch Stratagème pour 0CP et les coups sont marqués sur un jet de Touche non modifié de 5+ tout en résolvant ce Stratagème.</characteristic>
+                <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Alors que l’unité du porteur est entièrement à 6" ou moins d'une ou plusieurs unités ^^**Leagues of Votann Transport^^** amicales, vous pouvez cibler l’unité du porteur avec le Fire Overwatch Stratagème pour 0CP et les coups sont marqués sur un jet de Touche non modifié de 5+ tout en résolvant ce Stratagème.</characteristic>
               </characteristics>
             </profile>
           </profiles>
@@ -8670,7 +8670,7 @@ At the start of the Declare Battle Formations step, you can select one ^^**Hernk
           <profiles>
             <profile name="Signature Restoration" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="0481-09bb-fb1f-3311">
               <characteristics>
-                <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Chaque fois qu'une figurine amie ^^**Leagues of Votann^^** est réparé en utilisant la aptitude Forgewrought Expertise du porteur, cette figurine récupère une PV perdus supplémentaire.</characteristic>
+                <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Chaque fois qu’une figurine ^^**Leagues of Votann^^** amie est réparée à l’aide de l’aptitude Forgewrought Expertise du porteur, cette figurine récupère un PV perdu supplémentaire.</characteristic>
               </characteristics>
             </profile>
           </profiles>
@@ -8707,7 +8707,7 @@ At the start of the Declare Battle Formations step, you can select one ^^**Hernk
           <profiles>
             <profile name="Mercenary Prospector" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="2878-d855-200f-c468">
               <characteristics>
-                <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Chaque fois qu'une unité ennemie est détruite par l'unité du porteur, gagnez 2YP.</characteristic>
+                <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Chaque fois qu'une unité ennemie est détruite par l’unité du porteur, gagnez 2YP.</characteristic>
               </characteristics>
             </profile>
           </profiles>
@@ -8745,7 +8745,7 @@ At the start of the Declare Battle Formations step, you can select one ^^**Hernk
           <profiles>
             <profile name="Metaphysical Brokerage" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="4b94-f812-5450-518b">
               <characteristics>
-                <characteristic name="Description" typeId="9b8f-694b-e5e-b573">À la fin de votre tour, si le porteur est sur le champ de bataille et que vous avez gagné moins de 3YP ce tour, vous gagnez une quantité de YP égale à la différence.</characteristic>
+                <characteristic name="Description" typeId="9b8f-694b-e5e-b573">À la fin de votre tour, si le porteur est sur le champ de bataille et vous avez gagné moins de 3YP ce tour, vous gagnez une quantité de YP égale à la différence.</characteristic>
               </characteristics>
             </profile>
           </profiles>
@@ -8783,7 +8783,7 @@ At the start of the Declare Battle Formations step, you can select one ^^**Hernk
           <profiles>
             <profile name="Etacarn SB9 Targeting Implant" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="785c-13fd-8102-bbaf">
               <characteristics>
-                <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Chaque fois qu'une figurine dans l'unité du porteur effectue une attaque, relancez un jet de Touche de 1. Chaque fois que l'unité du porteur est sélectionnée pour tirer ou se battre, vous pouvez dépenser 3YP. Si vous le faites, jusqu'à la fin de la phase, chaque fois qu'une figurine dans l'unité du porteur effectue une attaque, cette attaque a la aptitude [Touches soutenues 1].</characteristic>
+                <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Chaque fois qu’une figurine de l’unité du porteur effectue une attaque, relancez un jet de Touche de 1. Chaque fois que l’unité du porteur est sélectionnée pour tirer ou combattre, vous pouvez dépenser 3YP. Si vous le faites, jusqu’à la fin de la phase, chaque fois qu’une figurine de l’unité du porteur effectue une attaque, cette attaque a l’aptitude [Touches soutenues 1].</characteristic>
               </characteristics>
             </profile>
           </profiles>
@@ -8900,7 +8900,7 @@ At the start of the Declare Battle Formations step, you can select one ^^**Hernk
           <profiles>
             <profile name="Grim Demeanour" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="a44b-778a-c3d1-2603">
               <characteristics>
-                <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Améliorez les caractéristiques de contrôle et de Commandement des figurines de cette unité de 1.</characteristic>
+                <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Améliorez les caractéristiques Contrôle d’Objectif et Commandement des figurines de cette unité de 1.</characteristic>
               </characteristics>
             </profile>
           </profiles>
@@ -8941,7 +8941,7 @@ At the start of the Declare Battle Formations step, you can select one ^^**Hernk
           <profiles>
             <profile name="Dour Survivalist" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="b1cf-fb69-d781-b181">
               <characteristics>
-                <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Les figurines **^^Character^^** de cette unité ont la aptitude Insensible à la douleur 5+ et vous pouvez relancer les tests Out de Action pris pour cette unité.</characteristic>
+                <characteristic name="Description" typeId="9b8f-694b-e5e-b573">**^^Character^^** les figurines de cette unité ont effectué pour cette unité les tests Insensible à la douleur 5+ aptitude et vous pouvez relancer Out de Action.</characteristic>
               </characteristics>
             </profile>
           </profiles>
@@ -8980,7 +8980,7 @@ At the start of the Declare Battle Formations step, you can select one ^^**Hernk
           <profiles>
             <profile name="Personal Grudge" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="63bd-684f-de32-06e7">
               <characteristics>
-                <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Au début de la bataille, sélectionnez une unité de l'armée croisée de votre adversaire. Chaque fois qu'une figurine dans cette unité fait une attaque qui cible cette unité, cette attaque a les capacités **[LETHAL HITS]** et **[PRECISION]**.</characteristic>
+                <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Au début de la bataille, sélectionnez une unité de l'armée croisée de votre adversaire. Chaque fois qu'une figurine dans cette unité fait une attaque qui cible cette unité, cette attaque a les aptitudes **[LETHAL HITS]** et **[PRECISION]**.</characteristic>
               </characteristics>
             </profile>
           </profiles>
@@ -9056,7 +9056,7 @@ At the start of the Declare Battle Formations step, you can select one ^^**Hernk
           <profiles>
             <profile name="KV-Ceramide Undersuits" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="9246-d8d2-86cf-3a3d">
               <characteristics>
-                <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Les figurines de cette unité ont un 5+ sauvegarde invulnérable.</characteristic>
+                <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Les figurines de cette unité ont une sauvegarde invulnérable de 5+.</characteristic>
               </characteristics>
             </profile>
           </profiles>
@@ -9088,7 +9088,7 @@ At the start of the Declare Battle Formations step, you can select one ^^**Hernk
           <profiles>
             <profile name="Frontier Weaponsmiths" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="21b2-da80-fa52-9e06">
               <characteristics>
-                <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Ajoutez 6" à la caractéristique de Portée des armes de tir équipées de figurines de cette unité.</characteristic>
+                <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Ajoutez 6" à la caractéristique de Portée des armes de tir dont sont équipées les figurines de cette unité.</characteristic>
               </characteristics>
             </profile>
           </profiles>
@@ -9160,7 +9160,7 @@ At the start of the Declare Battle Formations step, you can select one ^^**Hernk
           <profiles>
             <profile name="Vengeful" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="840f-8b1c-b15b-0bdf">
               <characteristics>
-                <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Chaque fois qu'une figurine de cette unité fait une attaque, ajoutez 1 au jet de Touche si cette unité est inférieure à son Effectif Initial. En outre, ajoutez 1 au jet de Blessure si cette unité est en dessous de son Demi-effectif.</characteristic>
+                <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Chaque fois qu'une figurine dans cette unité fait une attaque, ajoutez 1 au jet de Touche si cette unité est en dessous de son Effectif Initial. En outre, ajoutez 1 au jet de Blessure si cette unité est En Dessous de son Demi-effectif.</characteristic>
               </characteristics>
             </profile>
           </profiles>
@@ -9192,7 +9192,7 @@ At the start of the Declare Battle Formations step, you can select one ^^**Hernk
           <profiles>
             <profile name="Ancestral Fury" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="86f1-5ce7-4ff3-a2c0">
               <characteristics>
-                <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Les armes Melee équipées par des figurines de cette unité ont la aptitude **[SUSTAINED HITS 1]**.</characteristic>
+                <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Les armes de mêlée dont les figurines de cette unité sont équipées ont l’aptitude **[SUSTAINED HITS 1]**.</characteristic>
               </characteristics>
             </profile>
           </profiles>
@@ -9267,7 +9267,7 @@ At the start of the Declare Battle Formations step, you can select one ^^**Hernk
           <profiles>
             <profile name="War-wrought" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="b8cd-fab9-ade8-208b">
               <characteristics>
-                <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Alors que les unités de votre armée de la Croisade ont Fortify Takeover, chaque fois qu'une attaque avec une caractéristique de Dégâts non modifiée de 1 est attribuée à une figurine dans cette unité, ajoutez 1 à tout jet de sauvegarde effectué contre cette attaque.</characteristic>
+                <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Alors que les unités de votre armée de la Croisade ont Fortify Takeover, chaque fois qu'une attaque avec une caractéristique de Dégâts non modifié de 1 est affectée à une figurine dans cette unité, ajoutez 1 à tout jet de sauvegarde d’armure effectué contre cette attaque.</characteristic>
               </characteristics>
             </profile>
           </profiles>
@@ -9294,7 +9294,7 @@ At the start of the Declare Battle Formations step, you can select one ^^**Hernk
               <profiles>
                 <profile name="Wayfarer's Grace" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="b464-a2a2-caad-e194">
                   <characteristics>
-                    <characteristic name="Description" typeId="9b8f-694b-e5e-b573">La première fois que le porteur est détruit, roule lancez un D6 à la fin de la phase: sur une 2+, mettre le porteur sur le champ de bataille aussi près que possible de l'endroit où il a été détruit et pas dans la portée de l'engagement d’une ou plusieurs unités ennemies, avec 3 PV restants.</characteristic>
+                    <characteristic name="Description" typeId="9b8f-694b-e5e-b573">La première fois que le porteur est détruit, lancez un D6 à la fin de la phase: sur un 2+, mettez le porteur de retour sur le champ de bataille le plus près possible de l'endroit où il a été détruit et non dans le Portée d’Engagement d'une ou de plusieurs unités ennemies, avec 3 PV restants.</characteristic>
                   </characteristics>
                 </profile>
               </profiles>
@@ -9337,7 +9337,7 @@ At the start of the Declare Battle Formations step, you can select one ^^**Hernk
               <profiles>
                 <profile name="Thyrikite Plate" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="ec65-c821-90e9-f515">
                   <characteristics>
-                    <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Alors que les unités de votre armée de la Croisade ont l'acquisition hostile, chaque fois qu'une attaque est attribuée au porteur, Soustrayez 1 de la caractéristique de Dégâts de cette attaque. Alors que les unités de votre armée de la Croisade ont Fortify Takeover, chaque fois qu'une attaque est attribuée au porteur, changez la caractéristique de Dégât de cette attaque à 1.</characteristic>
+                    <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Alors que les unités de votre armée de la Croisade ont l'acquisition hostile, chaque fois qu'une attaque est attribuée au porteur, Soustrayez 1 de la caractéristique de Dégâts de cette attaque. Alors que les unités de votre armée de la Croisade ont Fortify Takeover, chaque fois qu'une attaque est affectée au porteur, changez la caractéristique de Dégâts de cette attaque à 1.</characteristic>
                   </characteristics>
                 </profile>
               </profiles>
@@ -9384,7 +9384,7 @@ At the start of the Declare Battle Formations step, you can select one ^^**Hernk
               <profiles>
                 <profile name="First Knife" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="b5e7-392a-7d2d-670b">
                   <characteristics>
-                    <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Chaque fois que le porteur effectue une attaque de mêlée, vous pouvez relancer le jet de Touche et vous pouvez relancer le jet de Blessure. À la fin de la phase de Combat, vous pouvez sélectionner une unité ennemie dans la Portée d’Engagement du porteur et dépenser jusqu'à des points de rendement 4. Lancez un D6 pour chaque point dépensé: pour chaque 2+, cette unité ennemie subit 1 blessure mortelle.</characteristic>
+                    <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Chaque fois que le porteur fait une attaque de mêlée, vous pouvez relancer le jet de Touche et vous pouvez relancer le jet de Blessure. À la fin de la phase de Combat, vous pouvez sélectionner une unité ennemie dans Portée d’Engagement du porteur et dépenser jusqu'à des points de rendement 4. Lancez un D6 pour chaque point dépensé: pour chaque 2+, que cette unité ennemie souffre 1 blessure mortelle.</characteristic>
                   </characteristics>
                 </profile>
               </profiles>
@@ -9474,7 +9474,7 @@ At the start of the Declare Battle Formations step, you can select one ^^**Hernk
               <profiles>
                 <profile name="Grey Crest" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="e9ae-3c9a-5031-a4d5">
                   <characteristics>
-                    <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Les figurines dans l'unité du porteur ont la aptitude Discrétion.</characteristic>
+                    <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Les figurines de l’unité du porteur ont l’aptitude Discrétion.</characteristic>
                   </characteristics>
                 </profile>
               </profiles>
@@ -9513,7 +9513,7 @@ At the start of the Declare Battle Formations step, you can select one ^^**Hernk
               <profiles>
                 <profile name="Flâyre" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="3e8e-6329-8bcc-a625">
                   <characteristics>
-                    <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Alors que les unités de votre armée de la Croisade ont l'acquisition hostile, ajoutez 2 aux caractéristique d’Attaques des armes de mêlée du porteur. Alors que les unités de votre armée de la Croisade ont Fortify Takeover, ajoutez 1 aux caractéristique d’Attaques des armes de mêlée du porteur.</characteristic>
+                    <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Tant que des unités de votre armée de Croisade ont Hostile Acquisition, ajoutez 2 à la caractéristique d’Attaques des armes de mêlée du porteur. Tant que des unités de votre armée de Croisade ont Fortify Takeover, ajoutez 1 à la caractéristique d’Attaques des armes de mêlée du porteur.</characteristic>
                   </characteristics>
                 </profile>
               </profiles>
@@ -9653,7 +9653,7 @@ At the start of the Declare Battle Formations step, you can select one ^^**Hernk
                   <profiles>
                     <profile name="Upgraded Biorecyc Fabricator" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="7d77-e269-3493-cfb4">
                       <characteristics>
-                        <characteristic name="Description" typeId="9b8f-694b-e5e-b573">À la fin de chaque bataille, chaque unité **^^League of Votann^^** de votre armée de la Croisade qui est sur le champ de bataille (à l'exclusion de **^^Vehicles^^**) gagne 1XP.</characteristic>
+                        <characteristic name="Description" typeId="9b8f-694b-e5e-b573">À la fin de chaque bataille, chaque unité **^^League of Votann^^** de votre armée de la Croisade qui est sur le champ de bataille (à l’exclusion de **^^Vehicles^^**) gagne 1XP.</characteristic>
                       </characteristics>
                     </profile>
                   </profiles>
@@ -9853,7 +9853,7 @@ At the start of the Declare Battle Formations step, you can select one ^^**Hernk
                   <profiles>
                     <profile name="Upgraded Implant Refinery" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="aa2c-d8fc-26a0-dddd">
                       <characteristics>
-                        <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Chaque fois que vous lancez un D6 pour voir si votre force de la Croisade a gagné une ressource rare, vous pouvez relancer les dés.</characteristic>
+                        <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Chaque fois que vous lancez un D6 pour voir si votre force de Croisade a gagné une ressource rare, vous pouvez relancer les dés.</characteristic>
                       </characteristics>
                     </profile>
                   </profiles>
@@ -9865,7 +9865,7 @@ At the start of the Declare Battle Formations step, you can select one ^^**Hernk
                   <profiles>
                     <profile name="Implant Refinery" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="4947-9522-3b3f-937d">
                       <characteristics>
-                        <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Après chaque bataille, vous pouvez relancer les tests hors d'action ratés pour les unités **^^Leagues of Votann^^** (à l'exclusion de **^^Vehicles^^**) de votre armée de la Croisade.</characteristic>
+                        <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Après chaque bataille, vous pouvez relancer les tests Out of Action ratés effectués pour les unités **^^Leagues of Votann^^** (à l’exclusion des **^^Vehicles^^**) de votre armée de Croisade.</characteristic>
                       </characteristics>
                     </profile>
                   </profiles>
@@ -9945,7 +9945,7 @@ At the start of the Declare Battle Formations step, you can select one ^^**Hernk
                   <profiles>
                     <profile name="Evaluation Vault" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="136c-4268-1ae8-af3d">
                       <characteristics>
-                        <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Avant chaque bataille, vous pouvez utiliser l'exigence de test de terrain une fois pour 1RP au lieu de 2RP.</characteristic>
+                        <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Avant chaque bataille, vous pouvez utiliser les tests sur le terrain une fois pour 1RP au lieu de 2RP.</characteristic>
                       </characteristics>
                     </profile>
                   </profiles>
@@ -9973,7 +9973,7 @@ At the start of the Declare Battle Formations step, you can select one ^^**Hernk
                   <profiles>
                     <profile name="Upgraded Settle Kindred Colony" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="6bb3-f5e2-09a4-1de0">
                       <characteristics>
-                        <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Chaque fois que vous utilisez l'exigence d'augmenter la limite d'approvisionnement, la limite d'approvisionnement de votre force de la Croisade est augmentée 400 points au lieu de 200 points.</characteristic>
+                        <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Chaque fois que vous utilisez l'exigence d'augmenter la limite d'approvisionnement, la limite d'approvisionnement de votre force de croisade est augmentée 400 points au lieu de 200 points.</characteristic>
                       </characteristics>
                     </profile>
                   </profiles>
@@ -10021,7 +10021,7 @@ At the start of the Declare Battle Formations step, you can select one ^^**Hernk
                   <profiles>
                     <profile name="Upgraded Maintain Core Systems" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="f748-92a8-95a1-1662">
                       <characteristics>
-                        <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Après chaque bataille, vous pouvez choisir de supprimer 1 Rare Galactic Intel de votre fiche Kindred Acquisitions. Si vous le faites, sélectionnez une unité **^^Grimnyr^^** de votre force de la Croisade. Cette unité obtient un honneur de bataille (il doit être un honneur de bataille que l'unité peut avoir). Vous ne pouvez donner à chaque unité de votre force de Croisade qu'un honneur de bataille de cette façon - faites une note de cela à côté de cet honneur de bataille sur la carte de Croisade de cette unité.</characteristic>
+                        <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Après chaque bataille, vous pouvez choisir de retirer 1 Rare Galactic Intel de votre fiche Kindred Acquisitions. Si vous le faites, sélectionnez une unité **^^Grimnyr^^** de votre force de Croisade. Cette unité gagne un Honneur de Bataille (il doit s’agir d’un Honneur de Bataille que cette unité peut avoir). Vous ne pouvez donner à chaque unité de votre force de Croisade qu’un seul Honneur de Bataille de cette manière ; notez-le à côté de cet Honneur de Bataille sur la carte de Croisade de cette unité.</characteristic>
                       </characteristics>
                     </profile>
                   </profiles>
@@ -10117,7 +10117,7 @@ At the start of the Declare Battle Formations step, you can select one ^^**Hernk
                   <profiles>
                     <profile name="Upgraded Supply the Guilds" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="7f73-43a1-9592-9ec3">
                       <characteristics>
-                        <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Après chaque bataille, vous pouvez choisir de supprimer 1 Rare Energy Sources de votre fiche d'enregistrement des acquisitions Kindred, si vous le faites, sélectionnez une unité **^^Leagues of Votann^^** de votre force de Croisade. Cette unité obtient un honneur de bataille des modifications d'armes. Vous ne pouvez donner à chaque unité de votre force de Croisade qu'une seule honneur de bataille de cette façon - notez ceci à côté de cette bataille sur la carte de Croisade de cette unité.</characteristic>
+                        <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Après chaque bataille, vous pouvez choisir de supprimer 1 Rare Energy Sources de votre Kindred Acquisitions Record Sheet. Si vous le faites, sélectionnez une unité **^^Leagues of Votann^^** de votre force de Croisade. Cette unité obtient un honneur de bataille des modifications d'armes. Vous ne pouvez donner à chaque unité de votre force de Croisade qu'une seule honneur de bataille de cette façon - notez ceci à côté de cette bataille sur la carte de Croisade de cette unité.</characteristic>
                       </characteristics>
                     </profile>
                   </profiles>
@@ -10165,7 +10165,7 @@ At the start of the Declare Battle Formations step, you can select one ^^**Hernk
                   <profiles>
                     <profile name="Upgraded Equip Prospects" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="ccc2-6312-b718-be0a">
                       <characteristics>
-                        <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Après chaque bataille, vous pouvez choisir de supprimer 1 Biomatter rare de votre Kindred Acquisitions Record Sheet, Si vous le faites, sélectionnez une **^^Leagues of Votann Character^^** unité de votre force de Croisade. Cette unité obtient un honneur de bataille des reliques de la Croisade. Vous ne pouvez donner à chaque unité de votre force de Croisade qu'une seule honneur de bataille de cette façon - notez ceci à côté de cette bataille sur la carte de Croisade de cette unité.</characteristic>
+                        <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Après chaque bataille, vous pouvez choisir de retirer 1 Rare Biomatter de votre fiche Kindred Acquisitions Record Sheet. Si vous le faites, sélectionnez une unité **^^Leagues of Votann Character^^** de votre force de Croisade. Cette unité gagne un Honneur de Bataille Relique de Croisade. Vous ne pouvez donner à chaque unité de votre force de Croisade qu’un seul Honneur de Bataille de cette manière ; notez-le à côté de cet Honneur de Bataille sur la carte de Croisade de cette unité.</characteristic>
                       </characteristics>
                     </profile>
                   </profiles>
@@ -10213,7 +10213,7 @@ At the start of the Declare Battle Formations step, you can select one ^^**Hernk
                   <profiles>
                     <profile name="Upgraded Expand Mining Operations" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="0776-f4d7-219d-a7b3">
                       <characteristics>
-                        <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Chaque fois que vous lancez un D6 pour voir si votre force de Croisade a acquis une ressource rare, ajoutez 1 au résultat.</characteristic>
+                        <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Chaque fois que vous lancez un D6 pour voir si votre force de croisade a acquis une ressource rare, ajoutez 1 au résultat.</characteristic>
                       </characteristics>
                     </profile>
                   </profiles>
@@ -10225,7 +10225,7 @@ At the start of the Declare Battle Formations step, you can select one ^^**Hernk
                   <profiles>
                     <profile name="Expand Mining Operations" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="f0e2-566a-dc0c-57ad">
                       <characteristics>
-                        <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Après chaque bataille, vous gagnez d'autres minéraux D6x5.</characteristic>
+                        <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Après chaque bataille, vous gagnez D6x5 Raw Minerals supplémentaires.</characteristic>
                       </characteristics>
                     </profile>
                   </profiles>
@@ -10309,7 +10309,7 @@ At the start of the Declare Battle Formations step, you can select one ^^**Hernk
                   <profiles>
                     <profile name="Upgraded Establish Trade Routes" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="da70-3097-803b-96af">
                       <characteristics>
-                        <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Après chaque bataille, lorsque vous déterminez le nombre de ressources gagnées par vos forces de la Croisade, vous pouvez relancer les dés.</characteristic>
+                        <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Après chaque bataille, quand vous déterminez le nombre de ressources gagnées par vos forces de la Croisade, vous pouvez relancer les dés.</characteristic>
                       </characteristics>
                     </profile>
                   </profiles>
@@ -10321,7 +10321,7 @@ At the start of the Declare Battle Formations step, you can select one ^^**Hernk
                   <profiles>
                     <profile name="Establish Trade Routes" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="bf4f-f9b5-803c-8c4a">
                       <characteristics>
-                        <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Après chaque bataille, lorsque vous déterminez le nombre de ressources gagnées par vos forces de la Croisade, vous pouvez relancer les dés.</characteristic>
+                        <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Après chaque bataille, quand vous déterminez le nombre de ressources gagnées par vos forces de la Croisade, vous pouvez relancer les dés.</characteristic>
                       </characteristics>
                     </profile>
                   </profiles>
@@ -10871,7 +10871,7 @@ At the start of the Declare Battle Formations step, you can select one ^^**Hernk
           <profiles>
             <profile name="Ancestral Exo-armour" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="2362-0c75-df57-05da">
               <characteristics>
-                <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Cette unité a la aptitude Insensible à la douleur 5+ contre les Blessures Mortelles.</characteristic>
+                <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Cette unité a l’aptitude Insensible à la douleur 5+ contre Blessures Mortelles.</characteristic>
               </characteristics>
             </profile>
           </profiles>
@@ -10907,7 +10907,7 @@ At the start of the Declare Battle Formations step, you can select one ^^**Hernk
           <profiles>
             <profile name="Timed Defence" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="9ed1-f3be-5e40-c586" publicationId="ca56-d938-cd09-d919" page="#503, pg 93">
               <characteristics>
-                <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Une fois par bataille, lorsqu'une attaque de tir est attribuée à cette figurine, modifiez la caractéristique de Dégâts de cette attaque à 0.</characteristic>
+                <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Une fois par bataille, lorsqu’une attaque de tir est allouée à cette figurine, remplacez par 0 la caractéristique de Dégâts de cette attaque.</characteristic>
               </characteristics>
             </profile>
           </profiles>
@@ -10945,7 +10945,7 @@ At the start of the Declare Battle Formations step, you can select one ^^**Hernk
           <profiles>
             <profile name="Comrades' Acclaim" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="e846-fb08-b545-830e">
               <characteristics>
-                <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Chaque fois que cette unité est marquée pour la grandeur, elle gagne un 2XP supplémentaire.</characteristic>
+                <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Chaque fois que cette unité est Marked for Greatness, elle gagne 2XP supplémentaires.</characteristic>
               </characteristics>
             </profile>
           </profiles>
@@ -10983,7 +10983,7 @@ At the start of the Declare Battle Formations step, you can select one ^^**Hernk
           <profiles>
             <profile name="Exceptional Assistant" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="ab64-4181-fd27-c7c8">
               <characteristics>
-                <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Chaque fois que cette unité utilise sa aptitude de Guilde de Brôkhyr, si cette unité contient un Ironkyn Assistant, elle peut réparer jusqu'à deux **^^Vehicles^^**, au lieu de 1.</characteristic>
+                <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Chaque fois que cette unité utilise la Guilde de Brôkhyr aptitude, si cette unité contient un Ironkyn Assistant, elle peut réparer jusqu'à deux **^^Vehicles^^**, au lieu de 1.</characteristic>
               </characteristics>
             </profile>
           </profiles>
@@ -11016,7 +11016,7 @@ At the start of the Declare Battle Formations step, you can select one ^^**Hernk
           <profiles>
             <profile name="Full Throttle Assault" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="d187-bce8-2699-f08f">
               <characteristics>
-                <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Les armes de tir équipées par des figurines de cette unité ont la aptitude **[ASSAULT]**.</characteristic>
+                <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Les armes de tir dont les figurines de cette unité sont équipées ont l’aptitude **[ASSAULT]**.</characteristic>
               </characteristics>
             </profile>
           </profiles>
@@ -11060,7 +11060,7 @@ At the start of the Declare Battle Formations step, you can select one ^^**Hernk
           <profiles>
             <profile name="Heroes of the League" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="1f07-f102-c159-6c60">
               <characteristics>
-                <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Une fois par tour, une unité de votre armée de Croisade avec cette aptitude peut utiliser cette aptitude lorsqu'elle est sélectionnée pour tirer ou se battre. Si c'est le cas, jusqu'à la fin de la phase, chaque fois qu'une figurine dans cette unité fait une attaque, ajoutez 1 au jet de Touche.</characteristic>
+                <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Une fois par tour, une unité de votre armée de Croisade avec cette aptitude peut utiliser cette aptitude quand ils sont sélectionnée pour tirer ou se battre. Si c'est le cas, Jusqu’à la fin de la phase, chaque fois qu'une figurine dans cette unité fait une attaque, ajoutez 1 au jet de Touche.</characteristic>
               </characteristics>
             </profile>
           </profiles>
@@ -11126,7 +11126,7 @@ At the start of the Declare Battle Formations step, you can select one ^^**Hernk
           <profiles>
             <profile name="Nullyn Cloneskein" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="9170-d93b-8efe-8a7a">
               <characteristics>
-                <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Les figurines de cette unité ont la aptitude Insensible à la douleur 4+ contre les attaques **[PSYCHIC]** et contre les Blessures Mortelles causées par les capacités **[PSYCHIC]**.</characteristic>
+                <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Les figurines de cette unité ont l’aptitude Insensible à la Douleur 4+ contre les attaques **[PSYCHIC]** et les blessures mortelles causées par des aptitudes **[PSYCHIC]**.</characteristic>
               </characteristics>
             </profile>
           </profiles>
@@ -11167,7 +11167,7 @@ At the start of the Declare Battle Formations step, you can select one ^^**Hernk
           <profiles>
             <profile name="Resourceful" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="0fcc-1068-e9f5-24f8">
               <characteristics>
-                <characteristic name="Description" typeId="9b8f-694b-e5e-b573">À la fin de chaque bataille, pour chaque unité avec cette caractéristique de bataille qui est sur le champ de bataille, augmenter la quantité de la ressource qui est acquise par 10, à un maximum de ressources supplémentaires 50, ad chaque fois que vous tournez un dés pour voir si une ressource rare est acquise, Ajoutez 1 au résultat.</characteristic>
+                <characteristic name="Description" typeId="9b8f-694b-e5e-b573">À la fin de chaque bataille, pour chaque unité dotée de ce Trait de Bataille qui est sur le champ de bataille, augmentez de 10 la quantité de la ressource acquise, jusqu’à un maximum de 50 ressources supplémentaires, et, chaque fois que vous lancez un dé pour savoir si une Ressource Rare est acquise, ajoutez 1 au résultat.</characteristic>
               </characteristics>
             </profile>
           </profiles>
@@ -11205,7 +11205,7 @@ At the start of the Declare Battle Formations step, you can select one ^^**Hernk
           <profiles>
             <profile name="Stalwart Efficiency" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="b539-8765-ab2f-7d4b">
               <characteristics>
-                <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Une fois par bataille, dans votre phase de Commandement, vous pouvez sélectionner une unité ennemie sur le champ de bataille qui a le jeton 1 de jugement pour être la " cible allouée " de cette unité. Jusqu'au début de votre prochaine phase de Commandement, chaque fois qu'une figurine (à l'exclusion d'une figurine **^^Cog^^**) dans cette unité effectue une attaque visant sa cible allouée, cette unité ennemie est considérée comme ayant des jetons de jugement 2 lorsqu'sur détermine quel bonus s'applique aux attaques de la figurine attaquant.
+                <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Une fois par bataille, durant votre phase de Commandement, vous pouvez sélectionner une unité ennemie sur le champ de bataille qui possède 1 pion Judgement comme « Allotted Target » de cette unité. Jusqu’au début de votre prochaine phase de Commandement, chaque fois qu’une figurine (à l’exclusion d’une figurine **^^Cog^^**) de cette unité effectue une attaque qui cible son Allotted Target, cette unité ennemie est considérée comme ayant 2 pions Judgement pour déterminer le bonus qui s’applique aux attaques de la figurine attaquante.
 ***Data Author Note: Judgement tokens were removed with the release of the codex.***</characteristic>
               </characteristics>
             </profile>
@@ -11244,7 +11244,7 @@ At the start of the Declare Battle Formations step, you can select one ^^**Hernk
           <profiles>
             <profile name="Stalwart Protector" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="8ea7-370b-e992-49e0">
               <characteristics>
-                <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Alors qu'un ami **^^Leagues of Votann Character^^** dirige cette unité, ce **^^Character^^** a la aptitude Insensible à la douleur 4+.</characteristic>
+                <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Alors qu'un ami **^^Leagues of Votann Character^^** dirige cette unité, ce **^^Character^^** a l’aptitude Insensible à la douleur 4+.</characteristic>
               </characteristics>
             </profile>
           </profiles>
@@ -11280,7 +11280,7 @@ At the start of the Declare Battle Formations step, you can select one ^^**Hernk
           <profiles>
             <profile name="Strafing Run" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="bb88-3b88-2e7f-39e9">
               <characteristics>
-                <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Une fois par bataille, dans votre phase de Tir, après que cette unité ait tiré, elle peut faire un mouvement normal jusqu'à 6". Si ce n'est pas le cas jusqu'à la fin du tour, cette unité n'est pas éligible à la déclaration d'une charge.</characteristic>
+                <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Une fois par bataille, dans votre phase de Tir, après que cette unité a tiré, il peut effectuer un mouvement Normal de jusqu'à 6". Si ce n'est pas le cas jusqu'à la fin du tour, cette unité n'est pas éligible à la déclaration d'une charge.</characteristic>
               </characteristics>
             </profile>
           </profiles>
@@ -11313,7 +11313,7 @@ At the start of the Declare Battle Formations step, you can select one ^^**Hernk
           <profiles>
             <profile name="Stubborn and Unforgiving" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="c5cb-ee52-3ba9-89c9">
               <characteristics>
-                <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Quand une unité obtient cette caractéristique de bataille, vous pouvez immédiatement utiliser l'exigence de haine dirigée sur cette unité pour 0RP. Chaque fois qu'une figurine de cette unité fait une attaque, si cette unité abrite un Grudge contre l'armée de la Croisade de votre adversaire, vous pouvez relancer le jet de Touche.</characteristic>
+                <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Quand une unité obtient cette caractéristique de bataille, vous pouvez immédiatement utiliser l'exigence de haine dirigée sur cette unité pour 0RP. Chaque fois qu'une figurine dans cette unité fait une attaque, si cette unité abrite un Grudge contre l'armée croisée de votre adversaire, vous pouvez relancer le jet de Touche.</characteristic>
               </characteristics>
             </profile>
           </profiles>
@@ -11351,7 +11351,7 @@ At the start of the Declare Battle Formations step, you can select one ^^**Hernk
           <profiles>
             <profile name="War-wrought" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="d906-6540-0c3d-e901">
               <characteristics>
-                <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Vous pouvez ignorer tout ou partie des modificateurs de la caractéristique Commandement des figurines de cette unité, et vous pouvez relancer les tests Out de Action échoués effectués pour cette unité.</characteristic>
+                <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Vous pouvez ignorer tout ou partie des modificateurs à la caractéristique de Commandement des figurines de cette unité, et vous pouvez relancer les tests Out of Action ratés effectués pour cette unité.</characteristic>
               </characteristics>
             </profile>
           </profiles>
@@ -11389,7 +11389,7 @@ At the start of the Declare Battle Formations step, you can select one ^^**Hernk
           <profiles>
             <profile name="Bastion Running" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="3a84-9b8d-06f5-52f7" publicationId="ca56-d938-cd09-d919" page="#503, pg 93">
               <characteristics>
-                <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Chaque fois que cette figurine effectue une attaque de tir, vous pouvez ignorer n'importe quel ou tous les modificateurs de la caractéristique de caractéristique de Capacité de Tir de cette attaque et / ou n'importe quel ou tous les modificateurs de l'attaque jet de Touche.</characteristic>
+                <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Chaque fois que cette figurine fait une attaque de tir, vous pouvez ignorer tout ou partie des modificateurs de la caractéristique de Capacité de Tir de cette attaque et/ou tout ou partie des modificateurs du jet de Touche de cette attaque.</characteristic>
               </characteristics>
             </profile>
           </profiles>
@@ -11427,7 +11427,7 @@ At the start of the Declare Battle Formations step, you can select one ^^**Hernk
           <profiles>
             <profile name="Enhanced Stabilisers" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="7c07-caef-fd39-2d73" publicationId="ca56-d938-cd09-d919" page="#503, pg 93">
               <characteristics>
-                <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Dans votre phase de Tir, chaque fois que cette unité est sélectionnée pour tirer, sélectionnez une arme de tir équipée par cette unité. Jusqu'à la fin de la phase, Améliorez la caractéristique de caractéristique de Capacité de Tir de cette unité de 1.</characteristic>
+                <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Dans votre phase de Tir, chaque fois que cette unité est sélectionnée pour tirer, sélectionnez une arme de tir équipée de cette unité. Jusqu’à la fin de la phase, Améliorez la caractéristique de Capacité de Tir de cette unité de 1.</characteristic>
               </characteristics>
             </profile>
           </profiles>
@@ -11468,7 +11468,7 @@ At the start of the Declare Battle Formations step, you can select one ^^**Hernk
               <profiles>
                 <profile name="The Captive Abyss" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="ce27-b3ca-65ff-2427">
                   <characteristics>
-                    <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Une fois par bataille, dans votre phase de Tir, si l'unité du porteur n'a pas tiré cette phase, le porteur peut utiliser cette relique. Si c'est le cas, jusqu'à la fin de la phase, le porteur dispose du mot-clé **^^Grenades^^**. En outre, jusqu'à la fin de la phase, lorsque vous ciblez l'unité du porteur avec la Grenade Stratagème, ajoutez 1 au jet de dés pour déterminer si l'unité ennemie souffre d'une blessure mortelle pour chaque jeton de jugement que l'unité ennemie a.
+                    <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Une fois par bataille, durant votre phase de Tir, si l’unité du porteur n’a pas tiré durant cette phase, le porteur peut utiliser cette Relique. S’il le fait, jusqu’à la fin de la phase, le porteur a le mot-clé **^^Grenades^^**. De plus, jusqu’à la fin de la phase, lorsque vous ciblez l’unité du porteur avec le Stratagème Grenade, ajoutez 1 au jet de dé servant à déterminer si l’unité ennemie subit une blessure mortelle pour chaque pion Judgement que possède cette unité ennemie.
 ***Data Author Note: Judgement tokens were removed with the release of the codex.***</characteristic>
                   </characteristics>
                 </profile>
@@ -11512,7 +11512,7 @@ At the start of the Declare Battle Formations step, you can select one ^^**Hernk
               <profiles>
                 <profile name="Recyc Converter" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="22c1-7abb-2e12-2213">
                   <characteristics>
-                    <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Chaque fois que l'unité du porteur détruit une unité ennemie, à la fin de la bataille, vous gagnez 10 Biomatter. Si c'était une unité **^^Monster^^**, vous obtenez 20 Biomatter à la place. Si cette unité était une unité **^^Vehicle^^**, vous obtenez 20 matières premières à la place. De plus, vous obtenez des sources d'énergie 20 si cette unité était équipée d'une relique.</characteristic>
+                    <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Chaque fois que l’unité du porteur détruit une unité ennemie, à la fin de la bataille, vous gagnez 10 Biomatter. S’il s’agissait d’une unité **^^Monster^^**, vous gagnez 20 Biomatter à la place. S’il s’agissait d’une unité **^^Vehicle^^**, vous gagnez 20 Raw Materials à la place. De plus, vous gagnez 20 Energy Sources si cette unité était équipée d’une Relic.</characteristic>
                   </characteristics>
                 </profile>
               </profiles>
@@ -11555,7 +11555,7 @@ At the start of the Declare Battle Formations step, you can select one ^^**Hernk
               <profiles>
                 <profile name="Ythur's Vengeance" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="8f9a-47e1-d2f4-353e">
                   <characteristics>
-                    <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Le porteur abrite un ressentiment contre chaque faction, et ces ressentiments ne peuvent jamais être réglés (ignorez toutes les règles qui s'appliqueraient lorsqu'un ressentiment est réglé).</characteristic>
+                    <characteristic name="Description" typeId="9b8f-694b-e5e-b573">le porteur abrite un ressentiment contre chaque faction, et ces ressentiments ne peuvent jamais être réglés (ignorer les règles qui s'appliqueraient lorsqu'un ressentiment est réglé).</characteristic>
                   </characteristics>
                 </profile>
               </profiles>
@@ -11602,7 +11602,7 @@ At the start of the Declare Battle Formations step, you can select one ^^**Hernk
               <profiles>
                 <profile name="Tôrek's Shard" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="38cb-3eeb-590a-96d3">
                   <characteristics>
-                    <characteristic name="Description" typeId="9b8f-694b-e5e-b573">**^^Kâhl^^** ou **^^Grimnyr^^** figurine uniquement. Une fois par bataille, au début de la phase de Combat, le porteur peut dévoiler cette relique. Si c'est le cas, chaque unité ennemi à 18" ou moins du porteur gagne le jeton 1 Judgement, et jusqu'à la fin de la phase, ajoutez 1 aux caractéristique d’Attaques des armes de mêlée équipées de figurines dans l'unité du porteur.
+                    <characteristic name="Description" typeId="9b8f-694b-e5e-b573">**^^Kâhl^^** ou **^^Grimnyr^^** figurine uniquement. Une fois par bataille, au début de la phase de Combat, le porteur peut dévoiler cette relique. Si c'est le cas, chaque unité ennemie à 18" ou moins du porteur gagne le jeton de jugement 1, et Jusqu’à la fin de la phase, ajoutez 1 à la caractéristique d’Attaques d’armes de mêlée équipé par les figurines de l’unité du porteur.
 ***Data Author Note: Judgement tokens were removed with the release of the codex.***</characteristic>
                   </characteristics>
                 </profile>
@@ -11746,7 +11746,7 @@ At the start of the Declare Battle Formations step, you can select one ^^**Hernk
               <profiles>
                 <profile name="Iron Ambassador" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="3803-e455-2608-1d74">
                   <characteristics>
-                    <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Chaque fois que le porteur est sélectionné pour tirer, pour chaque arme de tir équipée par le porteur (à l'exclusion des armes Psychique), si cette arme présente une caractéristique de Pénétration d’Armure de 0 ou -1, elle est améliorée à -2.</characteristic>
+                    <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Chaque fois que le porteur est sélectionnée pour tirer, pour chaque arme de tir équipé du porteur (armes à l’exclusion de Psychique), si cette arme a une caractéristique de Pénétration d’Armure de 0 ou -1, il est amélioré à -2.</characteristic>
                   </characteristics>
                 </profile>
               </profiles>
@@ -11994,7 +11994,7 @@ At the start of the Declare Battle Formations step, you can select one ^^**Hernk
           <profiles>
             <profile name="Exemplar of the Einhyr" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="f54b-9815-ada1-3e91">
               <characteristics>
-                <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Pendant que cette figurine mène une unité, ajoutez 1 aux jets d’Avance et de Charge faits pour cette unité.</characteristic>
+                <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Alors que cette figurine mène une unité, ajoutez 1 à Advance et jets de Charge de cette unité.</characteristic>
               </characteristics>
             </profile>
           </profiles>
@@ -12003,7 +12003,7 @@ At the start of the Declare Battle Formations step, you can select one ^^**Hernk
           <profiles>
             <profile name="Forgewrought Expertise" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="1d18-4679-c08d-095c">
               <characteristics>
-                <characteristic name="Description" typeId="9b8f-694b-e5e-b573">À la fin de votre phase de Mouvement, cette figurine peut réparer une unité ^^**Leagues of Votann Vehicle, Exoframe**^^ amicale ou **^^Ironkin Steeljacks**^^ à 3" ou moins de celui-ci. une figurine dans cette unité récupère jusqu'à D3 PV perdus. Chaque unité ne peut être réparée qu'une seule fois par tour.</characteristic>
+                <characteristic name="Description" typeId="9b8f-694b-e5e-b573">À la fin de votre phase de Mouvement, cette figurine peut réparer une unité amicale ^^**Leagues of Votann Vehicle, Exoframe**^^ ou **^^Ironkin Steeljacks**^^ à 3" ou moins de celui-ci. une figurine dans cette unité récupère jusqu'à D3 PV perdus. Chaque unité ne peut être réparée que Une fois par tour.</characteristic>
               </characteristics>
             </profile>
           </profiles>
@@ -12012,7 +12012,7 @@ At the start of the Declare Battle Formations step, you can select one ^^**Hernk
           <profiles>
             <profile name="Kindred Hero" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="e094-ab6f-abc0-f6f3">
               <characteristics>
-                <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Alors que cette figurine mène une unité, les armes équipées de figurines dans cette unité ont la aptitude [^^Lethal Hits^^].</characteristic>
+                <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Alors que cette figurine mène une unité, les armes équipées des figurines de cette unité ont l’aptitude [^^Lethal Hits^^].</characteristic>
               </characteristics>
             </profile>
           </profiles>
@@ -12021,7 +12021,7 @@ At the start of the Declare Battle Formations step, you can select one ^^**Hernk
           <profiles>
             <profile name="Rampart Crest" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="3f37-2173-b6ca-bc1b">
               <characteristics>
-                <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Pendant que le porteur mène une unité, les figurines de cette unité ont un 5+ sauvegarde invulnérable.</characteristic>
+                <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Alors que le porteur est à la tête d'une unité, les figurines de cette unité ont un 5+ sauvegarde invulnérable.</characteristic>
               </characteristics>
             </profile>
           </profiles>
@@ -12037,7 +12037,7 @@ At the start of the Declare Battle Formations step, you can select one ^^**Hernk
           <profiles>
             <profile name="Teleport Crest" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="0268-7ec6-a762-1826">
               <characteristics>
-                <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Pendant que le porteur mène une unité, les figurines de cette unité ont la aptitude Frappe en profondeur.</characteristic>
+                <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Alors que le porteur est à la tête d'une unité, les figurines de cette unité ont l’aptitude Frappe en profondeur.</characteristic>
               </characteristics>
             </profile>
           </profiles>
@@ -13126,7 +13126,7 @@ Pendant votre tour, les YP gagnés ainsi le sont toujours avant de vérifier que
 Chaque fois qu’une règle vous permet de dépenser des YP, réduisez d’autant le nombre de YP que vous possédez (vos YP ne peuvent pas devenir inférieurs à 0), sans quoi vous ne pouvez pas utiliser cette règle.</description>
     </rule>
     <rule id="5cfb-f5b5-a838-4622" name="Conversion (Thunderkyn)" hidden="false">
-      <description>Chaque fois qu'une attaque effectuée avec cette arme cible une unité ennemie qui n'est pas à 12" ou moins, un jet de Touche non modifié de 4+ marque un coup critique.</description>
+      <description>Chaque fois qu’une attaque effectuée avec cette arme cible une unité ennemie qui n’est pas à 12" ou moins du porteur, tout jet de Touche non modifié de 4+ est une Touche Critique.</description>
     </rule>
   </sharedRules>
   <sharedProfiles>
@@ -13190,7 +13190,7 @@ Chaque fois qu’une règle vous permet de dépenser des YP, réduisez d’autan
     </profile>
     <profile name="Guerrilla Adepts" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="3ec4-7c77-e372-884e">
       <characteristics>
-        <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Dans votre phase de Tir, juste après que cette unité a été sélectionnée pour tirer, cette unité peut utiliser cette aptitude. Si c'est le cas, sélectionnez une unité ennemi (à l'exclusion de ^^**Monsters^^** et ^^**Vehicles^^**). Jusqu'à la fin de la phase, les attaques effectuées par des figurines dans cette unité ne peuvent attaquer que cette unité ennemie (et seulement si c'est une cible admissible) et, après avoir résolu ces attaques, si une ou plusieurs de ces attaques frappent cette unité ennemie, jusqu'au début de votre prochaine phase de Tir, cette unité ennemie est attaquée (ceci étiquette simplement cette unité aux fins de cette aptitude et certaines améliorations ou stratagèmes). Si cette unité est déjà attaquée, jusqu'au début de votre prochaine phase de Tir, elle est également coincée. Pendant qu'une unité est fixée, Soustrayez 2" de sa caractéristique de mouvement et soustraire 2 des jets de Charge faits pour elle.</characteristic>
+        <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Durant votre phase de Tir, juste après que cette unité a été sélectionnée pour tirer, elle peut utiliser cette aptitude. Si elle le fait, sélectionnez une unité ennemie (à l’exclusion des ^^**Monsters^^** et des ^^**Vehicles^^**). Jusqu’à la fin de la phase, les figurines de cette unité ne peuvent effectuer d’attaques que contre cette unité ennemie, et seulement si elle est une cible éligible. Après la résolution de ces attaques, si une ou plusieurs de ces attaques ont touché cette unité ennemie, jusqu’au début de votre prochaine phase de Tir, cette unité ennemie est assaillie (cela ne fait qu’étiqueter cette unité pour les besoins de cette aptitude et de certaines Optimisations ou Stratagèmes). Si cette unité est déjà assaillie, jusqu’au début de votre prochaine phase de Tir, elle est aussi clouée. Tant qu’une unité est clouée, soustrayez 2" à sa caractéristique de Mouvement et 2 aux jets de Charge effectués pour elle.</characteristic>
       </characteristics>
       <modifiers>
         <modifier type="set" value="true" field="hidden">
@@ -13202,7 +13202,7 @@ Chaque fois qu’une règle vous permet de dépenser des YP, réduisez d’autan
     </profile>
     <profile name="Firebase Control (Aura)" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="d890-09df-9ccc-0d3b">
       <characteristics>
-        <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Alors qu'une unité conviviale ^^**Leagues of Votann Infantry^^** unité est entièrement à 6" ou moins de cette ^^**Transport^^**, armes de tir dont sont équipées figurines dans cette ^^**Infantry^^** a la aptitude [^^**sustained hits 1^^**].</characteristic>
+        <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Alors qu'une unité conviviale ^^**Leagues of Votann Infantry^^** unité est entièrement à 6" ou moins de cette ^^**Transport^^**, armes de tir dont sont équipées figurines dans cette ^^**Infantry^^** a l’aptitude [^^**sustained hits 1^^**].</characteristic>
       </characteristics>
       <modifiers>
         <modifier type="set" value="true" field="hidden">
@@ -13214,7 +13214,7 @@ Chaque fois qu’une règle vous permet de dépenser des YP, réduisez d’autan
     </profile>
   </sharedProfiles>
   <catalogueLinks>
-    <catalogueLink type="catalogue" name="Unaligned Forces" id="664b-7cd3-86c2-8e1c" targetId="61f1-ce52-d345-5048" importRootEntries="true" />
+    <catalogueLink type="catalogue" name="Unaligned Forces" id="664b-7cd3-86c2-8e1c" targetId="581a-46b9-5b86-44b7" importRootEntries="true" />
   </catalogueLinks>
   <sharedInfoGroups>
     <infoGroup name="Grudges" id="b346-4032-3d54-4e62" hidden="false">
@@ -13235,12 +13235,12 @@ Pour chaque résultat de 1, vous devez à la place sélectionner une unité de v
         </profile>
         <profile name="Precise Prejudice" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="d9a6-ab83-01fc-7d59">
           <characteristics>
-            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Chaque fois qu'une figurine (à l'exclusion d'une figurine **^^Cog^^**) dans une unité de votre armée de la Croisade fait une attaque, si cette unité abrite une rancune contre l'armée de la Croisade de votre adversaire, relancez un jet de Touche de 1 si la cible a des jetons 1-2 Grudge, ou vous pouvez relancer le jet de Touche à la place si la cible a des jetons 3 Grudge.</characteristic>
+            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Chaque fois qu'une figurine (à l’exclusion de une **^^Cog^^** figurine) dans une unité de votre armée de la Croisade fait une attaque, si cette unité abrite une rancune contre l'armée de la Croisade de votre adversaire, relancer un jet de Touche de 1 si la cible a des jetons 1-2 Grudge, ou vous pouvez relancer le jet de Touche à la place si la cible a des jetons 3 Grudge.</characteristic>
           </characteristics>
         </profile>
         <profile name="To The Death" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="7a69-0a67-366e-2883">
           <characteristics>
-            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Une unité de votre armée de la Croisade qui conserve un ressentiment contre l'armée de la Croisade opposante ne peut pas Battre en Retraite tant qu'elle est à l'intérieur de la Portée d’Engagement d'une ou plusieurs unités ennemies.</characteristic>
+            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Une unité de votre armée de la Croisade qui a un ressentiment contre l'armée de la Croisade adversaire ne peut pas accéder à Battre en Retraite tant qu'elle est à l'intérieur de Portée d’Engagement d'une ou plusieurs unités ennemies.</characteristic>
           </characteristics>
         </profile>
       </profiles>

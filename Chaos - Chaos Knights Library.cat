@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue xmlns="http://www.battlescribe.net/schema/catalogueSchema" id="2a4a-abd1-67f0-3a80" name="Chaos - Chaos Knights Library" revision="66" battleScribeVersion="2.03" library="true" gameSystemId="sys-0e45-705d-f6bc-806a" gameSystemRevision="1" type="catalogue">
+<catalogue xmlns="http://www.battlescribe.net/schema/catalogueSchema" id="8106-aad2-918a-9ac" name="Chaos - Chaos Knights Library" revision="66" battleScribeVersion="2.03" library="true" gameSystemId="sys-352e-adc2-7639-d6a9" gameSystemRevision="1" type="catalogue">
   <categoryEntries>
     <categoryEntry id="99dc-0f47-85e2-75da" name="War Dog" hidden="false">
       <modifiers>
@@ -7,7 +7,7 @@
           <conditionGroups>
             <conditionGroup type="and">
               <conditions>
-                <condition field="selections" scope="primary-catalogue" value="0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="f0ff-96fa-6715-5265" type="notInstanceOf" />
+                <condition field="selections" scope="primary-catalogue" value="0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="46d8-abc8-ef3a-9f85" type="notInstanceOf" />
                 <condition field="selections" scope="force" value="0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="cac3-71d1-ea4b-795d" type="notInstanceOf" />
               </conditions>
               <conditionGroups>
@@ -27,7 +27,7 @@
           <conditionGroups>
             <conditionGroup type="and">
               <conditions>
-                <condition type="notInstanceOf" value="0" field="selections" scope="primary-catalogue" childId="f0ff-96fa-6715-5265" shared="true" percentValue="false" includeChildSelections="false" includeChildForces="false" />
+                <condition type="notInstanceOf" value="0" field="selections" scope="primary-catalogue" childId="46d8-abc8-ef3a-9f85" shared="true" percentValue="false" includeChildSelections="false" includeChildForces="false" />
                 <condition type="lessThan" value="1" field="selections" scope="force" childId="f2d9-b5e8-4183-cb0b" shared="true" percentValue="false" includeChildSelections="true" includeChildForces="false" />
                 <condition type="lessThan" value="1" field="selections" scope="force" childId="552f-2667-65a7-f914" shared="true" percentValue="false" includeChildSelections="true" includeChildForces="false" />
                 <condition type="lessThan" value="1" field="selections" scope="force" childId="4ba6-5e16-28e6-835a" shared="true" percentValue="false" includeChildSelections="true" includeChildForces="false" />
@@ -60,7 +60,7 @@
             <conditionGroup type="and">
               <conditions>
                 <condition type="notInstanceOf" value="0" field="selections" scope="force" childId="cac3-71d1-ea4b-795d" shared="true" percentValue="false" includeChildSelections="true" includeChildForces="false" />
-                <condition type="notInstanceOf" value="0" field="selections" scope="primary-catalogue" childId="f0ff-96fa-6715-5265" shared="true" percentValue="false" includeChildSelections="false" includeChildForces="false" />
+                <condition type="notInstanceOf" value="0" field="selections" scope="primary-catalogue" childId="46d8-abc8-ef3a-9f85" shared="true" percentValue="false" includeChildSelections="false" includeChildForces="false" />
               </conditions>
             </conditionGroup>
           </conditionGroups>
@@ -69,7 +69,7 @@
           <conditionGroups>
             <conditionGroup type="and">
               <conditions>
-                <condition field="selections" scope="primary-catalogue" value="0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="f0ff-96fa-6715-5265" type="notInstanceOf" />
+                <condition field="selections" scope="primary-catalogue" value="0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="46d8-abc8-ef3a-9f85" type="notInstanceOf" />
                 <condition type="notInstanceOf" value="0" field="selections" scope="force" childId="cac3-71d1-ea4b-795d" shared="true" percentValue="false" includeChildSelections="true" includeChildForces="false" />
               </conditions>
               <conditionGroups>
@@ -98,7 +98,7 @@
             <conditionGroup type="and">
               <conditions>
                 <condition type="notInstanceOf" value="0" field="selections" scope="force" childId="cac3-71d1-ea4b-795d" shared="true" percentValue="false" includeChildSelections="true" includeChildForces="false" />
-                <condition type="notInstanceOf" value="0" field="selections" scope="primary-catalogue" childId="f0ff-96fa-6715-5265" shared="true" percentValue="false" includeChildSelections="false" includeChildForces="false" />
+                <condition type="notInstanceOf" value="0" field="selections" scope="primary-catalogue" childId="46d8-abc8-ef3a-9f85" shared="true" percentValue="false" includeChildSelections="false" includeChildForces="false" />
               </conditions>
             </conditionGroup>
           </conditionGroups>
@@ -107,7 +107,7 @@
           <conditionGroups>
             <conditionGroup type="and">
               <conditions>
-                <condition field="selections" scope="primary-catalogue" value="0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="f0ff-96fa-6715-5265" type="notInstanceOf" />
+                <condition field="selections" scope="primary-catalogue" value="0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="46d8-abc8-ef3a-9f85" type="notInstanceOf" />
                 <condition type="notInstanceOf" value="0" field="selections" scope="force" childId="cac3-71d1-ea4b-795d" shared="true" percentValue="false" includeChildSelections="true" includeChildForces="false" />
               </conditions>
               <conditionGroups>
@@ -141,7 +141,7 @@
             <conditionGroup type="and">
               <conditions>
                 <condition type="notInstanceOf" value="0" field="selections" scope="force" childId="cac3-71d1-ea4b-795d" shared="true" percentValue="false" includeChildSelections="true" includeChildForces="false" />
-                <condition type="notInstanceOf" value="0" field="selections" scope="primary-catalogue" childId="f0ff-96fa-6715-5265" shared="true" percentValue="false" includeChildSelections="false" includeChildForces="false" />
+                <condition type="notInstanceOf" value="0" field="selections" scope="primary-catalogue" childId="46d8-abc8-ef3a-9f85" shared="true" percentValue="false" includeChildSelections="false" includeChildForces="false" />
               </conditions>
             </conditionGroup>
           </conditionGroups>
@@ -150,7 +150,7 @@
           <conditionGroups>
             <conditionGroup type="and">
               <conditions>
-                <condition type="notInstanceOf" value="0" field="selections" scope="primary-catalogue" childId="f0ff-96fa-6715-5265" shared="true" percentValue="false" includeChildSelections="false" includeChildForces="false" />
+                <condition type="notInstanceOf" value="0" field="selections" scope="primary-catalogue" childId="46d8-abc8-ef3a-9f85" shared="true" percentValue="false" includeChildSelections="false" includeChildForces="false" />
                 <condition type="notInstanceOf" value="0" field="selections" scope="force" childId="cac3-71d1-ea4b-795d" shared="true" percentValue="false" includeChildSelections="true" includeChildForces="false" />
               </conditions>
               <conditionGroups>
@@ -180,7 +180,7 @@
             <conditionGroup type="and">
               <conditions>
                 <condition type="notInstanceOf" value="0" field="selections" scope="force" childId="cac3-71d1-ea4b-795d" shared="true" percentValue="false" includeChildSelections="true" includeChildForces="false" />
-                <condition type="notInstanceOf" value="0" field="selections" scope="primary-catalogue" childId="f0ff-96fa-6715-5265" shared="true" percentValue="false" includeChildSelections="false" includeChildForces="false" />
+                <condition type="notInstanceOf" value="0" field="selections" scope="primary-catalogue" childId="46d8-abc8-ef3a-9f85" shared="true" percentValue="false" includeChildSelections="false" includeChildForces="false" />
               </conditions>
             </conditionGroup>
           </conditionGroups>
@@ -189,7 +189,7 @@
           <conditionGroups>
             <conditionGroup type="and">
               <conditions>
-                <condition type="notInstanceOf" value="0" field="selections" scope="primary-catalogue" childId="f0ff-96fa-6715-5265" shared="true" percentValue="false" includeChildSelections="false" includeChildForces="false" />
+                <condition type="notInstanceOf" value="0" field="selections" scope="primary-catalogue" childId="46d8-abc8-ef3a-9f85" shared="true" percentValue="false" includeChildSelections="false" includeChildForces="false" />
                 <condition type="notInstanceOf" value="0" field="selections" scope="force" childId="cac3-71d1-ea4b-795d" shared="true" percentValue="false" includeChildSelections="true" includeChildForces="false" />
               </conditions>
               <conditionGroups>
@@ -238,7 +238,7 @@
         </profile>
         <profile id="7e36-46d2-4914-c4af" name="Executioner" hidden="false" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities">
           <characteristics>
-            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Chaque fois que cette figurine effectue une attaque visant une unité inférieure à Demi-effectif, ajoutez 1 au jet de Touche. Chaque fois qu'une unité ennemie est détruite à la suite des attaques de cette figurine, avant de retirer le dernier figurine de cette unité du champ de bataille, chaque unité de l'armée de votre adversaire qui se trouve à 3" ou moins doit passer un test d’Ébranlement.</characteristic>
+            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Chaque fois que cette figurine effectue une attaque qui cible une unité en dessous de son Demi-effectif, ajoutez 1 au jet de Touche. Chaque fois qu’une unité ennemie est détruite à cause des attaques de cette figurine, avant de retirer du champ de bataille la dernière figurine de cette unité, chaque autre unité de l’armée de votre adversaire à 3" ou moins de celle-ci doit effectuer un test d’Ébranlement.</characteristic>
           </characteristics>
         </profile>
         <profile id="1d7c-736f-d076-8966" name="Sauvegarde Invulnérable" hidden="false" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities">
@@ -342,14 +342,14 @@
             <conditionGroup type="and">
               <conditions>
                 <condition type="lessThan" value="1" field="selections" scope="roster" childId="aeb4-96de-7401-eaa3" shared="true" includeChildSelections="true" includeChildForces="true" />
-                <condition type="notInstanceOf" value="1" field="selections" scope="primary-catalogue" childId="f0ff-96fa-6715-5265" shared="true" />
+                <condition type="notInstanceOf" value="1" field="selections" scope="primary-catalogue" childId="46d8-abc8-ef3a-9f85" shared="true" />
               </conditions>
             </conditionGroup>
           </conditionGroups>
         </modifier>
         <modifier type="set-primary" value="887b-ab87-92a2-20f5" field="category">
           <conditions>
-            <condition type="notInstanceOf" value="1" field="selections" scope="primary-catalogue" childId="f0ff-96fa-6715-5265" shared="true" />
+            <condition type="notInstanceOf" value="1" field="selections" scope="primary-catalogue" childId="46d8-abc8-ef3a-9f85" shared="true" />
           </conditions>
         </modifier>
         <modifier type="set-primary" value="e338-111e-d0c6-b687" field="category">
@@ -759,14 +759,14 @@
             <conditionGroup type="and">
               <conditions>
                 <condition type="lessThan" value="1" field="selections" scope="roster" childId="aeb4-96de-7401-eaa3" shared="true" includeChildSelections="true" includeChildForces="true" />
-                <condition type="notInstanceOf" value="1" field="selections" scope="primary-catalogue" childId="f0ff-96fa-6715-5265" shared="true" />
+                <condition type="notInstanceOf" value="1" field="selections" scope="primary-catalogue" childId="46d8-abc8-ef3a-9f85" shared="true" />
               </conditions>
             </conditionGroup>
           </conditionGroups>
         </modifier>
         <modifier type="set-primary" value="887b-ab87-92a2-20f5" field="category">
           <conditions>
-            <condition type="notInstanceOf" value="1" field="selections" scope="primary-catalogue" childId="f0ff-96fa-6715-5265" shared="true" />
+            <condition type="notInstanceOf" value="1" field="selections" scope="primary-catalogue" childId="46d8-abc8-ef3a-9f85" shared="true" />
           </conditions>
         </modifier>
         <modifier type="set-primary" value="e338-111e-d0c6-b687" field="category">
@@ -868,7 +868,7 @@
         </profile>
         <profile id="dec4-f0af-5aee-9e79" name="Karnivore" hidden="false" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities">
           <characteristics>
-            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Vous pouvez relancer les jets d’Avance et de Charge faits pour cette figurine.</characteristic>
+            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">vous pouvez relancer Advance et jets de Charge sont effectués pour cette figurine.</characteristic>
           </characteristics>
         </profile>
         <profile id="7616-9c14-acc8-dd08" name="Sauvegarde Invulnérable" hidden="false" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities">
@@ -993,14 +993,14 @@
             <conditionGroup type="and">
               <conditions>
                 <condition type="lessThan" value="1" field="selections" scope="roster" childId="aeb4-96de-7401-eaa3" shared="true" includeChildSelections="true" includeChildForces="true" />
-                <condition type="notInstanceOf" value="1" field="selections" scope="primary-catalogue" childId="f0ff-96fa-6715-5265" shared="true" />
+                <condition type="notInstanceOf" value="1" field="selections" scope="primary-catalogue" childId="46d8-abc8-ef3a-9f85" shared="true" />
               </conditions>
             </conditionGroup>
           </conditionGroups>
         </modifier>
         <modifier type="set-primary" value="887b-ab87-92a2-20f5" field="category">
           <conditions>
-            <condition type="notInstanceOf" value="1" field="selections" scope="primary-catalogue" childId="f0ff-96fa-6715-5265" shared="true" />
+            <condition type="notInstanceOf" value="1" field="selections" scope="primary-catalogue" childId="46d8-abc8-ef3a-9f85" shared="true" />
           </conditions>
         </modifier>
         <modifier type="set-primary" value="e338-111e-d0c6-b687" field="category">
@@ -1102,7 +1102,7 @@
         </profile>
         <profile id="34ad-4a93-4309-03bd" name="Brigand" hidden="false" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities">
           <characteristics>
-            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Les armes de tir équipées de cette figurine ont la aptitude [Ignore le couvert] tout en ciblant les unités ennemies à la portée d'un ou plusieurs marqueurs objectifs.</characteristic>
+            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Les armes de tir dont cette figurine est équipée ont l’aptitude [Ignores Cover] lorsqu’elles ciblent une unité ennemie à portée d’un ou plusieurs pions d’objectif.</characteristic>
           </characteristics>
         </profile>
         <profile id="3b7b-2e72-7d21-e0d2" name="Sauvegarde Invulnérable" hidden="false" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities">
@@ -1197,14 +1197,14 @@
             <conditionGroup type="and">
               <conditions>
                 <condition type="lessThan" value="1" field="selections" scope="roster" childId="aeb4-96de-7401-eaa3" shared="true" includeChildSelections="true" includeChildForces="true" />
-                <condition type="notInstanceOf" value="1" field="selections" scope="primary-catalogue" childId="f0ff-96fa-6715-5265" shared="true" />
+                <condition type="notInstanceOf" value="1" field="selections" scope="primary-catalogue" childId="46d8-abc8-ef3a-9f85" shared="true" />
               </conditions>
             </conditionGroup>
           </conditionGroups>
         </modifier>
         <modifier type="set-primary" value="887b-ab87-92a2-20f5" field="category">
           <conditions>
-            <condition type="notInstanceOf" value="1" field="selections" scope="primary-catalogue" childId="f0ff-96fa-6715-5265" shared="true" />
+            <condition type="notInstanceOf" value="1" field="selections" scope="primary-catalogue" childId="46d8-abc8-ef3a-9f85" shared="true" />
           </conditions>
         </modifier>
         <modifier type="set-primary" value="e338-111e-d0c6-b687" field="category">
@@ -1306,7 +1306,7 @@
         </profile>
         <profile id="6e59-6cc9-5270-3482" name="Huntsman" hidden="false" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities">
           <characteristics>
-            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Chaque fois que cette figurine effectue une attaque qui cible une unité ^^**Monster^^** ou ^^**Vehicle^^**, vous pouvez relancer le jet de Blessure.</characteristic>
+            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Chaque fois que cette figurine effectue une attaque visant un ^^**Monster^^** ou ^^**Vehicle^^** unité, vous pouvez relancer le jet de Blessure.</characteristic>
           </characteristics>
         </profile>
         <profile id="ab12-2587-aec2-3a51" name="Sauvegarde Invulnérable" hidden="false" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities">
@@ -1396,14 +1396,14 @@
             <conditionGroup type="and">
               <conditions>
                 <condition type="lessThan" value="1" field="selections" scope="roster" childId="aeb4-96de-7401-eaa3" shared="true" includeChildSelections="true" includeChildForces="true" />
-                <condition type="notInstanceOf" value="1" field="selections" scope="primary-catalogue" childId="f0ff-96fa-6715-5265" shared="true" />
+                <condition type="notInstanceOf" value="1" field="selections" scope="primary-catalogue" childId="46d8-abc8-ef3a-9f85" shared="true" />
               </conditions>
             </conditionGroup>
           </conditionGroups>
         </modifier>
         <modifier type="set-primary" value="887b-ab87-92a2-20f5" field="category">
           <conditions>
-            <condition type="notInstanceOf" value="1" field="selections" scope="primary-catalogue" childId="f0ff-96fa-6715-5265" shared="true" />
+            <condition type="notInstanceOf" value="1" field="selections" scope="primary-catalogue" childId="46d8-abc8-ef3a-9f85" shared="true" />
           </conditions>
         </modifier>
         <modifier type="set-primary" value="e338-111e-d0c6-b687" field="category">
@@ -1515,7 +1515,7 @@
         </profile>
         <profile id="8d65-776a-67a4-e925" name="Seething Hatred" hidden="false" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities">
           <characteristics>
-            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Chaque fois que cette figurine est sélectionné pour tirer ou se battre, vous pouvez relancer un jet de Touche ou vous pouvez relancer un jet de Blessure lors de la résolution de ces attaques.</characteristic>
+            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Chaque fois que cette figurine est sélectionnée pour tirer ou combat, vous pouvez relancer un jet de Touche ou vous pouvez relancer un jet de Blessure lors de la résolution de ces Attaques.</characteristic>
           </characteristics>
         </profile>
       </profiles>
@@ -1868,14 +1868,14 @@
             <conditionGroup type="and">
               <conditions>
                 <condition type="lessThan" value="1" field="selections" scope="roster" childId="aeb4-96de-7401-eaa3" shared="true" includeChildSelections="true" includeChildForces="true" />
-                <condition type="notInstanceOf" value="1" field="selections" scope="primary-catalogue" childId="f0ff-96fa-6715-5265" shared="true" />
+                <condition type="notInstanceOf" value="1" field="selections" scope="primary-catalogue" childId="46d8-abc8-ef3a-9f85" shared="true" />
               </conditions>
             </conditionGroup>
           </conditionGroups>
         </modifier>
         <modifier type="set-primary" value="887b-ab87-92a2-20f5" field="category">
           <conditions>
-            <condition type="notInstanceOf" value="1" field="selections" scope="primary-catalogue" childId="f0ff-96fa-6715-5265" shared="true" />
+            <condition type="notInstanceOf" value="1" field="selections" scope="primary-catalogue" childId="46d8-abc8-ef3a-9f85" shared="true" />
           </conditions>
         </modifier>
       </modifiers>
@@ -2202,12 +2202,12 @@
         </profile>
         <profile id="fe14-c4c9-0210-2cd0" name="Taskmaster (Aura)" hidden="false" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities">
           <characteristics>
-            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Alors qu'une figurine amie ^^**War Dog^^** figurine est à 9" ou moins de cette figurine, chaque fois que cette ^^**War Dog^^** effectue une attaque de tir, relancez un jet de Touche de 1.</characteristic>
+            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Tant qu’une figurine ^^**War Dog^^** amie est à 9" ou moins de cette figurine, chaque fois que cette figurine ^^**War Dog^^** effectue une attaque de tir, relancez un jet de Touche de 1.</characteristic>
           </characteristics>
         </profile>
         <profile id="dd85-4783-c495-ca01" name="Obsessive Ruthlessness" hidden="false" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities">
           <characteristics>
-            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Chaque fois que cette figurine effectue une attaque de tir qui cible une unité ^^**Monster^^** ou ^^**Vehicle^^**, cette attaque a la aptitude [Blessures dévastatrices].</characteristic>
+            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Chaque fois que cette figurine fait une attaque de tir qui cible un ^^**Monster^^** ou ^^**Vehicle^^** unité, cette attaque a l’aptitude [Blessures dévastatrices].</characteristic>
           </characteristics>
         </profile>
       </profiles>
@@ -2359,14 +2359,14 @@
             <conditionGroup type="and">
               <conditions>
                 <condition type="lessThan" value="1" field="selections" scope="roster" childId="aeb4-96de-7401-eaa3" shared="true" includeChildSelections="true" includeChildForces="true" />
-                <condition type="notInstanceOf" value="1" field="selections" scope="primary-catalogue" childId="f0ff-96fa-6715-5265" shared="true" />
+                <condition type="notInstanceOf" value="1" field="selections" scope="primary-catalogue" childId="46d8-abc8-ef3a-9f85" shared="true" />
               </conditions>
             </conditionGroup>
           </conditionGroups>
         </modifier>
         <modifier type="set-primary" value="887b-ab87-92a2-20f5" field="category">
           <conditions>
-            <condition type="notInstanceOf" value="1" field="selections" scope="primary-catalogue" childId="f0ff-96fa-6715-5265" shared="true" />
+            <condition type="notInstanceOf" value="1" field="selections" scope="primary-catalogue" childId="46d8-abc8-ef3a-9f85" shared="true" />
           </conditions>
         </modifier>
       </modifiers>
@@ -2458,12 +2458,12 @@
         </profile>
         <profile id="0e4f-8cca-c666-dbf8" name="Frenzied Rampage (Aura)" hidden="false" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities">
           <characteristics>
-            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Alors qu'une figurine sympathique ^^**War Dog^^** figurine est à 9" ou moins de cette figurine, chaque fois que cette ^^**War Dog^^** effectue une attaque de mêlée, relancez un jet de Touche de 1.</characteristic>
+            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Tant qu’une figurine ^^**War Dog^^** amie est à 9" ou moins de cette figurine, chaque fois que cette figurine ^^**War Dog^^** effectue une attaque de mêlée, relancez un jet de Touche de 1.</characteristic>
           </characteristics>
         </profile>
         <profile id="eb59-fb5e-62ca-e829" name="Bloodlust" hidden="false" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities">
           <characteristics>
-            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Chaque fois que cette figurine fait un mouvement Charge, jusqu'à la fin du tour, ses armes de mêlée ont la aptitude [Blessures dévastatrices].</characteristic>
+            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Chaque fois que cette figurine fait un mouvement de Charge, jusqu'à la fin du tour, ses armes de mêlée ont l’aptitude [Blessures dévastatrices].</characteristic>
           </characteristics>
         </profile>
       </profiles>
@@ -2510,14 +2510,14 @@
             <conditionGroup type="and">
               <conditions>
                 <condition type="lessThan" value="1" field="selections" scope="roster" childId="aeb4-96de-7401-eaa3" shared="true" includeChildSelections="true" includeChildForces="true" />
-                <condition type="notInstanceOf" value="1" field="selections" scope="primary-catalogue" childId="f0ff-96fa-6715-5265" shared="true" />
+                <condition type="notInstanceOf" value="1" field="selections" scope="primary-catalogue" childId="46d8-abc8-ef3a-9f85" shared="true" />
               </conditions>
             </conditionGroup>
           </conditionGroups>
         </modifier>
         <modifier type="set-primary" value="887b-ab87-92a2-20f5" field="category">
           <conditions>
-            <condition type="notInstanceOf" value="1" field="selections" scope="primary-catalogue" childId="f0ff-96fa-6715-5265" shared="true" />
+            <condition type="notInstanceOf" value="1" field="selections" scope="primary-catalogue" childId="46d8-abc8-ef3a-9f85" shared="true" />
           </conditions>
         </modifier>
       </modifiers>
@@ -2725,12 +2725,12 @@
         </profile>
         <profile id="9552-ae5b-6be2-775d" name="Vortex Terrors (Psychic)" hidden="false" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities">
           <characteristics>
-            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Au début de votre phase de Tir, sélectionnez une unité ennemi à 24" ou moins et visible pour cette figurine. Cette unité ennemie doit passer un test d’Ébranlement.</characteristic>
+            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Au début de votre phase de Tir, sélectionnez une unité ennemie à 24" ou moins et visible à cette figurine. cette unité ennemie doit prendre un test d’Ébranlement.</characteristic>
           </characteristics>
         </profile>
         <profile id="cac0-b733-e4cf-d88e" name="Warp Storms (Psychic)" hidden="false" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities">
           <characteristics>
-            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">À la fin de votre phase de Mouvement, lancez un D6 pour chaque unité ennemie à 9" ou moins d'une ou plusieurs figurines avec cette aptitude: sur un 3+, cette unité ennemie souffre D3 Blessures Mortelles.</characteristic>
+            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">À la fin de votre phase de Mouvement, lancez un D6 pour chaque unité ennemie à 9" ou moins d'une ou plusieurs figurines avec cette aptitude: sur un 3+, que cette unité ennemie souffre D3 Blessures Mortelles.</characteristic>
           </characteristics>
         </profile>
       </profiles>
@@ -2777,14 +2777,14 @@
             <conditionGroup type="and">
               <conditions>
                 <condition type="lessThan" value="1" field="selections" scope="roster" childId="aeb4-96de-7401-eaa3" shared="true" includeChildSelections="true" includeChildForces="true" />
-                <condition type="notInstanceOf" value="1" field="selections" scope="primary-catalogue" childId="f0ff-96fa-6715-5265" shared="true" />
+                <condition type="notInstanceOf" value="1" field="selections" scope="primary-catalogue" childId="46d8-abc8-ef3a-9f85" shared="true" />
               </conditions>
             </conditionGroup>
           </conditionGroups>
         </modifier>
         <modifier type="set-primary" value="887b-ab87-92a2-20f5" field="category">
           <conditions>
-            <condition type="notInstanceOf" value="1" field="selections" scope="primary-catalogue" childId="f0ff-96fa-6715-5265" shared="true" />
+            <condition type="notInstanceOf" value="1" field="selections" scope="primary-catalogue" childId="46d8-abc8-ef3a-9f85" shared="true" />
           </conditions>
         </modifier>
       </modifiers>
@@ -3002,12 +3002,12 @@
         </profile>
         <profile id="87a6-3ff2-cea4-2c34" name="Infernal Aegis (Aura)" hidden="false" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities">
           <characteristics>
-            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Alors qu'une figurine convivial ^^**War Dog^^** figurine est à 6" ou moins de cette figurine, cette ^^**War Dog^^** a le Bénéfice du Couvert.</characteristic>
+            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Alors qu'un ami ^^**War Dog^^** figurine est à 6" ou moins de cette figurine, cette ^^**War Dog^^** figurine a le Bénéfice du Couvert.</characteristic>
           </characteristics>
         </profile>
         <profile id="fc0a-7d42-111d-44a3" name="Bastion of Corruption" hidden="false" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities">
           <characteristics>
-            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Les unités ennemies placées sur le champ de bataille en tant que renforts ne peuvent pas être placées à 12" ou moins de cette figurine.</characteristic>
+            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Les unités ennemies qui sont installées sur le champ de bataille en tant que Renforcements ne peuvent pas être installées à 12" ou moins de cette figurine.</characteristic>
           </characteristics>
         </profile>
         <profile id="f7fe-ed4a-bdc7-3f9" name="Sauvegarde Invulnérable" hidden="false" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities">
@@ -3385,14 +3385,14 @@
             <conditionGroup type="and">
               <conditions>
                 <condition type="lessThan" value="1" field="selections" scope="roster" childId="aeb4-96de-7401-eaa3" shared="true" includeChildSelections="true" includeChildForces="true" />
-                <condition type="notInstanceOf" value="1" field="selections" scope="primary-catalogue" childId="f0ff-96fa-6715-5265" shared="true" />
+                <condition type="notInstanceOf" value="1" field="selections" scope="primary-catalogue" childId="46d8-abc8-ef3a-9f85" shared="true" />
               </conditions>
             </conditionGroup>
           </conditionGroups>
         </modifier>
         <modifier type="set-primary" value="887b-ab87-92a2-20f5" field="category">
           <conditions>
-            <condition type="notInstanceOf" value="1" field="selections" scope="primary-catalogue" childId="f0ff-96fa-6715-5265" shared="true" />
+            <condition type="notInstanceOf" value="1" field="selections" scope="primary-catalogue" childId="46d8-abc8-ef3a-9f85" shared="true" />
           </conditions>
         </modifier>
       </modifiers>
@@ -3514,7 +3514,7 @@
       <modifiers>
         <modifier type="set" field="hidden" value="true">
           <conditions>
-            <condition field="selections" scope="primary-catalogue" value="0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="f0ff-96fa-6715-5265" type="notInstanceOf" />
+            <condition field="selections" scope="primary-catalogue" value="0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="46d8-abc8-ef3a-9f85" type="notInstanceOf" />
           </conditions>
         </modifier>
         <modifier type="set" value="true" field="hidden">
@@ -3554,7 +3554,7 @@
               </costs>
               <rules>
                 <rule name="Paragons of Terror" id="d6b0-94f1-ee06-6fa3" hidden="false">
-                  <description>Au début du premier tour de bataille, après avoir sélectionné une ou plusieurs aptitudes Dread pour être actives pour votre armée, vous pouvez sélectionner une aptitude Dread supplémentaire pour être active pour votre armée (cette aptitude Dread supplémentaire ne peut pas être sélectionnée au hasard).</description>
+                  <description>Au début du premier tour de bataille, après avoir sélectionné un ou plusieurs Dread aptitudes pour être actif pour votre armée, vous pouvez sélectionner un Dread aptitude supplémentaire pour être actif pour votre armée (cette Dread aptitude supplémentaire ne peut pas être sélectionnée au hasard).</description>
                 </rule>
               </rules>
             </selectionEntry>
@@ -3584,16 +3584,16 @@ Dark Sacrifice: Chaque fois qu’une unité CHAOS KNIGHTS dotée de cette aptitu
             <selectionEntry type="upgrade" import="true" name="Houndpack Lance" hidden="false" id="6cb5-45cf-c626-fa86">
               <rules>
                 <rule name="Marked Prey" id="012f-2864-25e8-4ff6" hidden="false">
-                  <description>Au début de votre phase de Commandement, sélectionnez une unité de l'armée de votre adversaire. Jusqu'au début de votre prochaine phase de Commandement, chaque fois qu'une figurine ^^**War Dog^^** de votre armée fait une attaque qui cible cette unité ennemie, si cette unité est visible pour la figurine attaquant, cette attaque a la aptitude [Touches soutenues 1].
+                  <description>Au début de votre phase de Commandement, sélectionnez une unité de l'armée de votre adversaire. Jusqu'au début de votre prochaine phase de Commandement, chaque fois qu'une ^^**War Dog^^** figurine de votre armée fait une attaque qui cible cette unité ennemie, si cette unité est visible à l'attaquant figurine, cette attaque a l’aptitude [Touches soutenues 1].
 
 
-**Keywords**
+**mots-clés**
 Lors de l'utilisation du détachement Houndpack Lance, les règles suivantes s'appliquent:
 
 
 - votre armée doit include 3 or plusieurs ^^**War Dog^^** unités.
 - ^^**War Dog^^** unités de votre armée ont l’ ^^**Battleline^^** mot-clé.
-- Lorsque vous rassemblez votre armée, sélectionnez les unités 3 ^^**War Dog^^** de votre armée. Jusqu'à la fin de la bataille, ces unités ont le mot-clé ^^**Character^^**.*
+- Lorsque vous rassemblez votre armée, sélectionnez les unités 3 ^^**War Dog^^** de votre armée. Jusqu'à la fin de la bataille, ces unités ont mot-clé ^^**Character^^**.*
 
 
 *** Designer's Note:** * Cela signifie que les unités sélectionnées peuvent recevoir des améliorations et que l'une d'entre elles peut être sélectionnée comme votre * ^^**Warlord^^**.</description>
@@ -3618,7 +3618,7 @@ Lors de l'utilisation du détachement Houndpack Lance, les règles suivantes s'a
             <selectionEntry type="upgrade" import="true" name="Helhunt Lance" hidden="false" id="915c-3949-0da6-83c5">
               <rules>
                 <rule name="Masters of the Pack" id="a9a1-45c1-9b4a-e8db" hidden="false">
-                  <description>Si une figurine ^^**Titanic Chaos Knights^^** unité de votre armée a an Aura aptitude cette affects amie ^^**War Dog^^** unités, tant que deux or plusieurs amie ^^**War Dog^^** se trouve dans la plage de cette unité ^^**Titanic Chaos Knights^^** de l’unité Aura aptitude, cette ^^**Titanic Chaos Knights^^** est également affecté par cette aptitude Aura.</description>
+                  <description>Si une unité ^^**Titanic Chaos Knights^^** de votre armée possède une aptitude d’Aura qui affecte les unités ^^**War Dog^^** amies, tant qu’au moins deux figurines ^^**War Dog^^** amies sont à portée de l’aptitude d’Aura de cette unité ^^**Titanic Chaos Knights^^**, cette unité ^^**Titanic Chaos Knights^^** est également affectée par cette aptitude d’Aura.</description>
                 </rule>
               </rules>
             </selectionEntry>
@@ -3699,14 +3699,14 @@ Lors de l'utilisation du détachement Houndpack Lance, les règles suivantes s'a
             <conditionGroup type="and">
               <conditions>
                 <condition type="lessThan" value="1" field="selections" scope="roster" childId="aeb4-96de-7401-eaa3" shared="true" includeChildSelections="true" includeChildForces="true" />
-                <condition type="notInstanceOf" value="1" field="selections" scope="primary-catalogue" childId="f0ff-96fa-6715-5265" shared="true" />
+                <condition type="notInstanceOf" value="1" field="selections" scope="primary-catalogue" childId="46d8-abc8-ef3a-9f85" shared="true" />
               </conditions>
             </conditionGroup>
           </conditionGroups>
         </modifier>
         <modifier type="set-primary" value="887b-ab87-92a2-20f5" field="category">
           <conditions>
-            <condition type="notInstanceOf" value="1" field="selections" scope="primary-catalogue" childId="f0ff-96fa-6715-5265" shared="true" />
+            <condition type="notInstanceOf" value="1" field="selections" scope="primary-catalogue" childId="46d8-abc8-ef3a-9f85" shared="true" />
           </conditions>
         </modifier>
       </modifiers>
@@ -3799,7 +3799,7 @@ Lors de l'utilisation du détachement Houndpack Lance, les règles suivantes s'a
               </costs>
               <rules>
                 <rule name="Conversion" id="b17a-783c-cd7d-a787" hidden="false">
-                  <description>Chaque fois qu'une attaque est effectuée avec cette arme, si la cible est plus que 24" du porteur, un succès non modifié jet de Touche de 4+ marque un Hit critique.</description>
+                  <description>Chaque fois qu’une attaque est effectuée avec cette arme, si la cible est à plus de 24" du porteur, tout jet de Touche non modifié réussi de 4+ est une Touche Critique.</description>
                 </rule>
               </rules>
               <entryLinks>
@@ -3931,7 +3931,7 @@ Lors de l'utilisation du détachement Houndpack Lance, les règles suivantes s'a
         </profile>
         <profile id="e9ae-3e4d-a77b-c5d2" name="Bastion of Firepower" hidden="false" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities">
           <characteristics>
-            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Chaque fois que cette figurine reste stationnaire, jusqu'à la fin du tour, les armes de tir équipées de cette figurine ont la aptitude [Touches fatales].</characteristic>
+            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Chaque fois que cette figurine Reste Stationnaire, jusqu’à la fin du tour, les armes de tir dont elle est équipée ont l’aptitude [LETHAL HITS].</characteristic>
           </characteristics>
         </profile>
       </profiles>
@@ -4130,14 +4130,14 @@ Lors de l'utilisation du détachement Houndpack Lance, les règles suivantes s'a
             <conditionGroup type="and">
               <conditions>
                 <condition type="lessThan" value="1" field="selections" scope="roster" childId="aeb4-96de-7401-eaa3" shared="true" includeChildSelections="true" includeChildForces="true" />
-                <condition type="notInstanceOf" value="1" field="selections" scope="primary-catalogue" childId="f0ff-96fa-6715-5265" shared="true" />
+                <condition type="notInstanceOf" value="1" field="selections" scope="primary-catalogue" childId="46d8-abc8-ef3a-9f85" shared="true" />
               </conditions>
             </conditionGroup>
           </conditionGroups>
         </modifier>
         <modifier type="set-primary" value="887b-ab87-92a2-20f5" field="category">
           <conditions>
-            <condition type="notInstanceOf" value="1" field="selections" scope="primary-catalogue" childId="f0ff-96fa-6715-5265" shared="true" />
+            <condition type="notInstanceOf" value="1" field="selections" scope="primary-catalogue" childId="46d8-abc8-ef3a-9f85" shared="true" />
           </conditions>
         </modifier>
       </modifiers>
@@ -4234,12 +4234,12 @@ Lors de l'utilisation du détachement Houndpack Lance, les règles suivantes s'a
         </profile>
         <profile id="5053-d4f1-9f6-a113" name="Shock Charge" hidden="false" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities">
           <characteristics>
-            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Vous pouvez cibler cette figurine avec le Stratagème Tank Shock pour 0CP, et vous pouvez le faire même si vous avez déjà ciblé une unité différente avec ce Stratagème cette phase.</characteristic>
+            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Vous pouvez cibler cette figurine avec le Tank Shock Stratagème pour 0CP, et vous pouvez le faire même si vous avez déjà ciblé une unité différente avec ce Stratagème cette phase.</characteristic>
           </characteristics>
         </profile>
         <profile id="d211-dc16-2bb6-90f7" name="Dark Fervour (Aura)" hidden="false" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities">
           <characteristics>
-            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Alors qu'une figurine amie ^^**War Dog^^** figurine est à 6" ou moins de cette figurine, armes de tir dont sont équipées cette ^^**War Dog^^** a la aptitude [Assaut].</characteristic>
+            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Alors qu'un ami ^^**War Dog^^** figurine est à 6" ou moins de cette figurine, armes de tir dont sont équipées cette ^^**War Dog^^** figurine ont l’aptitude [Assaut].</characteristic>
           </characteristics>
         </profile>
       </profiles>
@@ -4285,14 +4285,14 @@ Lors de l'utilisation du détachement Houndpack Lance, les règles suivantes s'a
             <conditionGroup type="and">
               <conditions>
                 <condition type="lessThan" value="1" field="selections" scope="roster" childId="aeb4-96de-7401-eaa3" shared="true" includeChildSelections="true" includeChildForces="true" />
-                <condition type="notInstanceOf" value="1" field="selections" scope="primary-catalogue" childId="f0ff-96fa-6715-5265" shared="true" />
+                <condition type="notInstanceOf" value="1" field="selections" scope="primary-catalogue" childId="46d8-abc8-ef3a-9f85" shared="true" />
               </conditions>
             </conditionGroup>
           </conditionGroups>
         </modifier>
         <modifier type="set-primary" value="887b-ab87-92a2-20f5" field="category">
           <conditions>
-            <condition type="notInstanceOf" value="1" field="selections" scope="primary-catalogue" childId="f0ff-96fa-6715-5265" shared="true" />
+            <condition type="notInstanceOf" value="1" field="selections" scope="primary-catalogue" childId="46d8-abc8-ef3a-9f85" shared="true" />
           </conditions>
         </modifier>
       </modifiers>
@@ -4451,12 +4451,12 @@ Lors de l'utilisation du détachement Houndpack Lance, les règles suivantes s'a
         </profile>
         <profile id="8ee2-d7a7-c821-24fa" name="Storm of Bolts" hidden="false" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities">
           <characteristics>
-            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Dans votre phase de Tir, après que cette figurine ait tiré, sélectionnez une unité (à l'exclusion de ^^**Monsters^^** et ^^**Vehicles^^**) touchée par une ou plusieurs de ces attaques. Jusqu'au début de votre tour suivant, pendant que cette figurine est sur le champ de bataille, cette unité ennemie est supprimée. Tant qu’une unité est supprimée, chaque fois qu'une figurine dans cette unité fait une attaque, Soustrayez 1 du jet de Touche.</characteristic>
+            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Dans votre phase de Tir, après que cette figurine ait été tiré, sélectionnez une unité (à l’exclusion de ^^**Monsters^^** et ^^**Vehicles^^**) touchée par un ou plusieurs de ces Attaques. Jusqu'au début de votre prochain tour, pendant que cette figurine est sur le champ de bataille, que cette unité ennemie est supprimé. Tant qu’une unité est supprimée, chaque fois qu'une figurine dans cette unité fait une attaque, Soustrayez 1 du jet de Touche.</characteristic>
           </characteristics>
         </profile>
         <profile id="75f4-754b-632e-ccb7" name="Offerings for the Dark Gods (Aura)" hidden="false" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities">
           <characteristics>
-            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Alors qu'une figurine amie ^^**War Dog^^** figurine est à 6" ou moins de cette figurine, armes de tir dont sont équipées cette ^^**War Dog^^** a la aptitude [Touches soutenues 1].</characteristic>
+            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Alors qu'un ami ^^**War Dog^^** figurine est à 6" ou moins de cette figurine, armes de tir dont sont équipées cette ^^**War Dog^^** figurine ont l’aptitude [Touches soutenues 1].</characteristic>
           </characteristics>
         </profile>
       </profiles>
@@ -4506,14 +4506,14 @@ Lors de l'utilisation du détachement Houndpack Lance, les règles suivantes s'a
             <conditionGroup type="and">
               <conditions>
                 <condition type="lessThan" value="1" field="selections" scope="roster" childId="aeb4-96de-7401-eaa3" shared="true" includeChildSelections="true" includeChildForces="true" />
-                <condition type="notInstanceOf" value="1" field="selections" scope="primary-catalogue" childId="f0ff-96fa-6715-5265" shared="true" />
+                <condition type="notInstanceOf" value="1" field="selections" scope="primary-catalogue" childId="46d8-abc8-ef3a-9f85" shared="true" />
               </conditions>
             </conditionGroup>
           </conditionGroups>
         </modifier>
         <modifier type="set-primary" value="887b-ab87-92a2-20f5" field="category">
           <conditions>
-            <condition type="notInstanceOf" value="1" field="selections" scope="primary-catalogue" childId="f0ff-96fa-6715-5265" shared="true" />
+            <condition type="notInstanceOf" value="1" field="selections" scope="primary-catalogue" childId="46d8-abc8-ef3a-9f85" shared="true" />
           </conditions>
         </modifier>
       </modifiers>
@@ -4691,12 +4691,12 @@ Lors de l'utilisation du détachement Houndpack Lance, les règles suivantes s'a
         </profile>
         <profile id="87e2-fd19-7923-c24" name="Searing Flames" hidden="false" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities">
           <characteristics>
-            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Dans votre phase de Tir, après que cette figurine ait tiré, sélectionnez une unité ennemie touchée par une ou plusieurs de ces attaques faites avec un canon de flamme Acheron. Jusqu'à la fin de la phase, cette unité ennemie ne pourra pas bénéficier de la couverture.</characteristic>
+            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Durant votre phase de Tir, après que cette figurine a tiré, sélectionnez une unité ennemie touchée par une ou plusieurs de ces attaques effectuées avec un Acheron flame cannon. Jusqu’à la fin de la phase, cette unité ennemie ne peut pas bénéficier du Couvert.</characteristic>
           </characteristics>
         </profile>
         <profile id="fba5-f8cf-a268-d9d7" name="Unrestrained Terror (Aura)" hidden="false" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities">
           <characteristics>
-            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Alors qu'une figurine amie ^^**War Dog^^** est à 6" ou moins de cette figurine, il est affecté par cette aptitude. Au début de la phase de Combat, chaque unité ennemi dans la Portée d’Engagement d'une ou plusieurs unités ^^**War Dog^^** affectées par cette aptitude doit passer un test d’Ébranlement.</characteristic>
+            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Tant qu’une figurine ^^**War Dog^^** amie est à 6" ou moins de cette figurine, elle est affectée par cette aptitude. Au début de la phase de Combat, chaque unité ennemie à Portée d’Engagement d’une ou plusieurs unités ^^**War Dog^^** affectées par cette aptitude doit effectuer un test d’Ébranlement.</characteristic>
           </characteristics>
         </profile>
       </profiles>
@@ -4741,14 +4741,14 @@ Lors de l'utilisation du détachement Houndpack Lance, les règles suivantes s'a
             <conditionGroup type="and">
               <conditions>
                 <condition type="lessThan" value="1" field="selections" scope="roster" childId="aeb4-96de-7401-eaa3" shared="true" includeChildSelections="true" includeChildForces="true" />
-                <condition type="notInstanceOf" value="1" field="selections" scope="primary-catalogue" childId="f0ff-96fa-6715-5265" shared="true" />
+                <condition type="notInstanceOf" value="1" field="selections" scope="primary-catalogue" childId="46d8-abc8-ef3a-9f85" shared="true" />
               </conditions>
             </conditionGroup>
           </conditionGroups>
         </modifier>
         <modifier type="set-primary" value="887b-ab87-92a2-20f5" field="category">
           <conditions>
-            <condition type="notInstanceOf" value="1" field="selections" scope="primary-catalogue" childId="f0ff-96fa-6715-5265" shared="true" />
+            <condition type="notInstanceOf" value="1" field="selections" scope="primary-catalogue" childId="46d8-abc8-ef3a-9f85" shared="true" />
           </conditions>
         </modifier>
       </modifiers>
@@ -4970,7 +4970,7 @@ Lors de l'utilisation du détachement Houndpack Lance, les règles suivantes s'a
         </profile>
         <profile id="c43b-6529-75b4-457a" name="Consumed with Hunger (Aura)" hidden="false" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities">
           <characteristics>
-            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Alors qu'une unité conviviale ^^**War Dog^^** figurine est à 6" ou moins de cette figurine, chaque fois que cette ^^**War Dog^^** figurine effectue une attaque cette cible une ^^**Titanic^^** ou ^^**Towering^^**, vous pouvez relancer le jet de Touche.</characteristic>
+            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Alors qu'une unité amicale ^^**War Dog^^** figurine est à 6" ou moins de cette figurine, chaque fois que cette ^^**War Dog^^** figurine effectue une attaque cette cible une ^^**Titanic^^** ou ^^**Towering^^**, vous pouvez relancer est le jet de Touche.</characteristic>
           </characteristics>
         </profile>
       </profiles>
@@ -5020,14 +5020,14 @@ Lors de l'utilisation du détachement Houndpack Lance, les règles suivantes s'a
             <conditionGroup type="and">
               <conditions>
                 <condition type="lessThan" value="1" field="selections" scope="roster" childId="aeb4-96de-7401-eaa3" shared="true" includeChildSelections="true" includeChildForces="true" />
-                <condition type="notInstanceOf" value="1" field="selections" scope="primary-catalogue" childId="f0ff-96fa-6715-5265" shared="true" />
+                <condition type="notInstanceOf" value="1" field="selections" scope="primary-catalogue" childId="46d8-abc8-ef3a-9f85" shared="true" />
               </conditions>
             </conditionGroup>
           </conditionGroups>
         </modifier>
         <modifier type="set-primary" value="887b-ab87-92a2-20f5" field="category">
           <conditions>
-            <condition type="notInstanceOf" value="1" field="selections" scope="primary-catalogue" childId="f0ff-96fa-6715-5265" shared="true" />
+            <condition type="notInstanceOf" value="1" field="selections" scope="primary-catalogue" childId="46d8-abc8-ef3a-9f85" shared="true" />
           </conditions>
         </modifier>
       </modifiers>
@@ -5489,14 +5489,14 @@ Lors de l'utilisation du détachement Houndpack Lance, les règles suivantes s'a
             <conditionGroup type="and">
               <conditions>
                 <condition type="lessThan" value="1" field="selections" scope="roster" childId="aeb4-96de-7401-eaa3" shared="true" includeChildSelections="true" includeChildForces="true" />
-                <condition type="notInstanceOf" value="1" field="selections" scope="primary-catalogue" childId="f0ff-96fa-6715-5265" shared="true" />
+                <condition type="notInstanceOf" value="1" field="selections" scope="primary-catalogue" childId="46d8-abc8-ef3a-9f85" shared="true" />
               </conditions>
             </conditionGroup>
           </conditionGroups>
         </modifier>
         <modifier type="set-primary" value="887b-ab87-92a2-20f5" field="category">
           <conditions>
-            <condition type="notInstanceOf" value="1" field="selections" scope="primary-catalogue" childId="f0ff-96fa-6715-5265" shared="true" />
+            <condition type="notInstanceOf" value="1" field="selections" scope="primary-catalogue" childId="46d8-abc8-ef3a-9f85" shared="true" />
           </conditions>
         </modifier>
       </modifiers>
@@ -5593,7 +5593,7 @@ Lors de l'utilisation du détachement Houndpack Lance, les règles suivantes s'a
         </profile>
         <profile name="Preysight (Aura)" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="fde0-47bb-5767-5537">
           <characteristics>
-            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Alors qu'une figurine amie ^^**War Dog^^** figurine est à 6" ou moins de cette figurine, armes de tir dont sont équipées cette ^^**War Dog^^** a la aptitude [Ignore le couvert].</characteristic>
+            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Tant qu’une figurine ^^**War Dog^^** amie est à 6" ou moins de cette figurine, les armes de tir dont cette figurine ^^**War Dog^^** est équipée ont l’aptitude [Ignore le couvert].</characteristic>
           </characteristics>
         </profile>
       </profiles>
@@ -5825,14 +5825,14 @@ Lors de l'utilisation du détachement Houndpack Lance, les règles suivantes s'a
             <conditionGroup type="and">
               <conditions>
                 <condition type="lessThan" value="1" field="selections" scope="roster" childId="aeb4-96de-7401-eaa3" shared="true" includeChildSelections="true" includeChildForces="true" />
-                <condition type="notInstanceOf" value="1" field="selections" scope="primary-catalogue" childId="f0ff-96fa-6715-5265" shared="true" />
+                <condition type="notInstanceOf" value="1" field="selections" scope="primary-catalogue" childId="46d8-abc8-ef3a-9f85" shared="true" />
               </conditions>
             </conditionGroup>
           </conditionGroups>
         </modifier>
         <modifier type="set-primary" value="887b-ab87-92a2-20f5" field="category">
           <conditions>
-            <condition type="notInstanceOf" value="1" field="selections" scope="primary-catalogue" childId="f0ff-96fa-6715-5265" shared="true" />
+            <condition type="notInstanceOf" value="1" field="selections" scope="primary-catalogue" childId="46d8-abc8-ef3a-9f85" shared="true" />
           </conditions>
         </modifier>
       </modifiers>
@@ -5924,7 +5924,7 @@ Lors de l'utilisation du détachement Houndpack Lance, les règles suivantes s'a
         </profile>
         <profile id="5f6b-e13c-2fb2-fdf7" name="Protection Protocols" hidden="false" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities">
           <characteristics>
-            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Vous pouvez cibler cette unité avec le Stratagème d'intervention héroïque pour 0CP, et vous pouvez le faire même si vous avez déjà ciblé une autre unité avec ce Stratagème cette phase.</characteristic>
+            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Vous pouvez cibler cette unité avec l'intervention héroïque Stratagème pour 0CP, et vous pouvez le faire même si vous avez déjà ciblé une unité différente avec ce Stratagème cette phase.</characteristic>
           </characteristics>
         </profile>
       </profiles>
@@ -6014,7 +6014,7 @@ Lors de l'utilisation du détachement Houndpack Lance, les règles suivantes s'a
                   </costs>
                   <rules>
                     <rule name="Conversion (Moirax)" id="7f3b-ae52-f288-1fef" hidden="false">
-                      <description>Chaque fois qu'une attaque est effectuée avec cette arme, si la cible est plus que 12" du porteur, un succès non modifié jet de Touche de 4+ marque un Hit critique.</description>
+                      <description>Chaque fois qu'une attaque est effectuée avec cette arme, si la cible est supérieure à 12" du porteur, un jet de Touche non modifié avec succès de 4+ marque un Touche Critique.</description>
                     </rule>
                   </rules>
                   <entryLinks>
@@ -6162,14 +6162,14 @@ Lors de l'utilisation du détachement Houndpack Lance, les règles suivantes s'a
             <conditionGroup type="and">
               <conditions>
                 <condition type="lessThan" value="1" field="selections" scope="roster" childId="aeb4-96de-7401-eaa3" shared="true" includeChildSelections="true" includeChildForces="true" />
-                <condition type="notInstanceOf" value="1" field="selections" scope="primary-catalogue" childId="f0ff-96fa-6715-5265" shared="true" />
+                <condition type="notInstanceOf" value="1" field="selections" scope="primary-catalogue" childId="46d8-abc8-ef3a-9f85" shared="true" />
               </conditions>
             </conditionGroup>
           </conditionGroups>
         </modifier>
         <modifier type="set-primary" value="887b-ab87-92a2-20f5" field="category">
           <conditions>
-            <condition type="notInstanceOf" value="1" field="selections" scope="primary-catalogue" childId="f0ff-96fa-6715-5265" shared="true" />
+            <condition type="notInstanceOf" value="1" field="selections" scope="primary-catalogue" childId="46d8-abc8-ef3a-9f85" shared="true" />
           </conditions>
         </modifier>
         <modifier type="set-primary" value="e338-111e-d0c6-b687" field="category">
@@ -6301,12 +6301,12 @@ Lors de l'utilisation du détachement Houndpack Lance, les règles suivantes s'a
         </profile>
         <profile name="Methodical Destruction" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="18c3-bb63-3d2b-10fa">
           <characteristics>
-            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Au début du premier tour de bataille, sélectionnez une unité de l'armée de votre adversaire pour être la victime de cette figurine. Chaque fois que cette figurine fait une attaque qui cible sa victime, vous pouvez relancer le jet de Blessure. Chaque fois que la victime de cette figurine est détruite, sélectionnez une nouvelle unité ennemie pour être la victime de cette figurine.</characteristic>
+            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Au début du premier tour de bataille, sélectionnez une unité de l'armée de votre adversaire pour être la victime de cette figurine. Chaque fois que cette figurine fait une attaque qui cible sa victime, vous pouvez relancer le jet de Blessure. Chaque fois que la victime de cette figurine est détruite, sélectionnez un nouveau unité ennemie pour être la victime de cette figurine.</characteristic>
           </characteristics>
         </profile>
         <profile name="Close-range Killers (Aura)" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="31ed-3d34-0d2b-60d2">
           <characteristics>
-            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Alors qu'une figurine amie ^^**War Dog^^** figurine est à 9" ou moins de cette figurine, chaque fois que cette ^^**War Dog^^** effectue une attaque visant l'unité ennemie la plus proche, améliore la caractéristique de Pénétration d’Armure de cette attaque de 1.</characteristic>
+            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Alors qu'un ami ^^**War Dog^^** figurine est à 9" ou moins de cette figurine, chaque fois que cette ^^**War Dog^^** figurine effectue une attaque qui cible le unité ennemie le plus proche, améliore la caractéristique de Pénétration d’Armure de cette attaque de 1.</characteristic>
           </characteristics>
         </profile>
       </profiles>
@@ -6353,14 +6353,14 @@ Lors de l'utilisation du détachement Houndpack Lance, les règles suivantes s'a
             <conditionGroup type="and">
               <conditions>
                 <condition type="lessThan" value="1" field="selections" scope="roster" childId="aeb4-96de-7401-eaa3" shared="true" includeChildSelections="true" includeChildForces="true" />
-                <condition type="notInstanceOf" value="1" field="selections" scope="primary-catalogue" childId="f0ff-96fa-6715-5265" shared="true" />
+                <condition type="notInstanceOf" value="1" field="selections" scope="primary-catalogue" childId="46d8-abc8-ef3a-9f85" shared="true" />
               </conditions>
             </conditionGroup>
           </conditionGroups>
         </modifier>
         <modifier type="set-primary" value="887b-ab87-92a2-20f5" field="category">
           <conditions>
-            <condition type="notInstanceOf" value="1" field="selections" scope="primary-catalogue" childId="f0ff-96fa-6715-5265" shared="true" />
+            <condition type="notInstanceOf" value="1" field="selections" scope="primary-catalogue" childId="46d8-abc8-ef3a-9f85" shared="true" />
           </conditions>
         </modifier>
       </modifiers>
@@ -6567,7 +6567,7 @@ Lors de l'utilisation du détachement Houndpack Lance, les règles suivantes s'a
           <profiles>
             <profile id="ea44-505d-1519-fd1d" name="Malevolent Heraldry" hidden="false" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities">
               <characteristics>
-                <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Chaque fois que vous lancez des dés pour sélectionner au hasard quelles capacités Dread sont actives pour votre armée, si le porteur est sur le champ de bataille, vous pouvez relancer un ou les deux résultats.</characteristic>
+                <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Chaque fois que vous lancez des dés pour sélectionner au hasard quels Dread aptitudes sont actifs pour votre armée, si le porteur est sur le champ de bataille, vous pouvez relancer un ou les deux résultats sont lancés.</characteristic>
               </characteristics>
             </profile>
           </profiles>
@@ -6604,7 +6604,7 @@ Lors de l'utilisation du détachement Houndpack Lance, les règles suivantes s'a
           <profiles>
             <profile id="be11-dfc5-c59f-16d1" name="Veil of Medrengard" hidden="false" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities">
               <characteristics>
-                <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Le porteur dispose d'un 4+ sauvegarde invulnérable contre les attaques de tir, et d'un 5+ sauvegarde invulnérable contre les attaques de mêlée.</characteristic>
+                <characteristic name="Description" typeId="9b8f-694b-e5e-b573">le porteur a un 4+ sauvegarde invulnérable contre les attaques de tir, et un 5+ sauvegarde invulnérable contre les attaques de mêlée.</characteristic>
               </characteristics>
             </profile>
           </profiles>
@@ -6641,7 +6641,7 @@ Lors de l'utilisation du détachement Houndpack Lance, les règles suivantes s'a
           <profiles>
             <profile id="b263-32e3-5af5-2643" name="Tyrant's Shadow" hidden="false" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities">
               <characteristics>
-                <characteristic name="Description" typeId="9b8f-694b-e5e-b573">À la fin de votre phase de Commandement, sélectionnez un marqueur objectif dont le porteur est à portée et que vous contrôlez. Ce marqueur objectif reste sous votre contrôle jusqu'à ce que le niveau de contrôle de votre adversaire sur ce marqueur objectif soit supérieur au vôtre à la fin d'une phase. En outre, jusqu'à ce que vous perdiez le contrôle de ce marqueur objectif, il a la aptitude de terreur mortelle comme si c'était une figurine ^^**Chaos Knights^^** de votre armée.</characteristic>
+                <characteristic name="Description" typeId="9b8f-694b-e5e-b573">À la fin de votre phase de Commandement, sélectionnez un pion d’objectif le porteur est dans Portée de et que vous contrôlez. Ce pion d’objectif reste sous votre contrôle jusqu'à ce que le niveau de contrôle de votre adversaire sur ce pion d’objectif soit supérieur au vôtre à la fin d'une phase. En outre, jusqu'à ce que vous perdiez le contrôle de ce pion d’objectif, il a l’aptitude Terror Mortel comme si c'était une ^^**Chaos Knights^^** figurine de votre armée.</characteristic>
               </characteristics>
             </profile>
           </profiles>
@@ -6678,7 +6678,7 @@ Lors de l'utilisation du détachement Houndpack Lance, les règles suivantes s'a
           <profiles>
             <profile name="Nightmare's Master" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="23e6-4a34-e2f6-b081">
               <characteristics>
-                <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Au début de la phase de Combat, chaque unité ennemie dans la Portée d’Engagement du porteur doit passer un test d’Ébranlement.</characteristic>
+                <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Au début de la phase de Combat, chaque unité ennemie à Portée d’Engagement du porteur doit effectuer un test d’Ébranlement.</characteristic>
               </characteristics>
             </profile>
           </profiles>
@@ -6733,7 +6733,7 @@ Lors de l'utilisation du détachement Houndpack Lance, les règles suivantes s'a
           <profiles>
             <profile name="Warp-borne Stalker" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="9e0b-38ac-7e6c-22eb">
               <characteristics>
-                <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Le porteur possède l’aptitude Frappe en profondeur. En outre, une fois par bataille, à la fin du tour de votre adversaire, si le porteur n'est pas dans la Portée d’Engagement d'une ou plusieurs unités ennemies, vous pouvez le retirer du champ de bataille et le placer dans les réserves stratégiques.</characteristic>
+                <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Le porteur possède l’aptitude Frappe en profondeur. En outre, Une fois par bataille, à la fin du tour de votre adversaire, si le porteur n'est pas à l'intérieur de Portée d’Engagement d'une ou de plusieurs unités ennemies, vous pouvez le retirer du champ de bataille et le placer dans Réserves Stratégiques.</characteristic>
               </characteristics>
             </profile>
           </profiles>
@@ -6774,7 +6774,7 @@ Lors de l'utilisation du détachement Houndpack Lance, les règles suivantes s'a
           <profiles>
             <profile name="Blade of Celerity" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="f34f-8bd9-1162-9fb1">
               <characteristics>
-                <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Les armes de tir du porteur ont la aptitude [Assaut]. En outre, une fois par bataille, dans la phase de Combat, le porteur peut utiliser cette Optimisation. Si c'est le cas, jusqu'à la fin de la phase, les figurines dans l'unité du porteur ont la aptitude Fights First.</characteristic>
+                <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Les armes de tir du porteur ont l’aptitude [Assaut]. En outre, Une fois par bataille, dans la phase de Combat, le porteur peut utiliser ce Optimisation. Si c'est le cas, Jusqu’à la fin de la phase, les figurines de l’unité du porteur ont l’aptitude Fights First.</characteristic>
               </characteristics>
             </profile>
           </profiles>
@@ -6812,7 +6812,7 @@ Lors de l'utilisation du détachement Houndpack Lance, les règles suivantes s'a
           <profiles>
             <profile name="Putrid Carapace" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="0ca8-e1b5-921a-e99a">
               <characteristics>
-                <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Le porteur a une caractéristique de sauvegarde de 2+. En outre, une fois par bataille, au début de la phase de Commandement de l'un ou l'autre joueur, le porteur peut utiliser cette Optimisation. Si c'est le cas, le porteur récupère jusqu'à D6 PV perdus.</characteristic>
+                <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Le porteur a une caractéristique de Sauvegarde de 2+. De plus, une fois par bataille, au début de la phase de Commandement de l’un ou l’autre joueur, le porteur peut utiliser cette Optimisation. S’il le fait, le porteur récupère jusqu’à D6 PV perdus.</characteristic>
               </characteristics>
             </profile>
           </profiles>
@@ -6854,12 +6854,12 @@ Lors de l'utilisation du détachement Houndpack Lance, les règles suivantes s'a
           <profiles>
             <profile name="Mirror of Fates" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="8a8a-7965-4430-f43c">
               <characteristics>
-                <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Une fois par tour de bataille, vous pouvez cibler le porteur avec le Command relancer Stratagème pour 0CP, et vous pouvez le faire même si une autre unité de votre armée a déjà été ciblée par ce Stratagème cette phase. De plus, vous gagnez le Lord de l'abité de la tromperie.</characteristic>
+                <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Une fois par tour de bataille, vous pouvez cibler le porteur avec le Stratagème Command Re-roll pour 0CP, même si une autre unité de votre armée a déjà été ciblée par ce Stratagème durant cette phase. De plus, vous gagnez l’aptitude Lord of Deceit.</characteristic>
               </characteristics>
             </profile>
             <profile name="Lord of Deceit (Aura)" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="208d-4e3a-81da-9372">
               <characteristics>
-                <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Chaque fois que votre adversaire cible une unité de son armée avec un Stratagème, si cette unité se trouve à 12" ou moins de cette figurine, augmentez le coût de cette utilisation de ce Stratagème par 1CP.</characteristic>
+                <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Chaque fois que votre adversaire cible une unité de son armée avec un Stratagème, si cette unité est à 12" ou moins de cette figurine, augmenter le coût de l'utilisation de ce Stratagème par 1CP.</characteristic>
               </characteristics>
             </profile>
           </profiles>
@@ -6896,7 +6896,7 @@ Lors de l'utilisation du détachement Houndpack Lance, les règles suivantes s'a
           <profiles>
             <profile name="Blessing of the Dark Master" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="625f-a2b7-5cfc-e60d">
               <characteristics>
-                <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Le porteur possède la aptitude Discrétion. En outre, une fois par bataille, après avoir lancé un jet de sauvegarde pour le porteur, vous pouvez changer la caractéristique de Dégât de cette attaque à 0.</characteristic>
+                <characteristic name="Description" typeId="9b8f-694b-e5e-b573">le porteur a l’aptitude Discrétion. En outre, Une fois par bataille, après avoir fait un jet de sauvegarde pour le porteur, vous pouvez changer la caractéristique de Dégâts de cette attaque à 0.</characteristic>
               </characteristics>
             </profile>
           </profiles>
@@ -6933,7 +6933,7 @@ Lors de l'utilisation du détachement Houndpack Lance, les règles suivantes s'a
           <profiles>
             <profile name="Throne Mechanicum of Skulls" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="9230-8299-9b67-4ccf">
               <characteristics>
-                <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Vous pouvez relancer les jets de Charge de l'unité du porteur. De plus, une fois par bataille, dans votre phase de Charge, le porteur peut utiliser cet Optimisation. Si c'est le cas, jusqu'à la fin de la phase, l'unité du porteur est admissible à déclarer une charge à un tour où elle avance.</characteristic>
+                <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Vous pouvez relancer les jets de Charge effectués pour l’unité du porteur. De plus, une fois par bataille, durant votre phase de Charge, le porteur peut utiliser cette Optimisation. S’il le fait, jusqu’à la fin de la phase, l’unité du porteur est éligible pour déclarer une charge durant un tour où elle a Avancé.</characteristic>
               </characteristics>
             </profile>
           </profiles>
@@ -6967,7 +6967,7 @@ Lors de l'utilisation du détachement Houndpack Lance, les règles suivantes s'a
           <profiles>
             <profile name="Loping Predator" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="6871-9f72-fab6-7543">
               <characteristics>
-                <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Les armes de tir du porteur ont la aptitude [Assaut].</characteristic>
+                <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Les armes de tir du porteur ont l’aptitude [Assaut].</characteristic>
               </characteristics>
             </profile>
           </profiles>
@@ -7004,7 +7004,7 @@ Lors de l'utilisation du détachement Houndpack Lance, les règles suivantes s'a
           <profiles>
             <profile name="Final Howl (Aura)" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="f1a7-7e92-ea7e-9e9a">
               <characteristics>
-                <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Alors qu'une figurine ^^**War Dog^^** amicale est à 6" ou moins du porteur, chaque fois que cette figurine fait une attaque, relancer un jet de Blessure de 1.</characteristic>
+                <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Tant qu’une figurine ^^**War Dog^^** amie est à 6" ou moins du porteur, chaque fois que cette figurine effectue une attaque, relancez un jet de Blessure de 1.</characteristic>
               </characteristics>
             </profile>
           </profiles>
@@ -7081,7 +7081,7 @@ Lors de l'utilisation du détachement Houndpack Lance, les règles suivantes s'a
           <profiles>
             <profile name="Preyslayer's Mantle" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="549c-05a7-e58b-f155">
               <characteristics>
-                <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Le porteur possède la aptitude Super-Lourd Walker.</characteristic>
+                <characteristic name="Description" typeId="9b8f-694b-e5e-b573">le porteur a l’aptitude Super-Lourd Walker.</characteristic>
               </characteristics>
             </profile>
           </profiles>
@@ -7119,7 +7119,7 @@ Lors de l'utilisation du détachement Houndpack Lance, les règles suivantes s'a
           <profiles>
             <profile name="Fleshmetal Fusion" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="41c9-1420-19bf-0c45">
               <characteristics>
-                <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Ajoutez 1 à la caractéristique d’Endurance du porteur. Alors que le porteur utilise la aptitude de Forte Innaturelle, chaque fois qu'une attaque avec une caractéristique de Dégât de 1 est attribuée au porteur, ajoutez 1 à tout jet de sauvegarde effectué contre cette attaque.</characteristic>
+                <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Ajoutez 1 à la caractéristique d’Endurance du porteur. Tant que le porteur utilise l’aptitude Unnatural Fortitude, chaque fois qu’une attaque ayant une caractéristique de Dégâts de 1 lui est allouée, ajoutez 1 à tout jet de sauvegarde d’armure effectué contre cette attaque.</characteristic>
               </characteristics>
             </profile>
           </profiles>
@@ -7157,7 +7157,7 @@ Lors de l'utilisation du détachement Houndpack Lance, les règles suivantes s'a
           <profiles>
             <profile name="Blasphemous Engine" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="70b1-cb34-0676-3c6a">
               <characteristics>
-                <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Ajoutez 2 à la caractéristique de PV du porteur. Chaque fois que l'unité du porteur fait un Malefic Surge, vous pouvez relancer le test de Commandement pour voir s'il souffre de Blessures Mortelles.</characteristic>
+                <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Ajoutez 2 à la caractéristique de PV du porteur. Chaque fois que l'unité de Wh le porteur fait un Malefic Surge, vous pouvez relancer le test de Commandement pris pour voir s'il souffre de Blessures Mortelles.</characteristic>
               </characteristics>
             </profile>
           </profiles>
@@ -7195,7 +7195,7 @@ Lors de l'utilisation du détachement Houndpack Lance, les règles suivantes s'a
           <profiles>
             <profile name="Bestial Aspect" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="be96-871b-e445-b467">
               <characteristics>
-                <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Les armes de tir du porteur ont la aptitude [Assaut]. Pendant que le porteur utilise la aptitude de la faim non sainte, il peut ignorer tous ou tous les modificateurs de sa caractéristique de mouvement et/ou de jets d’Avance faits pour son unité.</characteristic>
+                <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Les armes de tir du porteur ont l’aptitude [Assaut]. Tant que le porteur utilise l’aptitude Unholy Hunger, il peut ignorer tout ou partie des modificateurs à sa caractéristique de Mouvement et/ou aux jets d’Avance effectués pour son unité.</characteristic>
               </characteristics>
             </profile>
           </profiles>
@@ -7237,7 +7237,7 @@ Lors de l'utilisation du détachement Houndpack Lance, les règles suivantes s'a
           <profiles>
             <profile name="Knight Diabolus" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="128b-1d2f-6361-b2d3">
               <characteristics>
-                <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Améliorez la caractéristique de Capacité de Combat des armes de mêlée du porteur de 1. Alors que le porteur utilise la puissance diabolique, ses armes de mêlée ont la aptitude [Lance].</characteristic>
+                <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Améliorez de 1 la caractéristique de Capacité de Combat des armes de mêlée du porteur. Tant que le porteur utilise l’aptitude Diabolic Power, ses armes de mêlée ont l’aptitude [Lance].</characteristic>
               </characteristics>
             </profile>
           </profiles>
@@ -7260,7 +7260,7 @@ Lors de l'utilisation du détachement Houndpack Lance, les règles suivantes s'a
           <profiles>
             <profile name="Diabolical Resilience" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="2e5f-1c75-2b49-85f3">
               <characteristics>
-                <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Le porteur possède la aptitude Insensible à la douleur 6+ et vous pouvez ignorer n'importe quel ou tous les modificateurs à sa caractéristique de mouvement et/ou à n'importe quelle avance ou Des jets de Charge faits pour ça.</characteristic>
+                <characteristic name="Description" typeId="9b8f-694b-e5e-b573">le porteur a l’aptitude Insensible à la douleur 6+ et vous pouvez ignorer tout ou tous les modificateurs de son caractéristique de mouvement et/ou de tout Advance ou jets de Charge effectués pour lui.</characteristic>
               </characteristics>
             </profile>
           </profiles>
@@ -7297,7 +7297,7 @@ Lors de l'utilisation du détachement Houndpack Lance, les règles suivantes s'a
           <profiles>
             <profile name="Pave The Way" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="0001-e913-205a-f146">
               <characteristics>
-                <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Au début de l'étape Déclarer les Formations de Bataille, vous pouvez sélectionner jusqu'à trois unités DAMNED de votre armée. Les unités sélectionnées ont la aptitude Éclaireurs 6".</characteristic>
+                <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Au début de l’étape Déclarer les Formations de Bataille, vous pouvez sélectionner jusqu’à trois unités DAMNED de votre armée. Les unités sélectionnées ont l’aptitude Éclaireurs 6".</characteristic>
               </characteristics>
             </profile>
           </profiles>
@@ -7334,7 +7334,7 @@ Lors de l'utilisation du détachement Houndpack Lance, les règles suivantes s'a
           <profiles>
             <profile name="Profane Altar" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="bcb3-c4d1-dee5-3b9d">
               <characteristics>
-                <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Chaque fois que le porteur fabrique un Dark Sacrifice, le nombre maximum de figurines est détruit dans l'unité DAMNED sélectionnée (c.-à-d. 3 si le test de Commandement de l'unité est passé, ou 6 s'il est échoué) mais, jusqu'à la fin de la phase, les armes du porteur ont à la fois [Touches fatales] et [Touches soutenues 1].</characteristic>
+                <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Chaque fois que le porteur produit un Dark Sacrifice, le nombre maximum de figurines est détruit dans l'unité DAMNED sélectionnée (c.-à-d. 3 si l'unité s test de Commandement est passée, ou 6 si elle échoue) mais, Jusqu’à la fin de la phase, des armes du porteur ont à la fois [Touches fatales] et [Touches soutenues 1].</characteristic>
               </characteristics>
             </profile>
           </profiles>
@@ -7371,7 +7371,7 @@ Lors de l'utilisation du détachement Houndpack Lance, les règles suivantes s'a
           <profiles>
             <profile name="Tyrant's Banner" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="7d5d-45a9-73c5-869e">
               <characteristics>
-                <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Chaque fois que le porteur effectue un Dark Sacrifice, sélectionnez une unité DAMNED sympathique visible pour passer un test Commandement au lieu d'une unité DAMNED sympathique à 6" ou moins.</characteristic>
+                <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Chaque fois que le porteur fait un Dark Sacrifice, sélectionnez une unité DAMNED sympathique visible pour prendre un test de Commandement au lieu de une unité DAMNED sympathique à 6" ou moins.</characteristic>
               </characteristics>
             </profile>
           </profiles>
@@ -7408,7 +7408,7 @@ Lors de l'utilisation du détachement Houndpack Lance, les règles suivantes s'a
           <profiles>
             <profile name="Hunter's Helm" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="8d92-f5d1-74fb-3a81">
               <characteristics>
-                <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Vous pouvez relancer Advance et Des jets de Charge de l'unité du porteur.</characteristic>
+                <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Vous pouvez relancer Advance et jets de Charge de l’unité du porteur.</characteristic>
               </characteristics>
             </profile>
           </profiles>
@@ -7526,7 +7526,7 @@ Lors de l'utilisation du détachement Houndpack Lance, les règles suivantes s'a
           <profiles>
             <profile name="Aspect of the Beast" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="9042-4baf-cea4-baaf">
               <characteristics>
-                <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Au début de votre phase de Commandement, sélectionnez une aptitude de terreur active pour le porteur jusqu'au début de votre prochaine phase de Commandement, en plus des capacités de terreur actives pour votre armée.</characteristic>
+                <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Au début de votre phase de Commandement, sélectionnez un Dread aptitude pour être actif pour le porteur jusqu'au début de votre prochaine phase de Commandement, en plus du Dread aptitudes actif pour votre armée.</characteristic>
               </characteristics>
             </profile>
           </profiles>
@@ -7602,7 +7602,7 @@ Lors de l'utilisation du détachement Houndpack Lance, les règles suivantes s'a
           <profiles>
             <profile name="Hidden Stalkers" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="cba7-b3aa-e59b-3c1e">
               <characteristics>
-                <characteristic name="Description" typeId="9b8f-694b-e5e-b573">cette figurine a le Bénéfice du Couvert. En outre, si le Hunting Pack de cette figurine est Ascendant, cette figurine ne peut être ciblé par une attaque de tir que si la figurine attaquant est à 18" ou moins.</characteristic>
+                <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Cette figurine a le Bénéfice du Couvert. De plus, si le Hunting Pack de cette figurine est Ascendant, cette figurine ne peut être ciblée par une attaque de tir que si la figurine attaquante est à 18" ou moins.</characteristic>
               </characteristics>
             </profile>
           </profiles>
@@ -7620,7 +7620,7 @@ Lors de l'utilisation du détachement Houndpack Lance, les règles suivantes s'a
           <profiles>
             <profile name="Aggressive Charge" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="90a7-b7d3-b219-0a89">
               <characteristics>
-                <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Cette figurine est éligible pour déclarer une Charge durant un tour où elle a Avancé. De plus, si le Hunting Pack de cette figurine est Ascendant, chaque fois que cette figurine effectue une attaque de mêlée, s'il effectuer un mouvement de Charge à ce tour, cette attaque a la aptitude **[DEVASTATING WOUNDS]**.</characteristic>
+                <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Cette figurine est éligible pour déclarer une charge durant un tour où elle a Avancé. De plus, si le Hunting Pack de cette figurine est Ascendant, chaque fois que cette figurine effectue une attaque de mêlée, si elle a effectué un mouvement de Charge à ce tour, cette attaque a l’aptitude **[DEVASTATING WOUNDS]**.</characteristic>
               </characteristics>
             </profile>
           </profiles>
@@ -7644,7 +7644,7 @@ Lors de l'utilisation du détachement Houndpack Lance, les règles suivantes s'a
           <profiles>
             <profile name="Pin and Predate" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="0c5e-9421-fd4a-5384">
               <characteristics>
-                <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Chaque fois que cette figurine fait une attaque au corps à corps, vous pouvez relancer un jet de Blessure de 1. Si le pack de chasse de cette figurine est Ascendant, vous pouvez relancer le jet de Blessure à la place.</characteristic>
+                <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Chaque fois que cette figurine fait une attaque de mêlée, vous pouvez relancer est un jet de Blessure de 1. Si ce pack de chasse de figurine est Ascendant, vous pouvez relancer le jet de Blessure à la place.</characteristic>
               </characteristics>
             </profile>
           </profiles>
@@ -7668,7 +7668,7 @@ Lors de l'utilisation du détachement Houndpack Lance, les règles suivantes s'a
           <profiles>
             <profile name="Coordinated Hunters" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="02cf-e7ca-d7cc-d447">
               <characteristics>
-                <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Ajoutez 2 à la caractéristique de Contrôle d’Objectif de cette figurine. En outre, si le pack de chasse de cette figurine est Ascendant, chaque fois que vous sélectionnez cette figurine comme cible d'un Stratagème, lancez un D6: sur un 5+, vous gagnez 1CP.</characteristic>
+                <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Ajoutez 2 à cette figurine de caractéristique de Contrôle d’Objectif. En outre, si ce pack de chasse de figurine est Ascendant, chaque fois que vous sélectionnez cette figurine comme cible d'un Stratagème, lancez un D6: sur un 5+, vous gagnez 1CP.</characteristic>
               </characteristics>
             </profile>
           </profiles>
@@ -7697,7 +7697,7 @@ Lors de l'utilisation du détachement Houndpack Lance, les règles suivantes s'a
           <profiles>
             <profile name="Brute Tactics" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="714b-fc26-1fdd-648f">
               <characteristics>
-                <characteristic name="Description" typeId="9b8f-694b-e5e-b573">cette figurine a un 5+ sauvegarde invulnérable contre les attaques de mêlée. En outre, si le pack de chasse de cette figurine est Ascendant, chaque fois que cette figurine termine un mouvement Charge, sélectionnez une unité ennemi dans la Portée d’Engagement de celui-ci et lancez un D6: sur une 2+, cette unité ennemi souffre D3 Blessures Mortelles.</characteristic>
+                <characteristic name="Description" typeId="9b8f-694b-e5e-b573">cette figurine a un 5+ sauvegarde invulnérable contre les attaques de mêlée. En outre, si le pack de chasse de cette figurine est ascendant, chaque fois que cette figurine termine un mouvement de Charge, sélectionnez une unité ennemie dans Portée d’Engagement de celui-ci et lancez un D6: sur un 2+, que cette unité ennemie souffre D3 Blessures Mortelles.</characteristic>
               </characteristics>
             </profile>
           </profiles>
@@ -7718,7 +7718,7 @@ Lors de l'utilisation du détachement Houndpack Lance, les règles suivantes s'a
           <profiles>
             <profile name="Roving Assassins" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="ee7e-8838-a3cc-1c9d">
               <characteristics>
-                <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Ajoutez 3" à la caractéristique de Portée des armes de tir équipées de cette figurine. En outre, si le pack de chasse de cette figurine est Ascendant, les armes de tir équipées par cette figurine ont la aptitude **[IGNORES COVER]**.</characteristic>
+                <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Ajoutez 3" à la caractéristique de Portée des armes de tir dont cette figurine est équipée. De plus, si la Hunting Pack de cette figurine est Ascendant, les armes de tir dont cette figurine est équipée ont l’aptitude **[IGNORES COVER]**.</characteristic>
               </characteristics>
             </profile>
           </profiles>
@@ -7747,7 +7747,7 @@ Lors de l'utilisation du détachement Houndpack Lance, les règles suivantes s'a
               <profiles>
                 <profile name="Shades of Ruin" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="5675-0c60-a5b6-4499">
                   <characteristics>
-                    <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Chaque fois qu'une unité ennemie à 18" ou moins du porteur effectue une attaque visant le porteur, jusqu'à la fin de la phase, les armes de tir de cette unité ennemie ont la aptitude **[HAZARDOUS]**.</characteristic>
+                    <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Chaque fois qu’une unité ennemie à 18" ou moins du porteur effectue une attaque qui cible le porteur, jusqu’à la fin de la phase, les armes de tir de cette unité ennemie ont l’aptitude **[HAZARDOUS]**.</characteristic>
                   </characteristics>
                 </profile>
               </profiles>
@@ -7793,7 +7793,7 @@ Lors de l'utilisation du détachement Houndpack Lance, les règles suivantes s'a
               <profiles>
                 <profile name="Craahdekh's Throne of Sacrifice" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="7159-2551-fe79-c588">
                   <characteristics>
-                    <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Chaque fois que le porteur est sélectionné pour tirer ou se battre, il peut utiliser cette relique de la Croisade. si c’est le cas, elle subit D6 Blessures Mortelles et jusqu’à la fin de la phase, chaque fois que it effectue une attaque, vous pouvez relancer le jet de Blessure.</characteristic>
+                    <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Chaque fois que le porteur est sélectionnée pour tirer ou se bat, il peut utiliser cette relique de la Croisade. S'il le fait, il souffre D6 Blessures Mortelles et Jusqu’à la fin de la phase, chaque fois qu'il fait une attaque, vous pouvez relancer le jet de Blessure.</characteristic>
                   </characteristics>
                 </profile>
               </profiles>
@@ -7840,7 +7840,7 @@ Lors de l'utilisation du détachement Houndpack Lance, les règles suivantes s'a
               <profiles>
                 <profile name="Balestorm's Eye" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="0f15-1633-5e3d-cc21">
                   <characteristics>
-                    <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Le porteur bénéficie toujours de toutes les capacités de la terreur, quelles que soient celles qui sont actuellement actives pour votre armée.</characteristic>
+                    <characteristic name="Description" typeId="9b8f-694b-e5e-b573">le porteur bénéficie toujours de chaque Dread aptitude, indépendamment de ceux qui sont actuellement actifs pour votre armée.</characteristic>
                   </characteristics>
                 </profile>
               </profiles>
@@ -7887,7 +7887,7 @@ Lors de l'utilisation du détachement Houndpack Lance, les règles suivantes s'a
               <profiles>
                 <profile name="Harbinger's Chains" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="b283-cde4-3866-bec1">
                   <characteristics>
-                    <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Lorsqu'une unité ennemie se trouve dans la Portée d’Engagement du porteur, Soustrayez 1 de la caractéristique de Contrôle d’Objectif des figurines de cette unité ennemie (au minimum 1).</characteristic>
+                    <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Lorsqu'une unité ennemie se trouve à l'intérieur de Portée d’Engagement du porteur, Soustrayez 1 de la caractéristique de Contrôle d’Objectif des figurines de cette unité ennemie (à un minimum de 1).</characteristic>
                   </characteristics>
                 </profile>
               </profiles>
@@ -7923,7 +7923,7 @@ Lors de l'utilisation du détachement Houndpack Lance, les règles suivantes s'a
               <profiles>
                 <profile name="Tyrant's Raiment" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="ce2a-f3db-5bb2-d3b5">
                   <characteristics>
-                    <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Chaque fois que le porteur effectue une attaque visant une unité à la portée d'un marqueur objectif, ajoutez 1 au jet de Touche.</characteristic>
+                    <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Chaque fois que le porteur effectue une attaque visant une unité dans Portée d'un pion d’objectif, ajoutez 1 au jet de Touche.</characteristic>
                   </characteristics>
                 </profile>
               </profiles>
@@ -7959,7 +7959,7 @@ Lors de l'utilisation du détachement Houndpack Lance, les règles suivantes s'a
               <profiles>
                 <profile name="Icon of Damnation" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="1200-c45e-0f2a-7c8a">
                   <characteristics>
-                    <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Une fois par combat, dans votre phase de Commandement, le porteur peut utiliser cette relique de la Croisade. Si c'est le cas, il récupère jusqu'à D6 PV perdus.</characteristic>
+                    <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Une fois par bataille, dans votre phase de Commandement, le porteur peut utiliser cette relique de la Croisade. Si c'est le cas, il récupère jusqu'à D6 PV perdus.</characteristic>
                   </characteristics>
                 </profile>
               </profiles>
@@ -8240,7 +8240,7 @@ Lors de l'utilisation du détachement Houndpack Lance, les règles suivantes s'a
               <profiles>
                 <profile name="Warp Optics" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="876c-7ff5-9687-e92d">
                   <characteristics>
-                    <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Les armes de tir équipées de cette figurine ont la aptitude **[IGNORES COVER]**.</characteristic>
+                    <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Les armes de tir dont cette figurine est équipée ont l’aptitude **[IGNORES COVER]**.</characteristic>
                   </characteristics>
                 </profile>
               </profiles>
@@ -8287,7 +8287,7 @@ Lors de l'utilisation du détachement Houndpack Lance, les règles suivantes s'a
               <profiles>
                 <profile name="Daemonic Possessor" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="8b4f-0e54-a943-6ca4">
                   <characteristics>
-                    <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Une fois par bataille, après que cette figurine ait échoué à un test d’Ébranlement, cette figurine peut utiliser cette aptitude. Si c'est le cas, il n'est plus Ébranlé.</characteristic>
+                    <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Une fois par bataille, après que cette figurine échoue un test d’Ébranlement, cette figurine peut utiliser cette aptitude. Si c'est le cas, ce n'est plus Ébranlé.</characteristic>
                   </characteristics>
                 </profile>
               </profiles>
@@ -8305,7 +8305,7 @@ Lors de l'utilisation du détachement Houndpack Lance, les règles suivantes s'a
               <profiles>
                 <profile name="Malevolus Lockout" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="1593-8a48-7114-164b">
                   <characteristics>
-                    <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Alors que le niveau d'influence de votre Idolator est l'Alliance prudente ou mieux, une fois par bataille, quand cette figurine est sélectionné pour tirer, il peut utiliser cette aptitude. Si c'est le cas, sélectionnez une unité ennemie. Jusqu'à la fin de la phase, les armes de tir équipées de cette figurine ont la aptitude **[DEVASTATING WOUNDS]** tout en ciblant cette unité ennemie.</characteristic>
+                    <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Tant que le niveau d’influence de votre Idolator est Cautious Alliance ou supérieur, une fois par bataille, lorsque cette figurine est sélectionnée pour tirer, elle peut utiliser cette aptitude. Si elle le fait, sélectionnez une unité ennemie. Jusqu’à la fin de la phase, les armes de tir dont cette figurine est équipée ont l’aptitude **[DEVASTATING WOUNDS]** lorsqu’elles ciblent cette unité ennemie.</characteristic>
                   </characteristics>
                 </profile>
               </profiles>
@@ -8336,7 +8336,7 @@ Lors de l'utilisation du détachement Houndpack Lance, les règles suivantes s'a
               <profiles>
                 <profile name="Raking Talons" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="be19-79b5-c92e-07ed">
                   <characteristics>
-                    <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Seul une figurine de votre ordre de bataille peut avoir cette offre. Alors que le niveau d'influence de votre Idolatros est Aligned Interests, chaque fois qu'une unité ennemie (à l'exclusion de **^^Monsters^^** et **^^Vehicles^^**) qui se trouve dans la Portée d’Engagement de cette figurine Bat en Retraite, tous les figurines de cette unité ennemie doivent passer un test d'évasion désespérée. Lorsque vous faites cela, si cette unité ennemie est Ébranlée, Soustrayez 1 de chacun de ces tests.</characteristic>
+                    <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Une seule figurine de votre Ordre de Bataille peut avoir cet Idolators Offering. Tant que votre niveau de standing Idolatros’ Influence est Aligned Interests, chaque fois qu’une unité ennemie (à l’exclusion des **^^Monsters^^** et des **^^Vehicles^^**) à Portée d’Engagement de cette figurine Bat en Retraite, toutes les figurines de cette unité ennemie doivent effectuer un test de Fuite Désespérée. Ce faisant, si cette unité ennemie est Ébranlée, soustrayez 1 à chacun de ces tests.</characteristic>
                   </characteristics>
                 </profile>
               </profiles>
@@ -8354,7 +8354,7 @@ Lors de l'utilisation du détachement Houndpack Lance, les règles suivantes s'a
               <profiles>
                 <profile name="Fleshmetal Servo-tendons" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="3086-33c9-4966-b4cb">
                   <characteristics>
-                    <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Ajoutez 2" à la caractéristique de mouvement de cette figurine et vous pouvez relancer les jets d’Avance faits pour elle.</characteristic>
+                    <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Ajoutez 2" à la caractéristique de Mouvement de cette figurine et vous pouvez relancer les jets d’Avance effectués pour elle.</characteristic>
                   </characteristics>
                 </profile>
               </profiles>
@@ -8380,7 +8380,7 @@ Lors de l'utilisation du détachement Houndpack Lance, les règles suivantes s'a
               <profiles>
                 <profile name="Cruel Spikes" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="a1d4-2b70-3333-785c">
                   <characteristics>
-                    <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Chaque fois que cette figurine termine un mouvement Charge, sélectionnez une unité ennemie dans la Portée d’Engagement de celui-ci et lancez sur D6: sur un 2-4, cette unité ennemie subit D3+1 Blessures Mortelles; sur un 5+, cette unité ennemie subit D3+3 Blessures Mortelles.</characteristic>
+                    <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Chaque fois que cette figurine termine un mouvement de Charge, sélectionnez une unité ennemie dans Portée d’Engagement de celui-ci et lancez sur D6: sur un 2-4, que cette unité ennemie souffre D3+1 Blessures Mortelles; sur un 5+, que cette unité ennemie souffre D3+3 Blessures Mortelles.</characteristic>
                   </characteristics>
                 </profile>
               </profiles>
@@ -8398,7 +8398,7 @@ Lors de l'utilisation du détachement Houndpack Lance, les règles suivantes s'a
               <profiles>
                 <profile name="Runes of Scorn" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="8bdb-c6d8-ac14-5291">
                   <characteristics>
-                    <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Au début de la phase de Combat, sélectionnez une unité ennemi dans la Portée d’Engagement de cette figurine. Jusqu'à la fin de la phase, chaque fois qu'une figurine de l'unité ennemie fait une attaque, Soustrayez 1 du jet de Touche.</characteristic>
+                    <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Au début de la phase de Combat, sélectionnez une unité ennemie à Portée d’Engagement de cette figurine. Jusqu’à la fin de la phase, chaque fois qu’une figurine de cette unité ennemie effectue une attaque, soustrayez 1 au jet de Touche.</characteristic>
                   </characteristics>
                 </profile>
               </profiles>
@@ -8416,7 +8416,7 @@ Lors de l'utilisation du détachement Houndpack Lance, les règles suivantes s'a
               <profiles>
                 <profile name="Spite Capacitors" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="ccac-67dd-4155-d189">
                   <characteristics>
-                    <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Alors que votre niveau d'influence des Idolators est de l'Alliance prudente ou mieux, cette figurine est admissible à déclarer une charge à un tournant dans lequel a Battu en Retraite.</characteristic>
+                    <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Alors que votre niveau d'influence d'Idolators est de l'Alliance prudente ou mieux, cette figurine est admissible à déclarer une charge dans un tour dans lequel il a Battu en Retraite.</characteristic>
                   </characteristics>
                 </profile>
               </profiles>
@@ -8444,7 +8444,7 @@ Lors de l'utilisation du détachement Houndpack Lance, les règles suivantes s'a
               <profiles>
                 <profile name="Auto-fury Cacodaemons" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="330c-5a54-2c94-8e5b">
                   <characteristics>
-                    <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Seul une figurine de votre ordre de bataille peut avoir cette offrande de l'Idolatrice. Alors que votre niveau d'influence d'Idolators est aligné sur les intérêts, chaque fois que cette figurine effectue une attaque de tir, s'il cible l'unité admissible la plus proche à 12" ou moins, cette attaque a la aptitude **[SUSTAINED HITS 1]**.</characteristic>
+                    <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Seul une figurine de votre ordre de bataille peut avoir cette offrande de l'Idolatrice. Alors que votre niveau d'influence d'Idolators est aligné intérêts, chaque fois que cette figurine fait une attaque de tir, s'il cible l'unité admissible la plus proche à 12" ou moins, cette attaque a l’aptitude **[SUSTAINED HITS 1]**.</characteristic>
                   </characteristics>
                 </profile>
               </profiles>
@@ -8465,7 +8465,7 @@ Lors de l'utilisation du détachement Houndpack Lance, les règles suivantes s'a
               <profiles>
                 <profile name="Doomlock Targeter" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="6271-84ad-0007-3efc">
                   <characteristics>
-                    <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Les armes de tir équipées de cette figurine ont la aptitude **[ASSAULT]**.</characteristic>
+                    <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Les armes de tir dont cette figurine est équipée ont l’aptitude **[ASSAULT]**.</characteristic>
                   </characteristics>
                 </profile>
               </profiles>
@@ -8494,7 +8494,7 @@ Lors de l'utilisation du détachement Houndpack Lance, les règles suivantes s'a
               <profiles>
                 <profile name="Mutant Musculature" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="8f17-1445-ef92-bbd1">
                   <characteristics>
-                    <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Chaque fois que cette figurine effectue une attaque de mêlée, s'il effectuer un mouvement de Charge à ce tour, ajoutez 2 à la caractéristique de Force de cette attaque.</characteristic>
+                    <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Chaque fois que cette figurine fait une attaque de mêlée, s'il a fait un mouvement de Charge ce tour, ajoutez 2 à la caractéristique de Force de cette attaque.</characteristic>
                   </characteristics>
                 </profile>
               </profiles>
@@ -8512,7 +8512,7 @@ Lors de l'utilisation du détachement Houndpack Lance, les règles suivantes s'a
               <profiles>
                 <profile name="Soulsight Occulum" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="1340-4954-6815-8fcc">
                   <characteristics>
-                    <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Chaque fois que cette figurine effectue une attaque de tir, il peut ignorer un ou tous les modificateurs de sa caractéristique de Capacité de Tir et le jet de Touche de coups.</characteristic>
+                    <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Chaque fois que cette figurine effectue une attaque de tir, elle peut ignorer tout ou partie des modificateurs de sa caractéristique de Capacité de Tir et du jet de Touche.</characteristic>
                   </characteristics>
                 </profile>
               </profiles>
@@ -8530,7 +8530,7 @@ Lors de l'utilisation du détachement Houndpack Lance, les règles suivantes s'a
               <profiles>
                 <profile name="Predatory Machine Spirit" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="b4cd-49a7-af71-7086">
                   <characteristics>
-                    <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Alors que votre niveau d'influence d'Idolators est de l'Alliance prudente ou mieux, une fois par bataille, vous pouvez cibler cette figurine avec le Stratagème contre-offensif pour 0CP, et vous pouvez le faire même si vous avez déjà ciblé une unité différente avec ce Stratagème cette phase.</characteristic>
+                    <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Alors que votre niveau d'influence d'Idolators est Cautious Alliance ou mieux, Une fois par bataille, vous pouvez cibler cette figurine avec la contre-offensive Stratagème pour 0CP, et vous pouvez le faire même si vous avez déjà ciblé une unité différente avec ce Stratagème cette phase.</characteristic>
                   </characteristics>
                 </profile>
               </profiles>
@@ -8558,7 +8558,7 @@ Lors de l'utilisation du détachement Houndpack Lance, les règles suivantes s'a
               <profiles>
                 <profile name="Damned Construction" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="c54c-17c2-9ae0-3821">
                   <characteristics>
-                    <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Seul une figurine de votre ordre de bataille peut avoir cette offrande des idoles. Alors que votre niveau d'influence de l'Idolator est aligné sur les intérêts, cette figurine a une caractéristique de sauvegarde de 2+.</characteristic>
+                    <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Seul une figurine de votre ordre de bataille peut avoir cette offrande des idoles. Alors que votre niveau d'influence idolâtre est aligné sur les intérêts, cette figurine a une caractéristique de Sauvegarde de 2+.</characteristic>
                   </characteristics>
                 </profile>
               </profiles>
@@ -8592,7 +8592,7 @@ Lors de l'utilisation du détachement Houndpack Lance, les règles suivantes s'a
               <profiles>
                 <profile name="Ion Cowl" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="4330-94f7-ca01-9902">
                   <characteristics>
-                    <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Lorsqu'il effectue des attaques de tir avec ses armes Déflagration, cette figurine peut cibler les unités ennemies à l'intérieur de sa Portée d’Engagement (à condition qu'aucune autre unité amique ne soit également à l'intérieur de la Portée d’Engagement de cette unité ennemie).</characteristic>
+                    <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Lorsqu’elle effectue des attaques de tir avec ses armes Déflagration, cette figurine peut cibler des unités ennemies à Portée d’Engagement de celle-ci (à condition qu’aucune autre unité amie ne soit également à Portée d’Engagement de cette unité ennemie).</characteristic>
                   </characteristics>
                 </profile>
               </profiles>
@@ -8610,7 +8610,7 @@ Lors de l'utilisation du détachement Houndpack Lance, les règles suivantes s'a
               <profiles>
                 <profile name="Malign Wards" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="01ef-51c4-ce61-b86d">
                   <characteristics>
-                    <characteristic name="Description" typeId="9b8f-694b-e5e-b573">cette figurine a la aptitude Insensible à la douleur 4+ contre les Blessures Mortelles.</characteristic>
+                    <characteristic name="Description" typeId="9b8f-694b-e5e-b573">cette figurine a l’aptitude Insensible à la douleur 4+ contre Blessures Mortelles.</characteristic>
                   </characteristics>
                 </profile>
               </profiles>
@@ -8649,7 +8649,7 @@ Lors de l'utilisation du détachement Houndpack Lance, les règles suivantes s'a
               <profiles>
                 <profile name="Shrieking Armour" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="218c-54b5-db69-fb41">
                   <characteristics>
-                    <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Alors que votre niveau d'influence de l'Idolator est de l'Alliance prudente ou mieux, au début de la phase de Combat, chaque unité ennemie dans la Portée d’Engagement de cette figurine doit passer un test d’Ébranlement.</characteristic>
+                    <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Tant que votre niveau d’Influence Idolator est Cautious Alliance ou supérieur, au début de la phase de Combat, chaque unité ennemie à Portée d’Engagement de cette figurine doit effectuer un test d’Ébranlement.</characteristic>
                   </characteristics>
                 </profile>
               </profiles>
@@ -8673,7 +8673,7 @@ Lors de l'utilisation du détachement Houndpack Lance, les règles suivantes s'a
               <profiles>
                 <profile name="Brazen Heart" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="1ce8-6300-e958-236e">
                   <characteristics>
-                    <characteristic name="Description" typeId="9b8f-694b-e5e-b573">La première fois que cette figurine est détruit, lancez un D6 à la fin de la phase: sur un 3+, remettez cette figurine sur le champ de bataille aussi près que possible de l'endroit où il a été détruit et pas à l'intérieur de la Portée d’Engagement de tout figurine ennemie, avec 7 PV restants.</characteristic>
+                    <characteristic name="Description" typeId="9b8f-694b-e5e-b573">La première fois que cette figurine est détruite, lancez un D6 à la fin de la phase : sur 3+, replacez cette figurine sur le champ de bataille aussi près que possible de l’endroit où elle a été détruite, hors de Portée d’Engagement de toute figurine ennemie, avec 7 PV restants.</characteristic>
                   </characteristics>
                 </profile>
               </profiles>
@@ -8692,7 +8692,7 @@ Lors de l'utilisation du détachement Houndpack Lance, les règles suivantes s'a
               <profiles>
                 <profile name="Ensorcelled Shield" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="96f9-bd49-940a-6131">
                   <characteristics>
-                    <characteristic name="Description" typeId="9b8f-694b-e5e-b573">cette figurine dispose d'un 4+ sauvegarde invulnérable contre les attaques de tir et de la aptitude Insensible à la douleur 6+.</characteristic>
+                    <characteristic name="Description" typeId="9b8f-694b-e5e-b573">cette figurine a un 4+ sauvegarde invulnérable contre les attaques de tir, et l’aptitude Insensible à la douleur 6+.</characteristic>
                   </characteristics>
                 </profile>
               </profiles>
@@ -8718,7 +8718,7 @@ Lors de l'utilisation du détachement Houndpack Lance, les règles suivantes s'a
               <profiles>
                 <profile name="Warp Walker" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="4508-ec4f-057e-0790">
                   <characteristics>
-                    <characteristic name="Description" typeId="9b8f-694b-e5e-b573">À la fin du tour de votre adversaire, si cette figurine n'est pas dans la Portée d’Engagement d'une ou plusieurs unités ennemies, vous pouvez retirer cette figurine du champ de bataille et le placer dans les réserves stratégiques.</characteristic>
+                    <characteristic name="Description" typeId="9b8f-694b-e5e-b573">À la fin du tour de votre adversaire, si cette figurine n’est pas à Portée d’Engagement d’une ou plusieurs unités ennemies, vous pouvez retirer cette figurine du champ de bataille et la placer en Réserves Stratégiques.</characteristic>
                   </characteristics>
                 </profile>
               </profiles>
@@ -8741,7 +8741,7 @@ Lors de l'utilisation du détachement Houndpack Lance, les règles suivantes s'a
               <profiles>
                 <profile name="Wrathful Aura" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="cb9c-bdeb-6e97-ebd0">
                   <characteristics>
-                    <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Double la caractéristique de Contrôle d’Objectif de cette figurine.</characteristic>
+                    <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Doublez la caractéristique de Contrôle d’Objectif de cette figurine.</characteristic>
                   </characteristics>
                 </profile>
               </profiles>
@@ -8768,7 +8768,7 @@ Lors de l'utilisation du détachement Houndpack Lance, les règles suivantes s'a
               <profiles>
                 <profile name="Beguiler's Maw" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="802c-3455-6b4d-2749">
                   <characteristics>
-                    <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Une fois par bataille, dans votre phase de Commandement, vous pouvez changer la tactique de chasse d'un groupe de chasse de votre armée de la Croisade. Si ce groupe de chasse était Ascendant avant le changement, il le reste.</characteristic>
+                    <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Une fois par bataille, dans votre phase de Commandement, vous pouvez changer la tactique de chasse d'un groupe de chasse de votre armée de croisade. Si ce groupe de chasse était Ascendant avant le changement, il le reste.</characteristic>
                   </characteristics>
                 </profile>
               </profiles>
@@ -8787,7 +8787,7 @@ Lors de l'utilisation du détachement Houndpack Lance, les règles suivantes s'a
               <profiles>
                 <profile name="Throne Insidious" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="66ad-0583-4d42-ccde">
                   <characteristics>
-                    <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Une fois par bataille, dans votre phase de Commandement, vous pouvez changer l'une des capacités actuelles de votre armée pour une autre.</characteristic>
+                    <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Une fois par bataille, durant votre phase de Commandement, vous pouvez remplacer l’une des aptitudes Dread actuellement actives de votre armée par une autre.</characteristic>
                   </characteristics>
                 </profile>
               </profiles>
@@ -8823,7 +8823,7 @@ Lors de l'utilisation du détachement Houndpack Lance, les règles suivantes s'a
           <profiles>
             <profile name="Tattered Panoply" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="7bc3-d656-6a67-9c8c">
               <characteristics>
-                <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Chaque fois que cette figurine se déplace à travers une caractéristique de terrain, lorsqu'il roule pour voir s'il est Ébranlé en raison de la aptitude de Super-Lourd Walker, il devient Ébranlé sur un jet de 1-3.</characteristic>
+                <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Chaque fois que cette figurine traverse un élément de terrain, lorsque vous lancez le dé pour savoir si elle est Ébranlée à cause de l’aptitude Super-heavy Walker, elle devient Ébranlée sur un résultat de 1-3.</characteristic>
               </characteristics>
             </profile>
           </profiles>
@@ -8848,7 +8848,7 @@ Lors de l'utilisation du détachement Houndpack Lance, les règles suivantes s'a
           <profiles>
             <profile name="Crippled Actuators" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="fbdc-dc86-de74-9bf0">
               <characteristics>
-                <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Soustrayez 2" de la caractéristique de mouvement de cette figurine et vous ne pouvez pas relancer les jets d’Avance faits pour lui.</characteristic>
+                <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Soustrayez 2" à la caractéristique de Mouvement de cette figurine et vous ne pouvez pas relancer les jets d’Avance effectués pour elle.</characteristic>
               </characteristics>
             </profile>
           </profiles>
@@ -8874,7 +8874,7 @@ Lors de l'utilisation du détachement Houndpack Lance, les règles suivantes s'a
           <profiles>
             <profile name="Feral Machine Spirit" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="e9ec-6027-72b2-31e7">
               <characteristics>
-                <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Chaque fois que vous ciblez cette figurine avec un Stratagème, lancez un D6: sur un 1-2, ce Stratagème n'a aucun effet.</characteristic>
+                <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Chaque fois que vous ciblez cette figurine avec un Stratagème, lancez un D6: sur un 1-2, que Stratagème n'a aucun effet.</characteristic>
               </characteristics>
             </profile>
           </profiles>
@@ -8910,7 +8910,7 @@ Lors de l'utilisation du détachement Houndpack Lance, les règles suivantes s'a
           <profiles>
             <profile name="Inadequate Offerings" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="1865-80be-b5f3-7a35">
               <characteristics>
-                <characteristic name="Description" typeId="9b8f-694b-e5e-b573">relancez ce résultat si cette figurine n'a pas d'offrandes d'idolâtres. Dans votre phase de Commandement, lancez un D6: sur un 1-2, sélectionnez au hasard un Idolators' Offre cette figurine a. Jusqu'au début de votre prochaine phase de Commandement, l'offre des idoles n'aura aucun effet sur cette figurine.</characteristic>
+                <characteristic name="Description" typeId="9b8f-694b-e5e-b573">relancer a ce résultat si cette figurine n'a pas d'offres d'idolâtres. Dans votre phase de Commandement, lancez un D6: sur un 1-2, sélectionnez au hasard un Idolators' Offre que figurine a. Jusqu'au début de votre prochaine phase de Commandement, cette offre d'Idolators n'a aucun effet sur cette figurine.</characteristic>
               </characteristics>
             </profile>
           </profiles>
@@ -8935,7 +8935,7 @@ Lors de l'utilisation du détachement Houndpack Lance, les règles suivantes s'a
           <profiles>
             <profile name="Faltering Reactor" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="6710-d5b0-ac11-a799">
               <characteristics>
-                <characteristic name="Description" typeId="9b8f-694b-e5e-b573">La gamme des capacités Aura de cette figurine est réduite à un maximum de 6" et ne peut être augmentée par aucun moyen.</characteristic>
+                <characteristic name="Description" typeId="9b8f-694b-e5e-b573">La portée des aptitudes d’Aura de cette figurine est réduite à un maximum de 6" et ne peut être augmentée par aucun moyen.</characteristic>
               </characteristics>
             </profile>
           </profiles>
@@ -8974,40 +8974,40 @@ Lors de l'utilisation du détachement Houndpack Lance, les règles suivantes s'a
   </sharedSelectionEntryGroups>
   <sharedRules>
     <rule id="d71a-a59f-aafd-3723" name="Harbingers of Dread" hidden="false">
-      <description>Si votre faction d'armée est ^^**Chaos Knights^^**, chaque figurine de votre armée avec cette aptitude acquiert des capacités de terreur, selon qui sont actifs pour votre armée. La aptitude de Terreur Mortelle est active pour votre armée depuis le début de la bataille. En outre, au début du premier, troisième et cinquième tour de bataille, vous pouvez soit sélectionner l'une des autres capacités Dread ou sélectionner au hasard deux capacités Dread à appliquer en roulant deux D6 et en appliquant les résultats roulés, parmi ceux numérotés 1-6 ci-dessous.
+      <description>Si votre faction d'armée est ^^**Chaos Knights^^**, chaque figurine de votre armée avec cette aptitude gagne Dread aptitudes, selon qui sont actifs pour votre armée. l’aptitude Terror Mortel est actif pour votre armée depuis le début de la bataille. En outre, au début du premier, troisième et cinquième tour de bataille, vous pouvez choisir l'un des autres Dread aptitudes ou choisir au hasard deux Dread aptitudes à appliquer en roulant deux D6 et en appliquant les résultats roulés, parmi ceux numérotés 1-6 ci-dessous.
 
-Toutes les capacités de Terreur qui ont été sélectionnées sont actives jusqu'à la fin de la bataille. Vous ne pouvez pas sélectionner la même aptitude Dread plus d'une fois, et toutes les capacités Dread dupliquées (en raison de leur sélection aléatoire) n'ont aucun effet supplémentaire.
+Tout Dread aptitudes qui a été sélectionné est actif jusqu'à la fin de la bataille. Vous ne pouvez pas sélectionner le même Dread aptitude plus d'une fois, et tout Dread aptitudes dupliqué (en raison de leur sélection aléatoire) n'a aucun effet supplémentaire.
 
 
 **N/A - Deathly Terror (Aura)**
-Alors qu'une unité ennemie est à 9" ou moins de cette figurine, aggraver la caractéristique de Commandement des figurines dans cette unité par 1.
+Lorsqu'une unité ennemie se trouve à 9" ou moins de cette figurine, aggraver la caractéristique de Commandement des figurines de cette unité par 1.
 
 
 **1 - Despair (Aura)**
-Alors qu'une unité ennemie est à 9" ou moins de cette figurine, aggraver la caractéristique de Commandement des figurines dans cette unité par 1. Ceci est cumulé avec la aptitude de terreur mortelle (voir ci-dessus).
+Lorsqu'une unité ennemie se trouve à 9" ou moins de cette figurine, aggraver la caractéristique de Commandement des figurines de cette unité par 1. Ceci est cumulé avec la terreur mortelle aptitude (voir ci-dessus).
 
 **2 - Doom**
-Chaque fois que cette figurine fait une attaque, si la cible est Ébranlée, ajoutez 1 au jet de Blessure.
+Chaque fois que cette figurine fait une attaque, si la cible est Ébranlé, ajoutez 1 au jet de Blessure.
 
 
 **3 - Darkness**
-Chaque fois qu'une attaque est effectuée contre cette figurine, si l'unité attaquante de la figurine est Ébranlée ou à plus de 18" de distance, Soustrayez 1 du jet de Touche.
+Chaque fois qu'une attaque est effectuée contre cette figurine, si l'unité attaquante figurines est Ébranlé ou plus éloignée de 18", Soustrayez 1 du jet de Touche.
 
 
 **4 - Dismay (Aura)**
-Dans la étape d’Ébranlement de la phase de Commandement de votre adversaire, pour chaque unité ennemie qui est en dessous de son Effectif Initial et à 9" ou moins de cette figurine, cette unité ennemie doit passer un test d’Ébranlement.
+Dans le étape d’Ébranlement de la phase de Commandement de votre adversaire, pour chaque unité ennemie qui est en dessous de son Effectif Initial et à 9" ou moins de cette figurine, cette unité ennemie doit prendre un test d’Ébranlement.
 
 
 **5 - Delirium (Aura)**
-Alors qu'une unité ennemi qui est en dessous de son Demi-effectif est à 9" ou moins de cette figurine, chaque fois que cette figurine échoue à un test d’Ébranlement, il souffre D3 Blessures Mortelles.
+Alors qu'une unité ennemie qui est En Dessous de son Demi-effectif est à 9" ou moins de cette figurine, chaque fois que figurine échoue un test d’Ébranlement, il souffre D3 Blessures Mortelles.
 
 
 **6 - Dominion**
-Ajoutez 3" à la gamme des capacités Aura de cette figurine.</description>
+Ajoutez 3" au Portée de cette Aura figurine de aptitudes.</description>
       <modifiers>
         <modifier type="set" value="true" field="hidden">
           <conditions>
-            <condition type="notInstanceOf" value="1" field="selections" scope="primary-catalogue" childId="f0ff-96fa-6715-5265" shared="true" />
+            <condition type="notInstanceOf" value="1" field="selections" scope="primary-catalogue" childId="46d8-abc8-ef3a-9f85" shared="true" />
           </conditions>
         </modifier>
       </modifiers>
@@ -9016,27 +9016,27 @@ Ajoutez 3" à la gamme des capacités Aura de cette figurine.</description>
   <sharedProfiles>
     <profile id="97fd-09c5-60a8-63c4" name="Damaged: 1-5 wounds remaining" hidden="false" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities">
       <characteristics>
-        <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Alors que cette figurine a 1-5 PV restants, Soustrayez 3 de cette caractéristique de Contrôle d’Objectif de cette figurine et à chaque fois que cette figurine fait une attaque, Soustrayez 1 du jet de Touche.</characteristic>
+        <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Tant qu’il reste 1-5 PV à cette figurine, soustrayez 3 de sa caractéristique de Contrôle d’Objectif et, chaque fois qu’elle effectue une attaque, soustrayez 1 au jet de Touche.</characteristic>
       </characteristics>
     </profile>
     <profile id="12ce-2a62-9fea-74bd" name="Damaged: 1-9 wounds remaining" hidden="false" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities">
       <characteristics>
-        <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Alors que cette figurine a 1-9 PV restants, Soustrayez 5 de cette caractéristique de contrôle d'objectif de figurine et chaque fois que cette figurine fait une attaque, Soustrayez 1 du jet de Touche.</characteristic>
+        <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Tant que cette figurine a 1-9 PV restants, soustrayez 5 à la caractéristique de Contrôle d’Objectif de cette figurine et, chaque fois que cette figurine effectue une attaque, soustrayez 1 au jet de Touche.</characteristic>
       </characteristics>
     </profile>
     <profile id="7400-7387-dae-781f" name="Damaged: 1-10 wounds remaining" hidden="false" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities">
       <characteristics>
-        <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Alors que cette figurine a 1-10 PV restants, Soustrayez 5 de cette caractéristique de la figurine de caractéristique de Contrôle d’Objectif et chaque fois que cette figurine effectue une attaque, Soustrayez 1 du jet de Touche.</characteristic>
+        <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Tant que cette figurine a 1-10 PV restants, soustrayez 5 à la caractéristique de Contrôle d’Objectif de cette figurine et, chaque fois que cette figurine effectue une attaque, soustrayez 1 au jet de Touche.</characteristic>
       </characteristics>
     </profile>
     <profile id="73ac-6b3a-8480-d08a" name="Huntmaster (Aura)" hidden="false" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities">
       <characteristics>
-        <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Alors qu'une figurine amie ^^**War Dog^^** figurine est à 6" ou moins de cette figurine, armes de tir dont sont équipées cette **^^War Dog^^** a la aptitude [Assaut].</characteristic>
+        <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Alors qu'un ami ^^**War Dog^^** figurine est à 6" ou moins de cette figurine, armes de tir dont sont équipées cette **^^War Dog^^** figurine ont l’aptitude [Assaut].</characteristic>
       </characteristics>
     </profile>
     <profile name="Dread Tyrants (Aura)" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="1114-b788-97de-7a2d">
       <characteristics>
-        <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Alors qu'une unité ^^**Damned^^** amicale se trouve à 9" ou moins de cette unité, chaque fois qu'une figurine de cette unité effectue une attaque, relancer un jet de Touche de 1 et relancer un jet de Blessure de 1.</characteristic>
+        <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Tant qu’une unité ^^**Damned^^** amie est à 9" ou moins de cette unité, chaque fois qu’une figurine de cette unité effectue une attaque, relancez un jet de Touche de 1 et un jet de Blessure de 1.</characteristic>
       </characteristics>
       <modifiers>
         <modifier type="set" value="true" field="hidden">
@@ -9048,7 +9048,7 @@ Ajoutez 3" à la gamme des capacités Aura de cette figurine.</description>
     </profile>
     <profile name="Dark Sacrifice" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="0b98-37c4-6be9-f608">
       <characteristics>
-        <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Chaque fois qu'une unité ^^**Chaos Knights^^** avec cette aptitude est sélectionnée pour tirer ou se battre, elle peut faire un Dark Sacrifice. Si c'est le cas, sélectionnez une unité sympathique ^^**Damned^^** à 6" ou moins. Cette unité ^^**Damned^^** unité doit effectuer un test de Commandement: en cas de réussite, détruisez D3 figurines dans cette ^^**Damned^^** unité; en cas d’échec, détruisez D3+3 figurines dans cette ^^**Damned^^**. Dans les deux cas, sélectionnez l'une des capacités suivantes pour les armes de votre unité Chaos Knights jusqu'à la fin de la phase: [Touches fatales]; [Touches soutenues 1].</characteristic>
+        <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Chaque fois qu'une unité ^^**Chaos Knights^^** avec cette aptitude est sélectionnée pour tirer ou combat, il peut faire un Dark Sacrifice. Si c'est le cas, sélectionnez une unité sympathique ^^**Damned^^** à 6" ou moins. Cette unité ^^**Damned^^** doit prendre un test de Commandement: si elle est approuvée, détruire D3 les figurines de cette unité ^^**Damned^^**; si elle échoue, détruire D3+3 les figurines de cette unité ^^**Damned^^**. Dans les deux cas, sélectionnez ensuite l'une des armes suivantes aptitudes pour que votre unité Chaos Knights possède Jusqu’à la fin de la phase: [Touches fatales]; [Touches soutenues 1].</characteristic>
       </characteristics>
       <modifiers>
         <modifier type="set" value="true" field="hidden">

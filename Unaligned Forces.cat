@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue xmlns="http://www.battlescribe.net/schema/catalogueSchema" id="61f1-ce52-d345-5048" name="Unaligned Forces" revision="22" battleScribeVersion="2.03" authorName="WindstormSCR" library="true" gameSystemId="sys-0e45-705d-f6bc-806a" gameSystemRevision="2" type="catalogue">
+<catalogue xmlns="http://www.battlescribe.net/schema/catalogueSchema" id="581a-46b9-5b86-44b7" name="Unaligned Forces" revision="22" battleScribeVersion="2.03" authorName="WindstormSCR" library="true" gameSystemId="sys-352e-adc2-7639-d6a9" gameSystemRevision="2" type="catalogue">
   <sharedSelectionEntries>
     <selectionEntry id="e85b-17c7-1ad9-8375" name="Ambull [Legends]" hidden="false" collective="false" import="true" type="model">
       <costs>
@@ -45,15 +45,15 @@
         </profile>
         <profile name="Frenzy" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="f481-16a8-9242-1441">
           <characteristics>
-            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Chaque fois qu'une unité ennemie est sélectionnée pour tirer ou se battre, après avoir terminé ses attaques, si une ou plusieurs de ces attaques ciblent cette figurine et que cette figurine n'est pas détruit, cette figurine peut se battre comme si c'était la phase de Combat</characteristic>
+            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Chaque fois qu’une unité ennemie est sélectionnée pour tirer ou combattre, après qu’elle a fini d’effectuer ses attaques, si une ou plusieurs de ces attaques ont ciblé cette figurine et que celle-ci n’est pas détruite, cette figurine peut combattre comme s’il s’agissait de la phase de Combat.</characteristic>
           </characteristics>
         </profile>
         <profile name="Borewyrm Infestation" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="c551-a719-4c3-93f5">
           <characteristics>
-            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Deux fois par combat, à la fin du tour de votre adversaire, si cette figurine n'est pas dans la Portée d’Engagement d'une ou plusieurs unités ennemies, vous pouvez retirer cette figurine du champ de bataille. Dans l'étape des renforts de votre prochaine phase de Mouvement, mettez-le n'importe où sur le champ de bataille
-est plus que 9" horizontalement loin de tous les figurines ennemies. et Cette unité n'est pas sur le champ de bataille., Il est détruit.
+            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Deux fois par bataille, à la fin du tour de votre adversaire, si cette figurine n’est pas à Portée d’Engagement d’une ou plusieurs unités ennemies, vous pouvez la retirer du champ de bataille. À l’étape des Renforts de votre prochaine phase de Mouvement, placez-la n’importe où sur le champ de bataille
+à plus de 9" horizontalement de toute figurine ennemie. Si la bataille se termine alors que cette unité n’est pas sur le champ de bataille, elle est détruite. 
 
-Remarque du concepteur: Placez deux jetons Borewyrm Infestation à côté de cette figurine, en en enlevant un chaque fois que cette aptitude a été utilisée.</characteristic>
+Note du concepteur : placez deux pions Borewyrm Infestation à côté de cette figurine et retirez-en un chaque fois que cette aptitude a été utilisée.</characteristic>
           </characteristics>
         </profile>
       </profiles>
@@ -438,7 +438,7 @@ Remarque du concepteur: Placez deux jetons Borewyrm Infestation à côté de cet
         </profile>
         <profile name="Vantage Point" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="7205-6740-8868-3492">
           <characteristics>
-            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Alors qu'une figurine est sur le toit de la tour de ce Fortification, améliorez la caractéristique de Pénétration d’Armure des armes de tir équipées par cette figurine de 1.</characteristic>
+            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Tant qu’une figurine se trouve sur le toit de la tour de cette FORTIFICATION, améliorez de 1 la caractéristique de Pénétration d’Armure des armes de tir dont cette figurine est équipée.</characteristic>
           </characteristics>
         </profile>
       </profiles>
@@ -558,7 +558,7 @@ Remarque du concepteur: Placez deux jetons Borewyrm Infestation à côté de cet
       <profiles>
         <profile name="Drone Commander (Aura)" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="6177-edd5-89f8-10f0">
           <characteristics>
-            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Alors qu'une unité sympathique **^^Spindle Drones^^** est à 6" ou moins de cette figurine, chaque fois qu'une figurine dans cette unité fait une attaque, ajoutez 1 au jet de Touche.</characteristic>
+            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Alors qu'une unité amicale **^^Spindle Drones^^** se trouve à 6" ou moins de cette figurine, chaque fois qu'une figurine dans cette unité fait une attaque, ajoutez 1 au jet de Touche.</characteristic>
           </characteristics>
         </profile>
         <profile name="Guardian Drone" typeId="c547-1836-d8a-ff4f" typeName="Unit" hidden="false" id="2164-a8b3-1e0a-ff34">
@@ -781,7 +781,7 @@ Remarque du concepteur: Placez deux jetons Borewyrm Infestation à côté de cet
       <profiles>
         <profile name="Tremor Quake" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="421e-7675-b24f-751e">
           <characteristics>
-            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Dans votre phase de Tir, juste après avoir sélectionné une cible pour cette figurine de Macro-canon Aquila, l'unité cible et toutes les autres unités ennemies INFANTRY à 3" ou moins de cette unité doivent passer un test d’Ébranlement.</characteristic>
+            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Dans votre phase de Tir, juste après avoir sélectionné une cible pour ce Macro-canon Aquila figurines, l'unité cible et toutes les autres unités ennemies INFANTRY à 3" ou moins de cette unité doivent prendre un test d’Ébranlement.</characteristic>
           </characteristics>
         </profile>
         <profile name="Macro-cannon Aquila Strongpoint" typeId="c547-1836-d8a-ff4f" typeName="Unit" hidden="false" id="cdd1-7b5d-9ed7-6eab">
@@ -891,7 +891,7 @@ Remarque du concepteur: Placez deux jetons Borewyrm Infestation à côté de cet
         </profile>
         <profile name="Emergency Plasma Vents" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="4034-de56-e788-8d72">
           <characteristics>
-            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Chaque fois que ce Fortification subit une blessure mortelle à la suite d'un test raté À Risque, lancez un D6: sur un 4+, cette blessure ne se perd pas.</characteristic>
+            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Chaque fois que cette FORTIFICATION subit une blessure mortelle à la suite d’un test À Risque raté, lancez un D6 : sur 4+, ce PV n’est pas perdu.</characteristic>
           </characteristics>
         </profile>
         <profile name="Plasma Obliterator" typeId="74f8-5443-9d6d-1f1e" typeName="Transport" hidden="false" id="a295-5135-b36-9f11">
@@ -1190,12 +1190,12 @@ Remarque du concepteur: Placez deux jetons Borewyrm Infestation à côté de cet
         </profile>
         <profile name="Skyshield" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="ac7c-2faf-a4ba-1a7b">
           <characteristics>
-            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Des figurines d'infanterie amicale et des unités amies qui peuvent voler peuvent être mis en place ou mettre fin à tout type de mouvement au-dessus de la section de plateforme de ce Fortification. Alors qu'un tel figurine est sur la section de plateforme de ce Fortification, cette figurine a un 5+ sauvegarde invulnérable contre les attaques de tir</characteristic>
+            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Les figurines Infantry amies et les unités amies qui peuvent Fly peuvent être placées ou terminer n’importe quel type de mouvement sur la plateforme de cette Fortification. Tant qu’une telle figurine se trouve sur la plateforme de cette Fortification, elle a une sauvegarde invulnérable de 5+ contre les attaques de tir.</characteristic>
           </characteristics>
         </profile>
         <profile name="Repair Aircraft" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="de21-5f57-8fd9-3c1a">
           <characteristics>
-            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">À la fin de votre phase de Mouvement, s'il y a une figurine d'avion amical sur ce Fortification, cet avion récupère jusqu'à D3 PV perdus</characteristic>
+            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">À la fin de votre phase de Mouvement, si une figurine Aircraft amie se trouve au sommet de cette Fortification, cet Aircraft récupère jusqu’à D3 PV perdus</characteristic>
           </characteristics>
         </profile>
       </profiles>
@@ -1322,7 +1322,7 @@ Remarque du concepteur: Placez deux jetons Borewyrm Infestation à côté de cet
                 </profile>
                 <profile name="Threat Level Rising" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="839a-dbe6-f30a-20a1">
                   <characteristics>
-                    <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Chaque fois qu'une figurine dans cette unité fait une attaque, ajoutez 1 au jet de Touche si cette unité est inférieure à son Effectif Initial, et ajoutez 1 au jet de Blessure aussi bien si cette unité est en dessous de son Demi-effectif</characteristic>
+                    <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Chaque fois qu'une figurine dans cette unité fait une attaque, ajoutez 1 au jet de Touche si cette unité est inférieure à son Effectif Initial, et ajoutez 1 au jet de Blessure aussi bien si cette unité est En Dessous de son Demi-effectif</characteristic>
                   </characteristics>
                 </profile>
               </profiles>
@@ -1427,12 +1427,12 @@ Remarque du concepteur: Placez deux jetons Borewyrm Infestation à côté de cet
         </profile>
         <profile name="Fearsome Assault" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="128a-9f8e-e659-fa7e">
           <characteristics>
-            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Au début de la phase de Combat, chaque unité ennemi dans la Portée d’Engagement d'une ou plusieurs unités avec cette aptitude doit passer un test d’Ébranlement.</characteristic>
+            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Au début de la phase de Combat, chaque unité ennemie à Portée d’Engagement d’une ou plusieurs unités dotées de cette aptitude doit effectuer un test d’Ébranlement.</characteristic>
           </characteristics>
         </profile>
         <profile name="Disruptive Influence (Aura)" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="6e34-22d9-a4ab-22ad">
           <characteristics>
-            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Alors qu'une unité ennemie est à 6" ou moins de cette figurine, chaque fois que cette unité prend un test d’Ébranlement ou de Commandement, Soustrayez 1 de ce test.</characteristic>
+            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Alors qu'une unité ennemie se situe à 6" ou moins de cette figurine, chaque fois que l'unité prend un Ébranlement ou test de Commandement, Soustrayez 1 de ce test.</characteristic>
           </characteristics>
         </profile>
       </profiles>
@@ -1527,10 +1527,10 @@ Remarque du concepteur: Placez deux jetons Borewyrm Infestation à côté de cet
         </profile>
         <profile name="Automated Defences" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="8d74-c7e8-9992-a0b0">
           <characteristics>
-            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Chaque fois que cette figurine effectue une attaque de tir qui cible l'unité ennemie la plus proche:
-- Si l'attaque est effectuée avec un canon de guérison Punisher et que la cible n'est pas un MONSTER ou VEHICLE, ajoutez 1 au jet de Touche.
-- Si cette attaque est effectuée avec un canon de bataille et que la cible est un MONSTER ou VEHICLE, ajoutez 1 au jet de Touche.
-- Si cette attaque est effectuée avec un quad-lascannon et que la cible peut FLY, ajoutez 1 à la jets de Touche.</characteristic>
+            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Chaque fois que cette figurine effectue une attaque de tir qui cible l’unité ennemie la plus proche :
+- Si cette attaque est effectuée avec un Punisher gatling cannon et que la cible n’est pas un MONSTER ou un VEHICLE, ajoutez 1 au jet de Touche.
+- Si cette attaque est effectuée avec un battle cannon et que la cible est un MONSTER ou un VEHICLE, ajoutez 1 au jet de Touche.
+- Si cette attaque est effectuée avec un quad-lascannon et que la cible peut FLY, ajoutez 1 au jet de Touche.</characteristic>
           </characteristics>
         </profile>
       </profiles>
@@ -1606,7 +1606,7 @@ Remarque du concepteur: Placez deux jetons Borewyrm Infestation à côté de cet
       <profiles>
         <profile name="Projected Void Shields (Aura)" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="37d7-4c6f-14e0-42c0">
           <characteristics>
-            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Alors qu'une figurine amie est entièrement à 6" ou moins de ce Fortification, cette figurine a un 4+ sauvegarde invulnérable contre les attaques de tir.</characteristic>
+            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Tant qu’une figurine amie est entièrement à 6" ou moins de cette FORTIFICATION, cette figurine a une sauvegarde invulnérable de 4+ contre les attaques de tir.</characteristic>
           </characteristics>
         </profile>
         <profile name="Void Shield Generator" typeId="c547-1836-d8a-ff4f" typeName="Unit" hidden="false" id="70d7-d25d-676f-b6b3">
@@ -1667,7 +1667,7 @@ Remarque du concepteur: Placez deux jetons Borewyrm Infestation à côté de cet
         </profile>
         <profile name="Vortex" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="2c0e-c408-e9a-75b7">
           <characteristics>
-            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Dans votre phase de Tir, chaque fois que vous sélectionnez une cible pour cette batterie de missiles Vortex de la figurine, lancez un D6 pour l'unité cible et lancez un D6 pour chaque autre unité ennemie à 3" ou moins de l'unité cible. Sur un 4+, l'unité pour laquelle sur roule est frappée par le Vortex; après avoir résolu toutes les attaques de cette figurine contre l'unité cible, chaque unité frappée par le Vortex subit des Blessures Mortelles D3.</characteristic>
+            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Dans votre phase de Tir, chaque fois que vous sélectionnez une cible pour cette batterie de missiles Vortex figurines, lancez un D6 pour l'unité cible et lancez un D6 pour chaque autre unité ennemie à 3" ou moins de l'unité cible. Sur un 4+, l'unité pour laquelle sur roule est frappée par le Vortex; après avoir résolu toutes ces figurines Attaques contre l'unité cible, chaque unité frappée par le Vortex souffre D3 Blessures Mortelles.</characteristic>
           </characteristics>
         </profile>
       </profiles>
@@ -1769,7 +1769,7 @@ Remarque du concepteur: Placez deux jetons Borewyrm Infestation à côté de cet
         </profile>
         <profile name="Inviolable Bastion" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="f194-faba-c927-ba75">
           <characteristics>
-            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Chaque fois qu'une attaque est attribuée à ce Fortification, Soustrayez 1 de la caractéristique Dégât de cette attaque.</characteristic>
+            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Chaque fois qu'une attaque est attribuée à ce Fortification, Soustrayez 1 de la caractéristique de Dégâts de cette attaque.</characteristic>
           </characteristics>
         </profile>
         <profile name="Wall of Martyrs Bunker" typeId="74f8-5443-9d6d-1f1e" typeName="Transport" hidden="false" id="f3b0-c322-3ef3-e396">
@@ -1901,7 +1901,7 @@ Remarque du concepteur: Placez deux jetons Borewyrm Infestation à côté de cet
       <profiles>
         <profile name="Comms Antenna" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="e4e8-32c4-fe76-76e">
           <characteristics>
-            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Dans votre phase de Commandement, si une ou plusieurs figurines de caractères sont embarqués dans ce Fortification, lancez un D6: sur un 5+, vous gagnez 1CP</characteristic>
+            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Dans votre phase de Commandement, si un ou plusieurs caractères figurines sont embarqués dans ce Fortification, lancez un D6: sur un 5+, vous gagnez 1CP</characteristic>
           </characteristics>
         </profile>
       </profiles>
@@ -2120,7 +2120,7 @@ Remarque du concepteur: Placez deux jetons Borewyrm Infestation à côté de cet
         </profile>
         <profile name="Fortress" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="c617-394d-4b52-1b98">
           <characteristics>
-            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Lorsque ce Fortification est installé, toutes ses pièces doivent être installées en contact avec une autre pièce.</characteristic>
+            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Lorsque cette FORTIFICATION est placée, toutes ses parties doivent être placées en contact avec une autre partie.</characteristic>
           </characteristics>
         </profile>
         <profile name="Imperial Fortress Walls" typeId="74f8-5443-9d6d-1f1e" typeName="Transport" hidden="false" id="f63c-5860-c081-cd1e">
@@ -2233,7 +2233,7 @@ Remarque du concepteur: Placez deux jetons Borewyrm Infestation à côté de cet
         </profile>
         <profile name="Stronghold" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="f18-b2ff-845e-48a5">
           <characteristics>
-            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Les figurines sympathiques INFANTRY peuvent être mis en place ou mettre fin à tout type de déplacement sur la section de toit de ce Fortification. Tout figurine convivial peut être mis en place ou mettre fin à tout type de mouvement sur la rampe ou la section de plateforme de ce Fortification.</characteristic>
+            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Les figurines INFANTRY amies peuvent être placées ou terminer n’importe quel type de mouvement sur la section de toit de cette FORTIFICATION. Toute figurine amie peut être placée ou terminer n’importe quel type de mouvement sur la rampe ou la section de plateforme de cette FORTIFICATION.</characteristic>
           </characteristics>
         </profile>
         <profile name="Damaged: 1-15 Wounds Remaining" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="b20f-73b0-988b-c053">
@@ -2492,7 +2492,7 @@ Remarque du concepteur: Placez deux jetons Borewyrm Infestation à côté de cet
         </profile>
         <profile name="Defensive Emplacement" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="d0aa-93cb-a957-d92f">
           <characteristics>
-            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Dans l'étape Créer le champ de bataille et placer les marqueurs d'objectifs, installez cette figurine dans l'une des positions Sentry Gun (marquée D1 sur la carte de la mission).</characteristic>
+            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Dans l'étape Créer le champ de bataille et placer pions d’objectif, définissez cette figurine dans l'une des positions Sentry Gun (marqué D1 sur la carte de mission).</characteristic>
           </characteristics>
         </profile>
       </profiles>
@@ -2600,7 +2600,7 @@ Remarque du concepteur: Placez deux jetons Borewyrm Infestation à côté de cet
         </profile>
         <profile name="Assault Robot" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="47a6-2272-6f47-14e0">
           <characteristics>
-            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Dans l'étape déployer des armées, lors de la configuration d'une unité de votre armée dans une zone d'entrée, vous pouvez configurer cette figurine à côté de cette unité comme si elle faisait partie de celle-ci, en utilisant la même zone d'entrée.</characteristic>
+            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Dans l'étape déployer des armées, lors de la mise en place d'une unité de votre armée dans une zone d'entrée, vous pouvez mettre cette figurine à côté de cette unité comme si elle faisait partie de celle-ci, en utilisant la même zone d'entrée.</characteristic>
           </characteristics>
         </profile>
       </profiles>
@@ -2647,7 +2647,7 @@ Dans votre phase de Commandement, le porteur peut déclencher ses bombes. S’il
                   <profiles>
                     <profile name="Cutting Gear" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="1720-1fcb-8c98-5712">
                       <characteristics>
-                        <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Chaque fois que le porteur termine un mouvement normal, vous pouvez ouvrir un Hatchway qui est à 1" ou moins de lui. Votre adversaire ne peut pas empêcher Hatchway d'ouvrir.</characteristic>
+                        <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Chaque fois que le porteur termine un mouvement Normal, vous pouvez ouvrir un Hatchway qui est à 1" ou moins de celui-ci. Votre adversaire ne peut pas empêcher Hatchway d'ouvrir.</characteristic>
                       </characteristics>
                     </profile>
                   </profiles>
@@ -2756,32 +2756,32 @@ Dans votre phase de Commandement, le porteur peut déclencher ses bombes. S’il
   <sharedProfiles>
     <profile name="Reinforced Cover" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="241c-8bed-ca28-f77">
       <characteristics>
-        <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Chaque fois qu'une attaque de tir est attribuée à une figurine, si cette figurine n'est pas pleinement visible à tous les figurines de l'unité d'attaque à cause de ce Fortification, cette figurine a le Bénéfice du Couvert contre cette attaque.</characteristic>
+        <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Chaque fois qu’une attaque de tir est allouée à une figurine, si cette figurine n’est pas entièrement visible de toutes les figurines de l’unité attaquante à cause de cette FORTIFICATION, cette figurine a le Bénéfice du Couvert contre cette attaque.</characteristic>
       </characteristics>
     </profile>
     <profile name="Roof Access" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="2e62-f126-df89-60d">
       <characteristics>
-        <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Les figurines sympathiques INFANTRY peuvent être installés ou terminés par tout type de mouvement sur la section de toit de ce Fortification.</characteristic>
+        <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Les figurines INFANTRY amies peuvent être placées ou terminer n’importe quel type de mouvement sur la partie de toit de cette FORTIFICATION.</characteristic>
       </characteristics>
     </profile>
     <profile name="Gates" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="f791-bfaa-d110-9379">
       <characteristics>
-        <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Lorsque ce Fortification est installé sur le champ de bataille, chaque section de porte peut être installée avec sa porte ouverte ou fermée. Dans votre phase de Commandement, vous pouvez ouvrir ou fermer la porte de chacune des sections de la porte de cette figurine. Alors qu'une porte est ouverte, les figurines peuvent se déplacer et dessiner une ligne de vue à travers elle comme si elle n'était pas là.</characteristic>
+        <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Lorsque cette FORTIFICATION est placée pour la première fois sur le champ de bataille, chaque section de porte peut être placée avec sa porte ouverte ou fermée. Durant votre phase de Commandement, vous pouvez ouvrir ou fermer la porte de chaque section de porte de cette figurine. Tant qu’une porte est ouverte, les figurines peuvent se déplacer et tracer des lignes de vue à travers elle comme si elle n’était pas là.</characteristic>
       </characteristics>
     </profile>
     <profile name="Battlements" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="f644-db15-d1f0-3c48">
       <characteristics>
-        <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Les figurines sympathiques INFANTRY peuvent être configurés ou terminés par tout type de mouvement sur les sections de battlement plates de ce Fortification.</characteristic>
+        <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Amical INFANTRY figurines peut être mis en place ou mettre fin à tout type de mouvement sur les sections de battlement plates de ce Fortification.</characteristic>
       </characteristics>
     </profile>
     <profile name="Defence Line" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="29fe-dbb0-2a7-a301">
       <characteristics>
-        <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Lorsque ce Fortification est installé, toutes ses pièces doivent être installées à 1" ou moins d'une autre pièce. Alors qu'une figurine INFANTRY a le Bénéfice du Couvert en raison de ce Fortification (voir ci-dessous), cette figurine a un 4+ sauvegarde invulnérable.</characteristic>
+        <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Lorsque cette FORTIFICATION est placée, toutes ses parties doivent être placées à 1" ou moins d’une autre partie. Tant qu’une figurine INFANTRY a le Bénéfice du Couvert à cause de cette FORTIFICATION (voir ci-dessous), cette figurine a une sauvegarde invulnérable de 4+.</characteristic>
       </characteristics>
     </profile>
     <profile name="Trench Line" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="7669-c371-7ee3-ce0f">
       <characteristics>
-        <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Les figurines INFANTRY conviviaux peuvent être configurés ou terminés par tout type de mouvement au-dessus de la section plateforme plate de ce Fortification.</characteristic>
+        <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Les figurines INFANTRY amies peuvent être placées ou terminer n’importe quel type de mouvement sur la partie de plateforme plane de cette FORTIFICATION.</characteristic>
       </characteristics>
     </profile>
     <profile name="Damaged: 1-6 Wounds Remaining" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="39db-fc02-9b22-388d">
@@ -2796,7 +2796,7 @@ Dans votre phase de Commandement, le porteur peut déclencher ses bombes. S’il
     </profile>
     <profile name="Mighty Edifice" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="5dd-a7bc-b1a6-9a00">
       <characteristics>
-        <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Vous pouvez seulement inclure ce Fortification dans votre armée dans des jeux de taille Onslaught ou plus.</characteristic>
+        <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Vous ne pouvez inclure cette FORTIFICATION dans votre armée que lors de parties de taille Onslaught ou supérieure.</characteristic>
       </characteristics>
     </profile>
   </sharedProfiles>

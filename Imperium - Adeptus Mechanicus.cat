@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue xmlns="http://www.battlescribe.net/schema/catalogueSchema" id="fe15-1da6-e58a-b90a" name="Imperium - Adeptus Mechanicus" revision="106" battleScribeVersion="2.03" library="false" gameSystemId="sys-0e45-705d-f6bc-806a" gameSystemRevision="1" type="catalogue">
+<catalogue xmlns="http://www.battlescribe.net/schema/catalogueSchema" id="77b9-2f66-3f9b-5cf3" name="Imperium - Adeptus Mechanicus" revision="106" battleScribeVersion="2.03" library="false" gameSystemId="sys-352e-adc2-7639-d6a9" gameSystemRevision="1" type="catalogue">
   <categoryEntries>
     <categoryEntry id="f826-1ad1-a542-2058" name="Archaeopter Fusilave" hidden="false" />
     <categoryEntry id="37b3-cded-c814-6e63" name="Archaeopter Stratoraptor" hidden="false" />
@@ -75,7 +75,7 @@
       <profiles>
         <profile name="Voices in the Code" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="367f-5f53-33a7-ad1e">
           <characteristics>
-            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Au début de la phase de Combat, chaque unité ennemi dans la Portée d’Engagement d'une ou plusieurs unités avec cette aptitude doit passer un test d’Ébranlement.</characteristic>
+            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Au début de la phase de Combat, chaque unité ennemie à Portée d’Engagement d’une ou plusieurs unités dotées de cette aptitude doit effectuer un test d’Ébranlement.</characteristic>
           </characteristics>
         </profile>
       </profiles>
@@ -139,7 +139,7 @@
         </profile>
         <profile id="42dc-6183-5dd1-29cf" name="Bomb Rack" hidden="false" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities">
           <characteristics>
-            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Chaque fois que cette figurine termine un mouvement normal, vous pouvez sélectionner une unité ennemie qu’elle a traversée et rouler six D6: pour chaque 4+, cette unité souffre 1 blessure mortelle.</characteristic>
+            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Chaque fois que cette figurine termine un mouvement Normal, vous pouvez sélectionner une unité ennemie qu'il a déplacé et rouler six D6: pour chaque 4+, cette unité souffre de 1 blessure mortelle.</characteristic>
           </characteristics>
         </profile>
       </profiles>
@@ -186,7 +186,7 @@
                   <profiles>
                     <profile name="Command Uplink" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="cf82-0b93-d441-d3cd">
                       <characteristics>
-                        <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Chaque fois que vous sélectionnez l'unité du porteur comme cible d'un Stratagème, lancez un D6: sur un 5+, vous gagnez 1CP.</characteristic>
+                        <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Chaque fois que vous sélectionnez l’unité du porteur comme cible d'un Stratagème, lancez un D6: sur un 5+, vous gagnez 1CP.</characteristic>
                       </characteristics>
                     </profile>
                   </profiles>
@@ -305,7 +305,7 @@
         </profile>
         <profile id="e589-6b4b-708c-0a93" name="Strafing Run" hidden="false" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities">
           <characteristics>
-            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Chaque fois que cette figurine effectue une attaque de tir qui cible une unité ennemi (à l'exclusion des unités capables de voler), ajoutez 1 au jet de Touche.</characteristic>
+            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Chaque fois que cette figurine fait une attaque de tir qui cible une unité ennemie (unités à l’exclusion de qui peuvent voler), ajoutez 1 au jet de Touche.</characteristic>
           </characteristics>
         </profile>
       </profiles>
@@ -422,7 +422,7 @@
                   <profiles>
                     <profile name="Chaff Launcher" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="bd10-f2a9-9e2e-b9cb">
                       <characteristics>
-                        <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Le porteur a le mot-clé Smoke.</characteristic>
+                        <characteristic name="Description" typeId="9b8f-694b-e5e-b573">le porteur a la fumée mot-clé.</characteristic>
                       </characteristics>
                     </profile>
                   </profiles>
@@ -434,7 +434,7 @@
                   <profiles>
                     <profile name="Command Uplink" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="fd8a-c3c2-6f7e-6495">
                       <characteristics>
-                        <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Chaque fois que vous sélectionnez l'unité du porteur comme cible d'un Stratagème, lancez un D6: sur un 5+, vous gagnez 1CP.</characteristic>
+                        <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Chaque fois que vous sélectionnez l’unité du porteur comme cible d'un Stratagème, lancez un D6: sur un 5+, vous gagnez 1CP.</characteristic>
                       </characteristics>
                     </profile>
                   </profiles>
@@ -541,7 +541,7 @@
         </profile>
         <profile id="5949-42f6-2d23-07f5" name="Aerial Deployment" hidden="false" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities">
           <characteristics>
-            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Si cette figurine démarre le jeu en mode Hover et en Réserves stratégiques, il peut être configuré dans l'étape des Renforts de votre première, deuxième ou troisième phase de Mouvement, indépendamment des règles de mission.</characteristic>
+            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Si cette figurine démarre le jeu en mode Hover et dans Réserves Stratégiques, il peut être configuré dans le étape des Renforts de votre premier, deuxième ou troisième phase de Mouvement, indépendamment des règles de mission.</characteristic>
           </characteristics>
         </profile>
         <profile id="fdbf-0314-ebea-88b2" name="Transport" hidden="false" typeId="74f8-5443-9d6d-1f1e" typeName="Transport" noindex="false">
@@ -595,7 +595,7 @@
                   <profiles>
                     <profile name="Chaff Launcher" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="a2db-732b-05dc-e2ff">
                       <characteristics>
-                        <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Le porteur a le mot-clé Smoke.</characteristic>
+                        <characteristic name="Description" typeId="9b8f-694b-e5e-b573">le porteur a la fumée mot-clé.</characteristic>
                       </characteristics>
                     </profile>
                   </profiles>
@@ -607,7 +607,7 @@
                   <profiles>
                     <profile name="Command Uplink" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="d5a3-26f8-485d-eeed">
                       <characteristics>
-                        <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Chaque fois que vous sélectionnez l'unité du porteur comme cible d'un Stratagème, lancez un D6: sur un 5+, vous gagnez 1CP.</characteristic>
+                        <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Chaque fois que vous sélectionnez l’unité du porteur comme cible d'un Stratagème, lancez un D6: sur un 5+, vous gagnez 1CP.</characteristic>
                       </characteristics>
                     </profile>
                   </profiles>
@@ -726,7 +726,7 @@ Shroudpsalm (Aura): Tant qu’une unité Adeptus Mechanicus amie est à 6" ou mo
         </profile>
         <profile id="f172-384f-e1fa-d656" name="Mechanicus Bodyguard" hidden="false" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities">
           <characteristics>
-            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Tant que cette figurine est à 3" ou moins d'une ou de plusieurs autres unités ^^**Adeptus Mechanicus**^^ amicales, cette figurine a la aptitude Agent solitaire.</characteristic>
+            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Si cette figurine se trouve à 3" ou moins d'une ou de plusieurs autres unités amies ^^**Adeptus Mechanicus**^^, cette figurine possède l’aptitude Agent solitaire.</characteristic>
           </characteristics>
         </profile>
         <profile id="26a7-711f-28f6-7044" name="Self-repair Mechanisms" hidden="false" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities">
@@ -736,7 +736,7 @@ Shroudpsalm (Aura): Tant qu’une unité Adeptus Mechanicus amie est à 6" ou mo
         </profile>
         <profile name="Supreme Commander" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="784a-55c7-c7b9-db88">
           <characteristics>
-            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Si cette figurine est dans votre armée, il doit être votre **^^Warlord^^**.</characteristic>
+            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Si cette figurine est dans votre armée, elle doit être votre **^^Warlord^^**.</characteristic>
           </characteristics>
         </profile>
       </profiles>
@@ -911,7 +911,7 @@ Shroudpsalm (Aura): Tant qu’une unité Adeptus Mechanicus amie est à 6" ou mo
         </profile>
         <profile id="03d0-228a-7b7f-9ba4" name="Electro-shock" hidden="false" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities">
           <characteristics>
-            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Dans votre phase de Tir, après que cette unité ait tiré, sélectionnez une unité ennemie (à l'exclusion de ^^**Monsters^^** et ^^**Vehicles^^**) touchée par une ou plusieurs de ces attaques. Jusqu'à la fin du prochain tour de votre adversaire, cette unité ennemie est choquée. Pendant qu'une unité est choquée, Soustrayez 2" de sa caractéristique de mouvement et soustraire 2 des jets d’Avance et de Charge faits pour elle.</characteristic>
+            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Durant votre phase de Tir, après que cette unité a tiré, sélectionnez une unité ennemie (à l’exclusion des ^^**Monsters^^** et des ^^**Vehicles^^**) touchée par une ou plusieurs de ces attaques. Jusqu’à la fin du prochain tour de votre adversaire, cette unité ennemie est choquée. Tant qu’une unité est choquée, soustrayez 2" à sa caractéristique de Mouvement et soustrayez 2 aux jets d’Avance et de Charge effectués pour elle.</characteristic>
           </characteristics>
         </profile>
       </profiles>
@@ -1077,7 +1077,7 @@ Shroudpsalm (Aura): Tant qu’une unité Adeptus Mechanicus amie est à 6" ou mo
       <profiles>
         <profile id="0d92-84dc-f7da-1aa0" name="Electro-Infusion" hidden="false" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities">
           <characteristics>
-            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Pendant qu'une figurine ^^**Character^^** dirige cette unité, chaque fois qu'une attaque cible cette unité, Soustrayez 1 du jet de Blessure.</characteristic>
+            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Alors qu'une ^^**Character^^** figurine dirige cette unité, chaque fois qu'une attaque cible cette unité, Soustrayez 1 du jet de Blessure.</characteristic>
           </characteristics>
         </profile>
         <profile id="547-98cb-c3d3-c4a3" name="Fulgurite Electro-Priests" hidden="false" typeId="c547-1836-d8a-ff4f" typeName="Unit">
@@ -1234,7 +1234,7 @@ Shroudpsalm (Aura): Tant qu’une unité Adeptus Mechanicus amie est à 6" ou mo
       <profiles>
         <profile id="73f8-f7d8-641f-90ca" name="Elevated Strider" hidden="false" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities">
           <characteristics>
-            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Cette unité est éligible pour tourner en tour dans lequel a Battu en Retraite ou avancée, et vous pouvez relancer des tests de fuite désespérée pris pour les figurines dans cette unité.</characteristic>
+            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Cette unité est éligible pour tirer durant un tour où elle a Battu en Retraite ou Avancé, et vous pouvez relancer les tests de Fuite Désespérée effectués pour les figurines de cette unité.</characteristic>
           </characteristics>
         </profile>
         <profile id="0f3a-39ef-62b9-5b76" name="Broad Spectrum Data-tether" hidden="false" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities">
@@ -1494,12 +1494,12 @@ Shroudpsalm (Aura): Tant qu’une unité Adeptus Mechanicus amie est à 6" ou mo
       <profiles>
         <profile id="6482-3035-fed5-27d0" name="Robotic Bodyguard" hidden="false" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities">
           <characteristics>
-            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Alors qu'une figurine ^^**Cybernetica Datasmith^^** est à la tête de cette unité, cette figurine a la aptitude Insensible à la douleur 4+.</characteristic>
+            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Alors qu'une ^^**Cybernetica Datasmith^^** figurine est à la tête de cette unité, que figurine a l’aptitude Insensible à la douleur 4+.</characteristic>
           </characteristics>
         </profile>
         <profile id="e6fd-24cc-9af1-16b6" name="Repulsor Grid" hidden="false" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities">
           <characteristics>
-            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Chaque fois qu'une attaque de tir est attribuée à une figurine ^^**Kastelan Robot^^** dans cette unité, sur un jet de sauvegarde non modifié de 6, l'unité attaquante subit une blessure mortelle 1 après avoir terminé ses attaques.</characteristic>
+            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Chaque fois qu'une attaque de tir est attribuée à une ^^**Kastelan Robot^^** figurine dans cette unité, sur une jet de sauvegarde non modifiée de 6, l'unité attaquante subit 1 blessure mortelle après avoir terminé sa Attaques.</characteristic>
           </characteristics>
         </profile>
       </profiles>
@@ -1863,7 +1863,7 @@ Shroudpsalm (Aura): Tant qu’une unité Adeptus Mechanicus amie est à 6" ou mo
         </profile>
         <profile id="a69c-5871-1d48-08ca" name="Sauvegarde Invulnérable" hidden="false" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities">
           <characteristics>
-            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Les figurines de cette unité ont un 6+ sauvegarde invulnérable.</characteristic>
+            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Les les figurines de cette unité ont un 6+ sauvegarde invulnérable.</characteristic>
           </characteristics>
         </profile>
       </profiles>
@@ -2069,12 +2069,12 @@ Shroudpsalm (Aura): Tant qu’une unité Adeptus Mechanicus amie est à 6" ou mo
         </profile>
         <profile id="c5be-9cdf-008d-3b05" name="Sentinel Directive" hidden="false" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities">
           <characteristics>
-            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Chaque fois que vous ciblez cette unité avec le Stratagème Fire Overwatch, des coups sont marqués sur des jets de Touche non modifiés de 5+ lors de la résolution de ce Stratagème.</characteristic>
+            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Chaque fois que vous ciblez cette unité avec le Fire Overwatch Stratagème, les hits sont marqués sur jets de Touche non modifiés de 5+ lors de la résolution de ce Stratagème.</characteristic>
           </characteristics>
         </profile>
         <profile id="fc60-9298-b124-f453" name="Sauvegarde Invulnérable" hidden="false" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities">
           <characteristics>
-            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Les figurines de cette unité ont un 6+ sauvegarde invulnérable.</characteristic>
+            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Les les figurines de cette unité ont un 6+ sauvegarde invulnérable.</characteristic>
           </characteristics>
         </profile>
       </profiles>
@@ -2281,7 +2281,7 @@ Shroudpsalm (Aura): Tant qu’une unité Adeptus Mechanicus amie est à 6" ou mo
         </profile>
         <profile id="cc62-f70a-74d5-53a3" name="Emanatus Forcefield (Aura)" hidden="false" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities">
           <characteristics>
-            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Alors qu'une figurine amie ^^**Adeptus Mechanicus Battleline^^** figurine est entièrement à 6" ou moins de cette figurine, cette ^^**Battleline^^** a un 4+ sauvegarde invulnérable contre les attaques de tir.</characteristic>
+            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Alors qu'un ami ^^**Adeptus Mechanicus Battleline^^** figurine est entièrement à 6" ou moins de cette figurine, cette ^^**Battleline^^** figurine a un 4+ sauvegarde invulnérable contre les attaques de tir.</characteristic>
           </characteristics>
         </profile>
         <profile id="80b6-a242-9b3f-456a" name="Sauvegarde Invulnérable" hidden="false" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities">
@@ -2291,12 +2291,12 @@ Shroudpsalm (Aura): Tant qu’une unité Adeptus Mechanicus amie est à 6" ou mo
         </profile>
         <profile id="021a-c246-5697-b311" name="Damaged: 1-4 wounds remaining" hidden="false" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities">
           <characteristics>
-            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Alors que cette figurine a 1-4 PV restants, à chaque fois que cette figurine fait une attaque, Soustrayez 1 du jet de Touche.</characteristic>
+            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Alors que ce mdel a 1-4 PV restants, chaque fois que cette figurine effectue une attaque, Soustrayez 1 du jet de Touche.</characteristic>
           </characteristics>
         </profile>
         <profile name="Scuttling Walker" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="49d6-a6a3-fafb-53e4">
           <characteristics>
-            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Chaque fois que cette figurine effectue un mouvement normal, d'avance ou de Retraite, il peut se déplacer à travers des figurines sympathiques ^^**Monster^^** et ^^**Vehicle^^** et des sections de terrain de 4" ou moins de hauteur.</characteristic>
+            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Chaque fois que cette figurine effectue un mouvement Normal, d’Avance ou de Retraite, elle peut se déplacer à travers les figurines ^^**Monster^^** et ^^**Vehicle^^** amies ainsi que les parties d’éléments de terrain d’une hauteur de 4" ou moins.</characteristic>
           </characteristics>
         </profile>
       </profiles>
@@ -2324,7 +2324,7 @@ Shroudpsalm (Aura): Tant qu’une unité Adeptus Mechanicus amie est à 6" ou mo
               <profiles>
                 <profile name="Broad spectrum data-tether" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="433b-7ef2-d37c-a472">
                   <characteristics>
-                    <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Le porteur perd le mot-clé SMOKE, mais chaque fois que vous ciblez le porteur avec un Stratagème, lancez un D6: sur un 5+, vous gagnez 1CP.</characteristic>
+                    <characteristic name="Description" typeId="9b8f-694b-e5e-b573">le porteur perd le SMOKE mot-clé, mais chaque fois que vous ciblez le porteur avec un Stratagème, lancez un D6: sur un 5+, vous gagnez 1CP.</characteristic>
                   </characteristics>
                 </profile>
               </profiles>
@@ -2691,11 +2691,11 @@ Shroudpsalm (Aura): Tant qu’une unité Adeptus Mechanicus amie est à 6" ou mo
         </profile>
         <profile id="b4a6-337b-294d-a4d3" name="Ride the Thermals" hidden="false" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities">
           <characteristics>
-            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Dans votre phase de Tir, après que cette unité ait tiré, si elle n'est pas dans la Portée d’Engagement d'une ou de plusieurs unités ennemies, elle peut faire l'une des choses suivantes:
-- Faites un déplacement normal jusqu'à 6" pour vous.
-- Faire un déplacement normal jusqu'à 12", à condition que chaque figurine de cette unité se déplace entièrement à 6" ou moins d'une ou plusieurs unités ^^**Adeptus Mechanicus Battleline^^** amicales.
+            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Durant votre phase de Tir, après que cette unité a tiré, si elle n’est pas à Portée d’Engagement d’une ou plusieurs unités ennemies, elle peut effectuer l’une des actions suivantes :
+- Effectuer un mouvement Normal de jusqu’à 6".
+- Effectuer un mouvement Normal de jusqu’à 12", à condition que chaque figurine de cette unité termine ce mouvement entièrement à 6" ou moins d’une ou plusieurs unités ^^**Adeptus Mechanicus Battleline^^** amies.
 
-Dans les deux cas, si c'est le cas, jusqu'à la fin du tour, cette unité n'est pas admissible à déclarer une charge.</characteristic>
+Dans les deux cas, si elle le fait, jusqu’à la fin du tour, cette unité n’est pas éligible pour déclarer une charge.</characteristic>
           </characteristics>
         </profile>
       </profiles>
@@ -2945,7 +2945,7 @@ Dans les deux cas, si c'est le cas, jusqu'à la fin du tour, cette unité n'est 
         </profile>
         <profile id="d087-cfde-e93a-f603" name="Searing Conflagaration" hidden="false" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities">
           <characteristics>
-            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Chaque fois qu'une figurine dans cette unité fait une attaque avec une torche de phosphore qui cible une unité ennemi dans la portée d'un marqueur objectif, relancez un jet de Blessure de 1. Si cette unité se trouve également à 6" ou moins d'une ou de plusieurs unités amies ^^**Adeptus Mechanicus Battleline^^**, chaque fois qu'une telle attaque cible une telle unité, vous pouvez relancer le jet de Blessure à la place.</characteristic>
+            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Chaque fois qu'une figurine dans cette unité fait une attaque avec une torche de phosphore qui cible une unité ennemie dans Portée d'un pion d’objectif, relancer un jet de Blessure de 1. Si cette unité est également à 6" ou moins d'une ou de plusieurs unités amies ^^**Adeptus Mechanicus Battleline^^**, chaque fois qu'une telle attaque cible une telle unité, vous pouvez relancer le jet de Blessure à la place.</characteristic>
           </characteristics>
         </profile>
       </profiles>
@@ -3222,9 +3222,9 @@ Dans les deux cas, si c'est le cas, jusqu'à la fin du tour, cette unité n'est 
         </profile>
         <profile id="818e-4451-e543-0907" name="Tactica Obliqua" hidden="false" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities">
           <characteristics>
-            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Une fois par tour, lorsqu'une unité ennemie termine un mouvement Normal, Avance ou Retraite à 9" ou moins de cette unité, si cette unité n'est pas dans la Portée d’Engagement d'une ou de plusieurs unités ennemies, elle peut effectuer l'une des opérations suivantes:
-- Faites un déplacement normal jusqu'à D6".
-- Faire un déplacement normal jusqu'à 6", à condition que chaque figurine de cette unité se déplace entièrement à 6" ou moins d'une ou plusieurs unités ^^**Adeptus Mechanicus Battleline^^** amicales.</characteristic>
+            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Une fois par tour, lorsqu'une unité ennemie termine une normale, une avance ou une mouvement de Retraite à 9" ou moins de cette unité, si cette unité n'est pas à l'intérieur de Portée d’Engagement d'une ou de plusieurs unités ennemies, elle peut effectuer l'une des opérations suivantes:
+- effectuer un mouvement Normal de jusqu’à D6".
+- effectuer un mouvement Normal d'une valeur allant jusqu'à 6", à condition que chaque figurine de cette unité ait des extrémités qui déplacent entièrement à 6" ou moins d'une ou plusieurs unités amies ^^**Adeptus Mechanicus Battleline^^**.</characteristic>
           </characteristics>
         </profile>
       </profiles>
@@ -3433,7 +3433,7 @@ Dans les deux cas, si c'est le cas, jusqu'à la fin du tour, cette unité n'est 
                   <profiles>
                     <profile id="6fc7-1534-89fe-ac99" name="Enhanced data-tether" hidden="false" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities">
                       <characteristics>
-                        <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Chaque fois que vous sélectionnez l'unité du porteur comme cible d'un Stratagème, lancez un D6: sur un 5+, vous gagnez 1CP.</characteristic>
+                        <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Chaque fois que vous sélectionnez l’unité du porteur comme cible d'un Stratagème, lancez un D6: sur un 5+, vous gagnez 1CP.</characteristic>
                       </characteristics>
                     </profile>
                   </profiles>
@@ -3544,7 +3544,7 @@ Dans les deux cas, si c'est le cas, jusqu'à la fin du tour, cette unité n'est 
         </profile>
         <profile id="f9b6-c1a2-52ac-92e2" name="Line-breakers" hidden="false" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities">
           <characteristics>
-            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Chaque fois que cette unité termine un mouvement Charge, sélectionnez une unité ennemie dans sa Portée d’Engagement et lancez un D6 pour chaque figurine de cette unité qui se trouve dans la Portée d’Engagement de cette unité ennemie, ajoutant 2 au résultat si cette unité a commencé son mouvement Charge à 6" ou moins d'une ou plusieurs unités amies Adeptus Mechanicus Battleline. Pour chaque 4+, cette unité ennemie souffre 1 blessure mortelle.</characteristic>
+            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Chaque fois que cette unité termine un mouvement de Charge, sélectionnez une unité ennemie à l'intérieur de Portée d’Engagement de celui-ci et lancez un D6 pour chaque figurine de cette unité qui se trouve à l'intérieur de Portée d’Engagement de cette unité ennemie, en ajoutant 2 au résultat si cette unité a démarré son mouvement de Charge à 6" ou moins d'une ou plusieurs unités amies Adeptus Mechanicus Battleline. Pour chaque 4+, cette unité ennemie souffre 1 blessure mortelle.</characteristic>
           </characteristics>
         </profile>
       </profiles>
@@ -3894,7 +3894,7 @@ Dans les deux cas, si c'est le cas, jusqu'à la fin du tour, cette unité n'est 
         </profile>
         <profile id="4244-286c-66da-c199" name="Neurostatic Interference (Aura)" hidden="false" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities">
           <characteristics>
-            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Alors qu'une unité ennemie se trouve à 6" ou moins de cette unité, chaque fois qu'un test d’Ébranlement ou de Commandement est effectué pour cette unité, Soustrayez 1 de ce test. Si cette unité se situe à 6" ou moins d'une ou de plusieurs unités amies ^^**Adeptus Mechanicus Battleline^^**, Soustrayez 2 de ce test à la place.</characteristic>
+            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Lorsqu'une unité ennemie se situe à 6" ou moins de cette unité, chaque fois qu'une Ébranlement ou test de Commandement est prise pour cette unité, Soustrayez 1 de ce test. Si cette unité se trouve à 6" ou moins d'une ou de plusieurs unités amies ^^**Adeptus Mechanicus Battleline^^**, Soustrayez 2 de ce test à la place.</characteristic>
           </characteristics>
         </profile>
       </profiles>
@@ -4246,7 +4246,7 @@ Dans les deux cas, si c'est le cas, jusqu'à la fin du tour, cette unité n'est 
         </profile>
         <profile id="2c22-e802-cfdb-cf3f" name="Optimised Gait" hidden="false" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities">
           <characteristics>
-            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Ajoutez 1 aux jets d’Avance et de Charge effectués pour cette unité. Tant que cette unité est à 6" ou moins d'une ou de plusieurs unités ^^**Adeptus Mechanicus Battleline^^** amicales, ajoutez 2 aux jets d’Avance et de Charge effectués pour cette unité à la place.</characteristic>
+            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Ajoutez 1 à Advance et jets de Charge effectués pour cette unité. Tant que cette unité est à 6" ou moins d'une ou de plusieurs unités ^^**Adeptus Mechanicus Battleline^^** amicales, ajoutez 2 à Advance et jets de Charge effectués pour cette unité à la place.</characteristic>
           </characteristics>
         </profile>
       </profiles>
@@ -4519,7 +4519,7 @@ Dans les deux cas, si c'est le cas, jusqu'à la fin du tour, cette unité n'est 
         </profile>
         <profile id="3afd-1276-beb2-adf7" name="Servo-skull Uplink" hidden="false" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities">
           <characteristics>
-            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Une fois par bataille, au début de toute phase, vous pouvez sélectionner une unité ^^**Skitarii^^** amicale qui est Ébranlée et à 6" ou moins de cette figurine. Cette unité n'est plus Ébranlée.</characteristic>
+            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Une fois par bataille, au début de n’importe quelle phase, vous pouvez sélectionner une unité ^^**Skitarii^^** amie qui est Ébranlée et à 6" ou moins de cette figurine. Cette unité n’est plus Ébranlée.</characteristic>
           </characteristics>
         </profile>
         <profile name="Sauvegarde Invulnérable" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="d268-963f-d06f-f2c1">
@@ -4687,7 +4687,7 @@ Dans les deux cas, si c'est le cas, jusqu'à la fin du tour, cette unité n'est 
         </profile>
         <profile id="3d74-3888-b3ba-d044" name="Objective Scouted" hidden="false" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities">
           <characteristics>
-            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">À la fin de votre phase de Commandement, si cette unité est à portée d'un marqueur objectif que vous contrôlez, ce marqueur objectif reste sous votre contrôle, même si vous n'avez pas de figurines à portée de celui-ci, jusqu'à ce que votre adversaire le contrôle au début ou à la fin de tout tour.</characteristic>
+            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">À la fin de votre phase de Commandement, si cette unité est à l'intérieur de Portée d'un pion d’objectif que vous contrôlez, ce pion d’objectif reste sous votre contrôle, même si vous n'avez pas de figurines à l'intérieur de Portée de celui-ci, jusqu'à ce que votre adversaire le contrôle au début ou à la fin de tout tour.</characteristic>
           </characteristics>
         </profile>
       </profiles>
@@ -4989,8 +4989,8 @@ Dans les deux cas, si c'est le cas, jusqu'à la fin du tour, cette unité n'est 
                   <profiles>
                     <profile id="3c76-db6d-2b-29bd" name="Enhanced data-tether" hidden="false" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities">
                       <characteristics>
-                        <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Chaque fois que vous sélectionnez l'unité du porteur
-En tant que cible d'un Stratagème, lancez un D6: sur un 5+, vous gagnez 1CP.</characteristic>
+                        <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Chaque fois que vous sélectionnez l’unité du porteur
+en tant que cible d'un Stratagème, lancez un D6: sur un 5+, vous gagnez 1CP.</characteristic>
                       </characteristics>
                     </profile>
                   </profiles>
@@ -5048,7 +5048,7 @@ En tant que cible d'un Stratagème, lancez un D6: sur un 5+, vous gagnez 1CP.</c
                   <profiles>
                     <profile id="fd15-1322-c1a8-9568" name="Omnispex" hidden="false" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities">
                       <characteristics>
-                        <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Les armes de tir équipées par des figurines dans l'unité du porteur ont la aptitude Ignore le couvert.</characteristic>
+                        <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Les armes de tir dont les figurines de l’unité du porteur sont équipées ont l’aptitude IGNORES COVER.</characteristic>
                       </characteristics>
                     </profile>
                   </profiles>
@@ -5172,7 +5172,7 @@ En tant que cible d'un Stratagème, lancez un D6: sur un 5+, vous gagnez 1CP.</c
         </profile>
         <profile id="a266-2033-d72e-eddd" name="Rad-saturation (Aura)" hidden="false" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities">
           <characteristics>
-            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Alors qu'une unité ennemie (à l'exclusion des unités ^^**Vehicle^^**) se trouve à 3" ou moins de cette unité, Soustrayez 1 à la caractéristique de Contrôle d’Objectif des figurines de cette unité.</characteristic>
+            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Si une unité ennemie (à l’exclusion de ^^**Vehicle^^** unités) est à 3" ou moins de cette unité, Soustrayez 1 de la caractéristique de Contrôle d’Objectif des figurines de cette unité.</characteristic>
           </characteristics>
         </profile>
       </profiles>
@@ -5476,7 +5476,7 @@ En tant que cible d'un Stratagème, lancez un D6: sur un 5+, vous gagnez 1CP.</c
                   <profiles>
                     <profile id="fbee-3c20-ed1f-9fda" name="Enhanced data-tether" hidden="false" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities">
                       <characteristics>
-                        <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Chaque fois que vous sélectionnez l'unité du porteur comme cible d'un Stratagème, lancez un D6: sur un 5+, vous gagnez 1CP.</characteristic>
+                        <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Chaque fois que vous sélectionnez l’unité du porteur comme cible d'un Stratagème, lancez un D6: sur un 5+, vous gagnez 1CP.</characteristic>
                       </characteristics>
                     </profile>
                   </profiles>
@@ -5537,7 +5537,7 @@ En tant que cible d'un Stratagème, lancez un D6: sur un 5+, vous gagnez 1CP.</c
                   <profiles>
                     <profile id="d4b-f0ea-a667-6173" name="Omnispex" hidden="false" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities">
                       <characteristics>
-                        <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Les armes de tir équipées par des figurines dans l'unité du porteur ont la aptitude Ignore le couvert.</characteristic>
+                        <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Les armes de tir dont les figurines de l’unité du porteur sont équipées ont l’aptitude IGNORES COVER.</characteristic>
                       </characteristics>
                     </profile>
                   </profiles>
@@ -5671,7 +5671,7 @@ En tant que cible d'un Stratagème, lancez un D6: sur un 5+, vous gagnez 1CP.</c
         </profile>
         <profile id="995c-124a-0d6b-f011" name="Blistering Salvoes" hidden="false" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities">
           <characteristics>
-            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Chaque fois que cette figurine effectue une attaque avec un canon énergétique belleros qui cible une unité ^^**Infantry^^**, ajoutez 1 au jet de Touche. Chaque fois que cette figurine effectue une attaque avec un canon de ferrumite qui cible une unité ^^**Monster^^** ou ^^**Vehicle^^**, ajoutez 1 au jet de Touche.</characteristic>
+            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Chaque fois que cette figurine fait une attaque avec un canon énergétique belleros qui cible une unité ^^**Infantry^^**, ajoutez 1 au jet de Touche. Chaque fois que cette figurine fait une attaque avec un canon de ferrumite qui cible une unité ^^**Monster^^** ou ^^**Vehicle^^**, ajoutez 1 au jet de Touche.</characteristic>
           </characteristics>
         </profile>
         <profile id="fd3d-11e4-f436-d59d" name="Damaged: 1-4 wounds remaining" hidden="false" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities">
@@ -5915,7 +5915,7 @@ En tant que cible d'un Stratagème, lancez un D6: sur un 5+, vous gagnez 1CP.</c
         </profile>
         <profile id="28eb-c1af-6634-4b08" name="Fire Support" hidden="false" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities">
           <characteristics>
-            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Dans votre phase de Tir, après que cette figurine ait tiré, sélectionnez une unité ennemie qui a marqué un ou plusieurs coups contre cette phase. Jusqu'à la fin de la phase, chaque fois qu'une figurine amie qui est descendu de cette ^^**Transport^^** ce tour fait une attaque qui vise cette unité ennemie, vous pouvez relancer le jet de Blessure.</characteristic>
+            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Dans votre phase de Tir, après que cette figurine a tiré, sélectionnez une unité ennemie qui a marqué un ou plusieurs coups contre cette phase. Jusqu’à la fin de la phase, chaque fois qu'une figurine amie qui a débarqué de ce ^^**Transport^^** ce tour fait une attaque qui cible que cette unité ennemie, vous pouvez relancer le jet de Blessure.</characteristic>
           </characteristics>
         </profile>
         <profile id="f422-608c-f66e-3ffa" name="Skorpius Dunerider" hidden="false" typeId="74f8-5443-9d6d-1f1e" typeName="Transport">
@@ -6057,7 +6057,7 @@ En tant que cible d'un Stratagème, lancez un D6: sur un 5+, vous gagnez 1CP.</c
       <profiles>
         <profile id="2780-1325-2e20-c29b" name="Dynamic Efficiency" hidden="false" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities">
           <characteristics>
-            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Cette unité est éligible pour déclarer une charge dans un tour dans lequel elle avance oua Battu en Retraite, et vous pouvez relancer les tests Desperate Escape effectués pour les figurines de cette unité.</characteristic>
+            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Cette unité est admissible à déclarer une charge à tour de rôle dans laquelle elle a avancé ou a Battu en Retraite, et vous pouvez relancer tests de Fuite Désespérée pris pour les figurines de cette unité.</characteristic>
           </characteristics>
         </profile>
         <profile id="2361-39d9-6fbe-27e2" name="Broad Spectrum Data-tether" hidden="false" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities">
@@ -6292,12 +6292,12 @@ En tant que cible d'un Stratagème, lancez un D6: sur un 5+, vous gagnez 1CP.</c
         </profile>
         <profile id="2d2c-3eb8-963e-c75a" name="Lord of the Machine Cult" hidden="false" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities">
           <characteristics>
-            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Alors que cette figurine mène une unité, les figurines de cette unité ont la aptitude Insensible à la douleur 5+. Si cette unité a le mot-clé ^^**Electro-Priests^^**, les figurines de cette unité ont la aptitude Insensible à la douleur 4+ à la place</characteristic>
+            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Tant que cette figurine mène une unité, les figurines de cette unité ont l’aptitude Insensible à la Douleur 5+. Si cette unité a le mot-clé ^^**Electro-Priests^^**, les figurines de cette unité ont l’aptitude Insensible à la Douleur 4+ à la place.</characteristic>
           </characteristics>
         </profile>
         <profile id="01b2-8ea8-4fc1-dbe7" name="Data-spike" hidden="false" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities">
           <characteristics>
-            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Au début de la phase de Combat, vous pouvez sélectionner une unité ennemie ^^**Vehicle^^** dans la Portée d’Engagement de l’unité de cette figurine et lancez un D6: sur une 4+, cette unité ennemie subit des Blessures Mortelles D6 et, jusqu'à la fin de la phase, la caractéristique de Capacité de Combat d'armes de mêlée équipée par cette unité ennemie est aggravée par 1.</characteristic>
+            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Au début de la phase de Combat, vous pouvez sélectionner un ennemi ^^**Vehicle^^** dans l'unité Portée d’Engagement de l’unité de cette figurine et lancez un D6: sur un 4+, que cette unité ennemie souffre D6 Blessures Mortelles et, Jusqu’à la fin de la phase, la caractéristique de Capacité de Combat d’armes de mêlée équipé de cette unité ennemie est aggravé par 1.</characteristic>
           </characteristics>
         </profile>
       </profiles>
@@ -6593,17 +6593,17 @@ En tant que cible d'un Stratagème, lancez un D6: sur un 5+, vous gagnez 1CP.</c
         </profile>
         <profile id="3325-e5c9-4448-7650" name="Enginseer" hidden="false" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities">
           <characteristics>
-            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Tant que cette figurine est à 3" ou moins d'une ou de plusieurs unités ^^**Adeptus Mechanicus Vehicle^^** amicales, sauf si il conduit une unité, cette figurine a la aptitude Agent solitaire.</characteristic>
+            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Alors que cette figurine se trouve à 3" ou moins d'une ou de plusieurs unités amies ^^**Adeptus Mechanicus Vehicle^^**, sauf si elle mène une unité, cette figurine possède l’aptitude Agent solitaire.</characteristic>
           </characteristics>
         </profile>
         <profile id="0b5b-a6e8-c618-7ea8" name="Omnissiah's Blessing" hidden="false" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities">
           <characteristics>
-            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Dans votre phase de Commandement, sélectionnez une figurine Adeptus Mechanicus ami à 3" ou moins de cette figurine. cette figurine récupère jusqu'à D3 PV perdus et, si c'est une figurine de véhicule, jusqu'au début de votre prochaine phase de Commandement, cette figurine a la aptitude Insensible à la douleur 5+. Chaque figurine ne peut être sélectionné pour cette aptitude qu' une fois par phase de Commandement.</characteristic>
+            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Durant votre phase de Commandement, sélectionnez une figurine Adeptus Mechanicus amie à 3" ou moins de cette figurine. Cette figurine récupère jusqu’à D3 PV perdus et, s’il s’agit d’une figurine Vehicle, jusqu’au début de votre prochaine phase de Commandement, elle a l’aptitude Feel No Pain 5+. Chaque figurine ne peut être sélectionnée pour cette aptitude qu’une fois par phase de Commandement</characteristic>
           </characteristics>
         </profile>
         <profile id="2aab-7d64-4e7c-6899" name="Vengeance for the Omnissiah" hidden="false" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities">
           <characteristics>
-            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Si une figurine amie ^^**Adeptus Mechanicus Vehicle^^** est détruite à 12" ou moins de cette figurine, jusqu'à la fin de la bataille, cette figurine s hache Omnissian a une caractéristique d’Attaques de 6.</characteristic>
+            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Si une figurine ^^**Adeptus Mechanicus Vehicle^^** amie est détruite à 12" ou moins de cette figurine, jusqu’à la fin de la bataille, la hache omnissienne de cette figurine a une caractéristique d’Attaques de 6.</characteristic>
           </characteristics>
         </profile>
         <profile id="e575-a2a0-3c80-d030" name="Sauvegarde Invulnérable" hidden="false" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities">
@@ -6837,12 +6837,12 @@ En tant que cible d'un Stratagème, lancez un D6: sur un 5+, vous gagnez 1CP.</c
         </profile>
         <profile id="0572-a04a-1973-cbab" name="Galvanic Field" hidden="false" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities">
           <characteristics>
-            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Alors que cette figurine mène une unité, les armes équipées de figurines dans cette unité ont la aptitude [Touches fatales].</characteristic>
+            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Alors que cette figurine mène une unité, les armes équipées des figurines de cette unité ont l’aptitude [Touches fatales].</characteristic>
           </characteristics>
         </profile>
         <profile id="fda2-046d-2f2f-a407" name="Defend the Divine Work" hidden="false" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities">
           <characteristics>
-            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Une fois par bataille, au début de n'importe quelle phase, cette figurine peut utiliser cette aptitude. Si c'est le cas, jusqu'à la fin de la phase, tous les figurines de l’unité de cette figurine ont un 4+ sauvegarde invulnérable.</characteristic>
+            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Une fois par bataille, au début de n’importe quelle phase, cette figurine peut utiliser cette aptitude. Si elle le fait, jusqu’à la fin de la phase, toutes les figurines de l’unité de cette figurine ont une sauvegarde invulnérable de 4+.</characteristic>
           </characteristics>
         </profile>
       </profiles>
@@ -7074,7 +7074,7 @@ En tant que cible d'un Stratagème, lancez un D6: sur un 5+, vous gagnez 1CP.</c
         </profile>
         <profile id="a7f5-2184-53d9-7724" name="Cogitative Instincts" hidden="false" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities">
           <characteristics>
-            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Les unités ennemies placées sur le champ de bataille en tant que Renforcements ne peuvent pas être placées à 12" ou moins horizontalement de cette figurine.</characteristic>
+            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Les unités ennemies qui sont installées sur le champ de bataille comme Renforcements ne peuvent pas être installées à 12" ou moins horizontalement de cette figurine.</characteristic>
           </characteristics>
         </profile>
         <profile id="637e-1885-2f50-3afc" name="Meneur" hidden="false" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities">
@@ -7252,10 +7252,10 @@ En tant que cible d'un Stratagème, lancez un D6: sur un 5+, vous gagnez 1CP.</c
         </profile>
         <profile id="dba5-946a-cd1c-0845" name="Meneur" hidden="false" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities">
           <characteristics>
-            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Cette figurine doit être attachée à l’unité suivante:
+            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Cette figurine doit être attachée à l’unité suivante :
 ■ ^^**Kastelan Robots^^**
 
-Vous devez attacher cette figurine à une unité Kastelan Robots, même si un ou plusieurs autres figurines Cybernetica Datasmith y ont déjà été attachés. Dans de tels cas, si cette unité de garde du corps est détruite, les unités Meneur attachées à elle deviennent des unités distinctes avec leur Effectif Initial d’origine. Si vous ne pouvez pas attacher cette figurine à une unité Kastelan Robots, cette figurine ne peut pas être déployé et est considéré comme détruit lors du premier tour de bataille. Lorsqu'il est attaché à une unité Kastelan Robots, cette figurine perd le mot-clé INFANTRY.</characteristic>
+Vous devez attacher cette figurine à une unité Kastelan Robots, même si une ou plusieurs autres figurines Cybernetica Datasmith lui ont déjà été attachées. Dans ce cas, si cette unité Bodyguard est détruite, les unités Leader qui lui étaient attachées deviennent des unités distinctes avec leur Effectif Initial d’origine. Si vous ne pouvez pas attacher cette figurine à une unité Kastelan Robots, cette figurine ne peut pas être déployée et compte comme ayant été détruite durant le premier round de bataille. Tant qu’elle est attachée à une unité Kastelan Robots, cette figurine perd le mot-clé INFANTRY.</characteristic>
           </characteristics>
         </profile>
         <profile id="4016-04e6-9751-89e3" name="Battle Protocols" hidden="false" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities">
@@ -7430,7 +7430,7 @@ Vous devez attacher cette figurine à une unité Kastelan Robots, même si un ou
       <modifiers>
         <modifier type="set" value="true" field="hidden">
           <conditions>
-            <condition type="notInstanceOf" value="1" field="selections" scope="primary-catalogue" childId="fe15-1da6-e58a-b90a" shared="true" />
+            <condition type="notInstanceOf" value="1" field="selections" scope="primary-catalogue" childId="77b9-2f66-3f9b-5cf3" shared="true" />
           </conditions>
         </modifier>
       </modifiers>
@@ -7461,17 +7461,17 @@ Vous devez attacher cette figurine à une unité Kastelan Robots, même si un ou
         </profile>
         <profile id="d11b-1653-7595-c4b0" name="Sauvegarde Invulnérable" hidden="false" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities">
           <characteristics>
-            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Les figurines de cette unité ont un 4+ sauvegarde invulnérable.</characteristic>
+            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Les figurines de cette unité ont une sauvegarde invulnérable de 4+.</characteristic>
           </characteristics>
         </profile>
         <profile id="2110-dbf4-c012-f1aa" name="Titan Guard" hidden="false" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities">
           <characteristics>
-            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Vous pouvez cibler cette unité avec le Stratagème d'intervention héroïque pour 0CP, et vous pouvez le faire même si vous avez déjà ciblé une autre unité avec ce Stratagème cette phase. Dans ce cas, s'il y a une ou plusieurs unités amies ^^**Adeptus Titanicus^^** sur le champ de bataille, vous pouvez relancer le jet de Charge suivant.</characteristic>
+            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Vous pouvez cibler cette unité avec l'intervention héroïque Stratagème pour 0CP, et vous pouvez le faire même si vous avez déjà ciblé une unité différente avec ce Stratagème cette phase. Dans ce cas, s'il y a une ou plusieurs unités amies ^^**Adeptus Titanicus^^** sur le champ de bataille, vous pouvez relancer la suite jet de Charge.</characteristic>
           </characteristics>
         </profile>
         <profile id="b1bf-46f8-3c71-c201" name="Secutarii" hidden="false" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities">
           <characteristics>
-            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Si une figurine de votre armée avec la aptitude Meneur peut être attaché à une unité ^^**Skitarii Vanguard^^**, il peut être attaché à cette unité à la place.</characteristic>
+            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Si une figurine de votre armée avec l’aptitude Meneur peut être attaché à une unité ^^**Skitarii Vanguard^^**, il peut être attaché à cette unité à la place.</characteristic>
           </characteristics>
         </profile>
       </profiles>
@@ -7665,7 +7665,7 @@ Vous devez attacher cette figurine à une unité Kastelan Robots, même si un ou
                   <profiles>
                     <profile id="ec5f-c838-c091-4b2c" name="Enhanced data-tether" hidden="false" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities">
                       <characteristics>
-                        <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Chaque fois que vous sélectionnez l'unité du porteur comme cible d'un Stratagème, lancez un D6: sur un 5+, vous gagnez 1CP.</characteristic>
+                        <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Chaque fois que vous sélectionnez l’unité du porteur comme cible d'un Stratagème, lancez un D6: sur un 5+, vous gagnez 1CP.</characteristic>
                       </characteristics>
                     </profile>
                   </profiles>
@@ -7726,7 +7726,7 @@ Vous devez attacher cette figurine à une unité Kastelan Robots, même si un ou
                   <profiles>
                     <profile id="12c3-a683-f4e4-fa51" name="Omnispex" hidden="false" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities">
                       <characteristics>
-                        <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Les armes de tir équipées par des figurines dans l'unité du porteur ont la aptitude Ignore le couvert.</characteristic>
+                        <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Les armes de tir dont les figurines de l’unité du porteur sont équipées ont l’aptitude IGNORES COVER.</characteristic>
                       </characteristics>
                     </profile>
                   </profiles>
@@ -7856,17 +7856,17 @@ Vous devez attacher cette figurine à une unité Kastelan Robots, même si un ou
         </profile>
         <profile id="ec53-0a42-85cf-34ba" name="Sauvegarde Invulnérable" hidden="false" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities">
           <characteristics>
-            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Les figurines de cette unité ont un 6+ sauvegarde invulnérable.</characteristic>
+            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Les les figurines de cette unité ont un 6+ sauvegarde invulnérable.</characteristic>
           </characteristics>
         </profile>
         <profile id="9686-67e4-3987-8d53" name="Blind Barrage" hidden="false" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities">
           <characteristics>
-            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Dans votre phase de Tir, après que cette unité ait tiré, sélectionnez une unité d'infanterie ennemie touchée par une ou plusieurs de ces attaques. Jusqu'au début de votre tour suivant, pendant que cette unité est sur le champ de bataille, cette unité ennemie est aveuglée. Alors qu'une unité est aveuglée, chaque fois qu'une figurine dans cette unité fait une attaque, Soustrayez 1 du jet de Touche.</characteristic>
+            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Durant votre phase de Tir, après que cette unité a tiré, sélectionnez une unité Infantry ennemie touchée par une ou plusieurs de ces attaques. Jusqu’au début de votre prochain tour, tant que cette unité est sur le champ de bataille, cette unité ennemie est aveuglée. Tant qu’une unité est aveuglée, chaque fois qu’une figurine de cette unité effectue une attaque, soustrayez 1 au jet de Touche.</characteristic>
           </characteristics>
         </profile>
         <profile id="7603-fabe-8c7b-4eda" name="Secutarii" hidden="false" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities">
           <characteristics>
-            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Si une figurine de votre armée avec la aptitude Meneur peut être attaché à une unité ^^**Skitarii Vanguard^^**, il peut être attaché à cette unité à la place.</characteristic>
+            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Si une figurine de votre armée avec l’aptitude Meneur peut être attaché à une unité ^^**Skitarii Vanguard^^**, il peut être attaché à cette unité à la place.</characteristic>
           </characteristics>
         </profile>
       </profiles>
@@ -8098,7 +8098,7 @@ Vous devez attacher cette figurine à une unité Kastelan Robots, même si un ou
                   <profiles>
                     <profile id="229b-f75a-97-3b75" name="Enhanced data-tether" hidden="false" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities">
                       <characteristics>
-                        <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Chaque fois que vous sélectionnez l'unité du porteur comme cible d'un Stratagème, lancez un D6: sur un 5+, vous gagnez 1CP.</characteristic>
+                        <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Chaque fois que vous sélectionnez l’unité du porteur comme cible d'un Stratagème, lancez un D6: sur un 5+, vous gagnez 1CP.</characteristic>
                       </characteristics>
                     </profile>
                   </profiles>
@@ -8177,7 +8177,7 @@ Vous devez attacher cette figurine à une unité Kastelan Robots, même si un ou
                   <profiles>
                     <profile id="190e-df27-3c64-cc1f" name="Omnispex" hidden="false" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities">
                       <characteristics>
-                        <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Les armes de tir équipées par des figurines dans l'unité du porteur ont la aptitude Ignore le couvert.</characteristic>
+                        <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Les armes de tir dont les figurines de l’unité du porteur sont équipées ont l’aptitude IGNORES COVER.</characteristic>
                       </characteristics>
                     </profile>
                   </profiles>
@@ -8304,12 +8304,12 @@ Vous devez attacher cette figurine à une unité Kastelan Robots, même si un ou
       <profiles>
         <profile id="72f0-1c3a-5baf-6a65" name="Damaged: 1-5 wounds remaining" hidden="false" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities">
           <characteristics>
-            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Alors que cette figurine a 1-5 PV restants, à chaque fois que cette figurine fait une attaque, Soustrayez 1 du jet de Touche.</characteristic>
+            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Alors que ce mdel a 1-5 PV restants, chaque fois que cette figurine effectue une attaque, Soustrayez 1 du jet de Touche.</characteristic>
           </characteristics>
         </profile>
         <profile id="870b-9bd7-ebff-9190" name="Termite Assault" hidden="false" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities">
           <characteristics>
-            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">cette figurine doit démarrer la bataille dans les réserves, mais ni lui ni les unités embarquées à l'intérieur ne sont comptées dans les limites imposées au nombre maximal d'unités des réserves avec lesquelles vous pouvez commencer la bataille. cette figurine peut être mis en place à l'étape des Renforts de votre première, deuxième ou troisième phase de Mouvement, indépendamment des règles de la mission. Toutes les unités embarquées à l'intérieur de cette figurine peuvent débarquer après avoir été installées sur le champ de bataille, et si elles le font, elles doivent être installées plus de 9" loin de tous les figurines ennemies.</characteristic>
+            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Cette figurine doit commencer la bataille en Réserves, mais ni elle ni les unités embarquées en son sein ne comptent dans les limites imposées au nombre maximal d’unités en Réserves avec lesquelles vous pouvez commencer la bataille. Cette figurine peut être placée à l’étape des Renforts de votre première, deuxième ou troisième phase de Mouvement, quelles que soient les règles de mission. Toute unité embarquée dans cette figurine peut débarquer après son placement sur le champ de bataille ; si elle le fait, elle doit être placée à plus de 9" de toute figurine ennemie.</characteristic>
           </characteristics>
         </profile>
         <profile id="b47d-8773-4150-1132" name="Destruction Néfaste" hidden="false" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities">
@@ -8632,12 +8632,12 @@ Vous devez attacher cette figurine à une unité Kastelan Robots, même si un ou
         </profile>
         <profile name="Bound Creation" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="ae61-c8d4-2a51-9793">
           <characteristics>
-            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Alors qu'une figurine ^^**Tech-Priest^^** figurine est leading cette de l’unité du porteur, cette ^^**Tech-Priest^^** a la aptitude Insensible à la douleur 5+.</characteristic>
+            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Alors qu'une ^^**Tech-Priest^^** figurine est leading cette de l’unité du porteur, cette ^^**Tech-Priest^^** figurine a l’aptitude Insensible à la douleur 5+.</characteristic>
           </characteristics>
         </profile>
         <profile name="Servitor Bodyguard" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="abe8-bb77-d6ba-db6c">
           <characteristics>
-            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Au début de l'étape Déclarer les Formations de Bataille, cette figurine peut rejoindre une autre unité de votre armée qui est dirigée par une figurine ^^**Tech-Priest Infantry^^**. Si c'est le cas, jusqu'à la fin de la bataille, cette figurine compte comme faisant partie de cette unité Bodyguard, et que l’Effectif Initial de l'unité Bodyguard est augmentée en conséquence.</characteristic>
+            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Au début de l’étape Déclarer les Formations de Bataille, cette figurine peut rejoindre une autre unité de votre armée menée par une figurine ^^**Tech-Priest Infantry^^**. Si elle le fait, jusqu’à la fin de la bataille, cette figurine compte comme faisant partie de cette unité Bodyguard, et l’Effectif Initial de cette unité Bodyguard est augmenté en conséquence.</characteristic>
           </characteristics>
         </profile>
       </profiles>
@@ -9073,7 +9073,7 @@ Vous devez attacher cette figurine à une unité Kastelan Robots, même si un ou
         </profile>
         <profile name="Dread Snipers" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="daae-3991-9097-425a">
           <characteristics>
-            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Dans votre phase de Tir, après que cette figurine ait tiré, sélectionnez une unité ennemie touchée par une ou plusieurs de ces attaques. Cette unité doit passer un test d’Ébranlement.</characteristic>
+            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Durant votre phase de Tir, après que cette figurine a tiré, sélectionnez une unité ennemie touchée par une ou plusieurs de ces attaques. Cette unité doit effectuer un test d’Ébranlement.</characteristic>
           </characteristics>
         </profile>
         <profile name="Sydonian Sentinel" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="4248-c55c-19a7-e46d">
@@ -9124,7 +9124,7 @@ Vous devez attacher cette figurine à une unité Kastelan Robots, même si un ou
                 </profile>
                 <profile name="Achillan Eye" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="5045-41f8-b903-6332">
                   <characteristics>
-                    <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Chaque fois que cette figurine attaque une unité d'infanterie avec un jet de radium, vous pouvez relancer le jet de Blessure. Chaque fois que cette figurine fait une attaque avec un arquebus Skatros transuranique qui cible une unité Monster ou Vehicle, vous pouvez relancer le jet de Blessure.</characteristic>
+                    <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Chaque fois que cette figurine fait une attaque avec un jet de radium qui cible une unité d'infanterie, vous pouvez relancer le jet de Blessure. Chaque fois que cette figurine fait une attaque avec un arquebus transuranique Skatros qui cible une unité Monster ou Vehicle, vous pouvez relancer le jet de Blessure.</characteristic>
                   </characteristics>
                 </profile>
               </profiles>
@@ -9734,7 +9734,7 @@ Vous devez attacher cette figurine à une unité Kastelan Robots, même si un ou
         </profile>
         <profile name="Sauvegarde Invulnérable" hidden="false" id="3ffc-ca19-2b12-ce2" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities">
           <characteristics>
-            <characteristic name="Description" id="a05f-567d-99ef-9f96" hidden="false" typeId="9b8f-694b-e5e-b573">Les figurines de cette unité ont un 6+ sauvegarde invulnérable.</characteristic>
+            <characteristic name="Description" id="a05f-567d-99ef-9f96" hidden="false" typeId="9b8f-694b-e5e-b573">Les les figurines de cette unité ont un 6+ sauvegarde invulnérable.</characteristic>
           </characteristics>
         </profile>
         <profile name="Mindlock" hidden="false" id="9cf3-5565-3b5f-3d9d" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities">
@@ -9744,7 +9744,7 @@ Vous devez attacher cette figurine à une unité Kastelan Robots, même si un ou
         </profile>
         <profile name="Servitor Retinue" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="66a1-be14-f858-31de">
           <characteristics>
-            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Au début de l'étape Déclarer les Formations de Bataille, cette unité peut rejoindre une autre unité de votre armée qui est dirigée par une figurine Tech-Priest Enginseer (une unité ne peut pas avoir plus d'une unité Servitors jointe à elle). Si c'est le cas, jusqu'à la fin de la bataille, chaque figurine de cette unité est compté comme faisant partie de cette unité Bodyguard, et que l’Effectif Initial de l'unité Bodyguard est augmentée en conséquence.</characteristic>
+            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Au début de l’étape Déclarer les Formations de Bataille, cette unité peut rejoindre une autre unité de votre armée menée par une figurine TECH-PRIEST ENGINSEER (une unité ne peut pas être rejointe par plus d’une unité SERVITORS). Si elle le fait, jusqu’à la fin de la bataille, chaque figurine de cette unité compte comme faisant partie de cette unité Bodyguard, et l’Effectif Initial de cette unité Bodyguard est augmenté en conséquence.</characteristic>
           </characteristics>
         </profile>
       </profiles>
@@ -10181,7 +10181,7 @@ Vous devez attacher cette figurine à une unité Kastelan Robots, même si un ou
         </profile>
         <profile name="Sauvegarde Invulnérable" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="1257-149f-ed63-fd1b">
           <characteristics>
-            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Les figurines de cette unité ont un 6+ sauvegarde invulnérable.</characteristic>
+            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Les les figurines de cette unité ont un 6+ sauvegarde invulnérable.</characteristic>
           </characteristics>
         </profile>
         <profile name="Combat Servitor" typeId="c547-1836-d8a-ff4f" typeName="Unit" hidden="false" id="976d-4ed3-fe54-2c8f">
@@ -10362,7 +10362,7 @@ Vous devez attacher cette figurine à une unité Kastelan Robots, même si un ou
         </profile>
         <profile name="Technoarcane Zealotry" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="fadc-ce51-120c-6c9c">
           <characteristics>
-            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Tant que l'unité de cette figurine est dans la plage d'un ou plusieurs marqueurs objectifs, Améliorez la caractéristique de Commandement de cette figurine de 1.</characteristic>
+            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Alors que l'unité de cette figurine est dans Portée d'un ou plusieurs pions d’objectif, Améliorez cette figurine de caractéristique de Commandement de 1.</characteristic>
           </characteristics>
         </profile>
       </profiles>
@@ -10521,7 +10521,7 @@ Vous devez attacher cette figurine à une unité Kastelan Robots, même si un ou
         </profile>
         <profile name="Prioritisation Protocol" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="6252-81ce-8997-74f3">
           <characteristics>
-            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Les armes Melee équipées de cette figurine ont le [^^Precision^^].</characteristic>
+            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Les armes de mêlée dont cette figurine est équipée ont [^^Precision^^].</characteristic>
           </characteristics>
         </profile>
       </profiles>
@@ -10674,7 +10674,7 @@ Vous devez attacher cette figurine à une unité Kastelan Robots, même si un ou
         </profile>
         <profile name="Vector of the Omnissiah's Wrath" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="b041-0c01-ff9f-6a19">
           <characteristics>
-            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Les armes de tir équipées de cette figurine ont le [^^Ignores Cover^^].</characteristic>
+            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Les armes de tir dont cette figurine est équipée ont [^^Ignores Cover^^].</characteristic>
           </characteristics>
         </profile>
       </profiles>
@@ -10823,26 +10823,26 @@ Vous devez attacher cette figurine à une unité Kastelan Robots, même si un ou
         </profile>
         <profile id="93af-4f1d-63c7-7a5b" name="Icon of War" hidden="false" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities">
           <characteristics>
-            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">**Fanatical Devotion:** Vous pouvez sélectionner une unité **^^Skitarii^^** ou **^^Thulia Ghuld^^** amicale à 6" ou moins de cette figurine; jusqu'au début de votre prochaine phase de Commandement, cette unité est éligible pour tirer et déclarer une Charge durant un tour où elle a Battu en Retraite.
+            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">**Fanatical Devotion:** Vous pouvez sélectionner une unité **^^Skitarii^^** ou **^^Thulia Ghuld^^** amie à 6" ou moins de cette figurine ; jusqu’au début de votre prochaine phase de Commandement, cette unité est éligible pour tirer et déclarer une charge durant un tour où elle a Avancé.
 
-**Adaptive Tactics:** Vous pouvez sélectionner une unité **^^Skitarii^^** ou **^^Thulia Ghuld^^** amicale à 6" ou moins de cette figurine; jusqu'au début de votre prochaine phase de Commandement, cette unité est éligible pour tirer et déclarer une Charge durant un tour où elle a Battu en Retraite.
+**Adaptive Tactics:** Vous pouvez sélectionner une unité **^^Skitarii^^** ou **^^Thulia Ghuld^^** amie à 6" ou moins de cette figurine ; jusqu’au début de votre prochaine phase de Commandement, cette unité est éligible pour tirer et déclarer une charge durant un tour où elle a Battu en Retraite.
 
-**The Fires of Mars:** Vous pouvez sélectionner une unité conviviale **^^Skitarii^^** ou **^^Thulia Ghuld^^** à 6" ou moins de cette figurine; jusqu'au début de votre prochaine phase de Commandement, l'impératif conquérant et l'impératif protecteur sont tous deux actifs pour cette unité.</characteristic>
+**The Fires of Mars:** Vous pouvez sélectionner une unité **^^Skitarii^^** ou **^^Thulia Ghuld^^** amie à 6" ou moins de cette figurine ; jusqu’au début de votre prochaine phase de Commandement, Conqueror Imperative et Protector Imperative sont tous deux actifs pour cette unité.</characteristic>
           </characteristics>
         </profile>
         <profile id="eabc-5fb7-a61a-20ce" name="Mechanicus Bodyguard" hidden="false" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities">
           <characteristics>
-            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Tant que cette figurine est à 3" ou moins d'une ou de plusieurs autres unités ^^**Adeptus Mechanicus**^^ amicales, cette figurine a la aptitude Agent solitaire.</characteristic>
+            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Si cette figurine se trouve à 3" ou moins d'une ou de plusieurs autres unités amies ^^**Adeptus Mechanicus**^^, cette figurine possède l’aptitude Agent solitaire.</characteristic>
           </characteristics>
         </profile>
         <profile id="0522-5848-c9d5-32ab" name="Secutor of Olympus" hidden="false" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities">
           <characteristics>
-            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Au début de votre phase de Tir, sélectionnez une unité ennemie **^^Vehicle^^** à 12" ou moins de cette figurine et lancez un D6: sur une 2+, cette unité ennemie subit des Blessures Mortelles D3+1.</characteristic>
+            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Au début de votre phase de Tir, sélectionnez une unité ennemie **^^Vehicle^^** à 12" ou moins de cette figurine et lancez un D6: sur un 2+, que cette unité ennemie souffre D3+1 Blessures Mortelles.</characteristic>
           </characteristics>
         </profile>
         <profile id="49e8-cb5d-a2d3-7d6c" name="Supreme Commander" hidden="false" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities">
           <characteristics>
-            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Si cette figurine est dans votre armée, il doit être votre **^^Warlord^^**.</characteristic>
+            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Si cette figurine est dans votre armée, elle doit être votre **^^Warlord^^**.</characteristic>
           </characteristics>
         </profile>
         <profile id="0f4e-20ed-4571-80f9" name="Rod of the War Forge" hidden="false" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities">
@@ -10852,7 +10852,7 @@ Vous devez attacher cette figurine à une unité Kastelan Robots, même si un ou
         </profile>
         <profile id="0072-1d19-367d-60bd" name="Cybernetic Augmentation" hidden="false" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities">
           <characteristics>
-            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">cette figurine peut se déplacer à travers des caractéristiques de terrain, mais ne peut pas terminer un mouvement à l'intérieur d'un mur, d'un plancher, etc. cette figurine peut être installé ou terminé sur n'importe quel niveau de plancher de **^^Ruins^^**, mais si ce niveau n'est pas le rez-de-chaussée, il ne peut le faire que si sa base ne dépasse pas le rez-de-chaussée à ce niveau.</characteristic>
+            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">cette figurine peut se déplacer à travers éléments de terrain, mais ne peut pas terminer un mouvement à l'intérieur d'un mur, d'un sol, etc. cette figurine peut être mis en place ou mettre fin à un déplacement à n'importe quel niveau de l'étage de **^^Ruins^^**, mais si ce niveau n'est pas le rez-de-chaussée, il ne peut le faire que si sa base ne dépasse pas le rez-de-chaussée à ce niveau.</characteristic>
           </characteristics>
         </profile>
       </profiles>
@@ -10989,7 +10989,7 @@ Vous devez attacher cette figurine à une unité Kastelan Robots, même si un ou
         </profile>
         <profile id="5c9c-f3c4-d572-aa74" name="Broad‑spectrum Targeting Augurs" hidden="false" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities">
           <characteristics>
-            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Chaque fois qu'une figurine dans cette unité effectue une attaque avec un lanceur d'éradication qui cible une unité (à l'exclusion des unités **^^Monster^^** et **^^Vehicle^^**), cette attaque a la aptitude **[SUSTAINED HITS 1]**.</characteristic>
+            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Chaque fois qu'une figurine dans cette unité effectue une attaque avec un lanceur d'éradication qui cible une unité (à l’exclusion de **^^Monster^^** et **^^Vehicle^^** unités), cette attaque a l’aptitude **[SUSTAINED HITS 1]**.</characteristic>
           </characteristics>
         </profile>
       </profiles>
@@ -11261,7 +11261,7 @@ Vous devez attacher cette figurine à une unité Kastelan Robots, même si un ou
         </profile>
         <profile id="ccc1-44e6-b5f3-e432" name="Monocular Targeting Helms" hidden="false" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities">
           <characteristics>
-            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Chaque fois qu'une figurine dans cette unité fait une attaque avec un fusil à neutrons contre une unité **^^Monster^^** ou **^^Vehicle^^**, cette attaque a la aptitude **[IGNORES COVER]**.</characteristic>
+            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Chaque fois qu'une figurine dans cette unité fait une attaque avec un fusil à neutrons contre une unité **^^Monster^^** ou **^^Vehicle^^**, cette attaque a l’aptitude **[IGNORE LE COUVERT]**.</characteristic>
           </characteristics>
         </profile>
       </profiles>
@@ -11617,7 +11617,7 @@ Vous devez attacher cette figurine à une unité Kastelan Robots, même si un ou
           <profiles>
             <profile name="Clandestine Infiltrator" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="66ed-c85e-6681-a2fc">
               <characteristics>
-                <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Le porteur et les figurines de toute unité qu'ils dirigent ont les capacités Infiltrators et Éclaireurs 6".</characteristic>
+                <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Le porteur et les figurines de toute unité qu’il mène ont les aptitudes Infiltrators et Scouts 6".</characteristic>
               </characteristics>
             </profile>
           </profiles>
@@ -11651,7 +11651,7 @@ Vous devez attacher cette figurine à une unité Kastelan Robots, même si un ou
           <profiles>
             <profile name="Veiled Hunter" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="8eda-a918-5a4d-6d6e">
               <characteristics>
-                <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Après que les deux joueurs aient déployé leurs armées, vous pouvez sélectionner jusqu'à trois unités SKITARII INFANTRY de votre armée et redéployer toutes ces unités. Lorsqu'ils le font, l'une ou l'autre de ces unités peut être placée dans des réserves stratégiques, quel que soit le nombre d'unités déjà dans des réserves stratégiques.</characteristic>
+                <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Après que les deux joueurs ont déployé leurs armées, vous pouvez sélectionner jusqu’à trois unités SKITARII INFANTRY de votre armée et redéployer toutes ces unités. Ce faisant, chacune de ces unités peut être placée en Réserves Stratégiques, quel que soit le nombre d’unités qui s’y trouvent déjà.</characteristic>
               </characteristics>
             </profile>
           </profiles>
@@ -11685,7 +11685,7 @@ Vous devez attacher cette figurine à une unité Kastelan Robots, même si un ou
           <profiles>
             <profile name="Battle-Sphere Uplink" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="9cb7-a388-db9c-29f9">
               <characteristics>
-                <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Dans votre phase de Tir, après que l'unité du porteur ait tiré, si elle n'est pas dans la Portée d’Engagement d'une ou de plusieurs unités ennemies, cette unité peut effectuer un mouvement normal jusqu'à 6". Si tel est le cas, jusqu'à la fin du tour, cette unité n'est pas éligible à la déclaration d'une charge.</characteristic>
+                <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Dans votre phase de Tir, après que l’unité du porteur ait tiré, si elle n'est pas à l'intérieur de Portée d’Engagement d'une ou de plusieurs unités ennemies, cette unité peut effectuer un mouvement Normal jusqu'à 6". Si tel est le cas, jusqu'à la fin du tour, cette unité n'est pas éligible à la déclaration d'une charge.</characteristic>
               </characteristics>
             </profile>
           </profiles>
@@ -11753,7 +11753,7 @@ Vous devez attacher cette figurine à une unité Kastelan Robots, même si un ou
           <profiles>
             <profile name="Malphonic Susurrus" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="ca1b-eb04-427d-a2d6">
               <characteristics>
-                <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Pendant que le porteur mène une unité, les figurines de cette unité ont la aptitude Discrétion.</characteristic>
+                <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Alors que le porteur est à la tête d'une unité, les figurines de cette unité ont l’aptitude Discrétion.</characteristic>
               </characteristics>
             </profile>
           </profiles>
@@ -11787,7 +11787,7 @@ Vous devez attacher cette figurine à une unité Kastelan Robots, même si un ou
           <profiles>
             <profile name="Peerless Eradicator" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="ed99-c1af-2cd3-629f">
               <characteristics>
-                <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Pendant que le porteur mène une unité, les armes de tir équipées de figurines de cette unité ont la aptitude [Touches soutenues 1].</characteristic>
+                <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Tant que le porteur mène une unité, les armes de tir dont les figurines de cette unité sont équipées ont l’aptitude [SUSTAINED HITS 1].</characteristic>
               </characteristics>
             </profile>
           </profiles>
@@ -11818,7 +11818,7 @@ Vous devez attacher cette figurine à une unité Kastelan Robots, même si un ou
           <profiles>
             <profile name="Autoclavic Denounciation" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="4442-c96-8da6-8957">
               <characteristics>
-                <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Les armes de tir équipées par le porteur ont les capacités [ANTI-INFANTRY 2+] et [ANTI-MONSTER 4+].</characteristic>
+                <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Les armes de tir dont le porteur est équipé ont les aptitudes [ANTI-INFANTRY 2+] et [ANTI-MONSTER 4+].</characteristic>
               </characteristics>
             </profile>
           </profiles>
@@ -11855,7 +11855,7 @@ Vous devez attacher cette figurine à une unité Kastelan Robots, même si un ou
           <profiles>
             <profile name="Magos" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="8e2d-6aaa-49c7-1301">
               <characteristics>
-                <characteristic name="Description" typeId="9b8f-694b-e5e-b573">À la fin de votre phase de Commandement, si le porteur est à portée de votre marqueur objectif d'acquisition, lancez un D6: sur un 4+, vous gagnez 1CP.</characteristic>
+                <characteristic name="Description" typeId="9b8f-694b-e5e-b573">À la fin de votre phase de Commandement, si le porteur est à l'intérieur de Portée de votre acquisition pion d’objectif, lancez un D6: sur un 4+, vous gagnez 1CP.</characteristic>
               </characteristics>
             </profile>
           </profiles>
@@ -11889,7 +11889,7 @@ Vous devez attacher cette figurine à une unité Kastelan Robots, même si un ou
           <profiles>
             <profile name="Genetor" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="6208-448c-dbf0-8e8a">
               <characteristics>
-                <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Alors que le porteur mène une unité qui est à la portée de votre marqueur objectif d'acquisition, les figurines de cette unité ont un 4+ sauvegarde invulnérable.</characteristic>
+                <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Alors que le porteur mène une unité qui se trouve dans Portée de votre acquisition pion d’objectif, les figurines de cette unité ont un 4+ sauvegarde invulnérable.</characteristic>
               </characteristics>
             </profile>
           </profiles>
@@ -11923,7 +11923,7 @@ Vous devez attacher cette figurine à une unité Kastelan Robots, même si un ou
           <profiles>
             <profile name="Logis" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="40d6-3ccd-a1f7-d4c2">
               <characteristics>
-                <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Pendant que le porteur mène une unité, chaque fois qu'une figurine dans cette unité effectue une attaque visant une unité à l'intérieur de la portée de votre marqueur objectif d'acquisition, ajoutez 1 au jet de Touche.</characteristic>
+                <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Alors que le porteur mène une unité, chaque fois qu'une figurine dans cette unité effectue une attaque visant une unité dans Portée de votre acquisition pion d’objectif, ajoutez 1 au jet de Touche.</characteristic>
               </characteristics>
             </profile>
           </profiles>
@@ -11957,7 +11957,7 @@ Vous devez attacher cette figurine à une unité Kastelan Robots, même si un ou
           <profiles>
             <profile name="Artisan" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="64f6-eac3-c95f-c8b8">
               <characteristics>
-                <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Pendant que le porteur mène une unité qui est à la portée de votre marqueur objectif d'acquisition, une fois par phase, vous pouvez modifier le résultat d'un jet de Touche, d'un jet de Blessure ou d'un jet de sauvegarde fait pour cette unité à un 6 non modifié.</characteristic>
+                <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Alors que le porteur mène une unité située à l'intérieur de Portée de votre acquisition pion d’objectif, une fois par phase, vous pouvez modifier le résultat d'un jet de Touche, un jet de Blessure ou un jet de sauvegarde effectués pour cette unité à un 6 non modifié.</characteristic>
               </characteristics>
             </profile>
           </profiles>
@@ -11991,7 +11991,7 @@ Vous devez attacher cette figurine à une unité Kastelan Robots, même si un ou
           <profiles>
             <profile name="Mechanicus Locum" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="7616-6b89-fd6-ed5a">
               <characteristics>
-                <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Le porteur a une caractéristique de Commandement de 6+ et, une fois par bataille, au début de toute phase, vous pouvez sélectionner une unité CULT MECHANICUS amicale qui est Ébranlée et à 12" ou moins du porteur. Cette unité n'est plus Ébranlée.</characteristic>
+                <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Le porteur a une caractéristique de Commandement de 6+ et, une fois par bataille, au début de n’importe quelle phase, vous pouvez sélectionner une unité CULT MECHANICUS amie qui est Ébranlée et à 12" ou moins du porteur. Cette unité n’est plus Ébranlée.</characteristic>
               </characteristics>
             </profile>
           </profiles>
@@ -12033,7 +12033,7 @@ Vous devez attacher cette figurine à une unité Kastelan Robots, même si un ou
           <profiles>
             <profile name="Mantle of the Gnosticarch" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="6f54-aab8-c031-cf5e">
               <characteristics>
-                <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Chaque fois qu'une attaque est attribuée au porteur, modifiez la caractéristique de Dégât de cette attaque à 1.</characteristic>
+                <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Chaque fois qu'une attaque est attribuée au porteur, modifiez la caractéristique de Dégâts de cette attaque à 1.</characteristic>
               </characteristics>
             </profile>
           </profiles>
@@ -12067,7 +12067,7 @@ Vous devez attacher cette figurine à une unité Kastelan Robots, même si un ou
           <profiles>
             <profile name="Data-blessed Autosermon" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="4b5f-2bbd-928f-aa0">
               <characteristics>
-                <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Une fois par bataille, au début de votre phase de Commandement, vous pouvez sélectionner la Benediction of the Omnissiah que vous n’avez pas sélectionnée au début du premier tour de bataille. Jusqu’au début de votre prochaine phase de Commandement, cette Benediction of the Omnissiah est active pour l’unité du porteur en plus de celle qui est actuellement active pour votre armée.</characteristic>
+                <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Une fois par bataille, au début de votre phase de Commandement, vous pouvez sélectionner la Benediction of the Omnissiah que vous n’avez pas sélectionnée au début du premier round de bataille. Jusqu’au début de votre prochaine phase de Commandement, cette Benediction of the Omnissiah est active pour l’unité du porteur, en plus de celle qui est actuellement active pour votre armée.</characteristic>
               </characteristics>
             </profile>
           </profiles>
@@ -12101,7 +12101,7 @@ Vous devez attacher cette figurine à une unité Kastelan Robots, même si un ou
           <profiles>
             <profile name="Temporcopia" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="cc85-d984-5e45-261d">
               <characteristics>
-                <characteristic name="Description" typeId="9b8f-694b-e5e-b573">L'unité du porteur possède la aptitude Fights First.</characteristic>
+                <characteristic name="Description" typeId="9b8f-694b-e5e-b573">L’unité du porteur a l’aptitude Fights First.</characteristic>
               </characteristics>
             </profile>
           </profiles>
@@ -12203,7 +12203,7 @@ Vous devez attacher cette figurine à une unité Kastelan Robots, même si un ou
           <profiles>
             <profile name="Emotionless Clarity" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="1e3c-c796-4b1e-9c4d">
               <characteristics>
-                <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Une fois par tour, lorsqu'une figurine LEGIO CYBERNETICA ou ADEPTUS MECHANICUS VEHICLE avec la aptitude Destruction Néfaste qui se trouve à 12" ou moins du porteur est détruit, le porteur peut utiliser cette Optimisation. Si c'est le cas, ne lancez pas pour déterminer si des Blessures Mortelles sont infligées à la suite de la aptitude Destruction Néfaste de cette figurine. Au lieu de cela, les Blessures Mortelles sont infligées automatiquement.</characteristic>
+                <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Une fois par tour, lorsqu’une figurine LEGIO CYBERNETICA ou ADEPTUS MECHANICUS VEHICLE amie dotée de l’aptitude Destruction Néfaste et à 12" ou moins du porteur est détruite, le porteur peut utiliser cette Optimisation. S’il le fait, ne lancez pas de dé pour déterminer si des blessures mortelles sont infligées à cause de l’aptitude Destruction Néfaste de cette figurine. À la place, les blessures mortelles sont automatiquement infligées.</characteristic>
               </characteristics>
             </profile>
           </profiles>
@@ -12237,7 +12237,7 @@ Vous devez attacher cette figurine à une unité Kastelan Robots, même si un ou
           <profiles>
             <profile name="Arch Negator" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="c84f-f2a3-5d47-895a">
               <characteristics>
-                <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Les armes de tir équipées par le porteur ont la aptitude [ANTI-VEHICLE 4+].</characteristic>
+                <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Les armes de tir dont le porteur est équipé ont l’aptitude [ANTI-VEHICLE 4+].</characteristic>
               </characteristics>
             </profile>
           </profiles>
@@ -12275,7 +12275,7 @@ Vous devez attacher cette figurine à une unité Kastelan Robots, même si un ou
           <profiles>
             <profile name="Transoracular Dyad Wafers" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="96b7-429d-f947-3015">
               <characteristics>
-                <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Cybernetica Datasmith figurine uniquement. Lorsque le porteur est attaché à une unité Kastelan Robots, jusqu'à la fin de la bataille, les figurines de cette unité gagnent le mot-clé Halo Override. Cette unité ne peut pas être sélectionnée lors de la sélection des unités dans le cadre de la règle Noospheric Transference Detachment.</characteristic>
+                <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Cybernetica Datasmith figurine uniquement. Lorsque le porteur est attaché à une unité Kastelan Robots, jusqu'à la fin de la bataille, les figurines de cette unité gagne le Halo Override mot-clé. Cette unité ne peut pas être sélectionnée lors de la sélection des unités dans le cadre de la règle Noospheric Transference Detachment.</characteristic>
               </characteristics>
             </profile>
           </profiles>
@@ -12314,7 +12314,7 @@ Vous devez attacher cette figurine à une unité Kastelan Robots, même si un ou
           <profiles>
             <profile name="Cognitive Reinforcement" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="c166-36f2-3110-44ee">
               <characteristics>
-                <characteristic name="Description" typeId="9b8f-694b-e5e-b573">ADEPTUS MECHANICUS figurine seulement (à l'exclusion des figurines Cybernetica Datasmith). L'impératif conquérant et l'impératif protecteur sont tous deux actifs pour l’unité du porteur.</characteristic>
+                <characteristic name="Description" typeId="9b8f-694b-e5e-b573">ADEPTUS MECHANICUS figurine uniquement (à l’exclusion de Cybernetica Datasmith figurines). L'impératif conquérant et l'impératif protecteur sont tous deux actifs pour l’unité du porteur.</characteristic>
               </characteristics>
             </profile>
           </profiles>
@@ -12352,7 +12352,7 @@ Vous devez attacher cette figurine à une unité Kastelan Robots, même si un ou
           <profiles>
             <profile name="Santified Ordnance" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="1bb0-0d70-be66-2ea9">
               <characteristics>
-                <characteristic name="Description" typeId="9b8f-694b-e5e-b573">ADEPTUS MECHANICUS figurine uniquement. Ajoutez 6" à la caractéristique de Portée des armes de tir équipées par des figurines dans l'unité du porteur et, à chaque fois qu'un test À Risque est effectué pour cette unité, vous pouvez relancer le résultat.</characteristic>
+                <characteristic name="Description" typeId="9b8f-694b-e5e-b573">ADEPTUS MECHANICUS figurine uniquement. Ajoutez 6" à la caractéristique Portée d’armes de tir équipé des figurines de l’unité du porteur et, à chaque fois qu'un test À Risque sont effectué pour cette unité, vous pourrez relancer le dépistage.</characteristic>
               </characteristics>
             </profile>
           </profiles>
@@ -12393,7 +12393,7 @@ Vous devez attacher cette figurine à une unité Kastelan Robots, même si un ou
           <profiles>
             <profile name="Inloaded Lethality" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="f97a-e9ae-d98c-d824">
               <characteristics>
-                <characteristic name="Description" typeId="9b8f-694b-e5e-b573">**^^Tech-Priest Dominus^^** ou **^^Tech-Priest Manipulus^^** figurine uniquement. Ajoutez 3 à la caractéristique d’Attaques des armes de mêlée du porteur et ajoutez 1 à la caractéristique de Dégâts des armes de mêlée du porteur.</characteristic>
+                <characteristic name="Description" typeId="9b8f-694b-e5e-b573">**^^Tech-Priest Dominus^^** ou **^^Tech-Priest Manipulus^^** figurine uniquement. J'ai ajouté 3 à la caractéristique d’Attaques des armes de mêlée du porteur et j'ai ajouté 1 à la caractéristique de Dégâts des armes de mêlée du porteur.</characteristic>
               </characteristics>
             </profile>
           </profiles>
@@ -12449,7 +12449,7 @@ Vous devez attacher cette figurine à une unité Kastelan Robots, même si un ou
               <profiles>
                 <profile name="Omnicogitator" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="74c8-074d-9629-d7fd">
                   <characteristics>
-                    <characteristic name="Description" typeId="9b8f-694b-e5e-b573">**^^Skitarii Marshal^^** figurine uniquement. L'impératif conquérant et l'impératif protecteur sont tous deux actifs pour l'unité du porteur.</characteristic>
+                    <characteristic name="Description" typeId="9b8f-694b-e5e-b573">**^^Skitarii Marshal^^** figurine uniquement. L'impératif conquérant et l'impératif protecteur sont tous deux actifs pour l’unité du porteur.</characteristic>
                   </characteristics>
                 </profile>
               </profiles>
@@ -12490,7 +12490,7 @@ Vous devez attacher cette figurine à une unité Kastelan Robots, même si un ou
               <profiles>
                 <profile name="Martial Signatum Amplificator" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="c35f-c56c-b432-4bfd">
                   <characteristics>
-                    <characteristic name="Description" typeId="9b8f-694b-e5e-b573">**^^Tech‑Priest^^** figurine uniquement. Les figurines de l'unité du porteur ont le mot-clé **^^Skitarii^^**.</characteristic>
+                    <characteristic name="Description" typeId="9b8f-694b-e5e-b573">**^^Tech‑Priest^^** figurine uniquement. Les unités figurines dans le porteurs ont mot-clé **^^Skitarii^^**.</characteristic>
                   </characteristics>
                 </profile>
               </profiles>
@@ -12531,7 +12531,7 @@ Vous devez attacher cette figurine à une unité Kastelan Robots, même si un ou
               <profiles>
                 <profile name="Belicosa-class Capacitor Vanes" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="51dc-4079-4caf-2ef6">
                   <characteristics>
-                    <characteristic name="Description" typeId="9b8f-694b-e5e-b573">**^^Adeptus Mechanicus^^** figurine uniquement. Ajoutez 6" à la caractéristique de Portée des armes de tir équipées de figurines dans l'unité du porteur, et ajouter 1 à la caractéristique de Force de ces armes.</characteristic>
+                    <characteristic name="Description" typeId="9b8f-694b-e5e-b573">**^^Adeptus Mechanicus^^** figurine uniquement. Ajoutez 6" à la caractéristique de Portée d’armes de tir équipé des figurines de l’unité du porteur, et ajouter 1 à la caractéristique Force de ces armes.</characteristic>
                   </characteristics>
                 </profile>
               </profiles>
@@ -12581,7 +12581,7 @@ Vous devez attacher cette figurine à une unité Kastelan Robots, même si un ou
               <profiles>
                 <profile name="Omnissiah's Fury" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="fd48-7592-52a8-aeff">
                   <characteristics>
-                    <characteristic name="Description" typeId="9b8f-694b-e5e-b573">**^^Skitarii Marshal^^** figurine uniquement. Ajoutez 2 aux caractéristique d’Attaques des armes de mêlée équipées par le porteur, et Améliorez la Pénétration d’Armure et Caractéristiques des Dégâts de ces armes de 1.</characteristic>
+                    <characteristic name="Description" typeId="9b8f-694b-e5e-b573">**^^Skitarii Marshal^^** figurine uniquement. Ajoutez 2 à la caractéristique d’Attaques des armes de mêlée dont est équipé le porteur, et améliorer les caractéristiques de Pénétration d’Armure et de Dégâts de ces armes de 1.</characteristic>
                   </characteristics>
                 </profile>
               </profiles>
@@ -12741,7 +12741,7 @@ Vous devez attacher cette figurine à une unité Kastelan Robots, même si un ou
           <profiles>
             <profile name="Holy Acquisitor" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="d77a-f3e7-52df-6760">
               <characteristics>
-                <characteristic name="Description" typeId="9b8f-694b-e5e-b573">À la fin d'une bataille que vous avez gagnée, si cette unité était dans votre armée de la Croisade, lancez un D6: sur un 6, votre force de Croisade gagne 1 Archéotech Partie.</characteristic>
+                <characteristic name="Description" typeId="9b8f-694b-e5e-b573">À la fin d'une bataille que vous avez gagnée, si cette unité était dans votre armée de Croisade, lancez un D6: sur un 6, votre force de Croisade gagne 1 Archeotech Partie.</characteristic>
               </characteristics>
             </profile>
           </profiles>
@@ -12773,7 +12773,7 @@ Vous devez attacher cette figurine à une unité Kastelan Robots, même si un ou
           <profiles>
             <profile name="Blessed Spirit" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="2563-c51b-e993-9354">
               <characteristics>
-                <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Cette unité a la aptitude Insensible à la douleur 6+.</characteristic>
+                <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Cette unité a l’aptitude Insensible à la Douleur 6+.</characteristic>
               </characteristics>
             </profile>
           </profiles>
@@ -12817,7 +12817,7 @@ Vous devez attacher cette figurine à une unité Kastelan Robots, même si un ou
           <profiles>
             <profile name="Control Cortex" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="8d1e-aa7e-3c6a-82a2">
               <characteristics>
-                <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Pendant que cette figurine mène une unité, vous pouvez relancer les tests d’Ébranlement effectués pour cette unité.</characteristic>
+                <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Tant que cette figurine mène une unité, vous pouvez relancer les tests d’Ébranlement effectués pour cette unité.</characteristic>
               </characteristics>
             </profile>
           </profiles>
@@ -12891,7 +12891,7 @@ Vous devez attacher cette figurine à une unité Kastelan Robots, même si un ou
           <profiles>
             <profile name="Teleportation Node" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="25f6-adce-2138-d482">
               <characteristics>
-                <characteristic name="Description" typeId="9b8f-694b-e5e-b573">À la fin de votre phase de Mouvement, si cette unité n'est pas dans la Portée d’Engagement d'une ou plusieurs unités ennemies, vous pouvez la retirer du champ de bataille et la placer dans les réserves stratégiques. Si vous le faites, jusqu'à la fin de votre tour suivant, cette unité a la aptitude Frappe en profondeur.</characteristic>
+                <characteristic name="Description" typeId="9b8f-694b-e5e-b573">À la fin de votre phase de Mouvement, si cette unité n'est pas à l'intérieur de Portée d’Engagement d'une ou de plusieurs unités ennemies, vous pouvez la retirer du champ de bataille et la placer dans Réserves Stratégiques. Si vous le faites, jusqu'à la fin de votre tour suivant, cette unité a l’aptitude Frappe en profondeur.</characteristic>
               </characteristics>
             </profile>
           </profiles>
@@ -12968,7 +12968,7 @@ Vous devez attacher cette figurine à une unité Kastelan Robots, même si un ou
           <profiles>
             <profile name="Battlefield Processing Cortex" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="69d7-9f08-8184-d5c8">
               <characteristics>
-                <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Chaque fois que vous ciblez l'unité de cette figurine avec un Stratagème, lancez un D6, en ajoutant 1 au résultat si cette unité est équipée d'une liaison de données améliorée: sur un 5+, vous gagnez 1CP.</characteristic>
+                <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Chaque fois que vous ciblez l'unité de cette figurine avec un Stratagème, lancez un D6, ajoutant 1 au résultat si cette unité est équipée d'un lien de données amélioré: sur un 5+, vous gagnez 1CP.</characteristic>
               </characteristics>
             </profile>
           </profiles>
@@ -13049,7 +13049,7 @@ Vous devez attacher cette figurine à une unité Kastelan Robots, même si un ou
           <profiles>
             <profile name="Enhanced Bionics" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="aec0-8e4d-caac-ba64">
               <characteristics>
-                <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Cette unité a un 4+ sauvegarde invulnérable. Si cette unité est une unité **^^Battleline^^** ou **^^Kataphron^^**, elle a une unité 5+ sauvegarde invulnérable à la place.</characteristic>
+                <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Cette unité est équipée d'un 4+ sauvegarde invulnérable. Si cette unité est une unité **^^Battleline^^** ou **^^Kataphron^^**, elle a une unité 5+ sauvegarde invulnérable à la place.</characteristic>
               </characteristics>
             </profile>
           </profiles>
@@ -13093,7 +13093,7 @@ Vous devez attacher cette figurine à une unité Kastelan Robots, même si un ou
           <profiles>
             <profile name="Killcode Gear Switches" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="a672-a91d-2dc5-d41a">
               <characteristics>
-                <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Ajoutez 1 à la caractéristique de Force des armes de mêlée équipées de figurines de cette unité.</characteristic>
+                <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Ajoutez 1 à la caractéristique de Force des armes de mêlée dont sont équipées les figurines de cette unité.</characteristic>
               </characteristics>
             </profile>
           </profiles>
@@ -13153,7 +13153,7 @@ Vous devez attacher cette figurine à une unité Kastelan Robots, même si un ou
           <profiles>
             <profile name="Fervent Locomotion" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="140a-faac-e3a6-e8b8">
               <characteristics>
-                <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Ajoutez 1 à la caractéristique de mouvement des figurines de cette unité et ajouter 1 aux jets d’Avance conçus pour elle.</characteristic>
+                <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Ajoutez 1 à la caractéristique de Mouvement des figurines de cette unité et 1 aux jets d’Avance effectués pour elle.</characteristic>
               </characteristics>
             </profile>
           </profiles>
@@ -13201,7 +13201,7 @@ Vous devez attacher cette figurine à une unité Kastelan Robots, même si un ou
           <profiles>
             <profile name="Sanctified Engine" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="5221-4109-e598-077b">
               <characteristics>
-                <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Chaque fois que cette unité avance, ne faites pas un jet d’Avance. Au lieu de cela, jusqu'à la fin de la phase, ajoutez 6" à la caractéristique de mouvement des figurines de cette unité.</characteristic>
+                <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Chaque fois que cette unité avance, ne faites pas un jet d’Avance. Au lieu de cela, Jusqu’à la fin de la phase, ajoutez 6" à la caractéristique de mouvement des figurines de cette unité.</characteristic>
               </characteristics>
             </profile>
           </profiles>
@@ -13233,7 +13233,7 @@ Vous devez attacher cette figurine à une unité Kastelan Robots, même si un ou
           <profiles>
             <profile name="Hardened Machine Spirit" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="98fe-8570-50ca-6c70">
               <characteristics>
-                <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Vous pouvez ignorer tout ou partie des modifications apportées aux caractéristiques de cette unité et/ou à tout jet ou à tout essai effectué pour elle (à l'exclusion des modifications apportées aux jets de sauvegarde).</characteristic>
+                <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Vous pouvez ignorer tout ou partie des modificateurs des caractéristiques de cette unité et/ou de tout jet ou test effectué pour elle (modificateurs à l’exclusion de à jets de sauvegarde).</characteristic>
               </characteristics>
             </profile>
           </profiles>
@@ -13248,7 +13248,7 @@ Vous devez attacher cette figurine à une unité Kastelan Robots, même si un ou
               <profiles>
                 <profile name="Exemplar's Eternity" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="cbe5-4cf9-b1b7-5541">
                   <characteristics>
-                    <characteristic name="Description" typeId="9b8f-694b-e5e-b573">**^^Skitarii^^** figurine uniquement. Au début de la bataille, sélectionnez une unité ennemie. Chaque fois qu'une figurine dans l'unité du porteur fait une attaque qui cible cette unité ennemie, relancez les jets de Touche de 1 et les jets de Blessure de 1.</characteristic>
+                    <characteristic name="Description" typeId="9b8f-694b-e5e-b573">**^^Skitarii^^** figurine uniquement. Au début de la bataille, sélectionnez une unité ennemie. Chaque fois qu'une figurine dans l’unité du porteur effectue une attaque qui cible que cette unité ennemie, relancer un jet de Touche 1 et relancer un jet de Blessure de 1.</characteristic>
                   </characteristics>
                 </profile>
               </profiles>
@@ -13296,7 +13296,7 @@ Vous devez attacher cette figurine à une unité Kastelan Robots, même si un ou
               <profiles>
                 <profile name="Autocaduceus of Arkhan Land" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="3573-213b-f741-8c52">
                   <characteristics>
-                    <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Une fois par bataille, lorsqu'un autre figurine amique **^^Adeptus Mechanicus^^** à 6" ou moins du porteur est détruit, vous pouvez rouler un D6 à la fin de la phase au lieu de déclencher toutes les règles qui sont déclenchées lorsqu'une figurine est détruite (p. ex. Destruction Néfaste). Sur un 3+, mettez cette figurine sur le champ de bataille aussi près que possible de l'endroit où il a été détruit et non dans la Portée d’Engagement de tout figurine ennemie, avec jusqu'à des blessures 6 restantes (ce qui ne peut pas permettre à une figurine de revenir avec plus de blessures que sa caractéristique de PV).</characteristic>
+                    <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Une fois par bataille, lorsqu’une autre figurine **^^Adeptus Mechanicus^^** amie à 6" ou moins du porteur est détruite, vous pouvez lancer un D6 à la fin de la phase au lieu de déclencher toute règle qui se déclenche lorsqu’une figurine est détruite (p. ex. Destruction Néfaste). Sur 3+, replacez cette figurine sur le champ de bataille aussi près que possible de l’endroit où elle a été détruite et hors de Portée d’Engagement de toute figurine ennemie, avec jusqu’à 6 PV restants (cela ne peut pas permettre à une figurine de revenir avec plus de PV que sa caractéristique de PV).</characteristic>
                   </characteristics>
                 </profile>
               </profiles>
@@ -13343,7 +13343,7 @@ Vous devez attacher cette figurine à une unité Kastelan Robots, même si un ou
               <profiles>
                 <profile name="Kardiocore Galvanus" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="8b1f-181c-22cf-d683">
                   <characteristics>
-                    <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Pendant que le porteur mène une unité, ajoutez 1 aux jets d’Avance et de Charge faits pour cette unité.</characteristic>
+                    <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Alors que le porteur mène une unité, ajoutez 1 à Advance et jets de Charge de cette unité.</characteristic>
                   </characteristics>
                 </profile>
               </profiles>
@@ -13717,7 +13717,7 @@ Vous devez attacher cette figurine à une unité Kastelan Robots, même si un ou
               <profiles>
                 <profile name="Time Sink" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="c78c-3f21-cf24-041b">
                   <characteristics>
-                    <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Au début de la phase de Combat, sélectionnez une unité ennemi dans la Portée d’Engagement de cette figurine et lancez un D6: sur une 4+, jusqu'à la fin du tour, réduisez la caractéristique de caractéristique de Capacité de Combat des armes de mêlée équipées par cette unité ennemi par 1.</characteristic>
+                    <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Au début de la phase de Combat, sélectionnez une unité ennemie à Portée d’Engagement de cette figurine et lancez un D6 : sur 4+, jusqu’à la fin du tour, réduisez de 1 la caractéristique de Capacité de Combat des armes de mêlée dont cette unité ennemie est équipée.</characteristic>
                   </characteristics>
                 </profile>
               </profiles>
@@ -13733,7 +13733,7 @@ Vous devez attacher cette figurine à une unité Kastelan Robots, même si un ou
               <profiles>
                 <profile name="Arc Implants" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="8104-3c75-79fd-ce03">
                   <characteristics>
-                    <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Une fois par bataille, dans la phase de Charge de votre adversaire, juste après que l'unité de cette figurine ait été sélectionnée comme cible de la charge d'une unité ennemie, cette figurine peut utiliser cette aptitude. Si c'est le cas, jusqu'à la fin de la phase, Soustrayez 2 des jets de Charge faits pour cette unité ennemie.</characteristic>
+                    <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Une fois par bataille, durant la phase de Charge de votre adversaire, juste après que l’unité de cette figurine a été sélectionnée comme cible de la charge d’une unité ennemie, cette figurine peut utiliser cette aptitude. Si elle le fait, jusqu’à la fin de la phase, soustrayez 2 aux jets de Charge effectués pour cette unité ennemie.</characteristic>
                   </characteristics>
                 </profile>
               </profiles>
@@ -13749,7 +13749,7 @@ Vous devez attacher cette figurine à une unité Kastelan Robots, même si un ou
               <profiles>
                 <profile name="Conversion Eradicator" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="bc26-17cc-b18f-6a37">
                   <characteristics>
-                    <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Améliorez les caractéristiques de force et de pénétration de l'armement à portée variable équipées de cette figurine de 1.</characteristic>
+                    <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Améliorez de 1 les caractéristiques de Force et de Pénétration d’Armure des armes de tir dont cette figurine est équipée.</characteristic>
                   </characteristics>
                 </profile>
               </profiles>
@@ -13777,7 +13777,7 @@ Vous devez attacher cette figurine à une unité Kastelan Robots, même si un ou
               <profiles>
                 <profile name="Inverse Power Feeds" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="21c3-e79f-94e6-51f3">
                   <characteristics>
-                    <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Les armes Melee équipées de cette figurine ont la aptitude **[DEVASTATING WOUNDS]**.</characteristic>
+                    <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Les armes de mêlée dont cette figurine est équipée ont l’aptitude **[DEVASTATING WOUNDS]**.</characteristic>
                   </characteristics>
                 </profile>
               </profiles>
@@ -13815,7 +13815,7 @@ Vous devez attacher cette figurine à une unité Kastelan Robots, même si un ou
               <profiles>
                 <profile name="Hypercircuit" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="ea86-ca6f-48e1-2064">
                   <characteristics>
-                    <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Au début de la bataille, sélectionnez jusqu'à deux unités **^^Adeptus Mechanicus^^** (hors **^^Vehicles^^**) de votre armée de la Croisade. Une fois par bataille par unité sélectionnée, vous pouvez cibler cette unité avec le Stratagème d'intervention héroïque pour 0CP, et vous pouvez le faire même si vous avez déjà ciblé une autre unité avec ce Stratagème cette phase.</characteristic>
+                    <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Au début de la bataille, sélectionnez jusqu'à deux unités **^^Adeptus Mechanicus^^** (à l’exclusion de **^^Vehicles^^**) de votre armée de la Croisade. Une fois par bataille par unité sélectionnée, vous pouvez cibler cette unité avec l'intervention héroïque Stratagème pour 0CP, et vous pouvez le faire même si vous avez déjà ciblé une unité différente avec ce Stratagème cette phase.</characteristic>
                   </characteristics>
                 </profile>
               </profiles>
@@ -13831,7 +13831,7 @@ Vous devez attacher cette figurine à une unité Kastelan Robots, même si un ou
               <profiles>
                 <profile name="Hagioscope" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="c473-5e0b-1e9a-a8ef">
                   <characteristics>
-                    <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Au début de la bataille, sélectionnez une unité ennemie. Chaque fois qu'une unité **^^Adeptus Mechanicus^^** de votre armée de la Croisade effectue une attaque de tir qui cible cette unité ennemie, vous pouvez ignorer tout ou partie des modifications du jet de Touche, du jet de Blessure et de la caractéristique de Capacité de Tir de cette attaque.</characteristic>
+                    <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Au début de la bataille, sélectionnez une unité ennemie. Chaque fois qu'une unité **^^Adeptus Mechanicus^^** de votre armée de la Croisade fait une attaque de tir qui cible cette unité ennemie, vous pouvez ignorer tous ou tous les modificateurs du jet de Touche, le jet de Blessure et la caractéristique de Capacité de Tir de cette attaque.</characteristic>
                   </characteristics>
                 </profile>
               </profiles>
@@ -13847,7 +13847,7 @@ Vous devez attacher cette figurine à une unité Kastelan Robots, même si un ou
               <profiles>
                 <profile name="Exo-gauntlet" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="fd03-784a-c9a1-8351">
                   <characteristics>
-                    <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Au début de la bataille, sélectionnez une unité ennemie. Chaque fois qu'une unité **^^Adeptus Mechanicus^^** de votre armée de la Croisade fait une attaque de mêlée qui cible cette unité ennemie, relancez un jet de Touche de 1.</characteristic>
+                    <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Au début de la bataille, sélectionnez une unité ennemie. Chaque fois qu'une unité **^^Adeptus Mechanicus^^** de votre armée de la Croisade fait une attaque de mêlée qui cible que cette unité ennemie, relancer un jet de Touche de 1.</characteristic>
                   </characteristics>
                 </profile>
               </profiles>
@@ -13863,7 +13863,7 @@ Vous devez attacher cette figurine à une unité Kastelan Robots, même si un ou
               <profiles>
                 <profile name="Ferrosanctic Orrery" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="5af8-1aef-8a68-b889">
                   <characteristics>
-                    <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Au début de la bataille, sélectionnez jusqu'à deux unités **^^Adeptus Mechanicus^^** de votre armée de la Croisade, puis sélectionnez un marqueur objectif qui n'est pas dans votre zone de déploiement. Alors qu'une unité que vous avez sélectionnée pour cette aptitude est dans la portée de ce marché objectif, améliorez les caractéristiques de Commandement et de caractéristique de Contrôle d’Objectif des figurines de cette unité de 1.</characteristic>
+                    <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Au début de la bataille, sélectionnez jusqu’à deux unités **^^Adeptus Mechanicus^^** de votre armée de Croisade, puis sélectionnez un pion d’objectif qui n’est pas dans votre zone de déploiement. Tant qu’une unité sélectionnée pour cette aptitude est à portée de ce pion d’objectif, améliorez de 1 les caractéristiques de Commandement et de Contrôle d’Objectif des figurines de cette unité.</characteristic>
                   </characteristics>
                 </profile>
               </profiles>
@@ -13879,7 +13879,7 @@ Vous devez attacher cette figurine à une unité Kastelan Robots, même si un ou
               <profiles>
                 <profile name="Obscuroptikon" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="9c28-c7d5-7430-5325">
                   <characteristics>
-                    <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Au début de la bataille, sélectionnez jusqu'à deux unités **^^Adeptus Mechanicus Infantry^^** de votre armée de la Croisade. Chaque fois qu'une unité ennemie effectue une attaque de tir qui cible l'une de ces unités, jusqu'à la fin de la phase, les figurines de l'unité cible ont un 5+ sauvegarde invulnérable contre les attaques de tir.</characteristic>
+                    <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Au début de la bataille, sélectionnez jusqu'à deux unités **^^Adeptus Mechanicus Infantry^^** de votre armée de la Croisade. Chaque fois qu'une unité ennemie fait une attaque de tir qui cible l'une de ces unités, Jusqu’à la fin de la phase, les figurines de l’unité ciblée ont un 5+ sauvegarde invulnérable contre les attaques de tir.</characteristic>
                   </characteristics>
                 </profile>
               </profiles>
@@ -13895,7 +13895,7 @@ Vous devez attacher cette figurine à une unité Kastelan Robots, même si un ou
               <profiles>
                 <profile name="Tri-dimensional Covenant" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="e752-8ad2-d948-bcbc">
                   <characteristics>
-                    <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Au début de la bataille, sélectionnez jusqu'à deux unités **^^Adeptus Mechanicus Infantry^^** de votre armée de la Croisade. Jusqu'à la fin de la bataille, ajoutez 1 aux jets d’Avance et de Charge faits pour ces unités.</characteristic>
+                    <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Au début de la bataille, sélectionnez jusqu’à deux unités **^^Adeptus Mechanicus Infantry^^** de votre armée de Croisade. Jusqu’à la fin de la bataille, ajoutez 1 aux jets d’Avance et de Charge effectués pour ces unités.</characteristic>
                   </characteristics>
                 </profile>
               </profiles>
@@ -13911,7 +13911,7 @@ Vous devez attacher cette figurine à une unité Kastelan Robots, même si un ou
               <profiles>
                 <profile name="Augur of the First Reclamation" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="434f-7290-105e-57c9">
                   <characteristics>
-                    <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Ajoutez 2 à la caractéristique de Contrôle d’Objectif du porteur, et à la fin de votre phase de Commandement, si le porteur est à l'intérieur de la portée d'un marqueur objectif qui n'est pas dans votre zone de déploiement, vous gagnez 1CP. En outre, à la fin de la bataille, si le porteur était dans votre armée de la Croisade et que vous avez gagné cette bataille, lancez un D6: sur un 4+, votre force de Croisade acquiert une partie Archéotech.</characteristic>
+                    <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Ajoutez 2 à la caractéristique de Contrôle d’Objectif du porteur et, à la fin de votre phase de Commandement, si le porteur est à portée d’un pion d’objectif qui n’est pas dans votre zone de déploiement, vous gagnez 1CP. De plus, à la fin de la bataille, si le porteur faisait partie de votre armée de Croisade et que vous avez remporté cette bataille, lancez un D6 : sur 4+, votre force de Croisade acquiert une Archeotech Part.</characteristic>
                   </characteristics>
                 </profile>
               </profiles>
@@ -13952,7 +13952,7 @@ Vous devez attacher cette figurine à une unité Kastelan Robots, même si un ou
               </infoLinks>
               <rules>
                 <rule name="Sonic Devastation" id="e9c1-2245-71b1-ca2a" hidden="false">
-                  <description>Dans votre phase de Tir, après que cette figurine ait tiré, sélectionnez une unité ennemie touchée par une ou plusieurs de ces attaques faites avec cette arme. Jusqu'au début de votre prochain tour, détériorez les caractéristique de Capacité de Combat des armes de mêlée équipées de figurines dans cette unité par 1.</description>
+                  <description>Durant votre phase de Tir, après que cette figurine a tiré, sélectionnez une unité ennemie touchée par une ou plusieurs de ces attaques effectuées avec cette arme. Jusqu’au début de votre prochain tour, dégradez de 1 la caractéristique de Capacité de Combat des armes de mêlée dont sont équipées les figurines de cette unité.</description>
                 </rule>
               </rules>
               <modifiers>
@@ -13967,7 +13967,7 @@ Vous devez attacher cette figurine à une unité Kastelan Robots, même si un ou
               <profiles>
                 <profile name="The Doom of Thorantus" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="018f-3ad6-0398-a338">
                   <characteristics>
-                    <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Une fois par bataille, à la fin de votre phase de Mouvement, sélectionnez une unité ennemie **^^Vehicle^^** à 18" ou moins et visible au porteur. Jusqu'au début de votre prochaine phase de Mouvement, Soustrayez 2 des caractéristique d’Attaques des armes de tir équipées par des figurines dans cette unité, et chaque fois que cette unité termine un normal, avance, chute en Retraite ou Charge mouvement, il souffre D6 Blessures Mortelles.</characteristic>
+                    <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Une fois par bataille, à la fin de votre phase de Mouvement, sélectionnez une unité ennemie **^^Vehicle^^** à 18" ou moins et visible au porteur. Jusqu'au début de votre prochaine phase de Mouvement, soustraisez 2 de la caractéristique d’Attaques d’armes de tir équipé des figurines de cette unité, et chaque fois que cette unité termine une normale, avance, Battre en Retraite ou mouvement de Charge, elle souffre de D6 Blessures Mortelles.</characteristic>
                   </characteristics>
                 </profile>
               </profiles>
@@ -14026,10 +14026,10 @@ Vous devez attacher cette figurine à une unité Kastelan Robots, même si un ou
           <profiles>
             <profile name="Meneur" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="11f2-3425-5c42-6df7">
               <characteristics>
-                <characteristic name="Description" typeId="9b8f-694b-e5e-b573">cette figurine peut être attachée aux unités suivantes: ^^**Kastelan Robots**^^
+                <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Cette figurine peut être attachée aux unités suivantes : ^^**Kastelan Robots**^^
 
 
-Vous pouvez attacher cette figurine à une unité ^^**Kastelan Robots**^^, même si une ou plusieurs figurines ^^**Cybernetica Datasmith**^^ y ont été attachés. Dans de tels cas, si cette unité Bodyguard est détruite, les unités Meneur qui lui sont rattachées deviennent des unités distinctes avec leur Effectif Initial d’origine. Lorsqu'il est attaché à une unité ^^**Kastelan Robots**^^, cette figurine perd le mot-clé ^^**Infantry**^^ et les figurines de cette unité ont la aptitude Doctrina Imperatives Faction.</characteristic>
+Vous pouvez attacher cette figurine à une unité ^^**Kastelan Robots**^^, même si une ou plusieurs figurines ^^**Cybernetica Datasmith**^^ lui ont été attachées. Dans ce cas, si cette unité Bodyguard est détruite, les unités Leader qui lui sont attachées deviennent des unités distinctes avec leur Effectif Initial d’origine. Tant qu’elle est attachée à une unité ^^**Kastelan Robots**^^, cette figurine perd le mot-clé ^^**Infantry**^^ et les figurines de cette unité ont l’aptitude de Faction Doctrina Imperatives.</characteristic>
               </characteristics>
             </profile>
           </profiles>
@@ -14104,7 +14104,7 @@ Vous pouvez attacher cette figurine à une unité ^^**Kastelan Robots**^^, même
           <profiles>
             <profile name="Galvanic Field" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="d788-e7ec-e661-d112">
               <characteristics>
-                <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Alors que cette figurine mène une unité, les armes équipées de figurines dans cette unité ont la aptitude [^^Lethal Hits^^].</characteristic>
+                <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Alors que cette figurine mène une unité, les armes équipées des figurines de cette unité ont l’aptitude [^^Lethal Hits^^].</characteristic>
               </characteristics>
             </profile>
           </profiles>
@@ -14113,7 +14113,7 @@ Vous pouvez attacher cette figurine à une unité ^^**Kastelan Robots**^^, même
           <profiles>
             <profile name="Omnissiah's Blessing" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="dd14-4a2e-2b63-5f55">
               <characteristics>
-                <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Dans votre phase de Commandement, sélectionnez une figurine ^^**Adeptus Mechanicus**^^ sympathique à 3" ou moins de cette figurine. cette figurine récupère jusqu'à D3 PV perdus et, si c'est une figurine ^^**Vehicle**^^, jusqu'au début de votre prochaine phase de Commandement, cette figurine a la aptitude Insensible à la douleur 5+. Chaque figurine ne peut être sélectionné pour cette aptitude qu'une fois par phase de Commandement.</characteristic>
+                <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Dans votre phase de Commandement, sélectionnez une ^^**Adeptus Mechanicus**^^ figurine à 3" ou moins de cette figurine. Que figurine récupère jusqu'à D3 PV perdus et, s'il s'agit d'une ^^**Vehicle**^^ figurine, jusqu'au début de votre prochaine phase de Commandement, que figurine a l’aptitude Insensible à la douleur 5+. Chaque figurine ne peut être sélectionné pour cette aptitude qu'une fois par phase de Commandement.</characteristic>
               </characteristics>
             </profile>
           </profiles>
@@ -14988,7 +14988,7 @@ Au début de votre phase de Commandement pendant les deuxième, troisième, quat
         <selectionEntry type="upgrade" import="true" name="Skitarii Hunter Cohort" hidden="false" id="48bd-eeae-171d-a10a">
           <rules>
             <rule name="Skitarii Hunter Cohort" hidden="false" id="66a8-d10b-deee-fe42">
-              <description>**^^Skitarii Infantry^^**, **^^Skitarii Mounted^^** et **^^Ironstrider Ballistarii^^** des unités de votre armée ont la aptitude Discrétion, et chaque fois qu'une attaque de tir cible une unité **^^Sicarian^^** de votre armée, sauf si la figurine d'attaque est à 12" ou moins, la cible a le Bénéfice du Couvert contre cette attaque.</description>
+              <description>**^^Skitarii Infantry^^**, **^^Skitarii Mounted^^** et **^^Ironstrider Ballistarii^^** des unités de votre armée ont l’aptitude Discrétion, et chaque fois qu'une attaque de tir cible une unité **^^Sicarian^^** de votre armée, sauf si l'attaquant figurine est à 12" ou moins, la cible a le Bénéfice du Couvert contre cette attaque.</description>
             </rule>
           </rules>
           <infoLinks>
@@ -14998,7 +14998,7 @@ Au début de votre phase de Commandement pendant les deuxième, troisième, quat
         <selectionEntry type="upgrade" import="true" name="Explorator Maniple" hidden="false" id="e01f-8783-4769-2eb6">
           <rules>
             <rule name="Acquisition at any cost" hidden="false" id="1bc3-7b38-21d2-2d73">
-              <description>Au début de votre phase de Commandement, sélectionnez un marqueur objectif. Jusqu'au début de votre prochaine phase de Commandement, ce marqueur objectif est votre marqueur objectif d'acquisition. Chaque fois qu'une figurine ADEPTUS MECHANICUS de votre armée fait une attaque, si cette unité de figurine est à l'intérieur de la portée de votre marqueur objectif d'acquisition, ou si la cible de cette attaque est à l'intérieur de la portée de votre marqueur objectif d'acquisition, relancez un jet de Blessure de 1.</description>
+              <description>Au début de votre phase de Commandement, sélectionnez un pion d’objectif. Jusqu'au début de votre prochaine phase de Commandement, que pion d’objectif est votre acquisition pion d’objectif. Chaque fois qu'un ADEPTUS MECHANICUS figurine de votre armée fait une attaque, si cette unité figurines est à l'intérieur de Portée de votre Acquisition pion d’objectif, ou si la cible de cette attaque est à l'intérieur de Portée de votre Acquisition pion d’objectif, relancer un jet de Blessure de 1.</description>
             </rule>
           </rules>
         </selectionEntry>
@@ -15020,7 +15020,7 @@ Chaque fois qu’une unité **^^Cult Mechanicus^^** de votre armée est sélecti
         <selectionEntry type="upgrade" import="true" name="Cohort Cybernetica" hidden="false" id="f67d-6f59-21b8-e1f9">
           <rules>
             <rule name="Cyber Psalm-Programming" hidden="false" id="6cd2-7fa1-3feb-5b8b">
-              <description>Ajoutez 2" au mouvement caractéristique des figurines dans les unités Cybernetica de la Légion de votre armée. En outre, à moins que cette unité ne soit Ébranlée, ajoutez 1 à la caractéristique de Contrôle d’Objectif des figurines de cette unité.</description>
+              <description>Ajoutez 2" à la caractéristique de mouvement de figurines dans les unités Cybernetica de la Légion de votre armée. En outre, à moins que cette unité soit Ébranlé, ajoutez 1 à la caractéristique de Contrôle d’Objectif des figurines de cette unité.</description>
             </rule>
           </rules>
         </selectionEntry>
@@ -15054,8 +15054,8 @@ Les figurines de cette unité ont l’aptitude Stealth.</description>
           <rules>
             <rule name="Murderous Imperative" hidden="false" id="dc09-cb01-528e-56d9">
               <description>Chaque fois qu' une figurine dans une unité **^^Skitarii^^** de votre armée fait une attaque:
-- Si l'impératif protecteur est actif pour cette unité, relancer un jet de Touche de 1.
-- Si l'impératif Conquérant est actif pour cette unité, relancer un jet de Blessure de 1.</description>
+- Si l'impératif de protection est actif pour cette unité, relancer un jet de Touche de 1.
+- Si l'impératif Conquérant est actif pour cette unité, vous devez relancer un jet de Blessure de 1.</description>
             </rule>
           </rules>
         </selectionEntry>
@@ -15064,22 +15064,22 @@ Les figurines de cette unité ont l’aptitude Stealth.</description>
   </sharedSelectionEntryGroups>
   <sharedRules>
     <rule id="7a21-a958-e47d-5c0d" name="Doctrina Imperatives" hidden="false">
-      <description>Au début du tour de bataille, vous pouvez sélectionner l'un des Doctrina Imperatives ci-dessous. Jusqu'à la fin du tour de bataille, Doctrina Imperative est actif pour votre armée, et toutes les unités de votre armée qui ont la aptitude Doctrina Imperatives acquièrent les capacités pertinentes indiquées ci-dessous.
+      <description>Au début du tour de bataille, vous pouvez sélectionner l'un des Doctrina Imperatives ci-dessous. Jusqu'à la fin du tour de bataille, cette Doctrina Imperative est active pour votre armée, et toutes les unités de votre armée qui ont l’aptitude Doctrina Imperatives gagnent le aptitudes pertinent montré ci-dessous.
 
 PROTECTOR IMPERATIVE
-■ Les armes de tir équipées par des figurines de cette unité ont la aptitude [Lourd].
-■ Améliorez les caractéristique de Capacité de Tir des armes de tir équipées par des figurines de cette unité avec 1.
-■ Chaque fois qu'une attaque de mêlée cible cette unité, si cette unité a le mot-clé Battleline et/ou s'il se trouve à 6" ou moins d'une ou de plusieurs unités amies Adeptus Mechanicus Battleline, Soustrayez 1 du jet de Touche.
+■ Le armes de tir dont sont équipées les figurines de cette unité contient l’aptitude [Lourd].
+■ Améliorez la caractéristique de Capacité de Tir des armes de tir dont sont équipées les figurines de cette unité de 1.
+■ Chaque fois qu'une attaque de mêlée vise cette unité, si cette unité possède la ligne de bataille mot-clé et/ou se trouve à l'intérieur de la ligne de bataille 6" d'une ou de plusieurs unités amies Adeptus Mechanicus, Soustrayez 1 de la ligne de bataille jet de Touche.
 
 CONQUEROR IMPERATIVE
-■ Les armes de tir équipées par des figurines de cette unité ont la aptitude [Assaut].
-■ Améliorez la caractéristique de Capacité de Combat des armes de mêlée équipées de figurines de cette unité de 1.
-■ Chaque fois qu'une figurine de cette unité effectue une attaque, si cette unité possède le mot-clé de la ligne de bataille et/ou s'il se trouve à 6" ou moins d'une ou de plusieurs unités amies de la ligne de bataille Adeptus Mechanicus, améliorez la caractéristique de Pénétration d’Armure de cette attaque de 1.</description>
+■ Le armes de tir dont sont équipées les figurines de cette unité contient l’aptitude [Assaut].
+■ Améliorez la caractéristique de Capacité de Combat des armes de mêlée dont sont équipées les figurines de cette unité de 1.
+■ Chaque fois qu'une figurine dans cette unité effectue une attaque, si cette unité a la ligne de bataille mot-clé et/ou se trouve à 6" ou moins d'une ou plusieurs unités amies Adeptus Mechanicus Battleline, améliorez la caractéristique de Pénétration d’Armure de cette attaque de 1.</description>
     </rule>
   </sharedRules>
   <catalogueLinks>
-    <catalogueLink id="ed86-1992-812a-8d08" name="Imperium - Imperial Knights - Library" targetId="1787-6721-8649-a4a8" type="catalogue" importRootEntries="true" />
-    <catalogueLink type="catalogue" name="Imperium - Agents of the Imperium" id="53-4e2c-daf4-3493" targetId="58ea-21f3-3da9-74dd" importRootEntries="true" />
-    <catalogueLink type="catalogue" name="Library - Titans" id="7f89-dacb-7dc6-5b33" targetId="701a-a154-08d0-db72" importRootEntries="true" />
+    <catalogueLink id="ed86-1992-812a-8d08" name="Imperium - Imperial Knights - Library" targetId="1b6d-dc06-5db9-c7d1" type="catalogue" importRootEntries="true" />
+    <catalogueLink type="catalogue" name="Imperium - Agents of the Imperium" id="53-4e2c-daf4-3493" targetId="b00-cd86-4b4c-97ba" importRootEntries="true" />
+    <catalogueLink type="catalogue" name="Library - Titans" id="7f89-dacb-7dc6-5b33" targetId="7481-280e-b55e-7867" importRootEntries="true" />
   </catalogueLinks>
 </catalogue>

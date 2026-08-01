@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue xmlns="http://www.battlescribe.net/schema/catalogueSchema" id="2b88-ba4a-f464-e32d" name="Chaos - Thousand Sons" revision="113" battleScribeVersion="2.03" library="false" gameSystemId="sys-0e45-705d-f6bc-806a" gameSystemRevision="1" type="catalogue">
+<catalogue xmlns="http://www.battlescribe.net/schema/catalogueSchema" id="1069-10ff-3ba9-873b" name="Chaos - Thousand Sons" revision="113" battleScribeVersion="2.03" library="false" gameSystemId="sys-352e-adc2-7639-d6a9" gameSystemRevision="1" type="catalogue">
   <publications>
     <publication id="015a-6212-d737-9044" name="Index - Thousand Sons" />
   </publications>
@@ -2194,7 +2194,7 @@ Les unités ^^**Tzaangors^^** de votre armée ont le mot-clé Battleline et, tan
             <selectionEntry type="upgrade" import="true" name="Rubricae Phalanx" hidden="false" id="7510-5cb8-60fe-61a0">
               <rules>
                 <rule name="All is Dust" id="88a5-7db5-fba3-cf36" hidden="false">
-                  <description>Chaque fois qu'une attaque avec une caractéristique de Dégâts non modifiée de 1 est attribuée à une figurine ^^**Rubricae^^** de votre armée, ajoutez 1 à tout jet de sauvegarde effectué contre cette attaque.</description>
+                  <description>Chaque fois qu'une attaque avec une caractéristique de Dégâts non modifié de 1 est attribuée à une ^^**Rubricae^^** figurine de votre armée, ajoutez 1 à tout jet de sauvegarde d’armure effectué contre cette attaque.</description>
                 </rule>
               </rules>
             </selectionEntry>
@@ -2252,7 +2252,7 @@ Chaque fois qu’une figurine ^^**Thousand Sons Vehicle^^** de votre armée dot�
         </profile>
         <profile id="8f1d-56cb-a37f-2a5e" name="Scryer of Fates (Psychic)" hidden="false" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities">
           <characteristics>
-            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Si votre armée comprend cette figurine, après que les deux joueurs ont déployé leurs armées, vous pouvez sélectionner jusqu'à 3 ^^**Thousand Sons^^** unités de votre armée et les redéployer. Si vous le souhaitez, vous pouvez mettre ces unités en réserve stratégique, quel que soit le nombre d'unités déjà en réserve stratégique.</characteristic>
+            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Si votre armée inclut cette figurine, après que les deux joueurs ont déployé leurs armées, vous pouvez sélectionner jusqu’à 3 unités ^^**Thousand Sons^^** de votre armée et les redéployer. Ce faisant, vous pouvez placer ces unités en Réserves Stratégiques si vous le souhaitez, quel que soit le nombre d’unités qui s’y trouvent déjà.</characteristic>
           </characteristics>
         </profile>
         <profile id="e117-9164-7606-ef92" name="Arch-Sorcerer of Tzeentch (Psychic)" hidden="false" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities">
@@ -2385,7 +2385,7 @@ Chaque fois qu’une figurine ^^**Thousand Sons Vehicle^^** de votre armée dot�
         </profile>
         <profile id="0886-6e3f-6dbb-714a" name="Assault Ramp" hidden="false" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities">
           <characteristics>
-            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Chaque fois qu'une unité débarque de ce ^^**Transport^^** après avoir effectué un mouvement normal, cette unité est toujours éligible à déclarer une charge à ce tour.</characteristic>
+            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Chaque fois qu'une unité débarque de ce ^^**Transport^^** après avoir effectué un mouvement Normal, cette unité est toujours éligible à déclarer une charge à ce tour.</characteristic>
           </characteristics>
         </profile>
         <profile id="8b0e-b331-f7d4-2ff7" name="Chaos Land Raider" hidden="false" typeId="74f8-5443-9d6d-1f1e" typeName="Transport">
@@ -2701,7 +2701,7 @@ Chaque fois qu’une figurine ^^**Thousand Sons Vehicle^^** de votre armée dot�
         </profile>
         <profile id="efa5-c1d9-a512-e566" name="Ensorcelled Annihilation" hidden="false" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities">
           <characteristics>
-            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Chaque fois que cette figurine effectue une attaque de tir qui cible une unité ^^**Monster^^** ou ^^**Vehicle^^** unité cette était hit par une ou plusieurs attaques Psychiques effectuée par a ^^**Thousand Sons Psyker^^** de votre armée à ce tour, vous pouvez relancer le jet de Touche et vous pouvez relancer le jet de Dégâts.</characteristic>
+            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Chaque fois que cette figurine effectue une attaque de tir qui cible une unité ^^**Monster^^** ou ^^**Vehicle^^** touchée par une ou plusieurs Attaques Psychiques effectuées par une unité ^^**Thousand Sons Psyker^^** de votre armée à ce tour, vous pouvez relancer le jet de Touche et le jet de Dégâts.</characteristic>
           </characteristics>
         </profile>
       </profiles>
@@ -3209,7 +3209,7 @@ Chaque fois qu’une figurine ^^**Thousand Sons Vehicle^^** de votre armée dot�
         </profile>
         <profile id="f4bb-1a4c-7d23-cc29" name="Sorcerous Support" hidden="false" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities">
           <characteristics>
-            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Dans votre phase de Tir, après que cette figurine ait tiré, sélectionnez une unité ennemie touchée par une ou plusieurs de ces attaques. Jusqu'à la fin de la phase, Chaque fois qu'une figurine amie qui débarque de cette ^^**Transport^^** ce tour fait une Psychique attaque qui vise cette unité ennemie, Ajoutez 1 au jet de Touche et Ajoutez 1 au jet de Blessure.</characteristic>
+            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Dans votre phase de Tir, après que cette figurine a tiré, sélectionnez une unité ennemie frappé par un ou plusieurs de ces Attaques. Jusqu’à la fin de la phase, chaque fois qu'une figurine amie qui a débarqué de ce ^^**Transport^^** ce tour fait une attaque Psychique qui cible que cette unité ennemie, Ajoutez 1 au jet de Touche et ajouter 1 au jet de Blessure.</characteristic>
           </characteristics>
         </profile>
         <profile id="e0a9-d73a-d690-c65c" name="Chaos Rhino" hidden="false" typeId="74f8-5443-9d6d-1f1e" typeName="Transport">
@@ -3380,12 +3380,12 @@ Chaque fois qu’une figurine ^^**Thousand Sons Vehicle^^** de votre armée dot�
       <profiles>
         <profile id="a5f9-99af-66fe-6d3e" name="Regenerating Monstrosities" hidden="false" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities">
           <characteristics>
-            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Au début de la phase de Commandement de chaque joueur, une figurine dans cette unité récupère jusqu'à 3 PV perdus.</characteristic>
+            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Au début de la phase de Commandement de chaque joueur, une figurine de cette unité récupère jusqu’à 3 PV perdus.</characteristic>
           </characteristics>
         </profile>
         <profile name="Sauvegarde Invulnérable" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="bc90-518c-1b07-1238">
           <characteristics>
-            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Les figurines de cette unité ont un 5+ sauvegarde invulnérable.</characteristic>
+            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Les figurines de cette unité ont une sauvegarde invulnérable de 5+.</characteristic>
           </characteristics>
         </profile>
       </profiles>
@@ -3533,7 +3533,7 @@ Chaque fois qu’une figurine ^^**Thousand Sons Vehicle^^** de votre armée dot�
       <profiles>
         <profile id="163c-a891-7b3a-891f" name="Siege Shield" hidden="false" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities">
           <characteristics>
-            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Lorsqu'il effectue des attaques de tir avec son canon démoliteur, cette figurine peut cibler les unités ennemies à l'intérieur de sa Portée d’Engagement (à condition qu'aucune autre unité amique ne soit également à l'intérieur de la Portée d’Engagement de cette unité ennemie). En outre, lors des attaques de tir, cette figurine ne subit pas la pénalité aux jets de Touche de tir pour être à Portée d’Engagement d'une ou plusieurs unités ennemies.</characteristic>
+            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Lorsqu’elle effectue des attaques de tir avec son demolisher cannon, cette figurine peut cibler des unités ennemies à Portée d’Engagement d’elle-même (à condition qu’aucune autre unité amie ne soit également à Portée d’Engagement de cette unité ennemie). De plus, lorsqu’elle effectue des attaques de tir, cette figurine ne subit pas le malus à ses jets de Touche dû au fait d’être à Portée d’Engagement d’une ou plusieurs unités ennemies.</characteristic>
           </characteristics>
         </profile>
         <profile id="1c30-967f-67dc-324d" name="Chaos Vindicator" hidden="false" typeId="c547-1836-d8a-ff4f" typeName="Unit">
@@ -3751,7 +3751,7 @@ Chaque fois qu’une figurine ^^**Thousand Sons Vehicle^^** de votre armée dot�
         </profile>
         <profile id="36f6-15a1-62fa-112b" name="Arcane Shield (Psychic)" hidden="false" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities">
           <characteristics>
-            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Alors que cette figurine mène une unité, les figurines de cette unité ont un 4+ sauvegarde invulnérable.</characteristic>
+            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Alors que cette figurine est à la tête d'une unité, les figurines de cette unité ont un 4+ sauvegarde invulnérable.</characteristic>
           </characteristics>
         </profile>
         <profile id="844a-2575-03a2-d626" name="Sauvegarde Invulnérable" hidden="false" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities">
@@ -3761,7 +3761,7 @@ Chaque fois qu’une figurine ^^**Thousand Sons Vehicle^^** de votre armée dot�
         </profile>
         <profile id="c0cb-da23-5ff0-80d5" name="Rebind Rubricae (Psychic)" hidden="false" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities">
           <characteristics>
-            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Dans votre phase de Commandement, si cette figurine conduit une unité, vous pouvez rouler un D6: sur un 1, cette unité souffre de Blessures Mortelles D3; sur un 2-5, vous pouvez retourner 1 détruit figurine Bodyguard à cette unité; sur un 6, vous pouvez retourner jusqu'à 2 détruit Bodyguard figurines à cette unité.</characteristic>
+            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Durant votre phase de Commandement, si cette figurine mène une unité, vous pouvez lancer un D6 : sur 1, cette unité subit D3 blessures mortelles ; sur 2-5, vous pouvez replacer 1 figurine Bodyguard détruite dans cette unité ; sur 6, vous pouvez replacer jusqu’à 2 figurines Bodyguard détruites dans cette unité.</characteristic>
           </characteristics>
         </profile>
         <profile id="da97-ede2-a5bc-461d" name="Meneur" hidden="false" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities">
@@ -4049,7 +4049,7 @@ Chaque fois qu’une figurine ^^**Thousand Sons Vehicle^^** de votre armée dot�
         </profile>
         <profile id="b7bd-2ab0-8ca3-2791" name="Arcane Shield (Psychic)" hidden="false" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities">
           <characteristics>
-            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Alors que cette figurine mène une unité, cette unité ne peut être sélectionnée comme cible d'une attaque de tir que si la figurine attaquant se trouve à 18" ou moins.</characteristic>
+            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Tant que cette figurine mène une unité, cette unité ne peut être sélectionnée comme cible d’une attaque de tir que si la figurine attaquante est à 18" ou moins.</characteristic>
           </characteristics>
         </profile>
         <profile id="88e4-458d-43c0-706e" name="Sauvegarde Invulnérable" hidden="false" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities">
@@ -4059,7 +4059,7 @@ Chaque fois qu’une figurine ^^**Thousand Sons Vehicle^^** de votre armée dot�
         </profile>
         <profile id="f261-3205-ade9-f73f" name="Binding Tendrils (Psychic)" hidden="false" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities">
           <characteristics>
-            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Dans votre phase de Tir, après que cette figurine ait tiré, sélectionnez une unité ennemie ^^**Infantry^^** touchée par une ou plusieurs de ces attaques faites avec Arcane Fire. Jusqu'au début de votre tour suivant, cette unité est piégée. Pendant qu'une unité est piégée, Soustrayez 2" de sa caractéristique de mouvement et soustraire 2 des jets de Charge faits pour elle.</characteristic>
+            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Durant votre phase de Tir, après que cette figurine a tiré, sélectionnez une unité ^^**Infantry^^** ennemie touchée par une ou plusieurs de ces attaques effectuées avec Arcane Fire. Jusqu’au début de votre prochain tour, cette unité est piégée. Tant qu’une unité est piégée, soustrayez 2" à sa caractéristique de Mouvement et soustrayez 2 aux jets de Charge effectués pour elle.</characteristic>
           </characteristics>
         </profile>
         <profile id="7343-a940-ca1d-83f4" name="Meneur" hidden="false" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities">
@@ -4291,7 +4291,7 @@ Chaque fois qu’une figurine ^^**Thousand Sons Vehicle^^** de votre armée dot�
         </profile>
         <profile id="8239-ce8a-d631-2641" name="Blazing Salvos" hidden="false" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities">
           <characteristics>
-            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Dans votre phase de Tir, après que cette figurine ait tiré, sélectionnez une unité ennemie qui a été touchée par une ou plusieurs de ces attaques. Jusqu'au début de votre tour suivant, cette unité ennemie est supprimée. Tant qu’une unité est supprimée, chaque fois qu'une figurine dans cette unité fait une attaque, Soustrayez 1 du jet de Touche.</characteristic>
+            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Dans votre phase de Tir, après que cette figurine a tiré, sélectionnez une unité ennemie qui a été touché par un ou plusieurs de ces Attaques. Jusqu'au début de votre tour suivant, le unité ennemie est supprimé. Tant qu’une unité est supprimée, chaque fois qu'une figurine dans cette unité fait une attaque, Soustrayez 1 du jet de Touche.</characteristic>
           </characteristics>
         </profile>
         <profile id="df0a-ed64-f879-f43c" name="Sauvegarde Invulnérable" hidden="false" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities">
@@ -4602,12 +4602,12 @@ Chaque fois qu’une figurine ^^**Thousand Sons Vehicle^^** de votre armée dot�
         </profile>
         <profile id="a1c6-3496-6fe0-35b0" name="Terrifying Assault" hidden="false" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities">
           <characteristics>
-            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Dans la phase de Tir et la phase de Combat, après que cette figurine ait tiré, sélectionnez une unité ennemie touchée par une ou plusieurs de ces attaques. Cette unité doit passer un test d’Ébranlement, en soustrayant 1 si cette unité est à 9" ou moins d'une ou plusieurs ^^**Thousand Sons Psyker^^** unités de votre armée.</characteristic>
+            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Durant votre phase de Tir et la phase de Combat, après que cette figurine a tiré, sélectionnez une unité ennemie touchée par une ou plusieurs de ces attaques. Cette unité doit effectuer un test d’Ébranlement en soustrayant 1 au résultat si elle est à 9" ou moins d’une ou plusieurs unités ^^**Thousand Sons Psyker^^** de votre armée.</characteristic>
           </characteristics>
         </profile>
         <profile id="d704-4523-7eed-b79c" name="Devoted to Destruction" hidden="false" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities">
           <characteristics>
-            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Si cette figurine est équipé d'armes de mêlée 2 en plus de son arme de mêlée à proximité, ajoutez 2 aux caractéristique d’Attaques de ces deux armes.</characteristic>
+            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Si cette figurine est équipée de 2 armes de mêlée en plus de son arme de corps à corps, ajoutez 2 à la caractéristique d’Attaques de ces deux armes.</characteristic>
           </characteristics>
         </profile>
         <profile name="Sauvegarde Invulnérable" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="ca1f-7520-909f-d024">
@@ -5094,7 +5094,7 @@ Chaque fois qu’une figurine ^^**Thousand Sons Vehicle^^** de votre armée dot�
       <profiles>
         <profile id="9220-7fa3-aa90-ce25" name="Flame-wreathed" hidden="false" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities">
           <characteristics>
-            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Chaque fois que cette figurine termine un mouvement normal, sélectionnez une unité ennemie par-dessus laquelle cette figurine s’est déplacée pendant ce mouvement. Jusqu'à la fin du tour, les figurines de cette unité ne peuvent pas bénéficier du le Bénéfice du Couvert.</characteristic>
+            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Chaque fois que cette figurine termine un mouvement Normal, sélectionnez une unité ennemie par-dessus laquelle cette figurine s’est déplacée pendant ce mouvement. Jusqu'à la fin du tour, les figurines de cette unité ne peuvent pas avoir le Bénéfice du Couvert.</characteristic>
           </characteristics>
         </profile>
         <profile id="0bc2-1826-65d6-13ba" name="Heldrake" hidden="false" typeId="c547-1836-d8a-ff4f" typeName="Unit">
@@ -5305,12 +5305,12 @@ Chaque fois qu’une figurine ^^**Thousand Sons Vehicle^^** de votre armée dot�
         </profile>
         <profile id="1ddc-603c-d82f-9ff1" name="Malefic Maelstrom (Psychic)" hidden="false" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities">
           <characteristics>
-            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Alors que cette figurine mène une unité, les armes équipées de figurines dans cette unité ont la aptitude [Touches soutenues 1].</characteristic>
+            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Alors que cette figurine mène une unité, les armes équipées des figurines de cette unité ont l’aptitude [Touches soutenues 1].</characteristic>
           </characteristics>
         </profile>
         <profile id="dd43-4cf0-2cac-a361" name="Glimpse of Eternity (Psychic)" hidden="false" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities">
           <characteristics>
-            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Une fois par tour, vous pouvez remplacer par un 6 un jet de Touche, un jet de Blessure ou un jet de sauvegarde de cette figurine.</characteristic>
+            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Une fois par tour, vous pouvez remplacer le résultat d’un jet de Touche, d’un jet de Blessure ou d’un jet de sauvegarde effectué pour cette figurine par un 6 non modifié.</characteristic>
           </characteristics>
         </profile>
         <profile id="ae0d-0e92-6f67-700b" name="Meneur" hidden="false" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities">
@@ -5575,7 +5575,7 @@ Chaque fois qu’une figurine ^^**Thousand Sons Vehicle^^** de votre armée dot�
         </profile>
         <profile id="fa66-e8ff-f857-f176" name="Lord of the Planet of the Sorcerers (Psychic)" hidden="false" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities">
           <characteristics>
-            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">cette figurine peut tenter jusqu'à 2 Rituals par tour au lieu d'un, et chaque fois que cette figurine tente un Ritual, ajoutez 2 au résultat du test Psychique.</characteristic>
+            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Cette figurine peut tenter jusqu’à 2 Rituels par tour au lieu d’un seul et, chaque fois que cette figurine tente un Rituel, ajoutez 2 au résultat du test Psychique.</characteristic>
           </characteristics>
         </profile>
         <profile id="ea6d-bbfb-6322-fda9" name="Impossible Form (Psychic)" hidden="false" typeId="b74a-bcb9-3e72-83e4" typeName="Crimson King">
@@ -5746,7 +5746,7 @@ Chaque fois qu’une figurine ^^**Thousand Sons Vehicle^^** de votre armée dot�
         </profile>
         <profile id="3a97-0252-dc9f-86ed" name="Snarling Protector" hidden="false" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities">
           <characteristics>
-            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Vous pouvez cibler cette unité avec le Stratagème d'intervention héroïque pour 0CP, et vous pouvez le faire même si vous avez déjà ciblé une autre unité avec ce Stratagème dans cette phase. De plus, chaque fois que cette figurine déclare une charge qui cible une unité ennemi dans la Portée d’Engagement d'une ou plusieurs unités ^^**Thousand Sons Psyker^^** de votre armée, vous pouvez relancer le jet de Charge.</characteristic>
+            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Vous pouvez cibler cette unité avec l'intervention héroïque Stratagème pour 0CP, et vous pouvez le faire même si vous avez déjà ciblé une unité différente avec ce Stratagème dans cette phase. En outre, chaque fois que cette figurine déclare une charge qui cible une unité ennemie dans Portée d’Engagement d'une ou plusieurs ^^**Thousand Sons Psyker^^** unités de votre armée, vous pouvez relancer le jet de Charge.</characteristic>
           </characteristics>
         </profile>
         <profile id="1415-fd19-a73c-67c1" name="Sauvegarde Invulnérable" hidden="false" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities">
@@ -5971,12 +5971,12 @@ Chaque fois qu’une figurine ^^**Thousand Sons Vehicle^^** de votre armée dot�
         </profile>
         <profile id="6ed0-e576-e445-2539" name="Mutating Vortex (Aura)" hidden="false" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities">
           <characteristics>
-            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">À la fin de votre phase de Mouvement, lancez un D6 pour chaque unité ennemi à 6" ou moins de cette figurine: sur un 2-3, cette unité souffre 1 blessure mortelle; sur un 4-5, cette unité souffre D3 Blessures Mortelles; sur un 6, cette unité souffre D6 Blessures Mortelles. Chaque unité ennemi dans la portée de cette aptitude doit alors passer un test d’Ébranlement.</characteristic>
+            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">À la fin de votre phase de Mouvement, lancez un D6 pour chaque unité ennemie à 6" ou moins de cette figurine : sur 2-3, cette unité subit 1 blessure mortelle ; sur 4-5, cette unité subit D3 blessures mortelles ; sur 6, cette unité subit D6 blessures mortelles. Chaque unité ennemie à portée de cette aptitude doit ensuite effectuer un test d’Ébranlement.</characteristic>
           </characteristics>
         </profile>
         <profile id="4b6d-e4b8-2cfa-42a6" name="Immaterial Flare (Aura)" hidden="false" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities">
           <characteristics>
-            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Alors qu'une figurine amie ^^**Thousand Sons Psyker^^** est à 6" ou moins de cette figurine, chaque fois que la figurine Channe la déformation, ajoutez 1 au résultat du test Psychique. Ceci n'est pas cumulé avec d'autres modificateurs du résultat du test Psychique.</characteristic>
+            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Alors qu'une ^^**Thousand Sons Psyker^^** figurine est à 6" ou moins de cette figurine, chaque fois que figurine Channe la déformation, ajoutez 1 au résultat du test Psychique. Ceci n'est pas cumulé avec d'autres modificateurs du résultat du test Psychique.</characteristic>
           </characteristics>
         </profile>
       </profiles>
@@ -6213,12 +6213,12 @@ Chaque fois qu’une figurine ^^**Thousand Sons Vehicle^^** de votre armée dot�
       <profiles>
         <profile name="Bringers of Change" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="9b81-e167-c93c-61d4">
           <characteristics>
-            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Chaque fois qu'une figurine dans cette unité fait une attaque de tir, relance un jet de Blessure de 1. Si l'attaque cible une unité dans la portée d'un marqueur objectif que vous ne contrôlez pas, vous pouvez relancer le jet de Blessure à la place.</characteristic>
+            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Chaque fois qu’une figurine de cette unité effectue une attaque de tir, relancez un jet de Blessure de 1. Si cette attaque cible une unité à portée d’un pion d’objectif que vous ne contrôlez pas, vous pouvez relancer le jet de Blessure à la place.</characteristic>
           </characteristics>
         </profile>
         <profile id="73b0-2450-b18d-c3a1" name="Sauvegarde Invulnérable" hidden="false" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities">
           <characteristics>
-            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Les figurines de cette unité ont un 5+ sauvegarde invulnérable.</characteristic>
+            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Les figurines de cette unité ont une sauvegarde invulnérable de 5+.</characteristic>
           </characteristics>
         </profile>
         <profile name="Rubric Marine" typeId="c547-1836-d8a-ff4f" typeName="Unit" hidden="false" id="bb3-83ba-60b6-1dd5">
@@ -6470,7 +6470,7 @@ Chaque fois qu’une figurine ^^**Thousand Sons Vehicle^^** de votre armée dot�
           <profiles>
             <profile name="Icon of Flame" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="73ca-d5c2-f38-6dbf">
               <characteristics>
-                <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Les armes de tir équipées de figurines dans l'unité du porteur (hors ^^**Characters^^**) ont la aptitude [Ignore le couvert].</characteristic>
+                <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Les armes de tir dont les figurines de l’unité du porteur sont équipées (à l’exclusion des ^^**Characters^^**) ont l’aptitude [Ignores Cover].</characteristic>
               </characteristics>
             </profile>
           </profiles>
@@ -6806,7 +6806,7 @@ Le jet de Blessure.</characteristic>
         </profile>
         <profile id="1002-36f7-60ba-f4c9" name="Sauvegarde Invulnérable" hidden="false" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities">
           <characteristics>
-            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Les figurines de cette unité ont un 4+ sauvegarde invulnérable.</characteristic>
+            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Les figurines de cette unité ont une sauvegarde invulnérable de 4+.</characteristic>
           </characteristics>
         </profile>
       </profiles>
@@ -7341,7 +7341,7 @@ Le jet de Blessure.</characteristic>
         </profile>
         <profile name="Twisted Sorceries (Psychic)" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="3f72-d7a7-dce1-8da4">
           <characteristics>
-            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Une fois par bataille, dans la phase de Tir ou la phase de Combat, cette figurine peut utiliser cette aptitude. Si tel est le cas, jusqu'à la fin de la phase, Améliorez la force et les caractéristique d’Attaques des armes Psychique équipées de cette figurine de 3.</characteristic>
+            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Une fois par bataille, durant votre phase de Tir ou la phase de Combat, cette figurine peut utiliser cette aptitude. Si elle le fait, jusqu’à la fin de la phase, améliorez de 3 la caractéristique de Force et la caractéristique d’Attaques des armes Psychiques dont est équipée cette figurine.</characteristic>
           </characteristics>
         </profile>
         <profile name="Sorcerer" typeId="c547-1836-d8a-ff4f" typeName="Unit" hidden="false" id="11a0-4128-c564-2a81">
@@ -7582,7 +7582,7 @@ Le jet de Blessure.</characteristic>
         </profile>
         <profile name="Marked by Fate (Psychic)" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="8c56-bbd9-5aa5-21f0">
           <characteristics>
-            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Au début de votre phase de Tir, sélectionnez une unité ennemie visible sur cette figurine ^^**Psyker^^**. Jusqu'à la fin de la phase, chaque fois qu'une figurine dans cette unité fait une attaque qui cible cette unité ennemie, ajoutez 1 au jet de Touche.</characteristic>
+            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Au début de votre phase de Tir, sélectionnez une unité ennemie qui est visible à ce ^^**Psyker^^** figurine. Jusqu’à la fin de la phase, chaque fois qu'une figurine dans cette unité fait une attaque qui cible que cette unité ennemie, Ajoutez 1 au jet de Touche.</characteristic>
           </characteristics>
         </profile>
         <profile name="Sorcerer in Terminator Armour" typeId="c547-1836-d8a-ff4f" typeName="Unit" hidden="false" id="123c-e2d5-50ff-e0d4">
@@ -7793,17 +7793,17 @@ Le jet de Blessure.</characteristic>
         </profile>
         <profile name="Spirit Snare" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="f7ea-e27e-52cc-8dd2">
           <characteristics>
-            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Chaque fois qu'une figurine amie ^^**Thousand Sons Psyker^^** avec la aptitude Cabal of Sorcerers est détruite alors que à 9" ou moins d'une ou plusieurs figurines avec cette aptitude, sélectionnez l'un de ces figurines avec cette aptitude: jusqu'à la fin de la bataille, chaque fois que la figurine sélectionné tente un rituel, ajoutez 1 au résultat du test Psychique (au maximum +2).</characteristic>
+            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Chaque fois qu’une figurine ^^**Thousand Sons Psyker^^** amie dotée de l’aptitude Cabal of Sorcerers est détruite à 9" ou moins d’une ou plusieurs figurines dotées de cette aptitude, sélectionnez l’une de ces figurines : jusqu’à la fin de la bataille, chaque fois que la figurine sélectionnée tente un Rituel, ajoutez 1 au résultat du test Psychique, jusqu’à un maximum de +2.</characteristic>
           </characteristics>
         </profile>
         <profile name="Servile Pawns" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="aa29-af55-b319-e4d6">
           <characteristics>
-            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Tant que cette figurine est à 3" ou moins d'une ou de plusieurs unités ^^**Thousand Sons Infantry^^** amicales, cette figurine a la aptitude Agent solitaire.</characteristic>
+            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Alors que cette figurine se trouve à 3" ou moins d'une ou de plusieurs unités amies ^^**Thousand Sons Infantry^^**, cette figurine a l’aptitude Agent solitaire.</characteristic>
           </characteristics>
         </profile>
         <profile name="Glamour of Tzeentch (Aura, Psychic)" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="1bf0-2da1-b7fb-6fea">
           <characteristics>
-            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Alors qu'une unité ^^**Thousand Sons Infantry^^** conviviale est à 6" ou moins de cette figurine, les figurines de cette unité ont la aptitude Discrétion.</characteristic>
+            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Alors qu'une unité amie ^^**Thousand Sons Infantry^^** est à 6" ou moins de cette figurine, les figurines de cette unité ont l’aptitude Discrétion.</characteristic>
           </characteristics>
         </profile>
       </profiles>
@@ -8044,10 +8044,10 @@ Le jet de Blessure.</characteristic>
         </profile>
         <profile name="Aetherstride (Psychic)" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="d2ea-4457-7ac2-7173">
           <characteristics>
-            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Dans votre phase de Mouvement, quand cette figurine est mis en place sur le champ de bataille en utilisant la aptitude Frappe en profondeur, il peut effectuer un aetherstride. Si c' est le cas:
-- Il peut être installé n'importe où sur le champ de bataille plus que 6" horizontalement loin de toutes les unités ennemies.
-- Jusqu'à la fin du tour, son Dark Blessing a la aptitude [Touches soutenues D3].
-- Jusqu'à la fin du tour, il n'est pas admissible à la déclaration d'une charge.</characteristic>
+            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Durant votre phase de Mouvement, lorsque cette figurine est placée sur le champ de bataille à l’aide de l’aptitude Frappe en profondeur, elle peut effectuer un aetherstride. Si elle le fait :
+- Elle peut être placée n’importe où sur le champ de bataille à plus de 6" horizontalement de toute unité ennemie.
+- Jusqu’à la fin du tour, sa Dark Blessing a l’aptitude [Touches soutenues D3].
+- Jusqu’à la fin du tour, elle n’est pas éligible pour déclarer une charge.</characteristic>
           </characteristics>
         </profile>
         <profile name="Hunter of Souls" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="fee5-696a-3638-597a">
@@ -8289,7 +8289,7 @@ Le jet de Blessure.</characteristic>
       <profiles>
         <profile id="99d6-a18f-4410-862" name="Sauvegarde Invulnérable" hidden="false" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities">
           <characteristics>
-            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Les figurines de cette unité ont un 5+ sauvegarde invulnérable.</characteristic>
+            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Les figurines de cette unité ont une sauvegarde invulnérable de 5+.</characteristic>
           </characteristics>
         </profile>
         <profile name="Tzaangor Enlightened" typeId="c547-1836-d8a-ff4f" typeName="Unit" hidden="false" id="629a-cf87-4b76-7bdf">
@@ -8304,7 +8304,7 @@ Le jet de Blessure.</characteristic>
         </profile>
         <profile name="Prophesied Doom" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="87ae-4eaa-f9b8-465">
           <characteristics>
-            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Chaque fois que cette unité effectue un déplacement de Charge, sélectionnez une unité ennemie dans la Portée d’Engagement de celle-ci, puis lancez un D6 pour chaque figurine de cette unité qui se trouve dans la Portée d’Engagement de cette unité ennemie: pour chaque 4+, cette unité ennemie subit 1 blessure mortelle.</characteristic>
+            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Chaque fois que cette unité fait un mouvement de Charge, sélectionnez une unité ennemie dans Portée d’Engagement de celui-ci, puis lancez un D6 pour chaque figurine dans cette unité qui est dans Portée d’Engagement de cette unité ennemie: pour chaque 4+, que cette unité ennemie souffre 1 blessure mortelle.</characteristic>
           </characteristics>
         </profile>
       </profiles>
@@ -8506,7 +8506,7 @@ Le jet de Blessure.</characteristic>
       <profiles>
         <profile name="Sacrificial Blessing" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="3988-e8af-dc19-633d">
           <characteristics>
-            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Alors que cette figurine mène une unité, dans votre phase de Tir et la phase de Combat, chaque fois que cette unité est sélectionnée pour tirer ou combattre, cette figurine peut utiliser cette aptitude. Si c'est le cas, sélectionnez une figurine Bodyguard dans cette unité; cette figurine Bodyguard est détruit et, jusqu'à la fin de la phase, ajoutez D3 aux caractéristiques d'attaque et de force des armes Psychique équipées par cette figurine.</characteristic>
+            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Alors que cette figurine mène une unité, dans votre phase de Tir et la phase de Combat, chaque fois que cette unité est sélectionnée pour tirer ou se bat, cette figurine peut utiliser cette aptitude. Si c'est le cas, sélectionnez une Bodyguard figurine dans cette unité; cette Bodyguard figurine est détruite et, Jusqu’à la fin de la phase, ajoutez D3 aux caractéristiques Attaques et Force des armes Psychique équipées de cette figurine.</characteristic>
           </characteristics>
         </profile>
         <profile name="Bestial Prophet" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="e6fd-1844-f9b2-6f07">
@@ -8723,12 +8723,12 @@ Le jet de Blessure.</characteristic>
         </profile>
         <profile id="ae1d-1e9-d6d0-1bed" name="Sauvegarde Invulnérable" hidden="false" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities">
           <characteristics>
-            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Les figurines de cette unité ont un 6+ sauvegarde invulnérable.</characteristic>
+            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Les les figurines de cette unité ont un 6+ sauvegarde invulnérable.</characteristic>
           </characteristics>
         </profile>
         <profile name="Ambushing Hunters" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="e13e-5ca3-104a-e002">
           <characteristics>
-            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">À la fin du tour de votre adversaire, si cette unité est plus que 6" horizontalement éloignée de toutes les unités ennemies, vous pouvez retirer cette unité du champ de bataille et la placer dans les réserves stratégiques.</characteristic>
+            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">À la fin du tour de votre adversaire, si cette unité est plus de 6" horizontalement éloignée de toutes les unités ennemies, vous pouvez retirer cette unité du champ de bataille et la placer dans Réserves Stratégiques.</characteristic>
           </characteristics>
         </profile>
       </profiles>
@@ -8798,7 +8798,7 @@ Le jet de Blessure.</characteristic>
               <profiles>
                 <profile name="Brayhorn" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="346-999f-b6cd-5017">
                   <characteristics>
-                    <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Vous pouvez relancer les jets d’Avance et de Charge faits pour l'unité du porteur.</characteristic>
+                    <characteristic name="Description" typeId="9b8f-694b-e5e-b573">vous pouvez relancer Advance et jets de Charge de l’unité du porteur.</characteristic>
                   </characteristics>
                 </profile>
               </profiles>
@@ -8813,7 +8813,7 @@ Le jet de Blessure.</characteristic>
               <profiles>
                 <profile name="Herd banner" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="d021-a400-9df6-2f4c">
                   <characteristics>
-                    <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Alors que l'unité du porteur est dans la plage d'un ou plusieurs marqueurs objectifs que vous contrôlez, améliorez la caractéristique de Commandement des figurines de l'unité du porteur de 1.</characteristic>
+                    <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Alors que l’unité du porteur est à l'intérieur de Portée d'un ou plusieurs pions d’objectif que vous contrôlez, améliorez la caractéristique de Commandement des figurines de l’unité du porteur de 1.</characteristic>
                   </characteristics>
                 </profile>
               </profiles>
@@ -9002,7 +9002,7 @@ Le jet de Blessure.</characteristic>
         </profile>
         <profile name="Interceptor" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="f00b-12b3-9b91-270e">
           <characteristics>
-            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Chaque fois que cette figurine fait une attaque de tir qui vise une unité qui peut FLY, Ajoutez 1 au jet de Touche.</characteristic>
+            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Chaque fois que cette figurine fait une attaque de tir qui cible une unité qui peut FLY, ajoutez 1 au jet de Touche.</characteristic>
           </characteristics>
         </profile>
       </profiles>
@@ -9198,7 +9198,7 @@ Le jet de Blessure.</characteristic>
         </profile>
         <profile name="Bomb Rack" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="d5d-4b76-1713-27a2">
           <characteristics>
-            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Chaque fois que cette figurine termine un mouvement normal, vous pouvez sélectionner une unité ennemie qu'elle a traversée pendant ce mouvement et rouler six D6: pour chaque 3+, cette unité souffre 1 blessure mortelle.</characteristic>
+            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Chaque fois que cette figurine termine un mouvement Normal, vous pouvez sélectionner une unité ennemie qu’elle a traversée durant ce mouvement et lancer six D6 : pour chaque 3+, cette unité subit 1 blessure mortelle.</characteristic>
           </characteristics>
         </profile>
         <profile name="Hell Talon" typeId="c547-1836-d8a-ff4f" typeName="Unit" hidden="false" id="4d1a-98f-c032-123e">
@@ -9412,12 +9412,12 @@ Le jet de Blessure.</characteristic>
         </profile>
         <profile name="Flames of Change (Psychic)" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="a263-5ee5-3b0e-a995">
           <characteristics>
-            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Alors que cette figurine mène une unité, les armes de tir équipées par des figurines dans cette unité ont la aptitude [Ignore le couvert].</characteristic>
+            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Tant que cette figurine mène une unité, les armes de tir dont les figurines de cette unité sont équipées ont l’aptitude [IGNORES COVER].</characteristic>
           </characteristics>
         </profile>
         <profile name="Altered Reality (Psychic)" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="f34f-3af8-12e3-830e">
           <characteristics>
-            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Une fois par tour de bataille, après un jet de Touche, un jet de Blessure ou un jet de sauvegarde est fait pour cette figurine, vous pouvez changer le résultat de ce roll à un 6.</characteristic>
+            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Une fois par round de bataille, après qu’un jet de Touche, un jet de Blessure ou un jet de sauvegarde a été effectué pour cette figurine, vous pouvez remplacer le résultat de ce jet par un 6.</characteristic>
           </characteristics>
         </profile>
       </profiles>
@@ -9842,7 +9842,7 @@ Le jet de Blessure.</characteristic>
         </profile>
         <profile name="Lord of Fate" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="f1a-b354-c96d-6091">
           <characteristics>
-            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Alors que cette figurine mène une unité, les figurines de cette unité ont la aptitude Insensible à la douleur 5+ contre les Blessures Mortelles.</characteristic>
+            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Alors que cette figurine est à la tête d'une unité, les figurines de cette unité ont l’aptitude Insensible à la douleur 5+ contre Blessures Mortelles.</characteristic>
           </characteristics>
         </profile>
         <profile id="4e6e-d72b-8f57-b9ae" name="Lord of Chaos" hidden="false" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities">
@@ -10267,12 +10267,12 @@ Le jet de Blessure.</characteristic>
       <profiles>
         <profile name="Prophetic Sentinels" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="7d35-679f-6f0c-409c">
           <characteristics>
-            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Une fois par tour de bataille, vous pouvez cibler cette unité avec le Fire Overwatch ou le Stratagème d'intervention héroïque pour 0CP.</characteristic>
+            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Une fois par tour de bataille, vous pouvez cibler cette unité avec le Stratagème Fire Overwatch ou Heroic Intervention pour 0CP.</characteristic>
           </characteristics>
         </profile>
         <profile name="Sauvegarde Invulnérable" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="1997-b341-985f-75ea">
           <characteristics>
-            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Les figurines de cette unité ont un 5+ sauvegarde invulnérable.</characteristic>
+            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Les figurines de cette unité ont une sauvegarde invulnérable de 5+.</characteristic>
           </characteristics>
         </profile>
       </profiles>
@@ -10702,7 +10702,7 @@ Le jet de Blessure.</characteristic>
       <profiles>
         <profile name="Sauvegarde Invulnérable" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="a505-7f6c-5fc5-da41">
           <characteristics>
-            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Les figurines de cette unité ont un 5+ sauvegarde invulnérable.</characteristic>
+            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Les figurines de cette unité ont une sauvegarde invulnérable de 5+.</characteristic>
           </characteristics>
         </profile>
         <profile name="Tzaangor Enlightened with Fatecaster greatbows" typeId="c547-1836-d8a-ff4f" typeName="Unit" hidden="false" id="eb4b-5d76-be87-8760">
@@ -10717,7 +10717,7 @@ Le jet de Blessure.</characteristic>
         </profile>
         <profile name="Malign Trickery" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="8ed2-2c9a-0583-bef8">
           <characteristics>
-            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Une fois par tour, lorsqu'une unité ennemie termine un mouvement normal, d'avance ou de Retraite à 9" ou moins de cette unité, si cette unité n'est pas dans la Portée d’Engagement d'une ou plusieurs unités ennemies, elle peut effectuer un mouvement normal jusqu'à D6.</characteristic>
+            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Une fois par tour, lorsqu'une unité ennemie termine une normale, une avance ou une mouvement de Retraite à 9" ou moins de cette unité, si cette unité n'est pas à l'intérieur de Portée d’Engagement d'une ou de plusieurs unités ennemies, elle peut effectuer un mouvement Normal jusqu'à D6".</characteristic>
           </characteristics>
         </profile>
       </profiles>
@@ -10931,7 +10931,7 @@ Le jet de Blessure.</characteristic>
         </profile>
         <profile name="One Head Looks Back (Aura)" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="8d3c-9693-c0c1-e0a3">
           <characteristics>
-            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Chaque fois que votre adversaire cible une unité de son armée avec un Stratagème, si cette unité se trouve à 12" ou moins de cette figurine, augmentez le coût de cette utilisation de ce Stratagème par 1CP.</characteristic>
+            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Chaque fois que votre adversaire cible une unité de son armée avec un Stratagème, si cette unité est à 12" ou moins de cette figurine, augmenter le coût de l'utilisation de ce Stratagème par 1CP.</characteristic>
           </characteristics>
         </profile>
         <profile name="Damaged: 1-7 wounds remaining" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="eaed-b368-af61-f700">
@@ -11076,12 +11076,12 @@ Le jet de Blessure.</characteristic>
         </profile>
         <profile name="Daemon Lord of Tzeentch (Aura)" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="12f3-b721-1932-8ee5">
           <characteristics>
-            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Alors qu'une unité amie ^^**Scintillating Legions^^** est à 6" ou moins de cette figurine, chaque fois qu'une figurine dans cette unité effectue une attaque de tir, ajoutez 1 à la caractéristique de Force de cette attaque.</characteristic>
+            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Alors qu'une unité amicale ^^**Scintillating Legions^^** est à 6" ou moins de cette figurine, chaque fois qu'une figurine dans cette unité fait une attaque de tir, ajoutez 1 à la caractéristique de Force de cette attaque.</characteristic>
           </characteristics>
         </profile>
         <profile name="Master of Magicks (Aura)" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="7f56-a990-4975-a998">
           <characteristics>
-            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Dans votre phase de Tir, sélectionnez l'une des capacités suivantes: [Ignore le couvert], [Touches fatales], [Touches soutenues D3]. Jusqu'à la fin de la phase, le bouchon du changement de cette figurine a cette aptitude.</characteristic>
+            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Dans votre phase de Tir, sélectionnez l'un des éléments suivants aptitudes: [Ignore le couvert], [Touches fatales], [Touches soutenues D3]. Jusqu’à la fin de la phase, cette de la figurine Bolt de Change a cette aptitude.</characteristic>
           </characteristics>
         </profile>
       </profiles>
@@ -11250,7 +11250,7 @@ Le jet de Blessure.</characteristic>
         </profile>
         <profile name="Sauvegarde Invulnérable" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="4872-18b9-de81-9e61">
           <characteristics>
-            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Les figurines de cette unité ont un 4+ sauvegarde invulnérable.</characteristic>
+            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Les figurines de cette unité ont une sauvegarde invulnérable de 4+.</characteristic>
           </characteristics>
         </profile>
         <profile name="Bounding Leaps" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="9efd-122e-423a-7896">
@@ -11419,12 +11419,12 @@ Le jet de Blessure.</characteristic>
         </profile>
         <profile name="Sauvegarde Invulnérable" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="ea36-a5fc-1f64-840f">
           <characteristics>
-            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Les figurines de cette unité ont un 4+ sauvegarde invulnérable.</characteristic>
+            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Les figurines de cette unité ont une sauvegarde invulnérable de 4+.</characteristic>
           </characteristics>
         </profile>
         <profile name="Slashing Dive" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="e8a7-8852-d2e8-5bc2">
           <characteristics>
-            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Dans votre phase de Mouvement, après que cette unité ait terminé un mouvement normal, sélectionnez une unité ennemie par-dessus laquelle cette unité s’est déplacée pendant ce mouvement et lancez un D6 pour chaque figurine de cette unité: pour chaque 4+, cette unité ennemie subit une blessure mortelle 1.</characteristic>
+            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Durant votre phase de Mouvement, après que cette unité termine un mouvement Normal, sélectionnez une unité ennemie qu’elle a survolée durant ce mouvement et lancez un D6 pour chaque figurine de cette unité : pour chaque 4+, cette unité ennemie subit 1 blessure mortelle.</characteristic>
           </characteristics>
         </profile>
       </profiles>
@@ -11582,7 +11582,7 @@ Le jet de Blessure.</characteristic>
           <profiles>
             <profile name="Daemonic Icon" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="6220-ee55-4d6e-9945">
               <characteristics>
-                <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Les figurines dans l'unité du porteur ont une caractéristique de Commandement de 6+</characteristic>
+                <characteristic name="Description" typeId="9b8f-694b-e5e-b573">les figurines de l’unité du porteur ont une caractéristique de Commandement de 6+</characteristic>
               </characteristics>
             </profile>
           </profiles>
@@ -11600,7 +11600,7 @@ Le jet de Blessure.</characteristic>
           <profiles>
             <profile name="Instrument of Chaos" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="2edc-33fb-558d-f991">
               <characteristics>
-                <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Ajoutez 1 aux jets de Charge de l'unité du porteur.</characteristic>
+                <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Ajoutez 1 aux jets de Charge effectués pour l’unité du porteur.</characteristic>
               </characteristics>
             </profile>
           </profiles>
@@ -11613,12 +11613,12 @@ Le jet de Blessure.</characteristic>
       <profiles>
         <profile name="Sauvegarde Invulnérable" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="ddad-09b6-436a-4fb0">
           <characteristics>
-            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Les figurines de cette unité ont un 4+ sauvegarde invulnérable.</characteristic>
+            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Les figurines de cette unité ont une sauvegarde invulnérable de 4+.</characteristic>
           </characteristics>
         </profile>
         <profile name="Split" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="832f-23d6-7457-47af">
           <characteristics>
-            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Chaque fois qu'une figurine ^^**Pink Horror^^** ou ^^**Blue Horror^^** de cette unité est détruite, après que l'unité attaquante ait terminé ses attaques, si cette unité n'est pas détruite, lancez un D6 pour cette figurine. Sur un 4+, si c'était un ^^**Pink Horror^^**, ajoutez 2 figurines ^^**Blue Horror^^** à cette unité et si it était a ^^**Blue Horror^^**, ajoutez une figurine ^^**Brimstone Horror^^** à cette unité.</characteristic>
+            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Chaque fois qu’une figurine ^^**Pink Horror^^** ou ^^**Blue Horror^^** de cette unité est détruite, une fois que l’unité attaquante a fini de résoudre ses attaques, si cette unité n’est pas détruite, lancez un D6 pour cette figurine. Sur 4+, s’il s’agissait d’un ^^**Pink Horror^^**, ajoutez 2 figurines ^^**Blue Horror^^** à cette unité et, s’il s’agissait d’un ^^**Blue Horror^^**, ajoutez une figurine ^^**Brimstone Horror^^** à cette unité.</characteristic>
           </characteristics>
         </profile>
         <profile name="Blue claws (ref. only)" typeId="8a40-4aaa-c780-9046" typeName="Melee Weapons" hidden="false" id="8aaf-74f2-168b-3d44">
@@ -11710,7 +11710,7 @@ _Designer’s Note: Tant que cette unité contient une ou plusieurs figurines ^^
       <profiles>
         <profile name="Sauvegarde Invulnérable" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="defa-ec54-47c4-c54d">
           <characteristics>
-            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Les figurines de cette unité ont un 4+ sauvegarde invulnérable.</characteristic>
+            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Les figurines de cette unité ont une sauvegarde invulnérable de 4+.</characteristic>
           </characteristics>
         </profile>
         <profile name="Split" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="7436-510d-00ad-b01d">
@@ -11720,13 +11720,13 @@ _Designer’s Note: Tant que cette unité contient une ou plusieurs figurines ^^
         </profile>
         <profile name="Sullen Malevolence (Aura)" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="bae3-531a-f3d0-7301">
           <characteristics>
-            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Alors qu'une unité ennemie se trouve à 6" ou moins de cette unité, si cette unité contient une ou plusieurs figurines ^^**Blue Horror^^**, aggraver la caractéristique de Commandement des figurines de cette unité ennemie par 1.</characteristic>
+            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Lorsqu'une unité ennemie se trouve à 6" ou moins de cette unité, si cette unité contient une ou plusieurs ^^**Blue Horror^^** figurines, aggraver la caractéristique de Commandement des figurines de cette unité ennemie par 1.</characteristic>
           </characteristics>
           <alias>Sullen Malevolence</alias>
         </profile>
         <profile name="Exploding Horrors" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="d214-12b7-8993-e6f7">
           <characteristics>
-            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Chaque fois que cette unité est sélectionnée pour combattre, vous pouvez sélectionner une unité ennemie dans sa Portée d’Engagement, puis sélectionner une ou plusieurs figurines ^^**Brimstone Horror^^** dans cette unité. Pour chaque figurine ^^**Brimstone Horror^^** que vous sélectionnez, lancez un D6: sur un 4+, cette figurine est détruit et cette unité ennemie subit une blessure mortelle 1.</characteristic>
+            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Chaque fois que cette unité est sélectionnée pour combattre, vous pouvez sélectionner une unité ennemie à Portée d’Engagement de celle-ci, puis sélectionner une ou plusieurs figurines ^^**Brimstone Horror^^** de cette unité. Pour chaque figurine ^^**Brimstone Horror^^** sélectionnée, lancez un D6 : sur 4+, cette figurine est détruite et cette unité ennemie subit 1 blessure mortelle.</characteristic>
           </characteristics>
         </profile>
         <profile name="Coruscating Yellow flames (ref. only)" typeId="f77d-b953-8fa4-b762" typeName="Ranged Weapons" hidden="false" id="09cf-bc6f-6150-f837">
@@ -11886,12 +11886,12 @@ _Designer’s Note: Tant que cette unité contient une ou plusieurs figurines ^^
         </profile>
         <profile name="Regenerating Monstrosities" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="6635-d4ae-a868-bb0a">
           <characteristics>
-            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Au début de la phase de Commandement de chaque joueur, une figurine dans cette unité récupère jusqu'à 3 PV perdus.</characteristic>
+            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Au début de la phase de Commandement de chaque joueur, une figurine de cette unité récupère jusqu’à 3 PV perdus.</characteristic>
           </characteristics>
         </profile>
         <profile name="Sauvegarde Invulnérable" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="5f65-4fe0-4aaf-66c3">
           <characteristics>
-            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Les figurines de cette unité ont un 5+ sauvegarde invulnérable.</characteristic>
+            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Les figurines de cette unité ont une sauvegarde invulnérable de 5+.</characteristic>
           </characteristics>
         </profile>
       </profiles>
@@ -12074,7 +12074,7 @@ _Designer’s Note: Tant que cette unité contient une ou plusieurs figurines ^^
         </profile>
         <profile name="Rebinding (Psychic)" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="94bd-5ae8-9743-dc80">
           <characteristics>
-            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Dans votre phase de Commandement, si cette figurine conduit une unité, vous pouvez rouler un D6: sur un 1, cette unité souffre de Blessures Mortelles D3, sur un 2+, vous pouvez retourner 1 détruit figurine Bodyguard à cette unité.</characteristic>
+            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Dans votre phase de Commandement, si cette figurine conduit une unité, vous pouvez lancez un D6: sur un 1, cette unité souffre D3 Blessures Mortelles, sur un 2+, vous pouvez retourner 1 détruit Bodyguard figurine à cette unité.</characteristic>
           </characteristics>
         </profile>
         <profile name="Meneur" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="ea79-1a54-105c-e1cb">
@@ -12267,7 +12267,7 @@ _Designer’s Note: Tant que cette unité contient une ou plusieurs figurines ^^
         </profile>
         <profile name="Fate's Guide" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="5ff6-dbb7-2882-ff9e">
           <characteristics>
-            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Si cette unité démarre le jeu dans les Réserves stratégiques, elle peut être mise en place dans l'étape des Renforts de votre premier, deuxième ou troisième tour, indépendamment des règles de la mission. Si cette unité est dans les réserves stratégiques, aux fins de la mise en place de cette unité sur le champ de bataille, traitez le nombre de rondes de bataille actuel comme étant un plus élevé qu'il ne l'est réellement.</characteristic>
+            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Si cette unité commence la partie en Réserves Stratégiques, elle peut être placée à l’étape des Renforts de votre premier, deuxième ou troisième tour, quelles que soient les règles de mission. Si cette unité est en Réserves Stratégiques, pour la placer sur le champ de bataille, considérez que le numéro du round de bataille actuel est supérieur d’une unité à sa valeur réelle.</characteristic>
           </characteristics>
         </profile>
       </profiles>
@@ -12552,12 +12552,12 @@ _Designer’s Note: Tant que cette unité contient une ou plusieurs figurines ^^
         </profile>
         <profile name="Scuttling Walker" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="1502-d2e5-ce58-9017">
           <characteristics>
-            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Chaque fois que cette unité effectue un mouvement normal, d'avance ou de Retraite, elle peut se déplacer à travers des figurines (à l'exclusion des figurines ^^**Titanic**^^) et des caractéristiques du terrain. Lorsqu'il le fait, il peut se déplacer à l'intérieur de la Portée d’Engagement des figurines ennemies, mais ne peuvent pas terminer ce mouvement à l'intérieur de la Portée d’Engagement de ceux-ci, et tout test d'évasion désespérée est automatiquement passé.</characteristic>
+            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Chaque fois que cette unité fait un Normal, Advance ou mouvement de Retraite, elle peut passer par figurines (à l’exclusion de ^^**Titanic**^^ figurines) et éléments de terrain. Lorsqu'il le fait, il peut se déplacer à l'intérieur de Portée d’Engagement de l'ennemi figurines, mais ne peuvent pas terminer ce mouvement à l'intérieur de Portée d’Engagement d'eux, et tout test de Fuite Désespérée est automatiquement passé.</characteristic>
           </characteristics>
         </profile>
         <profile name="Destroyer of Futures" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="4a4f-35c6-b9ee-b9f0">
           <characteristics>
-            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Chaque fois que vous ciblez cette unité avec le Stratagème Fire Overwatch, des coups sont marqués sur des jets de Touche non modifiés de 5+ lors de la résolution de ce Stratagème. Pour chacune de ces attaques qui ciblent une unité ennemi à 9" ou moins d'une ou plusieurs unités ^^**Thousand Sons Psyker**^^ de votre armée, un hit est marqué sur un jet de Touche non modifié de 4+ à la place.</characteristic>
+            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Chaque fois que vous ciblez cette unité avec le Fire Overwatch Stratagème, les hits sont notés sur jets de Touche non modifiés de 5+ lors de la résolution de ce Stratagème. Pour chacun de ces Attaques qui cible une unité ennemie à 9" ou moins d'une ou plusieurs unités ^^**Thousand Sons Psyker**^^ de votre armée, un hit est marqué sur un jet de Touche non modifié de 4+ à la place.</characteristic>
           </characteristics>
         </profile>
       </profiles>
@@ -13031,7 +13031,7 @@ _Designer’s Note: Tant que cette unité contient une ou plusieurs figurines ^^
           <profiles>
             <profile id="be0e-46c1-5942-1ae7" name="Lord of Forbidden Lore" hidden="false" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities">
               <characteristics>
-                <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Chaque fois que le porteur manifeste un rituel, tout en résolvant le rituel, ajoutez 6" à sa plage.</characteristic>
+                <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Chaque fois que le porteur manifeste un rituel, tout en résolvant le rituel, ajoutez 6" à son Portée.</characteristic>
               </characteristics>
             </profile>
           </profiles>
@@ -13051,7 +13051,7 @@ _Designer’s Note: Tant que cette unité contient une ou plusieurs figurines ^^
           <profiles>
             <profile id="b1af-8c27-eb4a-e124" name="Umbralefic Crystal" hidden="false" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities">
               <characteristics>
-                <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Une fois par bataille, dans votre phase de Commandement, si l'unité du porteur n'est pas dans la Portée d’Engagement d'une ou plusieurs unités ennemies, vous pouvez retirer cette unité du champ de bataille et la placer dans les réserves stratégiques. Dans l'étape des renforts de votre prochaine phase de Mouvement, mettez cette unité sur le champ de bataille qui est plus de 9" horizontalement loin de toutes les unités ennemies.</characteristic>
+                <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Une fois par bataille, durant votre phase de Commandement, si l’unité du porteur n’est pas à Portée d’Engagement d’une ou plusieurs unités ennemies, vous pouvez retirer cette unité du champ de bataille et la placer en Réserves Stratégiques. À l’étape des Renforts de votre prochaine phase de Mouvement, replacez cette unité n’importe où sur le champ de bataille à plus de 9" horizontalement de toute unité ennemie.</characteristic>
               </characteristics>
             </profile>
           </profiles>
@@ -13086,7 +13086,7 @@ _Designer’s Note: Tant que cette unité contient une ou plusieurs figurines ^^
           <profiles>
             <profile id="2f15-2068-945f-093d" name="Eldritch Vortex of E'taph" hidden="false" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities">
               <characteristics>
-                <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Ajoutez 1 aux caractéristiques de force et de Dégâts des armes Psychique équipées par le porteur.</characteristic>
+                <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Ajoutez 1 aux caractéristiques de Force et de Dégâts des armes Psychiques dont est équipé le porteur.</characteristic>
               </characteristics>
             </profile>
           </profiles>
@@ -13208,7 +13208,7 @@ _Designer’s Note: Tant que cette unité contient une ou plusieurs figurines ^^
           <profiles>
             <profile name="Arcane Might" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="2f79-0968-0cff-59df">
               <characteristics>
-                <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Ajoutez 1 à la caractéristique de Force des armes Psychique équipées de figurines dans l'unité du porteur. Alors que l’unité du porteur est entièrement à votre armée Flow of Magic, ajoutez 2 à la caractéristique de Force des armes Psychique équipées de figurines dans cette unité à la place.</characteristic>
+                <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Ajoutez 1 à la caractéristique de Force des armes Psychique équipées par les figurines de l’unité du porteur. Alors que l’unité du porteur est entièrement à votre armée Flow of Magic, ajoutez 2 à la caractéristique de Force des armes Psychique équipées des figurines de cette unité à la place.</characteristic>
               </characteristics>
             </profile>
           </profiles>
@@ -13247,7 +13247,7 @@ _Designer’s Note: Tant que cette unité contient une ou plusieurs figurines ^^
           <profiles>
             <profile name="Empowered Manifestation" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="8f5c-41e6-3d38-260f">
               <characteristics>
-                <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Alors que l'unité du porteur est entièrement à votre armée Flow of Magic, vous pouvez ajouter 6" à la gamme de capacités Psychique du porteur qui spécifient une gamme (y compris les rituels) et chaque fois qu'une figurine de l'unité du porteur effectue un test À Risque pour une arme Psychique, vous pouvez relancer le résultat.</characteristic>
+                <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Alors que l’unité du porteur est entièrement à votre armée Flow of Magic, vous pouvez ajouter 6" à la Portée de Psychique aptitudes le porteur qui a spécifier un Portée (y compris les rituels) et chaque fois qu'une figurine dans le porteurs unité prend un À Risque test pour une arme Psychique, vous pouvez relancer le résultat.</characteristic>
               </characteristics>
             </profile>
           </profiles>
@@ -13286,7 +13286,7 @@ _Designer’s Note: Tant que cette unité contient une ou plusieurs figurines ^^
           <profiles>
             <profile name="Empyric Onslaught" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="2f58-bad5-7d6b-bc2c">
               <characteristics>
-                <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Alors que l'unité du porteur est entièrement à votre armée Flow of Magic, ajoutez 3 aux caractéristique d’Attaques des armes Psychique à portée de main équipées par le porteur.</characteristic>
+                <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Alors que l’unité du porteur est entièrement à votre armée Flow of Magic, ajoutez 3 à la caractéristique d’Attaques des armes Psychique à portée de main équipées du porteur.</characteristic>
               </characteristics>
             </profile>
           </profiles>
@@ -13325,7 +13325,7 @@ _Designer’s Note: Tant que cette unité contient une ou plusieurs figurines ^^
           <profiles>
             <profile name="Noctilith Mantle" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="68fe-e60d-0b40-856b">
               <characteristics>
-                <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Alors que l’unité du porteur est sur le champ de bataille, elle est entièrement à votre armée Flow of Magic. Les figurines de cette unité ne peuvent être sélectionnés pour utiliser aucun rituel.</characteristic>
+                <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Alors que l’unité du porteur est sur le champ de bataille, c'est entièrement à votre armée Flow of Magic. les figurines de cette unité ne peuvent être sélectionnées pour utiliser aucun Ritual.</characteristic>
               </characteristics>
             </profile>
           </profiles>
@@ -13388,7 +13388,7 @@ _Designer’s Note: Tant que cette unité contient une ou plusieurs figurines ^^
           <profiles>
             <profile name="Diabolic Servant" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="e4d0-035b-ed2c-24f2">
               <characteristics>
-                <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Alors que le porteur se trouve à 6" ou moins d'une ou de plusieurs unités ^^**Scintillating Legion^^** amicales, chaque fois que le porteur canalise la déformation, ajoutez 1 au résultat du test Psychique.</characteristic>
+                <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Alors que le porteur est à 6" ou moins d'une ou de plusieurs unités amies ^^**Scintillating Legion^^**, chaque fois que le porteur canalise la déformation, ajoutez 1 au résultat du test Psychique.</characteristic>
               </characteristics>
             </profile>
           </profiles>
@@ -13420,7 +13420,7 @@ _Designer’s Note: Tant que cette unité contient une ou plusieurs figurines ^^
           <profiles>
             <profile name="Duplicitous Malediction" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="efd7-7966-3388-c266">
               <characteristics>
-                <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Après que les deux joueurs aient déployé leurs armées, sélectionnez jusqu'à trois unités ^^**Thousand Sons^^** de votre armée et redéployez-les. Lorsque vous le faites, vous pouvez mettre ces unités en Réserve stratégique si vous le souhaitez, quel que soit le nombre d'unités déjà en Réserve stratégique.</characteristic>
+                <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Après que les deux joueurs ont déployé leurs armées, sélectionnez jusqu’à trois unités ^^**Thousand Sons^^** de votre armée et redéployez-les. Ce faisant, vous pouvez placer ces unités en Réserves Stratégiques si vous le souhaitez, quel que soit le nombre d’unités qui s’y trouvent déjà.</characteristic>
               </characteristics>
             </profile>
           </profiles>
@@ -13457,7 +13457,7 @@ _Designer’s Note: Tant que cette unité contient une ou plusieurs figurines ^^
           <profiles>
             <profile name="Tome of True Names" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="7573-3f6e-e5ee-7e55">
               <characteristics>
-                <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Une fois par bataille, au début de n'importe quelle phase, le porteur peut utiliser cette Optimisation. Si c'est le cas, jusqu'à la fin de la phase, le porteur possède un 2+ sauvegarde invulnérable.</characteristic>
+                <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Une fois par bataille, au début de n’importe quelle phase, le porteur peut utiliser cette Optimisation. S’il le fait, jusqu’à la fin de la phase, le porteur a une sauvegarde invulnérable de 2+.</characteristic>
               </characteristics>
             </profile>
           </profiles>
@@ -13494,7 +13494,7 @@ _Designer’s Note: Tant que cette unité contient une ou plusieurs figurines ^^
           <profiles>
             <profile name="Warpmeld Dagger" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="476f-8250-8106-5337">
               <characteristics>
-                <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Chaque fois que le porteur tente un rituel, juste avant de déterminer le résultat du test Psychique, le porteur peut utiliser cette Optimisation. S'il en est ainsi, le porteur subit des Blessures Mortelles D3; s'il n'est pas détruit par conséquent, ajoutez 1 au résultat de l'essai Psychique pour chacune de ces Blessures Mortelles subies.</characteristic>
+                <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Chaque fois que le porteur tente un Rituel, juste avant de déterminer le résultat du test Psychique, le porteur peut utiliser cette Optimisation. S’il le fait, le porteur subit D3 blessures mortelles ; s’il n’est pas détruit en conséquence, ajoutez 1 au résultat de ce test Psychique pour chacune de ces blessures mortelles subies.</characteristic>
               </characteristics>
             </profile>
           </profiles>
@@ -13531,7 +13531,7 @@ _Designer’s Note: Tant que cette unité contient une ou plusieurs figurines ^^
           <profiles>
             <profile name="Diamond of Distortion" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="4824-2448-872a-9974">
               <characteristics>
-                <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Pendant que le porteur mène une unité, chaque fois qu'une attaque cible cette unité, Soustrayez 1 du jet de Touche.</characteristic>
+                <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Alors que le porteur mène une unité, chaque fois qu'une attaque cible cette unité, Soustrayez 1 du jet de Touche.</characteristic>
               </characteristics>
             </profile>
           </profiles>
@@ -13573,7 +13573,7 @@ _Designer’s Note: Tant que cette unité contient une ou plusieurs figurines ^^
           <profiles>
             <profile name="Bray Lord" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="a110-db8c-505a-f515">
               <characteristics>
-                <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Le porteur possède la aptitude Éclaireurs 6". Au cours de l'étape Déclarer les Formations de Bataille, le porteur peut être attaché à une unité ^^**Tzaangors^^**.</characteristic>
+                <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Le porteur a l’aptitude Éclaireurs 6". Pendant le étape Déclarer les Formations de Bataille, le le porteur peut être attaché à une unité ^^**Tzaangors^^**.</characteristic>
               </characteristics>
             </profile>
           </profiles>
@@ -13618,7 +13618,7 @@ _Designer’s Note: Tant que cette unité contient une ou plusieurs figurines ^^
           <profiles>
             <profile name="Flowing Flesh" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="337f-0d81-c111-e376">
               <characteristics>
-                <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Le porteur possède la aptitude Insensible à la douleur 4+ et une caractéristique de PV de 5.</characteristic>
+                <characteristic name="Description" typeId="9b8f-694b-e5e-b573">le porteur a l’aptitude Insensible à la douleur 4+ et une caractéristique de PV de 5.</characteristic>
               </characteristics>
             </profile>
           </profiles>
@@ -13664,7 +13664,7 @@ _Designer’s Note: Tant que cette unité contient une ou plusieurs figurines ^^
           <profiles>
             <profile name="Risen Rubricae" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="46ef-bfdb-567c-974f">
               <characteristics>
-                <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Au début de l'étape Déclarer les Formations de Bataille, sélectionnez soit deux unités ^^**Rubricae Battleline^^** unités de votre armée or une other ^^**Rubricae^^** de votre armée; les figurines dans les unités sélectionnées ont la aptitude Infiltrators.</characteristic>
+                <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Au début de l’étape Déclarer les Formations de Bataille, sélectionnez soit deux unités ^^**Rubricae Battleline^^** de votre armée, soit une autre unité ^^**Rubricae^^** de votre armée ; les figurines des unités sélectionnées ont l’aptitude Infiltrateurs.</characteristic>
               </characteristics>
             </profile>
           </profiles>
@@ -13703,7 +13703,7 @@ _Designer’s Note: Tant que cette unité contient une ou plusieurs figurines ^^
           <profiles>
             <profile name="Arcane Thralls (Aura)" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="6076-be58-f64d-4da3">
               <characteristics>
-                <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Alors qu'une unité sympathique ^^**Rubricae^^** est à 9" ou moins du porteur, vous pouvez relancer les tests d’Ébranlement effectués pour cette unité.</characteristic>
+                <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Alors qu'une unité amicale ^^**Rubricae^^** se trouve à 9" ou moins du porteur, vous pouvez relancer tests d’Ébranlement est prise pour cette unité.</characteristic>
               </characteristics>
             </profile>
           </profiles>
@@ -13742,7 +13742,7 @@ _Designer’s Note: Tant que cette unité contient une ou plusieurs figurines ^^
           <profiles>
             <profile name="Lord of the Rubricae" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="b971-0b07-93c3-8e4b">
               <characteristics>
-                <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Pendant que le porteur mène une unité, chaque fois qu'une figurine ^^**Rubricae^^** dans cette unité fait une attaque, ajoutez 1 au jet de Touche.</characteristic>
+                <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Alors que le porteur mène une unité, chaque fois qu'une ^^**Rubricae^^** figurine dans cette unité fait une attaque, ajoutez 1 au jet de Touche.</characteristic>
               </characteristics>
             </profile>
           </profiles>
@@ -13780,7 +13780,7 @@ _Designer’s Note: Tant que cette unité contient une ou plusieurs figurines ^^
           <profiles>
             <profile name="Stave Abominus" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="7ca5-2e19-88e2-c948">
               <characteristics>
-                <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Les armes de mêlée du porteur ont les capacités [Touches soutenues D3] et [Blessures dévastatrices].</characteristic>
+                <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Les armes de mêlée du porteur ont les aptitudes [Touches soutenues D3] et [Blessures dévastatrices].</characteristic>
               </characteristics>
             </profile>
           </profiles>
@@ -13819,7 +13819,7 @@ _Designer’s Note: Tant que cette unité contient une ou plusieurs figurines ^^
           <profiles>
             <profile name="Warp Syphon" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="2f16-9283-6c74-e826">
               <characteristics>
-                <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Alors que le porteur est à 6" ou moins d'une ou de plusieurs unités ^^**Thousand Sons Vehicle^^** amicales, chaque fois que le porteur Channe la déformation, après avoir roulé ce D6 supplémentaire mais avant de vérifier les doubles ou triples, le porteur peut utiliser cette Optimisation. Si c'est le cas, sélectionnez l'un de ces ^^**Vehicle^^** unités; cette ^^**Vehicle^^** l'unité souffre 1 blessure mortelle et vous pouvez relancer ce D6 supplémentaire.</characteristic>
+                <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Tant que le porteur est à 6" ou moins d’une ou plusieurs unités ^^**Thousand Sons Vehicle^^** amies, chaque fois que le porteur Canalise le Warp, après que vous avez lancé ce D6 supplémentaire mais avant de vérifier les doubles ou triples, le porteur peut utiliser cette Optimisation. S’il le fait, sélectionnez l’une de ces unités ^^**Vehicle^^** ; cette unité ^^**Vehicle^^** subit 1 blessure mortelle et vous pouvez relancer ce D6 supplémentaire.</characteristic>
               </characteristics>
             </profile>
           </profiles>
@@ -13856,7 +13856,7 @@ _Designer’s Note: Tant que cette unité contient une ou plusieurs figurines ^^
           <profiles>
             <profile name="Perplexing Cloak" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="e325-339b-b2a8-347b">
               <characteristics>
-                <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Alors que le porteur se trouve à 3" ou moins d'une ou de plusieurs unités ^^**Thousand Sons Vehicle^^** amicales, le porteur possède la aptitude Agent solitaire.</characteristic>
+                <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Alors que le porteur est à 3" ou moins d'une ou de plusieurs unités ^^**Thousand Sons Vehicle^^** amicales, le porteur a l’aptitude Agent solitaire.</characteristic>
               </characteristics>
             </profile>
           </profiles>
@@ -13895,7 +13895,7 @@ _Designer’s Note: Tant que cette unité contient une ou plusieurs figurines ^^
           <profiles>
             <profile name="Biomechanical Mutation" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="e1ab-3bc4-2bee-0bbb">
               <characteristics>
-                <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Dans votre phase de Commandement, vous pouvez sélectionner une figurine ^^**Thousand Sons Vehicle^^** ami à 6" ou moins de cette figurine. cette figurine récupère jusqu'à D3 PV perdus.</characteristic>
+                <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Dans votre phase de Commandement, vous pouvez sélectionner une ^^**Thousand Sons Vehicle^^** figurine à 6" ou moins de cette figurine. Que figurine récupère jusqu'à D3 PV perdus.</characteristic>
               </characteristics>
             </profile>
           </profiles>
@@ -13934,7 +13934,7 @@ _Designer’s Note: Tant que cette unité contient une ou plusieurs figurines ^^
           <profiles>
             <profile name="Warp-cursed Runemaster" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="f20e-1e81-a63b-f53d">
               <characteristics>
-                <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Alors que le porteur se trouve à 6" ou moins d'une ou de plusieurs unités ^^**Thousand Sons Vehicle^^** amicales, chaque fois que le porteur manifeste un rituel, tout en résolvant ce rituel, ajoutez 6" à sa plage.</characteristic>
+                <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Alors que le porteur est à 6" ou moins d'une ou plusieurs unités ^^**Thousand Sons Vehicle^^** amicales, chaque fois que le porteur manifeste un rituel, tout en résolvant ce rituel, ajoutez 6" à son Portée.</characteristic>
               </characteristics>
             </profile>
           </profiles>
@@ -13985,7 +13985,7 @@ _Designer’s Note: Tant que cette unité contient une ou plusieurs figurines ^^
           <profiles>
             <profile name="Aspiring Magister" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="2304-aa3c-aea4-3857">
               <characteristics>
-                <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Améliorez les caractéristiques de Commandement et de caractéristique de Contrôle d’Objectif de cette figurine par 1 et, si cette figurine est votre **^^Warlord^^** et qu'il réussit son test Plots et Schemes après la bataille, il gagne 1 point Lore supplémentaire.</characteristic>
+                <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Améliorez les caractéristiques de figurine et Contrôle d’Objectif de ce Commandement par 1 et, si cette figurine est votre **^^Warlord^^** et qu'il passe son test de Plots et Schemes après la bataille, il gagne 1 point Lore supplémentaire.</characteristic>
               </characteristics>
             </profile>
           </profiles>
@@ -14038,7 +14038,7 @@ _Designer’s Note: Tant que cette unité contient une ou plusieurs figurines ^^
           <profiles>
             <profile name="Enthralling Soul-mark" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="bd8f-9ac9-06a3-dfea">
               <characteristics>
-                <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Au début de la bataille, sélectionnez une unité de l'armée de votre adversaire. Chaque fois qu'une figurine de cette unité effectue une attaque de mêlée qui cible cette unité, cette attaque a les capacités **[SUSTAINED HITS 1]** et **[PRECISION]** et, si cette unité ennemie est détruite par une attaque de mêlée effectuée par cette unité, à la fin de la bataille, vous pouvez sélectionner une figurine **^^Thousand Sons Character^^** de votre armée de la Croisade. cette figurine gagne 1 Arcana point.</characteristic>
+                <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Au début de la bataille, sélectionnez une unité de l’armée de votre adversaire. Chaque fois qu’une figurine de cette unité effectue une attaque de mêlée qui cible cette unité, cette attaque a les aptitudes **[SUSTAINED HITS 1]** et **[PRECISION]** et, si cette unité ennemie est détruite par une attaque de mêlée effectuée par cette unité, à la fin de la bataille, vous pouvez sélectionner une figurine **^^Thousand Sons Character^^** de votre armée de Croisade. Cette figurine gagne 1 point Arcana.</characteristic>
               </characteristics>
             </profile>
           </profiles>
@@ -14074,7 +14074,7 @@ _Designer’s Note: Tant que cette unité contient une ou plusieurs figurines ^^
           <profiles>
             <profile name="Inhuman Savagery" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="ba09-05d6-3d24-7122">
               <characteristics>
-                <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Chaque fois que cette unité effectue un déplacement de Charge, jusqu'à la fin du tour, ajoutez 1 aux caractéristiques d'attaque et de force des armes de mêlée équipées de figurines de cette unité.</characteristic>
+                <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Chaque fois que cette unité fait un mouvement de Charge, jusqu'à la fin du tour, ajoutez 1 aux caractéristiques Attaques et Force des armes de mêlée dont sont équipées les figurines de cette unité.</characteristic>
               </characteristics>
             </profile>
           </profiles>
@@ -14106,7 +14106,7 @@ _Designer’s Note: Tant que cette unité contient une ou plusieurs figurines ^^
           <profiles>
             <profile name="Mutated Beyond Reason" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="34d5-ad5b-a3b7-21b2">
               <characteristics>
-                <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Au début de la phase de Combat, chaque unité ennemi dans la Portée d’Engagement d'une ou de plusieurs unités avec ce trait de combat doit passer un test d’Ébranlement, en soustrayant 1 de ce test.</characteristic>
+                <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Au début de la phase de Combat, chaque unité ennemie à Portée d’Engagement d’une ou plusieurs unités ayant ce Trait de Bataille doit effectuer un test d’Ébranlement, en soustrayant 1 à ce test.</characteristic>
               </characteristics>
             </profile>
           </profiles>
@@ -14138,7 +14138,7 @@ _Designer’s Note: Tant que cette unité contient une ou plusieurs figurines ^^
           <profiles>
             <profile name="Dark Runes" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="c510-761d-3e49-c0b4">
               <characteristics>
-                <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Les figurines **^^Vehicle^^** de cette unité ont un 5+ sauvegarde invulnérable contre les attaques de tir. Les figurines **^^Daemon^^** et **^^Sekhetar Robot^^** de cette unité disposent plutôt d'un 4+ sauvegarde invulnérable contre les attaques de tir à la place.</characteristic>
+                <characteristic name="Description" typeId="9b8f-694b-e5e-b573">**^^Vehicle^^** les figurines de cette unité ont une 5+ sauvegarde invulnérable contre les attaques de tir. **^^Daemon^^** et **^^Sekhetar Robot^^** les figurines de cette unité ont une 4+ sauvegarde invulnérable contre les attaques de tir à la place.</characteristic>
               </characteristics>
             </profile>
           </profiles>
@@ -14170,7 +14170,7 @@ _Designer’s Note: Tant que cette unité contient une ou plusieurs figurines ^^
           <profiles>
             <profile name="Mutated Hull" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="2138-7ead-e0c7-c854">
               <characteristics>
-                <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Au début de votre phase de Commandement, une figurine **^^Vehicle^^** dans cette unité récupère jusqu'à D3 PV perdus. En outre, vous pouvez relancer les tests hors d'action ratés pour cette unité.</characteristic>
+                <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Au début de votre phase de Commandement, une figurine **^^Vehicle^^** de cette unité récupère jusqu’à D3 PV perdus. De plus, vous pouvez relancer les tests Hors de Combat ratés pour cette unité.</characteristic>
               </characteristics>
             </profile>
           </profiles>
@@ -14202,7 +14202,7 @@ _Designer’s Note: Tant que cette unité contient une ou plusieurs figurines ^^
           <profiles>
             <profile name="Spirit of Change" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="d27e-a6b4-0401-385b">
               <characteristics>
-                <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Chaque fois que cette unité est sélectionnée pour tirer ou combattre, vous pouvez relancer un jet de Touche, un jet de Blessure ou un jet de Dégâts fait pour une attaque faite par une figurine **^^Vehicle^^** dans cette unité tout en résolvant ces attaques.</characteristic>
+                <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Chaque fois que cette unité est sélectionnée pour tirer ou se bat, vous pouvez relancer un jet de Touche, un jet de Blessure ou un jet de Dégâts effectué pour une attaque effectuée par une **^^Vehicle^^** figurine dans cette unité tout en résolvant ces Attaques.</characteristic>
               </characteristics>
             </profile>
           </profiles>
@@ -14234,7 +14234,7 @@ _Designer’s Note: Tant que cette unité contient une ou plusieurs figurines ^^
           <profiles>
             <profile name="Recurrent Rebinding" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="0e96-c0db-ab00-214f">
               <characteristics>
-                <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Les figurines de cette unité ont la aptitude Insensible à la douleur 6+ contre les Blessures Mortelles et les attaques avec une caractéristique de Dégâts non modifiée de 1. Alors qu'une figurine **^^Character^^** dirige cette unité, ce **^^Character^^** a la aptitude Insensible à la douleur 5+.</characteristic>
+                <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Les figurines de cette unité ont l’aptitude Insensible à la Douleur 6+ contre les blessures mortelles et les attaques ayant une caractéristique de Dégâts non modifiée de 1. Tant qu’une figurine **^^Character^^** mène cette unité, cette figurine **^^Character^^** a l’aptitude Insensible à la Douleur 5+.</characteristic>
               </characteristics>
             </profile>
           </profiles>
@@ -14269,7 +14269,7 @@ _Designer’s Note: Tant que cette unité contient une ou plusieurs figurines ^^
           <profiles>
             <profile name="Wrath of the Wronged" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="ebbc-de17-4221-db8d">
               <characteristics>
-                <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Bien qu'il y ait une ou plusieurs figurines **^^Psyker^^** dans cette unité, chaque fois qu'une figurine dans cette unité effectue une attaque, ajoutez 1 au jet de Touche si cette unité est inférieure à son Effectif Initial, et ajoutez 1 au jet de Blessure si cette unité est inférieure à la Demi-effectif.</characteristic>
+                <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Bien qu'il y ait un ou plusieurs **^^Psyker^^** les figurines de cette unité, chaque fois qu'une figurine dans cette unité fait une attaque, ajoutez 1 au jet de Touche si cette unité est en dessous de son Effectif Initial, et ajoutez 1 au jet de Blessure aussi bien si cette unité est En Dessous de son Demi-effectif.</characteristic>
               </characteristics>
             </profile>
           </profiles>
@@ -14301,7 +14301,7 @@ _Designer’s Note: Tant que cette unité contient une ou plusieurs figurines ^^
           <profiles>
             <profile name="Relentless Purpose" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="fcb4-0481-e935-5236">
               <characteristics>
-                <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Les armes de tir équipées par des figurines de cette unité ont la aptitude **[ASSAULT]**.</characteristic>
+                <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Les armes de tir dont les figurines de cette unité sont équipées ont l’aptitude **[ASSAULT]**.</characteristic>
               </characteristics>
             </profile>
           </profiles>
@@ -14352,7 +14352,7 @@ _Designer’s Note: Tant que cette unité contient une ou plusieurs figurines ^^
           <profiles>
             <profile name="Occult Apparitions" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="e004-43ce-19ae-404c">
               <characteristics>
-                <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Bien qu'il y ait une ou plusieurs figurines **^^Psyker^^** dans cette unité, cette unité est admissible à tirer et à déclarer une charge à un tour dans lequel a Battu en Retraite.</characteristic>
+                <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Tant que cette unité contient une ou plusieurs figurines **^^Psyker^^**, cette unité est éligible pour tirer et déclarer une charge durant un tour où elle a Battu en Retraite.</characteristic>
               </characteristics>
             </profile>
           </profiles>
@@ -14416,7 +14416,7 @@ _Designer’s Note: Tant que cette unité contient une ou plusieurs figurines ^^
           <profiles>
             <profile name="Fated Emergence" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="6fa2-8457-5a1e-87a5">
               <characteristics>
-                <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Les figurines de cette unité ont le Frappe en profondeur. Si cette unité a le mot-clé **^^Terminator^^**, vous pouvez cibler cette unité avec le Rapid Ingress Stratagème pour 0CP.</characteristic>
+                <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Les figurines de cette unité ont l’aptitude Frappe en Profondeur. Si cette unité a le mot-clé **^^Terminator^^**, vous pouvez cibler cette unité avec le Stratagème Rapid Ingress pour 0CP.</characteristic>
               </characteristics>
             </profile>
           </profiles>
@@ -14451,7 +14451,7 @@ _Designer’s Note: Tant que cette unité contient une ou plusieurs figurines ^^
           <profiles>
             <profile name="Malefic Surge (Psychic)" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="1a85-7c7e-c4a3-4a38">
               <characteristics>
-                <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Chaque fois que cette figurine fait une attaque Psychique, ajoutez 1 au jet de Blessure.</characteristic>
+                <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Chaque fois que cette figurine effectue une attaque Psychique, ajoutez 1 au jet de Blessure.</characteristic>
               </characteristics>
             </profile>
           </profiles>
@@ -14483,7 +14483,7 @@ _Designer’s Note: Tant que cette unité contient une ou plusieurs figurines ^^
           <profiles>
             <profile name="Eye of Tzeentch" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="a020-e5e9-ddb4-4fe9">
               <characteristics>
-                <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Chaque fois que cette figurine est marqué pour la grandeur, il gagne 5XP plutôt que 3XP. En outre, à chaque fois que cette figurine obtient un Boon de Tzeentch, vous pouvez relancer le résultat lorsque vous déterminez quel Boon est gagné.</characteristic>
+                <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Chaque fois que cette figurine est Marked for Greatness, elle gagne 5XP au lieu de 3XP. De plus, chaque fois que cette figurine gagne un Boon of Tzeentch, vous pouvez relancer le résultat lorsque vous déterminez quel Boon est gagné.</characteristic>
               </characteristics>
             </profile>
           </profiles>
@@ -14498,9 +14498,9 @@ _Designer’s Note: Tant que cette unité contient une ou plusieurs figurines ^^
               <profiles>
                 <profile name="Prism of Echoes" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="fd3f-63fe-e0eb-a310">
                   <characteristics>
-                    <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Une fois par bataille, au début de toute phase, le porteur peut utiliser cette relique de la Croisade. Si c'est le cas, jusqu'à la fin de la phase, le porteur a la aptitude suivante:
+                    <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Une fois par bataille, au début de toute phase, le porteur peut utiliser cette relique de la Croisade. Si c'est le cas, Jusqu’à la fin de la phase, le porteur a le résultat suivant aptitude:
 
-**Prism of Echoes (Aura):** Alors qu'une unité amie **^^Rubricae^^** se trouve à 6" ou moins du porteur, ajoutez 1 aux caractéristique d’Attaques des armes équipées de figurines non **^^Psyker^^** dans cette unité.</characteristic>
+**Prism of Echoes (Aura):** Alors qu'une unité amicale **^^Rubricae^^** se trouve à 6" ou moins du porteur, ajoutez 1 à la caractéristique d’Attaques d'armes équipées de non-**^^Psyker^^** les figurines de cette unité.</characteristic>
                   </characteristics>
                 </profile>
               </profiles>
@@ -14546,7 +14546,7 @@ _Designer’s Note: Tant que cette unité contient une ou plusieurs figurines ^^
               <profiles>
                 <profile name="Helm of the Daemon's Eye" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="5795-ee11-9e02-3d1a">
                   <characteristics>
-                    <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Les unités ennemies qui sont placées sur le champ de bataille depuis les réserves ne peuvent pas être placées à 12" ou moins du porteur.</characteristic>
+                    <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Les unités ennemies placées sur le champ de bataille depuis les Réserves ne peuvent pas être placées à 12" ou moins du porteur.</characteristic>
                   </characteristics>
                 </profile>
               </profiles>
@@ -14592,7 +14592,7 @@ _Designer’s Note: Tant que cette unité contient une ou plusieurs figurines ^^
               <profiles>
                 <profile name="Hourglass of Manat" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="ab8b-84e4-43e5-d36a">
                   <characteristics>
-                    <characteristic name="Description" typeId="9b8f-694b-e5e-b573">La première fois que le porteur est détruit, lancez un D6 à la fin de la phase. Sur une 2+, remettre le porteur sur le champ de bataille, le plus près possible de l'endroit où il a été détruit. et Pas à la portée des unités ennemies., avec 3 PV restants.</characteristic>
+                    <characteristic name="Description" typeId="9b8f-694b-e5e-b573">La première fois que le porteur est détruit, lancez un D6 à la fin de la phase. Sur un 2+, mettez le porteur en arrière sur le champ de bataille, le plus près possible de l'endroit où il a été détruit et pas à l'intérieur de Portée d’Engagement de toute unité ennemie, avec 3 PV restants.</characteristic>
                   </characteristics>
                 </profile>
               </profiles>
@@ -14689,7 +14689,7 @@ _Designer’s Note: Tant que cette unité contient une ou plusieurs figurines ^^
               <profiles>
                 <profile name="Pentakairic Armour" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="e2e7-9443-2907-7aaf">
                   <characteristics>
-                    <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Le porteur possède une caractéristique Save de 2+ et une 4+ sauvegarde invulnérable.</characteristic>
+                    <characteristic name="Description" typeId="9b8f-694b-e5e-b573">le porteur dispose d'une caractéristique de Sauvegarde de 2+ et d'un 4+ sauvegarde invulnérable.</characteristic>
                   </characteristics>
                 </profile>
               </profiles>
@@ -14741,7 +14741,7 @@ _Designer’s Note: Tant que cette unité contient une ou plusieurs figurines ^^
               <profiles>
                 <profile name="Perfidious Tome" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="304d-2b28-ed3f-94f7">
                   <characteristics>
-                    <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Chaque fois que le porteur canalise la Warp, avant de rouler le D6 supplémentaire, le porteur peut utiliser cette relique de la Croisade. S'il le fait, effectuez un test d’Ébranlement pour le porteur: si ce test est passé, le porteur gagne 1 Lore point et que le D6 supplémentaire est automatiquement un 6 non modifié; sinon le rituel tenté échoue.</characteristic>
+                    <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Chaque fois que le porteur canalise la Warp, avant de rouler le D6 supplémentaire, le porteur peut utiliser cette relique de la Croisade. Si c'est le cas, prenez un test d’Ébranlement pour le porteur: si ce test est passé, le porteur gagne 1 Lore point et que le D6 supplémentaire est automatiquement un 6 non modifié; sinon le rituel tenté échoue.</characteristic>
                   </characteristics>
                 </profile>
               </profiles>
@@ -14777,7 +14777,7 @@ _Designer’s Note: Tant que cette unité contient une ou plusieurs figurines ^^
               <profiles>
                 <profile name="Seer's Bane" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="0565-9380-d815-7314">
                   <characteristics>
-                    <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Chaque fois que le porteur effectue une attaque avec une arme de mêlée Psychique, améliorez la force, la Pénétration d’Armure et les caractéristiques de Dégâts de cette attaque de 1. Chaque fois que le porteur effectue une attaque avec une arme de mêlée Psychique qui cible une unité **^^Psyker^^**, améliorez les caractéristiques de force, Pénétration d’Armure et Dégâts de cette attaque par 2 à la place.</characteristic>
+                    <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Chaque fois que le porteur effectue une attaque avec une arme de mêlée Psychique, améliorez de 1 les caractéristiques de Force, de Pénétration d’Armure et de Dégâts de cette attaque. Chaque fois que le porteur effectue une attaque avec une arme de mêlée Psychique qui cible une unité **^^Psyker^^**, améliorez de 2 ces caractéristiques à la place.</characteristic>
                   </characteristics>
                 </profile>
               </profiles>
@@ -14899,7 +14899,7 @@ _Designer’s Note: Tant que cette unité contient une ou plusieurs figurines ^^
                   <profiles>
                     <profile name="Malevolence" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="78ae-01d8-7206-d6c0" noindex="false">
                       <characteristics>
-                        <characteristic name="Description" typeId="9b8f-694b-e5e-b573">À la fin de la bataille, cette figurine gagne 1XP et 1 Lore ou point Arcana (votre choix) pour chaque Agenda différente que votre adversaire a sélectionnée au début de la bataille dont une ou plusieurs de leurs unités ont ensuite gagné XP.</characteristic>
+                        <characteristic name="Description" typeId="9b8f-694b-e5e-b573">À la fin de la bataille, cette figurine gagne 1XP et 1 point Lore ou Arcana (selon votre choix) pour chaque Agenda différent que votre adversaire a sélectionné au début de la bataille et grâce auquel une ou plusieurs de ses unités ont ensuite gagné de l’XP.</characteristic>
                       </characteristics>
                     </profile>
                   </profiles>
@@ -14992,7 +14992,7 @@ _Designer’s Note: Tant que cette unité contient une ou plusieurs figurines ^^
                   <profiles>
                     <profile name="Exalted Mutation (Instant)" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="f67d-169a-1ab5-5e0e">
                       <characteristics>
-                        <characteristic name="Description" typeId="9b8f-694b-e5e-b573">cette figurine obtient un Boon de Tzeentch de votre choix, ou deux Boons déterminés au hasard de Tzeentch.</characteristic>
+                        <characteristic name="Description" typeId="9b8f-694b-e5e-b573">cette figurine gagne un Boon de Tzeentch de votre choix, ou deux Boons déterminés au hasard de Tzeentch.</characteristic>
                       </characteristics>
                     </profile>
                   </profiles>
@@ -15016,7 +15016,7 @@ _Designer’s Note: Tant que cette unité contient une ou plusieurs figurines ^^
                   <profiles>
                     <profile name="Touch of Vicissitude" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="25d7-5293-3a46-569d">
                       <characteristics>
-                        <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Chaque fois que l'unité de cette figurine est sélectionnée pour combattre, sélectionnez l'une des capacités suivantes: **[LETHAL HITS]**; **[SUSTAINED HITS 1]**. Jusqu'à la fin de la phase, les armes de mêlée de cette figurine ont la aptitude sélectionnée.</characteristic>
+                        <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Chaque fois que l’unité de cette figurine est sélectionnée pour combattre, sélectionnez l’une des aptitudes suivantes : **[Touches fatales]** ; **[Touches soutenues 1]**. Jusqu’à la fin de la phase, les armes de mêlée de cette figurine ont l’aptitude sélectionnée.</characteristic>
                       </characteristics>
                     </profile>
                   </profiles>
@@ -15152,7 +15152,7 @@ _Designer’s Note: Tant que cette unité contient une ou plusieurs figurines ^^
                   <profiles>
                     <profile name="Guided by the Whispers" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="bb97-38dd-af9d-bdd6">
                       <characteristics>
-                        <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Dans l'étape Sélectionnez les bénédictions de la Croisade, lancez un D6 pour chaque figurine de votre armée de la Croisade avec cette récompense: si un ou plusieurs de ces résultats est un 4+, vous pouvez sélectionner un bénédiction de la Croisade supplémentaire cette bataille.</characteristic>
+                        <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Dans l'étape Sélectionnez les bénédictions de la croisade, lancez un D6 pour chaque figurine de votre armée de la croisade avec cette récompense: si un ou plusieurs de ces résultats est un 4+, vous pouvez sélectionner une bénédiction de la croisade supplémentaire cette bataille.</characteristic>
                       </characteristics>
                     </profile>
                   </profiles>
@@ -15182,7 +15182,7 @@ _Designer’s Note: Tant que cette unité contient une ou plusieurs figurines ^^
                   <profiles>
                     <profile name="Time Flux (Instant)" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="6d5b-e97d-bb1e-cac6">
                       <characteristics>
-                        <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Vous pouvez soit supprimer toutes les cicatrices de bataille de cette figurine, ou sélectionner une autre unité ^^**Thousand Sons**^^ sur votre commande &amp;
+                        <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Vous pouvez soit supprimer toutes les cicatrices de bataille que la figurine a, soit sélectionner une autre unité ^^**Thousand Sons**^^ sur votre commande &amp;
 de la bataille et retirer une cicatrice de bataille de cette unité.</characteristic>
                       </characteristics>
                     </profile>
@@ -15207,7 +15207,7 @@ de la bataille et retirer une cicatrice de bataille de cette unité.</characteri
                   <profiles>
                     <profile name="Psyncopation" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="6933-a450-71f8-46c1">
                       <characteristics>
-                        <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Vous pouvez relancer les jets d’Avance et de Charge faits pour l'unité de cette figurine.</characteristic>
+                        <characteristic name="Description" typeId="9b8f-694b-e5e-b573">vous pouvez relancer Advance et jets de Charge effectués pour l’unité de cette figurine.</characteristic>
                       </characteristics>
                     </profile>
                   </profiles>
@@ -15245,7 +15245,7 @@ de la bataille et retirer une cicatrice de bataille de cette unité.</characteri
                   <profiles>
                     <profile name="Immaterial Echo (Psychic)" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="6723-9b74-85a2-7faa">
                       <characteristics>
-                        <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Chaque fois que cette figurine manifeste le Rituel Temporal Surge, si le résultat du test Psychique pour ce Rituel était 12+, vous pouvez sélectionner deux unités **^^Thousand Sons^^** amicales qui ne sont pas dans la Portée d’Engagement d'une ou de plusieurs unités ennemies et à 24" ou moins et visibles à cette figurine, au lieu d'une. Chacune de ces unités peut faire un déplacement normal jusqu'à 6". Jusqu'à la fin du tour, aucune de ces unités n'est admissible à déclarer une charge.</characteristic>
+                        <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Chaque fois que cette figurine manifeste le Rituel Temporal Surge, si le résultat du test Psychique de ce Rituel était de 12+, vous pouvez sélectionner deux unités **^^Thousand Sons^^** amies qui ne sont pas à Portée d’Engagement d’une ou plusieurs unités ennemies, qui sont à 24" ou moins de cette figurine et visibles de celle-ci, au lieu d’une seule. Chacune de ces unités peut effectuer un mouvement Normal de jusqu’à 6". Jusqu’à la fin du tour, aucune de ces unités n’est éligible pour déclarer une charge.</characteristic>
                       </characteristics>
                     </profile>
                   </profiles>
@@ -15337,7 +15337,7 @@ de la bataille et retirer une cicatrice de bataille de cette unité.</characteri
                   <profiles>
                     <profile name="Ulterior Ruse" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="a84f-0724-5b50-a6c5">
                       <characteristics>
-                        <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Dans l'étape Sélectionner les agendas, lancez un D6 pour chaque figurine de votre armée de la Croisade avec cette récompense: si un ou plusieurs de ces résultats est un 2+, vous pouvez sélectionner un **^^Thousand Sons^^** Agenda supplémentaire cette bataille; si un ou plusieurs de ces résultats est un 5+, vous pouvez sélectionner deux autres **^^Thousand Sons^^** Agendas à la place, cette bataille.</characteristic>
+                        <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Dans l'étape Sélection d'Agendas, lancez un D6 pour chaque figurine de votre armée de Croisade avec cette récompense: si un ou plusieurs de ces résultats est un 2+, vous pouvez sélectionner un **^^Thousand Sons^^** Agenda supplémentaire cette bataille; si un ou plusieurs de ces résultats est un 5+, vous pouvez sélectionner deux autres **^^Thousand Sons^^** Agendas à la place, cette bataille.</characteristic>
                       </characteristics>
                     </profile>
                   </profiles>
@@ -15367,7 +15367,7 @@ de la bataille et retirer une cicatrice de bataille de cette unité.</characteri
                   <profiles>
                     <profile name="Opus Arcana (Instant)" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="e111-1e23-5c0c-60f3">
                       <characteristics>
-                        <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Vous pouvez déduire les points de lore de 1 ou 2 à partir de cette figurine: si vous déduisez 1, cette figurine gagne des points d'arcana D3; si vous déduisez 2, cette figurine gagne des points d'arcana 3.</characteristic>
+                        <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Vous pouvez déduire 1 ou 2 points Lore de cette figurine: si vous déduisez 1, cette figurine gagne D3 points Arcana; si vous déduisez 2, cette figurine gagne 3 points Arcana.</characteristic>
                       </characteristics>
                     </profile>
                   </profiles>
@@ -15452,7 +15452,7 @@ de la bataille et retirer une cicatrice de bataille de cette unité.</characteri
                   <profiles>
                     <profile name="Ardent Scholar" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="53a1-4b50-8d5e-d817">
                       <characteristics>
-                        <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Chaque fois que cette figurine est marqué pour la grandeur, lancez un D6: sur un 1-2, cette figurine gagne un point Lore 1; sur un 3-5, cette figurine gagne des points Lore D3; sur un 6, cette figurine gagne des points Lore D3 et D3XP.</characteristic>
+                        <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Chaque fois que cette figurine est marqué pour la grandeur, lancez un D6: sur un 1-2, cette figurine gagne 1 point Lore; sur un 3-5, cette figurine gagne D3 points Lore; sur un 6, cette figurine gagne D3 points Lore et D3XP.</characteristic>
                       </characteristics>
                     </profile>
                   </profiles>
@@ -15490,7 +15490,7 @@ de la bataille et retirer une cicatrice de bataille de cette unité.</characteri
                   <profiles>
                     <profile name="Sacrificial Grimoire (Instant)" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="e2c2-839a-c530-f80a">
                       <characteristics>
-                        <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Vous pouvez déduire les points 1 ou 2 Arcana de cette figurine: si vous déduisez 1, cette figurine gagne des points D3 Lore; si vous déduisez 2, cette figurine gagne des points 3 Lore.</characteristic>
+                        <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Vous pouvez déduire 1 ou 2 points Arcana de cette figurine: si vous déduisez 1, cette figurine gagne D3 points Lore; si vous déduisez 2, cette figurine gagne 3 points Lore.</characteristic>
                       </characteristics>
                     </profile>
                   </profiles>
@@ -15521,7 +15521,7 @@ de la bataille et retirer une cicatrice de bataille de cette unité.</characteri
                   <profiles>
                     <profile name="Thief of Enigmas (Psychic)" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="23a3-2f58-81f5-7be2">
                       <characteristics>
-                        <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Chaque fois que cette figurine manifeste le Rituel de Ruine de Destiny, si le résultat du test Psychique pour ce Rituel était 13+, vous pouvez sélectionner deux unités ennemies qui sont à 24" ou moins et visibles à cette figurine, au lieu d'une. Jusqu'à la fin de la phase, chaque fois qu'une unité amicale **^^Thousand Sons^^** fait une attaque qui cible l'une de ces unités, vous pouvez relancer le jet de Touche.</characteristic>
+                        <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Chaque fois que cette figurine manifeste le Rituel Destiny's Ruin, si le résultat du test Psychique de ce Rituel était de 13+, vous pouvez sélectionner deux unités ennemies à 24" ou moins de cette figurine et visibles de celle-ci, au lieu d’une seule. Jusqu’à la fin de la phase, chaque fois qu’une unité **^^Thousand Sons^^** amie effectue une attaque qui cible l’une de ces unités, vous pouvez relancer le jet de Touche.</characteristic>
                       </characteristics>
                     </profile>
                   </profiles>
@@ -15629,7 +15629,7 @@ de la bataille et retirer une cicatrice de bataille de cette unité.</characteri
                   <profiles>
                     <profile name="Fickle Revelation" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="e4c0-8fa3-10d4-53e4">
                       <characteristics>
-                        <characteristic name="Description" typeId="9b8f-694b-e5e-b573">À la fin de l'étape Déclarer les Formations de Bataille, sélectionnez une caractéristique de bataille **^^Thousand Sons^^** (cela peut être une caractéristique de bataille **^^Rubricae^^**, même si cette figurine n'a pas ce mot-clé, mais il doit autrement être une caractéristique de bataille cette figurine peut avoir et ne peut pas être une caractéristique de bataille cette figurine, ou l'unité à laquelle il est attaché, a déjà). Jusqu'à la fin de la bataille, cette figurine (et toute unité à laquelle il est attaché) est considéré comme ayant cette caractéristique de bataille.</characteristic>
+                        <characteristic name="Description" typeId="9b8f-694b-e5e-b573">À la fin de l’étape Déclarer les Formations de Bataille, sélectionnez un Trait de Bataille **^^Thousand Sons^^** (il peut s’agir d’un Trait de Bataille **^^Rubricae^^**, même si cette figurine n’a pas ce mot-clé, mais il doit par ailleurs s’agir d’un Trait de Bataille que cette figurine peut avoir et que ni cette figurine ni l’unité à laquelle elle est attachée ne possède déjà). Jusqu’à la fin de la bataille, cette figurine, et toute unité à laquelle elle est attachée, est considérée comme ayant ce Trait de Bataille.</characteristic>
                       </characteristics>
                     </profile>
                   </profiles>
@@ -15683,7 +15683,7 @@ de la bataille et retirer une cicatrice de bataille de cette unité.</characteri
                   <profiles>
                     <profile name="Misinformator (Battle Honour)" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="192b-da91-e299-6c39">
                       <characteristics>
-                        <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Après que les deux joueurs aient déployé leurs armées, vous pouvez sélectionner une unité **^^Thousand Sons^^** de votre armée de la Croisade et la redéployer. Lorsque vous le faites, vous pouvez configurer cette unité dans les réserves stratégiques si vous le souhaitez, quel que soit le nombre d'unités déjà dans les réserves stratégiques.</characteristic>
+                        <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Après que les deux joueurs ont déployé leurs armées, vous pouvez sélectionner une unité **^^Thousand Sons^^** de votre armée de Croisade et la redéployer. Ce faisant, vous pouvez placer cette unité en Réserves Stratégiques si vous le souhaitez, quel que soit le nombre d’unités qui s’y trouvent déjà.</characteristic>
                       </characteristics>
                     </profile>
                   </profiles>
@@ -15790,7 +15790,7 @@ de la bataille et retirer une cicatrice de bataille de cette unité.</characteri
           <profiles>
             <profile name="Crystalline Body" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="4ba1-6a12-c652-c10c">
               <characteristics>
-                <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Chaque fois qu'une attaque de tir est attribuée à cette figurine, sur un jet de sauvegarde non modifié de 6, l'unité attaquante subit une blessure mortelle 1 après avoir terminé ses attaques.</characteristic>
+                <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Chaque fois qu’une attaque de tir est allouée à cette figurine, sur un jet de sauvegarde non modifié de 6, l’unité attaquante subit 1 blessure mortelle après avoir fini de résoudre ses attaques.</characteristic>
               </characteristics>
             </profile>
           </profiles>
@@ -15817,7 +15817,7 @@ de la bataille et retirer une cicatrice de bataille de cette unité.</characteri
           <profiles>
             <profile name="Warp Strider" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="0b69-2b0c-0d7a-dba2">
               <characteristics>
-                <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Ajoutez 1" à la caractéristique de mouvement des figurines de l'unité de cette figurine, et chaque fois qu'une figurine de l'unité de cette figurine fait un déplacement normal, avancé, Retraite ou charge, il peut se déplacer horizontalement à travers des figurines et des caractéristiques de terrain. Si cette figurine est entièrement à la zone de déploiement de votre adversaire à la fin de la bataille, lancez un D6: sur un 4+, cette figurine gagne un point 1 Arcana.</characteristic>
+                <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Ajoutez 1" à caractéristique de mouvement des figurines de l’unité de cette figurine, et chaque fois qu'une figurine dans l'unité de cette figurine fait un Normal, Avance, Battre en Retraite ou mouvement de Charge, il peut se déplacer horizontalement à travers figurines et éléments de terrain. Si cette figurine est entièrement à zone de déploiement de votre adversaire à la fin de la bataille, lancez un D6: sur un 4+, cette figurine gagne 1 point Arcana.</characteristic>
               </characteristics>
             </profile>
           </profiles>
@@ -15887,7 +15887,7 @@ de la bataille et retirer une cicatrice de bataille de cette unité.</characteri
           <profiles>
             <profile name="Flesh Sigils" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="b7f8-7460-1eb0-739b">
               <characteristics>
-                <characteristic name="Description" typeId="9b8f-694b-e5e-b573">cette figurine a la aptitude Feel Not Pain 5+ (si cette figurine est une figurine **^^Chaos Spawn^^**, il a la aptitude Insensible à la douleur 4+ à la place).</characteristic>
+                <characteristic name="Description" typeId="9b8f-694b-e5e-b573">cette figurine a l’aptitude Feel Not Pain 5+ (si cette figurine est une **^^Chaos Spawn^^** figurine, il a l’aptitude Insensible à la douleur 4+ à la place).</characteristic>
               </characteristics>
             </profile>
           </profiles>
@@ -15930,7 +15930,7 @@ de la bataille et retirer une cicatrice de bataille de cette unité.</characteri
           <profiles>
             <profile name="Flame-wreathed" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="162d-775a-686f-cc9a">
               <characteristics>
-                <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Chaque fois que cette figurine fait une attaque au corps à corps, vous pouvez relancer le jet de Touche.</characteristic>
+                <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Chaque fois que cette figurine fait une attaque de mêlée, vous pouvez relancer le jet de Touche.</characteristic>
               </characteristics>
             </profile>
           </profiles>
@@ -15957,7 +15957,7 @@ de la bataille et retirer une cicatrice de bataille de cette unité.</characteri
           <profiles>
             <profile name="Raptorial Talons" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="497e-7004-42af-82a9">
               <characteristics>
-                <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Améliorez les caractéristiques de force et de Pénétration d’Armure des armes de mêlée de cette figurine de 1.</characteristic>
+                <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Améliorez les caractéristiques de Force et de Pénétration d’Armure de cette figurine d’armes de mêlée de 1.</characteristic>
               </characteristics>
             </profile>
           </profiles>
@@ -16005,7 +16005,7 @@ de la bataille et retirer une cicatrice de bataille de cette unité.</characteri
           <profiles>
             <profile name="Immaterial Edge" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="2829-667b-d347-8af8">
               <characteristics>
-                <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Les armes de mêlée de cette figurine ont la aptitude **[DEVASTATING WOUNDS]**.</characteristic>
+                <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Les armes de mêlée de cette figurine ont l’aptitude **[DEVASTATING WOUNDS]**.</characteristic>
               </characteristics>
             </profile>
           </profiles>
@@ -16048,7 +16048,7 @@ de la bataille et retirer une cicatrice de bataille de cette unité.</characteri
           <profiles>
             <profile name="Temporal Distortion" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="9a04-d002-72db-2c21">
               <characteristics>
-                <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Ajoutez 1 aux jets d’Avance et de Charge effectués pour l'unité de cette figurine.</characteristic>
+                <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Ajoutez 1 à Advance et jets de Charge effectués pour l'unité de cette figurine.</characteristic>
               </characteristics>
             </profile>
           </profiles>
@@ -16075,7 +16075,7 @@ de la bataille et retirer une cicatrice de bataille de cette unité.</characteri
           <profiles>
             <profile name="Aura of Illusion" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="dab7-b3ab-0501-9090">
               <characteristics>
-                <characteristic name="Description" typeId="9b8f-694b-e5e-b573">cette figurine a la aptitude Discrétion, et alors que cette figurine mène une unité, chaque fois qu'une attaque de tir vise cette unité, si la figurine attaquant n'est pas à 12" ou moins, Soustrayez 1 du jet de Touche.</characteristic>
+                <characteristic name="Description" typeId="9b8f-694b-e5e-b573">cette figurine a l’aptitude Discrétion, et alors que cette figurine est à la tête d'une unité, chaque fois qu'une attaque de tir cible cette unité, si l'attaquant figurine n'est pas à 12" ou moins, Soustrayez 1 du jet de Touche.</characteristic>
               </characteristics>
             </profile>
           </profiles>
@@ -16145,7 +16145,7 @@ de la bataille et retirer une cicatrice de bataille de cette unité.</characteri
           <profiles>
             <profile name="Arcane Shield (Psychic)" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="c0b1-66f4-7596-782e">
               <characteristics>
-                <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Alors que cette figurine mène une unité, les figurines de cette unité ont un 4+ sauvegarde invulnérable.</characteristic>
+                <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Alors que cette figurine est à la tête d'une unité, les figurines de cette unité ont un 4+ sauvegarde invulnérable.</characteristic>
               </characteristics>
             </profile>
           </profiles>
@@ -16176,7 +16176,7 @@ de la bataille et retirer une cicatrice de bataille de cette unité.</characteri
           <profiles>
             <profile name="Binding Tendrils (Psychic)" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="02f9-a3cc-6533-2b63">
               <characteristics>
-                <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Dans votre phase de Tir, après que cette figurine ait tiré, sélectionnez une unité ennemie ^^**Infantry**^^ touchée par une ou plusieurs de ces attaques faites avec une arme Psychique. Jusqu'au début de votre tour suivant, cette unité est piégée. Pendant qu'une unité est piégée, Soustrayez 2 de sa caractéristique de mouvement et soustraire 2 des jets de Charge faits pour elle.</characteristic>
+                <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Durant votre phase de Tir, après que cette figurine a tiré, sélectionnez une unité ^^**Infantry**^^ ennemie touchée par une ou plusieurs de ces attaques effectuées avec une arme Psychique. Jusqu’au début de votre prochain tour, cette unité est prise au piège. Tant qu’une unité est prise au piège, soustrayez 2 à sa caractéristique de Mouvement et 2 aux jets de Charge effectués pour elle.</characteristic>
               </characteristics>
             </profile>
           </profiles>
@@ -16192,7 +16192,7 @@ de la bataille et retirer une cicatrice de bataille de cette unité.</characteri
           <profiles>
             <profile name="Empyric Guidance (Psychic)" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="d8e2-0293-e08a-9c1f">
               <characteristics>
-                <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Les armes équipées de figurines de cette unité ont la aptitude [Touches fatales].</characteristic>
+                <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Les armes dont les figurines de cette unité sont équipées ont l’aptitude [LETHAL HITS].</characteristic>
               </characteristics>
             </profile>
           </profiles>
@@ -16201,7 +16201,7 @@ de la bataille et retirer une cicatrice de bataille de cette unité.</characteri
           <profiles>
             <profile name="Malefic Will" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="b63e-3e8a-aec4-eeda">
               <characteristics>
-                <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Les armes équipées de figurines de cette unité ont la aptitude [Touches soutenues 1].</characteristic>
+                <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Les armes dont les figurines de cette unité sont équipées ont l’aptitude [SUSTAINED HITS 1].</characteristic>
               </characteristics>
             </profile>
           </profiles>
@@ -16225,7 +16225,7 @@ de la bataille et retirer une cicatrice de bataille de cette unité.</characteri
           <profiles>
             <profile name="Marked by Fate (Psychic)" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="6749-100f-5502-f40e">
               <characteristics>
-                <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Dans votre phase de Tir, après que cette figurine ait tiré, sélectionnez une unité ennemie touchée par une ou plusieurs de ces attaques effectuées par une arme Psychique. Jusqu'à la fin de la phase, chaque fois qu'une unité amicale ^^**Thousand Sons**^^ fait une attaque qui cible cette unité ennemie, ajoutez 1 à la jets de Touche.</characteristic>
+                <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Durant votre phase de Tir, après que cette figurine a tiré, sélectionnez une unité ennemie touchée par une ou plusieurs de ces attaques effectuées avec une arme Psychique. Jusqu’à la fin de la phase, chaque fois qu’une unité ^^**Thousand Sons**^^ amie effectue une attaque qui cible cette unité ennemie, ajoutez 1 au jet de Touche.</characteristic>
               </characteristics>
             </profile>
           </profiles>
@@ -16234,7 +16234,7 @@ de la bataille et retirer une cicatrice de bataille de cette unité.</characteri
           <profiles>
             <profile name="Swathed in Illusion" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="eae4-acb2-012d-8184">
               <characteristics>
-                <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Cette unité ne peut être sélectionnée comme cible d'une attaque de tir que si la figurine d'attaque se trouve à 18" ou moins.</characteristic>
+                <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Cette unité ne peut être sélectionnée comme cible d’une attaque de tir que si la figurine attaquante est à 18" ou moins.</characteristic>
               </characteristics>
             </profile>
           </profiles>
@@ -16250,7 +16250,7 @@ de la bataille et retirer une cicatrice de bataille de cette unité.</characteri
           <profiles>
             <profile name="Twisted Sorceries (Psychic)" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="c4b3-5588-5fcf-82a0">
               <characteristics>
-                <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Une fois par bataille, dans la phase de Tir ou la phase de Combat, cette figurine peut utiliser cette aptitude. Si tel est le cas, jusqu'à la fin de la phase, Améliorez la force et les caractéristique d’Attaques des armes Psychique équipées de cette figurine de 3.</characteristic>
+                <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Une fois par bataille, durant votre phase de Tir ou la phase de Combat, cette figurine peut utiliser cette aptitude. Si elle le fait, jusqu’à la fin de la phase, améliorez de 3 la caractéristique de Force et la caractéristique d’Attaques des armes Psychiques dont est équipée cette figurine.</characteristic>
               </characteristics>
             </profile>
           </profiles>
@@ -17110,7 +17110,7 @@ de la bataille et retirer une cicatrice de bataille de cette unité.</characteri
     </profile>
     <profile name="Empyric Guidance (Psychic)" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="660e-ccb9-65e7-19f">
       <characteristics>
-        <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Alors que cette figurine mène une unité, les armes équipées de figurines dans cette unité ont la aptitude [Touches fatales].</characteristic>
+        <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Alors que cette figurine mène une unité, les armes équipées des figurines de cette unité ont l’aptitude [Touches fatales].</characteristic>
       </characteristics>
     </profile>
     <profile name="Helbrute fist" typeId="8a40-4aaa-c780-9046" typeName="Melee Weapons" hidden="false" id="11fe-6806-ec6e-9017">
@@ -17126,7 +17126,7 @@ de la bataille et retirer une cicatrice de bataille de cette unité.</characteri
     </profile>
     <profile name="Daemonic Illusions (Aura)" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="c3f6-4cf4-3904-1dd6">
       <characteristics>
-        <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Alors qu'une unité ^^**Thousand Sons Psyker^^** est à 6" ou moins et visible à cette unité, les figurines de cette unité ont une 4+ sauvegarde invulnérable contre les attaques de tir.</characteristic>
+        <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Tant qu’une unité ^^**Thousand Sons Psyker^^** amie est à 6" ou moins de cette unité et visible de celle-ci, les figurines de cette unité ont une sauvegarde invulnérable de 4+ contre les attaques de tir.</characteristic>
       </characteristics>
       <modifiers>
         <modifier type="set" value="true" field="hidden">
@@ -17138,7 +17138,7 @@ de la bataille et retirer une cicatrice de bataille de cette unité.</characteri
     </profile>
     <profile name="Mortal Sorcery (Aura)" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="a4ad-ef25-1ec4-4b1f">
       <characteristics>
-        <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Alors qu'une unité amicale ^^**Scintillating Legions Psyker^^** unité de votre armée est à 6" ou moins de et visible à cette unité, cette ^^**Scintillating Legions^^** a la aptitude Cabal of Sorcerers.</characteristic>
+        <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Alors qu'une unité amicale ^^**Scintillating Legions Psyker^^** unité de votre armée est à 6" ou moins de et visible à cette unité, cette ^^**Scintillating Legions^^** possède l'unité Cabal of Sorcerers aptitude.</characteristic>
       </characteristics>
       <modifiers>
         <modifier type="set" value="true" field="hidden">
@@ -17161,19 +17161,19 @@ de la bataille et retirer une cicatrice de bataille de cette unité.</characteri
     </profile>
   </sharedProfiles>
   <catalogueLinks>
-    <catalogueLink id="7b27-3584-396b-809f" name="Chaos - Chaos Knights Library" targetId="2a4a-abd1-67f0-3a80" type="catalogue" importRootEntries="true" />
-    <catalogueLink type="catalogue" name="Library - Astartes Heresy Legends" id="55ac-b174-dce8-62bd" targetId="ff25-972c-b995-3383" importRootEntries="true" />
-    <catalogueLink type="catalogue" name="Library - Titans" id="69c5-79ee-a124-6e18" targetId="701a-a154-08d0-db72" importRootEntries="true" />
-    <catalogueLink type="catalogue" name="Unaligned Forces" id="bbbf-cec6-c1e7-6f4e" targetId="61f1-ce52-d345-5048" importRootEntries="true" />
-    <catalogueLink type="catalogue" name="Chaos - Daemons Library" id="0d85-8ba2-9137-5a7e" targetId="b886-a6f4-c733-74ed" />
+    <catalogueLink id="7b27-3584-396b-809f" name="Chaos - Chaos Knights Library" targetId="8106-aad2-918a-9ac" type="catalogue" importRootEntries="true" />
+    <catalogueLink type="catalogue" name="Library - Astartes Heresy Legends" id="55ac-b174-dce8-62bd" targetId="ac3b-689c-4ad4-70cb" importRootEntries="true" />
+    <catalogueLink type="catalogue" name="Library - Titans" id="69c5-79ee-a124-6e18" targetId="7481-280e-b55e-7867" importRootEntries="true" />
+    <catalogueLink type="catalogue" name="Unaligned Forces" id="bbbf-cec6-c1e7-6f4e" targetId="581a-46b9-5b86-44b7" importRootEntries="true" />
+    <catalogueLink type="catalogue" name="Chaos - Daemons Library" id="0d85-8ba2-9137-5a7e" targetId="b45c-af22-788a-dfd6" />
   </catalogueLinks>
   <sharedRules>
     <rule name="Cabal of Sorcerers" id="b280-6105-5358-ba2e" hidden="false">
-      <description>Si votre faction militaire est ^^**Thousand Sons^^**, au début de votre phase de Tir, une ou plusieurs figurines de votre armée avec cette aptitude peuvent tenter des rituels. Pour ce faire, sélectionnez une figurine de votre armée avec cette aptitude qui n'a pas encore tenté un rituel ce tour et sélectionnez un rituel aucune figurine de votre armée n'a tenté de manifester ce tour, puis prenez un test Psychique en suivant la séquence ci-dessous:
+      <description>Si la Faction d’Armée de votre armée est ^^**Thousand Sons^^**, au début de votre phase de Tir, une ou plusieurs figurines de votre armée dotées de cette aptitude peuvent tenter des Rituels. Pour ce faire, sélectionnez une figurine de votre armée dotée de cette aptitude qui n’a pas encore tenté de Rituel à ce tour, puis sélectionnez un Rituel qu’aucune figurine de votre armée n’a tenté de manifester à ce tour. Effectuez ensuite un test Psychique en suivant la séquence ci-dessous :
 
-1. Roll 2D6
-2. Optionnellement, lancez un D6 supplémentaire (Channel le Warp). Ensuite, si un ou plusieurs doubles ou triples ont été roulés pendant ce test, l'unité de cette figurine souffre de Blessures Mortelles D3.
-3. Si cette figurine n'est pas détruit, le total combiné de tous les dés roulés au cours de ce test est le résultat du test Psychique. Si cela équivaut à ou dépasse la valeur de Charge Warp du Rituel tenté, cette figurine manifeste ce Rituel et vous résolvez ses effets.</description>
+1. Lancez 2D6
+2. Vous pouvez lancer un D6 supplémentaire (Canaliser le Warp). Ensuite, si un ou plusieurs doubles ou triples ont été obtenus lors de ce test, l’unité de cette figurine subit D3 blessures mortelles.
+3. Si cette figurine n’est pas détruite, le total cumulé de tous les dés lancés lors de ce test est le résultat du test Psychique. Si ce résultat est supérieur ou égal à la valeur de Charge Warp du Rituel tenté, cette figurine manifeste ce Rituel et vous en résolvez les effets.</description>
     </rule>
   </sharedRules>
 </catalogue>

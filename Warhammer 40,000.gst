@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<gameSystem xmlns="http://www.battlescribe.net/schema/gameSystemSchema" id="sys-0e45-705d-f6bc-806a" name="Warhammer 40,000 10e — Français" revision="119" battleScribeVersion="2.03" type="gameSystem">
+<gameSystem xmlns="http://www.battlescribe.net/schema/gameSystemSchema" id="sys-352e-adc2-7639-d6a9" name="Warhammer 40,000 10th Edition" revision="119" battleScribeVersion="2.03" type="gameSystem">
   <publications>
     <publication id="48fc-15aa-b307-9443" name="10th Edition Core Rules" shortName="10th Ed Core" />
-    <publication name="GitHub — Version française" hidden="false" id="8db3-575d-91b-47f8" shortName="TOISON-T/wh40k-10e-fr" publisherUrl="https://github.com/TOISON-T/wh40k-10e-fr" />
+    <publication name="Github" hidden="false" id="8db3-575d-91b-47f8" shortName="BSData/wh40k-10e" publisherUrl="https://github.com/BSData/wh40k-10e" />
   </publications>
   <costTypes>
     <costType id="51b2-306e-1021-d207" name="pts" defaultCostLimit="-1" hidden="false">
@@ -135,7 +135,7 @@
           <conditionGroups>
             <conditionGroup type="and">
               <conditions>
-                <condition type="instanceOf" value="1" field="selections" scope="primary-catalogue" childId="7b3b-4dea-9367-98b1" shared="true" includeChildSelections="false" />
+                <condition type="instanceOf" value="1" field="selections" scope="primary-catalogue" childId="3bdf-a114-5035-c6ac" shared="true" includeChildSelections="false" />
                 <condition type="greaterThan" value="0" field="selections" scope="force" childId="d62d-db22-4893-4bc0" shared="true" includeChildSelections="true" />
               </conditions>
             </conditionGroup>
@@ -146,7 +146,7 @@
             <conditionGroup type="and">
               <conditions>
                 <condition type="greaterThan" value="0" field="selections" scope="force" childId="baf8-997f-e323-a090" shared="true" includeChildSelections="true" />
-                <condition type="instanceOf" value="1" field="selections" scope="primary-catalogue" childId="7b3b-4dea-9367-98b1" shared="true" includeChildSelections="false" />
+                <condition type="instanceOf" value="1" field="selections" scope="primary-catalogue" childId="3bdf-a114-5035-c6ac" shared="true" includeChildSelections="false" />
               </conditions>
             </conditionGroup>
           </conditionGroups>
@@ -156,7 +156,7 @@
             <conditionGroup type="and">
               <conditions>
                 <condition type="greaterThan" value="0" field="selections" scope="force" childId="4204-82d0-908c-a62a" shared="true" includeChildSelections="true" />
-                <condition type="instanceOf" value="1" field="selections" scope="primary-catalogue" childId="7b3b-4dea-9367-98b1" shared="true" includeChildSelections="false" />
+                <condition type="instanceOf" value="1" field="selections" scope="primary-catalogue" childId="3bdf-a114-5035-c6ac" shared="true" includeChildSelections="false" />
               </conditions>
             </conditionGroup>
           </conditionGroups>
@@ -172,7 +172,7 @@
           <conditionGroups>
             <conditionGroup type="and">
               <conditions>
-                <condition type="notInstanceOf" value="1" field="selections" scope="primary-catalogue" childId="465d-8de3-dc72-4c79" shared="true" includeChildSelections="false" />
+                <condition type="notInstanceOf" value="1" field="selections" scope="primary-catalogue" childId="38de-521f-1ce0-44a0" shared="true" includeChildSelections="false" />
                 <condition type="greaterThan" value="0" field="selections" scope="force" childId="d62d-db22-4893-4bc0" shared="true" includeChildSelections="true" />
               </conditions>
             </conditionGroup>
@@ -182,7 +182,7 @@
           <conditionGroups>
             <conditionGroup type="and">
               <conditions>
-                <condition type="notInstanceOf" value="1" field="selections" scope="primary-catalogue" childId="465d-8de3-dc72-4c79" shared="true" includeChildSelections="false" />
+                <condition type="notInstanceOf" value="1" field="selections" scope="primary-catalogue" childId="38de-521f-1ce0-44a0" shared="true" includeChildSelections="false" />
                 <condition type="greaterThan" value="0" field="selections" scope="force" childId="baf8-997f-e323-a090" shared="true" includeChildSelections="true" />
               </conditions>
             </conditionGroup>
@@ -192,7 +192,7 @@
           <conditionGroups>
             <conditionGroup type="and">
               <conditions>
-                <condition type="notInstanceOf" value="1" field="selections" scope="primary-catalogue" childId="465d-8de3-dc72-4c79" shared="true" includeChildSelections="false" />
+                <condition type="notInstanceOf" value="1" field="selections" scope="primary-catalogue" childId="38de-521f-1ce0-44a0" shared="true" includeChildSelections="false" />
                 <condition type="greaterThan" value="0" field="selections" scope="force" childId="4204-82d0-908c-a62a" shared="true" includeChildSelections="true" />
               </conditions>
             </conditionGroup>
@@ -208,7 +208,7 @@
           <conditionGroups>
             <conditionGroup type="and">
               <conditions>
-                <condition type="notInstanceOf" value="1" field="selections" scope="primary-catalogue" childId="8956-4e3b-cf7d-86d7" shared="true" includeChildForces="false" />
+                <condition type="notInstanceOf" value="1" field="selections" scope="primary-catalogue" childId="25dd-7aa0-6bf4-f2d5" shared="true" includeChildForces="false" />
                 <condition type="equalTo" value="0" field="selections" scope="force" childId="4c40-ab9-54af-d290" shared="true" />
                 <condition type="notInstanceOf" value="0" field="selections" scope="force" childId="cac3-71d1-ea4b-795d" shared="true" />
               </conditions>
@@ -230,7 +230,7 @@
           <conditionGroups>
             <conditionGroup type="and">
               <conditions>
-                <condition type="notInstanceOf" value="1" field="selections" scope="primary-catalogue" childId="8956-4e3b-cf7d-86d7" shared="true" includeChildForces="false" />
+                <condition type="notInstanceOf" value="1" field="selections" scope="primary-catalogue" childId="25dd-7aa0-6bf4-f2d5" shared="true" includeChildForces="false" />
                 <condition type="atLeast" value="1" field="selections" scope="force" childId="4c40-ab9-54af-d290" shared="true" />
                 <condition type="notInstanceOf" value="0" field="selections" scope="force" childId="cac3-71d1-ea4b-795d" shared="true" />
               </conditions>
@@ -252,7 +252,7 @@
           <conditionGroups>
             <conditionGroup type="and">
               <conditions>
-                <condition type="notInstanceOf" value="1" field="selections" scope="primary-catalogue" childId="8956-4e3b-cf7d-86d7" shared="true" includeChildForces="false" />
+                <condition type="notInstanceOf" value="1" field="selections" scope="primary-catalogue" childId="25dd-7aa0-6bf4-f2d5" shared="true" includeChildForces="false" />
                 <condition type="atLeast" value="1" field="selections" scope="force" childId="4c40-ab9-54af-d290" shared="true" />
                 <condition type="notInstanceOf" value="0" field="selections" scope="force" childId="cac3-71d1-ea4b-795d" shared="true" />
               </conditions>
@@ -284,7 +284,7 @@
           <conditionGroups>
             <conditionGroup type="and">
               <conditions>
-                <condition type="notInstanceOf" value="1" field="selections" scope="primary-catalogue" childId="62a9-45cc-b749-3616" shared="true" />
+                <condition type="notInstanceOf" value="1" field="selections" scope="primary-catalogue" childId="c8da-e875-58f7-f6d6" shared="true" />
                 <condition type="greaterThan" value="0" field="selections" scope="force" childId="d62d-db22-4893-4bc0" shared="true" includeChildSelections="true" />
               </conditions>
             </conditionGroup>
@@ -294,7 +294,7 @@
           <conditionGroups>
             <conditionGroup type="and">
               <conditions>
-                <condition type="notInstanceOf" value="1" field="selections" scope="primary-catalogue" childId="62a9-45cc-b749-3616" shared="true" />
+                <condition type="notInstanceOf" value="1" field="selections" scope="primary-catalogue" childId="c8da-e875-58f7-f6d6" shared="true" />
                 <condition type="greaterThan" value="0" field="selections" scope="force" childId="baf8-997f-e323-a090" shared="true" includeChildSelections="true" />
               </conditions>
             </conditionGroup>
@@ -304,7 +304,7 @@
           <conditionGroups>
             <conditionGroup type="and">
               <conditions>
-                <condition type="notInstanceOf" value="1" field="selections" scope="primary-catalogue" childId="62a9-45cc-b749-3616" shared="true" />
+                <condition type="notInstanceOf" value="1" field="selections" scope="primary-catalogue" childId="c8da-e875-58f7-f6d6" shared="true" />
                 <condition type="greaterThan" value="0" field="selections" scope="force" childId="4204-82d0-908c-a62a" shared="true" includeChildSelections="true" />
               </conditions>
             </conditionGroup>
@@ -323,7 +323,7 @@
           <conditionGroups>
             <conditionGroup type="and">
               <conditions>
-                <condition type="instanceOf" value="1" field="selections" scope="primary-catalogue" childId="62a9-45cc-b749-3616" shared="true" childName="Chaos - Chaos Space Marines" />
+                <condition type="instanceOf" value="1" field="selections" scope="primary-catalogue" childId="c8da-e875-58f7-f6d6" shared="true" childName="Chaos - Chaos Space Marines" />
                 <condition type="greaterThan" value="0" field="selections" scope="force" childId="d62d-db22-4893-4bc0" shared="true" includeChildSelections="true" />
               </conditions>
             </conditionGroup>
@@ -333,7 +333,7 @@
           <conditionGroups>
             <conditionGroup type="and">
               <conditions>
-                <condition type="instanceOf" value="1" field="selections" scope="primary-catalogue" childId="62a9-45cc-b749-3616" shared="true" childName="Chaos - Chaos Space Marines" />
+                <condition type="instanceOf" value="1" field="selections" scope="primary-catalogue" childId="c8da-e875-58f7-f6d6" shared="true" childName="Chaos - Chaos Space Marines" />
                 <condition type="greaterThan" value="0" field="selections" scope="force" childId="baf8-997f-e323-a090" shared="true" includeChildSelections="true" />
               </conditions>
             </conditionGroup>
@@ -343,7 +343,7 @@
           <conditionGroups>
             <conditionGroup type="and">
               <conditions>
-                <condition type="instanceOf" value="1" field="selections" scope="primary-catalogue" childId="62a9-45cc-b749-3616" shared="true" childName="Chaos - Chaos Space Marines" />
+                <condition type="instanceOf" value="1" field="selections" scope="primary-catalogue" childId="c8da-e875-58f7-f6d6" shared="true" childName="Chaos - Chaos Space Marines" />
                 <condition type="greaterThan" value="0" field="selections" scope="force" childId="4204-82d0-908c-a62a" shared="true" includeChildSelections="true" />
               </conditions>
             </conditionGroup>
@@ -362,7 +362,7 @@
           <conditionGroups>
             <conditionGroup type="and">
               <conditions>
-                <condition type="instanceOf" value="1" field="selections" scope="primary-catalogue" childId="8956-4e3b-cf7d-86d7" shared="true" includeChildSelections="true" includeChildForces="true" />
+                <condition type="instanceOf" value="1" field="selections" scope="primary-catalogue" childId="25dd-7aa0-6bf4-f2d5" shared="true" includeChildSelections="true" includeChildForces="true" />
                 <condition type="greaterThan" value="0" field="selections" scope="force" childId="d62d-db22-4893-4bc0" shared="true" includeChildSelections="true" includeChildForces="true" />
                 <condition type="notInstanceOf" value="1" field="selections" scope="force" childId="cac3-71d1-ea4b-795d" shared="true" includeChildSelections="true" />
               </conditions>
@@ -374,7 +374,7 @@
             <conditionGroup type="and">
               <conditions>
                 <condition type="greaterThan" value="0" field="selections" scope="force" childId="baf8-997f-e323-a090" shared="true" includeChildSelections="true" includeChildForces="true" />
-                <condition type="instanceOf" value="1" field="selections" scope="primary-catalogue" childId="8956-4e3b-cf7d-86d7" shared="true" includeChildSelections="true" includeChildForces="true" />
+                <condition type="instanceOf" value="1" field="selections" scope="primary-catalogue" childId="25dd-7aa0-6bf4-f2d5" shared="true" includeChildSelections="true" includeChildForces="true" />
                 <condition type="notInstanceOf" value="1" field="selections" scope="force" childId="cac3-71d1-ea4b-795d" shared="true" includeChildSelections="true" />
               </conditions>
             </conditionGroup>
@@ -385,7 +385,7 @@
             <conditionGroup type="and">
               <conditions>
                 <condition type="greaterThan" value="0" field="selections" scope="force" childId="4204-82d0-908c-a62a" shared="true" includeChildSelections="true" includeChildForces="true" />
-                <condition type="instanceOf" value="1" field="selections" scope="primary-catalogue" childId="8956-4e3b-cf7d-86d7" shared="true" includeChildSelections="true" includeChildForces="true" />
+                <condition type="instanceOf" value="1" field="selections" scope="primary-catalogue" childId="25dd-7aa0-6bf4-f2d5" shared="true" includeChildSelections="true" includeChildForces="true" />
                 <condition type="notInstanceOf" value="1" field="selections" scope="force" childId="cac3-71d1-ea4b-795d" shared="true" includeChildSelections="true" />
               </conditions>
             </conditionGroup>
@@ -442,7 +442,7 @@
           <conditionGroups>
             <conditionGroup type="and">
               <conditions>
-                <condition type="instanceOf" value="1" field="selections" scope="primary-catalogue" childId="7b3b-4dea-9367-98b1" shared="true" includeChildSelections="true" includeChildForces="true" />
+                <condition type="instanceOf" value="1" field="selections" scope="primary-catalogue" childId="3bdf-a114-5035-c6ac" shared="true" includeChildSelections="true" includeChildForces="true" />
                 <condition type="greaterThan" value="0" field="selections" scope="force" childId="d62d-db22-4893-4bc0" shared="true" includeChildSelections="true" includeChildForces="true" />
               </conditions>
             </conditionGroup>
@@ -453,7 +453,7 @@
             <conditionGroup type="and">
               <conditions>
                 <condition type="greaterThan" value="0" field="selections" scope="force" childId="baf8-997f-e323-a090" shared="true" includeChildSelections="true" includeChildForces="true" />
-                <condition type="instanceOf" value="1" field="selections" scope="primary-catalogue" childId="7b3b-4dea-9367-98b1" shared="true" includeChildSelections="true" includeChildForces="true" />
+                <condition type="instanceOf" value="1" field="selections" scope="primary-catalogue" childId="3bdf-a114-5035-c6ac" shared="true" includeChildSelections="true" includeChildForces="true" />
               </conditions>
             </conditionGroup>
           </conditionGroups>
@@ -463,7 +463,7 @@
             <conditionGroup type="and">
               <conditions>
                 <condition type="greaterThan" value="0" field="selections" scope="force" childId="4204-82d0-908c-a62a" shared="true" includeChildSelections="true" includeChildForces="true" />
-                <condition type="instanceOf" value="1" field="selections" scope="primary-catalogue" childId="7b3b-4dea-9367-98b1" shared="true" includeChildSelections="true" includeChildForces="true" />
+                <condition type="instanceOf" value="1" field="selections" scope="primary-catalogue" childId="3bdf-a114-5035-c6ac" shared="true" includeChildSelections="true" includeChildForces="true" />
               </conditions>
             </conditionGroup>
           </conditionGroups>
@@ -584,8 +584,8 @@
               <conditionGroups>
                 <conditionGroup type="or">
                   <conditions>
-                    <condition type="instanceOf" value="1" field="selections" scope="primary-catalogue" childId="5d1e-439c-2f4d-db7d" shared="true" id="1fe4-8f37-4c24-271" />
-                    <condition type="instanceOf" value="1" field="selections" scope="primary-catalogue" childId="d34e-399d-565b-5ff7" shared="true" id="f16a-b2cd-1da5-4050" />
+                    <condition type="instanceOf" value="1" field="selections" scope="primary-catalogue" childId="bdc0-c0d-72d7-87e2" shared="true" id="1fe4-8f37-4c24-271" />
+                    <condition type="instanceOf" value="1" field="selections" scope="primary-catalogue" childId="880c-c7e-4a43-a0c1" shared="true" id="f16a-b2cd-1da5-4050" />
                   </conditions>
                 </conditionGroup>
               </conditionGroups>
@@ -677,8 +677,8 @@
               <conditionGroups>
                 <conditionGroup type="or">
                   <conditions>
-                    <condition type="instanceOf" value="1" field="selections" scope="primary-catalogue" childId="5d1e-439c-2f4d-db7d" shared="true" id="6850-9e2d-ee40-9fdb" />
-                    <condition type="instanceOf" value="1" field="selections" scope="primary-catalogue" childId="d34e-399d-565b-5ff7" shared="true" id="ebb2-e80e-a08a-e168" />
+                    <condition type="instanceOf" value="1" field="selections" scope="primary-catalogue" childId="bdc0-c0d-72d7-87e2" shared="true" id="6850-9e2d-ee40-9fdb" />
+                    <condition type="instanceOf" value="1" field="selections" scope="primary-catalogue" childId="880c-c7e-4a43-a0c1" shared="true" id="ebb2-e80e-a08a-e168" />
                   </conditions>
                 </conditionGroup>
               </conditionGroups>
@@ -1469,21 +1469,21 @@
   </sharedSelectionEntries>
   <sharedRules>
     <rule id="8bf7-8812-923d-29e4" name="Pistolet" publicationId="48fc-15aa-b307-9443" page="25" hidden="false">
-      <description>Les armes avec **[PISTOL]** dans leur profil sont connues sous le nom de Pistols. Si une unité contient des figurines équipés de pistolets, cette unité est admissible à tirer dans la phase de Tir du joueur contrôlant même lorsqu'elle se trouve dans la Portée d’Engagement d'une ou de plusieurs unités ennemies. Lorsqu'une telle unité est sélectionnée pour tirer, elle ne peut résoudre des attaques qu'à l'aide de ses pistolets et ne peut cibler qu'une des unités ennemies dont elle se trouve dans la Portée d’Engagement. Dans de telles circonstances, un Pistolet peut cibler une unité ennemi même si d'autres unités amies sont dans la Portée d’Engagement de la même unité ennemie.
+      <description>Les armes avec **[PISTOL]** dans leur profil sont connues sous le nom de Pistols. Si une unité contient un figurines équipé de pistolets, cette unité est éligible pour tirer dans son joueur de contrôles phase de Tir même lorsqu'elle est à l'intérieur de Portée d’Engagement d'une ou de plusieurs unités ennemies. Lorsqu'une telle unité est sélectionnée pour tirer, elle ne peut résoudre Attaques qu'en utilisant ses pistolets et ne peut cibler qu'une des unités ennemies à laquelle elle se trouve à l'intérieur de Portée d’Engagement. Dans de telles circonstances, un Pistolet peut cibler une unité ennemie même si d'autres unités amies sont à l'intérieur de Portée d’Engagement du même unité ennemie.
 
-Si une figurine est équipé d'une ou plusieurs pistolets, sauf si c'est une figurine **^^Monster^^** ou **^^Vehicle^^**, il peut tirer avec ses pistolets ou avec toutes ses autres armes de tir. Déclarer si un tel figurine tirera avec ses pistolets ou ses autres armes de tir avant de sélectionner les cibles.</description>
+Si une figurine est équipé d'un ou plusieurs pistolets, sauf si c'est un **^^Monster^^** ou une **^^Vehicle^^** figurine, il peut tirer avec ses pistolets ou avec tous ses autres armes de tir. Déclarer si un tel figurine tirera avec ses pistolets ou son autre armes de tir avant de sélectionner les cibles.</description>
       <alias>PISTOL</alias>
     </rule>
     <rule id="8367-374c-f87-c627" name="À Risque" publicationId="48fc-15aa-b307-9443" page="28" hidden="false">
-      <description>Les armes avec **[HAZARDOUS]** dans leur profil sont connues sous le nom d'armes À Risque. Chaque fois qu'une unité est sélectionnée pour tirer ou combattre, après que cette unité ait résolu toutes ses attaques, pour chaque arme À Risque pour laquelle des cibles ont été sélectionnées lors de la résolution de ces attaques, cette unité doit passer un test À Risque. Pour ce faire, lancez un D6: sur un 1, ce test échoue. Pour chaque test échoué, vous devez résoudre la séquence suivante (résoudre chaque test échoué un à la fois):
+      <description>Les armes avec **[HAZARDOUS]** dans leur profil sont connues sous le nom d'armes À Risque. Chaque fois qu'une unité est sélectionnée pour tirer ou se bat, après que cette unité a résolu l'ensemble de ses Attaques, pour chaque arme À Risque pour laquelle des cibles ont été sélectionnées lors de la résolution de ces Attaques, cette unité doit passer un test À Risque. Pour ce faire, lancez un D6: sur un 1, ce test échoue. Pour chaque test échoué, vous devez résoudre la séquence suivante (résoudre chaque test échoué un à la fois):
 
-■ Si possible, sélectionnez une figurine dans cette unité qui a perdu un ou plusieurs PV et est équipé d'une ou plusieurs armes À Risque.
-■ Dans le cas contraire, si possible, sélectionnez une figurine de l'unité suivante (à l'exclusion des figurines **^^Character^^**) équipés d'une ou plusieurs armes À Risque.
-■ Dans le cas contraire, sélectionnez une figurine **^^Character^^** dans cette unité équipé d'une ou plusieurs armes À Risque.
+■ Si possible, sélectionnez une figurine en une unité qui a perdu un ou plusieurs PV et est équipée d'une ou plusieurs armes À Risque.
+■ Dans le cas contraire, si possible, sélectionnez une figurine dans cette unité (à l’exclusion de **^^Character^^** figurines) équipée d'une ou plusieurs armes À Risque.
+■ Dans le cas contraire, sélectionnez une **^^Character^^** figurine dans cette unité équipée d'une ou plusieurs armes À Risque.
 
-Si une figurine a été sélectionné, cette unité subit des Blessures Mortelles 3 et lors de l'allocation de ces Blessures Mortelles, elles doivent être allouées au figurine sélectionné.
+Si une figurine a été sélectionnée, cette unité subit 3 Blessures Mortelles et lors de l'attribution de ces Blessures Mortelles, elles doivent être allouées à la figurine sélectionnée.
 
-Si une unité de l'armée d'un joueur est sélectionnée comme cible du Fire Overwatch Stratagème dans la phase de Charge de son adversaire, toutes les Blessures Mortelles infligées par les tests À Risque sont attribuées après que l'unité de charge ait terminé son mouvement de Charge.</description>
+Si une unité d'une armée de joueurs est sélectionnée comme cible du Fire Overwatch Stratagème dans leur adversaire phase de Charge, tout Blessures Mortelles infligé par les tests À Risque est attribué après que l'unité de charge ait terminé son mouvement de Charge.</description>
       <alias>HAZARDOUS</alias>
     </rule>
     <rule id="b4dd-3e1f-41cb-218f" name="Meneur" publicationId="48fc-15aa-b307-9443" page="39" hidden="false">
@@ -1496,69 +1496,69 @@ Chaque fois que la dernière figurine d’une unité CHARACTER attachée à une 
 Chaque fois qu’une unité faisant partie d’une unité attachée est détruite, elle ne possède pas les mots-clés des autres unités qui composent cette unité attachée (à moins qu’elle ne possède ces mots-clés sur sa propre fiche technique) pour les besoins des règles qui se déclencheraient lorsque cette unité est détruite.</description>
     </rule>
     <rule id="be1e-ac8e-1e2c-3528" name="Blessures dévastatrices" publicationId="48fc-15aa-b307-9443" page="28" hidden="false">
-      <description>Les armes avec **[DEVASTATING WOUNDS]** dans leur profil sont connues sous le nom d'armes Blessures dévastatrices. Chaque fois qu'une attaque est effectuée avec une telle arme, si cette attaque marque une blessure critique, aucun jet de sauvegarde de quelque nature que ce soit ne peut être effectué contre cette attaque (y compris les jets de sauvegarde invulnérables). Ces attaques ne sont attribuées aux figurines qu'après que toutes les autres attaques effectuées par l'unité attaquante ont été attribuées et résolues. Après l'attribution de cette attaque et l'application de modifications, elle inflige un nombre de Blessures Mortelles à la cible égale à la caractéristique de Dégâts de cette attaque, au lieu d'infliger des Dégâts normalement.</description>
+      <description>Les armes avec **[DEVASTATING WOUNDS]** dans leur profil sont connues sous le nom d'armes Blessures dévastatrices. Chaque fois qu'une attaque est effectuée avec une telle arme, si cette attaque marque un Blessure Critique, aucun jet de sauvegarde de quelque nature que ce soit ne peut être effectué contre cette attaque (y compris jets de sauvegarde invulnérables). Ces Attaques ne sont attribués à figurines qu'après que tous les autres Attaques produits par l'unité d'attaque ont été attribués et résolus. Après l'attribution de cette attaque et l'application de modificateurs, il inflige un nombre de Blessures Mortelles à la cible égal à la caractéristique de Dégâts de cette attaque, au lieu de infligeant normalement Dégâts.</description>
       <alias>DEVASTATING WOUNDS</alias>
     </rule>
     <rule id="fc8a-8c24-bae9-cc1c" name="Assaut" publicationId="48fc-15aa-b307-9443" page="25" hidden="false">
-      <description>Les armes avec **[ASSAULT]** dans leur profil sont connues sous le nom d'armes Assaut. Si une unité qui a avancé ce tour contient des figurines équipés d'armes Assaut, elle est toujours éligible à tirer dans cette phase de Tir. Quand une telle unité est sélectionnée pour tirer, vous pouvez seulement résoudre les attaques en utilisant les armes Assaut dont ses figurines sont équipés.</description>
+      <description>Les armes avec **[ASSAULT]** dans leur profil sont connues sous le nom d'armes Assaut. Si une unité qui a avancé ce tour contient des figurines équipés d'armes Assaut, il est toujours éligible pour tirer dans ce tours phase de Tir. Lorsque cette unité est sélectionnée pour tirer, Vous ne pouvez résoudre Attaques qu'en utilisant les armes Assaut dont le figurines est équipé.</description>
       <alias>ASSAULT</alias>
     </rule>
     <rule id="115b-79dc-f723-d761" name="Attaques Bonus" publicationId="48fc-15aa-b307-9443" page="28" hidden="false">
-      <description>Les armes avec **[EXTRA ATTACKS]** dans leur profil sont connues sous le nom d'armes Attaques Bonus. Chaque fois que le porteur d'une ou de plusieurs armes Attaques Bonus se bat, il effectue des attaques avec chacune des armes de mêlée Attaques Bonus avec lesquelles il est équipé et il effectue des attaques avec l'une des armes de mêlée avec laquelle il est équipé et qui n'a pas la aptitude [Attaques Bonus] (le cas échéant). Le nombre d'attaques effectuées avec une arme Attaques Bonus ne peut être modifié par d'autres règles, sauf si le nom de cette arme est explicitement spécifié dans cette règle.</description>
+      <description>Les armes avec **[EXTRA ATTACKS]** dans leur profil sont connues sous le nom d'armes Attaques Bonus. Chaque fois que le porteur d'une ou plusieurs armes Attaques Bonus combattent, il fait Attaques avec chacun des Attaques Bonus armes de mêlée il est équipé avec et il fait Attaques avec l'un des armes de mêlée il est équipé avec qui n'a pas l’aptitude Wh [Attaques Bonus] (le cas échéant). Le numéro de Attaques fabriqué avec une arme Attaques Bonus ne peut être modifié par d'autres règles, sauf si le nom de cette arme est explicitement spécifié dans cette règle.</description>
       <alias>EXTRA ATTACKS</alias>
     </rule>
     <rule id="cf93-ad4d-2f08-a79d" name="Jumelé" publicationId="48fc-15aa-b307-9443" page="25" hidden="false">
-      <description>Les armes avec **[TWIN-LINKED]** dans leur profil sont connues sous le nom d'armes Jumelé. Chaque fois qu'une attaque est faite avec une telle arme, Tu peux relancer le jet de Blessure.</description>
+      <description>Les armes avec **[TWIN-LINKED]** dans leur profil sont connues sous le nom d'armes Jumelé. Chaque fois qu'une attaque est faite avec une telle arme, vous pouvez relancer attaque jet de Blessure.</description>
       <alias>TWIN-LINKED</alias>
     </rule>
     <rule id="4111-82e3-9444-e942" name="Anti-" publicationId="48fc-15aa-b307-9443" page="28" hidden="false">
-      <description>Les armes avec **[ANTI-KEYWORD X+]** dans leur profil sont connues sous le nom d'armes anti. Chaque fois qu'une attaque est effectuée avec une telle arme contre une cible avec le mot-clé après le mot Anti-, un jet de Blessure non modifié de x+ marque une blessure critique.</description>
+      <description>Les armes avec **[ANTI-KEYWORD X+]** dans leur profil sont connues sous le nom d'armes anti. Chaque fois qu'une telle arme est attaquée contre une cible avec le mot-clé après le mot Anti-, un jet de Blessure non modifié de x+ marque un Blessure Critique.</description>
       <alias>ANTI-</alias>
     </rule>
     <rule id="1897-c22c-9597-12b1" name="Touches soutenues" publicationId="48fc-15aa-b307-9443" page="28" hidden="false">
-      <description>Les armes avec **[SUSTAINED HITS X]** dans leur profil sont connues sous le nom d'armes Touches soutenues. Chaque fois qu'une attaque est effectuée avec une telle arme, si un Hit critique est lancé, cette attaque marque un certain nombre de coups supplémentaires sur la cible comme indiqué par x</description>
+      <description>Les armes avec **[SUSTAINED HITS X]** dans leur profil sont connues sous le nom d'armes Touches soutenues. Chaque fois qu'une attaque est effectuée avec une telle arme, si un Touche Critique est roulé, cette attaque marque un certain nombre de coups supplémentaires sur la cible comme indiqué par x</description>
       <alias>SUSTAINED HITS</alias>
     </rule>
     <rule id="1202-10a8-78e9-4c67" name="Lourd" publicationId="48fc-15aa-b307-9443" page="26" hidden="false">
-      <description>Les armes avec **[HEAVY]** dans leur profil sont connues sous le nom d'armes Lourd. Chaque fois qu'une attaque est effectuée avec une telle arme, si l'unité de la figurine attaquant reste immobile à ce tour, ajoutez 1 à ce jet de Touche d'attaque.</description>
+      <description>Les armes avec **[HEAVY]** dans leur profil sont connues sous le nom d'armes Lourd. Chaque fois qu'une attaque est effectuée avec une telle arme, si l'unité attaquante figurine est restée stationnaire à ce tour, ajoutez 1 à cette attaque jet de Touche.</description>
       <alias>HEAVY</alias>
     </rule>
     <rule id="7cdb-fb99-44a9-8849" name="Fusion" publicationId="48fc-15aa-b307-9443" page="26" hidden="false">
-      <description>Les armes avec **[MELTA X]** dans leur profil sont connues sous le nom d'armes Fusion. Chaque fois qu'une attaque effectuée avec une telle arme cible une unité dans la moitié de la portée de cette arme, la caractéristique de Dégât de cette attaque est augmentée par la quantité désignée par x.</description>
+      <description>Les armes avec **[MELTA X]** dans leur profil sont connues sous le nom d'armes Fusion. Chaque fois qu'une attaque effectuée avec une telle arme cible une unité dans la moitié de cette arme Portée, cette caractéristique d’Attaques de Dégâts est augmentée par la quantité désignée par x.</description>
       <alias>MELTA</alias>
     </rule>
     <rule id="9bf4-280f-bbe2-6fbb" name="Insensible à la douleur" publicationId="48fc-15aa-b307-9443" page="23" hidden="false">
       <description>Certaines figurines ont « Insensible à la douleur x+ » dans leurs aptitudes. Chaque fois qu’une figurine dotée de cette aptitude subit des Dégâts et devrait donc perdre un PV (y compris un PV perdu à cause de Blessures Mortelles), lancez un D6 : si le résultat est supérieur ou égal au nombre indiqué par « x, ce PV est ignoré et n’est pas perdu. Si une figurine possède plusieurs aptitudes Insensible à la douleur, vous ne pouvez en utiliser qu’une chaque fois que cette figurine subit des Dégâts et devrait donc perdre un PV.</description>
     </rule>
     <rule id="6c1f-1cf7-ff25-c99e" name="Déflagration" publicationId="48fc-15aa-b307-9443" page="26" hidden="false">
-      <description>Les armes avec **[BLAST]** dans leur profil sont connues sous le nom d'armes Déflagration, et ils effectuent un nombre aléatoire d'attaques. Chaque fois que vous déterminez le nombre d'attaques effectuées avec une arme Déflagration, ajoutez 1 au résultat pour tous les cinq figurines qui se trouvaient dans l'unité cible lorsque vous l'avez sélectionnée comme cible (en ronde vers le bas). Les armes Déflagration ne peuvent jamais être utilisées pour mener des attaques contre une unité située dans la Portée d’Engagement d'une ou de plusieurs unités de l'armée de la figurine attaquant (y compris sa propre unité).</description>
+      <description>Les armes avec **[BLAST]** dans leur profil sont connues sous le nom d'armes Déflagration, et elles constituent un nombre aléatoire de Attaques. Chaque fois que vous déterminez combien de Attaques sont fabriqués avec une arme Déflagration, ajoutez 1 au résultat pour tous les cinq figurines qui étaient dans l'unité cible lorsque vous l'avez sélectionnée comme cible (arrondissement vers le bas). Les armes Déflagration ne peuvent jamais être utilisées pour fabriquer Attaques contre une unité qui se trouve à l'intérieur de Portée d’Engagement d'une ou de plusieurs unités de l'armée attaquante figurine (y compris sa propre unité).</description>
       <alias>BLAST</alias>
     </rule>
     <rule id="9143-31ae-e0a6-6007" name="Précision" publicationId="48fc-15aa-b307-9443" page="26" hidden="false">
-      <description>Les armes avec **[PRECISION]** dans leur profil sont connues sous le nom d'armes Précision. Chaque fois qu'une attaque effectuée avec une telle arme blesse avec succès une unité attachée, si une figurine de personnage dans cette unité est visible pour la figurine attaquant, le joueur de la figurine attaquant peut choisir d'attribuer cette attaque à cette figurine de personnage au lieu de suivre la séquence d'attaque normale.</description>
+      <description>Les armes avec **[PRECISION]** dans leur profil sont connues sous le nom d'armes Précision. Chaque fois qu'une attaque effectuée avec une telle arme blesse avec succès une unité Attachée, si un personnage figurine dans cette unité est visible pour l'attaquant figurine, le joueur attaquant figurines peut choisir d'attribuer cette attaque à ce personnage figurine au lieu de suivant la séquence d'attaque normale.</description>
       <alias>PRECISION</alias>
     </rule>
     <rule id="4ddd-4e29-acdd-5e6d" name="Tir Indirect" publicationId="48fc-15aa-b307-9443" page="26" hidden="false">
-      <description>Les armes avec **[INDIRECT FIRE]** dans leur profil sont connues sous le nom d'armes Tir Indirect, et des attaques peuvent être effectuées avec elles même si la cible n'est pas visible pour la figurine attaquant. Ces attaques peuvent détruire des figurines ennemies dans une unité cible même si aucun n'a pu être visible à l'unité attaquante lorsque vous avez sélectionné cette cible.
+      <description>Les armes avec **[INDIRECT FIRE]** dans leur profil sont connues sous le nom d'armes Tir Indirect, et Attaques peut être fabriqué avec eux même si la cible n'est pas visible pour l'attaquant figurine. Ces Attaques peuvent détruire l'ennemi figurines dans une unité cible même si aucune n'a pu être visible à l'unité attaquante lorsque vous avez sélectionné cette cible.
 
 
-Si aucune figurine dans une unité cible n'est visible à l'unité d'attaque lorsque vous sélectionnez cette cible, alors chaque fois qu'une figurine dans l'unité d'attaque effectue une attaque contre cette cible en utilisant une arme Tir Indirect, Soustrayez 1 de cette attaques jet de Touche, un jet de Touche non modifié de 1-3 échoue toujours, et la cible a le Bénéfice du Couvert contre cette attaque. Les armes avec la aptitude **[TORRENT]** ne peuvent pas être tirées à l'aide de la aptitude **[INDIRECT FIRE]**.</description>
+Si aucun figurines dans une unité cible n'est visible à l'unité d'attaque lorsque vous sélectionnez cette cible, alors chaque fois qu'une figurine dans l'unité d'attaque effectue une attaque contre cette cible à l'aide d'une arme Tir Indirect, Soustrayez 1 de cette attaque s jet de Touche, un jet de Touche non modifié de 1-3 échoue, et la cible a toujours le Bénéfice du Couvert contre cette attaque. Les armes avec l’aptitude **[TORRENT]** ne peuvent pas être tirées en utilisant l’aptitude **[INDIRECT FIRE]**.</description>
       <alias>INDIRECT FIRE</alias>
     </rule>
     <rule id="2ebc-abdf-8129-6c57" name="Lance" publicationId="48fc-15aa-b307-9443" page="25" hidden="false">
-      <description>Les armes avec **[LANCE]** dans leur profil sont connues sous le nom d'armes Lance. Chaque fois qu'une attaque est effectuée avec une telle arme, si le porteur effectuer un mouvement de Charge à ce tour, ajoutez 1 à ce jet de Blessure de l'attaque.</description>
+      <description>Les armes avec **[LANCE]** dans leur profil sont connues sous le nom d'armes Lance. Chaque fois qu'une attaque est effectuée avec une telle arme, si le porteur a fait un mouvement de Charge à ce tour, ajoutez 1 à cette attaques jet de Blessure.</description>
       <alias>LANCE</alias>
     </rule>
     <rule id="d1d1-611e-5191-1095" name="Touches fatales" publicationId="48fc-15aa-b307-9443" page="25" hidden="false">
-      <description>Les armes avec **[LETHAL HITS]** dans leur profil sont connues sous le nom d'armes Touches fatales. Chaque fois qu'une telle arme est attaquée, un coup critique blesse automatiquement la cible.</description>
+      <description>Les armes avec **[LETHAL HITS]** dans leur profil sont connues sous le nom d'armes Touches fatales. Chaque fois qu'une telle arme est attaquée, un Touche Critique blesse automatiquement la cible.</description>
       <alias>LETHAL HITS</alias>
     </rule>
     <rule id="4640-43e7-30b-215a" name="Ignore le couvert" publicationId="48fc-15aa-b307-9443" page="25" hidden="false">
-      <description>Les armes avec **[IGNORES COVER]** dans leur profil sont connues sous le nom d'armes Ignore le couvert. Chaque fois qu'une attaque est menée avec une telle arme, la cible ne peut pas avoir le Bénéfice du Couvert contre cette attaque.</description>
+      <description>Les armes avec **[IGNORE LE COUVERT]** dans leur profil sont connues sous le nom d'armes Ignore le couvert. Chaque fois qu'une attaque est faite avec une telle arme, la cible ne peut pas avoir le Bénéfice du Couvert contre cette attaque.</description>
       <alias>IGNORES COVER</alias>
     </rule>
     <rule id="c5c8-8b58-b8b6-7786" name="Tir rapide" publicationId="48fc-15aa-b307-9443" page="25" hidden="false">
-      <description>Les armes avec **[RAPID FIRE X]** dans leur profil sont connues sous le nom d'armes Tir rapide. Chaque fois qu'une telle arme cible une unité dans la moitié de la portée de cette arme, la caractéristique d’Attaques de cette arme est augmentée par la quantité désignée par x.</description>
+      <description>Les armes avec **[RAPID FIRE X]** dans leur profil sont connues sous le nom d'armes Tir rapide. Chaque fois qu'une telle arme cible une unité à l'intérieur de la moitié de cette arme Portée, la caractéristique d’Attaques de cette arme est augmentée par la quantité désignée par x.</description>
       <alias>RAPID FIRE</alias>
     </rule>
     <rule id="5edf-d619-23e0-9b56" name="Torrent" publicationId="48fc-15aa-b307-9443" page="25" hidden="false">
@@ -1566,11 +1566,11 @@ Si aucune figurine dans une unité cible n'est visible à l'unité d'attaque lor
       <alias>TORRENT</alias>
     </rule>
     <rule id="ada6-bac1-ffe0-d6f7" name="Éclaireurs" publicationId="48fc-15aa-b307-9443" page="39" hidden="false">
-      <description>Certaines unités ont Éclaireurs x" énumérés dans leurs capacités. Si chaque figurine dans une unité a cette aptitude, alors au début du premier tour de bataille, avant le début du premier tour, il peut faire un mouvement normal jusqu'à x ", à l'exception que, tout en faisant ce mouvement, la distance déplacée par chaque figurine dans cette unité peut être plus grande que la caractéristique de mouvement de cette figurine, tant qu'elle n'est pas plus grande que x ".
+      <description>Certaines unités ont Éclaireurs x" énumérés dans leur aptitudes. Si chaque figurine dans une unité a cette aptitude, alors au début du premier tour de bataille, avant le début du premier tour, il peut effectuer un mouvement Normal de jusqu'à x", à l'exception que, tout en faisant ce mouvement, la distance déplacée par chaque figurine dans cette unité peut être plus grande que de la figurine caractéristique de mouvement, tant qu'il n'est pas plus grand que x.
 
-Les figurines DEDICATED Transport peuvent utiliser n'importe quelle aptitude Éclaireurs x" énumérée dans leurs capacités, ou une aptitude Éclaireurs x" qu'une unité qui démarre la bataille a embarquée dans cette figurine DEDICATED Transport a (à condition que seuls les figurines avec cette aptitude sont embarqués dans cette figurine de Transport dédié), indépendamment de la façon dont cette unité embarquée a acquis cette aptitude (p. ex. L'acquisition d'un diplôme ou d'un caractère associé, etc.).
+DEDICATED Transport figurines peut utiliser n'importe quel Éclaireurs x" aptitude répertorié dans leur aptitudes, ou un Éclaireurs x" aptitude qu'une unité qui commence la bataille embarquée dans cette DEDICATED Transport figurine a (à condition que seule figurines avec cette aptitude sont embarqués dans cette Dedicated Transport figurine), indépendamment de la façon dont cette unité embarquée a obtenu cette aptitude (par exemple, répertoriés dans leur aptitudes, conféré par un Optimisation ou par un caractère attaché, etc.).
 
-Une unité qui se déplace en utilisant cette aptitude doit mettre fin à ce qui se déplace plus que 9" horizontalement loin de tous les figurines ennemies. Si les deux joueurs ont des unités qui peuvent le faire, le joueur qui fait le premier tour déplace d'abord ses unités.</description>
+Une unité qui se déplace en utilisant cette aptitude doit mettre fin à ce qui se déplace plus que 9" horizontalement loin de tous les ennemis figurines. Si les deux joueurs ont des unités qui peuvent le faire, le joueur qui fait le premier tour déplace d'abord ses unités.</description>
       <modifiers>
         <modifier type="set" value="true" field="hidden">
           <conditions>
@@ -1580,18 +1580,18 @@ Une unité qui se déplace en utilisant cette aptitude doit mettre fin à ce qui
       </modifiers>
     </rule>
     <rule id="c05d-f4c3-f091-4938" name="Infiltrators" publicationId="48fc-15aa-b307-9443" page="39" hidden="false">
-      <description>Pendant le déploiement, si chaque figurine dans une unité a cette aptitude, alors quand vous l'installez, il peut être installé n'importe où sur le champ de bataille qui est plus que 9" horizontalement loin de la zone de déploiement ennemi et tous les figurines ennemies.</description>
+      <description>Pendant le déploiement, si chaque figurine dans une unité a cette aptitude, alors quand vous le configurer, il peut être configuré n'importe où sur le champ de bataille qui est plus de 9" horizontalement loin de l'ennemi zone de déploiement et tous les ennemis figurines.</description>
     </rule>
     <rule id="7cb5-dd6b-dd87-ad3b" name="Frappe en profondeur" publicationId="48fc-15aa-b307-9443" page="39" hidden="false">
-      <description>Lors de l'étape Déclarer les Formations de Bataille, si chaque figurine d'une unité possède cette aptitude, vous pouvez l'installer dans les réserves au lieu de l'installer sur le champ de bataille. Si vous le faites, dans l'étape des Renforcements de l'une de vos phases de mouvement, vous pouvez installer cette unité n'importe où sur le champ de bataille qui est plus que 9" horizontalement loin de tous les figurines ennemies.
+      <description>Pendant le étape Déclarer les Formations de Bataille, si chaque figurine dans une unité a cette aptitude, vous pouvez le configurer dans les réserves au lieu de en le configurant sur le champ de bataille. Si vous le faites, dans le étape des Renforts de l'une de vos phases de mouvement, vous pouvez configurer cette unité n'importe où sur le champ de bataille qui est plus que 9" horizontalement loin de tous les ennemis figurines.
 
-Si une unité dotée de la aptitude Frappe en profondeur arrive des réserves stratégiques, le joueur contrôlant peut choisir si cette unité doit être mise en place en utilisant les règles des réserves stratégiques ou en utilisant la aptitude Frappe en profondeur.</description>
+Si une unité avec l’aptitude Frappe en profondeur arrive de Réserves Stratégiques, le joueur de contrôle peut choisir que cette unité soit configurée soit en utilisant les règles de Réserves Stratégiques, soit en utilisant l’aptitude Frappe en profondeur.</description>
     </rule>
     <rule id="b68a-5ded-65ac-98c" name="Destruction Néfaste" publicationId="48fc-15aa-b307-9443" page="23" hidden="false">
-      <description>Certains figurines ont "Destruction Néfaste x" indiqué dans leurs capacités. Lorsqu'un tel figurine est détruit, lancez un D6 avant de le retirer du jeu (si un tel figurine est un Transport, lancez avant le débarquement des figurines embarqués). Sur un 6, chaque unité à 6" ou moins de cette figurine subit un certain nombre de Blessures Mortelles désignées par "x" (si c'est un nombre aléatoire, lancez séparément pour chaque unité à 6" ou moins).</description>
+      <description>Certains figurines ont "Destruction Néfaste x" indiqué dans leur aptitudes. Lorsqu'un tel figurine est détruit, lancez un D6 avant de le retirer du jeu (si un tel figurine est un Transport, lancez avant tout débarquement embarqué figurines). Sur un 6, chaque unité à 6" ou moins de cette figurine subit un nombre de Blessures Mortelles désigné par "x" (si c'est un nombre aléatoire, lancez séparément pour chaque unité à 6" ou moins).</description>
     </rule>
     <rule id="bec5-4288-34a6-ccfa" name="Discrétion" publicationId="48fc-15aa-b307-9443" page="20" hidden="false">
-      <description>Si chaque figurine dans une unité a cette aptitude, alors chaque fois qu'une attaque de tir est faite contre elle, Soustrayez 1 de l'attaque jet de Touche.</description>
+      <description>Si chaque figurine dans une unité a cette aptitude, alors chaque fois qu'une attaque de tir est faite contre elle, Soustrayez 1 de cette attaques jet de Touche.</description>
     </rule>
     <rule id="5e13-1624-d280-418d" name="Super-Heavy Walker" hidden="false">
       <description>Chaque fois qu’une figurine dotée de cette aptitude effectue un mouvement Normal, d’Avance ou de Retraite, elle peut traverser les figurines (à l’exclusion des figurines **^^Titanic^^**) et les sections d’éléments de terrain d’une hauteur de 4" ou moins.
@@ -1600,7 +1600,7 @@ Dans ce cas :
 - Elle peut également traverser les sections d’éléments de terrain d’une hauteur supérieure à 4" mais, si elle le fait, après son déplacement, lancez un D6 : sur 1, cette figurine est Ébranlée.</description>
     </rule>
     <rule id="a8a0-8fe7-898-e0f3" name="Agent solitaire" publicationId="48fc-15aa-b307-9443" page="19" hidden="false">
-      <description>À moins de faire partie d'une unité attachée, cette unité ne peut être sélectionnée comme cible d'une attaque de tir que si la figurine d'attaque se trouve à 12" ou moins.</description>
+      <description>Sauf partie d’une unité Attachée, cette unité ne peut être sélectionnée comme cible d'une attaque de tir que si l'attaquant figurine se trouve à 12" ou moins.</description>
     </rule>
     <rule id="eec5-5f54-9c03-c305" name="Hover" publicationId="48fc-15aa-b307-9443" page="53" hidden="false">
       <description>Certaines figurines **^^Aircraft^^** ont « Hover » dans la liste de leurs aptitudes. Lorsque vous devez Déclarer les Formations de Bataille, avant toute autre chose, vous devez déclarer quelles figurines de votre armée dotées de cette aptitude seront en mode Hover.
@@ -1608,21 +1608,21 @@ Dans ce cas :
 Si une figurine est en mode Hover, jusqu’à la fin de la bataille, sa caractéristique de Mouvement devient 20", elle perd le mot-clé **^^Aircraft^^** et toutes les règles associées au fait d’être une figurine **^^Aircraft^^**. Les figurines en mode Hover ne commencent pas la bataille en Réserves, mais vous pouvez choisir de les placer en Réserves Stratégiques selon les règles normales.</description>
     </rule>
     <rule id="24-c886-e8ba-5a89" name="Fights First" publicationId="48fc-15aa-b307-9443" page="32" hidden="false">
-      <description>Les unités dotées de cette aptitude qui sont admissibles à combattre le font dans l'étape Fights First, à condition que chaque figurine de l'unité ait cette aptitude.</description>
+      <description>Les unités avec cette aptitude qui sont admissibles à combattre le font dans l'étape Fights First, à condition que chaque figurine de l'unité ait cette aptitude.</description>
     </rule>
     <rule id="e9c4-2bb8-12ee-cd1b" name="Psychique" publicationId="48fc-15aa-b307-9443" page="38" hidden="false">
-      <description>Certaines armes et capacités ne peuvent être utilisées que par **^^Psykers^^**. Ces armes et capacités sont marquées par le mot "Psychique". Si une arme ou une aptitude Psychique fait subir à une unité une ou plusieurs blessures, chacune de ces blessures est considérée comme infligée par une attaque Psychique.</description>
+      <description>Certaines armes et aptitudes ne peuvent être utilisées que par **^^Psykers^^**. Ces armes et aptitudes sont marquées par le mot "Psychique". Si une arme Psychique ou aptitude fait subir à une unité une ou plusieurs blessures, chacune de ces blessures est considérée comme ayant été infligée par une attaque Psychique.</description>
       <alias>PSYCHIC</alias>
     </rule>
     <rule id="13b2-6518-dab3-7ea1" name="Pont de Tir" page="17" hidden="false">
-      <description>Certains figurines **^^Transport^^** ont Pont de Tir x énumérés dans leurs capacités. Chaque fois qu'un tel figurine est sélectionnée pour tirer dans la phase de Tir, vous pouvez sélectionner jusqu'à x figurines embarqués à l'intérieur de celui-ci dont les unités n'ont pas déjà tourné cette phase. Ensuite, pour chacun de ces figurines embarqués, vous pouvez sélectionner une arme de tir avec laquelle la figurine embarqué est équipé (à l'exclusion des armes avec la aptitude **[ONE SHOT]**). Jusqu'à ce que la figurine **^^Transport^^** ait résolu toutes ses attaques, il est considéré comme étant équipé de toutes les armes que vous avez sélectionnées de cette façon, en plus de ses autres armes. Jusqu'à la fin de la phase, ces figurines unités sélectionnées ne sont pas admissibles à la prise de vue.</description>
+      <description>Certains **^^Transport^^** figurines ont Pont de Tir x énumérés dans leur aptitudes. Chaque fois qu'un tel figurine est sélectionnée pour tirer dans la phase de Tir, vous pouvez sélectionner jusqu'à x figurines embarqué à l'intérieur de celui-ci dont les unités n'ont pas déjà tourné cette phase. Ensuite, pour chacun de ceux embarqués dans figurines, vous pouvez sélectionner un arme de tir qui embarque dans figurine est équipé de (à l’exclusion d’armes avec l’aptitude **[TIR UNIQUE]**). Jusqu'à ce que **^^Transport^^** figurine ait résolu tous ses Attaques, il est considéré comme étant équipé de toutes les armes que vous avez sélectionnées de cette façon, en plus de ses autres armes. Pour Jusqu’à la fin de la phase, les unités figurines sélectionnées ne sont pas éligible pour tirer.</description>
     </rule>
     <rule id="cd26-1611-860a-91e4" name="Tir Unique" hidden="false">
-      <description>Le porteur ne peut tirer avec cette arme qu'une fois par bataille.</description>
+      <description>le porteur ne peut tirer que avec cette arme Une fois par bataille.</description>
       <alias>ONE SHOT</alias>
     </rule>
     <rule name="Crucible" id="5ce6-a3cf-e871-f081" hidden="false">
-      <description>Un **^^Character^^** créé en utilisant les règles Crucible a la aptitude Crucible. Votre armée peut inclure jusqu'à trois unités avec la aptitude Crucible et ces unités ne peuvent pas être améliorées.</description>
+      <description>Un **^^Character^^** créé en utilisant les règles Crucible a l’aptitude Crucible. Votre armée peut inclure jusqu'à trois unités avec l’aptitude Crucible et ces unités ne peuvent pas être améliorées.</description>
     </rule>
   </sharedRules>
   <sharedProfiles>
@@ -1635,7 +1635,7 @@ Si une figurine est en mode Hover, jusqu’à la fin de la bataille, sa caracté
     </profile>
     <profile name="Lord of Deceit (Aura)" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="8332-466b-a51f-63ab">
       <characteristics>
-        <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Chaque fois que votre adversaire cible une unité de son armée avec un Stratagème, si cette unité se trouve à 12" ou moins de cette figurine, augmentez le coût de cette utilisation de ce Stratagème par 1CP.</characteristic>
+        <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Chaque fois que votre adversaire cible une unité de son armée avec un Stratagème, si cette unité est à 12" ou moins de cette figurine, augmenter le coût de l'utilisation de ce Stratagème par 1CP.</characteristic>
       </characteristics>
     </profile>
     <profile name="Invulnerable Save (4+)" hidden="false" id="5b77-29f8-7b77-75e3" typeName="Abilities" typeId="9cc3-6d83-4dd3-9b64">
@@ -1652,13 +1652,13 @@ Si une figurine est en mode Hover, jusqu’à la fin de la bataille, sa caracté
     </profile>
     <profile name="Invulnerable Save (4+)" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="b79a-617-8519-d24f">
       <characteristics>
-        <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Les figurines de cette unité ont un 4+ sauvegarde invulnérable.</characteristic>
+        <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Les figurines de cette unité ont une sauvegarde invulnérable de 4+.</characteristic>
       </characteristics>
       <comment>Unit</comment>
     </profile>
     <profile name="Invulnerable Save (6+)" hidden="false" id="42f1-ea3d-3ff9-e56a" typeName="Abilities" typeId="9cc3-6d83-4dd3-9b64">
       <characteristics>
-        <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Les figurines de cette unité ont un 6+ sauvegarde invulnérable.</characteristic>
+        <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Les les figurines de cette unité ont un 6+ sauvegarde invulnérable.</characteristic>
       </characteristics>
       <comment>Unit</comment>
     </profile>
@@ -1670,7 +1670,7 @@ Si une figurine est en mode Hover, jusqu’à la fin de la bataille, sa caracté
     </profile>
     <profile id="3b8a-73e4-1389-b399" name="Invulnerable Save (5+)" hidden="false" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities">
       <characteristics>
-        <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Les figurines de cette unité ont un 5+ sauvegarde invulnérable.</characteristic>
+        <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Les figurines de cette unité ont une sauvegarde invulnérable de 5+.</characteristic>
       </characteristics>
       <comment>Unit</comment>
     </profile>
@@ -1947,7 +1947,7 @@ Si une figurine est en mode Hover, jusqu’à la fin de la bataille, sa caracté
           <profiles>
             <profile name="Precise" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="e257-ed3e-c157-a9c6">
               <characteristics>
-                <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Chaque fois qu'une blessure critique est marquée pour une attaque faite avec cette arme, cette attaque a la aptitude **[PRECISION]**.</characteristic>
+                <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Chaque fois qu’une Blessure Critique est obtenue pour une attaque effectuée avec cette arme, cette attaque a l’aptitude **[Précision]**.</characteristic>
               </characteristics>
             </profile>
           </profiles>
@@ -1978,7 +1978,7 @@ Si une figurine est en mode Hover, jusqu’à la fin de la bataille, sa caracté
           <modifiers>
             <modifier type="set" value="true" field="hidden">
               <conditions>
-                <condition type="notInstanceOf" value="1" field="selections" scope="primary-catalogue" childId="5ff8-5a62-176a-87a6" shared="true" />
+                <condition type="notInstanceOf" value="1" field="selections" scope="primary-catalogue" childId="5108-f98-63c2-53cb" shared="true" />
               </conditions>
             </modifier>
           </modifiers>
@@ -2012,7 +2012,7 @@ Si une figurine est en mode Hover, jusqu’à la fin de la bataille, sa caracté
               <profiles>
                 <profile name="Battle-weary" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="4889-1296-cec0-fdbe">
                   <characteristics>
-                    <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Chaque fois que cette unité effectue un test d’Ébranlement, de Commandement, d'évasion désespérée ou hors d'action, Soustrayez 1 de ce test.</characteristic>
+                    <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Chaque fois que cette unité effectue un test d’Ébranlement, de Commandement, de Fuite Désespérée ou Hors de Combat, soustrayez 1 à ce test.</characteristic>
                   </characteristics>
                 </profile>
               </profiles>
@@ -2080,7 +2080,7 @@ Si une figurine est en mode Hover, jusqu’à la fin de la bataille, sa caracté
               <profiles>
                 <profile name="Deep Scars" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="7588-ae4f-208e-e049">
                   <characteristics>
-                    <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Chaque fois qu'un coup critique est marqué contre cette unité, cette attaque blesse automatiquement cette unité.</characteristic>
+                    <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Chaque fois qu’une Touche Critique est obtenue contre cette unité, cette attaque blesse automatiquement cette unité.</characteristic>
                   </characteristics>
                 </profile>
               </profiles>
@@ -2156,7 +2156,7 @@ Si une figurine est en mode Hover, jusqu’à la fin de la bataille, sa caracté
               <profiles>
                 <profile name="Mark of Shame" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="d8fe-6343-8c67-476d">
                   <characteristics>
-                    <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Cette unité ne peut pas former une unité attachée, elle n'est pas affectée par les capacités Aura des unités amies, et elle ne peut pas être marquée pour la grandeur.</characteristic>
+                    <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Cette unité ne peut pas former une unité Attachée, elle n'est pas affectée par les aptitudes Aura des unités amies, et elle ne peut pas être marquée pour la grandeur.</characteristic>
                   </characteristics>
                 </profile>
               </profiles>
@@ -2222,7 +2222,7 @@ Si une figurine est en mode Hover, jusqu’à la fin de la bataille, sa caracté
               <profiles>
                 <profile name="Deadly Combatant" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="fe00-d1ed-cc9f-af99">
                   <characteristics>
-                    <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Toutes les armes de mêlée équipées de figurines **^^Character^^** dans cette unité ont la aptitude **[SUSTAINED HITS 1]**.</characteristic>
+                    <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Toutes les armes de mêlée dont sont équipées les figurines **^^Character^^** de cette unité ont l’aptitude **[SUSTAINED HITS 1]**.</characteristic>
                   </characteristics>
                 </profile>
               </profiles>
@@ -2271,7 +2271,7 @@ Si une figurine est en mode Hover, jusqu’à la fin de la bataille, sa caracté
               <profiles>
                 <profile name="Born Hunter" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="173a-2c06-c7ff-d8fe">
                   <characteristics>
-                    <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Cette unité a la aptitude Éclaireurs 9".</characteristic>
+                    <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Cette unité a l’aptitude Éclaireurs 9".</characteristic>
                   </characteristics>
                 </profile>
               </profiles>
@@ -2316,7 +2316,7 @@ Si une figurine est en mode Hover, jusqu’à la fin de la bataille, sa caracté
               <profiles>
                 <profile name="Bio-acid Burns" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="5cea-d2a8-a199-3ada">
                   <characteristics>
-                    <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Les figurines **^^Character^^** de cette unité ont la aptitude Insensible à la douleur 5+.</characteristic>
+                    <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Les figurines **^^Character^^** de cette unité ont l’aptitude Insensible à la douleur 5+.</characteristic>
                   </characteristics>
                 </profile>
               </profiles>
@@ -2361,7 +2361,7 @@ Si une figurine est en mode Hover, jusqu’à la fin de la bataille, sa caracté
               <profiles>
                 <profile name="Natural Leader" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="8364-46f2-38a8-846b">
                   <characteristics>
-                    <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Chaque fois que vous prenez un test d’Ébranlement ou de Commandement pour cette unité, vous pouvez relancer ce test.</characteristic>
+                    <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Chaque fois que vous prenez un Ébranlement ou test de Commandement pour cette unité, vous pouvez relancer ce test.</characteristic>
                   </characteristics>
                 </profile>
               </profiles>
@@ -2393,7 +2393,7 @@ Si une figurine est en mode Hover, jusqu’à la fin de la bataille, sa caracté
               <profiles>
                 <profile name="Tireless Raiders" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="d14a-3cde-c35d-fa13">
                   <characteristics>
-                    <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Les figurines de cette unité peuvent effectuer des attaques avec des armes de tir même lorsque leur unité est dans la Portée d’Engagement des unités ennemies, mais ils ne peuvent effectuer de telles attaques contre les unités ennemies qu'ils sont dans la Portée d’Engagement de. Dans de telles circonstances, ces figurines peuvent cibler une unité ennemie même si d'autres unités amiques sont à l'intérieur de la Portée d’Engagement de la même unité ennemie.</characteristic>
+                    <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Les figurines de cette unité peuvent effectuer des attaques avec des armes de tir même lorsque leur unité est à Portée d’Engagement d’unités ennemies, mais elles ne peuvent effectuer ces attaques que contre les unités ennemies dont elles sont à Portée d’Engagement. Dans ce cas, ces figurines peuvent cibler une unité ennemie même si d’autres unités amies sont à Portée d’Engagement de la même unité ennemie.</characteristic>
                   </characteristics>
                 </profile>
               </profiles>
@@ -2431,7 +2431,7 @@ Si une figurine est en mode Hover, jusqu’à la fin de la bataille, sa caracté
               <profiles>
                 <profile name="Shadow Stalker" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="6494-52de-0f34-f84a">
                   <characteristics>
-                    <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Cette unité a la aptitude Discrétion.</characteristic>
+                    <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Cette unité a l’aptitude Discrétion.</characteristic>
                   </characteristics>
                 </profile>
               </profiles>
@@ -2472,7 +2472,7 @@ Si une figurine est en mode Hover, jusqu’à la fin de la bataille, sa caracté
               <profiles>
                 <profile name="Death Incarnate (Aura)" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="77ec-f5d9-6c29-c875">
                   <characteristics>
-                    <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Alors qu'une unité ennemie est à 6" ou moins de cette unité, aggraver la caractéristique de Commandement des figurines dans cette unité ennemie par 1.</characteristic>
+                    <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Lorsqu'une unité ennemie se trouve à 6" ou moins de cette unité, aggraver la caractéristique de Commandement des figurines de cette unité ennemie par 1.</characteristic>
                   </characteristics>
                 </profile>
               </profiles>
@@ -2509,7 +2509,7 @@ Si une figurine est en mode Hover, jusqu’à la fin de la bataille, sa caracté
               <profiles>
                 <profile name="Blessed Hull" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="9946-99c9-bf5b-b03f">
                   <characteristics>
-                    <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Les figurines de cette unité ont un 5+ sauvegarde invulnérable.</characteristic>
+                    <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Les figurines de cette unité ont une sauvegarde invulnérable de 5+.</characteristic>
                   </characteristics>
                 </profile>
               </profiles>
@@ -2546,7 +2546,7 @@ Si une figurine est en mode Hover, jusqu’à la fin de la bataille, sa caracté
               <profiles>
                 <profile name="Focused Gunners" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="0a7c-c752-f53e-ed90">
                   <characteristics>
-                    <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Les figurines de cette unité ne subissent pas la pénalité aux jets de Touche des jets pour effectuer des attaques de tir alors que leur unité se trouve dans la Portée d’Engagement d'une ou de plusieurs unités ennemies.</characteristic>
+                    <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Les figurines de cette unité ne subissent pas le malus aux jets de Touche lorsqu’elles effectuent des attaques de tir tandis que leur unité est à Portée d’Engagement d’une ou plusieurs unités ennemies.</characteristic>
                   </characteristics>
                 </profile>
               </profiles>
@@ -2583,7 +2583,7 @@ Si une figurine est en mode Hover, jusqu’à la fin de la bataille, sa caracté
               <profiles>
                 <profile name="Reinforced Superstructure" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="4ee6-6225-5888-59ce">
                   <characteristics>
-                    <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Chaque fois qu'une attaque avec une caractéristique de Force de 7 ou moins est attribuée à une figurine de cette unité, la caractéristique de Pénétration d’Armure de cette attaque est aggravée par 1.</characteristic>
+                    <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Chaque fois qu'une attaque avec une caractéristique de Force de 7 ou moins est attribuée à une figurine dans cette unité, la caractéristique de Pénétration d’Armure de cette attaque est aggravée par 1.</characteristic>
                   </characteristics>
                 </profile>
               </profiles>
@@ -2620,7 +2620,7 @@ Si une figurine est en mode Hover, jusqu’à la fin de la bataille, sa caracté
               <profiles>
                 <profile name="Elite Crew" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="5b99-ce98-dc07-6089">
                   <characteristics>
-                    <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Chaque fois qu'une figurine dans cette unité fait une attaque, relance un jet de Touche de 1.</characteristic>
+                    <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Chaque fois qu’une figurine de cette unité effectue une attaque, relancez un jet de Touche de 1.</characteristic>
                   </characteristics>
                 </profile>
               </profiles>
@@ -2734,7 +2734,7 @@ Si une figurine est en mode Hover, jusqu’à la fin de la bataille, sa caracté
               <profiles>
                 <profile name="Battle-scarred Resistance" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="2872-cb8d-09c1-83b9">
                   <characteristics>
-                    <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Les figurines de cette unité ont la aptitude Insensible à la douleur 6+.</characteristic>
+                    <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Les figurines de cette unité ont l’aptitude Insensible à la Douleur 6+.</characteristic>
                   </characteristics>
                 </profile>
               </profiles>
@@ -2773,7 +2773,7 @@ Si une figurine est en mode Hover, jusqu’à la fin de la bataille, sa caracté
               <profiles>
                 <profile name="Vanguard Espionage" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="bf52-1646-5b05-6b57">
                   <characteristics>
-                    <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Cette unité a la aptitude Éclaireurs 9".</characteristic>
+                    <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Cette unité a l’aptitude Éclaireurs 9".</characteristic>
                   </characteristics>
                 </profile>
               </profiles>
@@ -2812,7 +2812,7 @@ Si une figurine est en mode Hover, jusqu’à la fin de la bataille, sa caracté
               <profiles>
                 <profile name="Obdurate Obedience" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="4280-0ad4-41db-e2b9">
                   <characteristics>
-                    <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Ajoutez 1 à la caractéristique de Contrôle d’Objectif de tous les figurines de cette unité.</characteristic>
+                    <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Ajoutez 1 à la caractéristique de Contrôle d’Objectif de toutes les figurines de cette unité.</characteristic>
                   </characteristics>
                 </profile>
               </profiles>
@@ -2852,7 +2852,7 @@ Si une figurine est en mode Hover, jusqu’à la fin de la bataille, sa caracté
               <profiles>
                 <profile name="Resolute Veterans" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="7540-1649-6e02-4718">
                   <characteristics>
-                    <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Chaque fois que vous prenez un test d’Ébranlement, de Commandement ou d'évasion désespérée pour cette unité, ajoutez 1 à ce test.</characteristic>
+                    <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Chaque fois que vous prenez un Ébranlement, Commandement ou test de Fuite Désespérée pour cette unité, ajoutez 1 à ce test.</characteristic>
                   </characteristics>
                 </profile>
               </profiles>
@@ -2884,7 +2884,7 @@ Si une figurine est en mode Hover, jusqu’à la fin de la bataille, sa caracté
               <profiles>
                 <profile name="Only The Swift Survive" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="80cc-c73c-14ee-8385">
                   <characteristics>
-                    <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Ajoutez 1 aux jets d’Avance et de Charge effectués pour cette unité.</characteristic>
+                    <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Ajoutez 1 à Advance et jets de Charge effectués pour cette unité.</characteristic>
                   </characteristics>
                 </profile>
               </profiles>
@@ -2916,7 +2916,7 @@ Si une figurine est en mode Hover, jusqu’à la fin de la bataille, sa caracté
               <profiles>
                 <profile name="Headhunters" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="99fc-06f4-f204-3524">
                   <characteristics>
-                    <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Au début de la bataille, sélectionnez une unité ennemi (indépendamment du nombre d'unités de votre armée de la Croisade ayant ce trait de bataille). Jusqu'à la fin de la bataille, chaque fois qu'une figurine de cette unité fait une attaque contre cette unité ennemie, relancez les jets de Touche de 1 et les jets de Blessure de 1.</characteristic>
+                    <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Au début de la bataille, sélectionnez une unité ennemie (indépendamment du nombre d'unités de votre armée de la Croisade ayant ce trait de bataille). Jusqu'à la fin de la bataille, chaque fois qu'une figurine dans cette unité fait une attaque contre cette unité ennemie, relancer un jet de Touche de 1 et relancer un jet de Blessure de 1.</characteristic>
                   </characteristics>
                 </profile>
               </profiles>
@@ -2988,7 +2988,7 @@ Si une figurine est en mode Hover, jusqu’à la fin de la bataille, sa caracté
               <profiles>
                 <profile name="High-speed Gunnery" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="47e7-f968-b74f-deb3">
                   <characteristics>
-                    <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Chaque fois que cette unité avance, jusqu'à la fin du tour toutes les armes de portée équipées par des figurines dans cette unité ont la aptitude **[ASSAULT]**.</characteristic>
+                    <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Chaque fois que cette unité Avance, jusqu’à la fin du tour, toutes les armes de tir dont sont équipées les figurines de cette unité ont l’aptitude **[ASSAULT]**.</characteristic>
                   </characteristics>
                 </profile>
               </profiles>
@@ -3023,7 +3023,7 @@ Si une figurine est en mode Hover, jusqu’à la fin de la bataille, sa caracté
               <profiles>
                 <profile name="Predatory Urge" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="2d64-b6b2-fba2-aeab">
                   <characteristics>
-                    <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Vous pouvez relancer les jets de Charge faits pour cette unité.</characteristic>
+                    <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Vous pouvez relancer les jets de Charge effectués pour cette unité.</characteristic>
                   </characteristics>
                 </profile>
               </profiles>
@@ -3087,7 +3087,7 @@ Si une figurine est en mode Hover, jusqu’à la fin de la bataille, sa caracté
               <profiles>
                 <profile name="Encircling Raptors" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="c7f3-d332-f6ae-f067">
                   <characteristics>
-                    <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Si cette unité se trouve dans les réserves stratégiques, elle compte le nombre de rondes de bataille comme un plus élevé que le nombre de rondes de bataille actuel afin de déterminer le moment et le lieu de sa mise en place.</characteristic>
+                    <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Si cette unité se trouve dans Réserves Stratégiques, elle compte le nombre de rondes de bataille comme un plus élevé que le nombre de rondes de bataille actuel afin de déterminer quand et où elle sera mise en place.</characteristic>
                   </characteristics>
                 </profile>
               </profiles>
@@ -3119,7 +3119,7 @@ Si une figurine est en mode Hover, jusqu’à la fin de la bataille, sa caracté
               <profiles>
                 <profile name="Destructive Impulse" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="7fb4-b967-d90e-2ca7">
                   <characteristics>
-                    <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Chaque fois qu'une figurine de cette unité détruit une unité ennemie, ajoutez deux fois plus de marques à son nombre Tyrannic War Veteran que la normale.</characteristic>
+                    <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Chaque fois qu'une figurine dans cette unité détruit une unité ennemie, ajoutez deux fois plus de marques à son nombre Tyrannic War Veteran que d'habitude.</characteristic>
                   </characteristics>
                 </profile>
               </profiles>
@@ -3195,7 +3195,7 @@ Si une figurine est en mode Hover, jusqu’à la fin de la bataille, sa caracté
               <profiles>
                 <profile name="Blur of Speed" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="583e-2616-8cf8-969d">
                   <characteristics>
-                    <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Les figurines de cette unité ont la aptitude Discrétion.</characteristic>
+                    <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Les figurines de cette unité ont l’aptitude Discrétion.</characteristic>
                   </characteristics>
                 </profile>
               </profiles>
@@ -3236,7 +3236,7 @@ Si une figurine est en mode Hover, jusqu’à la fin de la bataille, sa caracté
               <profiles>
                 <profile name="Lead From The Front" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="6151-b5a1-a259-9dc5">
                   <characteristics>
-                    <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Cette unité a la aptitude Infiltrators.</characteristic>
+                    <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Cette unité a l’aptitude Infiltrateurs.</characteristic>
                   </characteristics>
                 </profile>
               </profiles>
@@ -3277,7 +3277,7 @@ Si une figurine est en mode Hover, jusqu’à la fin de la bataille, sa caracté
               <profiles>
                 <profile name="Horror-hardened" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="1f33-9d00-a7b7-1318">
                   <characteristics>
-                    <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Vous pouvez cibler cette unité avec les Stratagems même quand elle est Ébranlée.</characteristic>
+                    <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Vous pouvez cibler cette unité avec des stratagèmes, même si c'est Ébranlé.</characteristic>
                   </characteristics>
                 </profile>
               </profiles>
@@ -3315,7 +3315,7 @@ Si une figurine est en mode Hover, jusqu’à la fin de la bataille, sa caracté
               <profiles>
                 <profile name="Arch Acquisitor" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="f1c8-284f-f4e0-482c">
                   <characteristics>
-                    <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Ajoutez 3 à la caractéristique de Contrôle d’Objectif d'une figurine **^^Character^^** de cette unité.</characteristic>
+                    <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Ajoutez 3 à la caractéristique de Contrôle d’Objectif d'une **^^Character^^** figurine dans cette unité.</characteristic>
                   </characteristics>
                 </profile>
               </profiles>
@@ -3361,7 +3361,7 @@ Si une figurine est en mode Hover, jusqu’à la fin de la bataille, sa caracté
               <profiles>
                 <profile name="Claim Stalker" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="dac1-5e52-30c4-14d1">
                   <characteristics>
-                    <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Tant que cette unité est à la portée d'un marqueur objectif, elle a la aptitude Discrétion.</characteristic>
+                    <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Tant que cette unité est à portée d’un pion d’objectif, elle a l’aptitude Discrétion.</characteristic>
                   </characteristics>
                 </profile>
               </profiles>
@@ -3448,7 +3448,7 @@ Si une figurine est en mode Hover, jusqu’à la fin de la bataille, sa caracté
               <profiles>
                 <profile name="Duellist" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="291e-fc3a-573c-a199">
                   <characteristics>
-                    <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Chaque fois qu'une figurine **^^Character^^** dans cette unité fait une attaque de mêlée qui cible une unité **^^Character^^**, vous pouvez relancer le jet de Touche.</characteristic>
+                    <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Chaque fois qu'une **^^Character^^** figurine dans cette unité fait une attaque de mêlée qui cible une unité **^^Character^^**, vous pouvez relancer le jet de Touche.</characteristic>
                   </characteristics>
                 </profile>
               </profiles>
@@ -3485,7 +3485,7 @@ Si une figurine est en mode Hover, jusqu’à la fin de la bataille, sa caracté
               <profiles>
                 <profile name="Hardened Defences" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="be58-26c9-487b-41de">
                   <characteristics>
-                    <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Les figurines de cette unité ont la aptitude Insensible à la douleur 6+.</characteristic>
+                    <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Les figurines de cette unité ont l’aptitude Insensible à la Douleur 6+.</characteristic>
                   </characteristics>
                 </profile>
               </profiles>
@@ -3529,7 +3529,7 @@ Si une figurine est en mode Hover, jusqu’à la fin de la bataille, sa caracté
               <profiles>
                 <profile name="Totemic Presence" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="40f8-bffb-92ff-7af2">
                   <characteristics>
-                    <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Ajoutez 2 à la caractéristique de Contrôle d’Objectif d'une figurine de cette unité.</characteristic>
+                    <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Ajoutez 2 à la caractéristique de Contrôle d’Objectif d'une figurine dans cette unité.</characteristic>
                   </characteristics>
                 </profile>
               </profiles>
@@ -3611,7 +3611,7 @@ Si une figurine est en mode Hover, jusqu’à la fin de la bataille, sa caracté
               <profiles>
                 <profile name="Stubborn Explorator" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="4114-97f8-0b83-8355">
                   <characteristics>
-                    <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Chaque fois que cette unité fait un mouvement normal ou avancé, elle peut se déplacer sur des caractéristiques de terrain qui sont 4" ou moins en hauteur comme s'ils n'étaient pas là.</characteristic>
+                    <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Chaque fois que cette unité fait un Normal ou mouvement d’Avance, il peut se déplacer sur éléments de terrain qui sont 4" ou moins en hauteur comme s'ils n'étaient pas là.</characteristic>
                   </characteristics>
                 </profile>
               </profiles>
@@ -3685,7 +3685,7 @@ Si une figurine est en mode Hover, jusqu’à la fin de la bataille, sa caracté
               <profiles>
                 <profile name="Reaper" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="ddbd-00dd-9f35-a5c1">
                   <characteristics>
-                    <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Chaque fois qu'une figurine dans cette unité effectue une attaque visant une unité **^^Infantry^^** ou **^^Mounted^^**, relancez un jet de Touche de 1.</characteristic>
+                    <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Chaque fois qu’une figurine de cette unité effectue une attaque qui cible une unité **^^Infantry^^** ou **^^Mounted^^**, relancez un jet de Touche de 1.</characteristic>
                   </characteristics>
                 </profile>
               </profiles>
@@ -3722,7 +3722,7 @@ Si une figurine est en mode Hover, jusqu’à la fin de la bataille, sa caracté
               <profiles>
                 <profile name="Battle-scarred Resistance" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="61e0-a37c-ca60-b36b">
                   <characteristics>
-                    <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Les figurines de cette unité ont la aptitude Insensible à la douleur 6+.</characteristic>
+                    <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Les figurines de cette unité ont l’aptitude Insensible à la Douleur 6+.</characteristic>
                   </characteristics>
                 </profile>
               </profiles>
@@ -3766,7 +3766,7 @@ Si une figurine est en mode Hover, jusqu’à la fin de la bataille, sa caracté
               <profiles>
                 <profile name="Wraith of Ruin" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="a261-085b-c6ac-de92">
                   <characteristics>
-                    <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Les figurines de cette unité ont la aptitude Infiltrators.</characteristic>
+                    <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Les figurines de cette unité ont l’aptitude Infiltrateurs.</characteristic>
                   </characteristics>
                 </profile>
               </profiles>
@@ -3806,7 +3806,7 @@ Si une figurine est en mode Hover, jusqu’à la fin de la bataille, sa caracté
               <profiles>
                 <profile name="United By Adversity" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="ce60-226f-407f-96d5">
                   <characteristics>
-                    <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Vous pouvez cibler cette unité avec le Stratagème d'intervention héroïque pour 0CP, et vous pouvez le faire même si vous avez déjà ciblé une autre unité avec ce Stratagème cette phase.</characteristic>
+                    <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Vous pouvez cibler cette unité avec l'intervention héroïque Stratagème pour 0CP, et vous pouvez le faire même si vous avez déjà ciblé une unité différente avec ce Stratagème cette phase.</characteristic>
                   </characteristics>
                 </profile>
               </profiles>
@@ -3843,7 +3843,7 @@ Si une figurine est en mode Hover, jusqu’à la fin de la bataille, sa caracté
               <profiles>
                 <profile name="Raiders" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="7f83-56b6-5344-3399">
                   <characteristics>
-                    <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Chaque fois qu'une figurine dans cette unité effectue une attaque visant une unité qui se trouve à l'intérieur de la portée d'un marqueur objectif, relancez un jet de Touche de 1.</characteristic>
+                    <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Chaque fois qu’une figurine de cette unité effectue une attaque qui cible une unité à portée d’un pion d’objectif, relancez un jet de Touche de 1.</characteristic>
                   </characteristics>
                 </profile>
               </profiles>
@@ -3880,7 +3880,7 @@ Si une figurine est en mode Hover, jusqu’à la fin de la bataille, sa caracté
               <profiles>
                 <profile name="Purgators" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="9354-4ef9-eda9-04a1">
                   <characteristics>
-                    <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Cette unité obtient le mot-clé **^^Grenades^^**. S'il a déjà ce mot-clé, une fois par bataille, vous pouvez cibler cette unité avec la Grenade Stratagème pour 0CP.</characteristic>
+                    <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Cette unité gagne mot-clé **^^Grenades^^**. Si elle a déjà ce mot-clé, Une fois par bataille, vous pouvez cibler cette unité avec la grenade Stratagème pour 0CP.</characteristic>
                   </characteristics>
                 </profile>
               </profiles>
@@ -3920,7 +3920,7 @@ Si une figurine est en mode Hover, jusqu’à la fin de la bataille, sa caracté
               <profiles>
                 <profile name="Terror Assault" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="2064-7161-aa80-4859">
                   <characteristics>
-                    <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Au début de la phase de Combat, sélectionnez une unité ennemie avec la Portée d’Engagement de cette unité. Cette unité ennemie doit passer un test d’Ébranlement.</characteristic>
+                    <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Au début de la phase de Combat, sélectionnez une unité ennemie avec Portée d’Engagement de cette unité. cette unité ennemie doit prendre un test d’Ébranlement.</characteristic>
                   </characteristics>
                 </profile>
               </profiles>
@@ -4002,7 +4002,7 @@ Si une figurine est en mode Hover, jusqu’à la fin de la bataille, sa caracté
               <profiles>
                 <profile name="Thundering Onslaught" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="5ff3-f50a-9614-31f9">
                   <characteristics>
-                    <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Ajoutez 1 aux jets d’Avance et de Charge effectués pour cette unité.</characteristic>
+                    <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Ajoutez 1 à Advance et jets de Charge effectués pour cette unité.</characteristic>
                   </characteristics>
                 </profile>
               </profiles>
@@ -4039,7 +4039,7 @@ Si une figurine est en mode Hover, jusqu’à la fin de la bataille, sa caracté
               <profiles>
                 <profile name="Saddleborne Assassins" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="c680-6f61-e271-755f">
                   <characteristics>
-                    <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Chaque fois qu'une figurine de cette unité effectue une attaque de tir qui cible la cible admissible la plus proche, améliorez la caractéristique de Pénétration d’Armure de cette attaque de 1.</characteristic>
+                    <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Chaque fois qu’une figurine de cette unité effectue une attaque de tir qui cible la cible éligible la plus proche, améliorez de 1 la caractéristique de Pénétration d’Armure de cette attaque.</characteristic>
                   </characteristics>
                 </profile>
               </profiles>
@@ -4076,7 +4076,7 @@ Si une figurine est en mode Hover, jusqu’à la fin de la bataille, sa caracté
               <profiles>
                 <profile name="Linebreakers" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="6c9b-3ccc-ef75-6f19">
                   <characteristics>
-                    <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Chaque fois que cette unité termine un mouvement de Charge, jusqu'à la fin du tour, les armes de mêlée équipées de figurines dans cette unité ont la aptitude **[SUSTAINED HITS 1]**.</characteristic>
+                    <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Chaque fois que cette unité termine un mouvement de Charge, jusqu'à la fin du tour, armes de mêlée dont sont équipées les figurines de cette unité ont l’aptitude **[SUSTAINED HITS 1]**.</characteristic>
                   </characteristics>
                 </profile>
               </profiles>
@@ -4116,7 +4116,7 @@ Si une figurine est en mode Hover, jusqu’à la fin de la bataille, sa caracté
               <profiles>
                 <profile name="Crushing Charge" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="fc63-573b-1df5-5a97">
                   <characteristics>
-                    <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Chaque fois que cette unité termine un mouvement Charge, sélectionnez une unité ennemi dans la Portée d’Engagement de celle-ci, puis lancez un D6 pour chaque figurine dans cette unité qui se trouve dans la Portée d’Engagement de cette unité ennemie: pour chaque 4+, cette unité ennemie subit 1 blessure mortelle.</characteristic>
+                    <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Chaque fois que cette unité termine un mouvement de Charge, sélectionnez une unité ennemie dans Portée d’Engagement de celui-ci, puis lancez un D6 pour chaque figurine dans cette unité qui se trouve dans Portée d’Engagement de cette unité ennemie: pour chaque 4+, que cette unité ennemie souffre 1 blessure mortelle.</characteristic>
                   </characteristics>
                 </profile>
               </profiles>
@@ -4154,9 +4154,9 @@ Si une figurine est en mode Hover, jusqu’à la fin de la bataille, sa caracté
               <profiles>
                 <profile name="Precision Insertion" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="8541-0803-dadb-b6dd">
                   <characteristics>
-                    <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Une fois par bataille., lorsque cette unité est mise en place sur le champ de bataille en utilisant la aptitude Frappe en profondeur, Il peut effectuer une Précision Insertion. Si c'est le cas, cette unité peut être mise en place n'importe où sur le champ de bataille qui est plus que 6" horizontalement loin de toutes les unités ennemies, mais jusqu'à la fin du tour, il n'est pas éligible à déclarer une charge. Chaque fois que cette unité effectue une chirurgie Frappe en profondeur, Ajoutez 2 à l'essai Frappe en profondeur.
+                    <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Une fois par bataille, lorsque cette unité est placée sur le champ de bataille à l’aide de l’aptitude Frappe en Profondeur, elle peut effectuer une Precision Insertion. Si elle le fait, cette unité peut être placée n’importe où sur le champ de bataille à plus de 6" horizontalement de toute unité ennemie, mais jusqu’à la fin du tour, elle n’est pas éligible pour déclarer une charge. Chaque fois que cette unité effectue une Surgical Deep Strike, ajoutez 2 au test de Frappe en Profondeur.
 
-**Designer's Note:** *Seules les unités qui sont configurées à l'aide de la aptitude Frappe en profondeur sont utilisées pour bénéficier de cette caractéristique de bataille.*</characteristic>
+**Designer's Note:** *Seules les unités placées à l’aide de l’aptitude Frappe en Profondeur bénéficient de ce Trait de Bataille.*</characteristic>
                   </characteristics>
                 </profile>
               </profiles>
@@ -4193,7 +4193,7 @@ Si une figurine est en mode Hover, jusqu’à la fin de la bataille, sa caracté
               <profiles>
                 <profile name="Reinforced Armour" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="92bf-dcb5-53a9-21e3">
                   <characteristics>
-                    <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Chaque fois qu'une attaque avec une caractéristique de Dégâts de 1 est attribuée à une figurine de cette unité, la caractéristique de Pénétration d’Armure de cette attaque est aggravée par 1.</characteristic>
+                    <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Chaque fois qu'une attaque avec une caractéristique de Dégâts de 1 est attribuée à une figurine dans cette unité, la caractéristique de Pénétration d’Armure de cette attaque est aggravée par 1.</characteristic>
                   </characteristics>
                 </profile>
               </profiles>
@@ -4275,7 +4275,7 @@ Si une figurine est en mode Hover, jusqu’à la fin de la bataille, sa caracté
               <profiles>
                 <profile name="Behemoth" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="3c0e-8419-d6a2-62e4">
                   <characteristics>
-                    <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Ajoutez 2 aux caractéristique de PV des figurines de cette unité.</characteristic>
+                    <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Ajoutez 2 à la caractéristique de PV des figurines de cette unité.</characteristic>
                   </characteristics>
                 </profile>
               </profiles>
@@ -4320,7 +4320,7 @@ Si une figurine est en mode Hover, jusqu’à la fin de la bataille, sa caracté
               <profiles>
                 <profile name="Unrelenting" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="14a7-8766-06d2-972d">
                   <characteristics>
-                    <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Vous pouvez ignorer tous ou tous les modificateurs de la caractéristique de mouvement de cette unité. En outre, chaque fois que cette unité effectue un mouvement normal, les figurines de cette unité peuvent se déplacer à travers le terrain, mais si certains le font, après que cette unité a déménagé, lancez un D6: sur un 1-3 cette unité est Ébranlée.</characteristic>
+                    <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Vous pouvez ignorer tous ou tous les modificateurs de la caractéristique de mouvement de cette unité. En outre, chaque fois que cette unité fait un mouvement Normal, les figurines de cette unité peut se déplacer à travers le terrain, mais si tel sont le cas, après que cette unité a déménagé, lancez un D6: sur un 1-3 cette unité est Ébranlée.</characteristic>
                   </characteristics>
                 </profile>
               </profiles>
@@ -4357,7 +4357,7 @@ Si une figurine est en mode Hover, jusqu’à la fin de la bataille, sa caracté
               <profiles>
                 <profile name="Titan Slayer" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="9288-c3f1-6d75-c23e">
                   <characteristics>
-                    <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Chaque fois qu'une figurine dans cette unité effectue une attaque visant une unité **^^Monster^^** ou **^^Vehicle^^**, relancez un jet de Touche de 1. Si cette attaque cible une unité **^^Titanic^^**, vous pouvez relancer le jet de Touche à la place.</characteristic>
+                    <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Chaque fois qu'une figurine dans cette unité effectue une attaque visant une unité **^^Monster^^** ou **^^Vehicle^^**, relancer un jet de Touche de 1. Si cette attaque cible une unité **^^Titanic^^**, vous pouvez relancer le jet de Touche à la place.</characteristic>
                   </characteristics>
                 </profile>
               </profiles>
@@ -4394,7 +4394,7 @@ Si une figurine est en mode Hover, jusqu’à la fin de la bataille, sa caracté
               <profiles>
                 <profile name="Talismanic" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="4919-0d6e-d17c-4723">
                   <characteristics>
-                    <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Chaque fois que cette unité est marquée pour la grandeur, elle gagne un 2XP supplémentaire.</characteristic>
+                    <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Chaque fois que cette unité est Marked for Greatness, elle gagne 2XP supplémentaires.</characteristic>
                   </characteristics>
                 </profile>
               </profiles>
@@ -4426,7 +4426,7 @@ Si une figurine est en mode Hover, jusqu’à la fin de la bataille, sa caracté
               <profiles>
                 <profile name="Grim Survivors" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="6db2-5b25-f309-17df">
                   <characteristics>
-                    <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Une fois par bataille, au début de n'importe quelle phase, cette unité peut utiliser ce trait de bataille. Si c'est le cas, jusqu'à la fin de la phase, les figurines de cette unité ont la aptitude Insensible à la douleur 5+. Si cette unité est inférieure à la Demi-effectif lorsque cette caractéristique de bataille est utilisée, alors jusqu'à la fin de la phase, les figurines de cette unité ont la aptitude Insensible à la douleur 4+ à la place.</characteristic>
+                    <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Quand AnchorT00000X, au début de toute phase, cette unité peut utiliser ce trait de bataille. Si c'est le cas, Jusqu’à la fin de la phase, les figurines de cette unité ont l’aptitude Insensible à la douleur 5+. Si cette unité est En Dessous de son Demi-effectif lorsque ce trait de bataille est utilisé, alors Jusqu’à la fin de la phase, les figurines de cette unité ont l’aptitude Insensible à la douleur 4+ à la place.</characteristic>
                   </characteristics>
                 </profile>
               </profiles>
@@ -4493,7 +4493,7 @@ Si une figurine est en mode Hover, jusqu’à la fin de la bataille, sa caracté
               <profiles>
                 <profile name="Strikemasters" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="f897-769b-6000-9be0">
                   <characteristics>
-                    <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Dans l'étape Déclarer les Formations de Bataille, vous pouvez dépenser 1 Requisition point; si vous le faites, alors jusqu'à la fin de la bataille, cette unité a la aptitude Frappe en profondeur et chaque fois que cette unité effectue une chirurgie Frappe en profondeur, Ajoutez 1 à son Frappe en profondeur test.</characteristic>
+                    <characteristic name="Description" typeId="9b8f-694b-e5e-b573">À l’étape Déclarer les Formations de Bataille, vous pouvez dépenser 1 point de Réquisition ; si vous le faites, jusqu’à la fin de la bataille, cette unité a l’aptitude Frappe en Profondeur et, chaque fois que cette unité effectue une Surgical Deep Strike, ajoutez 1 à son test de Frappe en Profondeur.</characteristic>
                   </characteristics>
                 </profile>
               </profiles>
@@ -4525,7 +4525,7 @@ Si une figurine est en mode Hover, jusqu’à la fin de la bataille, sa caracté
               <profiles>
                 <profile name="Tempered In Battle" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="ca46-189e-006e-e82d">
                   <characteristics>
-                    <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Une fois par bataille, dans votre phase de Commandement, cette unité peut utiliser ce trait de bataille. Si c'est le cas, jusqu'à la fin du tour, cette unité est admissible à tirer, déclare une charge et effectue une action dans un tour dans lequel a Battu en Retraite. En outre, cette unité est admissible à effectuer une action alors qu'elle est Ébranlée.</characteristic>
+                    <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Une fois par bataille, durant votre phase de Commandement, cette unité peut utiliser ce Trait de Bataille. Si elle le fait, jusqu’à la fin du tour, cette unité est éligible pour tirer, déclarer une charge et effectuer une Action durant un tour où elle a Battu en Retraite. De plus, cette unité est éligible pour effectuer une Action tant qu’elle est Ébranlée.</characteristic>
                   </characteristics>
                 </profile>
               </profiles>
@@ -4557,7 +4557,7 @@ Si une figurine est en mode Hover, jusqu’à la fin de la bataille, sa caracté
               <profiles>
                 <profile name="Fleet of Foot" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="619c-7f35-0f78-a3af">
                   <characteristics>
-                    <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Vous pouvez relancer les jets d’Avance pour cette unité et cette unité est éligible pour effectuer une action à tour de rôle dans laquelle ils avancent. De plus, si cette unité est sélectionnée pour avancer, jusqu'à la fin du tour, les unités ennemies ne peuvent pas utiliser le Fire Overwatch Stratagème pour tirer sur cette unité.</characteristic>
+                    <characteristic name="Description" typeId="9b8f-694b-e5e-b573">vous pouvez relancer jets d’Avance pour cette unité et cette unité est admissible à effectuer une action à tour de rôle dans laquelle ils avancent. En outre, si cette unité est sélectionnée pour avancer, jusqu'à la fin du tour, les unités ennemies ne peuvent pas utiliser le Fire Overwatch Stratagème pour tirer sur cette unité.</characteristic>
                   </characteristics>
                 </profile>
               </profiles>
@@ -4589,7 +4589,7 @@ Si une figurine est en mode Hover, jusqu’à la fin de la bataille, sa caracté
               <profiles>
                 <profile name="Territorial" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="495e-a4f1-9476-85e4">
                   <characteristics>
-                    <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Chaque fois qu'une figurine dans cette unité effectue une attaque qui cible une unité dans la portée d'un marqueur objectif, relancez un jet de Blessure de 1.</characteristic>
+                    <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Chaque fois qu'une figurine dans cette unité effectue une attaque visant une unité est à l'intérieur de Portée d'un pion d’objectif, relancer d'un jet de Blessure de 1.</characteristic>
                   </characteristics>
                 </profile>
               </profiles>
@@ -4621,7 +4621,7 @@ Si une figurine est en mode Hover, jusqu’à la fin de la bataille, sa caracté
               <profiles>
                 <profile name="Cavalry Outriders" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="30c1-2035-0347-3366">
                   <characteristics>
-                    <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Cette unité a la aptitude Éclaireurs 6".</characteristic>
+                    <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Cette unité a l’aptitude Éclaireurs 6".</characteristic>
                   </characteristics>
                 </profile>
               </profiles>
@@ -4660,7 +4660,7 @@ Si une figurine est en mode Hover, jusqu’à la fin de la bataille, sa caracté
               <profiles>
                 <profile name="Evasive" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="ee2f-447d-9c9d-ad63">
                   <characteristics>
-                    <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Chaque fois qu'une attaque de tir est attribuée à une figurine dans cette unité, à condition que cette unité ne reste pas stationnaire dans votre tour précédent, aggraver la caractéristique de Pénétration d’Armure de cette attaque par 1.</characteristic>
+                    <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Chaque fois qu’une attaque de tir est allouée à une figurine de cette unité, à condition que cette unité ne soit pas Restée Stationnaire à votre tour précédent, dégradez de 1 la caractéristique de Pénétration d’Armure de cette attaque.</characteristic>
                   </characteristics>
                 </profile>
               </profiles>
@@ -4692,7 +4692,7 @@ Si une figurine est en mode Hover, jusqu’à la fin de la bataille, sa caracté
               <profiles>
                 <profile name="Shock Cavalry" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="12c4-7063-0640-084b">
                   <characteristics>
-                    <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Chaque fois qu'une figurine dans cette unité effectue une attaque visant une unité ennemie qui est inférieure à son Effectif Initial, ajoutez 1 au jet de Touche. En outre, chaque fois qu'une figurine dans cette unité effectue une attaque visant une unité ennemi qui est en dessous de son Demi-effectif, ajoutez 1 au jet de Blessure.</characteristic>
+                    <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Chaque fois qu'une figurine dans cette unité effectue une attaque visant une unité ennemie qui est en dessous de son Effectif Initial, ajoutez 1 au jet de Touche. En outre, chaque fois qu'une figurine dans cette unité effectue une attaque visant une unité ennemie qui est En Dessous de son Demi-effectif, ajoutez 1 au jet de Blessure.</characteristic>
                   </characteristics>
                 </profile>
               </profiles>
@@ -4724,7 +4724,7 @@ Si une figurine est en mode Hover, jusqu’à la fin de la bataille, sa caracté
               <profiles>
                 <profile name="Sleek Interceptors" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="7025-2061-0804-18b9">
                   <characteristics>
-                    <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Chaque fois que cette unité avance, Ne faites pas jet d’Avance pour ça. Au lieu de cela, jusqu'à la fin de la phase, ajoutez 6" à la caractéristique de mouvement des figurines de cette unité.</characteristic>
+                    <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Chaque fois que cette unité avance, ne faites pas jet d’Avance pour elle. Au lieu de cela, Jusqu’à la fin de la phase, ajoutez 6" à la caractéristique de mouvement des figurines de cette unité.</characteristic>
                   </characteristics>
                 </profile>
               </profiles>
@@ -4756,7 +4756,7 @@ Si une figurine est en mode Hover, jusqu’à la fin de la bataille, sa caracté
               <profiles>
                 <profile name="Fiery Descent" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="dff8-839c-e49b-3e87">
                   <characteristics>
-                    <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Une fois par bataille, vous pouvez cibler cette unité avec le Rapid Ingress Stratagème pour 0CP. Si cette unité effectue une chirurgie Frappe en profondeur en le faisant, avant que les tests Frappe en profondeur ne soient effectués, lancez un D6 pour chaque unité ennemi à 6" ou moins de votre unité: sur une 4+, cette unité ennemi subit une blessure mortelle 1.</characteristic>
+                    <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Une fois par bataille, vous pouvez cibler cette unité avec le Rapid Ingress Stratagème pour 0CP. Si cette unité effectue une chirurgie Frappe en profondeur, avant que les tests Frappe en profondeur ne soient effectués, lancez un D6 pour chaque unité ennemie à 6" ou moins de votre unité: sur une 4+, que cette unité ennemie souffre 1 blessure mortelle.</characteristic>
                   </characteristics>
                 </profile>
               </profiles>
@@ -4788,7 +4788,7 @@ Si une figurine est en mode Hover, jusqu’à la fin de la bataille, sa caracté
               <profiles>
                 <profile name="Take to the Skies" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="4c7c-c2fc-7bcc-c73e">
                   <characteristics>
-                    <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Une fois par bataille, à la fin de la phase de Combat de votre adversaire, vous pouvez retirer cette unité du champ de bataille et la placer dans les réserves stratégiques.</characteristic>
+                    <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Une fois par bataille, à la fin de la phase de Combat de votre adversaire, vous pouvez retirer cette unité du champ de bataille et la placer dans Réserves Stratégiques.</characteristic>
                   </characteristics>
                 </profile>
               </profiles>
@@ -4820,7 +4820,7 @@ Si une figurine est en mode Hover, jusqu’à la fin de la bataille, sa caracté
               <profiles>
                 <profile name="Hunting Beasts" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="359d-5a14-35d4-3fdb">
                   <characteristics>
-                    <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Vous pouvez relancer les jets d’Avance et de Charge faits pour cette unité.</characteristic>
+                    <characteristic name="Description" typeId="9b8f-694b-e5e-b573">vous pouvez relancer Advance et jets de Charge effectués pour cette unité.</characteristic>
                   </characteristics>
                 </profile>
               </profiles>
@@ -4852,7 +4852,7 @@ Si une figurine est en mode Hover, jusqu’à la fin de la bataille, sa caracté
               <profiles>
                 <profile name="Pouncing Predators" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="3899-ea18-2582-fbcc">
                   <characteristics>
-                    <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Vous pouvez cibler cette unité avec le stratagème d'intervention héroïque pour 0CP, et chaque fois que vous le faites, jusqu'à la fin du tour, cette unité a la aptitude Fights First.</characteristic>
+                    <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Vous pouvez cibler cette unité avec l'intervention héroïque Stratagème pour 0CP, et chaque fois que vous le faites, jusqu'à la fin du tour, cette unité a l’aptitude Fights First.</characteristic>
                   </characteristics>
                 </profile>
               </profiles>
@@ -4922,9 +4922,9 @@ Si une figurine est en mode Hover, jusqu’à la fin de la bataille, sa caracté
               <profiles>
                 <profile name="Drop Zone Veterans" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="8d34-d242-a338-8e60">
                   <characteristics>
-                    <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Chaque fois que cette unité est mise en place sur le champ de bataille en utilisant la aptitude Frappe en profondeur, jusqu'à la fin du tour, chaque fois qu'une figurine dans cette unité fait une attaque, relancez les jets de Touche de 1 et les jets de Blessure de 1. Chaque fois que cette unité effectue une chirurgie Frappe en profondeur, vous pouvez relancer le test Frappe en profondeur.
+                    <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Chaque fois que cette unité est configurée sur le champ de bataille en utilisant l’aptitude Frappe en profondeur, jusqu'à la fin du tour, chaque fois qu'une figurine dans cette unité fait une attaque, relancer un jet de Touche de 1 et relancer un jet de Blessure de 1. Chaque fois que cette unité effectue une chirurgie Frappe en profondeur, vous pouvez relancer le test Frappe en profondeur.
 
-**Designer's Note:** *Seules les unités qui sont configurées à l'aide de la aptitude Frappe en profondeur sont utilisées pour bénéficier de cette caractéristique de bataille.*</characteristic>
+**Designer's Note:** *Seules les unités qui sont configurées à l'aide du Frappe en profondeur aptitude sont utilisées pour bénéficier de cette caractéristique de bataille.*</characteristic>
                   </characteristics>
                 </profile>
               </profiles>
@@ -4951,9 +4951,9 @@ Si une figurine est en mode Hover, jusqu’à la fin de la bataille, sa caracté
               <profiles>
                 <profile name="Stealthy Arrival" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="85d8-e908-b885-b5b1">
                   <characteristics>
-                    <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Chaque fois que cette unité est mise en place sur le champ de bataille en utilisant la aptitude Frappe en profondeur, jusqu'à la fin de votre prochain tour, cette unité a la aptitude Discrétion et les unités ennemies ne peuvent pas utiliser le Fire Overwatch Stratagème pour tirer sur cette unité.
+                    <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Chaque fois que cette unité est installée sur le champ de bataille en utilisant l’aptitude Frappe en profondeur, jusqu'à la fin de votre prochaine tour, cette unité a l’aptitude Discrétion et les unités ennemies ne peuvent pas utiliser le Fire Overwatch Stratagème pour tirer sur cette unité.
 
-**Designer's Note:** *Seules les unités qui sont configurées à l'aide de la aptitude Frappe en profondeur sont utilisées pour bénéficier de cette caractéristique de bataille.*</characteristic>
+**Designer's Note:** *Seules les unités qui sont configurées à l'aide du Frappe en profondeur aptitude sont utilisées pour bénéficier de cette caractéristique de bataille.*</characteristic>
                   </characteristics>
                 </profile>
               </profiles>
@@ -4993,7 +4993,7 @@ Si une figurine est en mode Hover, jusqu’à la fin de la bataille, sa caracté
                   <profiles>
                     <profile name="Eye of Mars" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="cd84-ee7d-2121-b084">
                       <characteristics>
-                        <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Après que les deux joueurs aient déployé leurs armées, sélectionnez une unité de votre armée de la Croisade et redéployez-la. Lorsque vous le faites, vous pouvez configurer cette unité dans les réserves stratégiques si vous le souhaitez, quel que soit le nombre d'unités déjà dans les réserves stratégiques.</characteristic>
+                        <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Après que les deux joueurs ont déployé leurs armées, sélectionnez une unité de votre armée de Croisade et redéployez-la. Ce faisant, vous pouvez placer cette unité en Réserves Stratégiques si vous le souhaitez, quel que soit le nombre d’unités déjà en Réserves Stratégiques.</characteristic>
                       </characteristics>
                     </profile>
                   </profiles>
@@ -5036,7 +5036,7 @@ Si une figurine est en mode Hover, jusqu’à la fin de la bataille, sa caracté
                   <profiles>
                     <profile name="Noctilith Sigil" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="fc20-e371-673f-b15b">
                       <characteristics>
-                        <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Seul la figurine non-**^^Psyker^^**. Les figurines de l'unité du porteur ont la aptitude Insensible à la douleur 4+ contre les attaques Psychique.</characteristic>
+                        <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Non-**^^Psyker^^** figurine uniquement. les figurines de l’unité du porteur ont l’aptitude Insensible à la douleur 4+ contre les attaques Psychiques.</characteristic>
                       </characteristics>
                     </profile>
                   </profiles>
@@ -5083,7 +5083,7 @@ Si une figurine est en mode Hover, jusqu’à la fin de la bataille, sa caracté
                   <profiles>
                     <profile name="Dolmen Key" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="6804-f3a7-e6fc-ed80">
                       <characteristics>
-                        <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Les figurines dans l'unité du porteur ont la aptitude Frappe en profondeur. En outre, vous pouvez cibler l'unité du porteur avec le Rapid Ingress Stratagème pour 0CP, et lors de la résolution de ce Stratagème, vous pouvez installer cette unité n'importe où sur le champ de bataille qui est plus de 6" horizontalement loin de toutes les unités ennemies et à la portée d'un marqueur objectif. Jusqu'à la fin du tour, cette unité n'est pas admissible à la déclaration d'une charge.</characteristic>
+                        <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Les figurines de l’unité du porteur ont l’aptitude Frappe en profondeur. En outre, vous pouvez cibler l’unité du porteur avec le Rapid Ingress Stratagème pour 0CP, et lors de la résolution de ce Stratagème, vous pouvez configurer cette unité n'importe où sur le champ de bataille qui est plus que 6" horizontalement loin de toutes les unités ennemies et à l'intérieur de Portée d'un pion d’objectif. Jusqu'à la fin du tour, cette unité n'est pas admissible à la déclaration d'une charge.</characteristic>
                       </characteristics>
                     </profile>
                   </profiles>
@@ -5129,7 +5129,7 @@ Si une figurine est en mode Hover, jusqu’à la fin de la bataille, sa caracté
                   <profiles>
                     <profile name="Vantachren's Mirror" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="82ea-4b7b-dc1b-4ada">
                       <characteristics>
-                        <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Les figurines dans l'unité du porteur ont la aptitude Discrétion. En outre, chaque fois que l'unité du porteur est sélectionnée comme cible d'une charge, Soustrayez 2 du jet de Charge.</characteristic>
+                        <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Les figurines de l’unité du porteur ont l’aptitude Discrétion. En outre, chaque fois que l’unité du porteur est sélectionnée comme cible d'une charge, Soustrayez 2 du jet de Charge.</characteristic>
                       </characteristics>
                     </profile>
                   </profiles>
@@ -5179,7 +5179,7 @@ Si une figurine est en mode Hover, jusqu’à la fin de la bataille, sa caracté
                   <profiles>
                     <profile name="Rod of the Omnissiah" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="fc54-f313-bad7-6554">
                       <characteristics>
-                        <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Au début de votre phase de Commandement, le porteur récupère jusqu'à D3 des PV perdus. Une fois par bataille, au début de votre phase de Commandement, si votre armée de la Croisade est dans le plan stratégique équilibré, le porteur peut activer cette relique de la Croisade. Si c'est le cas, sélectionnez une unité ennemie à l'intérieur de la portée du porteur. Cette unité ennemie subit un nombre de Blessures Mortelles égal au nombre de blessures que le porteur a récupérées à la suite de cette relique de la Croisade au cours de la bataille.</characteristic>
+                        <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Au début de votre phase de Commandement, le porteur récupère jusqu'à D3 PV perdus. Une fois par bataille, au début de votre phase de Commandement, si votre armée de Croisades est dans l'équilibre stratégique, le porteur peut activer cette relique de Croisades. Si c'est le cas, sélectionnez une unité ennemie dans Portée d’Engagement du porteur. que cette unité ennemie souffre un nombre de Blessures Mortelles égal au nombre de blessures le porteur a récupéré à la suite de cette relique de la Croisade au cours de la bataille.</characteristic>
                       </characteristics>
                     </profile>
                   </profiles>
@@ -5222,7 +5222,7 @@ Si une figurine est en mode Hover, jusqu’à la fin de la bataille, sa caracté
                   <profiles>
                     <profile name="Blade of the Dynast" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="84a7-ad58-2a81-91b0">
                       <characteristics>
-                        <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Améliorez la force, les Dégâts et les caractéristiques de Pénétration d’Armure des armes de mêlée du porteur de 1. Une fois par bataille, dans votre phase de Charge, si votre armée de Croisade est dans l'Aggressive Strategic Footing, le porteur peut activer cette relique de Croisade. Si c'est le cas, jusqu'à la fin de la phase, ajoutez 2 aux jets de Charge de l'unité du porteur.</characteristic>
+                        <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Améliorez de 1 les caractéristiques de Force, de Dégâts et de Pénétration d’Armure des armes de mêlée du porteur. Une fois par bataille, durant votre phase de Charge, si votre armée de Croisade est dans l’Aggressive Strategic Footing, le porteur peut activer cette Relique de Croisade. S’il le fait, jusqu’à la fin de la phase, ajoutez 2 aux jets de Charge effectués pour l’unité du porteur.</characteristic>
                       </characteristics>
                     </profile>
                   </profiles>
@@ -5335,7 +5335,7 @@ Si une figurine est en mode Hover, jusqu’à la fin de la bataille, sa caracté
                   <profiles>
                     <profile name="Armour of the Soulless Sentry" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="09ac-1f7a-8636-dc1f">
                       <characteristics>
-                        <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Améliorez la Endurance et économiser les caractéristiques du porteur de 1.</characteristic>
+                        <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Améliorez les caractéristiques d’Endurance et de Sauvegarde du porteur de 1.</characteristic>
                       </characteristics>
                     </profile>
                   </profiles>
@@ -5381,7 +5381,7 @@ Si une figurine est en mode Hover, jusqu’à la fin de la bataille, sa caracté
                   <profiles>
                     <profile name="Veil of Ancients" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="b3f3-dac8-f2ac-2a06">
                       <characteristics>
-                        <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Le porteur a un 4+ sauvegarde invulnérable.</characteristic>
+                        <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Le porteur a une sauvegarde invulnérable de 4+.</characteristic>
                       </characteristics>
                     </profile>
                   </profiles>
@@ -5417,7 +5417,7 @@ Si une figurine est en mode Hover, jusqu’à la fin de la bataille, sa caracté
                   <profiles>
                     <profile name="Blackstone Compass" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="8b10-b5c2-007f-2d0f">
                       <characteristics>
-                        <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Après avoir gagné une bataille, si le porteur est sur le champ de bataille, vous gagnez un 2 Blackstone Fragments supplémentaires.</characteristic>
+                        <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Après avoir gagné une bataille, si le porteur est sur le champ de bataille, vous gagnez un autre 2 Blackstone Fragments.</characteristic>
                       </characteristics>
                     </profile>
                   </profiles>
@@ -5453,11 +5453,11 @@ Si une figurine est en mode Hover, jusqu’à la fin de la bataille, sa caracté
                   <profiles>
                     <profile name="Treasure of the Technomandrites" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="5311-f846-c528-3e84">
                       <characteristics>
-                        <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Sélectionnez une arme équipée par le porteur (à l'exclusion d'une arme qui a été remplacée par une Optimisation ou améliorée via le tableau Modifications d'armes), puis sélectionnez l'une des capacités ci-dessous pour que cette arme gagne. Cette arme est maintenant une relique de la Croisade; notez cela sur la carte de la Croisade du porteur et donnez à l'arme un nom approprié.
+                        <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Sélectionnez une arme dont le porteur est équipé (à l’exclusion d’une arme qui a été remplacée par une Optimisation ou améliorée via le tableau Modifications d’Armes), puis sélectionnez l’une des aptitudes ci-dessous que cette arme gagne. Cette arme devient une Relique de Croisade ; notez-le sur la carte de Croisade du porteur et donnez un nom approprié à l’arme.
 
-- **[LETHAL HITS]**
-- **[PRECISION]**
-- **[SUSTAINED HITS 1]**</characteristic>
+- **[Touches fatales]**
+- **[Précision]**
+- **[Touches soutenues 1]**</characteristic>
                       </characteristics>
                     </profile>
                   </profiles>
@@ -5504,7 +5504,7 @@ Si une figurine est en mode Hover, jusqu’à la fin de la bataille, sa caracté
                   <profiles>
                     <profile name="Nameless Tome" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="dd14-2e6f-1274-d2b0">
                       <characteristics>
-                        <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Pendant que le porteur est sur le champ de bataille, vous pouvez utiliser le New Order Stratagème pour 0CP.</characteristic>
+                        <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Alors que le porteur est sur le champ de bataille, vous pouvez utiliser les nouveaux ordres Stratagème pour 0CP.</characteristic>
                       </characteristics>
                     </profile>
                   </profiles>
@@ -5586,7 +5586,7 @@ Si une figurine est en mode Hover, jusqu’à la fin de la bataille, sa caracté
                   <profiles>
                     <profile name="Shard of Shattered Futures" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="9bf2-831a-62c4-dea8">
                       <characteristics>
-                        <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Au début du premier tour de bataille, si le porteur est dans votre armée de la Croisade, vous pouvez retirer jusqu'à trois cartes de Mission secondaire de votre deck de Mission secondaire et les jeter, si vous le pouvez, vous devez ensuite réorganiser votre deck de Mission secondaire.</characteristic>
+                        <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Au début du premier round de bataille, si le porteur fait partie de votre armée de Croisade, vous pouvez retirer jusqu’à trois cartes de Mission Secondaire de votre paquet de Missions Secondaires et les défausser. Si vous le faites, vous devez ensuite mélanger votre paquet de Missions Secondaires.</characteristic>
                       </characteristics>
                     </profile>
                   </profiles>
@@ -5643,7 +5643,7 @@ Si une figurine est en mode Hover, jusqu’à la fin de la bataille, sa caracté
                   <profiles>
                     <profile name="Archeotech Nano-med" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="0b3b-1380-b77a-5c92">
                       <characteristics>
-                        <characteristic name="Description" typeId="9b8f-694b-e5e-b573">**^^Infantry^^** figurine uniquement. La première fois que le support est détruit, vous pouvez choisir de rouler un D6 à la fin de la phase au lieu d'utiliser toutes les règles qui sont déclenchées quand une figurine est détruite. Si vous le faites, sur une 4+, Mettez le porteur sur le champ de bataille aussi près que possible de l'endroit où ils ont été détruits. et Plus que 1" loin de tous les figurines ennemies, avec D3 PV restants. Si le porteur faisait partie d'une unité attachée lorsqu'elle a été détruite et que son unité Bodyguard est toujours sur le champ de bataille lorsque le porteur est rétabli, il doit être placé à nouveau dans l'unité de cohérence avec cette unité pour former une unité attachée. Vous n'avez pas besoin de faire un test hors action pour le porteur à la fin de la bataille à moins qu'il ne soit détruit à nouveau.</characteristic>
+                        <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Figurine **^^Infantry^^** uniquement. La première fois que le porteur est détruit, vous pouvez choisir de lancer un D6 à la fin de la phase au lieu d’utiliser toute règle qui se déclenche lorsqu’une figurine est détruite. Si vous le faites, sur 4+, replacez le porteur sur le champ de bataille aussi près que possible de l’endroit où il a été détruit et à plus de 1" de toutes les figurines ennemies, avec D3 PV restants. Si le porteur faisait partie d’une unité Attachée lorsqu’il a été détruit et que son unité Bodyguard est toujours sur le champ de bataille lorsqu’il est replacé, il doit de nouveau être placé en Cohésion d’Unité avec cette unité pour former une unité Attachée. Vous n’avez pas à effectuer de test Hors de Combat pour le porteur à la fin de la bataille, sauf s’il est de nouveau détruit.</characteristic>
                       </characteristics>
                     </profile>
                   </profiles>
@@ -5730,7 +5730,7 @@ Si une figurine est en mode Hover, jusqu’à la fin de la bataille, sa caracté
                   <profiles>
                     <profile name="Cranium Obscura" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="2aa8-048c-cf96-be49">
                       <characteristics>
-                        <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Ne peut pas être pris par les figurines **^^Psyker^^**. Chaque fois qu'une attaque Psychique cible l'unité du porteur, Soustrayez 1 de le jet de Touche.</characteristic>
+                        <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Ne peut pas être pris par **^^Psyker^^** figurines. Chaque fois qu'une attaque Psychique cible l’unité du porteur, Soustrayez 1 de l'attaque jet de Touche.</characteristic>
                       </characteristics>
                     </profile>
                   </profiles>
@@ -5774,7 +5774,7 @@ Si une figurine est en mode Hover, jusqu’à la fin de la bataille, sa caracté
                   <profiles>
                     <profile name="Shadesplinter Cloak" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="6ad8-c713-f166-c037">
                       <characteristics>
-                        <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Sauf si le porteur fait partie d'une unité attachée au début de la bataille, il a la aptitude Agent solitaire.</characteristic>
+                        <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Sauf si le porteur est partie d’une unité Attachée au début de la bataille, il a l’aptitude Agent solitaire.</characteristic>
                       </characteristics>
                     </profile>
                   </profiles>
@@ -5820,7 +5820,7 @@ Si une figurine est en mode Hover, jusqu’à la fin de la bataille, sa caracté
                   <profiles>
                     <profile name="Lantern of Detestation" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="25fb-f968-ea54-fa54">
                       <characteristics>
-                        <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Au début de la phase de Mouvement de votre adversaire, pour chaque unité ennemie (à l'exclusion des unités **^^Imperium^^** et **^^Chaos^^**) dans la Portée d’Engagement du porteur, lancez un D6: sur un 4+. jusqu'à la fin de la phase, cette unité ne peut pas être sélectionnée pour Battre en Retraite.</characteristic>
+                        <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Au début de la phase de Mouvement de votre adversaire, pour chaque unité ennemie (à l’exclusion des unités **^^Imperium^^** et **^^Chaos^^**) à Portée d’Engagement du porteur, lancez un D6 : sur 4+, jusqu’à la fin de la phase, cette unité ne peut pas être sélectionnée pour Battre en Retraite.</characteristic>
                       </characteristics>
                     </profile>
                   </profiles>
@@ -5863,7 +5863,7 @@ Si une figurine est en mode Hover, jusqu’à la fin de la bataille, sa caracté
                   <profiles>
                     <profile name="Shard of Dying Light" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="523d-6d7f-a2b3-581a">
                       <characteristics>
-                        <characteristic name="Description" typeId="9b8f-694b-e5e-b573">**^^Psyker^^** figurine uniquement. Chaque fois que le porteur effectue une attaque Psychique, ajoutez 1 au jet de Blessure de cette attaque.</characteristic>
+                        <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Figurine **^^Psyker^^** uniquement. Chaque fois que le porteur effectue une Attaque Psychique, ajoutez 1 au jet de Blessure de cette attaque.</characteristic>
                       </characteristics>
                     </profile>
                   </profiles>
@@ -5911,7 +5911,7 @@ Si une figurine est en mode Hover, jusqu’à la fin de la bataille, sa caracté
                   <profiles>
                     <profile name="Gheist Prism Field" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="de45-77ab-837e-748a">
                       <characteristics>
-                        <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Chaque fois que le porteur effectue un mouvement normal, avancé ou renversé, jusqu'à ce que ce mouvement soit terminé, il peut se déplacer horizontalement à travers des figurines et des caractéristiques de terrain (il ne peuvent pas terminer un mouvement au-dessus d'un autre figurine ou de sa base). Si c'est le cas lors d'un mouvement Battre en Retraite, les figurines de cette unité n'ont pas besoin de passer un test Desperate Escape. Après avoir terminé de se déplacer, sélectionnez une unité ennemie qu'elle a traversée (le cas échéant) et lancez un D6: sur une 2+, cette unité subit des Blessures Mortelles D3.</characteristic>
+                        <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Chaque fois que le porteur effectue un mouvement Normal, d’Avance ou de Retraite, jusqu’à la fin de ce mouvement, il peut traverser horizontalement les figurines et les éléments de terrain (il ne peut pas terminer un mouvement sur une autre figurine ou son socle). S’il le fait durant un mouvement de Retraite, les figurines de cette unité n’ont pas à effectuer de test de Fuite Désespérée. Une fois son mouvement terminé, sélectionnez une unité ennemie qu’il a traversée, le cas échéant, et lancez un D6 : sur 2+, cette unité subit D3 blessures mortelles.</characteristic>
                       </characteristics>
                     </profile>
                   </profiles>
@@ -5965,7 +5965,7 @@ Si une figurine est en mode Hover, jusqu’à la fin de la bataille, sa caracté
                     </profile>
                     <profile name="Vortex Grenade" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="b999-edd4-8e79-7750">
                       <characteristics>
-                        <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Le porteur ne peut tirer avec cette arme qu'une fois par bataille. Lorsqu'une attaque est effectuée avec cette arme, si un coup est marqué, lancez un D6 pour chaque unité à 6" ou moins de l'unité cible (à l'exclusion de l'unité cible elle-même): sur un 4+, l'unité en train d'être roulée subit des Blessures Mortelles D3. le target unité puis subit 3D3 Blessures Mortelles.</characteristic>
+                        <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Le porteur ne peut tirer avec cette arme qu’une fois par bataille. Lorsqu’une attaque est effectuée avec cette arme, si une touche est obtenue, lancez un D6 pour chaque unité à 6" ou moins de l’unité cible (à l’exclusion de l’unité cible elle-même) : sur 4+, l’unité pour laquelle le dé est lancé subit D3 blessures mortelles. L’unité cible subit ensuite 3D3 blessures mortelles.</characteristic>
                       </characteristics>
                     </profile>
                   </profiles>
@@ -6011,7 +6011,7 @@ Si une figurine est en mode Hover, jusqu’à la fin de la bataille, sa caracté
                   <profiles>
                     <profile name="Null-field Disruptor" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="81a6-e01e-03b3-4125">
                       <characteristics>
-                        <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Chaque fois que le porteur effectue une attaque de mêlée, des jets de sauvegarde invulnérables ne peuvent pas être faits contre cette attaque.</characteristic>
+                        <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Chaque fois que le porteur effectue une attaque de mêlée, aucun jet de sauvegarde invulnérable ne peut être effectué contre cette attaque.</characteristic>
                       </characteristics>
                     </profile>
                   </profiles>
@@ -6054,7 +6054,7 @@ Si une figurine est en mode Hover, jusqu’à la fin de la bataille, sa caracté
                   <profiles>
                     <profile name="Vertebrax of Vodun" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="5109-2625-e190-8ddc">
                       <characteristics>
-                        <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Au début de votre phase de Commandement, sélectionnez une figurine amie sur le champ de bataille (à l'exclusion du porteur) puis sélectionnez une aptitude Aura que la figurine sélectionné possède. Jusqu'au début de votre prochaine phase de Commandement, le porteur a cette aptitude d'Aura.</characteristic>
+                        <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Au début de votre phase de Commandement, sélectionnez une figurine amie sur le champ de bataille (à l’exclusion du porteur) puis sélectionnez un Aura aptitude qui a sélectionné figurine. Jusqu'au début de votre prochaine phase de Commandement, le porteur a cette Aura aptitude.</characteristic>
                       </characteristics>
                     </profile>
                   </profiles>
@@ -6101,7 +6101,7 @@ Si une figurine est en mode Hover, jusqu’à la fin de la bataille, sa caracté
                   <profiles>
                     <profile name="Crimson Medallion of Bastior" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="dfd8-89bd-1c1f-385c">
                       <characteristics>
-                        <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Au début de votre phase de Commandement, si le porteur est à la portée d'un marqueur objectif que vous contrôlez, lancez un D6: sur un 4+, vous gagnez 1CP.</characteristic>
+                        <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Au début de votre phase de Commandement, si le porteur est à l'intérieur de Portée d'un pion d’objectif que vous contrôlez, lancez un D6: sur un 4+, vous gagnez 1CP.</characteristic>
                       </characteristics>
                     </profile>
                   </profiles>
@@ -6137,7 +6137,7 @@ Si une figurine est en mode Hover, jusqu’à la fin de la bataille, sa caracté
                   <profiles>
                     <profile name="Master-crafted Armour" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="6d38-3938-1582-d2fa">
                       <characteristics>
-                        <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Ajoutez 1 aux jets de sauvegarde faites pour le porteur.</characteristic>
+                        <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Ajoutez 1 aux jets de sauvegarde d’armure effectués pour le porteur.</characteristic>
                       </characteristics>
                     </profile>
                   </profiles>
@@ -6173,7 +6173,7 @@ Si une figurine est en mode Hover, jusqu’à la fin de la bataille, sa caracté
                   <profiles>
                     <profile name="Artificer Weapon" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="39dc-f5a6-364d-51ac">
                       <characteristics>
-                        <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Sélectionnez une arme dont le porteur est équipé (à l'exclusion d'une arme qui a été remplacée par une Optimisation ou mise à niveau via le trait de bataille des modifications d'armes). Faites une note sur la carte de croisade du porteur de cette arme et donnez- lui un nom approprié. Cette arme est maintenant une relique de croisade et chaque fois que le porteur fait une attaque avec elle, sur un coup critique, la cible subit une blessure mortelle 1 en plus de tout Dégât normal.</characteristic>
+                        <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Sélectionnez une arme dont le porteur est équipé (à l’exclusion d’une arme remplacée par une Optimisation ou améliorée par le Trait de Bataille Weapon Modifications). Notez cette arme sur la fiche de Croisade du porteur et donnez-lui un nom approprié. Cette arme est désormais une Relique de Croisade et, chaque fois que le porteur effectue une attaque avec elle, sur une Touche Critique, la cible subit 1 blessure mortelle en plus des dégâts normaux.</characteristic>
                       </characteristics>
                     </profile>
                   </profiles>
@@ -6215,7 +6215,7 @@ Si une figurine est en mode Hover, jusqu’à la fin de la bataille, sa caracté
                   <profiles>
                     <profile name="Biosplint Gland" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="179e-a700-2330-1df8">
                       <characteristics>
-                        <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Chaque fois que l'unité du porteur met fin à la charge déplacée, sélectionnez une unité ennemie dans la Portée d’Engagement du porteur. Jusqu'à la fin du tour, chaque fois qu'une figurine de cette unité ennemie fait une attaque, Soustrayez 1 de ce jet de Touche de l'attaque Hit.</characteristic>
+                        <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Chaque fois que l’unité du porteur termine un mouvement de Charge, sélectionnez une unité ennemie à Portée d’Engagement du porteur. Jusqu’à la fin du tour, chaque fois qu’une figurine de cette unité ennemie effectue une attaque, soustrayez 1 au jet de Touche de cette attaque.</characteristic>
                       </characteristics>
                     </profile>
                   </profiles>
@@ -6362,7 +6362,7 @@ Si une figurine est en mode Hover, jusqu’à la fin de la bataille, sa caracté
                   <profiles>
                     <profile name="Maelstrom Clarion" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="228b-1dbc-bd3a-3e81">
                       <characteristics>
-                        <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Les unités ennemies placées sur le champ de bataille en tant que renforts ne peuvent pas être placées à 12" ou moins du porteur.</characteristic>
+                        <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Les unités ennemies qui sont installées sur le champ de bataille en tant que Renforcements ne peuvent pas être installées à 12" ou moins du porteur.</characteristic>
                       </characteristics>
                     </profile>
                   </profiles>
@@ -6405,7 +6405,7 @@ Si une figurine est en mode Hover, jusqu’à la fin de la bataille, sa caracté
                   <profiles>
                     <profile name="Displacer Field" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="ee7e-b61e-3ae1-bd86">
                       <characteristics>
-                        <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Une fois par bataille, à la fin de la phase de Tir de votre adversaire, si l'unité du porteur n'est pas dans la Portée d’Engagement d'une ou de plusieurs unités ennemies, et si elle a été visée par une ou plusieurs attaques au cours de cette phase, vous pouvez retirer l'unité du porteur du champ de bataille et la placer dans les réserves stratégiques. Si vous le faites, la prochaine fois que vous configurerez l'unité du porteur des réserves stratégiques, les figurines qui ont la aptitude Frappe en profondeur jusqu'à la fin de cette phase.</characteristic>
+                        <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Une fois par bataille, à la fin de la phase de Tir de votre adversaire, si l’unité du porteur n'est pas à l'intérieur de Portée d’Engagement d'une ou de plusieurs unités ennemies, et s'il a été ciblé par une ou plusieurs Attaques au cours de cette phase, vous pouvez retirer l’unité du porteur du champ de bataille et la placer dans Réserves Stratégiques. Si vous le faites, la prochaine fois que vous configurerez l’unité du porteur de Réserves Stratégiques, figurines dans qui ont l’aptitude Frappe en profondeur jusqu'à la fin de cette phase.</characteristic>
                       </characteristics>
                     </profile>
                   </profiles>
@@ -6510,7 +6510,7 @@ Si une figurine est en mode Hover, jusqu’à la fin de la bataille, sa caracté
                   <profiles>
                     <profile name="Gloaming Mantle" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="9708-7ed7-4dc5-1c39">
                       <characteristics>
-                        <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Le porteur possède les capacités Agent solitaire et Discrétion. Alors que le porteur mène une unité, les figurines de cette unité ont la aptitude Discrétion et cette unité ne peuvent être sélectionnée comme cible d'une attaque de tir que si la figurine attaquant se trouve à 18" ou moins.</characteristic>
+                        <characteristic name="Description" typeId="9b8f-694b-e5e-b573">le porteur a les aptitudes Agent solitaire et Discrétion. Alors que le porteur mène une unité, les figurines de cette unité ont l’aptitude Discrétion et cette unité ne peuvent être sélectionnée comme cible d'une attaque de tir que si l'attaquant figurine est à 18" ou moins.</characteristic>
                       </characteristics>
                     </profile>
                   </profiles>
@@ -6557,10 +6557,10 @@ Si une figurine est en mode Hover, jusqu’à la fin de la bataille, sa caracté
                   <profiles>
                     <profile name="Lyreth's Mirror" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="a20d-e72e-1d99-a6c0">
                       <characteristics>
-                        <characteristic name="Description" typeId="9b8f-694b-e5e-b573">À la fin de la phase de Mouvement de votre adversaire, vous pouvez sélectionner une unité ennemie qui a été mise en place sur le champ de bataille à 12" ou moins de l'unité du porteur pendant cette phase; l'unité du porteur peut alors:
+                        <characteristic name="Description" typeId="9b8f-694b-e5e-b573">À la fin de la phase de Mouvement de votre adversaire, vous pouvez sélectionner une unité ennemie qui a été placée sur le champ de bataille à 12" ou moins de l’unité du porteur durant cette phase ; l’unité du porteur peut alors effectuer l’une des actions suivantes :
 
-- Tirer, mais lors de la résolution de ces attaques, l'unité des soldats du porteur ne peut viser que l'unité ennemie (et seulement si c'est une cible admissible).
-- Déclarer une redevance à l'égard de cette unité (note que même si cette redevance est couronnée de succès, l'unité du porteur ne reçoit pas cette fois-ci une prime de redevance).</characteristic>
+- Tirer, mais, lors de la résolution de ces attaques, l’unité du porteur ne peut cibler que cette unité ennemie (et seulement si celle-ci est une cible éligible).
+- Déclarer une charge contre cette unité (notez que même si cette charge est réussie, l’unité du porteur ne reçoit aucun bonus de Charge à ce tour).</characteristic>
                       </characteristics>
                     </profile>
                   </profiles>
@@ -6607,7 +6607,7 @@ Si une figurine est en mode Hover, jusqu’à la fin de la bataille, sa caracté
                   <profiles>
                     <profile name="Auto-medicae" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="b88c-fc60-1872-a00a">
                       <characteristics>
-                        <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Le porteur possède la aptitude Insensible à la douleur 5+.</characteristic>
+                        <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Le porteur a l’aptitude Insensible à la douleur 5+.</characteristic>
                       </characteristics>
                     </profile>
                   </profiles>
@@ -6650,7 +6650,7 @@ Si une figurine est en mode Hover, jusqu’à la fin de la bataille, sa caracté
                   <profiles>
                     <profile name="Strategic Laurels" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="a6ff-9170-4b23-11e2">
                       <characteristics>
-                        <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Au début de votre première phase de Commandement, si le porteur est sur le champ de bataille, vous gagnez 1CP. À la fin de la bataille, si le porteur est sur le champ de bataille, vous gagnez 1 point d'actif stratégique (SAP).</characteristic>
+                        <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Au début de votre première phase de Commandement, si le porteur est sur le champ de bataille, vous gagnez 1CP. À la fin de la bataille, si le porteur est sur le champ de bataille, vous gagnez 1 point d’Actif Stratégique (SAP).</characteristic>
                       </characteristics>
                     </profile>
                   </profiles>
@@ -6686,7 +6686,7 @@ Si une figurine est en mode Hover, jusqu’à la fin de la bataille, sa caracté
                   <profiles>
                     <profile name="Conversion Field" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="258f-8850-ca4d-0e84">
                       <characteristics>
-                        <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Les figurines de l'unité du porteur ont un 5+ sauvegarde invulnérable contre les attaques de tir et chaque fois qu'une attaque de tir est attribuée à une figurine de l'unité du porteur, sur un jet de sauvegarde non modifié de 6, l'unité attaquante subit une blessure mortelle 1 après avoir terminé ses attaques.</characteristic>
+                        <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Les figurines de l’unité du porteur ont une sauvegarde invulnérable de 5+ contre les attaques de tir. De plus, chaque fois qu’une attaque de tir est allouée à une figurine de l’unité du porteur, sur un jet de sauvegarde non modifié de 6, l’unité attaquante subit 1 blessure mortelle après avoir fini d’effectuer ses attaques.</characteristic>
                       </characteristics>
                     </profile>
                   </profiles>
@@ -6722,7 +6722,7 @@ Si une figurine est en mode Hover, jusqu’à la fin de la bataille, sa caracté
                   <profiles>
                     <profile name="Gene-toxin Autofont" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="e1ae-43ac-d6c2-6e90">
                       <characteristics>
-                        <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Sélectionnez une arme de mêlée équipée par le porteur (à l'exclusion d'une arme qui a été remplacée par une relique d'Optimisation ou de croisade, ou améliorée avec des traits de bataille). Cette arme est maintenant une relique de la Croisade et, dans votre phase de Combat, après que le porteur a combattu, sélectionnez une unité ennemie touchée par une ou plusieurs de ces attaques faites avec cette arme. Jusqu'à la fin de la bataille, cette unité ennemie est empoisonnée. Au début de la phase de Commandement de chaque joueur, lancez un D6 pour chaque unité ennemi empoisonnée sur le champ de bataille: sur un 1, le poison s'épuise et l'unité n'est plus empoisonnée; sur un 2-3, cette unité ennemi subit une blessure mortelle 1; sur un 4+, cette unité ennemi subit des Blessures Mortelles D3.</characteristic>
+                        <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Sélectionnez une arme de mêlée dont le porteur est équipé (à l’exclusion d’une arme qui a été remplacée par une Optimisation ou une Relique de Croisade, ou améliorée par un Trait de Bataille). Cette arme devient une Relique de Croisade et, durant votre phase de Combat, après que le porteur a combattu, sélectionnez une unité ennemie touchée par une ou plusieurs de ces attaques effectuées avec cette arme. Jusqu’à la fin de la bataille, cette unité ennemie est empoisonnée. Au début de la phase de Commandement de chaque joueur, lancez un D6 pour chaque unité ennemie empoisonnée sur le champ de bataille : sur 1, le poison se dissipe et cette unité n’est plus empoisonnée ; sur 2-3, cette unité ennemie subit 1 blessure mortelle ; sur 4+, cette unité ennemie subit D3 blessures mortelles.</characteristic>
                       </characteristics>
                     </profile>
                   </profiles>
@@ -6780,10 +6780,10 @@ Si une figurine est en mode Hover, jusqu’à la fin de la bataille, sa caracté
                   <profiles>
                     <profile name="Sanguiflamme of Armageddon" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="212b-967c-d980-000d">
                       <characteristics>
-                        <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Au début de votre phase de Commandement, si le porteur est à portée d'un marqueur objectif que vous contrôlez, vous pouvez choisir l'un des éléments suivants:
+                        <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Au début de votre phase de Commandement, si le porteur est à portée d’un pion d’objectif que vous contrôlez, vous pouvez choisir l’une des options suivantes :
 
-- Retirez le compteur de déformation 1 de l'unité du porteur. Si vous le faites, gagnez 1CP.
-- Faites un test de Commandement pour cette figurine. Si ce test est passé, gagnez 1CP.</characteristic>
+- Retirez 1 pion Warp que possède l’unité du porteur. Si vous le faites, gagnez 1CP.
+- Effectuez un test de Commandement pour cette figurine. Si ce test est réussi, gagnez 1CP.</characteristic>
                       </characteristics>
                     </profile>
                   </profiles>
@@ -6826,7 +6826,7 @@ Si une figurine est en mode Hover, jusqu’à la fin de la bataille, sa caracté
                   <profiles>
                     <profile name="Riftwalker's Astrolabe" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="31db-df9e-ad57-a5f5">
                       <characteristics>
-                        <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Le porteur possède l’aptitude Frappe en profondeur. Pendant que le porteur mène une unité, les figurines de cette unité ont la aptitude Frappe en profondeur.</characteristic>
+                        <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Le porteur possède l’aptitude Frappe en profondeur. Alors que le porteur est à la tête d'une unité, les figurines de cette unité ont l’aptitude Frappe en profondeur.</characteristic>
                       </characteristics>
                     </profile>
                   </profiles>
@@ -6872,7 +6872,7 @@ Si une figurine est en mode Hover, jusqu’à la fin de la bataille, sa caracté
                   <profiles>
                     <profile name="Weapon of Renown" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="fc18-be59-bec1-4164">
                       <characteristics>
-                        <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Sélectionnez une arme de mêlée avec laquelle le porteur est équipé (à l'exclusion d'une arme qui a été remplacée par une Optimisation ou améliorée via le trait de bataille des modifications d'armes). Cette arme est maintenant une relique de la Croisade et elle a les capacités **[ANTI-UNBOUND ADVERSARIES 4+** et **[DEVASTATING WOUNDS]**.</characteristic>
+                        <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Sélectionnez une arme de mêlée dont le porteur est équipé (à l’exclusion d’une arme remplacée par une Optimisation ou améliorée par le Trait de Bataille Weapon Modifications). Cette arme est désormais une Relique de Croisade et a les aptitudes **[ANTI-UNBOUND ADVERSARIES 4+** et **[DEVASTATING WOUNDS]**.</characteristic>
                       </characteristics>
                     </profile>
                   </profiles>
@@ -6925,7 +6925,7 @@ Si une figurine est en mode Hover, jusqu’à la fin de la bataille, sa caracté
                   <profiles>
                     <profile name="Exorcist's Thurible" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="c1e1-6b02-3509-324b">
                       <characteristics>
-                        <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Le porteur possède la aptitude Insensible à la douleur 5+ contre les Blessures Mortelles et attaques Psychiques. En outre, une fois par bataille, juste après avoir roulé pour générer une anomalie, vous pouvez retirer un compteur Warp que le porteur a. Si vous le faites, vous pouvez changer l'un des dés qui faisaient partie de ce jet en un résultat de votre choix (changement de l'anomalie générée).</characteristic>
+                        <characteristic name="Description" typeId="9b8f-694b-e5e-b573">le porteur a l’aptitude Insensible à la douleur 5+ contre Blessures Mortelles et attaques Psychiques. En outre, Une fois par bataille, juste après avoir roulé pour générer une anomalie, vous pouvez supprimer un compteur Warp le porteur a. Si vous le faites, vous pouvez changer l'un des dés qui faisaient partie de ce jet à un résultat de dés de votre choix (changement de l'anomalie générée).</characteristic>
                       </characteristics>
                     </profile>
                   </profiles>
@@ -6975,7 +6975,7 @@ Si une figurine est en mode Hover, jusqu’à la fin de la bataille, sa caracté
                   <profiles>
                     <profile name="Beast-ward Barbute" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="caea-9ebe-9a0b-d0d7">
                       <characteristics>
-                        <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Chaque fois qu'une unité **^^Beast^^** ou **^^Monster^^** cible l'unité du porteur, avant de jet de Touche une attaque, cette unité **^^Beast^^** ou **^^Monster^^** doit passer un test d’Ébranlement. Chaque fois qu'une figurine dans l'unité **^^Beast^^** ou **^^Monster^^** effectue une attaque visant l'unité du porteur, Soustrayez 1 du jet de Blessure et, si ce test a échoué, Soustrayez 1 du jet Wound également. De plus, une fois par bataille, dans votre phase de Commandement, vous pouvez sélectionner une unité **^^Unbound Adversaries^^** à 18" ou moins du porteur. Si vous le faites, jusqu'au début de votre prochaine phase de Commandement, cette unité **^^Unbound Adversaries^^** perd le mot-clé **^^Unbound Adversaries^^** et fait partie de votre armée de la Croisade.</characteristic>
+                        <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Chaque fois qu’une unité **^^Beast^^** ou **^^Monster^^** cible l’unité du porteur, avant d’effectuer des attaques, cette unité **^^Beast^^** ou **^^Monster^^** doit effectuer un test d’Ébranlement. Chaque fois qu’une figurine de cette unité **^^Beast^^** ou **^^Monster^^** effectue une attaque qui cible l’unité du porteur, soustrayez 1 au jet de Touche et, si ce test a été raté, soustrayez également 1 au jet de Blessure. De plus, une fois par bataille, durant votre phase de Commandement, vous pouvez sélectionner une unité **^^Unbound Adversaries^^** à 18" ou moins du porteur. Si vous le faites, jusqu’au début de votre prochaine phase de Commandement, cette unité **^^Unbound Adversaries^^** perd le mot-clé **^^Unbound Adversaries^^** et fait partie de votre armée de Croisade.</characteristic>
                       </characteristics>
                     </profile>
                   </profiles>
@@ -7018,7 +7018,7 @@ Si une figurine est en mode Hover, jusqu’à la fin de la bataille, sa caracté
                   <profiles>
                     <profile name="Vengeance Totem" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="e18a-5c8b-5c2b-bbc2">
                       <characteristics>
-                        <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Lorsque l'unité du porteur est détruite, lancez sur D6 pour chaque unité ennemie à 6" ou moins: sur un 4+, cette unité ennemie subit D3 Blessures Mortelles. Ensuite, si l'unité du porteur avait un ou plusieurs compteurs Warp lorsqu'il a été détruit, vous pouvez installer une unité de **^^Unbound Adversaries^^** sur le champ de bataille aussi près que possible de l'endroit où la figurine du porteur a été détruit et non dans la Portée d’Engagement des unités ennemies. Le niveau de puissance de cette unité est égal au nombre de compteurs Warp que possédait l'unité du porteur.</characteristic>
+                        <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Lorsque l’unité du porteur est détruite, lancez sur D6 pour chaque unité ennemie à 6" ou moins: sur un 4+, que cette unité ennemie souffre D3 Blessures Mortelles. Ensuite, si l’unité du porteur avait un ou plusieurs compteurs Warp lorsqu'elle a été détruite, vous pouvez installer une unité de **^^Unbound Adversaries^^** sur le champ de bataille aussi près que possible de l'endroit où du porteur figurine a été détruit et pas à l'intérieur de Portée d’Engagement de toute unité ennemie. Le niveau de puissance de cette unité est égal au nombre de compteurs de Warp dont dispose l’unité du porteur.</characteristic>
                       </characteristics>
                     </profile>
                   </profiles>
@@ -7061,7 +7061,7 @@ Si une figurine est en mode Hover, jusqu’à la fin de la bataille, sa caracté
                   <profiles>
                     <profile name="Empyromancer's Focus" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="762d-28f4-b9c1-b28f">
                       <characteristics>
-                        <characteristic name="Description" typeId="9b8f-694b-e5e-b573">**^^Psyker^^** figurine uniquement. Les armes Psychique du porteur acquièrent la aptitude **[SUSTAINED HITS 2]**. En outre, à la fin de l'étape Set Warp Events, si le porteur est dans votre armée de Croisade, vous pouvez choisir d'augmenter ou de diminuer l'intensité de l'utilisation des événements Warp dans cette bataille par 1 (à un minimum de 1 et un maximum de 3).</characteristic>
+                        <characteristic name="Description" typeId="9b8f-694b-e5e-b573">**^^Psyker^^** figurine uniquement. Les armes le porteur de Psychique gagnent l’aptitude **[SUSTAINED HITS 2]**. En outre, à la fin de l'étape Set Warp Events, si le porteur est dans votre armée de Croisade, vous pouvez choisir d'augmenter ou de diminuer l'intensité de l'utilisation des événements Warp dans cette bataille par 1 (au minimum de 1 et au maximum de 3).</characteristic>
                       </characteristics>
                     </profile>
                   </profiles>
@@ -7118,7 +7118,7 @@ Si une figurine est en mode Hover, jusqu’à la fin de la bataille, sa caracté
                   <profiles>
                     <profile name="Warp-touched Weapon" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="1e6a-09c7-ab51-a292">
                       <characteristics>
-                        <characteristic name="Description" typeId="9b8f-694b-e5e-b573">**^^Infantry^^** ou **^^Mounted^^** figurine uniquement. Sélectionnez une arme de mêlée avec laquelle le porteur est équipé (à l'exclusion d'une arme qui a été remplacée par une Optimisation ou améliorée via le trait de bataille des modifications d'armes). Cette arme est maintenant une relique de croisade et vous ajoutez 1 aux caractéristiques d'attaque, de force et de dégâts de cette arme. En outre, chaque fois que le porteur est sélectionné pour combattre, vous pouvez d'abord retirer jusqu'à des compteurs de Warp 3 de l'unité du porteur. Pour chaque compteur Warp enlevé de cette façon, jusqu'à la fin de la phase, ajoutez un 1 supplémentaire aux caractéristiques d'attaque et de force de cette arme.</characteristic>
+                        <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Figurine **^^Infantry^^** ou **^^Mounted^^** uniquement. Sélectionnez une arme de mêlée dont le porteur est équipé (à l’exclusion d’une arme remplacée par une Optimisation ou améliorée par le Trait de Bataille Weapon Modifications). Cette arme est désormais une Relique de Croisade et vous ajoutez 1 à ses caractéristiques d’Attaques, de Force et de Dégâts. De plus, chaque fois que le porteur est sélectionné pour combattre, vous pouvez d’abord retirer jusqu’à 3 pions Warp de l’unité du porteur. Pour chaque pion Warp ainsi retiré, jusqu’à la fin de la phase, ajoutez 1 supplémentaire aux caractéristiques d’Attaques et de Force de cette arme.</characteristic>
                       </characteristics>
                     </profile>
                   </profiles>
@@ -7177,7 +7177,7 @@ Si une figurine est en mode Hover, jusqu’à la fin de la bataille, sa caracté
                   <profiles>
                     <profile name="Cowl of Vehemence" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="f1c3-3754-c9fb-e086">
                       <characteristics>
-                        <characteristic name="Description" typeId="9b8f-694b-e5e-b573">**^^Psyker^^** figurine uniquement. Chaque fois que le porteur effectue une attaque Psychique, relancez un jet de Blessure de 1. Alors que l'unité du porteur dispose d'un ou plusieurs compteurs Warp, à chaque fois que le porteur effectue une attaque Psychique, vous pouvez relancer le jet de Blessure à la place.</characteristic>
+                        <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Figurine **^^Psyker^^** uniquement. Chaque fois que le porteur effectue une Attaque Psychique, relancez un jet de Blessure de 1. Tant que l’unité du porteur a un ou plusieurs pions Warp, chaque fois que le porteur effectue une Attaque Psychique, vous pouvez relancer le jet de Blessure à la place.</characteristic>
                       </characteristics>
                     </profile>
                   </profiles>
@@ -7220,7 +7220,7 @@ Si une figurine est en mode Hover, jusqu’à la fin de la bataille, sa caracté
                   <profiles>
                     <profile name="Periapt of the Righteous" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="929d-9b6b-7244-74a9">
                       <characteristics>
-                        <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Ajoutez 2 à la caractéristique de PV du porteur. De plus, dans votre phase de Commandement, vous pouvez supprimer un compteur Warp de l'unité du porteur. Si vous le faites, le porteur récupère jusqu'à D3 PV perdus.</characteristic>
+                        <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Ajoutez 2 à la caractéristique de PV du porteur. De plus, dans votre phase de Commandement, vous pouvez supprimer un compteur Warp dont l’unité du porteur dispose. Si vous le faites, le porteur récupère jusqu'à D3 PV perdus.</characteristic>
                       </characteristics>
                     </profile>
                   </profiles>
@@ -7264,7 +7264,7 @@ Si une figurine est en mode Hover, jusqu’à la fin de la bataille, sa caracté
                   <profiles>
                     <profile name="Tartarine Cuirass" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="dab9-88ab-e397-40a0">
                       <characteristics>
-                        <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Chaque fois qu'une attaque est attribuée au porteur, Soustrayez 1 de la caractéristique Dégât de cette attaque. Ce n'est pas cumulatif avec d'autres modificateurs qui aggravent la caractéristique des Dégâts d'une attaque.</characteristic>
+                        <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Chaque fois qu'une attaque est attribuée au porteur, Soustrayez 1 de la caractéristique de Dégâts de cette attaque. Ce n'est pas cumulatif avec d'autres modificateurs qui aggravent la caractéristique de Dégâts d'une attaque.</characteristic>
                       </characteristics>
                     </profile>
                   </profiles>
@@ -7300,7 +7300,7 @@ Si une figurine est en mode Hover, jusqu’à la fin de la bataille, sa caracté
                   <profiles>
                     <profile name="Grimoire Abjuratis" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="ee0a-1bef-400c-17c5">
                       <characteristics>
-                        <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Chaque fois qu'une figurine **^^Beast^^** ou **^^Monster^^** effectue une attaque visant l'unité du porteur, Soustrayez 1 du jet de Blessure. Si la figurine d'attaque est une unité **^^Unbound Adversaries^^**, Soustrayez aussi 1 du jet de Touche.</characteristic>
+                        <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Chaque fois qu’une figurine **^^Beast^^** ou **^^Monster^^** effectue une attaque qui cible l’unité du porteur, soustrayez 1 au jet de Blessure. Si la figurine attaquante appartient à une unité **^^Unbound Adversaries^^**, soustrayez également 1 au jet de Touche.</characteristic>
                       </characteristics>
                     </profile>
                   </profiles>
@@ -7432,7 +7432,7 @@ Si une figurine est en mode Hover, jusqu’à la fin de la bataille, sa caracté
               <profiles>
                 <profile name="Giantslayers" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="2948-fe70-8807-d6c3">
                   <characteristics>
-                    <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Chaque fois qu'une figurine de cette unité fait une attaque contre une unité **^^Monster^^** ou **^^Vehicle^^**, relancez un jet de Touche de 1.</characteristic>
+                    <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Chaque fois qu’une figurine de cette unité effectue une attaque contre une unité **^^Monster^^** ou **^^Vehicle^^**, relancez un jet de Touche de 1.</characteristic>
                   </characteristics>
                 </profile>
               </profiles>
@@ -7486,7 +7486,7 @@ Si une figurine est en mode Hover, jusqu’à la fin de la bataille, sa caracté
               <profiles>
                 <profile name="Indomitable Defiance" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="987c-763c-e359-e995">
                   <characteristics>
-                    <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Tant que cette unité est dans la Portée d’Engagement de n'importe quel figurine ennemie **^^Monster^^** ou **^^Vehicle^^**, elle passe automatiquement les tests d’Ébranlement et de Commandement.</characteristic>
+                    <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Tant que cette unité est à l'intérieur de Portée d’Engagement de tout ennemi **^^Monster^^** ou **^^Vehicle^^** figurines, elle passe automatiquement Ébranlement et tests de Commandement.</characteristic>
                   </characteristics>
                 </profile>
               </profiles>
@@ -7513,7 +7513,7 @@ Si une figurine est en mode Hover, jusqu’à la fin de la bataille, sa caracté
               <profiles>
                 <profile name="Hamstringing Attacks" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="c2be-b94d-d4cb-f914">
                   <characteristics>
-                    <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Dans votre phase de Tir, chaque fois que cette unité est sélectionnée pour tirer, après avoir résolu ses attaques, sélectionnez une unité **^^Monster^^** ou **^^Vehicle^^** qui a perdu un ou plusieurs PV à la suite de ces attaques. Jusqu'au début de votre prochaine phase de Tir, Soustrayez 2" de la caractéristique de mouvement des figurines de cette unité **^^Monster^^** ou **^^Vehicle^^** et soustraire 2 des jets de Charge de cette unité.</characteristic>
+                    <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Durant votre phase de Tir, chaque fois que cette unité est sélectionnée pour tirer, après avoir résolu ses attaques, sélectionnez une unité **^^Monster^^** ou **^^Vehicle^^** qui a perdu un ou plusieurs PV à cause de ces attaques. Jusqu’au début de votre prochaine phase de Tir, soustrayez 2" à la caractéristique de Mouvement des figurines de cette unité **^^Monster^^** ou **^^Vehicle^^**, et soustrayez 2 aux jets de Charge effectués pour cette unité.</characteristic>
                   </characteristics>
                 </profile>
               </profiles>
@@ -7540,7 +7540,7 @@ Si une figurine est en mode Hover, jusqu’à la fin de la bataille, sa caracté
               <profiles>
                 <profile name="Titan's Bane" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="717f-8db9-3efd-b18a">
                   <characteristics>
-                    <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Les armes équipées de figurines de cette unité ont les capacités **[ANTI-MONSTER 4+]** et **[ANTI-VEHICLE 4+]**.</characteristic>
+                    <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Les armes dont sont équipées les figurines de cette unité ont les aptitudes **[ANTI-MONSTER 4+]** et **[ANTI-VEHICLE 4+]**.</characteristic>
                   </characteristics>
                 </profile>
               </profiles>
@@ -7580,7 +7580,7 @@ Si une figurine est en mode Hover, jusqu’à la fin de la bataille, sa caracté
               <profiles>
                 <profile name="Nimble Defence" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="38ac-2ed6-0bd7-e628">
                   <characteristics>
-                    <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Chaque fois qu'une unité **^^Monster^^** ou **^^Vehicle^^** fait une attaque contre cette unité, les figurines de cette unité ont la aptitude Insensible à la douleur 5+ contre cette attaque.</characteristic>
+                    <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Chaque fois qu'une unité **^^Monster^^** ou **^^Vehicle^^** fait une attaque contre cette unité, les figurines de cette unité ont l’aptitude Insensible à la douleur 5+ contre cette attaque.</characteristic>
                   </characteristics>
                 </profile>
               </profiles>
@@ -7640,7 +7640,7 @@ Si une figurine est en mode Hover, jusqu’à la fin de la bataille, sa caracté
               <profiles>
                 <profile name="Thunderous Blows" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="7229-19e6-8032-8105">
                   <characteristics>
-                    <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Chaque fois qu'une figurine de cette unité détruit une unité ennemie, Soustrayez 2 de l'unité ennemie's Out de Action test pour cette bataille.</characteristic>
+                    <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Chaque fois qu'une figurine dans cette unité détruit une unité ennemie, Soustrayez 2 de ce test hors action de unité ennemie pour cette bataille.</characteristic>
                   </characteristics>
                 </profile>
               </profiles>
@@ -7667,7 +7667,7 @@ Si une figurine est en mode Hover, jusqu’à la fin de la bataille, sa caracté
               <profiles>
                 <profile name="Indomitable Stature" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="3e8f-093a-1795-a68a">
                   <characteristics>
-                    <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Chaque fois qu'une attaque de tir est effectuée contre cette unité, si la caractéristique de Force de cette attaque est supérieure à la caractéristique d’Endurance de cette unité, Soustrayez 1 du jet de Blessure de cette attaque.</characteristic>
+                    <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Chaque fois qu'une attaque de tir est faite contre cette unité, si la caractéristique de Force de cette attaque est supérieure à la caractéristique d’Endurance de cette unité, Soustrayez la 1 du jet de Blessure de cette attaque.</characteristic>
                   </characteristics>
                 </profile>
               </profiles>
@@ -7694,9 +7694,9 @@ Si une figurine est en mode Hover, jusqu’à la fin de la bataille, sa caracté
               <profiles>
                 <profile name="Monstrous Presence (Aura)" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="778a-e580-8c04-636f">
                   <characteristics>
-                    <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Alors qu'une unité ennemie est dans la Portée d’Engagement de cette unité:
-- Soustrayez 1 de la caractéristique de Commandement des figurines dans cette unité ennemie.
-- Chaque fois que cette unité passe un test d’Ébranlement, le Stratagème Insane Bravery ne peut pas être utilisé.</characteristic>
+                    <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Alors qu'une unité ennemie se trouve à l'intérieur du Portée d’Engagement de cette unité:
+- Soustrayez 1 à partir de la caractéristique de Commandement des figurines de cette unité ennemie.
+- Chaque fois que l'unité prend un test d’Ébranlement, l'insane Bravery Stratagème ne peut pas être utilisé.</characteristic>
                   </characteristics>
                 </profile>
               </profiles>
@@ -7723,7 +7723,7 @@ Si une figurine est en mode Hover, jusqu’à la fin de la bataille, sa caracté
               <profiles>
                 <profile name="Prey Taker" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="99ff-4ba1-2488-7c2f">
                   <characteristics>
-                    <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Ajoutez 1 aux jets d’Avance et de Charge effectués pour cette unité.</characteristic>
+                    <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Ajoutez 1 à Advance et jets de Charge effectués pour cette unité.</characteristic>
                   </characteristics>
                 </profile>
               </profiles>
@@ -7750,7 +7750,7 @@ Si une figurine est en mode Hover, jusqu’à la fin de la bataille, sa caracté
               <profiles>
                 <profile name="Predatory Senses" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="3928-4923-0ccb-858c">
                   <characteristics>
-                    <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Chaque fois qu'une figurine dans cette unité fait une attaque de tir, relance un jet de Touche de 1.</characteristic>
+                    <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Chaque fois qu’une figurine de cette unité effectue une attaque de tir, relancez un jet de Touche de 1.</characteristic>
                   </characteristics>
                 </profile>
               </profiles>
@@ -7777,7 +7777,7 @@ Si une figurine est en mode Hover, jusqu’à la fin de la bataille, sa caracté
               <profiles>
                 <profile name="Sweeping Blow" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="38e1-9c82-18ed-4bf0">
                   <characteristics>
-                    <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Chaque fois qu'une figurine de cette unité fait une attaque au corps à corps, si une blessure critique est lancée, la cible subit une blessure mortelle 1 en plus de tout Dégât normal.</characteristic>
+                    <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Chaque fois qu’une figurine de cette unité effectue une attaque de mêlée, si une Blessure Critique est obtenue, la cible subit 1 blessure mortelle en plus des dégâts normaux.</characteristic>
                   </characteristics>
                 </profile>
               </profiles>
@@ -7804,7 +7804,7 @@ Si une figurine est en mode Hover, jusqu’à la fin de la bataille, sa caracté
               <profiles>
                 <profile name="Shocking Celerity" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="1b98-4934-a009-a454">
                   <characteristics>
-                    <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Cette unité a la aptitude Fights First.</characteristic>
+                    <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Cette unité a l’aptitude Fights First.</characteristic>
                   </characteristics>
                 </profile>
               </profiles>
@@ -7834,7 +7834,7 @@ Si une figurine est en mode Hover, jusqu’à la fin de la bataille, sa caracté
               <profiles>
                 <profile name="Gargantuan Rage" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="6251-f857-24af-2a45">
                   <characteristics>
-                    <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Les figurines d'armes Melee de cette unité sont équipés de la aptitude **[SUSTAINED HITS 1]**.</characteristic>
+                    <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Les armes de mêlée dont sont équipées les figurines de cette unité ont l’aptitude **[SUSTAINED HITS 1]**.</characteristic>
                   </characteristics>
                 </profile>
               </profiles>
@@ -7872,7 +7872,7 @@ Si une figurine est en mode Hover, jusqu’à la fin de la bataille, sa caracté
               <profiles>
                 <profile name="Unstoppable Advance" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="acc3-e888-1539-0b15">
                   <characteristics>
-                    <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Chaque fois que cette unité effectue un mouvement Normal, Avance ou Battre en Retraite, jusqu'à ce que ce mouvement soit terminé, les figurines de cette unité peuvent se déplacer horizontalement à travers des figurines et des caractéristiques de terrain (ils ne peuvent pas terminer un mouvement au-dessus d'un autre figurine ou de sa base). Si c'est le cas lors d'un mouvement Battre en Retraite, les figurines de cette unité n'ont pas besoin de passer un test Desperate Escape.</characteristic>
+                    <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Chaque fois que cette unité effectue un mouvement Normal, d’Avance ou de Retraite, jusqu’à la fin de ce mouvement, les figurines de cette unité peuvent traverser horizontalement les figurines et les éléments de terrain (elles ne peuvent pas terminer un mouvement sur une autre figurine ou son socle). Si elles le font durant un mouvement de Retraite, les figurines de cette unité n’ont pas à effectuer de test de Fuite Désespérée.</characteristic>
                   </characteristics>
                 </profile>
               </profiles>
@@ -7899,7 +7899,7 @@ Si une figurine est en mode Hover, jusqu’à la fin de la bataille, sa caracté
               <profiles>
                 <profile name="Massive Stomp" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="459d-1377-d4a2-a93c">
                   <characteristics>
-                    <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Chaque fois que cette unité est sélectionnée pour combattre dans la phase de Combat, avant d'effectuer une attaque, elle peut piétiner. S'il le fait, sélectionnez une unité ennemi (à l'exclusion des unités **^^Monster^^** et **^^Vehicle^^**) à l'intérieur de la Portée d’Engagement et lancez un D6: sur une 2-5, cette unité ennemi subit des Blessures Mortelles D3; sur une 6, cette unité ennemi subit des Blessures Mortelles 3.</characteristic>
+                    <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Chaque fois que cette unité est sélectionnée pour combattre durant la phase de Combat, avant d’effectuer toute attaque, elle peut piétiner. Si elle le fait, sélectionnez une unité ennemie (à l’exclusion des unités **^^Monster^^** et **^^Vehicle^^**) à Portée d’Engagement d’elle et lancez un D6 : sur 2-5, cette unité ennemie subit D3 blessures mortelles ; sur 6, cette unité ennemie subit 3 blessures mortelles.</characteristic>
                   </characteristics>
                 </profile>
               </profiles>
@@ -7966,11 +7966,11 @@ Si une figurine est en mode Hover, jusqu’à la fin de la bataille, sa caracté
               <profiles>
                 <profile name="Acquisitive Opportunist" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="9151-3662-778c-5014">
                   <characteristics>
-                    <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Au début de la bataille, si le porteur est votre **^^Warlord^^**, jusqu'à la fin de la bataille, il acquiert la aptitude ci-dessous qui correspond à la marche stratégique que vous avez sélectionnée dans l'étape Sélectionner la marche stratégique:
+                    <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Au début de la bataille, si le porteur est votre **^^Warlord^^**, jusqu’à la fin de la bataille, il gagne l’aptitude ci-dessous correspondant au Strategic Footing sélectionné à l’étape Select Strategic Footing :
 
-- **Aggressive:** Les figurines dans l'unité du porteur ont la aptitude Éclaireurs 6".
-- **Balanced:** Le porteur possède la aptitude Agent solitaire.
-- **Defensive:** Les figurines dans l'unité du porteur ont la aptitude Discrétion.</characteristic>
+- **Aggressive:** Les figurines de l’unité du porteur ont l’aptitude Éclaireurs 6".
+- **Balanced:** Le porteur a l’aptitude Agent solitaire.
+- **Defensive:** Les figurines de l’unité du porteur ont l’aptitude Discrétion.</characteristic>
                   </characteristics>
                 </profile>
               </profiles>
@@ -8008,7 +8008,7 @@ Si une figurine est en mode Hover, jusqu’à la fin de la bataille, sa caracté
               <profiles>
                 <profile name="Nodal Map" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="fe53-d8dd-a036-1190">
                   <characteristics>
-                    <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Pendant que le porteur est dans la portée d'un marqueur objectif, si l'unité du porteur est Ébranlée, modifier la caractéristique de Contrôle d’Objectif des figurines de cette unité à 1, au lieu de 0.</characteristic>
+                    <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Tant que le porteur est à portée d’un pion d’objectif, si l’unité du porteur est Ébranlée, remplacez par 1 la caractéristique de Contrôle d’Objectif des figurines de cette unité, au lieu de 0.</characteristic>
                   </characteristics>
                 </profile>
               </profiles>
@@ -8050,7 +8050,7 @@ Si une figurine est en mode Hover, jusqu’à la fin de la bataille, sa caracté
               <profiles>
                 <profile name="Blackstone Amulet" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="a8d7-cea2-091e-bb15">
                   <characteristics>
-                    <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Chaque fois qu'une attaque de mêlée est attribuée au porteur, sur un jet de sauvegarde non modifié de 6, l'unité attaquante subit une blessure mortelle 1 après avoir terminé ses attaques. Si cette attaque a été faite avec une arme Psychique, cet effet s'applique à un jet de sauvegarde non modifié de 5+ à la place.</characteristic>
+                    <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Chaque fois qu’une attaque de mêlée est allouée au porteur, sur un jet de sauvegarde non modifié de 6, l’unité attaquante subit 1 blessure mortelle après avoir fini de résoudre ses attaques. Si cette attaque a été effectuée avec une arme Psychique, cet effet s’applique à la place sur un jet de sauvegarde non modifié de 5+.</characteristic>
                   </characteristics>
                 </profile>
               </profiles>
@@ -8089,7 +8089,7 @@ Si une figurine est en mode Hover, jusqu’à la fin de la bataille, sa caracté
               <profiles>
                 <profile name="Empathic Disinclinator" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="cb0f-bc11-da23-6ef2">
                   <characteristics>
-                    <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Au début de la bataille, sélectionnez un marqueur objectif. Pendant que le porteur est sur le champ de bataille, les unités amies à portée de ce marqueur objectif ont un 5+ sauvegarde invulnérable.</characteristic>
+                    <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Au début de la bataille, sélectionnez un pion d’objectif. Alors que le porteur est sur le champ de bataille, les unités amies au sein de Portée de ce pion d’objectif ont un 5+ sauvegarde invulnérable.</characteristic>
                   </characteristics>
                 </profile>
               </profiles>
@@ -8128,7 +8128,7 @@ Si une figurine est en mode Hover, jusqu’à la fin de la bataille, sa caracté
               <profiles>
                 <profile name="Noctilith Armament" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="7d92-20c4-91fa-38aa">
                   <characteristics>
-                    <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Sélectionnez une arme de mêlée équipée par le porteur (à l'exclusion d'une arme qui a été remplacée par une Optimisation ou mise à niveau via le tableau Modifications d'armes). Cette arme est maintenant une relique de la Croisade; notez cela sur la carte de la Croisade du porteur et donnez à l'arme un nom approprié. Une fois par bataille, dans la phase de Combat, le porteur peut activer cette relique de la Croisade. Si c'est le cas, jusqu'à la fin de la phase, chaque fois qu'une attaque est faite avec cette arme, des jets de sauvegarde invulnérables ne peuvent pas être faits contre cette attaque.</characteristic>
+                    <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Sélectionnez une arme de mêlée dont le porteur est équipé (à l’exclusion d’une arme remplacée par une Optimisation ou améliorée via le tableau Modifications d’Armes). Cette arme devient une Relique de Croisade ; notez-le sur la carte de Croisade du porteur et donnez un nom approprié à l’arme. Une fois par bataille, durant la phase de Combat, le porteur peut activer cette Relique de Croisade. S’il le fait, jusqu’à la fin de la phase, chaque fois qu’une attaque est effectuée avec cette arme, aucun jet de sauvegarde invulnérable ne peut être effectué contre cette attaque.</characteristic>
                   </characteristics>
                 </profile>
               </profiles>
@@ -8222,7 +8222,7 @@ Si une figurine est en mode Hover, jusqu’à la fin de la bataille, sa caracté
               <profiles>
                 <profile name="Subtle Champions" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="1522-6b7f-2b61-97fa">
                   <characteristics>
-                    <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Si votre armée de croisades comprend une ou plusieurs figurines **^^Epic Hero^^** avec cette aptitude de croisade, à l'étape Déterminer l'attaquant et le défenseur, vous pouvez relancer vos dés lorsque vous déterminez qui sera l'attaquant et qui sera le défenseur.</characteristic>
+                    <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Si votre armée de Croisade comprend un ou plusieurs **^^Epic Hero^^** figurines avec cette Croisade aptitude, à l'étape Déterminer l'attaquant et le défenseur, vous pouvez relancer vos dés lors de la détermination de qui sera l'attaquant et qui sera le défenseur.</characteristic>
                   </characteristics>
                 </profile>
               </profiles>
@@ -8239,7 +8239,7 @@ Si une figurine est en mode Hover, jusqu’à la fin de la bataille, sa caracté
               <profiles>
                 <profile name="Front-line Champions" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="cccd-cab2-1714-ac7e">
                   <characteristics>
-                    <characteristic name="Description" typeId="9b8f-694b-e5e-b573">À l'étape déclarer les formations de bataille, sélectionnez un trait de bataille. Jusqu'à la fin de la bataille, cette figurine **^^Epic Hero^^**, et toute unité qu'ils rejoignent, sont considérés comme ayant cette caractéristique de bataille.</characteristic>
+                    <characteristic name="Description" typeId="9b8f-694b-e5e-b573">À l'étape déclarer les formations de bataille, sélectionnez un trait de bataille. Jusqu'à la fin de la bataille, cette **^^Epic Hero^^** figurine, et toute unité qu'ils rejoignent, sont considérés comme ayant ce trait de bataille.</characteristic>
                   </characteristics>
                 </profile>
               </profiles>
@@ -8256,7 +8256,7 @@ Si une figurine est en mode Hover, jusqu’à la fin de la bataille, sa caracté
               <profiles>
                 <profile name="Inspirational Champions" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="c358-6a5e-8ae9-f95e">
                   <characteristics>
-                    <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Alors qu'une figurine **^^Epic Hero^^** avec cette aptitude de Croisade mène une unité, vous pouvez ignorer toutes les cicatrices de bataille que l'unité Bodyguard a. De plus, si votre armée de Croisades comprend une ou plusieurs figurines **^^Epic Hero^^** avec cette aptitude de Croisade, à la fin de la bataille, vous pouvez sélectionner une unité supplémentaire de votre armée de Croisades pour être marquée pour la grandeur.</characteristic>
+                    <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Alors qu'une **^^Epic Hero^^** figurine avec cette Croisade aptitude mène une unité, vous pouvez ignorer toutes les cicatrices de bataille que l'unité Bodyguard a. De plus, si votre armée de Croisade comprend un ou plusieurs **^^Epic Hero^^** figurines avec cette Croisade aptitude, à la fin de la bataille, vous pouvez sélectionner une unité supplémentaire de votre armée de Croisade pour être marquée pour la grandeur.</characteristic>
                   </characteristics>
                 </profile>
               </profiles>
@@ -8273,7 +8273,7 @@ Si une figurine est en mode Hover, jusqu’à la fin de la bataille, sa caracté
               <profiles>
                 <profile name="Logistical Champions" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="0a2d-f811-3016-deb9">
                   <characteristics>
-                    <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Si votre armée de Croisades inclut une ou plusieurs figurines **^^Epic Hero^^** avec cette aptitude de Croisade, pendant la étape Déterminer Victor, si vous étiez le vainqueur de cette bataille, après avoir gagné le Bonus Victor pour cette mission de Croisade, vous gagnez ce bonus Victor une deuxième fois.</characteristic>
+                    <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Si votre armée de Croisade inclut une ou plusieurs figurines **^^Epic Hero^^** dotées de cette aptitude de Croisade, durant l’étape Determine Victor, si vous êtes le Victor de cette bataille, après avoir gagné le Victor Bonus de cette Mission de Croisade, vous gagnez ce Victor Bonus une seconde fois.</characteristic>
                   </characteristics>
                 </profile>
               </profiles>
@@ -8290,7 +8290,7 @@ Si une figurine est en mode Hover, jusqu’à la fin de la bataille, sa caracté
               <profiles>
                 <profile name="Nemesis Champions" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="e543-c501-ee31-0dce">
                   <characteristics>
-                    <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Pendant la bataille, si une ou plusieurs figurines ennemies **^^Character^^** sont détruits par une attaque effectuée par une figurine **^^Epic Hero^^** (ou une figurine dans une unité à laquelle il est attaché) avec cette Crusade aptitude de votre armée croisée, alors à l'étape Update Crusade Cards, toutes les unités de votre armée croisée gagnent un 1XP supplémentaire. Si l'un de ces figurines ennemies détruits **^^Character^^** était l'ennemi **^^Warlord^^**, vous gagnez aussi 1 Point d'actif stratégique.</characteristic>
+                    <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Durant la bataille, si une ou plusieurs figurines **^^Character^^** ennemies sont détruites par une attaque effectuée par une figurine **^^Epic Hero^^** (ou une figurine d’une unité à laquelle elle est attachée) dotée de cette Aptitude de Croisade de votre armée de Croisade, alors, à l’étape Update Crusade Cards, toutes les unités de votre armée de Croisade gagnent 1XP supplémentaire. Si l’une de ces figurines **^^Character^^** ennemies détruites était le **^^Warlord^^** ennemi, vous gagnez également 1 Point d’Atout Stratégique.</characteristic>
                   </characteristics>
                 </profile>
               </profiles>
@@ -8307,7 +8307,7 @@ Si une figurine est en mode Hover, jusqu’à la fin de la bataille, sa caracté
               <profiles>
                 <profile name="Restorative Champions" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="90eb-4c01-f086-3183">
                   <characteristics>
-                    <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Si votre armée de la Croisade comprend une ou plusieurs figurines **^^Epic Hero^^** avec aptitude de la Croisade, au cours de l'étape Mise à jour des cartes de la Croisade, vous pouvez relancer les tests hors action ratés pour les unités de votre armée de la Croisade.</characteristic>
+                    <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Si votre armée de croisade comprend un ou plusieurs **^^Epic Hero^^** figurines avec Crusade aptitude, lors de l'étape de mise à jour des cartes de croisade vous pouvez relancer a échoué aux tests hors action pour les unités de votre armée de croisade.</characteristic>
                   </characteristics>
                 </profile>
               </profiles>
@@ -8324,7 +8324,7 @@ Si une figurine est en mode Hover, jusqu’à la fin de la bataille, sa caracté
               <profiles>
                 <profile name="Strategic Champions" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="ab06-683b-f433-9032">
                   <characteristics>
-                    <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Si votre armée de Croisade comprend une ou plusieurs figurines **^^Epic Hero^^** avec cette aptitude de Croisade, alors à l'étape Sélectionnez les bénédictions de Croisade, lancez un D6: sur 4+ sélectionnez l'un des éléments suivants:
+                    <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Si votre armée de la Croisade comprend un ou plusieurs **^^Epic Hero^^** figurines avec cette Croisade aptitude, alors à l'étape Sélectionnez les bénédictions de la Croisade, lancez un D6: sur 4+ sélectionnez l'un des éléments suivants:
 - Si vous êtes l'Underdog, vous pouvez choisir une bénédiction de Croisade supplémentaire.
 - Si vous n'êtes pas l'Underdog, vous pouvez choisir une Bénédiction de la Croisade à la place.</characteristic>
                   </characteristics>
@@ -8363,10 +8363,10 @@ Si une figurine est en mode Hover, jusqu’à la fin de la bataille, sa caracté
               <profiles>
                 <profile name="Front-line Champions" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="4773-1d4a-88a5-fced">
                   <characteristics>
-                    <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Dans l'étape Déclarer les Formations de Bataille, sélectionnez l'une des options suivantes:
+                    <characteristic name="Description" typeId="9b8f-694b-e5e-b573">À l’étape Déclarer les Formations de Bataille, sélectionnez l’une des options suivantes :
 
-- Pendant que cette figurine mène une unité, les armes sont équipées de figurines dans cette unité avec la aptitude **[ANTI-UNBOUND ADVERSARIES 4+]**.
-- Sélectionnez un trait de bataille d'Armageddon (c'est un trait de bataille qu'ils auraient pu avoir s'ils n'étaient pas un **^^Epic Hero^^**). Jusqu'à la fin de la bataille, cette figurine **^^Epic Hero^^**, et toute unité qu'ils rejoignent, ont ce trait de bataille.</characteristic>
+- Tant que cette figurine mène une unité, les armes dont sont équipées les figurines de cette unité ont l’aptitude **[ANTI-UNBOUND ADVERSARIES 4+]**.
+- Sélectionnez un Trait de Bataille Armageddon (il doit s’agir d’un Trait de Bataille que cette figurine pourrait avoir si elle n’était pas une **^^Epic Hero^^**). Jusqu’à la fin de la bataille, cette figurine **^^Epic Hero^^**, ainsi que toute unité qu’elle rejoint, ont ce Trait de Bataille.</characteristic>
                   </characteristics>
                 </profile>
               </profiles>
@@ -8386,7 +8386,7 @@ Si une figurine est en mode Hover, jusqu’à la fin de la bataille, sa caracté
               <profiles>
                 <profile name="Inspirational Champions" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="7255-2c06-ecb5-7913">
                   <characteristics>
-                    <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Alors qu'une figurine **^^Epic Hero^^** avec cette aptitude de Croisade mène une unité, vous pouvez ignorer toutes les cicatrices de bataille que l'unité Bodyguard a. Si votre armée de croisades comprend une ou plusieurs figurines **^^Epic Hero^^** avec cette aptitude de croisade, à la fin de la bataille, vous pouvez sélectionner une unité supplémentaire de votre armée de croisades pour être marquée pour la grandeur.</characteristic>
+                    <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Alors qu'une **^^Epic Hero^^** figurine avec cette Croisade aptitude mène une unité, vous pouvez ignorer toutes les cicatrices de bataille que l'unité Bodyguard a. Si votre armée de la Croisade comprend un ou plusieurs **^^Epic Hero^^** figurines avec cette Croisade aptitude, à la fin de la bataille, vous pouvez sélectionner une unité supplémentaire de votre armée de la Croisade pour être marquée pour la grandeur.</characteristic>
                   </characteristics>
                 </profile>
               </profiles>
@@ -8403,7 +8403,7 @@ Si une figurine est en mode Hover, jusqu’à la fin de la bataille, sa caracté
               <profiles>
                 <profile name="Logistical Champions" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="b5cc-8184-2688-05f3">
                   <characteristics>
-                    <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Si votre armée de croisade comprend une ou plusieurs figurines **^^Epic Hero^^** avec cette aptitude de croisade, pendant la étape Déterminer Victor, si vous avez été le vainqueur de cette bataille et si ce **^^Epic Hero^^** est sur le champ de bataille, vous gagnez le bonus Victor une deuxième fois.</characteristic>
+                    <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Si votre armée de Croisade inclut une ou plusieurs figurines **^^Epic Hero^^** dotées de cette aptitude de Croisade, durant l’étape Determine Victor, si vous êtes le vainqueur de cette bataille et que cette figurine **^^Epic Hero^^** est sur le champ de bataille, vous gagnez le Victor bonus une seconde fois.</characteristic>
                   </characteristics>
                 </profile>
               </profiles>
@@ -8420,7 +8420,7 @@ Si une figurine est en mode Hover, jusqu’à la fin de la bataille, sa caracté
               <profiles>
                 <profile name="Nemesis Champions" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="075f-6b08-d98d-c352">
                   <characteristics>
-                    <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Pendant la bataille, si une ou plusieurs figurines ennemies **^^Character^^** sont détruits par une attaque effectuée par une figurine **^^Epic Hero^^** (ou une figurine dans une unité à laquelle il est attaché) avec cette Crusade aptitude de votre armée croisée, alors à l'étape Update Crusade Cards, toutes les unités de votre armée croisée gagnent un 1XP supplémentaire. Si l'un de ces figurines ennemies détruits **^^Character^^** était l'ennemi **^^Warlord^^**, vous gagnez également 1 point stratégique.</characteristic>
+                    <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Durant la bataille, si une ou plusieurs figurines **^^Character^^** ennemies sont détruites par une attaque effectuée par une figurine **^^Epic Hero^^** (ou une figurine d’une unité à laquelle elle est attachée) dotée de cette Aptitude de Croisade de votre armée de Croisade, alors, à l’étape Update Crusade Cards, toutes les unités de votre armée de Croisade gagnent 1XP supplémentaire. Si l’une de ces figurines **^^Character^^** ennemies détruites était le **^^Warlord^^** ennemi, vous gagnez également 1 point stratégique.</characteristic>
                   </characteristics>
                 </profile>
               </profiles>
@@ -8437,7 +8437,7 @@ Si une figurine est en mode Hover, jusqu’à la fin de la bataille, sa caracté
               <profiles>
                 <profile name="Restorative Champions" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="405b-1a2f-c668-e9fb">
                   <characteristics>
-                    <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Si votre armée de la Croisade comprend une ou plusieurs figurines **^^Epic Hero^^** avec Crusade aptitude, vous pouvez relancer les tests hors action ratés pour les unités de votre armée de la Croisade.</characteristic>
+                    <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Si votre armée de Croisade inclut une ou plusieurs figurines **^^Epic Hero^^** dotées d’une aptitude de Croisade, vous pouvez relancer les tests Hors de Combat ratés pour les unités de votre armée de Croisade.</characteristic>
                   </characteristics>
                 </profile>
               </profiles>
@@ -8454,10 +8454,10 @@ Si une figurine est en mode Hover, jusqu’à la fin de la bataille, sa caracté
               <profiles>
                 <profile name="Strategic Champions" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="367e-e67e-6b31-2b66">
                   <characteristics>
-                    <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Si votre armée de Croisade comprend une ou plusieurs figurines **^^Epic Hero^^** avec cette aptitude de Croisade, alors à l'étape Sélectionnez les bénédictions de Croisade, sélectionnez l'un des éléments suivants:
+                    <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Si votre armée de la Croisade comprend un ou plusieurs **^^Epic Hero^^** figurines avec cette Croisade aptitude, alors à l'étape Sélectionnez les bénédictions de la Croisade, sélectionnez l'un des éléments suivants:
 
-- Si vous êtes l'Underdog, lancez un D6: sur un 4+, vous pouvez sélectionner une bénédiction croisée supplémentaire.
-- Si vous n'êtes pas l'Underdog, lancez un D6: sur un 6 vous pouvez sélectionner une Bénédiction de Croisade, à la place.</characteristic>
+- Si vous êtes l'Underdog, je suis lancez un D6: sur un 4+, vous pouvez sélectionner une bénédiction croisée supplémentaire.
+- Si vous n'êtes pas le Underdog, lancez un D6: sur un 6 vous pouvez choisir une Bénédiction de Croisade, à la place.</characteristic>
                   </characteristics>
                 </profile>
               </profiles>
@@ -8474,10 +8474,10 @@ Si une figurine est en mode Hover, jusqu’à la fin de la bataille, sa caracté
               <profiles>
                 <profile name="Subtle Champions" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="f389-249b-7e94-3496">
                   <characteristics>
-                    <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Si votre armée de Croisades comprend une ou plusieurs figurines **^^Epic Hero^^** avec cette aptitude de Croisade, sélectionnez l'un des éléments suivants:
+                    <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Si votre armée de Croisade comprend un ou plusieurs **^^Epic Hero^^** figurines avec cette Croisade aptitude, sélectionnez l'un des éléments suivants:
 
-- À l'étape Déterminer l'attaquant et le défenseur, vous pouvez relancer vos dés pour déterminer qui sera l'attaquant et qui sera le défenseur.
-- À la fin de l'étape des événements de faille établie, relancez lancez un D6: sur un 4+, vous pouvez choisir d'augmenter ou de diminuer l'intensité des événements de faille utilisés dans cette bataille par 1 (à un minimum de 1 et à un maximum de 3).</characteristic>
+- À l'étape Déterminer l'attaquant et le défenseur, vous pouvez relancer vos dés lors de la détermination de qui sera l'attaquant et qui sera le défenseur.
+- À la fin de l'étape des événements de faille établie, lancez un D6: sur un 4+, vous pouvez choisir d'augmenter ou de diminuer l'intensité des événements de faille utilisés dans cette bataille par 1 (au minimum de 1 et au maximum de 3).</characteristic>
                   </characteristics>
                 </profile>
               </profiles>
@@ -8906,7 +8906,7 @@ Si une figurine est en mode Hover, jusqu’à la fin de la bataille, sa caracté
           <profiles>
             <profile name="Close-quarters Killer" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="73af-ab1f-6d21-3645">
               <characteristics>
-                <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Chaque fois que le porteur fait une attaque de mêlée, vous pouvez relancer le jet de Blessure.</characteristic>
+                <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Chaque fois que le porteur effectue une attaque de mêlée, vous pouvez relancer le jet de Blessure.</characteristic>
               </characteristics>
             </profile>
           </profiles>
@@ -8930,7 +8930,7 @@ Si une figurine est en mode Hover, jusqu’à la fin de la bataille, sa caracté
           <profiles>
             <profile name="Expert Breacher" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="1cb3-0d95-5d5b-d715">
               <characteristics>
-                <characteristic name="Description" typeId="9b8f-694b-e5e-b573">L'unité du porteur peut tenter d'exploiter une Hatchway au début ou à la fin de l'étape des unités de mouvement de votre phase de Mouvement. L'unité du porteur ne peut pas tenter d'exploiter plus d'un Hatchway par tour.</characteristic>
+                <characteristic name="Description" typeId="9b8f-694b-e5e-b573">l’unité du porteur peut tenter d'exploiter un Hatchway au début ou à la fin de l'étape des Unités de déplacement de votre phase de Mouvement. l’unité du porteur ne peut pas tenter d'exploiter plus d'un Hatchway par tour.</characteristic>
               </characteristics>
             </profile>
           </profiles>
@@ -9029,7 +9029,7 @@ Si une figurine est en mode Hover, jusqu’à la fin de la bataille, sa caracté
           <profiles>
             <profile name="Trademark Weapon" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="ecd2-a98c-6bc2-7276">
               <characteristics>
-                <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Lorsque vous sélectionnez cette Optimisation, sélectionnez une arme de tir équipée par le porteur (à l'exclusion des armes Torrent) et notez cela sur votre liste d'armée. Ajoutez 1 aux caractéristiques de force et de Dégâts de cette arme.</characteristic>
+                <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Lorsque vous sélectionnez cette Optimisation, sélectionnez une arme de tir dont le porteur est équipé (à l’exclusion des armes Torrent) et notez-le sur votre feuille d’armée. Ajoutez 1 aux caractéristiques de Force et de Dégâts de cette arme.</characteristic>
               </characteristics>
             </profile>
           </profiles>
@@ -9065,7 +9065,7 @@ Si une figurine est en mode Hover, jusqu’à la fin de la bataille, sa caracté
           <profiles>
             <profile name="Paralysing Assault" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="61f1-6a68-83eb-c57c">
               <characteristics>
-                <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Dans votre phase de Mouvement, lorsque le porteur est sélectionné pour se déplacer, au début ou à la fin de ce mouvement si le porteur est à 1" ou moins d'un Wall affaibli qui n'a pas été violé, il peut utiliser cette Optimisation. Si c'est le cas, chaque unité ennemie visible de l'autre côté de ce Wall est étonnée. Chaque fois qu'une unité est étonnée, jusqu'à la fin du tour, cette unité ne peut pas tirer sur Overwatch et chaque fois qu'une figurine dans cette unité fait une attaque, Soustrayez 1 du jet de Touche.</characteristic>
+                <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Durant votre phase de Mouvement, lorsque le porteur est sélectionné pour se déplacer, au début ou à la fin de ce mouvement, si le porteur est à 1" ou moins d’une Weakened Wall qui n’a pas été percée, il peut utiliser cette Optimisation. S’il le fait, chaque unité ennemie située du côté opposé de cette Weakened Wall et visible à travers celle-ci est stupéfiée. Chaque fois qu’une unité est stupéfiée, jusqu’à la fin du tour, cette unité ne peut pas tirer en Overwatch et, chaque fois qu’une figurine de cette unité effectue une attaque, soustrayez 1 au jet de Touche.</characteristic>
               </characteristics>
             </profile>
           </profiles>
@@ -9089,7 +9089,7 @@ Si une figurine est en mode Hover, jusqu’à la fin de la bataille, sa caracté
           <profiles>
             <profile name="Breaching Charges" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="0f42-46a6-5b4f-9252">
               <characteristics>
-                <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Dans votre phase de Mouvement, lorsque le porteur est sélectionné pour se déplacer, au début ou à la fin de ce mouvement si le porteur est à 1" ou moins d'un Wall affaibli qui n'a pas été violé, il peut utiliser cette Optimisation. Si c'est le cas, la section vulnérable de Wall est détruite. En outre, chaque unité qui est sur le côté opposé de ce Wall affaibli et est visible à et à 6" ou moins de celui-ci souffre 1 blessure mortelle.</characteristic>
+                <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Durant votre phase de Mouvement, lorsque le porteur est sélectionné pour se déplacer, au début ou à la fin de ce mouvement, si le porteur est à 1" ou moins d’un Weakened Wall qui n’a pas été franchi, il peut utiliser cette Optimisation. S’il le fait, la Vulnerable Section de ce Weakened Wall est détruite. De plus, chaque unité qui se trouve du côté opposé de ce Weakened Wall, qui est visible de celui-ci et à 6" ou moins de lui, subit 1 blessure mortelle.</characteristic>
               </characteristics>
             </profile>
           </profiles>
@@ -9113,7 +9113,7 @@ Si une figurine est en mode Hover, jusqu’à la fin de la bataille, sa caracté
           <profiles>
             <profile name="Spoor Seeker" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="965d-bce2-021d-f3e2">
               <characteristics>
-                <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Dans votre phase de Mouvement, lorsque le porteur est sélectionné pour se déplacer, au début ou la fin de ce mouvement si le porteur se trouve à 1" ou moins d'un Wall affaibli qui n'a pas été brisé, Il peut utiliser cette Optimisation. Si c'est le cas, sélectionnez une unité ennemie qui est du côté opposé et visible à cette Wall affaiblie. Jusqu'à la fin du tour, Chaque fois qu'une figurine amie fait une attaque contre cette unité ennemie, Ajoutez 1 au jet de Touche et Ajoutez 1 au jet de Blessure.</characteristic>
+                <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Durant votre phase de Mouvement, lorsque le porteur est sélectionné pour se déplacer, au début ou à la fin de ce mouvement, si le porteur est à 1" ou moins d’une Weakened Wall qui n’a pas été percée, il peut utiliser cette Optimisation. S’il le fait, sélectionnez une unité ennemie située du côté opposé de cette Weakened Wall et visible à travers celle-ci. Jusqu’à la fin du tour, chaque fois qu’une figurine amie effectue une attaque contre cette unité ennemie, ajoutez 1 au jet de Touche et 1 au jet de Blessure.</characteristic>
               </characteristics>
             </profile>
           </profiles>
@@ -9245,7 +9245,7 @@ Si une figurine est en mode Hover, jusqu’à la fin de la bataille, sa caracté
           <profiles>
             <profile name="Warp Terrors (Psychic)" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="a1ea-aab1-9189-c5e1">
               <characteristics>
-                <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Une fois par tour, au début de votre phase de Commandement, phase de Mouvement, phase de Tir, ou phase de Charge, ou phase de Combat, vous pouvez sélectionner une unité ennemie à 18" ou moins de cette figurine. Cette unité doit effectuer un test d’Ébranlement, en soustrayant 1 du test lorsqu'elle le fait si elle dispose d'un ou plusieurs compteurs Warp.</characteristic>
+                <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Une fois par tour, au début de votre phase de Commandement, phase de Mouvement, phase de Tir, ou phase de Charge, ou la phase de Combat, vous pouvez sélectionner une unité ennemie à 18" ou moins de cette figurine. Cette unité doit prendre un test d’Ébranlement, en soustrayant 1 de l'essai lorsqu'elle le fait si elle dispose d'un ou plusieurs compteurs Warp.</characteristic>
               </characteristics>
             </profile>
           </profiles>
@@ -9309,7 +9309,7 @@ Si une figurine est en mode Hover, jusqu’à la fin de la bataille, sa caracté
           <profiles>
             <profile name="Warp-hardened Veterans" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="ef2d-1e34-4e2a-256a">
               <characteristics>
-                <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Chaque fois que cette unité est marquée pour la grandeur, elle gagne un 2XP supplémentaire. En outre, une fois par bataille, dans votre phase de Commandement, vous pouvez ajouter ou supprimer un compteur Warp à / de cette unité.</characteristic>
+                <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Chaque fois que cette unité est Marquée pour la Grandeur, elle gagne 2XP supplémentaires. De plus, une fois par bataille, durant votre phase de Commandement, vous pouvez ajouter ou retirer un pion Warp à cette unité.</characteristic>
               </characteristics>
             </profile>
           </profiles>
@@ -9341,7 +9341,7 @@ Si une figurine est en mode Hover, jusqu’à la fin de la bataille, sa caracté
           <profiles>
             <profile name="Adaptive Camouflage" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="7aa7-8172-3499-0ead">
               <characteristics>
-                <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Cette unité possède la aptitude Discrétion et si cette unité se trouve dans les réserves stratégiques, elle compte le nombre de rondes de bataille comme un plus élevé que le nombre de rondes de bataille actuel aux fins de déterminer quand et où elle sera mise en place.</characteristic>
+                <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Cette unité a l’aptitude Discrétion et si cette unité se trouve dans Réserves Stratégiques, elle compte le nombre de rondes de bataille comme un plus élevé que le nombre de rondes de bataille actuel aux fins de déterminer quand et où il est mis en place.</characteristic>
               </characteristics>
             </profile>
           </profiles>
@@ -9376,7 +9376,7 @@ Si une figurine est en mode Hover, jusqu’à la fin de la bataille, sa caracté
           <profiles>
             <profile name="Stalwarts" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="039a-9fa3-d83f-1118">
               <characteristics>
-                <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Une fois par bataille, dans votre phase de Commandement, cette unité peut utiliser ce trait de bataille. Lorsqu'il le fait, s'il est Ébranlé, il n'est plus Ébranlé et, jusqu'à la fin du tour, cette unité est admissible à effectuer une action dans un tour dans lequel a Battu en Retraite et/ou alors qu'il se trouve dans la Portée d’Engagement d'une ou de plusieurs unités ennemies.</characteristic>
+                <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Une fois par bataille, durant votre phase de Commandement, cette unité peut utiliser ce Trait de Bataille. Lorsqu’elle le fait, si elle est Ébranlée, elle n’est plus Ébranlée et, jusqu’à la fin du tour, cette unité est éligible pour effectuer une Action durant un tour où elle a Battu en Retraite et/ou tant qu’elle est à Portée d’Engagement d’une ou plusieurs unités ennemies.</characteristic>
               </characteristics>
             </profile>
           </profiles>
@@ -9448,7 +9448,7 @@ Si une figurine est en mode Hover, jusqu’à la fin de la bataille, sa caracté
           <profiles>
             <profile name="Warp Hunters" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="dc03-6a23-e16b-3cf4">
               <characteristics>
-                <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Chaque fois qu'une figurine dans cette unité fait une attaque qui cible la cible admissible la plus proche, vous pouvez relancer un jet de Blessure de 1. Si la cible de celui-ci est une unité **^^Unbound Adversaries^^**, et c'est la cible admissible la plus proche, vous pouvez relancer le jet de Blessure à la place.</characteristic>
+                <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Chaque fois qu’une figurine de cette unité effectue une attaque qui cible la cible éligible la plus proche, vous pouvez relancer un jet de Blessure de 1. Si la cible est une unité **^^Unbound Adversaries^^** et qu’il s’agit de la cible éligible la plus proche, vous pouvez relancer le jet de Blessure à la place.</characteristic>
               </characteristics>
             </profile>
           </profiles>
@@ -9525,7 +9525,7 @@ Si une figurine est en mode Hover, jusqu’à la fin de la bataille, sa caracté
           <profiles>
             <profile name="Advanced Suspensors" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="a35c-3950-4d57-057c">
               <characteristics>
-                <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Les armes de tir équipées par des figurines de cette unité ont la aptitude **[ASSAULT]**.</characteristic>
+                <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Les armes de tir dont les figurines de cette unité sont équipées ont l’aptitude **[ASSAULT]**.</characteristic>
               </characteristics>
             </profile>
           </profiles>
@@ -9618,7 +9618,7 @@ Si une figurine est en mode Hover, jusqu’à la fin de la bataille, sa caracté
           <profiles>
             <profile name="Juggernaut" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="ea86-e64e-2600-8253">
               <characteristics>
-                <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Vous pouvez ignorer tous ou tous les modificateurs de la caractéristique de mouvement de cette unité. En outre, chaque fois que cette unité effectue un mouvement normal, ses figurines peuvent se déplacer à travers des sections de terrain caractéristiques plus que 2" en hauteur, mais si l'un le fait, juste après que cette unité a déménagé, lancez un D6: sur un 1-3 cette unité est Ébranlée.</characteristic>
+                <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Vous pouvez ignorer tout ou partie des modificateurs appliqués à la caractéristique de Mouvement de cette unité. De plus, chaque fois que cette unité effectue un mouvement Normal, ses figurines peuvent traverser des sections d’éléments de terrain de plus de 2" de haut mais, si l’une d’elles le fait, juste après le déplacement de cette unité, lancez un D6 : sur 1-3, cette unité est Ébranlée.</characteristic>
               </characteristics>
             </profile>
           </profiles>
@@ -9692,7 +9692,7 @@ Si une figurine est en mode Hover, jusqu’à la fin de la bataille, sa caracté
           <profiles>
             <profile name="Daemon Hunter" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="6f4e-0c0e-71b1-d237">
               <characteristics>
-                <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Chaque fois que cette unité cible une unité **^^Unbound Adversaries^^**, vous pouvez relancer le jet de Touche. En outre, à l'étape de la mise à jour des cartes de croisade, si cette unité gagne XP de Dealers dans Death, elle gagne 1 supplémentaire XP.</characteristic>
+                <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Chaque fois que cette unité cible une unité **^^Unbound Adversaries^^**, vous pouvez relancer le jet de Touche. En outre, à l'étape Update Crusade Cards, si cette unité gagne XP de Dealers dans Death, elle gagne 1 supplémentaire XP.</characteristic>
               </characteristics>
             </profile>
           </profiles>
@@ -9724,7 +9724,7 @@ Si une figurine est en mode Hover, jusqu’à la fin de la bataille, sa caracté
           <profiles>
             <profile name="Tip of the Spear" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="d57e-3ffa-56bd-894f">
               <characteristics>
-                <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Cette unité a la aptitude Éclaireurs 6".</characteristic>
+                <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Cette unité a l’aptitude Éclaireurs 6".</characteristic>
               </characteristics>
             </profile>
           </profiles>
@@ -9795,7 +9795,7 @@ Si une figurine est en mode Hover, jusqu’à la fin de la bataille, sa caracté
           <profiles>
             <profile name="Reactive Redeployment" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="1485-9199-6622-9b6d">
               <characteristics>
-                <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Après que les deux joueurs aient déployé leurs armées, vous pouvez redéployer cette unité. Lorsque vous faites cela, vous pouvez mettre en place cette unité dans les réserves stratégiques, quel que soit le nombre d'unités déjà dans les réserves stratégiques.</characteristic>
+                <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Après que les deux joueurs ont déployé leurs armées, vous pouvez redéployer cette unité. Ce faisant, vous pouvez placer cette unité en Réserves Stratégiques, quel que soit le nombre d’unités déjà en Réserves Stratégiques.</characteristic>
               </characteristics>
             </profile>
           </profiles>
@@ -9827,7 +9827,7 @@ Si une figurine est en mode Hover, jusqu’à la fin de la bataille, sa caracté
           <profiles>
             <profile name="War Beasts" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="16c5-021a-5190-1d42">
               <characteristics>
-                <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Ajoutez 1 aux jets d’Avance et de Charge effectués pour cette unité.</characteristic>
+                <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Ajoutez 1 à Advance et jets de Charge effectués pour cette unité.</characteristic>
               </characteristics>
             </profile>
           </profiles>
@@ -9859,7 +9859,7 @@ Si une figurine est en mode Hover, jusqu’à la fin de la bataille, sa caracté
           <profiles>
             <profile name="Leaping Frenzy" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="0c9e-169b-11e5-c3a2">
               <characteristics>
-                <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Chaque fois que cette unité termine un mouvement Charge, sélectionnez une unité ennemie à l'intérieur de sa Portée d’Engagement, puis lancez un D6 pour chaque figurine de cette unité qui se trouve à l'intérieur de la Portée d’Engagement de cette unité ennemie, ajoutant 1 au résultat si cette unité a des compteurs de Warp 1 ou plus: pour chaque 5+, cette unité ennemie subit une blessure mortelle 1.</characteristic>
+                <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Chaque fois que cette unité termine un mouvement de Charge, sélectionnez une unité ennemie à Portée d’Engagement de celle-ci, puis lancez un D6 pour chaque figurine de cette unité à Portée d’Engagement de cette unité ennemie, en ajoutant 1 au résultat si cette unité a 1 pion Warp ou plus : pour chaque 5+, cette unité ennemie subit 1 blessure mortelle.</characteristic>
               </characteristics>
             </profile>
           </profiles>
@@ -9891,7 +9891,7 @@ Si une figurine est en mode Hover, jusqu’à la fin de la bataille, sa caracté
           <profiles>
             <profile name="Fearsome Predators (Aura)" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="f76b-6411-cd78-ada6">
               <characteristics>
-                <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Alors qu'une unité ennemie se trouve à 6" ou moins de cette unité, aggraver les caractéristiques Commandement et Objective des figurines de cette unité par 1 (au minimum de 1).</characteristic>
+                <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Alors qu'une unité ennemie se trouve à 6" ou moins de cette unité, aggraver les caractéristiques Commandement et objectif des figurines de cette unité par 1 (au minimum de 1).</characteristic>
               </characteristics>
             </profile>
           </profiles>
@@ -9928,7 +9928,7 @@ Si une figurine est en mode Hover, jusqu’à la fin de la bataille, sa caracté
           <profiles>
             <profile name="Ritual of Shrouding (Psychic)" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="7c37-65c5-df4f-62c3">
               <characteristics>
-                <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Au début de l'étape du déploiement des armées croisées, vous pouvez dépenser 1RP; si vous le faites, jusqu'à la fin de la bataille, chaque figurine dans cette unité a la aptitude Infiltrators.</characteristic>
+                <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Au début de l'étape du déploiement des armées croisées, vous pouvez dépenser 1RP; si vous le faites, jusqu'à la fin de la bataille, chaque figurine dans cette unité a l’aptitude Infiltrateurs.</characteristic>
               </characteristics>
             </profile>
           </profiles>
@@ -10015,7 +10015,7 @@ Si une figurine est en mode Hover, jusqu’à la fin de la bataille, sa caracté
           <profiles>
             <profile name="Scrier's Gaze (Aura, Psychic)" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="86ef-191f-7164-45fb">
               <characteristics>
-                <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Les unités ennemies qui sont placées sur le champ de bataille depuis les réserves ne peuvent pas être placées à 12" ou moins de cette unité.</characteristic>
+                <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Les unités ennemies installées sur le champ de bataille des Réserves ne peuvent pas être installées à 12" ou moins de cette unité.</characteristic>
               </characteristics>
             </profile>
           </profiles>
@@ -10052,7 +10052,7 @@ Si une figurine est en mode Hover, jusqu’à la fin de la bataille, sa caracté
           <profiles>
             <profile name="Warp Alacrity (Psychic)" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="ef24-3c97-c267-bdaf">
               <characteristics>
-                <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Vous pouvez relancer les jets d’Avance et de Charge pour cette unité. De plus, à chaque fois que cette unité est sélectionnée pour Advance, vous pouvez enlever un compteur Warp. Si vous le faites, alors jusqu'à la fin du tour, cette unité n'est pas admissible à déclarer une charge (même si une autre règle la permettait d'avancer et de charger dans le même tour), mais vous ne faites pas un jet d’Avance; au lieu de cela, jusqu'à la fin de la phase, ajoutez 6" à la caractéristique de mouvement des figurines de cette unité.</characteristic>
+                <characteristic name="Description" typeId="9b8f-694b-e5e-b573">vous pouvez relancer Advance et jets de Charge pour cette unité. De plus, à chaque fois que cette unité est sélectionnée pour Advance, vous pouvez enlever un compteur Warp. Si vous le faites, alors jusqu'à la fin du tour, cette unité n'est pas éligible à déclarer une charge (même si une autre règle lui permettrait d'avancer et de charger dans le même tour), mais vous ne faites pas un jet d’Avance; à la place, Jusqu’à la fin de la phase, ajoutez 6" à caractéristique de mouvement des figurines de cette unité.</characteristic>
               </characteristics>
             </profile>
           </profiles>
@@ -10089,7 +10089,7 @@ Si une figurine est en mode Hover, jusqu’à la fin de la bataille, sa caracté
           <profiles>
             <profile name="Force Shield (Psychic)" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="3a48-4edb-7e5f-ba05">
               <characteristics>
-                <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Chaque fois qu'une attaque cible cette unité (à l'exclusion des attaques Psychique), si la caractéristique de Force de cette attaque est supérieure à la caractéristique d’Endurance de cette unité, Soustrayez 1 du jet de Blessure.</characteristic>
+                <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Chaque fois qu'une attaque cible cette unité (à l’exclusion de attaques Psychiques), si la caractéristique de Force de cette attaque est supérieure à la caractéristique d’Endurance de cette unité, Soustrayez 1 du jet de Blessure.</characteristic>
               </characteristics>
             </profile>
           </profiles>

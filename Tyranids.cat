@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue xmlns="http://www.battlescribe.net/schema/catalogueSchema" id="841f-7762-0c12-7029" name="Xenos - Tyranids" revision="124" battleScribeVersion="2.03" library="false" gameSystemId="sys-0e45-705d-f6bc-806a" gameSystemRevision="1" type="catalogue" authorName="Dunamis55">
+<catalogue xmlns="http://www.battlescribe.net/schema/catalogueSchema" id="b984-7317-81cc-20f" name="Xenos - Tyranids" revision="124" battleScribeVersion="2.03" library="false" gameSystemId="sys-352e-adc2-7639-d6a9" gameSystemRevision="1" type="catalogue" authorName="Dunamis55">
   <categoryEntries>
     <categoryEntry id="dc7d-ba0f-e6e-8599" name="The Swarmlord" hidden="false" />
     <categoryEntry id="f75-65-2121-87b5" name="Broodlord" hidden="false" />
@@ -139,12 +139,12 @@
         </profile>
         <profile id="3ae7-6f89-23de-3cca" name="Spawn Termagants" hidden="false" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities">
           <characteristics>
-            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Dans votre phase de Commandement., vous pouvez sélectionner une unité Termagants conviviale à 6" ou moins de cette figurine et retourner jusqu'à D3+3 détruit TERMAGANT figurines à cette unité. Une unité Termagants ne peut pas être sélectionnée pour cette aptitude plus d'une fois par phase.</characteristic>
+            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Dans votre phase de Commandement, vous pouvez sélectionner une unité conviviale Termagants à 6" ou moins de cette figurine et retourner jusqu'à D3+3 détruit TERMAGANT figurines à cette unité. Une unité Termagants ne peut pas être sélectionnée pour cette aptitude plus d'une fois par phase.</characteristic>
           </characteristics>
         </profile>
         <profile id="7697-fdc6-4658-3f1c" name="Brood Progenitor (Aura, Psychic)" hidden="false" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities">
           <characteristics>
-            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Alors qu'une unité Termagants conviviale est à 6" ou moins de cette figurine, les armes de tir équipées par les figurines de cette unité ont la aptitude [Touches fatales].</characteristic>
+            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Tant qu’une unité TERMAGANTS amie est à 6" ou moins de cette figurine, les armes de tir dont les figurines de cette unité sont équipées ont l’aptitude [LETHAL HITS].</characteristic>
           </characteristics>
         </profile>
       </profiles>
@@ -377,12 +377,12 @@
         </profile>
         <profile id="4b18-f7de-620b-3b73" name="Malign Presence (Aura)" hidden="false" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities">
           <characteristics>
-            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Si cette figurine est votre Warlord, chaque fois que votre adversaire cible une unité de son armée avec un Stratagème, si cette unité est à 12" ou moins de cette figurine, augmenter le coût de l'utilisation de ce Stratagème par 1CP.</characteristic>
+            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Si cette figurine est votre Warlord, chaque fois que votre adversaire cible une unité de leur armée avec un Stratagème, si cette unité est à 12" ou moins de cette figurine, augmenter le coût de cette utilisation de Stratagème par 1CP.</characteristic>
           </characteristics>
         </profile>
         <profile id="b3b4-4208-4997-9506" name="Domination of the Hive Mind (Aura)" hidden="false" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities">
           <characteristics>
-            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Alors qu'une unité sympathique TYRANIDS se trouve à 9" ou moins de cette figurine, cette unité se trouve dans la gamme Synapse de votre armée.</characteristic>
+            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Alors qu'une unité amicale TYRANIDS est à 9" ou moins de cette figurine, cette unité est à l'intérieur de votre armée s Synapse Portée.</characteristic>
           </characteristics>
         </profile>
         <profile name="Meneur" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="99ef-a339-35c2-ec3">
@@ -519,12 +519,12 @@
         </profile>
         <profile id="a5e1-ca7f-aaef-7fda" name="Vicious Insight" hidden="false" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities">
           <characteristics>
-            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Alors que cette figurine mène une unité, les armes équipées de figurines dans cette unité ont la aptitude [Blessures dévastatrices].</characteristic>
+            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Alors que cette figurine mène une unité, les armes équipées des figurines de cette unité ont l’aptitude [Blessures dévastatrices].</characteristic>
           </characteristics>
         </profile>
         <profile name="Hypnotic Gaze (Psychic)" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="75d5-d9e0-5f01-60bf">
           <characteristics>
-            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Au début de la phase de Combat, sélectionnez une unité ennemi dans la Portée d’Engagement de cette figurine. Jusqu'à la fin de la phase, chaque fois qu'une figurine dans cette unité fait une attaque, Soustrayez 1 du jet de Touche.</characteristic>
+            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Au début de la phase de Combat, sélectionnez une unité ennemie dans le Portée d’Engagement de cette figurine. Jusqu’à la fin de la phase, chaque fois qu'une figurine dans cette unité fait une attaque, Soustrayez 1 du jet de Touche.</characteristic>
           </characteristics>
         </profile>
         <profile name="Meneur" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="78d5-4fce-3f26-7817">
@@ -711,7 +711,7 @@
         </profile>
         <profile id="2c91-cffe-25ce-bd74" name="Unstoppable Monster" hidden="false" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities">
           <characteristics>
-            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Au début de la phase de Commandement de chaque joueur, cette figurine récupère jusqu'à D3 PV perdus.</characteristic>
+            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Au début de la phase de Commandement de chaque joueur, cette figurine récupère jusqu’à D3 PV perdus.</characteristic>
           </characteristics>
         </profile>
         <profile name="Meneur" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="e546-54e1-550a-a1d9">
@@ -1491,7 +1491,7 @@
       <profiles>
         <profile id="c28c-89a4-5758-10b7" name="Skulking Horrors" hidden="false" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities">
           <characteristics>
-            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Une fois par tour, lorsqu'une unité ennemie termine un mouvement normal, d'avance ou de Retraite à 9" ou moins de cette unité, si cette unité n'est pas dans la Portée d’Engagement d'une ou plusieurs unités ennemies, elle peut effectuer un mouvement normal jusqu'à D6.</characteristic>
+            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Une fois par tour, lorsqu'une unité ennemie termine une normale, une avance ou une mouvement de Retraite à 9" ou moins de cette unité, si cette unité n'est pas à l'intérieur de Portée d’Engagement d'une ou de plusieurs unités ennemies, elle peut effectuer un mouvement Normal jusqu'à D6".</characteristic>
           </characteristics>
           <modifiers>
             <modifier type="set" value="true" field="hidden">
@@ -2236,12 +2236,12 @@
         </profile>
         <profile id="097a-e5ac-6ab9-4d1d" name="Grasping Tendrils" hidden="false" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities">
           <characteristics>
-            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Chaque fois qu'une unité ennemie (à l'exclusion des unités Titanic) dans la Portée d’Engagement d'une ou plusieurs unités de votre armée avec cette aptitude est sélectionnée pour Battre en Retraite, vous pouvez rouler un D6: sur un 3+, cette unité ennemie doit rester stationnaire à la place.</characteristic>
+            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Chaque fois qu’une unité ennemie (à l’exclusion des unités Titanic) à Portée d’Engagement d’une ou plusieurs unités de votre armée dotées de cette aptitude est sélectionnée pour Battre en Retraite, vous pouvez lancer un D6 : sur 3+, cette unité ennemie doit Rester Stationnaire à la place.</characteristic>
           </characteristics>
         </profile>
         <profile id="a599-0bf5-3022-ecc6" name="Hypertoxic Miasma (Aura)" hidden="false" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities">
           <characteristics>
-            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">À la fin de votre phase de Mouvement, lancez un D6 pour chaque unité ennemi à 6" ou moins de cette figurine: sur un 2-3, cette unité souffre 1 blessure mortelle; sur un 4-5, cette unité souffre D3 Blessures Mortelles; sur un 6, cette unité souffre D6 Blessures Mortelles.</characteristic>
+            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">À la fin de votre phase de Mouvement, lancez un D6 pour chaque unité ennemie à 6" ou moins de cette figurine: sur une 2-3, cette unité souffre de 1 blessure mortelle; sur une 4-5, cette unité souffre de D3 Blessures Mortelles; sur une 6, cette unité souffre de D6 Blessures Mortelles.</characteristic>
           </characteristics>
         </profile>
       </profiles>
@@ -2403,7 +2403,7 @@
       <profiles>
         <profile id="f47f-6b2a-77db-863e" name="Guardian Organism" hidden="false" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities">
           <characteristics>
-            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Alors qu'une figurine CHARACTER est à la tête de cette unité, ce caractère a la aptitude Insensible à la douleur 5+</characteristic>
+            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Tant qu’une figurine CHARACTER mène cette unité, cette figurine a l’aptitude Insensible à la douleur 5+.</characteristic>
           </characteristics>
         </profile>
       </profiles>
@@ -2622,7 +2622,7 @@
         </profile>
         <profile id="3431-c2fc-bb66-b5f3" name="Node Lash (Psychic)" hidden="false" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities">
           <characteristics>
-            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Alors que cette figurine mène une unité, chaque fois qu'une figurine dans cette unité fait une attaque, ajoutez 1 au jet de Touche. Si la cible est Ébranlée, ajoutez 1 au jet de Blessure.</characteristic>
+            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Tant que cette figurine mène une unité, chaque fois qu’une figurine de cette unité effectue une attaque, ajoutez 1 au jet de Touche. Si la cible est Ébranlée, ajoutez également 1 au jet de Blessure.</characteristic>
           </characteristics>
         </profile>
         <profile id="0f27-7f4d-4bd3-43f1" name="Psychic Terror (Psychic)" hidden="false" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities">
@@ -2632,7 +2632,7 @@
         </profile>
         <profile id="808e-ed23-9487-8b66" name="Synaptic Relays" hidden="false" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities">
           <characteristics>
-            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Dans votre phase de Commandement, vous pouvez sélectionner jusqu'à deux unités amies Tyranides à 18" ou moins de l’unité de cette figurine. Jusqu'au début de votre prochaine phase de Commandement, les unités sélectionnées sont toujours considérées comme étant dans la plage Synapse de votre armée.</characteristic>
+            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Dans votre phase de Commandement, vous pouvez sélectionner jusqu'à deux unités Tyranides amicales à 18" ou moins de l’unité de cette figurine. Jusqu'au début de votre prochaine phase de Commandement, les unités sélectionnées sont toujours considérées comme à l'intérieur de Synapse Portée de votre armée.</characteristic>
           </characteristics>
         </profile>
         <profile name="Meneur" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="f6b2-d409-9b06-a66b">
@@ -2800,7 +2800,7 @@
         </profile>
         <profile name="Encephalic Diffusion (Aura, Psychic)" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="a372-8f4-cc33-ec1c">
           <characteristics>
-            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Pendant qu'une unité ennemie est à 6" ou moins de cette figurine, chaque fois qu'une figurine de cette unité fait une attaque, Soustrayez 1 du jet de Touche, et, si l'unité ennemie est en dessous de son Demi-effectif., Soustrayez 1 du jet de Blessure aussi.</characteristic>
+            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Lorsqu'une unité ennemie se trouve à 6" ou moins de cette figurine, chaque fois qu'une figurine de cette unité effectue une attaque, Soustrayez 1 du jet de Touche et, si cette unité ennemie est En Dessous de son Demi-effectif, Soustrayez également 1 du jet de Blessure.</characteristic>
           </characteristics>
         </profile>
       </profiles>
@@ -2977,7 +2977,7 @@
       <profiles>
         <profile name="Burning Spray" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="f6a1-151a-9d0d-37d2">
           <characteristics>
-            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Dans votre phase de Tir, après que cette unité ait tiré, sélectionnez une unité ennemie touchée par une ou plusieurs de ces attaques. Jusqu'à la fin de la phase, cette unité ennemie ne pourra pas bénéficier de la couverture.</characteristic>
+            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Durant votre phase de Tir, après que cette unité a tiré, sélectionnez une unité ennemie touchée par une ou plusieurs de ces attaques. Jusqu’à la fin de la phase, cette unité ennemie ne peut pas avoir le Bénéfice du Couvert.</characteristic>
           </characteristics>
         </profile>
       </profiles>
@@ -3196,7 +3196,7 @@
         </profile>
         <profile name="Grisly Spectacle" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="bad8-3f0b-a255-140">
           <characteristics>
-            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Chaque fois que cette figurine est sélectionné pour combattre, après avoir résolu ses attaques, si une ou plusieurs unités ennemies ont été détruites par ces attaques, chaque unité ennemi à 6" ou moins de cette figurine doit passer un test d’Ébranlement.</characteristic>
+            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Chaque fois que cette figurine est sélectionnée pour combattre, après avoir résolu ses attaques, si une ou plusieurs unités ennemies ont été détruites par ces attaques, chaque unité ennemie à 6" ou moins de cette figurine doit effectuer un test d’Ébranlement.</characteristic>
           </characteristics>
         </profile>
       </profiles>
@@ -3385,7 +3385,7 @@
       <profiles>
         <profile name="Foul Spores (Aura)" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="a29d-56f5-8a83-57d0">
           <characteristics>
-            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Alors qu'une unité amicale TYRANIDS se trouve à 6" ou moins de cette unité, chaque fois qu'une attaque de tir cible cette unité, les figurines de cette unité ont le Bénéfice du Couvert contre cette attaque. En outre, alors qu'une unité TYRANIDS conviviale (à l'exclusion de MONSTERS) se trouve à 6" ou moins de cette unité, les figurines de cette unité ont la aptitude Discrétion</characteristic>
+            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Alors qu'une unité amicale TYRANIDS est à 6" ou moins de cette unité, chaque fois qu'une attaque de tir cible cette unité, les figurines de cette unité a le Bénéfice du Couvert contre cette attaque. En outre, alors qu'une unité amicale TYRANIDS (à l’exclusion de MONSTERS) est à 6" ou moins de cette unité, les figurines de cette unité ont l’aptitude Discrétion</characteristic>
           </characteristics>
         </profile>
       </profiles>
@@ -3542,7 +3542,7 @@
       <profiles>
         <profile name="Neurocytes" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="3a53-28b0-3c8e-6108">
           <characteristics>
-            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Tant que cette unité se trouve dans la plage Synapse de votre unité **^^Tyranids^^** amicale (à l'exclusion des unités **^^Neurogaunt^^**), elle a le mot-clé **^^Synapse^^**.</characteristic>
+            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Alors que cette unité se trouve à l'intérieur de Synapse Portée de votre amique **^^Tyranids^^** unité (à l’exclusion de **^^Neurogaunt^^** unités), il a mot-clé **^^Synapse^^**.</characteristic>
           </characteristics>
         </profile>
       </profiles>
@@ -3808,12 +3808,12 @@
       <profiles>
         <profile name="Spirit Leech (Aura, Psychic)" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="36f5-a5b7-9e6-9f40">
           <characteristics>
-            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Alors qu'une unité ennemie se trouve à 6" ou moins de cette unité, si elle contient un Neurothrope, chaque fois que cette unité ennemie échoue à un test d’Ébranlement, elle subit des Blessures Mortelles D3 et une figurine dans cette unité récupère jusqu'à D3 PV perdus.</characteristic>
+            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Alors qu'une unité ennemie se trouve à 6" ou moins de cette unité, s'il contient un Neurothrope, chaque fois que cette unité ennemie échoue à un test d’Ébranlement, il subit D3 Blessures Mortelles et une figurine dans cette unité récupère jusqu'à D3 PV perdus.</characteristic>
           </characteristics>
         </profile>
         <profile name="Warp Field (Aura, Psychic)" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="6356-2345-a0cf-9555">
           <characteristics>
-            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Alors qu'une unité TYRANIDS conviviale se trouve à 6" ou moins de cette unité, les figurines de cette unité ont une 6+ sauvegarde invulnérable.</characteristic>
+            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Alors qu'une unité TYRANIDS amicale se trouve à 6" ou moins de cette unité, les figurines de cette unité possède une 6+ sauvegarde invulnérable.</characteristic>
           </characteristics>
         </profile>
       </profiles>
@@ -4086,7 +4086,7 @@
       <profiles>
         <profile name="Symbiotic Targeting" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="e00d-271e-a667-e79f">
           <characteristics>
-            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Dans votre phase de Tir, après que cette figurine ait tiré, sélectionnez une unité ennemie touchée par une ou plusieurs de ces attaques. Jusqu'à la fin de la phase, Chaque fois qu'une figurine TYRANIDS ami fait une attaque qui vise cette unité, relancer un jet de Touche de 1.</characteristic>
+            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Durant votre phase de Tir, après que cette figurine a tiré, sélectionnez une unité ennemie touchée par une ou plusieurs de ces attaques. Jusqu’à la fin de la phase, chaque fois qu’une figurine TYRANIDS amie effectue une attaque qui cible cette unité, relancez un jet de Touche de 1.</characteristic>
           </characteristics>
         </profile>
         <profile name="Exocrine" typeId="c547-1836-d8a-ff4f" typeName="Unit" hidden="false" id="494b-44b8-d54f-8316">
@@ -4358,7 +4358,7 @@
       <profiles>
         <profile name="Seed Spore Mines" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="487e-7acf-a416-11a0">
           <characteristics>
-            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Une fois par tour, dans votre phase de Tir, quand vous êtes sélectionné pour tirer, une unité avec cette aptitude peut l'utiliser au lieu de faire des attaques avec ses armes de tir. Si c'est le cas, vous pouvez ajouter une nouvelle unité Spore Mines à votre armée et la mettre en place n'importe où sur le champ de bataille qui est entièrement à 48" ou moins de cette unité et plus de 9" horizontalement loin de toutes les unités ennemies. Cette unité Spore Mines contient la figurine 1 pour chaque figurine de cette unité.</characteristic>
+            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Une fois par tour, dans votre phase de Tir, lorsque sélectionnée pour tirer, une unité avec cette aptitude peut l'utiliser au lieu de en faisant n'importe quel Attaques avec ses armes de tir. Si c'est le cas, vous pouvez ajouter une nouvelle unité Spore Mines à votre armée et l'installer n'importe où sur le champ de bataille qui est entièrement à 48" ou moins de cette unité et plus de 9" horizontalement loin de toutes les unités ennemies. Cette unité Spore Mines contient 1 figurine pour chaque figurine de cette unité.</characteristic>
           </characteristics>
         </profile>
       </profiles>
@@ -4717,7 +4717,7 @@
       <profiles>
         <profile name="Blistering Assault" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="c938-60e9-2b21-17fb">
           <characteristics>
-            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Chaque fois qu'une unité ennemie est sélectionnée pour tirer, après que cette unité a tiré, si des figurines de cette unité ont perdu un ou plusieurs PV à la suite de ces attaques, cette unité peut faire un mouvement Blistering Assaut. Si c'est le cas, lancez un D6, en ajoutant 2 au résultat: chaque figurine de cette unité peut être déplacé une distance en pouces jusqu'au résultat, mais cette unité doit terminer ce mouvement le plus près possible de l'unité ennemie la plus proche. En faisant cela, ces figurines peuvent être déplacés dans la Portée d’Engagement de cette unité ennemie. Chaque unité ne peut faire bouger qu'un Blistering Assaut par phase.</characteristic>
+            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Chaque fois qu'une unité ennemie est sélectionnée pour tirer, après que l'unité ait tiré, si un figurines de cette unité a perdu un ou plusieurs PV à la suite de ces Attaques, cette unité peut faire un mouvement Blistering Assaut. Si c'est le cas, lancez un D6, ajoutant 2 au résultat: chaque figurine dans cette unité peut être déplacé une distance en pouces jusqu'au résultat, mais cette unité doit terminer ce mouvement aussi près que possible du unité ennemie le plus proche. En faisant cela, ces figurines peuvent être déplacés à l'intérieur de Portée d’Engagement de cette unité ennemie. Chaque unité ne peut faire bouger qu'un Blistering Assaut par phase.</characteristic>
           </characteristics>
         </profile>
       </profiles>
@@ -4873,7 +4873,7 @@
         </profile>
         <profile name="Death Scream" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="9989-4ee6-2244-2805">
           <characteristics>
-            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Dans votre phase de Tir, après que cette figurine ait tiré, sélectionnez une unité touchée par une ou plusieurs de ces attaques. Cette unité doit passer un test d’Ébranlement, en soustrayant 1 de ce test.</characteristic>
+            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Durant votre phase de Tir, après que cette figurine a tiré, sélectionnez une unité touchée par une ou plusieurs de ces attaques. Cette unité doit effectuer un test d’Ébranlement, en soustrayant 1 à ce test.</characteristic>
           </characteristics>
         </profile>
       </profiles>
@@ -5058,7 +5058,7 @@
       <profiles>
         <profile name="Defensive Stance" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="a0c-34d4-cdc0-6e62">
           <characteristics>
-            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">chaque fois que vous target cette unité avec l’ Fire Overwatch Stratagème, tant que resolving cette Stratagème, hits sont scored sur jets de Touche non modifiés de 5+, or jets de Touche non modifiés de 4+ à la place si cette unité est à Portée de an pion d’objectif cette vous control.</characteristic>
+            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Chaque fois que vous ciblez cette unité avec le Stratagème Fire Overwatch, lors de la résolution de ce Stratagème, les Touches sont réussies sur des jets de Touche non modifiés de 5+, ou sur des jets de Touche non modifiés de 4+ à la place si cette unité est à portée d’un pion d’objectif que vous contrôlez.</characteristic>
           </characteristics>
         </profile>
       </profiles>
@@ -5493,7 +5493,7 @@
         </profile>
         <profile name="Airborne Predator" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="aaf-ca1a-79f3-94c3">
           <characteristics>
-            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Chaque fois que cette figurine fait une attaque de tir qui vise une unité qui peut FLY, Ajoutez 1 au jet de Touche.</characteristic>
+            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Chaque fois que cette figurine fait une attaque de tir qui cible une unité qui peut FLY, ajoutez 1 au jet de Touche.</characteristic>
           </characteristics>
         </profile>
       </profiles>
@@ -5723,9 +5723,9 @@
       <profiles>
         <profile name="Spore Mine Cysts" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="ad40-62a4-c6ff-6036">
           <characteristics>
-            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Chaque fois que cette figurine termine un mouvement normal, vous pouvez faire l'une des choses suivantes:
-- Sélectionnez une unité ennemie par-dessus laquelle cette figurine s’est déplacée pendant ce mouvement et lancez six écouteurs D6: pour chaque 3+, cette unité subit une blessure mortelle 1.
-- Ajoutez une nouvelle unité Spore Mines contenant des figurines D3 à votre armée et installez-la n'importe où sur le champ de bataille qui est à 6" ou moins de cette figurine et plus de 9" horizontalement loin de toutes les unités ennemies. Vous ne pouvez pas sélectionner cette option pour plus d'une figurine par tour.</characteristic>
+            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Chaque fois que cette figurine termine un mouvement Normal, vous pouvez faire l'une des choses suivantes:
+- Sélectionnez une unité ennemie qui a été déplacé pendant ce mouvement et lancez six D6: pour chaque 3+, cette unité souffre 1 blessure mortelle.
+- Ajoutez une nouvelle unité Spore Mines contenant D3 figurines à votre armée et installez-la n'importe où sur le champ de bataille qui se trouve à 6" ou moins de cette figurine et plus de 9" horizontalement éloigné de toutes les unités ennemies. Vous ne pouvez pas sélectionner cette option pour plus d'une figurine par tour.</characteristic>
           </characteristics>
         </profile>
         <profile name="Harpy" typeId="c547-1836-d8a-ff4f" typeName="Unit" hidden="false" id="eec4-96a5-bff1-8d07">
@@ -5946,12 +5946,12 @@
         </profile>
         <profile name="Seed Mucolids" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="1fbb-7493-b68-98a3">
           <characteristics>
-            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Une fois par tour, dans votre phase de Tir, quand vous êtes sélectionné pour tirer, une unité avec cette aptitude peut l'utiliser au lieu de faire des attaques avec ses armes de tir. Si c'est le cas, vous pouvez ajouter un nouveau Mucolid Spores contenant la figurine 1 à votre armée et le mettre en place n'importe où sur le champ de bataille qui est entièrement à 18" ou moins de cette figurine et plus de 9" horizontalement loin de toutes les unités ennemies.</characteristic>
+            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Une fois par tour, dans votre phase de Tir, quand sélectionnée pour tirer, une unité avec cette aptitude peut l'utiliser au lieu de faire n'importe quel Attaques avec il est armes de tir. Si c'est le cas, vous pouvez ajouter un nouveau Mucolid Spores contenant 1 figurine à votre armée et le configurer n'importe où sur le champ de bataille qui est entièrement à 18" ou moins de cette figurine et plus de 9" horizontalement loin de toutes les unités ennemies.</characteristic>
           </characteristics>
         </profile>
         <profile name="Hive Defences" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="d8c3-9917-c6c8-7b77">
           <characteristics>
-            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Vous pouvez cibler cette figurine avec la stratégie Fire Overwatch pour 0CP, et vous pouvez le faire même si vous avez déjà ciblé une unité différente avec cette stratégie à ce tour. cette figurine ne peut être ciblé avec ce Stratagème qu' une fois par tour</characteristic>
+            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Vous pouvez cibler cette figurine avec le Stratagème Fire Overwatch pour 0CP, même si vous avez déjà ciblé une autre unité avec ce Stratagème à ce tour. Cette figurine ne peut être ciblée par ce Stratagème qu’une fois par tour.</characteristic>
           </characteristics>
         </profile>
       </profiles>
@@ -6123,12 +6123,12 @@
         </profile>
         <profile name="Bio-stimulus" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="5171-dc2c-e7b0-2d4">
           <characteristics>
-            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Dans votre phase de Tir, après que cette figurine ait tiré, sélectionnez une unité ennemie touchée par une ou plusieurs de ces attaques. Jusqu'à la fin du tour, chaque fois qu'une unité amicale **^^Tyranids^^** effectue une attaque de mêlée qui cible cette unité ennemie, améliore la caractéristique de Pénétration d’Armure de cette attaque de 1. La même unité ennemie ne peut être affectée par cette aptitude qu'une seule fois par tour.</characteristic>
+            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Dans votre phase de Tir, après que cette figurine a tiré, sélectionnez une unité ennemie frappé par un ou plusieurs de ces Attaques. Jusqu'à la fin du tour, chaque fois qu'une unité amicale **^^Tyranids^^** fait une attaque de mêlée qui cible cette unité ennemie, améliore la caractéristique de Pénétration d’Armure de cette attaque de 1. Le même unité ennemie ne peut être affecté que par cette aptitude Une fois par tour.</characteristic>
           </characteristics>
         </profile>
         <profile name="Feeding Frenzy" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="34b3-35ff-995a-560d">
           <characteristics>
-            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Chaque fois que cette figurine effectue une attaque de mêlée visant une unité qui est inférieure à son Effectif Initial, ajoutez 1 au jet de Touche. Si cette cible est aussi en dessous de son Demi-effectif, ajoutez 1 au jet de Blessure aussi.</characteristic>
+            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Chaque fois que cette figurine fait une attaque de mêlée qui cible une unité qui est en dessous de son Effectif Initial, ajoutez 1 au jet de Touche. Si cette cible est également en dessous de son Demi-effectif, ajoutez 1 au jet de Blessure.</characteristic>
           </characteristics>
         </profile>
       </profiles>
@@ -6377,7 +6377,7 @@
       <profiles>
         <profile name="Disruption Bombardment" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="1c11-4ca1-8dae-1971">
           <characteristics>
-            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Dans votre phase de Tir, après que cette unité ait tiré, sélectionnez une unité ennemie INFANTRY touchée par une ou plusieurs de ces attaques. Jusqu'à la fin du prochain tour de votre adversaire, cette unité ennemie est perturbée. Pendant qu'une unité est perturbée, Soustrayez 2 de sa caractéristique de mouvement, et soustraire 2 des jets d’Avance et de Charge faits pour elle.</characteristic>
+            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Durant votre phase de Tir, après que cette unité a tiré, sélectionnez une unité INFANTRY ennemie touchée par une ou plusieurs de ces attaques. Jusqu’à la fin du prochain tour de votre adversaire, cette unité ennemie est perturbée. Tant qu’une unité est perturbée, soustrayez 2 à sa caractéristique de Mouvement et soustrayez 2 aux jets d’Avance et de Charge effectués pour elle.</characteristic>
           </characteristics>
         </profile>
       </profiles>
@@ -6530,7 +6530,7 @@
         </profile>
         <profile name="Overgrown Barbs" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="a1bc-d961-dde5-52c4">
           <characteristics>
-            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Dans votre phase de Tir, après que cette figurine ait tiré, sélectionnez une unité ennemie (à l'exclusion des unités du Titanic) qui a été touchée par une ou plusieurs de ces attaques. Jusqu'au début de votre tour suivant, pendant que cette figurine est sur le champ de bataille, cette unité ennemie est supprimée. Tant qu’une unité est supprimée, chaque fois qu'une figurine dans cette unité fait une attaque, Soustrayez 1 du jet de Touche.</characteristic>
+            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Durant votre phase de Tir, après que cette figurine a tiré, sélectionnez une unité ennemie (à l’exclusion des unités Titanic) touchée par une ou plusieurs de ces attaques. Jusqu’au début de votre prochain tour, tant que cette figurine est sur le champ de bataille, cette unité ennemie est neutralisée. Tant qu’une unité est neutralisée, chaque fois qu’une figurine de cette unité effectue une attaque, soustrayez 1 au jet de Touche.</characteristic>
           </characteristics>
         </profile>
       </profiles>
@@ -6907,7 +6907,7 @@
         </profile>
         <profile name="Frenzied Metabolism" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="ffbc-add5-8823-38f1">
           <characteristics>
-            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Chaque fois que cette figurine est sélectionnée pour tirer, vous pouvez utiliser cette aptitude. Si vous le faites, jusqu'à la fin de la phase, chaque fois que cette figurine fait une attaque, ajoutez 1 au jet de Blessure. Après avoir résolu ces attaques., lancez un D6: sur une 2+, cette figurine souffre de Blessures Mortelles à D3.</characteristic>
+            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Chaque fois que cette figurine est sélectionnée pour tirer, vous pouvez utiliser cette aptitude. Si vous le faites, jusqu’à la fin de la phase, chaque fois que cette figurine effectue une attaque, ajoutez 1 au jet de Blessure. Après avoir résolu ces attaques, lancez un D6 : sur 2+, cette figurine subit D3 blessures mortelles.</characteristic>
           </characteristics>
         </profile>
         <profile name="Harridan" typeId="74f8-5443-9d6d-1f1e" typeName="Transport" hidden="false" id="f7ae-d1e5-c7e4-386f">
@@ -7084,17 +7084,17 @@
       <profiles>
         <profile name="Damaged: 1-10 wounds remaining" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="e1fc-f768-9ec6-be50">
           <characteristics>
-            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Alors que cette figurine a 1-10 PV restants, Soustrayez 6 de cette caractéristique de la figurine de caractéristique de Contrôle d’Objectif et chaque fois que cette figurine effectue une attaque, Soustrayez 1 du jet de Touche.</characteristic>
+            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Tant que cette figurine a 1-10 PV restants, soustrayez 6 à la caractéristique de Contrôle d’Objectif de cette figurine et, chaque fois que cette figurine effectue une attaque, soustrayez 1 au jet de Touche.</characteristic>
           </characteristics>
         </profile>
         <profile name="Apex-beast" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="cda-47a4-2046-4c2c">
           <characteristics>
-            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Chaque fois que cette figurine effectue une attaque qui cible une unité qui est Ébranlée, ajoutez 1 au jet de Touche.</characteristic>
+            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Chaque fois que cette figurine effectue une attaque visant une unité qui est Ébranlé, ajoutez 1 au jet de Touche.</characteristic>
           </characteristics>
         </profile>
         <profile name="Stalking Forward" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="9746-a65-6ca-1ead">
           <characteristics>
-            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Chaque fois que cette figurine fait une normale, À l'avance ou Retraite, il peut se déplacer sur plusieurs figurines (à l'exclusion des figurines TITANIC) et Les caractéristiques du terrain qui sont 4" ou moins en hauteur comme s'ils n'étaient pas là.</characteristic>
+            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Chaque fois que cette figurine fait un Normal, Avance ou mouvement de Retraite, il peut se déplacer sur figurines (à l’exclusion de TITANIC figurines) et éléments de terrain qui sont 4" ou moins en hauteur comme s'ils n'étaient pas là.</characteristic>
           </characteristics>
         </profile>
         <profile name="Hierophant" typeId="c547-1836-d8a-ff4f" typeName="Unit" hidden="false" id="b4a6-82bd-fa8f-4235">
@@ -7376,7 +7376,7 @@
       <profiles>
         <profile name="Vanguard Predator" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="96f0-f77f-527d-7554">
           <characteristics>
-            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Chaque fois qu'une figurine dans cette unité fait une attaque, relance un jet de Touche de 1. Si la cible est dans la plage d'un ou de plusieurs marqueurs objectifs, relancez un jet de Blessure de 1.</characteristic>
+            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Chaque fois qu'une figurine dans cette unité fait une attaque, relancer est un jet de Touche de 1. Si la cible est à l'intérieur de Portée d'un ou de plusieurs pions d’objectif, relancer est également un jet de Blessure 1.</characteristic>
           </characteristics>
         </profile>
       </profiles>
@@ -7548,7 +7548,7 @@
         </profile>
         <profile name="Digestion Spine" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="a205-6bf5-658a-a9c6">
           <characteristics>
-            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Chaque fois que cette figurine se bat, après avoir résolu ses attaques, si une ou plusieurs figurines ennemies (à l'exclusion des figurines de véhicules) ont été détruits à la suite de ces attaques, cette figurine récupère jusqu'à D3 Blessures Mortelles.</characteristic>
+            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Chaque fois que cette figurine combat, après qu’elle a résolu ses attaques, si une ou plusieurs figurines ennemies (à l’exclusion des figurines Vehicle) ont été détruites par ces attaques, cette figurine récupère jusqu’à D3 blessures mortelles.</characteristic>
           </characteristics>
         </profile>
       </profiles>
@@ -7714,7 +7714,7 @@
         </profile>
         <profile name="Chitinous Horrors" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="b9cf-6189-5e16-a81a">
           <characteristics>
-            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Alors qu'une unité ennemie se trouve dans la Portée d’Engagement d'une ou de plusieurs unités avec cette aptitude, réduire de moitié la caractéristique de Contrôle d’Objectif des figurines de cette unité ennemie.</characteristic>
+            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Lorsqu'une unité ennemie se trouve dans l’aptitude Portée d’Engagement d'une ou de plusieurs unités avec cette, réduire de moitié la caractéristique de Contrôle d’Objectif des figurines de cette unité ennemie.</characteristic>
           </characteristics>
         </profile>
       </profiles>
@@ -7851,15 +7851,15 @@
         </profile>
         <profile name="Enhanced Toxic Miasma" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="31d0-c053-ceb2-e8eb">
           <characteristics>
-            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Alors que cette figurine mène une unité, la gamme de la aptitude de Foul Spores Aura de cette unité est augmentée à 9".</characteristic>
+            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Tant que cette figurine mène une unité, la portée de l’aptitude Foul Spores Aura de cette unité est portée à 9".</characteristic>
           </characteristics>
         </profile>
         <profile name="Prey Adaptation" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="b3e2-5880-7bec-cc20">
           <characteristics>
-            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Chaque fois que l'unité de cette figurine est sélectionnée pour combattre, sélectionnez l'une des capacités suivantes à appliquer à toutes les armes de mêlée équipées par les figurines de cette unité jusqu'à la fin de la phase:
-- **[SUSTAINED HITS 1]**
+            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Chaque fois que l’unité de cette figurine est sélectionnée pour combattre, sélectionnez l’une des aptitudes suivantes à appliquer à toutes les armes de mêlée dont sont équipées les figurines de cette unité jusqu’à la fin de la phase :
+- **[Touches soutenues 1]**
 - **[LANCE]**
-- **[LETHAL HITS]**</characteristic>
+- **[Touches fatales]**</characteristic>
           </characteristics>
         </profile>
         <profile name="Meneur" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="4f4b-61cc-6bb1-1c97">
@@ -8041,7 +8041,7 @@
         </profile>
         <profile name="Harpoon Barbs" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="5808-f5eb-b2d5-65d7">
           <characteristics>
-            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Une fois par tour, lorsqu'une unité ennemie dans la Portée d’Engagement de cette unité est choisie pour Battre en Retraite, lancez un D6; sur une 2+, cette unité souffre de Blessures Mortelles D6.</characteristic>
+            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Une fois par tour, lorsqu'une unité ennemie dans Portée d’Engagement de cette unité est choisie pour Battre en Retraite, lancez un D6; sur une 2+, cette unité souffre de D6 Blessures Mortelles.</characteristic>
           </characteristics>
         </profile>
       </profiles>
@@ -8189,7 +8189,7 @@
               </profiles>
               <rules>
                 <rule name="Harpooned" id="62c7-3cb5-45c-cc3b" hidden="false">
-                  <description>Après que le porteur ait tiré avec cette arme, sélectionnez une unité ennemie MONSTER ou VEHICLE touchée par une ou plusieurs de ces attaques. Jusqu'à la fin du tour, chaque fois que le porteur sélectionne cette unité comme cible d'une charge, ajoutez 2 au jet de Charge</description>
+                  <description>Après que le porteur a tiré avec cette arme, sélectionnez une unité ennemie MONSTER ou VEHICLE touchée par une ou plusieurs de ces attaques. Jusqu’à la fin du tour, chaque fois que le porteur sélectionne cette unité comme cible d’une charge, ajoutez 2 au jet de Charge</description>
                 </rule>
               </rules>
               <infoLinks>
@@ -8257,7 +8257,7 @@
           <profiles>
             <profile name="Unnatural Resistance" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="365e-a0cc-81f6-c188">
               <characteristics>
-                <characteristic name="Description" typeId="9b8f-694b-e5e-b573">cette figurine a la aptitude Insensible à la douleur 4+ contre les Blessures Mortelles.</characteristic>
+                <characteristic name="Description" typeId="9b8f-694b-e5e-b573">cette figurine a l’aptitude Insensible à la douleur 4+ contre Blessures Mortelles.</characteristic>
               </characteristics>
             </profile>
           </profiles>
@@ -8874,7 +8874,7 @@
         </profile>
         <profile name="Onslaught (Aura, Psychic)" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="d038-2f3d-1c4a-a15">
           <characteristics>
-            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Alors qu'une unité TYRANIDS conviviale est à 6" ou moins de cette figurine, les armes de tir équipées par les figurines de cette unité ont les capacités [Assaut] et [Touches fatales].</characteristic>
+            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Alors qu'une unité TYRANIDS amicale se trouve à 6" ou moins de cette figurine, la armes de tir équipée des figurines de cette unité possède les unités [Assaut] et [Touches fatales].</characteristic>
           </characteristics>
         </profile>
         <profile name="Meneur" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="c13f-316a-bbdf-74fd">
@@ -8977,12 +8977,12 @@
         </profile>
         <profile id="8fcc-7183-e211-b017" name="Alpha Warrior" hidden="false" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities">
           <characteristics>
-            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Les armes équipées par des figurines de l’unité de cette figurine possèdent la aptitude **[SUSTAINED HITS 1]**.</characteristic>
+            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Les armes équipées par les figurines de l’unité de cette figurine ont l’aptitude **[SUSTAINED HITS 1]**.</characteristic>
           </characteristics>
         </profile>
         <profile name="Aggressive Leader‑beast" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="096f-f8cd-c75b-4210">
           <characteristics>
-            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Dans la phase de Tir de votre adversaire, chaque fois qu'une unité ennemie tire, si des figurines de cette unité ont été détruits à la suite de ces attaques, cette unité peut faire un mouvement d’élan. Pour le faire, lancez un D6: les figurines dans cette unité se déplacent d’un nombre de pouces inférieur ou égal au résultat de ce jet, Mais cette unité doit terminer ce mouvement aussi près que possible de l'unité ennemie la plus proche (à l'exclusion de **^^Aircraft^^**). En faisant cela, ces figurines peuvent être déplacés dans la Portée d’Engagement de cette unité ennemie. Cette unité ne peut pas faire de mouvement de surtension pendant qu'elle est Ébranlé. ou Dans la Portée d’Engagement d’une ou plusieurs unités ennemies, et ne peut faire qu'un seul mouvement par phase.</characteristic>
+            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Dans phase de Tir de votre adversaire, chaque fois qu'une unité ennemie a tiré, si un figurines de cette unité a été détruit à la suite de ces Attaques, cette unité peut faire un mouvement d’élan. Pour ce faire, lancez un D6: les figurines de cette unité déplace d’un nombre de pouces inférieur ou égal au résultat, mais cette unité doit mettre fin à ce mouvement le plus proche possible du unité ennemie (à l’exclusion de **^^Aircraft^^**). En faisant cela, ces figurines peuvent être déplacés à l'intérieur de Portée d’Engagement de cette unité ennemie. Cette unité ne peut pas faire un mouvement d’élan alors qu'elle est Ébranlé ou à l'intérieur de Portée d’Engagement d'une ou de plusieurs unités ennemies, et ne peut faire qu'un mouvement d’élan par phase.</characteristic>
           </characteristics>
         </profile>
         <profile name="Meneur" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="452a-c278-78c7-a027">
@@ -9282,12 +9282,12 @@
   <sharedProfiles>
     <profile name="Floating Death" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="9c62-16b6-ad61-163d">
       <characteristics>
-        <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Chaque fois que cette unité ou une unité ennemie termine un mouvement, pour chaque figurine de cette unité à 3" ou moins d'une ou plusieurs unités ennemies, sélectionnez l'une de ces unités ennemies. cette figurine dans cette unité est détruit, puis lancez un D6: sur un 2-5, cette unité ennemie souffre D3 Blessures Mortelles; sur un 6 que l'unité ennemie souffre D6 Blessures Mortelles.</characteristic>
+        <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Chaque fois que cette unité ou une unité ennemie termine un mouvement, pour chaque figurine de cette unité à 3" ou moins d’une ou plusieurs unités ennemies, sélectionnez l’une de ces unités ennemies. Cette figurine de cette unité est détruite, puis lancez un D6 : sur 2-5, cette unité ennemie subit D3 blessures mortelles ; sur 6, cette unité ennemie subit D6 blessures mortelles.</characteristic>
       </characteristics>
     </profile>
     <profile name="Bio-minefield" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="374e-ed33-a96f-a014">
       <characteristics>
-        <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Les unités ennemies ne peuvent pas démarrer ou terminer un mouvement d'avance à 6" ou moins de cette unité.</characteristic>
+        <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Les unités ennemies ne peuvent pas démarrer. ou terminer un mouvement d’Avance à 6" ou moins de cette unité.</characteristic>
       </characteristics>
     </profile>
     <profile id="6cdf-a79d-f979-75f5" name="Tyranid Warrior" hidden="false" typeId="c547-1836-d8a-ff4f" typeName="Unit">
@@ -9313,8 +9313,8 @@
     <profile name="Singular Purpose" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="286e-4c57-b171-2344">
       <characteristics>
         <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Au début du premier tour de bataille, sélectionnez l'un des éléments suivants:
-- Sélectionnez une unité ennemie. Jusqu'à la fin de la bataille, chaque fois que cette figurine fait une attaque qui cible cette unité, vous pouvez relancer le jet de Touche et vous pouvez relancer le jet de Blessure
-- Choisissez un marqueur objectif. Jusqu'à la fin de la bataille, alors que cette figurine est à la portée de ce marqueur objectif, il a la aptitude Insensible à la douleur 5+ et une caractéristique de Contrôle d’Objectif de 15.</characteristic>
+- Sélectionnez une unité ennemie pour vous. Jusqu'à la fin de la bataille, chaque fois que cette figurine fait une attaque qui cible cette unité vous pouvez relancer le jet de Touche et vous pouvez relancer le jet de Blessure
+- Sélectionnez un pion d’objectif pour vous. Jusqu'à la fin de la bataille, alors que cette figurine est dans Portée de ce pion d’objectif, il a l’aptitude Insensible à la douleur 5+ et une caractéristique de Contrôle d’Objectif de 15.</characteristic>
       </characteristics>
     </profile>
     <profile name="Mucolid Spore" typeId="c547-1836-d8a-ff4f" typeName="Unit" hidden="false" id="1df9-04b2-4b8b-6263">
@@ -9329,7 +9329,7 @@
     </profile>
     <profile name="Floating Death" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="d7bb-5382-f348-1d3f">
       <characteristics>
-        <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Chaque fois que cette unité ou une unité ennemie termine un mouvement, pour chaque figurine dans cette unité qui se trouve à 3" ou moins d'une ou plusieurs unités ennemies, sélectionnez une de ces unités ennemies. cette figurine dans cette unité est détruit, puis roule lancez un D6: sur un 2-5, cette unité ennemie souffre 1 blessure mortelle; sur un 6, cette unité ennemie souffre D3 Blessures Mortelles.</characteristic>
+        <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Chaque fois que cette unité ou une unité ennemie termine un mouvement, pour chaque figurine de cette unité à 3" ou moins d’une ou plusieurs unités ennemies, sélectionnez l’une de ces unités ennemies. Cette figurine de cette unité est détruite, puis lancez un D6 : sur 2-5, cette unité ennemie subit 1 blessure mortelle ; sur 6, cette unité ennemie subit D3 blessures mortelles.</characteristic>
       </characteristics>
     </profile>
     <profile name="Spore Mine" typeId="c547-1836-d8a-ff4f" typeName="Unit" hidden="false" id="84d8-d3ab-da07-7449">
@@ -9344,8 +9344,8 @@
     </profile>
   </sharedProfiles>
   <catalogueLinks>
-    <catalogueLink type="catalogue" name="Unaligned Forces" id="e1d1-13ae-8bc4-4330" targetId="61f1-ce52-d345-5048" importRootEntries="true" />
-    <catalogueLink type="catalogue" name="Library - Tyranids" id="161a-f644-429a-7e00" targetId="21c3-d201-3c55-bc93" />
+    <catalogueLink type="catalogue" name="Unaligned Forces" id="e1d1-13ae-8bc4-4330" targetId="581a-46b9-5b86-44b7" importRootEntries="true" />
+    <catalogueLink type="catalogue" name="Library - Tyranids" id="161a-f644-429a-7e00" targetId="374d-45f0-5832-001e" />
   </catalogueLinks>
   <infoLinks>
     <infoLink targetId="86aa-437f-260b-5cad" id="6d46-599b-97c8-9bb6" type="rule" name="Synapse" hidden="false" />

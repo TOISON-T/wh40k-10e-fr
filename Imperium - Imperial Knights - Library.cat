@@ -1,18 +1,18 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue xmlns="http://www.battlescribe.net/schema/catalogueSchema" library="true" id="1787-6721-8649-a4a8" name="Imperium - Imperial Knights - Library" gameSystemId="sys-0e45-705d-f6bc-806a" gameSystemRevision="1" revision="85" battleScribeVersion="2.03" authorName="BSData Developers" type="catalogue" authorContact="Dunamis55 &amp; AbonShell">
+<catalogue xmlns="http://www.battlescribe.net/schema/catalogueSchema" library="true" id="1b6d-dc06-5db9-c7d1" name="Imperium - Imperial Knights - Library" gameSystemId="sys-352e-adc2-7639-d6a9" gameSystemRevision="1" revision="85" battleScribeVersion="2.03" authorName="BSData Developers" type="catalogue" authorContact="Dunamis55 &amp; AbonShell">
   <rules>
     <rule name="Code Chivalric" id="cbd-943-bc7b-20ec">
-      <description>Si votre faction d'armée est **^^Imperial Knights^^**, à la fin de l'étape des objectifs de la mission de lecture, vous devez déterminer le serment de votre armée pour la bataille à venir. Un serment se compose de deux parties: une action et une qualité. Il y a trois options pour chaque rôle.
+      <description>Si votre Faction d’Armée est **^^Imperial Knights^^**, à la fin de l’étape Read Mission Objectives, vous devez déterminer le Serment de votre armée pour la bataille à venir. Un Serment se compose de deux parties : un Deed et une Quality. Chaque partie offre trois options.
 
-Pour déterminer l'acte de votre armée, vous pouvez soit sélectionner un acte ou vous pouvez sélectionner un acte au hasard en déployant un D6 et en consultant le tableau pertinent. L'acte sélectionné décrira ce qui doit être accompli pour compléter cet acte.
+Pour déterminer le Deed de votre armée, vous pouvez soit en sélectionner un, soit en sélectionner un aléatoirement en lançant un D6 et en consultant le tableau correspondant. Le Deed sélectionné décrit ce qui doit être accompli pour le compléter.
 
-Pour déterminer la qualité de votre armée, vous pouvez choisir une qualité ou vous pouvez choisir une qualité au hasard en roulant un D6 et en consultant le tableau pertinent. Jusqu'à la fin de la bataille, la aptitude décrite dans la qualité sélectionnée s'applique à tous les figurines de votre armée avec cette aptitude.
+Pour déterminer la Quality de votre armée, vous pouvez soit en sélectionner une, soit en sélectionner une aléatoirement en lançant un D6 et en consultant le tableau correspondant. Jusqu’à la fin de la bataille, l’aptitude décrite dans la Quality sélectionnée s’applique à toutes les figurines de votre armée dotées de cette aptitude.
 
-La première fois que votre acte sélectionné est terminé, votre serment est accompli et, jusqu'à la fin de la bataille, votre armée devient Honorable et vous gagnez 2CP, ou 3CP si vous avez choisi aléatoirement votre acte et/ou qualité (CP obtenu de cette façon sont une exemption des règles fondamentales qui limitent le nombre maximum de CP que vous pouvez gagner par tour de bataille à 1).</description>
+La première fois que votre Deed sélectionné est accompli, votre Serment est rempli et, jusqu’à la fin de la bataille, votre armée devient Honoured et vous gagnez 2CP, ou 3CP si vous avez sélectionné aléatoirement votre Deed et/ou votre Quality (les CP gagnés ainsi font exception aux Règles de Base limitant à 1 le nombre maximal de CP que vous pouvez gagner par round de bataille).</description>
       <modifiers>
         <modifier type="set" value="true" field="hidden">
           <conditions>
-            <condition type="notInstanceOf" value="1" field="selections" scope="primary-catalogue" childId="8956-4e3b-cf7d-86d7" shared="true" />
+            <condition type="notInstanceOf" value="1" field="selections" scope="primary-catalogue" childId="25dd-7aa0-6bf4-f2d5" shared="true" />
           </conditions>
         </modifier>
       </modifiers>
@@ -105,7 +105,7 @@ La première fois que votre acte sélectionné est terminé, votre serment est a
             </profile>
             <profile name="Chainbreaker" hidden="false" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" id="7f8-ef35-95d5-6fc7">
               <characteristics>
-                <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Une fois par bataille, au début de toute phase, vous pouvez sélectionner une unité **^^Imperium^^** amicale qui est Ébranlée et à 12" ou moins de cette figurine. Cette unité n'est plus Ébranlée.</characteristic>
+                <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Une fois par bataille, au début de n’importe quelle phase, vous pouvez sélectionner une unité **^^Imperium^^** amie qui est Ébranlée et à 12" ou moins de cette figurine. Cette unité n’est plus Ébranlée.</characteristic>
               </characteristics>
             </profile>
             <profile name="Legendary Freeblade" hidden="false" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" id="b927-9dc2-5b23-19dd">
@@ -237,7 +237,7 @@ La première fois que votre acte sélectionné est terminé, votre serment est a
             </profile>
             <profile name="Using Sir Hekhtur" hidden="false" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" id="15a9-48ef-5f10-106">
               <characteristics>
-                <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Si votre figurine Canis Rex est détruit, cette figurine est traité comme une figurine débarquant d'un **^^Transport^^** détruit et doit effectuer un débarquement d'urgence. Sir Hekhtur ne peut pas être sélectionné comme cible de n'importe lequel de vos stratagèmes autres que les stratagèmes de base. Votre unité Canis Rex n'est pas considérée comme détruite tant que Sir Hekhtur n'est pas également détruite.</characteristic>
+                <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Si votre figurine Canis Rex est détruite, cette figurine est traitée comme une figurine débarquant d’un **^^Transport^^** détruit et doit effectuer un Débarquement d’Urgence. Sir Hekhtur ne peut être sélectionné comme cible d’aucun de vos Stratagèmes autre que les Stratagèmes de Base. Votre unité Canis Rex n’est pas considérée comme détruite tant que Sir Hekhtur n’est pas lui aussi détruit.</characteristic>
               </characteristics>
             </profile>
           </profiles>
@@ -301,7 +301,7 @@ La première fois que votre acte sélectionné est terminé, votre serment est a
           <conditionGroups>
             <conditionGroup type="and">
               <conditions>
-                <condition type="notInstanceOf" value="1" field="selections" scope="primary-catalogue" childId="8956-4e3b-cf7d-86d7" shared="true" />
+                <condition type="notInstanceOf" value="1" field="selections" scope="primary-catalogue" childId="25dd-7aa0-6bf4-f2d5" shared="true" />
                 <condition type="lessThan" value="1" field="selections" scope="roster" childId="e82c-6f8c-2b97-a287" shared="true" includeChildSelections="true" includeChildForces="true" />
               </conditions>
             </conditionGroup>
@@ -309,7 +309,7 @@ La première fois que votre acte sélectionné est terminé, votre serment est a
         </modifier>
         <modifier type="set-primary" value="887b-ab87-92a2-20f5" field="category">
           <conditions>
-            <condition type="notInstanceOf" value="1" field="selections" scope="primary-catalogue" childId="8956-4e3b-cf7d-86d7" shared="true" />
+            <condition type="notInstanceOf" value="1" field="selections" scope="primary-catalogue" childId="25dd-7aa0-6bf4-f2d5" shared="true" />
           </conditions>
         </modifier>
       </modifiers>
@@ -353,7 +353,7 @@ La première fois que votre acte sélectionné est terminé, votre serment est a
         </profile>
         <profile name="Impetuous Glory" hidden="false" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" id="4bac-5c2a-5e23-d586">
           <characteristics>
-            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Chaque fois que cette figurine effectue un déplacement de charge, jusqu'à la fin du tour, ajoutez 1 au profil d'caractéristique d’Attaques du coupeur de chaîne-coupeur de cette figurine, et ajoutez 2 au profil d'caractéristique d’Attaques du coupeur de chaîne-coupeur de cette figurine.</characteristic>
+            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Chaque fois que cette figurine fait un mouvement de Charge, jusqu'à la fin du tour, ajoutez 1 à la caractéristique d’Attaques du profil de coupure de chaîne de récolte de cette figurine, et ajoutez 2 à la caractéristique d’Attaques du profil de coupure de chaîne de récolte de cette figurine.</characteristic>
           </characteristics>
         </profile>
       </profiles>
@@ -379,7 +379,7 @@ La première fois que votre acte sélectionné est terminé, votre serment est a
           <conditionGroups>
             <conditionGroup type="and">
               <conditions>
-                <condition type="notInstanceOf" value="1" field="selections" scope="primary-catalogue" childId="8956-4e3b-cf7d-86d7" shared="true" />
+                <condition type="notInstanceOf" value="1" field="selections" scope="primary-catalogue" childId="25dd-7aa0-6bf4-f2d5" shared="true" />
                 <condition type="lessThan" value="1" field="selections" scope="roster" childId="e82c-6f8c-2b97-a287" shared="true" includeChildSelections="true" includeChildForces="true" />
               </conditions>
             </conditionGroup>
@@ -387,7 +387,7 @@ La première fois que votre acte sélectionné est terminé, votre serment est a
         </modifier>
         <modifier type="set-primary" value="887b-ab87-92a2-20f5" field="category">
           <conditions>
-            <condition type="notInstanceOf" value="1" field="selections" scope="primary-catalogue" childId="8956-4e3b-cf7d-86d7" shared="true" />
+            <condition type="notInstanceOf" value="1" field="selections" scope="primary-catalogue" childId="25dd-7aa0-6bf4-f2d5" shared="true" />
           </conditions>
         </modifier>
       </modifiers>
@@ -596,7 +596,7 @@ La première fois que votre acte sélectionné est terminé, votre serment est a
         </profile>
         <profile name="Suppression Protocols" hidden="false" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" id="1d28-343b-c471-4427">
           <characteristics>
-            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Dans votre phase de Tir, après que cette figurine ait tiré, sélectionnez une unité ennemi (à l'exclusion de **^^Monsters^^** et **^^Vehicles^^**) frappée par une ou plusieurs de ces attaques effectuées avec un canon automatique Armiger. Jusqu'au début de votre tour suivant, cette unité ennemie est supprimée. Pendant que cette unité est supprimée, chaque fois qu'une figurine dans cette unité fait une attaque, Soustrayez 1 du jet de Touche.</characteristic>
+            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Durant votre phase de Tir, après que cette figurine a tiré, sélectionnez une unité ennemie (à l’exclusion des **^^Monsters^^** et des **^^Vehicles^^**) touchée par une ou plusieurs de ces attaques effectuées avec un Armiger autocannon. Jusqu’au début de votre prochain tour, cette unité ennemie est neutralisée. Tant que cette unité est neutralisée, chaque fois qu’une figurine de cette unité effectue une attaque, soustrayez 1 au jet de Touche.</characteristic>
           </characteristics>
         </profile>
       </profiles>
@@ -623,7 +623,7 @@ La première fois que votre acte sélectionné est terminé, votre serment est a
           <conditionGroups>
             <conditionGroup type="and">
               <conditions>
-                <condition type="notInstanceOf" value="1" field="selections" scope="primary-catalogue" childId="8956-4e3b-cf7d-86d7" shared="true" />
+                <condition type="notInstanceOf" value="1" field="selections" scope="primary-catalogue" childId="25dd-7aa0-6bf4-f2d5" shared="true" />
                 <condition type="lessThan" value="1" field="selections" scope="roster" childId="e82c-6f8c-2b97-a287" shared="true" includeChildSelections="true" includeChildForces="true" />
               </conditions>
             </conditionGroup>
@@ -631,7 +631,7 @@ La première fois que votre acte sélectionné est terminé, votre serment est a
         </modifier>
         <modifier type="set-primary" value="887b-ab87-92a2-20f5" field="category">
           <conditions>
-            <condition type="notInstanceOf" value="1" field="selections" scope="primary-catalogue" childId="8956-4e3b-cf7d-86d7" shared="true" />
+            <condition type="notInstanceOf" value="1" field="selections" scope="primary-catalogue" childId="25dd-7aa0-6bf4-f2d5" shared="true" />
           </conditions>
         </modifier>
       </modifiers>
@@ -803,7 +803,7 @@ La première fois que votre acte sélectionné est terminé, votre serment est a
         </profile>
         <profile name="Seasoned Noble" hidden="false" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" id="c8eb-db13-de01-b988">
           <characteristics>
-            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Chaque fois que cette figurine effectue une attaque de tir visant la cible admissible la plus proche, améliorez la caractéristique de Pénétration d’Armure de cette attaque de 1.</characteristic>
+            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Chaque fois que cette figurine effectue une attaque de tir qui cible la cible éligible la plus proche, améliorez de 1 la caractéristique de Pénétration d’Armure de cette attaque.</characteristic>
           </characteristics>
         </profile>
       </profiles>
@@ -834,7 +834,7 @@ La première fois que votre acte sélectionné est terminé, votre serment est a
           <profiles>
             <profile name="Paladin’s Duty (Bondsman)" hidden="false" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" id="813e-e1e-3766-c3f8">
               <characteristics>
-                <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Alors qu'une figurine est affecté par cette aptitude, les armes équipées par cette figurine ont la aptitude **[LETHAL HITS]**, et les armes de mêlée équipées par cette figurine ont la aptitude **[LANCE]**.</characteristic>
+                <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Tant qu’une figurine est affectée par cette aptitude, les armes dont cette figurine est équipée ont l’aptitude **[Touches fatales]**, et les armes de mêlée dont cette figurine est équipée ont l’aptitude **[LANCE]**.</characteristic>
               </characteristics>
             </profile>
           </profiles>
@@ -857,7 +857,7 @@ La première fois que votre acte sélectionné est terminé, votre serment est a
           <conditionGroups>
             <conditionGroup type="and">
               <conditions>
-                <condition type="notInstanceOf" value="1" field="selections" scope="primary-catalogue" childId="8956-4e3b-cf7d-86d7" shared="true" />
+                <condition type="notInstanceOf" value="1" field="selections" scope="primary-catalogue" childId="25dd-7aa0-6bf4-f2d5" shared="true" />
                 <condition type="lessThan" value="1" field="selections" scope="roster" childId="e82c-6f8c-2b97-a287" shared="true" includeChildSelections="true" includeChildForces="true" />
               </conditions>
             </conditionGroup>
@@ -865,7 +865,7 @@ La première fois que votre acte sélectionné est terminé, votre serment est a
         </modifier>
         <modifier type="set-primary" value="887b-ab87-92a2-20f5" field="category">
           <conditions>
-            <condition type="notInstanceOf" value="1" field="selections" scope="primary-catalogue" childId="8956-4e3b-cf7d-86d7" shared="true" />
+            <condition type="notInstanceOf" value="1" field="selections" scope="primary-catalogue" childId="25dd-7aa0-6bf4-f2d5" shared="true" />
           </conditions>
         </modifier>
       </modifiers>
@@ -1033,7 +1033,7 @@ La première fois que votre acte sélectionné est terminé, votre serment est a
         </profile>
         <profile name="Aggressive Assault" hidden="false" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" id="be43-2d11-65f8-aedb">
           <characteristics>
-            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Chaque fois que cette figurine effectue une attaque de tir qui cible la cible admissible la plus proche, ajoutez 1 à la jets de Touche.</characteristic>
+            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Chaque fois que cette figurine effectue une attaque de tir qui cible la cible éligible la plus proche, ajoutez 1 au jet de Touche.</characteristic>
           </characteristics>
         </profile>
       </profiles>
@@ -1064,7 +1064,7 @@ La première fois que votre acte sélectionné est terminé, votre serment est a
           <profiles>
             <profile name="Errant's Duty (Bondsman)" hidden="false" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" id="23cf-33c7-9f58-d57a">
               <characteristics>
-                <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Alors qu'une figurine est affecté par cette aptitude, vous pouvez relancer les jets d’Avance faits pour cette figurine et les armes de portée équipées par cette figurine ont la aptitude **[ASSAULT]**.</characteristic>
+                <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Tant qu’une figurine est affectée par cette aptitude, vous pouvez relancer les jets d’Avance effectués pour cette figurine et les armes de tir dont elle est équipée ont l’aptitude **[ASSAULT]**.</characteristic>
               </characteristics>
             </profile>
           </profiles>
@@ -1087,7 +1087,7 @@ La première fois que votre acte sélectionné est terminé, votre serment est a
           <conditionGroups>
             <conditionGroup type="and">
               <conditions>
-                <condition type="notInstanceOf" value="1" field="selections" scope="primary-catalogue" childId="8956-4e3b-cf7d-86d7" shared="true" />
+                <condition type="notInstanceOf" value="1" field="selections" scope="primary-catalogue" childId="25dd-7aa0-6bf4-f2d5" shared="true" />
                 <condition type="lessThan" value="1" field="selections" scope="roster" childId="e82c-6f8c-2b97-a287" shared="true" includeChildSelections="true" includeChildForces="true" />
               </conditions>
             </conditionGroup>
@@ -1095,7 +1095,7 @@ La première fois que votre acte sélectionné est terminé, votre serment est a
         </modifier>
         <modifier type="set-primary" value="887b-ab87-92a2-20f5" field="category">
           <conditions>
-            <condition type="notInstanceOf" value="1" field="selections" scope="primary-catalogue" childId="8956-4e3b-cf7d-86d7" shared="true" />
+            <condition type="notInstanceOf" value="1" field="selections" scope="primary-catalogue" childId="25dd-7aa0-6bf4-f2d5" shared="true" />
           </conditions>
         </modifier>
       </modifiers>
@@ -1210,7 +1210,7 @@ La première fois que votre acte sélectionné est terminé, votre serment est a
         </profile>
         <profile name="Martial Pride" hidden="false" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" id="aa56-4384-8f12-cc31">
           <characteristics>
-            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Chaque fois que cette unité se consolide, les figurines peuvent déplacer un 3" supplémentaire à condition que votre unité puisse terminer ce mouvement dans la Portée d’Engagement d'une ou plusieurs unités ennemies.</characteristic>
+            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Chaque fois que cette unité se consolide, figurines peut y déplacer un 3" supplémentaire à condition que votre unité puisse mettre fin à ce mouvement à l'intérieur de Portée d’Engagement d'une ou plusieurs unités ennemies.</characteristic>
           </characteristics>
         </profile>
       </profiles>
@@ -1241,7 +1241,7 @@ La première fois que votre acte sélectionné est terminé, votre serment est a
           <profiles>
             <profile name="Gallant's Duty (Bondsman)" hidden="false" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" id="1d35-f0ed-8ef8-a52d">
               <characteristics>
-                <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Alors qu'une figurine est affecté par cette aptitude, vous pouvez relancer les jets de Charge faits pour cette figurine et chaque fois que cette figurine fait une attaque de mêlée, vous pouvez relancer le jet de Touche.</characteristic>
+                <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Tant qu’une figurine est affectée par cette aptitude, vous pouvez relancer les jets de Charge effectués pour cette figurine et, chaque fois que cette figurine effectue une attaque de mêlée, vous pouvez relancer le jet de Touche.</characteristic>
               </characteristics>
             </profile>
           </profiles>
@@ -1263,7 +1263,7 @@ La première fois que votre acte sélectionné est terminé, votre serment est a
           <conditionGroups>
             <conditionGroup type="and">
               <conditions>
-                <condition type="notInstanceOf" value="1" field="selections" scope="primary-catalogue" childId="8956-4e3b-cf7d-86d7" shared="true" />
+                <condition type="notInstanceOf" value="1" field="selections" scope="primary-catalogue" childId="25dd-7aa0-6bf4-f2d5" shared="true" />
                 <condition type="lessThan" value="1" field="selections" scope="roster" childId="e82c-6f8c-2b97-a287" shared="true" includeChildSelections="true" includeChildForces="true" />
               </conditions>
             </conditionGroup>
@@ -1271,7 +1271,7 @@ La première fois que votre acte sélectionné est terminé, votre serment est a
         </modifier>
         <modifier type="set-primary" value="887b-ab87-92a2-20f5" field="category">
           <conditions>
-            <condition type="notInstanceOf" value="1" field="selections" scope="primary-catalogue" childId="8956-4e3b-cf7d-86d7" shared="true" />
+            <condition type="notInstanceOf" value="1" field="selections" scope="primary-catalogue" childId="25dd-7aa0-6bf4-f2d5" shared="true" />
           </conditions>
         </modifier>
       </modifiers>
@@ -1465,7 +1465,7 @@ La première fois que votre acte sélectionné est terminé, votre serment est a
         </profile>
         <profile name="Thin Their Ranks" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="51ae-c850-5c2a-761f">
           <characteristics>
-            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Chaque fois que cette figurine effectue une attaque de tir qui cible une unité ennemi (à l'exclusion de **^^Monsters^^** et **^^Vehicles^^**), cette attaque a la aptitude **[DEVASTATING WOUNDS]**.</characteristic>
+            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Chaque fois que cette figurine fait une attaque de tir qui cible une unité ennemie (à l’exclusion de **^^Monsters^^** et **^^Vehicles^^**), cette attaque a l’aptitude **[DEVASTATING WOUNDS]**.</characteristic>
           </characteristics>
         </profile>
       </profiles>
@@ -1497,7 +1497,7 @@ La première fois que votre acte sélectionné est terminé, votre serment est a
           <profiles>
             <profile name="Warden's Duty (Bondsman)" hidden="false" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" id="61b5-1d00-e20d-2e1d">
               <characteristics>
-                <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Bien qu'une figurine soit affecté par cette aptitude, les armes équipées par cette figurine ont la aptitude **[SUSTAINED HITS 1]**, et les armes de tir équipées par cette figurine ont la aptitude **[IGNORES COVER]**.</characteristic>
+                <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Tant qu’une figurine est affectée par cette aptitude, les armes dont cette figurine est équipée ont l’aptitude **[Touches soutenues 1]**, et les armes de tir dont cette figurine est équipée ont l’aptitude **[IGNORE LE COUVERT]**.</characteristic>
               </characteristics>
             </profile>
           </profiles>
@@ -1521,7 +1521,7 @@ La première fois que votre acte sélectionné est terminé, votre serment est a
           <conditionGroups>
             <conditionGroup type="and">
               <conditions>
-                <condition type="notInstanceOf" value="1" field="selections" scope="primary-catalogue" childId="8956-4e3b-cf7d-86d7" shared="true" />
+                <condition type="notInstanceOf" value="1" field="selections" scope="primary-catalogue" childId="25dd-7aa0-6bf4-f2d5" shared="true" />
                 <condition type="lessThan" value="1" field="selections" scope="roster" childId="e82c-6f8c-2b97-a287" shared="true" includeChildForces="true" includeChildSelections="true" />
               </conditions>
             </conditionGroup>
@@ -1529,7 +1529,7 @@ La première fois que votre acte sélectionné est terminé, votre serment est a
         </modifier>
         <modifier type="set-primary" value="887b-ab87-92a2-20f5" field="category">
           <conditions>
-            <condition type="notInstanceOf" value="1" field="selections" scope="primary-catalogue" childId="8956-4e3b-cf7d-86d7" shared="true" />
+            <condition type="notInstanceOf" value="1" field="selections" scope="primary-catalogue" childId="25dd-7aa0-6bf4-f2d5" shared="true" />
           </conditions>
         </modifier>
       </modifiers>
@@ -1658,7 +1658,7 @@ La première fois que votre acte sélectionné est terminé, votre serment est a
         </profile>
         <profile name="Punishing Salvoes" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="f3ec-bea-7d9f-df98">
           <characteristics>
-            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Dans votre phase de Mouvement, si cette figurine reste stationnaire, jusqu'à la fin du tour, les armes de tir équipées de cette figurine ont la aptitude **[SUSTAINED HITS 1]**.</characteristic>
+            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Durant votre phase de Mouvement, si cette figurine Reste Stationnaire, jusqu’à la fin du tour, les armes de tir dont elle est équipée ont l’aptitude **[SUSTAINED HITS 1]**.</characteristic>
           </characteristics>
         </profile>
       </profiles>
@@ -1690,7 +1690,7 @@ La première fois que votre acte sélectionné est terminé, votre serment est a
           <profiles>
             <profile name="Crusader's Duty (Bondsman)" hidden="false" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" id="11c1-4782-61b6-4b98">
               <characteristics>
-                <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Alors qu'une figurine est affecté par cette aptitude, chaque fois que cette figurine effectue une attaque de tir, ajoutez 1 au jet de Touche.</characteristic>
+                <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Tant qu’une figurine est affectée par cette aptitude, chaque fois qu’elle effectue une attaque de tir, ajoutez 1 au jet de Touche.</characteristic>
               </characteristics>
             </profile>
           </profiles>
@@ -1816,7 +1816,7 @@ La première fois que votre acte sélectionné est terminé, votre serment est a
           <conditionGroups>
             <conditionGroup type="and">
               <conditions>
-                <condition type="notInstanceOf" value="1" field="selections" scope="primary-catalogue" childId="8956-4e3b-cf7d-86d7" shared="true" />
+                <condition type="notInstanceOf" value="1" field="selections" scope="primary-catalogue" childId="25dd-7aa0-6bf4-f2d5" shared="true" />
                 <condition type="lessThan" value="1" field="selections" scope="roster" childId="e82c-6f8c-2b97-a287" shared="true" includeChildSelections="true" includeChildForces="true" />
               </conditions>
             </conditionGroup>
@@ -1824,7 +1824,7 @@ La première fois que votre acte sélectionné est terminé, votre serment est a
         </modifier>
         <modifier type="set-primary" value="887b-ab87-92a2-20f5" field="category">
           <conditions>
-            <condition type="notInstanceOf" value="1" field="selections" scope="primary-catalogue" childId="8956-4e3b-cf7d-86d7" shared="true" />
+            <condition type="notInstanceOf" value="1" field="selections" scope="primary-catalogue" childId="25dd-7aa0-6bf4-f2d5" shared="true" />
           </conditions>
         </modifier>
       </modifiers>
@@ -1916,7 +1916,7 @@ La première fois que votre acte sélectionné est terminé, votre serment est a
         </profile>
         <profile name="Exemplar of the Code" hidden="false" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" id="e11c-1932-dd04-c55f">
           <characteristics>
-            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Au début de la bataille, sélectionnez une unité de l'armée de votre adversaire pour être la carrière de cette figurine. Chaque fois que cette figurine fait une attaque qui cible sa carrière, vous pouvez relancer le jet de Blessure. Chaque fois que la carrière de cette figurine est détruite, vous pouvez sélectionner une nouvelle unité de l'armée de votre adversaire pour être sa carrière.</characteristic>
+            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Au début de la bataille, sélectionnez une unité de l’armée de votre adversaire comme proie de cette figurine. Chaque fois que cette figurine effectue une attaque qui cible sa proie, vous pouvez relancer le jet de Blessure. Chaque fois que la proie de cette figurine est détruite, vous pouvez sélectionner une nouvelle unité de l’armée de votre adversaire comme sa proie.</characteristic>
           </characteristics>
         </profile>
       </profiles>
@@ -2077,7 +2077,7 @@ La première fois que votre acte sélectionné est terminé, votre serment est a
           <profiles>
             <profile name="Mentor (Bondsman)" hidden="false" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" id="36a7-a0c0-ff14-14a7">
               <characteristics>
-                <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Chaque fois qu'une figurine affecté par cette aptitude fait une attaque qui cible la carrière de cette figurine, vous pouvez relancer le jet de Blessure.</characteristic>
+                <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Chaque fois qu’une figurine affectée par cette aptitude effectue une attaque qui cible la proie de cette figurine, vous pouvez relancer le jet de Blessure.</characteristic>
               </characteristics>
             </profile>
           </profiles>
@@ -2098,7 +2098,7 @@ La première fois que votre acte sélectionné est terminé, votre serment est a
           <conditionGroups>
             <conditionGroup type="and">
               <conditions>
-                <condition type="notInstanceOf" value="1" field="selections" scope="primary-catalogue" childId="8956-4e3b-cf7d-86d7" shared="true" />
+                <condition type="notInstanceOf" value="1" field="selections" scope="primary-catalogue" childId="25dd-7aa0-6bf4-f2d5" shared="true" />
                 <condition type="lessThan" value="1" field="selections" scope="roster" childId="e82c-6f8c-2b97-a287" shared="true" includeChildSelections="true" includeChildForces="true" />
               </conditions>
             </conditionGroup>
@@ -2106,7 +2106,7 @@ La première fois que votre acte sélectionné est terminé, votre serment est a
         </modifier>
         <modifier type="set-primary" value="887b-ab87-92a2-20f5" field="category">
           <conditions>
-            <condition type="notInstanceOf" value="1" field="selections" scope="primary-catalogue" childId="8956-4e3b-cf7d-86d7" shared="true" />
+            <condition type="notInstanceOf" value="1" field="selections" scope="primary-catalogue" childId="25dd-7aa0-6bf4-f2d5" shared="true" />
           </conditions>
         </modifier>
       </modifiers>
@@ -2198,7 +2198,7 @@ La première fois que votre acte sélectionné est terminé, votre serment est a
         </profile>
         <profile name="Titan Hunter" hidden="false" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" id="1b2e-aac4-ebfe-3c7">
           <characteristics>
-            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Chaque fois qu'une attaque de tir effectuée par cette figurine est allouée à une figurine **^^Monster^^** ou **^^Vehicle^^**, vous pouvez relancer le jet Dégâts.</characteristic>
+            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Chaque fois qu’une attaque de tir effectuée par cette figurine est allouée à une figurine **^^Monster^^** ou **^^Vehicle^^**, vous pouvez relancer le jet de Dégâts.</characteristic>
           </characteristics>
         </profile>
       </profiles>
@@ -2237,7 +2237,7 @@ La première fois que votre acte sélectionné est terminé, votre serment est a
           <conditionGroups>
             <conditionGroup type="and">
               <conditions>
-                <condition type="notInstanceOf" value="1" field="selections" scope="primary-catalogue" childId="8956-4e3b-cf7d-86d7" shared="true" />
+                <condition type="notInstanceOf" value="1" field="selections" scope="primary-catalogue" childId="25dd-7aa0-6bf4-f2d5" shared="true" />
                 <condition type="lessThan" value="1" field="selections" scope="roster" childId="e82c-6f8c-2b97-a287" shared="true" includeChildForces="true" includeChildSelections="true" />
               </conditions>
             </conditionGroup>
@@ -2245,7 +2245,7 @@ La première fois que votre acte sélectionné est terminé, votre serment est a
         </modifier>
         <modifier type="set-primary" value="887b-ab87-92a2-20f5" field="category">
           <conditions>
-            <condition type="notInstanceOf" value="1" field="selections" scope="primary-catalogue" childId="8956-4e3b-cf7d-86d7" shared="true" />
+            <condition type="notInstanceOf" value="1" field="selections" scope="primary-catalogue" childId="25dd-7aa0-6bf4-f2d5" shared="true" />
           </conditions>
         </modifier>
       </modifiers>
@@ -2459,7 +2459,7 @@ La première fois que votre acte sélectionné est terminé, votre serment est a
         </profile>
         <profile name="Thundershock" hidden="false" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" id="c930-deaf-6267-1e1e">
           <characteristics>
-            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Dans votre phase de Tir, chaque fois que vous sélectionnez une cible pour le harpon à bobine à tonnerre de cette figurine, lancez un D6 pour l'unité cible et lancez un D6 pour chaque autre unité ennemie à 6" ou moins de l'unité cible. Sur un 4+, l'unité pour laquelle sur roule est frappée par des énergies d'arc; après avoir résolu toutes les attaques de cette figurine contre l'unité cible, chaque unité frappée par des énergies d'arc subit des Blessures Mortelles D3.</characteristic>
+            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Durant votre phase de Tir, chaque fois que vous sélectionnez une cible pour le thundercoil harpoon de cette figurine, lancez un D6 pour l’unité cible et un D6 pour chaque autre unité ennemie à 6" ou moins de l’unité cible. Sur 4+, l’unité pour laquelle vous avez lancé le dé est frappée par des décharges en arc ; après avoir résolu toutes les attaques de cette figurine contre l’unité cible, chaque unité frappée par des décharges en arc subit D3 blessures mortelles.</characteristic>
           </characteristics>
         </profile>
       </profiles>
@@ -2498,7 +2498,7 @@ La première fois que votre acte sélectionné est terminé, votre serment est a
           <conditionGroups>
             <conditionGroup type="and">
               <conditions>
-                <condition type="notInstanceOf" value="1" field="selections" scope="primary-catalogue" childId="8956-4e3b-cf7d-86d7" shared="true" />
+                <condition type="notInstanceOf" value="1" field="selections" scope="primary-catalogue" childId="25dd-7aa0-6bf4-f2d5" shared="true" />
                 <condition type="lessThan" value="1" field="selections" scope="roster" childId="e82c-6f8c-2b97-a287" shared="true" includeChildSelections="true" includeChildForces="true" />
               </conditions>
             </conditionGroup>
@@ -2506,7 +2506,7 @@ La première fois que votre acte sélectionné est terminé, votre serment est a
         </modifier>
         <modifier type="set-primary" value="887b-ab87-92a2-20f5" field="category">
           <conditions>
-            <condition type="notInstanceOf" value="1" field="selections" scope="primary-catalogue" childId="8956-4e3b-cf7d-86d7" shared="true" />
+            <condition type="notInstanceOf" value="1" field="selections" scope="primary-catalogue" childId="25dd-7aa0-6bf4-f2d5" shared="true" />
           </conditions>
         </modifier>
       </modifiers>
@@ -2690,7 +2690,7 @@ La première fois que votre acte sélectionné est terminé, votre serment est a
       <modifiers>
         <modifier type="set" value="true" field="hidden">
           <conditions>
-            <condition type="notInstanceOf" value="1" field="selections" scope="primary-catalogue" childId="8956-4e3b-cf7d-86d7" shared="true" />
+            <condition type="notInstanceOf" value="1" field="selections" scope="primary-catalogue" childId="25dd-7aa0-6bf4-f2d5" shared="true" />
           </conditions>
         </modifier>
       </modifiers>
@@ -2979,7 +2979,7 @@ La première fois que votre acte sélectionné est terminé, votre serment est a
         </profile>
         <profile name="Sunderer of Fortresses" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="8107-cbfe-4bc2-99e1">
           <characteristics>
-            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Chaque fois que cette figurine effectue une attaque visant un VEHICLE, améliorez les caractéristiques de force et de Dégâts de cette attaque de 1. Si cette attaque cible un Fortification, améliorez les caractéristiques de force et de Dégâts de cette attaque par 2 à la place.</characteristic>
+            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Chaque fois que cette figurine effectue une attaque qui cible un VEHICLE, améliorez de 1 les caractéristiques de Force et de Dégâts de cette attaque. Si cette attaque cible une FORTIFICATION, améliorez de 2 ces caractéristiques à la place.</characteristic>
           </characteristics>
         </profile>
       </profiles>
@@ -3002,7 +3002,7 @@ La première fois que votre acte sélectionné est terminé, votre serment est a
           <conditionGroups>
             <conditionGroup type="and">
               <conditions>
-                <condition type="notInstanceOf" value="1" field="selections" scope="primary-catalogue" childId="8956-4e3b-cf7d-86d7" shared="true" />
+                <condition type="notInstanceOf" value="1" field="selections" scope="primary-catalogue" childId="25dd-7aa0-6bf4-f2d5" shared="true" />
                 <condition type="lessThan" value="1" field="selections" scope="roster" childId="e82c-6f8c-2b97-a287" shared="true" includeChildSelections="true" includeChildForces="true" />
               </conditions>
             </conditionGroup>
@@ -3010,7 +3010,7 @@ La première fois que votre acte sélectionné est terminé, votre serment est a
         </modifier>
         <modifier type="set-primary" value="887b-ab87-92a2-20f5" field="category">
           <conditions>
-            <condition type="notInstanceOf" value="1" field="selections" scope="primary-catalogue" childId="8956-4e3b-cf7d-86d7" shared="true" />
+            <condition type="notInstanceOf" value="1" field="selections" scope="primary-catalogue" childId="25dd-7aa0-6bf4-f2d5" shared="true" />
           </conditions>
         </modifier>
       </modifiers>
@@ -3111,7 +3111,7 @@ La première fois que votre acte sélectionné est terminé, votre serment est a
               </infoLinks>
               <rules>
                 <rule name="Conversion" id="575e-d58f-fa50-d127" hidden="false">
-                  <description>Chaque fois qu'une attaque est effectuée avec cette arme, si la cible est plus que 24" du porteur, un succès non modifié jet de Touche de 4+ marque un Hit critique.</description>
+                  <description>Chaque fois qu’une attaque est effectuée avec cette arme, si la cible est à plus de 24" du porteur, tout jet de Touche non modifié réussi de 4+ est une Touche Critique.</description>
                   <comment>24" variant</comment>
                 </rule>
               </rules>
@@ -3232,7 +3232,7 @@ La première fois que votre acte sélectionné est terminé, votre serment est a
           <profiles>
             <profile name="Bastion of Firepower" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="565-616f-548a-b9ab">
               <characteristics>
-                <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Chaque fois que cette figurine reste stationnaire, jusqu'à la fin du tour, les armes de tir équipées de cette figurine ont la aptitude [Touches fatales].</characteristic>
+                <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Chaque fois que cette figurine Reste Stationnaire, jusqu’à la fin du tour, les armes de tir dont elle est équipée ont l’aptitude [LETHAL HITS].</characteristic>
               </characteristics>
             </profile>
           </profiles>
@@ -3461,7 +3461,7 @@ La première fois que votre acte sélectionné est terminé, votre serment est a
           <conditionGroups>
             <conditionGroup type="and">
               <conditions>
-                <condition type="notInstanceOf" value="1" field="selections" scope="primary-catalogue" childId="8956-4e3b-cf7d-86d7" shared="true" />
+                <condition type="notInstanceOf" value="1" field="selections" scope="primary-catalogue" childId="25dd-7aa0-6bf4-f2d5" shared="true" />
                 <condition type="lessThan" value="1" field="selections" scope="roster" childId="e82c-6f8c-2b97-a287" shared="true" includeChildSelections="true" includeChildForces="true" />
               </conditions>
             </conditionGroup>
@@ -3469,7 +3469,7 @@ La première fois que votre acte sélectionné est terminé, votre serment est a
         </modifier>
         <modifier type="set-primary" value="887b-ab87-92a2-20f5" field="category">
           <conditions>
-            <condition type="notInstanceOf" value="1" field="selections" scope="primary-catalogue" childId="8956-4e3b-cf7d-86d7" shared="true" />
+            <condition type="notInstanceOf" value="1" field="selections" scope="primary-catalogue" childId="25dd-7aa0-6bf4-f2d5" shared="true" />
           </conditions>
         </modifier>
       </modifiers>
@@ -3575,7 +3575,7 @@ La première fois que votre acte sélectionné est terminé, votre serment est a
         </profile>
         <profile name="Shock Charge" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="52a2-a465-3ebb-80b9">
           <characteristics>
-            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Vous pouvez cibler cette figurine avec le Stratagème Tank Shock pour 0CP, et vous pouvez le faire même si vous avez déjà ciblé une unité différente avec ce Stratagème cette phase.</characteristic>
+            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Vous pouvez cibler cette figurine avec le Tank Shock Stratagème pour 0CP, et vous pouvez le faire même si vous avez déjà ciblé une unité différente avec ce Stratagème cette phase.</characteristic>
           </characteristics>
         </profile>
       </profiles>
@@ -3595,7 +3595,7 @@ La première fois que votre acte sélectionné est terminé, votre serment est a
           <profiles>
             <profile name="Lancer’s Duty (Bondsman)" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="3d59-83f8-e0ee-c0a3">
               <characteristics>
-                <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Bien qu'une figurine soit affecté par cette aptitude, il est admissible à déclarer une charge au moment où il avance.</characteristic>
+                <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Tant qu’une figurine est affectée par cette aptitude, elle est éligible pour déclarer une charge durant un tour où elle a Avancé.</characteristic>
               </characteristics>
             </profile>
           </profiles>
@@ -3621,7 +3621,7 @@ La première fois que votre acte sélectionné est terminé, votre serment est a
           <conditionGroups>
             <conditionGroup type="and">
               <conditions>
-                <condition type="notInstanceOf" value="1" field="selections" scope="primary-catalogue" childId="8956-4e3b-cf7d-86d7" shared="true" />
+                <condition type="notInstanceOf" value="1" field="selections" scope="primary-catalogue" childId="25dd-7aa0-6bf4-f2d5" shared="true" />
                 <condition type="lessThan" value="1" field="selections" scope="roster" childId="e82c-6f8c-2b97-a287" shared="true" includeChildSelections="true" includeChildForces="true" />
               </conditions>
             </conditionGroup>
@@ -3629,7 +3629,7 @@ La première fois que votre acte sélectionné est terminé, votre serment est a
         </modifier>
         <modifier type="set-primary" value="887b-ab87-92a2-20f5" field="category">
           <conditions>
-            <condition type="notInstanceOf" value="1" field="selections" scope="primary-catalogue" childId="8956-4e3b-cf7d-86d7" shared="true" />
+            <condition type="notInstanceOf" value="1" field="selections" scope="primary-catalogue" childId="25dd-7aa0-6bf4-f2d5" shared="true" />
           </conditions>
         </modifier>
       </modifiers>
@@ -3802,7 +3802,7 @@ La première fois que votre acte sélectionné est terminé, votre serment est a
         </profile>
         <profile name="Storm of Bolts" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="1cd4-b9f4-4c51-c589">
           <characteristics>
-            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Dans votre phase de Tir, après que cette figurine ait tiré, sélectionnez une unité (à l'exclusion de MONSTERS et VEHICLES) touchée par une ou plusieurs de ces attaques. Jusqu'au début de votre tour suivant, pendant que cette figurine est sur le champ de bataille, cette unité ennemie est supprimée. Tant qu’une unité est supprimée, chaque fois qu'une figurine dans cette unité fait une attaque, Soustrayez 1 du jet de Touche.</characteristic>
+            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Durant votre phase de Tir, après que cette figurine a tiré, sélectionnez une unité (à l’exclusion des MONSTERS et des VEHICLES) touchée par une ou plusieurs de ces attaques. Jusqu’au début de votre prochain tour, tant que cette figurine est sur le champ de bataille, cette unité ennemie est neutralisée. Tant qu’une unité est neutralisée, chaque fois qu’une figurine de cette unité effectue une attaque, soustrayez 1 au jet de Touche.</characteristic>
           </characteristics>
         </profile>
       </profiles>
@@ -3811,7 +3811,7 @@ La première fois que votre acte sélectionné est terminé, votre serment est a
           <profiles>
             <profile name="Castigator’s Duty (Bondsman)" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="bf07-1fc3-a51f-b9f2">
               <characteristics>
-                <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Alors qu'une figurine est affecté par cette aptitude, ses armes de tir ont la aptitude [Touches soutenues 1] et la caractéristique de Pénétration d’Armure de ses armes de tir est améliorée de 1.</characteristic>
+                <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Tant qu’une figurine est affectée par cette aptitude, ses armes de tir ont l’aptitude [Touches soutenues 1] et la caractéristique de Pénétration d’Armure de ses armes de tir est améliorée de 1.</characteristic>
               </characteristics>
             </profile>
           </profiles>
@@ -3838,7 +3838,7 @@ La première fois que votre acte sélectionné est terminé, votre serment est a
           <conditionGroups>
             <conditionGroup type="and">
               <conditions>
-                <condition type="notInstanceOf" value="1" field="selections" scope="primary-catalogue" childId="8956-4e3b-cf7d-86d7" shared="true" />
+                <condition type="notInstanceOf" value="1" field="selections" scope="primary-catalogue" childId="25dd-7aa0-6bf4-f2d5" shared="true" />
                 <condition type="lessThan" value="1" field="selections" scope="roster" childId="e82c-6f8c-2b97-a287" shared="true" includeChildSelections="true" includeChildForces="true" />
               </conditions>
             </conditionGroup>
@@ -3846,7 +3846,7 @@ La première fois que votre acte sélectionné est terminé, votre serment est a
         </modifier>
         <modifier type="set-primary" value="887b-ab87-92a2-20f5" field="category">
           <conditions>
-            <condition type="notInstanceOf" value="1" field="selections" scope="primary-catalogue" childId="8956-4e3b-cf7d-86d7" shared="true" />
+            <condition type="notInstanceOf" value="1" field="selections" scope="primary-catalogue" childId="25dd-7aa0-6bf4-f2d5" shared="true" />
           </conditions>
         </modifier>
       </modifiers>
@@ -4013,7 +4013,7 @@ La première fois que votre acte sélectionné est terminé, votre serment est a
         </profile>
         <profile name="Searing Flames" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="4ba0-261-d552-3e71">
           <characteristics>
-            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Dans votre phase de Tir, après que cette figurine ait tiré, sélectionnez une unité ennemie touchée par une ou plusieurs de ces attaques faites avec un canon de flamme Acheron. Jusqu'à la fin de la phase, cette unité ennemie ne pourra pas bénéficier de la couverture.</characteristic>
+            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Durant votre phase de Tir, après que cette figurine a tiré, sélectionnez une unité ennemie touchée par une ou plusieurs de ces attaques effectuées avec un Acheron flame cannon. Jusqu’à la fin de la phase, cette unité ennemie ne peut pas bénéficier du Couvert.</characteristic>
           </characteristics>
         </profile>
         <profile name="Cerastus Knight Acheron" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="7afa-5443-53e3-5707">
@@ -4037,7 +4037,7 @@ La première fois que votre acte sélectionné est terminé, votre serment est a
           <profiles>
             <profile name="Acheron’s Duty (Bondsman)" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="30be-bd04-b903-2d25">
               <characteristics>
-                <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Alors qu'une figurine est affecté par cette aptitude, au début de la phase de Combat, chaque unité ennemi dans la Portée d’Engagement d'une ou de plusieurs unités avec cette aptitude doit passer un test d’Ébranlement, soustrayant 1 du résultat quand ils le font.</characteristic>
+                <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Si une figurine est affecté par cette aptitude, au début de la phase de Combat, chaque unité ennemie de l'un ou de plusieurs unités de Portée d’Engagement avec cette aptitude doit prendre un test d’Ébranlement, en soustrayant 1 du résultat lorsqu'ils le font.</characteristic>
               </characteristics>
             </profile>
           </profiles>
@@ -4074,7 +4074,7 @@ La première fois que votre acte sélectionné est terminé, votre serment est a
           <conditionGroups>
             <conditionGroup type="and">
               <conditions>
-                <condition type="notInstanceOf" value="1" field="selections" scope="primary-catalogue" childId="8956-4e3b-cf7d-86d7" shared="true" />
+                <condition type="notInstanceOf" value="1" field="selections" scope="primary-catalogue" childId="25dd-7aa0-6bf4-f2d5" shared="true" />
                 <condition type="lessThan" value="1" field="selections" scope="roster" childId="e82c-6f8c-2b97-a287" shared="true" includeChildSelections="true" includeChildForces="true" />
               </conditions>
             </conditionGroup>
@@ -4082,7 +4082,7 @@ La première fois que votre acte sélectionné est terminé, votre serment est a
         </modifier>
         <modifier type="set-primary" value="887b-ab87-92a2-20f5" field="category">
           <conditions>
-            <condition type="notInstanceOf" value="1" field="selections" scope="primary-catalogue" childId="8956-4e3b-cf7d-86d7" shared="true" />
+            <condition type="notInstanceOf" value="1" field="selections" scope="primary-catalogue" childId="25dd-7aa0-6bf4-f2d5" shared="true" />
           </conditions>
         </modifier>
       </modifiers>
@@ -4383,7 +4383,7 @@ La première fois que votre acte sélectionné est terminé, votre serment est a
           <profiles>
             <profile name="Atrapos’ Duty (Bondsman)" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="5216-4a0b-633c-64a">
               <characteristics>
-                <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Alors qu'une figurine est affecté par cette aptitude, chaque fois que cette figurine effectue une attaque qui cible une figurine TITANIC ou TOWERING, vous pouvez relancer le jet de Touche et vous pouvez relancer le jet de Blessure.</characteristic>
+                <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Alors qu'une figurine est affecté par cette aptitude, chaque fois que figurine effectue une attaque visant un TITANIC ou TOWERING figurine, vous pouvez relancer le jet de Touche et vous pouvez relancer le jet de Blessure.</characteristic>
               </characteristics>
             </profile>
           </profiles>
@@ -4404,7 +4404,7 @@ La première fois que votre acte sélectionné est terminé, votre serment est a
           <conditionGroups>
             <conditionGroup type="and">
               <conditions>
-                <condition type="notInstanceOf" value="1" field="selections" scope="primary-catalogue" childId="8956-4e3b-cf7d-86d7" shared="true" />
+                <condition type="notInstanceOf" value="1" field="selections" scope="primary-catalogue" childId="25dd-7aa0-6bf4-f2d5" shared="true" />
                 <condition type="lessThan" value="1" field="selections" scope="roster" childId="e82c-6f8c-2b97-a287" shared="true" includeChildSelections="true" includeChildForces="true" />
               </conditions>
             </conditionGroup>
@@ -4412,7 +4412,7 @@ La première fois que votre acte sélectionné est terminé, votre serment est a
         </modifier>
         <modifier type="set-primary" value="887b-ab87-92a2-20f5" field="category">
           <conditions>
-            <condition type="notInstanceOf" value="1" field="selections" scope="primary-catalogue" childId="8956-4e3b-cf7d-86d7" shared="true" />
+            <condition type="notInstanceOf" value="1" field="selections" scope="primary-catalogue" childId="25dd-7aa0-6bf4-f2d5" shared="true" />
           </conditions>
         </modifier>
       </modifiers>
@@ -4669,7 +4669,7 @@ La première fois que votre acte sélectionné est terminé, votre serment est a
           <profiles>
             <profile name="Magaera’s Duty (Bondsman)" hidden="false" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" id="473-3f8d-7861-5a6d">
               <characteristics>
-                <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Alors qu'une figurine est affecté par cette aptitude, chaque fois que cette figurine effectue une attaque de tir qui cible la cible admissible la plus proche, améliore les caractéristiques de pénétration de la force et de l'armure de cette attaque de 1.</characteristic>
+                <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Tant qu’une figurine est affectée par cette aptitude, chaque fois que cette figurine effectue une attaque de tir qui cible la cible éligible la plus proche, améliorez de 1 les caractéristiques de Force et de Pénétration d’Armure de cette attaque.</characteristic>
               </characteristics>
             </profile>
           </profiles>
@@ -4817,7 +4817,7 @@ La première fois que votre acte sélectionné est terminé, votre serment est a
           <conditionGroups>
             <conditionGroup type="and">
               <conditions>
-                <condition type="notInstanceOf" value="1" field="selections" scope="primary-catalogue" childId="8956-4e3b-cf7d-86d7" shared="true" />
+                <condition type="notInstanceOf" value="1" field="selections" scope="primary-catalogue" childId="25dd-7aa0-6bf4-f2d5" shared="true" />
                 <condition type="lessThan" value="1" field="selections" scope="roster" childId="e82c-6f8c-2b97-a287" shared="true" includeChildSelections="true" includeChildForces="true" />
               </conditions>
             </conditionGroup>
@@ -4825,7 +4825,7 @@ La première fois que votre acte sélectionné est terminé, votre serment est a
         </modifier>
         <modifier type="set-primary" value="887b-ab87-92a2-20f5" field="category">
           <conditions>
-            <condition type="notInstanceOf" value="1" field="selections" scope="primary-catalogue" childId="8956-4e3b-cf7d-86d7" shared="true" />
+            <condition type="notInstanceOf" value="1" field="selections" scope="primary-catalogue" childId="25dd-7aa0-6bf4-f2d5" shared="true" />
           </conditions>
         </modifier>
       </modifiers>
@@ -4912,7 +4912,7 @@ La première fois que votre acte sélectionné est terminé, votre serment est a
         </profile>
         <profile name="Grav-pinned" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="fc84-51b3-4be7-c687">
           <characteristics>
-            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Dans votre phase de Tir, après que cette figurine ait tiré, si une unité ennemie INFANTRY a été frappée par une ou plusieurs de ces attaques faites avec un concasseur de gravitons, jusqu'à la fin du prochain tour de votre adversaire, cette unité ennemie est gravité. Pendant qu'une unité est gravitationnellement fixée, Soustrayez 2 de cette unités caractéristique de mouvement et soustraire 2 des jets de Charge de cette unité.</characteristic>
+            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Durant votre phase de Tir, après que cette figurine a tiré, si une unité INFANTRY ennemie a été touchée par une ou plusieurs de ces attaques effectuées avec un graviton crusher, jusqu’à la fin du prochain tour de votre adversaire, cette unité ennemie est grav-pinned. Tant qu’une unité est grav-pinned, soustrayez 2 à sa caractéristique de Mouvement et 2 aux jets de Charge effectués pour elle.</characteristic>
           </characteristics>
         </profile>
       </profiles>
@@ -4948,7 +4948,7 @@ La première fois que votre acte sélectionné est terminé, votre serment est a
           <profiles>
             <profile name="Styrix’s Duty (Bondsman)" hidden="false" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" id="e1f3-aeae-379b-1e02">
               <characteristics>
-                <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Alors qu'une figurine est affecté par cette aptitude, chaque fois que cette figurine est sélectionné pour tirer ou combattre, après avoir résolu toutes ses attaques, sélectionnez une unité ennemie touchée par une ou plusieurs de ces attaques; cette unité doit passer un test d’Ébranlement, en soustrayant une du test lorsque cela est fait.</characteristic>
+                <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Tant qu’une figurine est affectée par cette aptitude, chaque fois que cette figurine est sélectionnée pour tirer ou combattre, après qu’elle a résolu toutes ses attaques, sélectionnez une unité ennemie touchée par une ou plusieurs de ces attaques ; cette unité doit effectuer un test d’Ébranlement, en soustrayant un à ce test.</characteristic>
               </characteristics>
             </profile>
           </profiles>
@@ -5097,7 +5097,7 @@ La première fois que votre acte sélectionné est terminé, votre serment est a
           <conditionGroups>
             <conditionGroup type="and">
               <conditions>
-                <condition type="notInstanceOf" value="1" field="selections" scope="primary-catalogue" childId="8956-4e3b-cf7d-86d7" shared="true" />
+                <condition type="notInstanceOf" value="1" field="selections" scope="primary-catalogue" childId="25dd-7aa0-6bf4-f2d5" shared="true" />
                 <condition type="lessThan" value="1" field="selections" scope="roster" childId="e82c-6f8c-2b97-a287" shared="true" includeChildSelections="true" includeChildForces="true" />
               </conditions>
             </conditionGroup>
@@ -5105,7 +5105,7 @@ La première fois que votre acte sélectionné est terminé, votre serment est a
         </modifier>
         <modifier type="set-primary" value="887b-ab87-92a2-20f5" field="category">
           <conditions>
-            <condition type="notInstanceOf" value="1" field="selections" scope="primary-catalogue" childId="8956-4e3b-cf7d-86d7" shared="true" />
+            <condition type="notInstanceOf" value="1" field="selections" scope="primary-catalogue" childId="25dd-7aa0-6bf4-f2d5" shared="true" />
           </conditions>
         </modifier>
       </modifiers>
@@ -5255,7 +5255,7 @@ La première fois que votre acte sélectionné est terminé, votre serment est a
         </profile>
         <profile name="Protection Protocols" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="7c4e-84cb-7fa5-362b">
           <characteristics>
-            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Vous pouvez cibler cette unité avec le Stratagème d'intervention héroïque pour 0CP, et vous pouvez le faire même si vous avez déjà ciblé une autre unité avec ce Stratagème cette phase.</characteristic>
+            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Vous pouvez cibler cette unité avec l'intervention héroïque Stratagème pour 0CP, et vous pouvez le faire même si vous avez déjà ciblé une unité différente avec ce Stratagème cette phase.</characteristic>
           </characteristics>
         </profile>
       </profiles>
@@ -5384,7 +5384,7 @@ La première fois que votre acte sélectionné est terminé, votre serment est a
                   </infoLinks>
                   <rules>
                     <rule name="Conversion" id="e208-6756-376-33de" hidden="false">
-                      <description>Chaque fois qu'une attaque est effectuée avec cette arme, si la cible est plus que 12" du porteur, un succès non modifié jet de Touche de 4+ marque un Hit critique.</description>
+                      <description>Chaque fois qu'une attaque est effectuée avec cette arme, si la cible est supérieure à 12" du porteur, un jet de Touche non modifié avec succès de 4+ marque un Touche Critique.</description>
                       <comment>12" variant</comment>
                     </rule>
                   </rules>
@@ -5479,7 +5479,7 @@ La première fois que votre acte sélectionné est terminé, votre serment est a
           <conditionGroups>
             <conditionGroup type="and">
               <conditions>
-                <condition type="notInstanceOf" value="1" field="selections" scope="primary-catalogue" childId="8956-4e3b-cf7d-86d7" shared="true" />
+                <condition type="notInstanceOf" value="1" field="selections" scope="primary-catalogue" childId="25dd-7aa0-6bf4-f2d5" shared="true" />
                 <condition type="lessThan" value="1" field="selections" scope="roster" childId="e82c-6f8c-2b97-a287" shared="true" includeChildSelections="true" includeChildForces="true" />
               </conditions>
             </conditionGroup>
@@ -5487,7 +5487,7 @@ La première fois que votre acte sélectionné est terminé, votre serment est a
         </modifier>
         <modifier type="set-primary" value="887b-ab87-92a2-20f5" field="category">
           <conditions>
-            <condition type="notInstanceOf" value="1" field="selections" scope="primary-catalogue" childId="8956-4e3b-cf7d-86d7" shared="true" />
+            <condition type="notInstanceOf" value="1" field="selections" scope="primary-catalogue" childId="25dd-7aa0-6bf4-f2d5" shared="true" />
           </conditions>
         </modifier>
       </modifiers>
@@ -5610,7 +5610,7 @@ La première fois que votre acte sélectionné est terminé, votre serment est a
             <conditionGroup type="or">
               <conditions>
                 <condition type="instanceOf" value="1" field="selections" scope="force" childId="1d6e-2579-8e7f-1ed4" shared="true" includeChildSelections="true" />
-                <condition type="instanceOf" value="1" field="selections" scope="primary-catalogue" childId="8956-4e3b-cf7d-86d7" shared="true" />
+                <condition type="instanceOf" value="1" field="selections" scope="primary-catalogue" childId="25dd-7aa0-6bf4-f2d5" shared="true" />
               </conditions>
             </conditionGroup>
           </conditionGroups>
@@ -5667,7 +5667,7 @@ La première fois que votre acte sélectionné est terminé, votre serment est a
           <conditionGroups>
             <conditionGroup type="or">
               <conditions>
-                <condition type="notInstanceOf" value="1" field="selections" scope="primary-catalogue" childId="8956-4e3b-cf7d-86d7" shared="true" />
+                <condition type="notInstanceOf" value="1" field="selections" scope="primary-catalogue" childId="25dd-7aa0-6bf4-f2d5" shared="true" />
                 <condition type="instanceOf" value="1" field="selections" scope="force" childId="cac3-71d1-ea4b-795d" shared="true" includeChildSelections="true" />
               </conditions>
             </conditionGroup>
@@ -5758,7 +5758,7 @@ La première fois que votre acte sélectionné est terminé, votre serment est a
         </profile>
         <profile name="Selfless Protector" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="af51-9630-82a3-172d">
           <characteristics>
-            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Chaque fois qu'une attaque de tir est attribuée à une figurine **^^Imperial Knights^^** de votre armée, si cette figurine n'est pas entièrement visible à tous les figurines de l'unité d'attaque à cause de cette figurine Knight Defender, cette figurine a le Bénéfice du Couvert et un 4+ sauvegarde invulnérable contre cette attaque.</characteristic>
+            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Chaque fois qu’une attaque de tir est allouée à une figurine **^^Imperial Knights^^** de votre armée, si cette figurine n’est pas entièrement visible de toutes les figurines de l’unité attaquante à cause de cette figurine Knight Defender, cette figurine a le Bénéfice du Couvert et une sauvegarde invulnérable de 4+ contre cette attaque.</characteristic>
           </characteristics>
         </profile>
       </profiles>
@@ -5789,7 +5789,7 @@ La première fois que votre acte sélectionné est terminé, votre serment est a
           <profiles>
             <profile name="Warden's Duty (Bondsman)" hidden="false" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" id="de60-7982-8376-9db9">
               <characteristics>
-                <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Alors qu'une figurine est affecté par cette aptitude, chaque fois qu'une attaque est attribuée à cette figurine, Soustrayez 1 de la caractéristique Dégât de cette attaque.</characteristic>
+                <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Tant qu’une figurine est affectée par cette aptitude, chaque fois qu’une attaque est allouée à cette figurine, soustrayez 1 à la caractéristique de Dégâts de cette attaque.</characteristic>
               </characteristics>
             </profile>
           </profiles>
@@ -5811,7 +5811,7 @@ La première fois que votre acte sélectionné est terminé, votre serment est a
           <conditionGroups>
             <conditionGroup type="and">
               <conditions>
-                <condition type="notInstanceOf" value="1" field="selections" scope="primary-catalogue" childId="8956-4e3b-cf7d-86d7" shared="true" />
+                <condition type="notInstanceOf" value="1" field="selections" scope="primary-catalogue" childId="25dd-7aa0-6bf4-f2d5" shared="true" />
                 <condition type="lessThan" value="1" field="selections" scope="roster" childId="e82c-6f8c-2b97-a287" shared="true" includeChildForces="true" includeChildSelections="true" />
               </conditions>
             </conditionGroup>
@@ -5819,7 +5819,7 @@ La première fois que votre acte sélectionné est terminé, votre serment est a
         </modifier>
         <modifier type="set-primary" value="887b-ab87-92a2-20f5" field="category">
           <conditions>
-            <condition type="notInstanceOf" value="1" field="selections" scope="primary-catalogue" childId="8956-4e3b-cf7d-86d7" shared="true" />
+            <condition type="notInstanceOf" value="1" field="selections" scope="primary-catalogue" childId="25dd-7aa0-6bf4-f2d5" shared="true" />
           </conditions>
         </modifier>
       </modifiers>
@@ -5970,7 +5970,7 @@ La première fois que votre acte sélectionné est terminé, votre serment est a
               </infoLinks>
               <rules>
                 <rule name="Conversion" id="b6f4-e06f-b85d-c3f2" hidden="false">
-                  <description>Chaque fois qu'une attaque est effectuée avec cette arme, si la cible est plus que 18" du porteur, un succès non modifié jet de Touche de 4+ marque un Hit critique.</description>
+                  <description>Chaque fois qu’une attaque est effectuée avec cette arme, si la cible se trouve à plus de 18" du porteur, un jet de Touche non modifié réussi de 4+ est une Touche Critique.</description>
                   <comment>18" variant</comment>
                 </rule>
               </rules>
@@ -6065,7 +6065,7 @@ La première fois que votre acte sélectionné est terminé, votre serment est a
           <conditionGroups>
             <conditionGroup type="and">
               <conditions>
-                <condition type="notInstanceOf" value="1" field="selections" scope="primary-catalogue" childId="8956-4e3b-cf7d-86d7" shared="true" />
+                <condition type="notInstanceOf" value="1" field="selections" scope="primary-catalogue" childId="25dd-7aa0-6bf4-f2d5" shared="true" />
                 <condition type="lessThan" value="1" field="selections" scope="roster" childId="e82c-6f8c-2b97-a287" shared="true" includeChildSelections="true" includeChildForces="true" />
               </conditions>
             </conditionGroup>
@@ -6159,22 +6159,22 @@ La première fois que votre acte sélectionné est terminé, votre serment est a
         </profile>
         <profile name="Damaged: 1-6 Wounds Remaining" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="e6cd-072a-d34c-9ff6">
           <characteristics>
-            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Alors que cette figurine a 1-6 PV restants, Soustrayez 4 de la caractéristique de Contrôle d’Objectif de cette figurine et Chaque fois que cette figurine fait une attaque, Soustrayez 1 du jet de Touche.</characteristic>
+            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Tant qu’il reste 1-6 PV à cette figurine, soustrayez 4 de sa caractéristique de Contrôle d’Objectif et, chaque fois qu’elle effectue une attaque, soustrayez 1 au jet de Touche.</characteristic>
           </characteristics>
         </profile>
         <profile name="Thundercharge" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="bf13-b015-f175-d230">
           <characteristics>
-            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Si cette figurine est équipé d'une lance de tonnerre et d'une épée de chaîne de moissonneur bellatus, ajoutez 2 aux caractéristique d’Attaques des armes de mêlée équipées par cette figurine.</characteristic>
+            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Si cette figurine est équipée d’une thundershock spear et d’une bellatus reaper chainsword, ajoutez 2 à la caractéristique d’Attaques des armes de mêlée dont cette figurine est équipée.</characteristic>
           </characteristics>
         </profile>
         <profile name="Ram Jets" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="5b85-59dd-c3c6-ee58">
           <characteristics>
-            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Chaque fois que cette unité est sélectionnée pour effectuer un déplacement normal ou avancé, jusqu'à la fin de la phase, ajoutez D3" à la caractéristique de mouvement de cette figurine.</characteristic>
+            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Chaque fois que cette unité est sélectionnée pour fabriquer un Normal ou mouvement d’Avance, Jusqu’à la fin de la phase, ajoutez D3" à la caractéristique de mouvement de cette figurine.</characteristic>
           </characteristics>
         </profile>
         <profile name="Saturation Fire" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="6b90-af7d-557d-c89b">
           <characteristics>
-            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Chaque fois que cette figurine effectue une attaque de tir qui cible une unité dans la plage d'un ou plusieurs marqueurs objectifs, cette attaque a la aptitude **[IGNORES COVER]**.</characteristic>
+            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Chaque fois que cette figurine fait une attaque de tir qui cible une unité dans Portée d'un ou plusieurs marqueurs objectif, cette attaque a l’aptitude **[IGNORE LE COUVERT]**.</characteristic>
           </characteristics>
         </profile>
       </profiles>
@@ -6212,7 +6212,7 @@ La première fois que votre acte sélectionné est terminé, votre serment est a
           <conditionGroups>
             <conditionGroup type="and">
               <conditions>
-                <condition type="notInstanceOf" value="1" field="selections" scope="primary-catalogue" childId="8956-4e3b-cf7d-86d7" shared="true" />
+                <condition type="notInstanceOf" value="1" field="selections" scope="primary-catalogue" childId="25dd-7aa0-6bf4-f2d5" shared="true" />
                 <condition type="lessThan" value="1" field="selections" scope="roster" childId="e82c-6f8c-2b97-a287" shared="true" includeChildForces="true" includeChildSelections="true" />
               </conditions>
             </conditionGroup>
@@ -6220,7 +6220,7 @@ La première fois que votre acte sélectionné est terminé, votre serment est a
         </modifier>
         <modifier type="set-primary" value="887b-ab87-92a2-20f5" field="category">
           <conditions>
-            <condition type="notInstanceOf" value="1" field="selections" scope="primary-catalogue" childId="8956-4e3b-cf7d-86d7" shared="true" />
+            <condition type="notInstanceOf" value="1" field="selections" scope="primary-catalogue" childId="25dd-7aa0-6bf4-f2d5" shared="true" />
           </conditions>
         </modifier>
       </modifiers>
@@ -6765,7 +6765,7 @@ La première fois que votre acte sélectionné est terminé, votre serment est a
               <profiles>
                 <profile name="Bearer of the Iron Chalice" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="2cd4-5280-47cb-9eda">
                   <characteristics>
-                    <characteristic name="Description" typeId="9b8f-694b-e5e-b573">**^^Imperial Knights^^** figurine uniquement. À la fin de votre phase de Mouvement, sélectionnez un autre figurine **^^Imperial Knights^^** de votre armée qui est à 12" ou moins et visible pour le porteur. cette figurine sélectionné récupère jusqu'à D3 PV perdus, ou jusqu'à 3 PV perdus si votre armée est honorée.</characteristic>
+                    <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Figurine **^^Imperial Knights^^** uniquement. À la fin de votre phase de Mouvement, sélectionnez une autre figurine **^^Imperial Knights^^** de votre armée qui est à 12" ou moins du porteur et visible par celui-ci. Cette figurine récupère jusqu’à D3 PV perdus, ou jusqu’à 3 PV perdus si votre armée est Honorée.</characteristic>
                   </characteristics>
                 </profile>
               </profiles>
@@ -6792,7 +6792,7 @@ La première fois que votre acte sélectionné est terminé, votre serment est a
               <profiles>
                 <profile name="Bearer of the Evanescent Ion" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="a3a8-3e6-b7c5-66e6">
                   <characteristics>
-                    <characteristic name="Description" typeId="9b8f-694b-e5e-b573">**^^Imperial Knights^^** figurine uniquement. À la fin de votre phase de Mouvement, sélectionnez un autre figurine **^^Imperial Knights^^** de votre armée qui est à 12" ou moins et visible pour le porteur. Jusqu'au début de votre prochaine phase de Mouvement, cette figurine sélectionné a la aptitude Discrétion.</characteristic>
+                    <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Figurine **^^Imperial Knights^^** uniquement. À la fin de votre phase de Mouvement, sélectionnez une autre figurine **^^Imperial Knights^^** de votre armée qui est à 12" ou moins du porteur et visible par celui-ci. Jusqu’au début de votre prochaine phase de Mouvement, la figurine sélectionnée a l’aptitude Discrétion.</characteristic>
                   </characteristics>
                 </profile>
               </profiles>
@@ -6822,7 +6822,7 @@ La première fois que votre acte sélectionné est terminé, votre serment est a
               <profiles>
                 <profile name="Bearer of the Judicant's Helm" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="83da-5183-e99-e251">
                   <characteristics>
-                    <characteristic name="Description" typeId="9b8f-694b-e5e-b573">**^^Imperial Knights^^** figurine uniquement. Au début de votre phase de Tir, sélectionnez un autre figurine **^^Imperial Knights^^** de votre armée qui est à 12" ou moins et visible pour le porteur. Jusqu'à la fin de la phase, les armes de tir équipées par cette figurine sélectionné ont la aptitude **[IGNORES COVER]**.</characteristic>
+                    <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Figurine **^^Imperial Knights^^** uniquement. Au début de votre phase de Tir, sélectionnez une autre figurine **^^Imperial Knights^^** de votre armée qui est à 12" ou moins du porteur et visible par celui-ci. Jusqu’à la fin de la phase, les armes de tir dont la figurine sélectionnée est équipée ont l’aptitude **[IGNORES COVER]**.</characteristic>
                   </characteristics>
                 </profile>
               </profiles>
@@ -6852,7 +6852,7 @@ La première fois que votre acte sélectionné est terminé, votre serment est a
               <profiles>
                 <profile name="Bearer of the Lancer's Sigil" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="34cd-b28e-192e-4e9b">
                   <characteristics>
-                    <characteristic name="Description" typeId="9b8f-694b-e5e-b573">**^^Imperial Knights^^** figurine uniquement. Au début de votre phase de Charge, sélectionnez un autre figurine **^^Imperial Knights^^** de votre armée qui est à 12" ou moins et visible pour le porteur. Jusqu'à la fin de la phase, vous pouvez relancer les jets de Charge faits pour cette figurine sélectionné.</characteristic>
+                    <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Figurine **^^Imperial Knights^^** uniquement. Au début de votre phase de Charge, sélectionnez une autre figurine **^^Imperial Knights^^** de votre armée qui est à 12" ou moins du porteur et visible par celui-ci. Jusqu’à la fin de la phase, vous pouvez relancer les jets de Charge effectués pour la figurine sélectionnée.</characteristic>
                   </characteristics>
                 </profile>
               </profiles>
@@ -6898,7 +6898,7 @@ La première fois que votre acte sélectionné est terminé, votre serment est a
               <profiles>
                 <profile name="Vengeful Tread" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="ab00-7011-2f99-62c3">
                   <characteristics>
-                    <characteristic name="Description" typeId="9b8f-694b-e5e-b573">**^^Imperial Knights^^** figurine uniquement. Une fois par tour, vous pouvez cibler le porteur avec le Stratagème Tank Shock pour 0CP.</characteristic>
+                    <characteristic name="Description" typeId="9b8f-694b-e5e-b573">**^^Imperial Knights^^** figurine uniquement. Une fois par tour, vous pouvez cibler le porteur avec le Tank Shock Stratagème pour 0CP.</characteristic>
                   </characteristics>
                 </profile>
               </profiles>
@@ -6925,7 +6925,7 @@ La première fois que votre acte sélectionné est terminé, votre serment est a
               <profiles>
                 <profile name="Acquisitor-at-Arms" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="e1e6-7f04-4cc4-1303">
                   <characteristics>
-                    <characteristic name="Description" typeId="9b8f-694b-e5e-b573">**^^Imperial Knights^^** figurine uniquement. Pendant que le porteur est sur votre ligne de défense et qu'il n'y a pas d'unités ennemies sur votre ligne de défense, ajoutez la caractéristique de Contrôle d’Objectif du porteur à celle de chaque figurine affecté par la aptitude Bondsman du porteur.</characteristic>
+                    <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Figurine **^^Imperial Knights^^** uniquement. Tant que le porteur est sur votre ligne de défense et qu’aucune unité ennemie ne se trouve sur votre ligne de défense, ajoutez la caractéristique de Contrôle d’Objectif du porteur à celle de chaque figurine affectée par l’aptitude Bondsman du porteur.</characteristic>
                   </characteristics>
                 </profile>
               </profiles>
@@ -6952,7 +6952,7 @@ La première fois que votre acte sélectionné est terminé, votre serment est a
               <profiles>
                 <profile name="Purgation's Hand" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="81f0-f974-8bce-048c">
                   <characteristics>
-                    <characteristic name="Description" typeId="9b8f-694b-e5e-b573">**^^Imperial Knights^^** figurine uniquement. Chaque fois que le porteur effectue une attaque de mêlée, si le porteur est sur votre ligne de défense, relancez un jet de Touche de 1 et un jet de Blessure de 1.</characteristic>
+                    <characteristic name="Description" typeId="9b8f-694b-e5e-b573">**^^Imperial Knights^^** figurine uniquement. Chaque fois que le porteur fait une attaque de mêlée, si le porteur est sur votre ligne de défense, relancer un jet de Touche de 1 et relancer un jet de Blessure de 1.</characteristic>
                   </characteristics>
                 </profile>
               </profiles>
@@ -6979,7 +6979,7 @@ La première fois que votre acte sélectionné est terminé, votre serment est a
               <profiles>
                 <profile name="Augury Halo" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="5fb6-8e08-f1f4-9d65">
                   <characteristics>
-                    <characteristic name="Description" typeId="9b8f-694b-e5e-b573">**^^Imperial Knights^^** figurine uniquement. Chaque fois que le porteur effectue une attaque de tir, alors que le porteur est sur votre ligne de défense, les armes équipées par le porteur ont la aptitude **[IGNORES COVER]**.</characteristic>
+                    <characteristic name="Description" typeId="9b8f-694b-e5e-b573">**^^Imperial Knights^^** figurine uniquement. Chaque fois que le porteur fait une attaque de tir, alors que le porteur est sur votre ligne de défense, les armes équipées par le porteur ont l’aptitude **[IGNORE LE COUVERT]**.</characteristic>
                   </characteristics>
                 </profile>
               </profiles>
@@ -7028,7 +7028,7 @@ La première fois que votre acte sélectionné est terminé, votre serment est a
               <profiles>
                 <profile name="Crushing Condemnation" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="6167-1383-0e96-b3a0">
                   <characteristics>
-                    <characteristic name="Description" typeId="9b8f-694b-e5e-b573">**^^Imperial Knights^^** figurine uniquement. Lorsque le porteur est sélectionné pour combattre, après avoir résolu ses attaques, si une ou plusieurs unités ennemies ont été détruites par ces attaques, le porteur peut utiliser ce renforcement. Si c'est le cas, cette augmentation est dépensée, puis sélectionnez une unité ennemi qui n'est pas dans la Portée d’Engagement d'aucune unité de votre armée et est à 12" ou moins et visible pour le porteur. Roule six D6: pour chaque 4+, cette unité ennemie subit 1 blessure mortelle.</characteristic>
+                    <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Figurine **^^Imperial Knights^^** uniquement. Lorsque le porteur est sélectionné pour combattre, après avoir résolu ses attaques, si une ou plusieurs unités ennemies ont été détruites par ces attaques, le porteur peut utiliser cette Optimisation. S’il le fait, cette Optimisation est dépensée, puis sélectionnez une unité ennemie qui n’est à Portée d’Engagement d’aucune unité de votre armée, qui est à 12" ou moins du porteur et qui lui est visible. Lancez six D6 : pour chaque résultat de 4+, cette unité ennemie subit 1 blessure mortelle.</characteristic>
                   </characteristics>
                 </profile>
               </profiles>
@@ -7055,7 +7055,7 @@ La première fois que votre acte sélectionné est terminé, votre serment est a
               <profiles>
                 <profile name="Herald of Triumph" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="24ac-3999-6dd2-8c70">
                   <characteristics>
-                    <characteristic name="Description" typeId="9b8f-694b-e5e-b573">**^^Imperial Knights^^** figurine uniquement. Lorsque le porteur termine un mouvement de Charge, il peut utiliser cette Optimisation. Si c'est le cas, cette augmentation est dépensée, chaque unité ennemie dans la Portée d’Engagement du porteur doit passer un test d’Ébranlement, soustrayant 1 du résultat.</characteristic>
+                    <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Figurine **^^Imperial Knights^^** uniquement. Lorsque le porteur termine un mouvement de Charge, il peut utiliser cette Optimisation. S’il le fait, cette Optimisation est dépensée et chaque unité ennemie à Portée d’Engagement du porteur doit effectuer un test d’Ébranlement en soustrayant 1 au résultat.</characteristic>
                   </characteristics>
                 </profile>
               </profiles>
@@ -7082,7 +7082,7 @@ La première fois que votre acte sélectionné est terminé, votre serment est a
               <profiles>
                 <profile name="Wyrmslayer Divination" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="8c16-ad39-4fb9-7730">
                   <characteristics>
-                    <characteristic name="Description" typeId="9b8f-694b-e5e-b573">**^^Imperial Knights^^** figurine uniquement. Dans votre phase de Tir, lorsque le porteur est sélectionné pour tirer, il peut utiliser cette Optimisation. Si c'est le cas, cette Optimisation est dépensée, puis jusqu'à la fin de la phase, chaque fois qu'il fait une attaque qui cible une unité qui peut **^^Fly^^**, vous pouvez relancer le jet de Touche.</characteristic>
+                    <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Figurine **^^Imperial Knights^^** uniquement. Durant votre phase de Tir, lorsque le porteur est sélectionné pour tirer, il peut utiliser cette Optimisation. S’il le fait, cette Optimisation est dépensée, puis jusqu’à la fin de la phase, chaque fois qu’il effectue une attaque qui cible une unité qui peut **^^Fly^^**, vous pouvez relancer le jet de Touche.</characteristic>
                   </characteristics>
                 </profile>
               </profiles>
@@ -7109,7 +7109,7 @@ La première fois que votre acte sélectionné est terminé, votre serment est a
               <profiles>
                 <profile name="Pennant of Silvered Fury" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="6616-4095-388c-d5cc">
                   <characteristics>
-                    <characteristic name="Description" typeId="9b8f-694b-e5e-b573">**^^Imperial Knights^^** figurine uniquement. Quand le porteur est sélectionné pour combattre, il peut utiliser cette Optimisation. Si c'est le cas, cette Optimisation est dépensée, alors jusqu'à la fin de la phase, les alliés équipés par le porteur ont la aptitude **[SUSTAINED HITS 2]**.</characteristic>
+                    <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Figurine **^^Imperial Knights^^** uniquement. Lorsque le porteur est sélectionné pour combattre, il peut utiliser cette Optimisation. S’il le fait, cette Optimisation est dépensée puis, jusqu’à la fin de la phase, les armes de mêlée dont le porteur est équipé ont l’aptitude **[SUSTAINED HITS 2]**.</characteristic>
                   </characteristics>
                 </profile>
               </profiles>
@@ -7158,7 +7158,7 @@ La première fois que votre acte sélectionné est terminé, votre serment est a
               <profiles>
                 <profile name="Martial Tuition" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="0043-6f3c-e17e-7082">
                   <characteristics>
-                    <characteristic name="Description" typeId="9b8f-694b-e5e-b573">**^^Imperial Knights^^** figurine uniquement. Alors que deux ou plusieurs figurines **^^Armiger^^** sont sous les effets de la aptitude Bondsman du porteur, une fois par tour, vous pouvez cibler l'un de ces figurines **^^Armiger^^** avec le Stratagème contre-offensif pour 0CP.</characteristic>
+                    <characteristic name="Description" typeId="9b8f-694b-e5e-b573">**^^Imperial Knights^^** figurine uniquement. Alors que deux ou plusieurs **^^Armiger^^** figurines sont sous les effets du porteur Bondsman aptitude, Une fois par tour, vous pouvez cibler l'un de ces **^^Armiger^^** figurines avec la contre-offensive Stratagème pour 0CP.</characteristic>
                   </characteristics>
                 </profile>
               </profiles>
@@ -7185,7 +7185,7 @@ La première fois que votre acte sélectionné est terminé, votre serment est a
               <profiles>
                 <profile name="Mentor's Pride" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="ba9b-cf12-e565-f084">
                   <characteristics>
-                    <characteristic name="Description" typeId="9b8f-694b-e5e-b573">**^^Imperial Knights^^** figurine uniquement. Alors que deux ou plusieurs figurines **^^Armiger^^** sont sous l'effet de la aptitude Bondsman du porteur, chaque fois que chacun de ces figurines **^^Armiger^^** fait une attaque, vous pouvez relancer un jet de Touche de 1.</characteristic>
+                    <characteristic name="Description" typeId="9b8f-694b-e5e-b573">**^^Imperial Knights^^** figurine uniquement. Alors que deux ou plusieurs **^^Armiger^^** figurines sont sous les effets du porteur Bondsman aptitude, chaque fois que chacun de ces **^^Armiger^^** figurines effectue une attaque, vous pouvez relancer est un jet de Touche de 1.</characteristic>
                   </characteristics>
                 </profile>
               </profiles>
@@ -7212,7 +7212,7 @@ La première fois que votre acte sélectionné est terminé, votre serment est a
               <profiles>
                 <profile name="Fables of Nightmare" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="3a98-1cea-5115-60b5">
                   <characteristics>
-                    <characteristic name="Description" typeId="9b8f-694b-e5e-b573">**^^Imperial Knights^^** figurine uniquement. Alors que deux ou plusieurs figurines **^^Armiger^^** sont sous l'effet de la aptitude Bondsman du porteur, les armes de mêlée équipées de ces figurines **^^Armiger^^** ont la aptitude **[PRECISION]**.</characteristic>
+                    <characteristic name="Description" typeId="9b8f-694b-e5e-b573">**^^Imperial Knights^^** figurine uniquement. Alors que deux ou plusieurs **^^Armiger^^** figurines sont sous les effets du porteur Bondsman aptitude, armes de mêlée équipés de ces **^^Armiger^^** figurines ont l’aptitude **[PRECISION]**.</characteristic>
                   </characteristics>
                 </profile>
               </profiles>
@@ -7242,7 +7242,7 @@ La première fois que votre acte sélectionné est terminé, votre serment est a
               <profiles>
                 <profile name="Tales of Heroism" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="524c-2860-9d11-a042">
                   <characteristics>
-                    <characteristic name="Description" typeId="9b8f-694b-e5e-b573">**^^Imperial Knights^^** figurine uniquement. Alors que deux ou plus de figurines **^^Armiger^^** sont sous l'effet de la aptitude Bondsman du porteur, Chaque fois qu'un de ces figurines **^^Armiger^^** fait une attaque au corps à corps, vous pouvez ignorer n'importe quel ou tous les modificateurs du jet de Touche et/ou Le jet de Blessure.</characteristic>
+                    <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Figurine **^^Imperial Knights^^** uniquement. Tant qu’au moins deux figurines **^^Armiger^^** sont sous les effets de l’aptitude Bondsman du porteur, chaque fois que l’une de ces figurines **^^Armiger^^** effectue une attaque de mêlée, vous pouvez ignorer tout ou partie des modificateurs au jet de Touche et/ou au jet de Blessure.</characteristic>
                   </characteristics>
                 </profile>
               </profiles>
@@ -7288,7 +7288,7 @@ La première fois que votre acte sélectionné est terminé, votre serment est a
               <profiles>
                 <profile name="Sanctuary" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="91af-699e-4581-5394">
                   <characteristics>
-                    <characteristic name="Description" typeId="9b8f-694b-e5e-b573">**^^Imperial Knights^^** figurine uniquement. Le porteur a un 5+ sauvegarde invulnérable.</characteristic>
+                    <characteristic name="Description" typeId="9b8f-694b-e5e-b573">**^^Imperial Knights^^** figurine uniquement. le porteur a une 5+ sauvegarde invulnérable.</characteristic>
                   </characteristics>
                 </profile>
               </profiles>
@@ -7315,7 +7315,7 @@ La première fois que votre acte sélectionné est terminé, votre serment est a
               <profiles>
                 <profile name="Mysterious Guardian" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="af68-8a39-ace8-1f7a">
                   <characteristics>
-                    <characteristic name="Description" typeId="9b8f-694b-e5e-b573">**^^Imperial Knights^^** figurine uniquement. Le porteur possède l’aptitude Frappe en profondeur. Une fois par bataille, à la fin du tour de votre adversaire, si le porteur n'est pas dans la Portée d’Engagement d'une ou de plusieurs unités ennemies, il peut utiliser cette Optimisation. Si c'est le cas, retire le porteur du champ de bataille. dans le Reinforcements step de votre subsequent phase de Mouvement, set le porteur up anywhere sur le champ de bataille à plus de 9” horizontalement de toutes les unités ennemies. Si la bataille se termine et que le porteur n'est pas sur le champ de bataille, il est détruit.</characteristic>
+                    <characteristic name="Description" typeId="9b8f-694b-e5e-b573">**^^Imperial Knights^^** figurine uniquement. Le porteur possède l’aptitude Frappe en profondeur. Une fois par bataille, à la fin du tour de votre adversaire, si le porteur n'est pas à l'intérieur de Portée d’Engagement d'une ou de plusieurs unités ennemies, il peut utiliser ce Optimisation. Si c'est le cas, retirez le porteur du champ de bataille. dans le Reinforcements step de votre subsequent phase de Mouvement, set le porteur up anywhere sur le champ de bataille à plus de 9” horizontalement de toutes les unités ennemies. Si la bataille se termine et que le porteur n'est pas sur le champ de bataille, il est détruit.</characteristic>
                   </characteristics>
                 </profile>
               </profiles>
@@ -7345,7 +7345,7 @@ La première fois que votre acte sélectionné est terminé, votre serment est a
               <profiles>
                 <profile name="Bringer of Justice" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="0f5f-8cde-1b43-9773">
                   <characteristics>
-                    <characteristic name="Description" typeId="9b8f-694b-e5e-b573">**^^Imperial Knights^^** figurine uniquement. Améliorez les caractéristique d’Attaques des armes de mêlée équipées par le porteur de 2, et chaque fois que le porteur effectue une attaque de mêlée, ajoutez 1 au jet de Touche.</characteristic>
+                    <characteristic name="Description" typeId="9b8f-694b-e5e-b573">**^^Imperial Knights^^** figurine uniquement. Améliorez la caractéristique d’Attaques d’armes de mêlée équipée du porteur de 2, et chaque fois que le porteur effectue une attaque de mêlée, ajoutez 1 au jet de Touche.</characteristic>
                   </characteristics>
                 </profile>
               </profiles>
@@ -7380,7 +7380,7 @@ La première fois que votre acte sélectionné est terminé, votre serment est a
               <profiles>
                 <profile name="Hunter's Eye" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="6472-9cab-4e9e-ccc2">
                   <characteristics>
-                    <characteristic name="Description" typeId="9b8f-694b-e5e-b573">**^^Imperial Knights^^** figurine uniquement. Les armes de tir équipées par le porteur ont la aptitude **[IGNORES COVER]**.</characteristic>
+                    <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Figurine **^^Imperial Knights^^** uniquement. Les armes de tir dont le porteur est équipé ont l’aptitude **[IGNORES COVER]**.</characteristic>
                   </characteristics>
                 </profile>
               </profiles>
@@ -7437,7 +7437,7 @@ La première fois que votre acte sélectionné est terminé, votre serment est a
           <conditionGroups>
             <conditionGroup type="and">
               <conditions>
-                <condition type="notInstanceOf" value="1" field="selections" scope="primary-catalogue" childId="8956-4e3b-cf7d-86d7" shared="true" />
+                <condition type="notInstanceOf" value="1" field="selections" scope="primary-catalogue" childId="25dd-7aa0-6bf4-f2d5" shared="true" />
                 <condition type="lessThan" value="1" field="forces" scope="roster" shared="true" includeChildSelections="true" includeChildForces="true" childId="cac3-71d1-ea4b-795d" childName="Crusade Force" />
               </conditions>
             </conditionGroup>
@@ -7462,7 +7462,7 @@ La première fois que votre acte sélectionné est terminé, votre serment est a
         <selectionEntry type="upgrade" import="true" name="Valourstrike Lance" id="e424-58f3-8e79-19a6">
           <rules>
             <rule name="Bold Gallantry" id="92f9-bfbb-ce23-f12a" hidden="false">
-              <description>Chaque fois qu'une unité **^^Imperial Knights^^** de votre armée avance, jusqu'à la fin du tour, les armes rangées équipées de figurines **^^Imperial Knights^^** de votre armée ont la aptitude **[ASSAULT]**.</description>
+              <description>Chaque fois qu'une unité **^^Imperial Knights^^** de votre armée avance, jusqu'à la fin du tour, armes de tir équipé de **^^Imperial Knights^^** figurines de votre armée ont l’aptitude **[ASSAULT]**.</description>
             </rule>
           </rules>
           <infoLinks>
@@ -7487,18 +7487,18 @@ Divine Inspiration: Chaque fois qu’une figurine de cette unité effectue une a
 ■ Strike Force: jusqu’à 500 pts
 ■ Onslaught: jusqu’à 750 pts
 
-aucune figurine ADEPTUS MECHANICUS de votre armée peut être votre WARLORD.</description>
+Non ADEPTUS MECHANICUS figurines de votre armée peut être votre WARLORD.</description>
             </rule>
           </rules>
         </selectionEntry>
         <selectionEntry type="upgrade" import="true" name="Gate Warden Lance" id="884c-fbb7-9f22-1297">
           <rules>
             <rule name="Dauntless Defenders" id="f5bc-534b-8e6d-53fb" hidden="false">
-              <description>Au début du premier tour de bataille, sélectionnez deux marqueurs objectifs sur le champ de bataille pour être vos fondations. Lorsque vous tracez une ligne de n'importe quelle partie de l'une de vos fondations à l'autre, si n'importe quelle partie de la base d'une figurine (ou n'importe quelle partie de la coque d'une figurine, pour une figurine sans base) traverse cette ligne, l'unité de cette figurine est dit être sur votre ligne de défense.
+              <description>Au début du premier tour de bataille, sélectionnez deux pions d’objectif sur le champ de bataille pour être vos fondations. Lorsque vous tracez une ligne de n'importe quelle partie de l'une de vos fondations à l'autre, si n'importe quelle partie de la base d'une figurine (ou n'importe quelle partie d'une coque de figurines, pour une figurine sans base) traverse cette ligne, que l'unité de figurine est dit être sur votre ligne de défense.
 
-Pendant qu' une unité **^^Imperial Knights^^** de votre armée est sur votre ligne de défense, Cette unité a la aptitude Against the Horde.
+Pendant qu' une unité **^^Imperial Knights^^** de votre armée est sur votre ligne de défense, Cette unité est équipée du Against the Horde aptitude.
 
-Chaque fois qu'une de vos fondations est retirée du champ de bataille (p. ex. par une règle de la mission primaire), juste après qu'il est retiré, sélectionnez un nouveau marqueur objectif sur le champ de bataille pour être l'une de vos fondations.</description>
+Chaque fois qu'une de vos fondations est retirée du champ de bataille (p. ex. par une règle de mission primaire), juste après qu'il est supprimé, sélectionnez un nouveau pion d’objectif sur le champ de bataille pour être l'une de vos fondations.</description>
             </rule>
           </rules>
           <infoLinks>
@@ -7507,7 +7507,7 @@ Chaque fois qu'une de vos fondations est retirée du champ de bataille (p. ex. p
           <profiles>
             <profile name="Against the Horde" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="b1b8-585c-e5c8-3f5b">
               <characteristics>
-                <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Chaque fois qu'une figurine dans cette unité fait une attaque qui cible une unité ennemie visible, vous pouvez ignorer tous ou tous les modificateurs du jet de Touche, et les armes équipées par des figurines dans cette unité ont la aptitude **[SUSTAINED HITS 1]**.</characteristic>
+                <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Chaque fois qu'une figurine dans cette unité effectue une attaque visant une unité ennemie visible, vous pouvez ignorer tout ou partie des modificateurs du jet de Touche, et les armes équipées par les figurines de cette unité ont l’aptitude **[SUSTAINED HITS 1]**.</characteristic>
               </characteristics>
             </profile>
           </profiles>
@@ -7515,9 +7515,9 @@ Chaque fois qu'une de vos fondations est retirée du champ de bataille (p. ex. p
         <selectionEntry type="upgrade" import="true" name="Questoris Companions" id="a692-b024-09d9-b79f">
           <rules>
             <rule name="Heroes of Legend" id="310a-eb31-9066-259b" hidden="false">
-              <description>Au début de votre tour, si votre serment actuel est rempli, déterminez un serment supplémentaire, à l'exception du fait que vous ne pouvez pas sélectionner un acte ou une qualité que vous avez déjà sélectionné (si vous sélectionnez au hasard l'acte et/ou la qualité et que vous lancez un résultat que vous avez déjà sélectionné, sélectionnez un acte ou une qualité que vous n'avez pas encore sélectionné à la place). Si vous ne pouvez pas déterminer un serment supplémentaire parce que vous avez déjà sélectionné chaque acte et chaque qualité, ne pas déterminer un serment supplémentaire.
+              <description>Au début de votre tour, si votre Oath actuel est accompli, déterminez un Oath supplémentaire, à ceci près que vous ne pouvez pas sélectionner une Deed ou une Quality déjà sélectionnée (si vous sélectionnez aléatoirement la Deed et/ou la Quality et obtenez un résultat déjà sélectionné, sélectionnez à la place une Deed ou une Quality qui ne l’a pas encore été). Si vous ne pouvez pas déterminer d’Oath supplémentaire parce que vous avez déjà sélectionné chaque Deed et chaque Quality, n’en déterminez pas.
 
-Les qualités que vous avez remplies s'appliquent à tous les figurines de votre armée avec la aptitude Code Chivalric. Lorsque l'acte pour un serment supplémentaire est complété, vous gagnez 1CP, peu importe la façon dont vous avez sélectionné l'acte ou la qualité.</description>
+Les Qualities des Oaths que vous avez accomplis continuent de s’appliquer à toutes les figurines de votre armée dotées de l’aptitude Code Chivalric. Lorsque la Deed d’un Oath supplémentaire est accomplie, vous gagnez 1CP à la place, quelle que soit la manière dont vous avez sélectionné la Deed ou la Quality.</description>
             </rule>
             <rule name="Valour's Reward" id="84b5-0b13-f5e8-9202" hidden="false">
               <description>Les Optimisations de ce Détachement peuvent être dépensées. Vous ne pouvez pas utiliser une telle Optimisation tant qu’elle est dépensée. Chaque fois que vous accomplissez votre Oath, chaque Optimisation dépensée cesse de l’être.</description>
@@ -7530,14 +7530,14 @@ Les qualités que vous avez remplies s'appliquent à tous les figurines de votre
               <description>Chaque fois qu’une figurine de votre armée utilise son aptitude Bondsman, si aucune autre figurine de votre armée n’a utilisé cette aptitude Bondsman pendant ce tour, vous pouvez sélectionner jusqu’à trois figurines **^^Armiger^^** amies (au lieu d’une) à 12" ou moins de cette figurine, ou à 15" ou moins de celle-ci tant que votre armée est Honoured (vous ne pouvez toujours pas sélectionner une figurine déjà affectée par une aptitude Bondsman). Jusqu’au début de votre prochaine phase de Commandement, ces figurines sont affectées par cette aptitude Bondsman.</description>
             </rule>
             <rule name="Keywords" id="d8d5-e534-0f94-32df" hidden="false">
-              <description>Les figurines **^^Armiger^^** de votre armée gagnent le mot-clé **^^Battleline^^**.</description>
+              <description>**^^Armiger^^** figurines de votre armée gagnent mot-clé **^^Battleline^^**.</description>
             </rule>
           </rules>
         </selectionEntry>
         <selectionEntry type="upgrade" import="true" name="Freeblade Company" id="4e8e-50db-0d32-423c">
           <rules>
             <rule name="Knights of Legend" id="762c-3127-9381-5daa" hidden="false">
-              <description>Les figurines **^^Imperial Knights^^** de votre armée ont la aptitude Insensible à la douleur 6+. En outre, au début de votre phase de Commandement, chaque figurine **^^Imperial Knights^^** de votre armée récupère 1 PV perdu.</description>
+              <description>**^^Imperial Knights^^** figurines de votre armée ont l’aptitude Insensible à la douleur 6+. En outre, au début de votre phase de Commandement, chaque **^^Imperial Knights^^** figurine de votre armée récupère 1 PV perdu.</description>
             </rule>
           </rules>
           <infoLinks>
@@ -7631,7 +7631,7 @@ Les qualités que vous avez remplies s'appliquent à tous les figurines de votre
           <profiles>
             <profile name="Magos Questoris" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="5031-2795-5f01-0c68">
               <characteristics>
-                <characteristic name="Description" typeId="9b8f-694b-e5e-b573">**^^Tech‑Priest^^** figurine uniquement. Alors que le porteur est à 3" ou moins d'une ou de plusieurs unités **^^Imperial Knights^^** amicales, il a la aptitude Agent solitaire. Dans votre phase de Commandement, sélectionnez une figurine **^^Imperial Knights^^** sympathique à 3" ou moins du porteur. cette figurine récupère jusqu'à 2 PV perdus.</characteristic>
+                <characteristic name="Description" typeId="9b8f-694b-e5e-b573">**^^Tech‑Priest^^** figurine uniquement. Alors que le porteur est à 3" ou moins d'une ou de plusieurs unités **^^Imperial Knights^^** amicales, il possède l’aptitude Agent solitaire. Dans votre phase de Commandement, sélectionnez une **^^Imperial Knights^^** figurine ami à 3" ou moins du porteur. Que figurine récupère jusqu'à 2 PV perdus.</characteristic>
               </characteristics>
             </profile>
           </profiles>
@@ -7660,7 +7660,7 @@ Les qualités que vous avez remplies s'appliquent à tous les figurines de votre
           <profiles>
             <profile name="Knight of the Opus Machina" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="efb4-f7d7-d10d-f31a">
               <characteristics>
-                <characteristic name="Description" typeId="9b8f-694b-e5e-b573">**^^Imperial Knights^^** figurine uniquement. Chaque fois que le porteur fait une attaque de tir, si le porteur se trouve à 6" ou moins d’une ou plusieurs unités amies ADEPTUS MECHANICUS, relancez un jet de Touche de 1.</characteristic>
+                <characteristic name="Description" typeId="9b8f-694b-e5e-b573">**^^Imperial Knights^^** figurine uniquement. Chaque fois que le porteur effectue une attaque de tir, s’il est à 6" ou moins d’une ou plusieurs unités amies ADEPTUS MECHANICUS, relancez un jet de Touche de 1.</characteristic>
               </characteristics>
             </profile>
           </profiles>
@@ -7686,7 +7686,7 @@ Les qualités que vous avez remplies s'appliquent à tous les figurines de votre
           <profiles>
             <profile name="Omnissian Champion" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="464b-bf8b-311c-754b">
               <characteristics>
-                <characteristic name="Description" typeId="9b8f-694b-e5e-b573">**^^Imperial Knights^^** figurine uniquement. Ajoutez 4 à la caractéristique de PV du porteur.</characteristic>
+                <characteristic name="Description" typeId="9b8f-694b-e5e-b573">**^^Imperial Knights^^** figurine uniquement. Ajoutez 4 au porteur caractéristique de PV.</characteristic>
               </characteristics>
             </profile>
           </profiles>
@@ -7909,7 +7909,7 @@ Les qualités que vous avez remplies s'appliquent à tous les figurines de votre
               <profiles>
                 <profile name="Esteemed - Headsman" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="31d1-7d64-2414-4f94">
                   <characteristics>
-                    <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Au début du premier tour de bataille, sélectionnez une unité ennemie. Jusqu'à la fin de la bataille, chaque fois que cette unité fait une attaque qui cible cette unité ennemie, ajoutez 1 à la caractéristique de Dégâts de cette attaque et cette attaque a la aptitude **[SUSTAINED HITS 1]**.</characteristic>
+                    <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Au début du premier tour de bataille, choisissez une unité ennemie. Jusqu'à la fin de la bataille, chaque fois que cette unité effectue une attaque qui cible cette unité ennemie, ajoutez 1 à la caractéristique de Dégâts de cette attaque et cette attaque a l’aptitude **[SUSTAINED HITS 1]**.</characteristic>
                   </characteristics>
                   <modifiers>
                     <modifier type="set" value="true" field="hidden">
@@ -7933,7 +7933,7 @@ Les qualités que vous avez remplies s'appliquent à tous les figurines de votre
                 </profile>
                 <profile name="Aspiring - Harbinger" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="5f15-8b4b-9437-2afc">
                   <characteristics>
-                    <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Au début du premier tour de bataille, sélectionnez une unité ennemie. Jusqu'à la fin de la bataille, chaque fois que cette unité fait une attaque qui cible cette unité ennemie, ajoutez 1 à la caractéristique de Dégâts de cette attaque.</characteristic>
+                    <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Au début du premier tour de bataille, choisissez une unité ennemie. Jusqu'à la fin de la bataille, chaque fois que cette unité effectue une attaque qui cible unité ennemie, ajoutez 1 à la caractéristique de Dégâts de cette attaque.</characteristic>
                   </characteristics>
                   <modifiers>
                     <modifier type="set" value="true" field="hidden">
@@ -7945,7 +7945,7 @@ Les qualités que vous avez remplies s'appliquent à tous les figurines de votre
                 </profile>
                 <profile name="Virtuous - Master of Judgement" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="539c-d112-c026-eac5">
                   <characteristics>
-                    <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Au début du premier tour de bataille, sélectionnez une unité ennemie. Jusqu'à la fin de la bataille, chaque fois que cette unité fait une attaque qui cible cette unité ennemie, ajoutez 1 à la caractéristique de Dégâts de cette attaque et cette attaque a la aptitude **[SUSTAINED HITS D3]**.</characteristic>
+                    <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Au début du premier tour de bataille, choisissez une unité ennemie. Jusqu'à la fin de la bataille, chaque fois que cette unité effectue une attaque qui cible cette unité ennemie, ajoutez 1 à la caractéristique de Dégâts de cette attaque et cette attaque a l’aptitude **[SUSTAINED HITS D3]**.</characteristic>
                   </characteristics>
                   <modifiers>
                     <modifier type="set" value="true" field="hidden">
@@ -8036,7 +8036,7 @@ Les qualités que vous avez remplies s'appliquent à tous les figurines de votre
               <profiles>
                 <profile name="Esteemed - Nuncio of Obligation" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="59ee-4669-382b-75ae">
                   <characteristics>
-                    <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Pilot de l'unité **^^Titanic^^** seulement. Chaque fois que cette unité a sa aptitude Bondsman, elle peut sélectionner un **^^Armiger^^** convivial qui est à 24" ou moins et visible à cette unité.</characteristic>
+                    <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Le pilote d'une **^^Titanic^^** unité uniquement. Chaque fois que cette unité a son Bondsman aptitude, elle peut sélectionner un **^^Armiger^^** convivial qui est à 24" ou moins et visible à cette unité.</characteristic>
                   </characteristics>
                   <modifiers>
                     <modifier type="set" value="true" field="hidden">
@@ -8060,7 +8060,7 @@ Les qualités que vous avez remplies s'appliquent à tous les figurines de votre
                 </profile>
                 <profile name="Aspiring - Truth's Voice" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="62ab-8bed-8fb1-5cca">
                   <characteristics>
-                    <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Pilot de l'unité **^^Titanic^^** seulement. Chaque fois que cette unité a sa aptitude Bondsman, elle peut sélectionner un **^^Armiger^^** convivial qui est à 18" ou moins et visible à cette unité.</characteristic>
+                    <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Le pilote d'une **^^Titanic^^** unité uniquement. Chaque fois que cette unité a son Bondsman aptitude, elle peut sélectionner un **^^Armiger^^** convivial qui est à 18" ou moins et visible à cette unité.</characteristic>
                   </characteristics>
                   <modifiers>
                     <modifier type="set" value="true" field="hidden">
@@ -8072,7 +8072,7 @@ Les qualités que vous avez remplies s'appliquent à tous les figurines de votre
                 </profile>
                 <profile name="Virtuous - Emissary of the Court" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="2fd0-4aa0-ce54-01f1">
                   <characteristics>
-                    <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Pilot de l'unité **^^Titanic^^** seulement. Chaque fois que cette unité a sa aptitude Bondsman, elle peut sélectionner un ami **^^Armiger^^** qui est partout sur le champ de bataille et visible à cette unité.</characteristic>
+                    <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Le pilote d'une **^^Titanic^^** unité uniquement. Chaque fois que cette unité a son Bondsman aptitude, elle peut sélectionner un **^^Armiger^^** convivial qui est n'importe où sur le champ de bataille et visible à cette unité.</characteristic>
                   </characteristics>
                   <modifiers>
                     <modifier type="set" value="true" field="hidden">
@@ -8176,7 +8176,7 @@ Les qualités que vous avez remplies s'appliquent à tous les figurines de votre
                 </profile>
                 <profile name="Aspiring - Wise Mentor" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="a988-0d85-8785-2330">
                   <characteristics>
-                    <characteristic name="Description" typeId="9b8f-694b-e5e-b573">À la fin de chaque bataille, si cette unité gagne un XP, vous pouvez sélectionner une autre **^^Imperial Knights^^** de votre armée de la Croisade qui a survécu à cette bataille. L'unité sélectionnée gagne 1XP.</characteristic>
+                    <characteristic name="Description" typeId="9b8f-694b-e5e-b573">À la fin de chaque bataille, si cette unité gagne un XP, vous pouvez sélectionner une autre unité **^^Imperial Knights^^** de votre armée de croisade qui a survécu à cette bataille. L'unité sélectionnée gagne 1XP.</characteristic>
                   </characteristics>
                   <modifiers>
                     <modifier type="set" value="true" field="hidden">
@@ -8188,7 +8188,7 @@ Les qualités que vous avez remplies s'appliquent à tous les figurines de votre
                 </profile>
                 <profile name="Virtuous - Master-At-Arms" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="a7fc-3d6f-a23d-24a9">
                   <characteristics>
-                    <characteristic name="Description" typeId="9b8f-694b-e5e-b573">À la fin de chaque bataille, si cette unité gagne un XP, vous pouvez sélectionner jusqu'à trois autres **^^Imperial Knights^^** unités de votre armée de la Croisade qui ont survécu à cette bataille. L'unité sélectionnée gagne 1XP.</characteristic>
+                    <characteristic name="Description" typeId="9b8f-694b-e5e-b573">À la fin de chaque bataille, si cette unité gagne un XP, vous pouvez sélectionner jusqu'à trois autres unités **^^Imperial Knights^^** de votre armée de la Croisade qui ont survécu à cette bataille. L'unité sélectionnée gagne 1XP.</characteristic>
                   </characteristics>
                   <modifiers>
                     <modifier type="set" value="true" field="hidden">
@@ -8259,7 +8259,7 @@ Les qualités que vous avez remplies s'appliquent à tous les figurines de votre
               <profiles>
                 <profile name="Esteemed - Foe Hunter" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="12a9-e640-8f70-de24">
                   <characteristics>
-                    <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Après que les deux joueurs aient déployé leurs armées, vous pouvez redéployer cette unité et une unité amicale **^^Imperial Knights Armiger^^**.</characteristic>
+                    <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Après que les deux joueurs ont déployé leurs armées, vous pouvez redéployer cette unité et une unité **^^Imperial Knights Armiger^^** amie.</characteristic>
                   </characteristics>
                   <modifiers>
                     <modifier type="set" value="true" field="hidden">
@@ -8283,7 +8283,7 @@ Les qualités que vous avez remplies s'appliquent à tous les figurines de votre
                 </profile>
                 <profile name="Aspiring - Predator's Prescience" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="9934-81ec-5059-40d9">
                   <characteristics>
-                    <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Après que les deux joueurs aient déployé leurs armées, vous pouvez redéployer cette unité.</characteristic>
+                    <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Après que les deux joueurs ont déployé leurs armées, vous pouvez redéployer cette unité.</characteristic>
                   </characteristics>
                   <modifiers>
                     <modifier type="set" value="true" field="hidden">
@@ -8370,7 +8370,7 @@ Les qualités que vous avez remplies s'appliquent à tous les figurines de votre
               <profiles>
                 <profile name="Esteemed - Noble Orator" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="641a-7557-7825-5b91">
                   <characteristics>
-                    <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Une fois par bataille, au début de votre phase de Tir, sélectionnez une unité ennemi à 18" ou moins et visible à cette unité. Jusqu'à la fin de la phase, chaque fois qu'une unité **^^Imperial Knights^^** de votre armée de la Croisade fait une attaque qui cible cette unité, vous pouvez relancer un jet de Touche de 1 et vous pouvez relancer un jet de Blessure de 1.</characteristic>
+                    <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Une fois par bataille, au début de votre phase de Tir, sélectionnez une unité ennemie à 18" ou moins et visible pour cette unité. Jusqu’à la fin de la phase, chaque fois qu'une unité **^^Imperial Knights^^** de votre armée de la Croisade fait une attaque qui cible cette unité, vous pouvez relancer un jet de Touche de 1 et vous pouvez relancer un jet de Blessure de 1.</characteristic>
                   </characteristics>
                   <modifiers>
                     <modifier type="set" value="true" field="hidden">
@@ -8394,7 +8394,7 @@ Les qualités que vous avez remplies s'appliquent à tous les figurines de votre
                 </profile>
                 <profile name="Aspiring - A Duty of Censure" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="7856-3aa3-75b7-cdf7">
                   <characteristics>
-                    <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Une fois par bataille, au début de votre phase de Tir, sélectionnez une unité ennemi à 18" ou moins et visible à cette unité. Jusqu'à la fin de la phase, à chaque fois qu'une unité **^^Imperial Knights^^** de votre armée de la Croisade fait une attaque qui cible cette unité, vous pouvez relancer un jet de Touche de 1.</characteristic>
+                    <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Une fois par bataille, au début de votre phase de Tir, sélectionnez une unité ennemie à 18" ou moins et visible pour cette unité. Jusqu’à la fin de la phase, chaque fois qu'une unité **^^Imperial Knights^^** de votre armée de la Croisade fait une attaque qui cible cette unité, vous pouvez relancer un jet de Touche de 1.</characteristic>
                   </characteristics>
                   <modifiers>
                     <modifier type="set" value="true" field="hidden">
@@ -8406,7 +8406,7 @@ Les qualités que vous avez remplies s'appliquent à tous les figurines de votre
                 </profile>
                 <profile name="Virtuous - High Denunciator" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="870c-1f3e-7597-9ecc">
                   <characteristics>
-                    <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Une fois par tour, au début de votre phase de Tir, sélectionnez une unité ennemie à 18" ou moins et visible à cette unité. Jusqu'à la fin de la phase, chaque fois qu'une unité **^^Imperial Knights^^** de votre armée de la Croisade fait une attaque qui cible cette unité, vous pouvez relancer un jet de Touche de 1 et vous pouvez relancer un jet de Blessure de 1.</characteristic>
+                    <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Une fois par tour, au début de votre phase de Tir, sélectionnez une unité ennemie à 18" ou moins et visible pour cette unité. Jusqu’à la fin de la phase, chaque fois qu'une unité **^^Imperial Knights^^** de votre armée de la Croisade fait une attaque qui cible cette unité, vous pouvez relancer un jet de Touche de 1 et vous pouvez relancer un jet de Blessure de 1.</characteristic>
                   </characteristics>
                   <modifiers>
                     <modifier type="set" value="true" field="hidden">
@@ -8481,7 +8481,7 @@ Les qualités que vous avez remplies s'appliquent à tous les figurines de votre
               <profiles>
                 <profile name="Esteemed - Lance of Terra" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="1ee1-6509-1539-ad61">
                   <characteristics>
-                    <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Ajoutez 2" à la caractéristique de mouvement de cette unité. Cette unité est éligible pour tirer durant un tour où elle a Avancé.</characteristic>
+                    <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Ajoutez 2" à la caractéristique de Mouvement de cette unité. Cette unité est éligible pour tirer durant un tour où elle a Avancé.</characteristic>
                   </characteristics>
                   <modifiers>
                     <modifier type="set" value="true" field="hidden">
@@ -8517,7 +8517,7 @@ Les qualités que vous avez remplies s'appliquent à tous les figurines de votre
                 </profile>
                 <profile name="Virtuous - Foe's Bane" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="34ac-f8d3-aa41-cb37">
                   <characteristics>
-                    <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Ajoutez 2" à la caractéristique de mouvement de cette unité. Cette unité est éligible pour tirer et déclarer une Charge durant un tour où elle a Avancé.</characteristic>
+                    <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Ajoutez 2" à la caractéristique de Mouvement de cette unité. Cette unité est éligible pour tirer et déclarer une Charge durant un tour où elle a Avancé.</characteristic>
                   </characteristics>
                   <modifiers>
                     <modifier type="set" value="true" field="hidden">
@@ -8767,7 +8767,7 @@ Les qualités que vous avez remplies s'appliquent à tous les figurines de votre
               <profiles>
                 <profile name="To Raise High the Pennants of Victory" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="0da7-3379-200f-5e54">
                   <characteristics>
-                    <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Pendant que cette quête de chevalier est active, à la fin de chaque bataille, ajoutez 1 à son compte pour chaque marqueur objectif que vous contrôlez. Pour chacun de ces marqueurs objectifs qui se trouvent dans la zone de déploiement de votre adversaire, vous gagnez 1 marque de comptage supplémentaire.</characteristic>
+                    <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Tant que cette Quête Chevaleresque est active, à la fin de chaque bataille, ajoutez 1 à son total pour chaque pion d’objectif que vous contrôlez. Pour chacun de ces pions d’objectif situé dans la zone de déploiement de votre adversaire, vous gagnez 1 marque de total supplémentaire.</characteristic>
                   </characteristics>
                 </profile>
               </profiles>
@@ -8776,7 +8776,7 @@ Les qualités que vous avez remplies s'appliquent à tous les figurines de votre
               <profiles>
                 <profile name="To Secure the Realm" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="ec7c-de57-74d8-58ee">
                   <characteristics>
-                    <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Alors que cette quête de chevalerie est active, à la fin de chaque bataille, ajoutez 1 à son compte pour chacune des conditions suivantes que vous satisfiez: un ou plusieurs **^^Imperial Knights^^** de votre armée de croisade sont à 6" ou moins du centre du champ de bataille; aucune unité ennemi n'est à 6" ou moins du centre du champ de bataille; une ou plusieurs **^^Imperial Knights^^** unités de votre armée de croisade sont entièrement à la zone de déploiement de votre adversaire.</characteristic>
+                    <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Tant que cette Chivalric Quest est active, à la fin de chaque bataille, ajoutez 1 à son total pour chacune des conditions suivantes que vous remplissez : un ou plusieurs **^^Imperial Knights^^** de votre armée de Croisade sont à 6" ou moins du centre du champ de bataille ; aucune unité ennemie n’est à 6" ou moins du centre du champ de bataille ; une ou plusieurs unités **^^Imperial Knights^^** de votre armée de Croisade sont entièrement dans la zone de déploiement de votre adversaire.</characteristic>
                   </characteristics>
                 </profile>
               </profiles>
@@ -8785,7 +8785,7 @@ Les qualités que vous avez remplies s'appliquent à tous les figurines de votre
               <profiles>
                 <profile name="To Stamp Out the Champions of Dishonour" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="fe32-f52e-b25d-96c0">
                   <characteristics>
-                    <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Pendant que cette quête de chevalier est active, ajoutez 1 à son compte à chaque fois qu'une unité **^^Character^^** est détruite par une attaque faite par une figurine **^^Imperial Knights^^** de votre force de Croisade. Pour chacune de ces unités détruites qui étaient **^^Warlord^^** de votre adversaire, vous gagnez 1 marque de comptage supplémentaire.</characteristic>
+                    <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Tant que cette Quête Chevaleresque est active, ajoutez 1 à son total chaque fois qu’une unité **^^Character^^** est détruite par une attaque effectuée par une figurine **^^Imperial Knights^^** de votre force de Croisade. Pour chacune de ces unités détruites qui était le **^^Warlord^^** de votre adversaire, vous gagnez 1 marque de total supplémentaire.</characteristic>
                   </characteristics>
                 </profile>
               </profiles>
@@ -8794,7 +8794,7 @@ Les qualités que vous avez remplies s'appliquent à tous les figurines de votre
               <profiles>
                 <profile name="To Strike Down the Unclean Behemoths" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="2aef-46be-e9c6-e760">
                   <characteristics>
-                    <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Pendant que cette quête de chevalier est active, ajoutez 1 à son compte à chaque fois qu'une unité **^^Monster^^** ou **^^Vehicle^^** est détruite par une attaque faite par une figurine **^^Imperial Knights^^** de votre force de Croisade. Pour chacune de ces unités détruites qui étaient **^^Titanic^^**, vous gagnez 1 marque de comptage supplémentaire.</characteristic>
+                    <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Tant que cette Quête Chevaleresque est active, ajoutez 1 à son total chaque fois qu’une unité **^^Monster^^** ou **^^Vehicle^^** est détruite par une attaque effectuée par une figurine **^^Imperial Knights^^** de votre force de Croisade. Pour chacune de ces unités détruites qui était **^^Titanic^^**, vous gagnez 1 marque de total supplémentaire.</characteristic>
                   </characteristics>
                 </profile>
               </profiles>
@@ -8856,7 +8856,7 @@ Les qualités que vous avez remplies s'appliquent à tous les figurines de votre
           <profiles>
             <profile name="Stain of Dishonour" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="d4ba-d59f-de77-1099">
               <characteristics>
-                <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Cette unité ne peut pas utiliser ou être affectée par les capacités de Bondsman.</characteristic>
+                <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Cette unité ne peut pas utiliser ou être affectée par Bondsman aptitudes.</characteristic>
               </characteristics>
             </profile>
           </profiles>
@@ -8874,7 +8874,7 @@ Les qualités que vous avez remplies s'appliquent à tous les figurines de votre
           <profiles>
             <profile name="Bonded In Shame" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="4804-2d50-8d9c-42a7">
               <characteristics>
-                <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Soustrayez 2 de la caractéristique de Contrôle d’Objectif de cette unité et aggraver sa caractéristique de Commandement par 1.</characteristic>
+                <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Soustrayez 2 de la caractéristique de Contrôle d’Objectif de cette unité et aggraver son caractéristique de Commandement par 1.</characteristic>
               </characteristics>
             </profile>
           </profiles>
@@ -8904,7 +8904,7 @@ Les qualités que vous avez remplies s'appliquent à tous les figurines de votre
               <profiles>
                 <profile name="Sanctuary" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="9b81-c373-dd9f-8fa6">
                   <characteristics>
-                    <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Le porteur a un 5+ sauvegarde invulnérable contre les attaques de mêlée.</characteristic>
+                    <characteristic name="Description" typeId="9b8f-694b-e5e-b573">le porteur a un 5+ sauvegarde invulnérable contre les attaques de mêlée.</characteristic>
                   </characteristics>
                 </profile>
               </profiles>
@@ -8947,7 +8947,7 @@ Les qualités que vous avez remplies s'appliquent à tous les figurines de votre
               <profiles>
                 <profile name="Armour of the Sainted Ion" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="c874-2fdf-88ae-00e1">
                   <characteristics>
-                    <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Le porteur a une caractéristique Save de 2+.</characteristic>
+                    <characteristic name="Description" typeId="9b8f-694b-e5e-b573">le porteur a une caractéristique de Sauvegarde de 2+.</characteristic>
                   </characteristics>
                 </profile>
               </profiles>
@@ -9002,7 +9002,7 @@ Les qualités que vous avez remplies s'appliquent à tous les figurines de votre
               <profiles>
                 <profile name="Helm of the Nameless Warrior" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="3f1a-2d7b-ede7-842a">
                   <characteristics>
-                    <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Les armes Melee équipées par le porteur ont la aptitude **[DEVASTATING WOUNDS]**.</characteristic>
+                    <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Les armes de mêlée dont le porteur est équipé ont l’aptitude **[DEVASTATING WOUNDS]**.</characteristic>
                   </characteristics>
                 </profile>
               </profiles>
@@ -9060,7 +9060,7 @@ Les qualités que vous avez remplies s'appliquent à tous les figurines de votre
               <profiles>
                 <profile name="Oathbreaker Guidance System" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="ee5c-1100-010b-69c4">
                   <characteristics>
-                    <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Si le porteur est équipé d'un ou de plusieurs coupes Questoris Lourd ou de multi-lasers Questoris, ces armes ont les capacités **[PRECISION]** et **[IGNORES COVER]**, et chaque fois qu'une attaque est faite avec l'une de ces armes, vous pouvez relancer le jet de Touche.</characteristic>
+                    <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Si le porteur est équipé d'un ou plusieurs stubbers Questoris Lourd ou de multi-lasers Questoris, ces armes ont les aptitudes **[PRECISION]** et **[IGNORE LE COUVERT]**, et chaque fois qu'une attaque est effectuée avec l'une de ces armes, vous pouvez relancer le jet de Touche.</characteristic>
                   </characteristics>
                 </profile>
               </profiles>
@@ -9100,7 +9100,7 @@ Les qualités que vous avez remplies s'appliquent à tous les figurines de votre
               <profiles>
                 <profile name="Equerry's Vox" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="784f-d9bb-4ad9-b41b">
                   <characteristics>
-                    <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Chaque fois que le porteur utilise sa aptitude Bondsman, vous pouvez sélectionner un autre figurine **^^Armiger^^** convivial à 9" ou moins du **^^Armiger^^** que vous avez sélectionné avec cette aptitude; cet autre figurine est également affecté par cette aptitude Bondsman.</characteristic>
+                    <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Chaque fois que le porteur utilise son aptitude Bondsman, vous pouvez sélectionner une autre figurine **^^Armiger^^** amie à 9" ou moins de la figurine **^^Armiger^^** sélectionnée avec cette aptitude ; cette autre figurine est également affectée par cette aptitude Bondsman.</characteristic>
                   </characteristics>
                 </profile>
               </profiles>
@@ -9136,12 +9136,12 @@ Les qualités que vous avez remplies s'appliquent à tous les figurines de votre
               <profiles>
                 <profile name="Heart of Sol" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="00b0-7b18-84b1-f460">
                   <characteristics>
-                    <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Dans votre phase de Commandement, le porteur peut activer cette relique de la Croisade. Si c'est le cas, le porteur subit des Blessures Mortelles D3, puis sélectionnez l'un des effets suivants (si vous sélectionnez le troisième effet, vous devez également sélectionner une arme équipée par le porteur):
+                    <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Durant votre phase de Commandement, le porteur peut activer cette Relique de Croisade. Si elle le fait, il subit D3 blessures mortelles, puis sélectionnez l’un des effets suivants (si vous sélectionnez le troisième effet, vous devez aussi sélectionner une arme dont le porteur est équipé) :
 
 
-- Jusqu'au début de votre prochaine phase de Commandement, ajoutez le 2" à la caractéristique de mouvement du transporteur.
-- Jusqu'au début de votre prochaine phase de Commandement, ajoutez 2 aux jets d’Avance et de Charge faits pour le porteur.
-- Jusqu'au début de votre prochaine phase de Commandement, chaque fois que le porteur effectue une attaque avec l'arme sélectionnée, ajoutez 1 au jet de Blessure.</characteristic>
+- Jusqu’au début de votre prochaine phase de Commandement, ajoutez 2" à la caractéristique de Mouvement du porteur.
+- Jusqu’au début de votre prochaine phase de Commandement, ajoutez 2 aux jets d’Avance et de Charge effectués pour le porteur.
+- Jusqu’au début de votre prochaine phase de Commandement, chaque fois que le porteur effectue une attaque avec l’arme sélectionnée, ajoutez 1 au jet de Blessure.</characteristic>
                   </characteristics>
                 </profile>
               </profiles>
@@ -9182,22 +9182,22 @@ Les qualités que vous avez remplies s'appliquent à tous les figurines de votre
   <sharedProfiles>
     <profile name="Damaged: 1-9 Wounds Remaining" hidden="false" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" id="a274-b647-186a-54ee">
       <characteristics>
-        <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Alors que cette figurine a 1-9 PV restants, Soustrayez 5 de cette caractéristique de contrôle d'objectif de figurines et chaque fois que cette figurine fait une attaque, Soustrayez 1 du jet de Touche.</characteristic>
+        <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Alors que cette figurine a 1-9 PV restants, Soustrayez 5 de ce figurines caractéristique de Contrôle d’Objectif et chaque fois que cette figurine fait une attaque, Soustrayez 1 du jet de Touche.</characteristic>
       </characteristics>
     </profile>
     <profile name="Damaged: 1-5 Wounds Remaining" hidden="false" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" id="b9a3-9db8-fd2f-7e43">
       <characteristics>
-        <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Alors que cette figurine a 1-5 PV restants, Soustrayez 3 de cette caractéristique de Contrôle d’Objectif de cette figurine et à chaque fois que cette figurine fait une attaque, Soustrayez 1 du jet de Touche.</characteristic>
+        <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Tant qu’il reste 1-5 PV à cette figurine, soustrayez 3 de sa caractéristique de Contrôle d’Objectif et, chaque fois qu’elle effectue une attaque, soustrayez 1 au jet de Touche.</characteristic>
       </characteristics>
     </profile>
     <profile name="Damaged: 1-10 Wounds Remaining" hidden="false" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" id="1934-9c67-78e2-4fd9">
       <characteristics>
-        <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Alors que cette figurine a 1-10 PV restants, Soustrayez 5 de cette caractéristique de Contrôle d’Objectif de cette figurine et à chaque fois que cette figurine fait une attaque, Soustrayez 1 du jet de Touche.</characteristic>
+        <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Tant qu’il reste 1-10 PV à cette figurine, soustrayez 5 de sa caractéristique de Contrôle d’Objectif et, chaque fois qu’elle effectue une attaque, soustrayez 1 au jet de Touche.</characteristic>
       </characteristics>
     </profile>
     <profile name="Ion Aegis (Aura)" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="0cc9-e726-c0fa-c4f3">
       <characteristics>
-        <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Alors qu'une figurine amie **^^Armiger^^** est à 6" ou moins de cette figurine, chaque fois qu'une attaque de tir cible cette figurine, il a le Bénéfice du Couvert contre cette attaque.</characteristic>
+        <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Tant qu’une figurine **^^Armiger^^** amie est à 6" ou moins de cette figurine, chaque fois qu’une attaque de tir cible cette figurine, elle a le Bénéfice du Couvert contre cette attaque.</characteristic>
       </characteristics>
     </profile>
   </sharedProfiles>

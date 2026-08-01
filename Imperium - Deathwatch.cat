@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue xmlns="http://www.battlescribe.net/schema/catalogueSchema" library="false" id="e3a2-b0b8-ac03-a188" name="Imperium - Adeptus Astartes - Deathwatch" gameSystemId="sys-0e45-705d-f6bc-806a" gameSystemRevision="1" revision="65" battleScribeVersion="2.03" type="catalogue">
+<catalogue xmlns="http://www.battlescribe.net/schema/catalogueSchema" library="false" id="f89b-84e0-6e3b-f1e2" name="Imperium - Adeptus Astartes - Deathwatch" gameSystemId="sys-352e-adc2-7639-d6a9" gameSystemRevision="1" revision="65" battleScribeVersion="2.03" type="catalogue">
   <sharedSelectionEntryGroups>
     <selectionEntryGroup name="Terminator Heavy Weapons" hidden="false" id="77ef-f5b6-e6bc-7618" defaultSelectionEntryId="8259-a28d-949-b4fa">
       <constraints>
@@ -327,7 +327,7 @@
           <profiles>
             <profile name="Astartes shield" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="5400-6db5-9c87-ccee">
               <characteristics>
-                <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Le porteur a un 4+ sauvegarde invulnérable.</characteristic>
+                <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Le porteur a une sauvegarde invulnérable de 4+.</characteristic>
               </characteristics>
             </profile>
           </profiles>
@@ -353,7 +353,7 @@
           <profiles>
             <profile name="Astartes shield" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="70c1-8ba7-16e0-6bcf">
               <characteristics>
-                <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Le porteur a un 4+ sauvegarde invulnérable.</characteristic>
+                <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Le porteur a une sauvegarde invulnérable de 4+.</characteristic>
               </characteristics>
             </profile>
           </profiles>
@@ -576,7 +576,7 @@
         </profile>
         <profile name="Strategic Knowledge" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="e78f-da76-e79d-304a" publicationId="4115-3627-e608-39f6" page="7">
           <characteristics>
-            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Alors que cette figurine mène une unité, cette unité est éligible pour tirer et déclarer une charge à un tour où elle a Avancé ou Battu en Retraite.</characteristic>
+            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Tant que cette figurine mène une unité, cette unité est éligible pour tirer et déclarer une charge durant un tour où elle a Avancé ou Battu en Retraite.</characteristic>
           </characteristics>
         </profile>
         <profile name="Watch Master" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="d4de-4cfa-ee54-d422" publicationId="4115-3627-e608-39f6" page="7">
@@ -781,7 +781,7 @@
         </profile>
         <profile name="Tactical Instinct" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="c481-d4ab-58f1-858d" publicationId="4115-3627-e608-39f6" page="9">
           <characteristics>
-            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Alors que cette figurine mène une unité, les armes équipées de figurines dans cette unité ont la aptitude [Touches fatales].</characteristic>
+            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Alors que cette figurine mène une unité, les armes équipées des figurines de cette unité ont l’aptitude [Touches fatales].</characteristic>
           </characteristics>
         </profile>
         <profile name="Watch Captain Artemis" typeId="c547-1836-d8a-ff4f" typeName="Unit" hidden="false" id="9704-dfd4-a221-49c1" publicationId="4115-3627-e608-39f6" page="9">
@@ -796,7 +796,7 @@
         </profile>
         <profile name="Unstoppable Champion" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="14e1-8336-a9b2-40c3" publicationId="4115-3627-e608-39f6" page="9">
           <characteristics>
-            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">La première fois que cette figurine est détruit, lancez un D6 à la fin de la phase. Sur un 2+, remettez cette figurine sur le champ de bataille, le plus près possible de l'endroit où il a été détruit et pas à la portée de l'engagement de toute unité ennemie, avec 1 PV restants.</characteristic>
+            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">La première fois que cette figurine est détruite, lancez un D6 à la fin de la phase. Sur 2+, replacez cette figurine sur le champ de bataille, aussi près que possible de l’endroit où elle a été détruite et hors de Portée d’Engagement de toute unité ennemie, avec 1 PV restant.</characteristic>
           </characteristics>
         </profile>
         <profile name="Meneur" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="8863-f9da-9fe5-8262" publicationId="4115-3627-e608-39f6" page="10">
@@ -1051,7 +1051,7 @@
         </profile>
         <profile name="Blackstar Cluster Launcher" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="2424-fdd-d5c0-1d78" publicationId="4115-3627-e608-39f6" page="19">
           <characteristics>
-            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Chaque fois que cette figurine termine un mouvement normal, vous pouvez sélectionner une unité ennemie par-dessus laquelle cette figurine s’est déplacée au cours de ce mouvement et rouler six D6: pour chaque 5+, cette unité souffre 1 blessure mortelle.</characteristic>
+            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Chaque fois que cette figurine termine un mouvement Normal, vous pouvez sélectionner une unité ennemie qu’elle a survolée durant ce mouvement et lancer six D6 : pour chaque 5+, cette unité subit 1 blessure mortelle.</characteristic>
           </characteristics>
         </profile>
         <profile name="Damaged: 1-5 Wounds Remaining" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="4edc-8524-49f5-884a" publicationId="4115-3627-e608-39f6" page="19">
@@ -1061,7 +1061,7 @@
         </profile>
         <profile name="Transport" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="4d9c-b69c-4685-27b7" publicationId="4115-3627-e608-39f6" page="20">
           <characteristics>
-            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Cette figurine a une capacité de transport de 12 figurines ADEPTUS ASTARTES INFANTRY or KILL TEAM. Chaque figurine Réacteur dorsal, GRAVIS ou Terminator prend l'espace des figurines 2 et chaque figurine CENTURION prend l'espace des figurines 3.</characteristic>
+            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Cette figurine a une capacité de transport de 12 figurines ADEPTUS ASTARTES INFANTRY or KILL TEAM. Chaque Réacteur dorsal, GRAVIS ou Terminator figurine prend l'espace de 2 figurines et chaque CENTURION figurine prend l'espace de 3 figurines.</characteristic>
           </characteristics>
         </profile>
       </profiles>
@@ -1252,7 +1252,7 @@
                   <profiles>
                     <profile name="Auspex Array" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="ebf-db45-9aa0-a5d5">
                       <characteristics>
-                        <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Les armes de tir équipées par le porteur ont la aptitude [Ignore le couvert].</characteristic>
+                        <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Les armes de tir dont le porteur est équipé ont l’aptitude [Ignore le couvert].</characteristic>
                       </characteristics>
                     </profile>
                   </profiles>
@@ -1267,7 +1267,7 @@
                   <profiles>
                     <profile name="Infernum Halo-launcher" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="697e-3cd8-8c0e-e354" publicationId="4115-3627-e608-39f6" page="19">
                       <characteristics>
-                        <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Le porteur a le mot-clé SMOKE.</characteristic>
+                        <characteristic name="Description" typeId="9b8f-694b-e5e-b573">le porteur a le SMOKE mot-clé.</characteristic>
                       </characteristics>
                     </profile>
                   </profiles>
@@ -1401,7 +1401,7 @@
             </profile>
             <profile name="Sauvegarde Invulnérable" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="4019-5ac3-1808-fb5b" publicationId="4115-3627-e608-39f6" page="7">
               <characteristics>
-                <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Chaplain Cassius a une 4+ sauvegarde invulnérable.</characteristic>
+                <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Le Chaplain Cassius possède un 4+ sauvegarde invulnérable.</characteristic>
               </characteristics>
             </profile>
           </profiles>
@@ -1613,7 +1613,7 @@
             </profile>
             <profile name="Jump Pack" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="cb89-cc1a-5e19-2bf1" publicationId="4115-3627-e608-39f6" page="11">
               <characteristics>
-                <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Le porteur possède une caractéristique de mouvement de 12" et peut se déplacer sur les figurines et le terrain comme s'ils n'étaient pas là.</characteristic>
+                <characteristic name="Description" typeId="9b8f-694b-e5e-b573">le porteur a une caractéristique de mouvement de 12" et peut se déplacer sur figurines et le terrain comme s'ils n'étaient pas là.</characteristic>
               </characteristics>
             </profile>
           </profiles>
@@ -1650,7 +1650,7 @@
             </profile>
             <profile name="Jump Pack" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="4b39-2ba4-2741-5275" publicationId="4115-3627-e608-39f6" page="11">
               <characteristics>
-                <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Le porteur possède une caractéristique de mouvement de 12" et peut se déplacer sur les figurines et le terrain comme s'ils n'étaient pas là.</characteristic>
+                <characteristic name="Description" typeId="9b8f-694b-e5e-b573">le porteur a une caractéristique de mouvement de 12" et peut se déplacer sur figurines et le terrain comme s'ils n'étaient pas là.</characteristic>
               </characteristics>
             </profile>
           </profiles>
@@ -1697,7 +1697,7 @@
             </profile>
             <profile name="Psychic Hood" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="b490-9584-430a-7495">
               <characteristics>
-                <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Les figurines de l'unité du porteur ont la aptitude Insensible à la douleur 4+ contre les attaques Psychique.</characteristic>
+                <characteristic name="Description" typeId="9b8f-694b-e5e-b573">les figurines de l’unité du porteur ont l’aptitude Insensible à la douleur 4+ contre les attaques Psychiques.</characteristic>
               </characteristics>
             </profile>
           </profiles>
@@ -1858,7 +1858,7 @@
             </profile>
             <profile name="Sauvegarde Invulnérable" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="f12-38da-600-43e8" publicationId="4115-3627-e608-39f6" page="7">
               <characteristics>
-                <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Garran Branatar a une 4+ sauvegarde invulnérable.</characteristic>
+                <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Le Garran Branatar possède un 4+ sauvegarde invulnérable.</characteristic>
               </characteristics>
             </profile>
           </profiles>
@@ -1966,12 +1966,12 @@
       <profiles>
         <profile name="Catechism of Death" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="762-8fda-bc0e-6e5f" publicationId="4115-3627-e608-39f6" page="11">
           <characteristics>
-            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Alors que cette unité contient Chaplain Cassius, les armes de mêlée équipées de figurines dans cette unité ont la aptitude [Blessures dévastatrices].</characteristic>
+            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Tant que cette unité contient Chaplain Cassius, les armes de mêlée dont les figurines de cette unité sont équipées ont l’aptitude [DEVASTATING WOUNDS].</characteristic>
           </characteristics>
         </profile>
         <profile name="Unflinching" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="685b-a006-c655-4250" publicationId="4115-3627-e608-39f6" page="11">
           <characteristics>
-            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Vous pouvez relancer des tests d’Ébranlement pour cette unité.</characteristic>
+            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Vous pouvez relancer les tests d’Ébranlement de cette unité.</characteristic>
           </characteristics>
         </profile>
       </profiles>
@@ -2037,17 +2037,17 @@
       <profiles>
         <profile name="Terminatus Assault" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="c729-b51b-629d-5df9" publicationId="4115-3627-e608-39f6" page="15">
           <characteristics>
-            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Vous pouvez relancer les jets de Charge faits pour cette unité. Chaque fois que cette unité termine un mouvement Charge, chaque unité ennemie dans la Portée d’Engagement de cette unité doit passer un test d’Ébranlement. Si cette unité ennemie n'a pas les mots clés IMPERIUM ou CHAOS, Soustrayez 1 de ce test.</characteristic>
+            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Vous pouvez relancer les jets de Charge effectués pour cette unité. Chaque fois que cette unité termine un mouvement de Charge, chaque unité ennemie à Portée d’Engagement de cette unité doit effectuer un test d’Ébranlement. Si cette unité ennemie ne possède pas les mots-clés IMPERIUM ou CHAOS, soustrayez 1 à ce test.</characteristic>
           </characteristics>
         </profile>
         <profile name="Teleport Homer" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="72d-cf90-8721-2810" publicationId="4115-3627-e608-39f6" page="16">
           <characteristics>
-            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Au début de la bataille, vous pouvez configurer un jeton Teleport Homer pour cette unité n'importe où sur le champ de bataille qui n'est pas dans la zone de déploiement de votre adversaire. Si vous le faites, une fois par bataille, vous pouvez cibler cette unité avec le Rapid Ingress Stratagème pour 0CP, mais lors de la résolution de ce Stratagème, vous devez mettre cette unité à 3" ou moins de ce jeton et pas à 9" ou moins de tout figurine ennemie. Ce jeton est alors retiré.</characteristic>
+            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Au début de la bataille, vous pouvez configurer un jeton Teleport Homer pour cette unité n'importe où sur le champ de bataille qui n'est pas dans votre adversaire zone de déploiement. Si vous le faites, Une fois par bataille, vous pouvez cibler cette unité avec le Rapid Ingress Stratagème pour 0CP, mais lorsque vous résolvez que Stratagème, vous devez mettre cette unité à 3" ou moins de ce jeton et pas à 9" ou moins de tout ennemi figurines. Ce jeton est alors retiré.</characteristic>
           </characteristics>
         </profile>
         <profile name="Sauvegarde Invulnérable" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="f1f4-4cb5-6192-b88b" publicationId="4115-3627-e608-39f6" page="7">
           <characteristics>
-            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Les figurines de cette unité ont un 4+ sauvegarde invulnérable.</characteristic>
+            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Les figurines de cette unité ont une sauvegarde invulnérable de 4+.</characteristic>
           </characteristics>
         </profile>
         <profile name="Attached Unit" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="79ca-a242-bf33-a426">
@@ -2197,7 +2197,7 @@
                           <profiles>
                             <profile name="Storm Shield" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="bf19-5277-300b-d864">
                               <characteristics>
-                                <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Le porteur possède une caractéristique de PV de 4.</characteristic>
+                                <characteristic name="Description" typeId="9b8f-694b-e5e-b573">le porteur a une caractéristique de PV de 4.</characteristic>
                               </characteristics>
                             </profile>
                           </profiles>
@@ -2424,7 +2424,7 @@
                           <profiles>
                             <profile name="Storm Shield" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="bc91-0a58-f624-c158">
                               <characteristics>
-                                <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Le porteur possède une caractéristique de PV de 4.</characteristic>
+                                <characteristic name="Description" typeId="9b8f-694b-e5e-b573">le porteur a une caractéristique de PV de 4.</characteristic>
                               </characteristics>
                             </profile>
                           </profiles>
@@ -3002,7 +3002,7 @@
         </profile>
         <profile name="Attached Unit" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="a226-1a6e-44f-6113" publicationId="4115-3627-e608-39f6" page="24">
           <characteristics>
-            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Si un CHARACTER de votre armée avec la aptitude Meneur peut être attaché à un Intercessor Squad, il peut être attaché à cette unité à la place.</characteristic>
+            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Si un CHARACTER de votre armée avec l’aptitude Meneur peut être attaché à un Intercessor Squad, il peut être attaché à cette unité à la place.</characteristic>
           </characteristics>
         </profile>
       </profiles>
@@ -3221,12 +3221,12 @@
       <profiles>
         <profile name="Indomitor Doctrines" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="f8b6-3181-7e49-fb57" publicationId="4115-3627-e608-39f6" page="25">
           <characteristics>
-            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Chaque fois qu'une figurine de cette unité effectue une attaque de tir qui vise la cible éligible la plus proche, ou effectue une attaque au corps à corps dans un tour dans lequel il a effectué un mouvement de Charge, améliore la caractéristique de Force de cette attaque de 2.</characteristic>
+            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Chaque fois qu’une figurine de cette unité effectue une attaque de tir qui cible la cible éligible la plus proche, ou effectue une attaque de mêlée durant un tour où elle a effectué un mouvement de Charge, améliorez de 2 la caractéristique de Force de cette attaque.</characteristic>
           </characteristics>
         </profile>
         <profile name="Attached Unit" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="b8a4-e32-bbbb-4e78" publicationId="4115-3627-e608-39f6" page="24">
           <characteristics>
-            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Si une unité CHARACTER de votre armée peut être attachée à une Lourd INTERCESSOR SQUAD, elle peut être attachée à cette unité à la place.</characteristic>
+            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Si une unité CHARACTER de votre armée peut être attachée à une unité Lourd INTERCESSOR SQUAD, elle peut être attachée à cette unité à la place.</characteristic>
           </characteristics>
         </profile>
       </profiles>
@@ -3770,13 +3770,13 @@
       <profiles>
         <profile name="Attached Unit" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="e966-dcf9-893d-a8f8" publicationId="4115-3627-e608-39f6" page="24">
           <characteristics>
-            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Si un CHARACTER de votre armée avec la aptitude Meneur peut être attaché à un Infiltrator Squad, il peut être attaché à cette unité à la place.
-Si cette unité a une unité Meneur attachée à elle pendant l'étape Déclarer les Formations de Bataille, cette unité Meneur obtient les capacités Infiltrators et Éclaireurs 6".</characteristic>
+            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Si une figurine CHARACTER de votre armée dotée de l’aptitude Meneur peut être attachée à une unité INFILTRATOR SQUAD, elle peut être attachée à cette unité à la place.
+Si une unité Meneur est attachée à cette unité lors de l’étape Déclarer les Formations de Bataille, cette unité Meneur gagne les aptitudes Infiltrateurs et Éclaireurs 6".</characteristic>
           </characteristics>
         </profile>
         <profile name="Spectrus Doctrines" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="afc0-1ac-ce23-3a4f" publicationId="4115-3627-e608-39f6" page="27">
           <characteristics>
-            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">À la fin du tour de votre adversaire, si cette unité est plus de 6" loin de toutes les unités ennemies, vous pouvez retirer cette unité du champ de bataille et la placer dans les réserves stratégiques.</characteristic>
+            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">À la fin du tour de votre adversaire, si cette unité est à plus de 6" de toute unité ennemie, vous pouvez retirer cette unité du champ de bataille et la placer en Réserves Stratégiques.</characteristic>
           </characteristics>
         </profile>
       </profiles>
@@ -4020,7 +4020,7 @@ Si cette unité a une unité Meneur attachée à elle pendant l'étape Déclarer
                       <profiles>
                         <profile name="Helix Gauntlet" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="716b-0a19-8e77-b53f">
                           <characteristics>
-                            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Les figurines de l’unité du porteur ont la aptitude Insensible à la douleur 6+.</characteristic>
+                            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Les figurines de l’unité du porteur ont l’aptitude Insensible à la Douleur 6+.</characteristic>
                           </characteristics>
                         </profile>
                       </profiles>
@@ -4033,7 +4033,7 @@ Si cette unité a une unité Meneur attachée à elle pendant l'étape Déclarer
                       <profiles>
                         <profile name="Infiltrator Comms Array" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="ccbb-aa23-747f-8529">
                           <characteristics>
-                            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Chaque fois que vous ciblez l'unité du porteur avec un Stratagème, lancez un D6: sur un 5+, vous gagnez 1CP.</characteristic>
+                            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Chaque fois que vous ciblez l’unité du porteur avec un Stratagème, lancez un D6: sur un 5+, vous gagnez 1CP.</characteristic>
                           </characteristics>
                         </profile>
                       </profiles>
@@ -4271,7 +4271,7 @@ Si cette unité a une unité Meneur attachée à elle pendant l'étape Déclarer
                         </profile>
                         <profile name="Instigator Bolt Carbine" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="c1da-c076-7de5-5ee6">
                           <characteristics>
-                            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Dans votre phase de Tir, après que l'unité du porteur a tiré, l'unité du porteur peut faire un mouvement normal. Si c'est le cas, jusqu'à la fin du tour, l'unité du porteur n'est pas admissible à déclarer une charge.</characteristic>
+                            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Dans votre phase de Tir, après que l’unité du porteur a tiré, l’unité du porteur peut effectuer un mouvement Normal. Si c'est le cas, jusqu'à la fin du tour, l’unité du porteur n'est pas admissible à déclarer une charge.</characteristic>
                           </characteristics>
                         </profile>
                       </profiles>
@@ -4579,7 +4579,7 @@ Si cette unité a une unité Meneur attachée à elle pendant l'étape Déclarer
       <profiles>
         <profile name="Death to the Alien" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="079c-c14f-83f1-25a6" publicationId="4115-3627-e608-39f6" page="13">
           <characteristics>
-            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Chaque fois qu'une figurine dans cette unité fait une attaque, relance un jet de Touche de 1. Si la cible de cette attaque n'a pas les mots clés IMPERIUM ou CHAOS, vous pouvez relancer le jet de Touche à la place.</characteristic>
+            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Chaque fois qu’une figurine de cette unité effectue une attaque, relancez un jet de Touche de 1. Si la cible de cette attaque ne possède pas les mots-clés IMPERIUM ou CHAOS, vous pouvez relancer le jet de Touche à la place.</characteristic>
           </characteristics>
         </profile>
         <profile name="Attached Unit" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="e7f7-7d78-25b1-f510">
@@ -5222,7 +5222,7 @@ Si cette unité a une unité Meneur attachée à elle pendant l'étape Déclarer
       <profiles>
         <profile name="Astartes shield" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="71e1-9a9b-58e8-3849">
           <characteristics>
-            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Le porteur a un 4+ sauvegarde invulnérable.</characteristic>
+            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Le porteur a une sauvegarde invulnérable de 4+.</characteristic>
           </characteristics>
         </profile>
       </profiles>
@@ -5556,9 +5556,9 @@ Si cette unité a une unité Meneur attachée à elle pendant l'étape Déclarer
       <profiles>
         <profile name="Talonstrike Doctrines" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="088e-3c36-f4e3-6140">
           <characteristics>
-            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Chaque fois que cette unité est placée sur le champ de bataille, jusqu'à la fin du tour:
-- Améliorez la caractéristique de Pénétration d’Armure des armes équipées de figurines dans cette unité de 1.
-- Les armes Melee équipées par des figurines de cette unité ont la aptitude [LANCE].</characteristic>
+            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Chaque fois que cette unité est placée sur le champ de bataille, jusqu’à la fin du tour :
+- Améliorez de 1 la caractéristique de Pénétration d’Armure des armes dont sont équipées les figurines de cette unité.
+- Les armes de mêlée dont sont équipées les figurines de cette unité ont l’aptitude [LANCE].</characteristic>
           </characteristics>
         </profile>
         <profile name="Attached Unit" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="de67-fb7c-d2b3-c29d">
@@ -5691,12 +5691,12 @@ Si cette unité a une unité Meneur attachée à elle pendant l'étape Déclarer
       <profiles>
         <profile name="Death to the Alien" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="978a-4e34-0590-c7f8">
           <characteristics>
-            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Chaque fois qu'une figurine dans cette unité fait une attaque, relance un jet de Touche de 1. Si la cible de cette attaque n'a pas les mots clés ^^**Imperium^^** ou ^^**Chaos^^**, vous pouvez relancer le jet de Touche à la place.</characteristic>
+            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Chaque fois qu’une figurine de cette unité effectue une attaque, relancez un jet de Touche de 1. Si la cible de cette attaque ne possède pas les mots-clés ^^**Imperium^^** ou ^^**Chaos^^**, vous pouvez relancer le jet de Touche à la place.</characteristic>
           </characteristics>
         </profile>
         <profile name="Attached Unit" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="012d-8fb3-77cd-d660">
           <characteristics>
-            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Si une unité ^^**Character^^** unité de votre armée peut être attachée à a ^^**Fortis Kill Team^^**, elle peut être rattachée à cette unité à la place.</characteristic>
+            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Si une unité ^^**Character^^** de votre armée peut être attachée à une unité ^^**Fortis Kill Team^^**, elle peut être attachée à cette unité à la place.</characteristic>
           </characteristics>
         </profile>
       </profiles>
@@ -6057,7 +6057,7 @@ Si cette unité a une unité Meneur attachée à elle pendant l'étape Déclarer
                   <profiles>
                     <profile name="Astartes shield" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="bd58-e1dc-7a65-ac86">
                       <characteristics>
-                        <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Le porteur a un 4+ sauvegarde invulnérable.</characteristic>
+                        <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Le porteur a une sauvegarde invulnérable de 4+.</characteristic>
                       </characteristics>
                     </profile>
                   </profiles>
@@ -6501,7 +6501,7 @@ Si cette unité a une unité Meneur attachée à elle pendant l'étape Déclarer
     </profile>
   </sharedProfiles>
   <catalogueLinks>
-    <catalogueLink type="catalogue" name="Imperium - Space Marines" id="0e90-a51e-f59d-892a" targetId="c64a-a8a4-fe12-90fd" importRootEntries="true" />
+    <catalogueLink type="catalogue" name="Imperium - Space Marines" id="0e90-a51e-f59d-892a" targetId="e0af-67df-9d63-8fb7" importRootEntries="true" />
   </catalogueLinks>
   <sharedRules>
     <rule name="Mission Tactics" id="2a5c-3c55-d113-3a53" hidden="false">

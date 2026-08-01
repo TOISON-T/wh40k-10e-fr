@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue xmlns="http://www.battlescribe.net/schema/catalogueSchema" library="false" id="615c-961c-7bea-18ef" name="Imperium - Adeptus Astartes - Dark Angels" gameSystemId="sys-0e45-705d-f6bc-806a" gameSystemRevision="1" revision="51" battleScribeVersion="2.03" authorName="Simon Porter" type="catalogue">
+<catalogue xmlns="http://www.battlescribe.net/schema/catalogueSchema" library="false" id="470a-6daa-9014-12df" name="Imperium - Adeptus Astartes - Dark Angels" gameSystemId="sys-352e-adc2-7639-d6a9" gameSystemRevision="1" revision="51" battleScribeVersion="2.03" authorName="Simon Porter" type="catalogue">
   <catalogueLinks>
-    <catalogueLink type="catalogue" name="Imperium - Space Marines" id="a650-8be4-a99-ea41" targetId="c64a-a8a4-fe12-90fd" importRootEntries="true" />
-    <catalogueLink type="catalogue" name="Imperium - Imperial Knights - Library" id="f6c0-6a84-98dc-c47b" targetId="1787-6721-8649-a4a8" importRootEntries="true" />
-    <catalogueLink type="catalogue" name="Imperium - Agents of the Imperium" id="f161-7bb8-b521-bc26" targetId="58ea-21f3-3da9-74dd" importRootEntries="true" />
+    <catalogueLink type="catalogue" name="Imperium - Space Marines" id="a650-8be4-a99-ea41" targetId="e0af-67df-9d63-8fb7" importRootEntries="true" />
+    <catalogueLink type="catalogue" name="Imperium - Imperial Knights - Library" id="f6c0-6a84-98dc-c47b" targetId="1b6d-dc06-5db9-c7d1" importRootEntries="true" />
+    <catalogueLink type="catalogue" name="Imperium - Agents of the Imperium" id="f161-7bb8-b521-bc26" targetId="b00-cd86-4b4c-97ba" importRootEntries="true" />
   </catalogueLinks>
   <publications>
     <publication name="Index - Dark Angels" hidden="false" id="3931-1b04-c00e-afad" publisher="Index - Dark Angels" publicationDate="12-06-2023" publisherUrl="https://www.warhammer-community.com/wp-content/uploads/2023/06/C6o7G0zjRSxCUvhK.pdf" shortName="Index - Dark Angels" />
@@ -105,7 +105,7 @@
         </profile>
         <profile name="Supreme Grand Master" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="419d-1edd-9c5d-dff7" page="7">
           <characteristics>
-            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Alors que cette figurine mène une unité, les armes équipées de figurines dans cette unité ont la aptitude [Touches soutenues 1].</characteristic>
+            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Alors que cette figurine mène une unité, les armes équipées des figurines de cette unité ont l’aptitude [Touches soutenues 1].</characteristic>
           </characteristics>
         </profile>
         <profile name="Masterful Tactician" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="5cab-d147-af7c-b68c" page="7">
@@ -115,7 +115,7 @@
         </profile>
         <profile name="The Lion Helm" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="3bab-46d5-38a4-e70f" page="7">
           <characteristics>
-            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Les figurines de l'unité du porteur ont un 4+ sauvegarde invulnérable. En plus, une fois par bataille, dans n'importe quelle phase, le porteur peut invoquer un Watcher in the Dark. Lorsque cela arrive, jusqu'à la fin de la phase, les figurines de l'unité du porteur ont la aptitude Insensible à la douleur 4+ contre les Blessures Mortelles.</characteristic>
+            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Les figurines de l’unité du porteur ont une sauvegarde invulnérable de 4+. De plus, une fois par bataille, durant n’importe quelle phase, le porteur peut invoquer un Watcher in the Dark. Lorsqu’il le fait, jusqu’à la fin de la phase, les figurines de l’unité du porteur ont l’aptitude Insensible à la douleur 4+ contre les blessures mortelles.</characteristic>
           </characteristics>
         </profile>
         <profile id="a1d2-31fe-75da-858c" name="Sauvegarde Invulnérable" hidden="false" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" page="7">
@@ -178,12 +178,12 @@
         </profile>
         <profile name="Grand Master of the Deathwing" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="5c8e-e7f9-5ded-2a58" page="9">
           <characteristics>
-            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Alors que cette figurine mène une unité, chaque fois qu'une figurine dans cette unité fait une attaque, si un Hit critique est marqué, cette attaque a la aptitude [Précision].</characteristic>
+            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Tant que cette figurine mène une unité, chaque fois qu’une figurine de cette unité effectue une attaque, si une Touche Critique est obtenue, cette attaque a l’aptitude [Précision].</characteristic>
           </characteristics>
         </profile>
         <profile name="Strikes of Retribution" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="1f47-7e55-2cae-535c" page="9">
           <characteristics>
-            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Chaque fois qu'une attaque de mêlée est attribuée à cette figurine, après que l'unité attaquante ait terminé ses attaques, lancez un D6 (au maximum six D6 par unité attaquante): pour chaque 4+, l'unité attaquante subit une blessure mortelle 1.</characteristic>
+            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Chaque fois qu’une attaque de mêlée est allouée à cette figurine, une fois que l’unité de la figurine attaquante a fini de résoudre ses attaques, lancez un D6 (jusqu’à un maximum de six D6 par unité attaquante) : pour chaque 4+, l’unité attaquante subit 1 blessure mortelle.</characteristic>
           </characteristics>
         </profile>
         <profile name="Sauvegarde Invulnérable" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="ec73-66f5-f92a-addf">
@@ -340,12 +340,12 @@
         </profile>
         <profile name="Grand Master of the Ravenwing" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="8858-35c5-7be5-9f0a">
           <characteristics>
-            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Alors que cette figurine mène une unité, cette unité est éligible pour tirer et déclarer une charge dans un tour dans lequel il avance. Si cette unité est déjà éligible à la prise de vue et à la déclaration d'une charge à un tour où elle avance, ajoutez 1 aux jets d’Avance et de Charge faits pour cette unité à la place.</characteristic>
+            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Alors que cette figurine mène une unité, cette unité est éligible pour tirer et déclare une charge dans un tour dans lequel il avance. Si cette unité est déjà éligible pour tirer et déclare une charge dans un tour dans lequel elle avance, ajoutez 1 à Advance et jets de Charge de cette unité à la place.</characteristic>
           </characteristics>
         </profile>
         <profile name="Cut Off Their Escape" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="226-2678-90ed-5d5" page="11">
           <characteristics>
-            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Chaque fois qu'une unité ennemie (à l'exclusion des monstres et des véhicules) dans la Portée d’Engagement de l’unité de cette figurine est sélectionnée pour Battre en Retraite, les figurines de cette unité ennemie doivent passer des tests d'évasion désespérée comme si leur unité était Ébranlée. Lorsque vous faites cela, si cette unité ennemie est également Ébranlée par d'autres moyens, Soustrayez 1 de chacun de ces tests d'évasion désespérée.</characteristic>
+            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Chaque fois qu'une unité ennemie (à l’exclusion de Monsters et Vehicles) dans Portée d’Engagement de l’unité de cette figurine est sélectionné pour Battre en Retraite, les figurines de cette unité ennemie doit prendre tests de Fuite Désespérée comme si leur unité était Ébranlé. Dans ce cas, si cette unité ennemie est aussi Ébranlé par d'autres moyens, Soustrayez 1 de chacun de ces tests de Fuite Désespérée.</characteristic>
           </characteristics>
         </profile>
       </profiles>
@@ -503,12 +503,12 @@
         </profile>
         <profile name="Engulfing Fear [Psychic]" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="f048-48f8-8dc0-3001" page="13">
           <characteristics>
-            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Dans votre phase de Tir, vous pouvez sélectionner une unité ennemie à 18" ou moins de cette figurine. Cette unité ennemie doit passer un test d’Ébranlement.</characteristic>
+            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Dans votre phase de Tir, vous pouvez sélectionner une unité ennemie à 18" ou moins de cette figurine. cette unité ennemie doit prendre un test d’Ébranlement.</characteristic>
           </characteristics>
         </profile>
         <profile name="Book of Salvation" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="b91e-a6de-9238-9ee1" page="13">
           <characteristics>
-            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Pendant que cette figurine mène une unité, ajoutez 1 aux caractéristique d’Attaques des armes de mêlée équipées de figurines dans cette unité. Lorsque cette figurine est détruit, chaque unité amicale Adeptus Astartes à 6" ou moins de cette figurine doit passer un test d’Ébranlement.</characteristic>
+            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Tant que cette figurine mène une unité, ajoutez 1 à la caractéristique d’Attaques des armes de mêlée dont sont équipées les figurines de cette unité. Lorsque cette figurine est détruite, chaque unité Adeptus Astartes amie à 6" ou moins de cette figurine doit effectuer un test d’Ébranlement.</characteristic>
           </characteristics>
         </profile>
         <profile name="Meneur" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="cf97-b93c-c35-1e55" page="14">
@@ -665,12 +665,12 @@
         </profile>
         <profile name="Exemplar of Hate" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="cb36-69d9-6027-34d7" page="15">
           <characteristics>
-            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Pendant que cette figurine mène une unité, à chaque fois qu'une figurine dans cette unité fait une attaque de mêlée, vous pouvez relancer le jet de Touche.</characteristic>
+            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Alors que cette figurine conduit une unité, chaque fois qu'une figurine dans cette unité fait une attaque de mêlée, vous pouvez relancer le jet de Touche.</characteristic>
           </characteristics>
         </profile>
         <profile name="Feared Interrogator" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="4483-333d-1b7-1499" page="15">
           <characteristics>
-            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Au début de la phase de Combat, chaque unité de caractère ennemi à 6" ou moins de cette figurine doit passer un test d’Ébranlement, en soustrayant 1 de ce test quand ils le font. De plus, chaque fois que cette figurine détruit une figurine de personnage ennemi avec une attaque de mêlée, vous gagnez 1CP.</characteristic>
+            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Au début de la phase de Combat, chaque unité Character ennemie à 6" ou moins de cette figurine doit effectuer un test d’Ébranlement en soustrayant 1 à ce test. De plus, chaque fois que cette figurine détruit une figurine Character ennemie avec une attaque de mêlée, vous gagnez 1CP.</characteristic>
           </characteristics>
         </profile>
         <profile name="Meneur" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="3b91-c4c6-818d-4442" page="15">
@@ -785,7 +785,7 @@
         </profile>
         <profile name="Primarch of the First Legion" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="d7-26f-1f5c-5d7b" page="41">
           <characteristics>
-            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Au début de votre phase de Commandement, Sélectionnez deux capacités Primarch of the First Legion. Jusqu'au début de votre prochaine phase de Commandement, cette figurine a ces capacités.</characteristic>
+            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Au début de votre phase de Commandement, sélectionnez deux aptitudes Primarch of the First Legion. Jusqu’au début de votre prochaine phase de Commandement, cette figurine a ces aptitudes.</characteristic>
           </characteristics>
         </profile>
         <profile name="Mist-wreathed Shadow Realms" typeId="a400-f511-a59-fca7" typeName="Primarch of the First Legion" hidden="false" id="b8af-d4a-e67e-5308" page="41">
@@ -805,12 +805,12 @@
         </profile>
         <profile name="The Emperor's Shield" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="525f-c5d8-d135-e7a1" page="41">
           <characteristics>
-            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Chaque fois qu'une attaque est attribuée à cette figurine, si la caractéristique de résistance de cette attaque est supérieure à la caractéristique d’Endurance de cette figurine, Soustrayez 1 du jet de Blessure.</characteristic>
+            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Chaque fois qu'une attaque est attribuée à cette figurine, si la caractéristique de Force de cette attaque est supérieure à la caractéristique Endurance de cette figurine, Soustrayez 1 du jet de Blessure.</characteristic>
           </characteristics>
         </profile>
         <profile name="Dark Angels Bodyguard" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="330c-47ba-cddb-1910" page="41">
           <characteristics>
-            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Tant que cette figurine est à 3" ou moins d'une ou de plusieurs unités ^^**Adeptus Astartes Infantry^^** amicales, cette figurine a la aptitude Agent solitaire.</characteristic>
+            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Alors que cette figurine se trouve à 3" ou moins d'une ou de plusieurs unités amies ^^**Adeptus Astartes Infantry^^**, cette figurine a l’aptitude Agent solitaire.</characteristic>
           </characteristics>
         </profile>
         <profile id="e25a-6293-2852-6904" name="Sauvegarde Invulnérable" hidden="false" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" page="41">
@@ -956,12 +956,12 @@
         </profile>
         <profile name="Intractable Will" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="d624-cd8c-e5fa-4603" page="19">
           <characteristics>
-            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Alors que cette figurine mène une unité, chaque fois qu'une figurine dans cette unité est détruite par une attaque de mêlée, si cette figurine n'a pas combattu cette phase, lancez un D6. Sur un 4+, ne le retirez pas du jeu; cette figurine détruit peut combattre après que l'unité attaquante ait terminé ses attaques, et est ensuite retiré du jeu.</characteristic>
+            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Tant que cette figurine mène une unité, chaque fois qu’une figurine de cette unité est détruite par une attaque de mêlée, si cette figurine n’a pas combattu à cette phase, lancez un D6. Sur 4+, ne la retirez pas du jeu ; cette figurine détruite peut combattre après que l’unité attaquante a fini d’effectuer ses attaques, puis elle est retirée du jeu.</characteristic>
           </characteristics>
         </profile>
         <profile name="The Spiritshield Helm" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="c2a8-5405-6d21-f044" page="19">
           <characteristics>
-            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">cette figurine a la aptitude Insensible à la douleur 3+ contre les attaques Psychique et les Blessures Mortelles.</characteristic>
+            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">cette figurine a l’aptitude Insensible à la douleur 3+ contre les attaques Psychiques et Blessures Mortelles.</characteristic>
           </characteristics>
         </profile>
         <profile name="Sauvegarde Invulnérable" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="620b-a55b-f7f1-5e58" page="19">
@@ -1086,7 +1086,7 @@
         </profile>
         <profile name="Lightning-fast Manoeuvres" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="8639-6848-43d7-63e7" page="39">
           <characteristics>
-            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Chaque fois qu'une attaque de tir cible cette figurine, Soustrayez 1 du jet de Touche. Si cette attaque a été faite par une figurine capable de voler, Soustrayez 1 du jet de Blessure aussi.</characteristic>
+            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Chaque fois qu'une attaque de tir cible cette figurine, Soustrayez 1 du jet de Touche. Si cette attaque a été faite par une figurine qui peut voler, Soustrayez 1 du jet de Blessure aussi bien.</characteristic>
           </characteristics>
         </profile>
         <profile name="Damaged: 1-3 Wounds Remaining" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="2cff-f9b1-965c-5e8d">
@@ -1576,7 +1576,7 @@
         </profile>
         <profile name="Storm of Vengeance" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="63a-27da-15f5-31d0" page="35">
           <characteristics>
-            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Une fois par tour, dans la phase de Tir de votre adversaire, quand une autre unité amicale Adeptus Astartes à 6" ou moins de cette figurine est détruite, une figurine avec cette aptitude peut l'utiliser. S'il le fait, après que l'unité attaquante ait terminé d'effectuer ses attaques, cette figurine peut tirer comme si c'était votre phase de Tir, mais lors de la résolution de ces attaques, il ne peut cibler que l'unité ennemie (et seulement si c'est une cible admissible).</characteristic>
+            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Une fois par tour, durant la phase de Tir de votre adversaire, lorsqu’une autre unité Adeptus Astartes amie à 6" ou moins de cette figurine est détruite, une figurine dotée de cette aptitude peut l’utiliser. Si elle le fait, une fois que l’unité attaquante a fini de résoudre ses attaques, cette figurine peut tirer comme s’il s’agissait de votre phase de Tir, mais, lors de la résolution de ces attaques, elle ne peut cibler que cette unité ennemie (et seulement si celle-ci est une cible éligible).</characteristic>
           </characteristics>
         </profile>
       </profiles>
@@ -1817,7 +1817,7 @@
         </profile>
         <profile name="Icon of Old Caliban (Aura)" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="a79a-fb98-5a0b-66ca" page="33">
           <characteristics>
-            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Alors qu'une unité amicale Adeptus Astartes est à 6" ou moins de cette figurine, les figurines dans cette unité ont la aptitude Discrétion et chaque fois qu'une attaque de tir cible cette unité, cette unité a le Bénéfice du Couvert contre cette attaque.</characteristic>
+            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Alors qu'une unité amicale Adeptus Astartes est à 6" ou moins de cette figurine, les figurines de cette unité ont l’aptitude Discrétion et chaque fois qu'une attaque de tir cible cette unité, cette unité a le Bénéfice du Couvert contre cette attaque.</characteristic>
           </characteristics>
         </profile>
         <profile name="Ravenwing Darkshroud" typeId="c547-1836-d8a-ff4f" typeName="Unit" hidden="false" id="e2ad-7d12-d9ea-d35e" page="33">
@@ -2017,7 +2017,7 @@
       <profiles>
         <profile name="Knights of Caliban" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="9aa9-7a1a-e930-a53b" page="31">
           <characteristics>
-            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Chaque fois que cette unité est sélectionnée pour combattre, si elle effectuer un mouvement de Charge ce tour, jusqu'à la fin de la phase, les armes de mêlée équipées de figurines dans cette unité ont les capacités [ANTI-MONSTER 4+] et [ANTI-VEHICLE 4+].</characteristic>
+            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Chaque fois que cette unité est sélectionnée pour combattre, si elle a fait un mouvement de Charge ce tour, Jusqu’à la fin de la phase, armes de mêlée dont sont équipées les figurines de cette unité ont les aptitudes [ANTI-MONSTER 4+] et [ANTI-VEHICLE 4+].</characteristic>
           </characteristics>
         </profile>
         <profile name="Attached Unit" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="d659-103f-7990-1d94" page="31">
@@ -2454,17 +2454,17 @@
         </profile>
         <profile name="Narthecium" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="db8f-9d86-59e8-b9eb" publicationId="3931-1b04-c00e-afad" page="29">
           <characteristics>
-            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Alors que cette unité contient un Ravenwing Apothecary, dans votre phase de Commandement, vous pouvez renvoyer la figurine 1 détruit (à l'exclusion des figurines Character et Invader ATV) à cette unité.</characteristic>
+            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Alors que cette unité contient un Ravenwing Apothecary, dans votre phase de Commandement, vous pouvez retourner 1 détruit figurine (à l’exclusion de Caractère et Invader ATV figurines) à cette unité.</characteristic>
           </characteristics>
         </profile>
         <profile name="Astartes Banner" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="1d4c-173b-98d2-9ffd" publicationId="3931-1b04-c00e-afad" page="29">
           <characteristics>
-            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Alors que cette unité contient un Ravenwing Ancient, ajoutez 1 à la caractéristique de Contrôle d’Objectif des figurines de cette unité.</characteristic>
+            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Tant que cette unité contient un Ravenwing Ancient, ajoutez 1 à la caractéristique de Contrôle d’Objectif des figurines de cette unité.</characteristic>
           </characteristics>
         </profile>
         <profile name="Honour or Death" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="7ec7-12bc-d4f1-8221" publicationId="3931-1b04-c00e-afad" page="29">
           <characteristics>
-            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Alors que cette unité contient un Ravenwing Champion, ajoutez 1 aux jets d’Avance et de Charge faits pour cette unité et vous pouvez cibler cette unité avec le stratagème d'intervention héroïque pour 0CP.</characteristic>
+            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Tant que cette unité contient un Ravenwing Champion, ajoutez 1 aux jets d’Avance et de Charge effectués pour cette unité et vous pouvez cibler cette unité avec le Stratagème Heroic Intervention pour 0CP.</characteristic>
           </characteristics>
         </profile>
       </profiles>
@@ -2967,7 +2967,7 @@
           <profiles>
             <profile name="Watcher in the Dark" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="fdbb-e7fe-2049-9899">
               <characteristics>
-                <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Une fois par bataille., dans n'importe quelle phase, juste après qu'une blessure mortelle soit attribuée à une figurine Adeptus Astartes dans cette unité., Cette unité peut invoquer une Watcher in the Dark. Quand cela arrive, jusqu'à la fin de la phase, les figurines de cette unité ont la aptitude Insensible à la douleur 4+ contre les Blessures Mortelles.</characteristic>
+                <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Une fois par bataille, durant n’importe quelle phase, juste après qu’une blessure mortelle a été allouée à une figurine Adeptus Astartes de cette unité, cette unité peut invoquer un Watcher in the Dark. Lorsqu’elle le fait, jusqu’à la fin de la phase, les figurines de cette unité ont l’aptitude Insensible à la douleur 4+ contre les blessures mortelles.</characteristic>
               </characteristics>
             </profile>
           </profiles>
@@ -2985,7 +2985,7 @@
       <profiles>
         <profile name="Inner Circle" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="eae2-b4fb-2b33-c0e2">
           <characteristics>
-            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Chaque fois qu'une attaque est attribuée à une figurine dans cette unité, Soustrayez 1 de la caractéristique Dégât de cette attaque.</characteristic>
+            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Chaque fois qu'une attaque est attribuée à une figurine dans cette unité, Soustrayez 1 de la caractéristique de Dégâts de cette attaque.</characteristic>
           </characteristics>
         </profile>
         <profile name="Sauvegarde Invulnérable" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="d132-7f85-a199-1620">
@@ -3000,7 +3000,7 @@
         </profile>
         <profile name="Teleport Homer" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="8834-8084-f9d3-227d">
           <characteristics>
-            <characteristic name="Description" hidden="false" id="a05f-e8b7-f803-99c0" typeId="9b8f-694b-e5e-b573">Au début de la bataille, vous pouvez configurer un jeton Teleport Homer pour cette unité n'importe où sur le champ de bataille qui n'est pas dans la zone de déploiement de votre adversaire. Si vous le faites, une fois par bataille, vous pouvez cibler cette unité avec le Rapid Ingress Stratagème pour 0CP, mais lors de la résolution de ce Stratagème, vous devez mettre cette unité à 3" ou moins horizontalement de ce jeton et pas à 9" ou moins horizontalement de tout figurine ennemie. Ce jeton est alors retiré.</characteristic>
+            <characteristic name="Description" hidden="false" id="a05f-e8b7-f803-99c0" typeId="9b8f-694b-e5e-b573">Au début de la bataille, vous pouvez configurer un jeton Teleport Homer pour cette unité n'importe où sur le champ de bataille qui n'est pas dans votre adversaire zone de déploiement. Si vous le faites, Une fois par bataille, vous pouvez cibler cette unité avec le Rapid Ingress Stratagème pour 0CP, mais lorsque vous résolvez que Stratagème, vous devez mettre cette unité à 3" ou moins horizontalement de ce jeton et pas à 9" ou moins horizontalement de tout ennemi figurines. Ce jeton est alors retiré.</characteristic>
           </characteristics>
         </profile>
       </profiles>
@@ -3246,13 +3246,13 @@
       <profiles>
         <profile name="Sauvegarde Invulnérable" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="ec7e-6604-2b93-4c95" publicationId="3931-1b04-c00e-afad" page="31">
           <characteristics>
-            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Les figurines de cette unité ont un 4+ sauvegarde invulnérable.</characteristic>
+            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Les figurines de cette unité ont une sauvegarde invulnérable de 4+.</characteristic>
           </characteristics>
         </profile>
         <profile name="Deathwing" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="f2cb-8211-7899-158a">
           <characteristics>
-            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Chaque fois qu'une figurine de cette unité fait une attaque, vous pouvez ignorer n'importe quel ou tous les modificateurs à cette attaque de la caractéristique de Capacité de Tir ou caractéristique de Capacité de Combat et/ou à la jets de Touche.
-En outre, chaque fois qu'une figurine de cette unité effectue une attaque visant votre cible Oath of Moment (voir Codex: Marines spatiaux), ajoutez 1 à le jet de Touche.</characteristic>
+            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Chaque fois qu’une figurine de cette unité effectue une attaque, vous pouvez ignorer tout ou partie des modificateurs appliqués à la caractéristique de Capacité de Tir ou à la caractéristique de Capacité de Combat de cette attaque et/ou au jet de Touche.
+De plus, chaque fois qu’une figurine de cette unité effectue une attaque qui cible votre cible Oath of Moment (voir Codex: Space Marines), ajoutez 1 au jet de Touche.</characteristic>
           </characteristics>
         </profile>
         <profile name="Attached Unit" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="96ec-4242-df64-6aee">
@@ -3262,7 +3262,7 @@ En outre, chaque fois qu'une figurine de cette unité effectue une attaque visan
         </profile>
         <profile name="Teleport Homer" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="f474-41aa-a575-50e8">
           <characteristics>
-            <characteristic name="Description" hidden="false" id="3be5-bec1-f3b0-3ee7" typeId="9b8f-694b-e5e-b573">Au début de la bataille, vous pouvez configurer un jeton Teleport Homer pour cette unité n'importe où sur le champ de bataille qui n'est pas dans la zone de déploiement de votre adversaire. Si vous le faites, une fois par bataille, vous pouvez cibler cette unité avec le Rapid Ingress Stratagème pour 0CP, mais lors de la résolution de ce Stratagème, vous devez mettre cette unité à 3" ou moins horizontalement de ce jeton et pas à 9" ou moins horizontalement de tout figurine ennemie. Ce jeton est alors retiré.</characteristic>
+            <characteristic name="Description" hidden="false" id="3be5-bec1-f3b0-3ee7" typeId="9b8f-694b-e5e-b573">Au début de la bataille, vous pouvez configurer un jeton Teleport Homer pour cette unité n'importe où sur le champ de bataille qui n'est pas dans votre adversaire zone de déploiement. Si vous le faites, Une fois par bataille, vous pouvez cibler cette unité avec le Rapid Ingress Stratagème pour 0CP, mais lorsque vous résolvez que Stratagème, vous devez mettre cette unité à 3" ou moins horizontalement de ce jeton et pas à 9" ou moins horizontalement de tout ennemi figurines. Ce jeton est alors retiré.</characteristic>
           </characteristics>
         </profile>
       </profiles>
@@ -3284,7 +3284,7 @@ En outre, chaque fois qu'une figurine de cette unité effectue une attaque visan
           <profiles>
             <profile name="Watcher in the Dark" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="c387-d84-4d0c-5ce0">
               <characteristics>
-                <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Une fois par bataille., dans n'importe quelle phase, juste après qu'une blessure mortelle soit attribuée à une figurine Adeptus Astartes dans cette unité., Cette unité peut invoquer une Watcher in the Dark. Quand cela arrive, jusqu'à la fin de la phase, les figurines de cette unité ont la aptitude Insensible à la douleur 4+ contre les Blessures Mortelles.</characteristic>
+                <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Une fois par bataille, durant n’importe quelle phase, juste après qu’une blessure mortelle a été allouée à une figurine Adeptus Astartes de cette unité, cette unité peut invoquer un Watcher in the Dark. Lorsqu’elle le fait, jusqu’à la fin de la phase, les figurines de cette unité ont l’aptitude Insensible à la douleur 4+ contre les blessures mortelles.</characteristic>
               </characteristics>
             </profile>
           </profiles>
@@ -3705,12 +3705,12 @@ En outre, chaque fois qu'une figurine de cette unité effectue une attaque visan
         </profile>
         <profile name="Braziers of Judgement" hidden="false" id="7a96-3999-3c95-cfa8" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities">
           <characteristics>
-            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Alors qu'une figurine de personnage dirige cette unité, chaque fois qu'une attaque cible cette unité, Soustrayez 1 du jet de Touche.</characteristic>
+            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Alors qu'un caractère figurine dirige cette unité, chaque fois qu'une attaque cible cette unité, Soustrayez 1 du jet de Touche.</characteristic>
           </characteristics>
         </profile>
         <profile name="Emnity for the Unworthy" hidden="false" id="884d-4284-89ea-32d5" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities">
           <characteristics>
-            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Chaque fois qu'une figurine dans cette unité fait une attaque qui cible une unité de caractère, ajoutez 1 au jet de Touche.</characteristic>
+            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Chaque fois qu’une figurine de cette unité effectue une attaque qui cible une unité Character, ajoutez 1 au jet de Touche.</characteristic>
           </characteristics>
         </profile>
       </profiles>
@@ -3913,12 +3913,12 @@ En outre, chaque fois qu'une figurine de cette unité effectue une attaque visan
         </profile>
         <profile name="Nowhere To Hide" hidden="false" id="e40d-a580-8e1f-cd2a" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities">
           <characteristics>
-            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Alors qu'une unité de véhicule volant Adeptus Astartes Mounted ou Adeptus Astartes Fly Vehicle est à 6" ou moins de cette figurine, les armes de tir équipées par des figurines de cette unité ont la aptitude [Ignore le couvert].</characteristic>
+            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Tant qu’une unité Adeptus Astartes Mounted ou Adeptus Astartes Fly Vehicle amie est à 6" ou moins de cette figurine, les armes de tir dont sont équipées les figurines de cette unité ont l’aptitude [Ignore le couvert].</characteristic>
           </characteristics>
         </profile>
         <profile name="Master of Manoeuvre" hidden="false" id="fdde-d4a-774c-9306" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities">
           <characteristics>
-            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Une fois par tour, lorsqu'une unité ennemie termine un mouvement Normal, Avance ou Battre en Retraite à 9" ou moins de cette figurine, si cette figurine n'est pas dans la Portée d’Engagement d'une ou de plusieurs unités ennemies, cette figurine peut effectuer un mouvement Normal jusqu'à 6".</characteristic>
+            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Une fois par tour, lorsqu’une unité ennemie termine un mouvement Normal, d’Avance ou de Retraite à 9" ou moins de cette figurine, si cette figurine n’est pas à Portée d’Engagement d’une ou plusieurs unités ennemies, cette figurine peut effectuer un mouvement Normal de jusqu’à 6".</characteristic>
           </characteristics>
         </profile>
         <profile name="Sauvegarde Invulnérable" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="1431-e0c7-d73-19e5" page="35">
@@ -4175,12 +4175,12 @@ En outre, chaque fois qu'une figurine de cette unité effectue une attaque visan
         </profile>
         <profile name="Tactical Precision" hidden="false" id="7f5f-f0c0-a920-3b8" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities">
           <characteristics>
-            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Alors que cette figurine mène une unité, les armes équipées de figurines dans cette unité ont la aptitude [Touches fatales].</characteristic>
+            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Alors que cette figurine mène une unité, les armes équipées des figurines de cette unité ont l’aptitude [Touches fatales].</characteristic>
           </characteristics>
         </profile>
         <profile name="Vanquish the Foe" hidden="false" id="7634-2d39-6144-eece" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities">
           <characteristics>
-            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Chaque fois que cette figurine fait une attaque qui vise une unité ennemie qui est en dessous de son Demi-effectif., Ajoutez 1 au jet de Touche et Ajoutez 1 au jet de Blessure.</characteristic>
+            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Chaque fois que cette figurine effectue une attaque visant une unité ennemie qui est En Dessous de son Demi-effectif, ajoutez 1 au jet de Touche et 1 au jet de Blessure.</characteristic>
           </characteristics>
         </profile>
       </profiles>
@@ -4393,7 +4393,7 @@ En outre, chaque fois qu'une figurine de cette unité effectue une attaque visan
               <profiles>
                 <profile name="Storm Shield" hidden="false" id="ee22-6e5c-3330-8c9e" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities">
                   <characteristics>
-                    <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Le porteur possède une caractéristique de PV de 6.</characteristic>
+                    <characteristic name="Description" typeId="9b8f-694b-e5e-b573">le porteur a une caractéristique de PV de 6.</characteristic>
                   </characteristics>
                 </profile>
               </profiles>
@@ -4548,7 +4548,7 @@ En outre, chaque fois qu'une figurine de cette unité effectue une attaque visan
                 </profile>
                 <profile name="Astartes Banner" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="3aaa-cca1-0253-cf09">
                   <characteristics>
-                    <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Alors que cette unité contient un Ancient, ajoutez 1 à la caractéristique de Contrôle d’Objectif de ses figurines.</characteristic>
+                    <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Tant que cette unité contient un Ancient, ajoutez 1 à la caractéristique de Contrôle d’Objectif de ses figurines.</characteristic>
                   </characteristics>
                 </profile>
               </profiles>
@@ -4625,7 +4625,7 @@ En outre, chaque fois qu'une figurine de cette unité effectue une attaque visan
                 </profile>
                 <profile name="Narthecium" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="6e99-dde5-9838-f044">
                   <characteristics>
-                    <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Alors que cette unité contient un Apothecary, dans votre phase de Commandement, vous pouvez renvoyer la figurine 1 détruit (à l'exclusion des figurines de caractères) à cette unité.</characteristic>
+                    <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Tant que cette unité contient un Apothecary, durant votre phase de Commandement, vous pouvez replacer 1 figurine détruite (à l’exclusion des figurines Character) dans cette unité.</characteristic>
                   </characteristics>
                 </profile>
               </profiles>
@@ -5142,7 +5142,7 @@ En outre, chaque fois qu'une figurine de cette unité effectue une attaque visan
                   <profiles>
                     <profile name="Storm Shield" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="3fd6-f123-4dd9-18d3">
                       <characteristics>
-                        <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Le porteur possède une caractéristique de PV de 4.</characteristic>
+                        <characteristic name="Description" typeId="9b8f-694b-e5e-b573">le porteur a une caractéristique de PV de 4.</characteristic>
                       </characteristics>
                     </profile>
                   </profiles>
@@ -5180,7 +5180,7 @@ En outre, chaque fois qu'une figurine de cette unité effectue une attaque visan
           <profiles>
             <profile name="Watcher in the Dark" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="7a52-1ecc-80ec-c0a6">
               <characteristics>
-                <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Une fois par bataille., dans n'importe quelle phase, juste après qu'une blessure mortelle soit attribuée à une figurine Adeptus Astartes dans cette unité., Cette unité peut invoquer une Watcher in the Dark. Quand cela arrive, jusqu'à la fin de la phase, les figurines de cette unité ont la aptitude Insensible à la douleur 4+ contre les Blessures Mortelles.</characteristic>
+                <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Une fois par bataille, durant n’importe quelle phase, juste après qu’une blessure mortelle a été allouée à une figurine Adeptus Astartes de cette unité, cette unité peut invoquer un Watcher in the Dark. Lorsqu’elle le fait, jusqu’à la fin de la phase, les figurines de cette unité ont l’aptitude Insensible à la douleur 4+ contre les blessures mortelles.</characteristic>
               </characteristics>
             </profile>
           </profiles>

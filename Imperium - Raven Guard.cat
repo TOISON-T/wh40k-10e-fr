@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue xmlns="http://www.battlescribe.net/schema/catalogueSchema" library="false" id="c356-2a27-4e9f-1b82" name="Imperium - Adeptus Astartes - Raven Guard" gameSystemId="sys-0e45-705d-f6bc-806a" gameSystemRevision="1" revision="17" battleScribeVersion="2.03" type="catalogue">
+<catalogue xmlns="http://www.battlescribe.net/schema/catalogueSchema" library="false" id="6e59-e1ee-47ad-6ce5" name="Imperium - Adeptus Astartes - Raven Guard" gameSystemId="sys-352e-adc2-7639-d6a9" gameSystemRevision="1" revision="17" battleScribeVersion="2.03" type="catalogue">
   <catalogueLinks>
-    <catalogueLink type="catalogue" name="Imperium - Space Marines" id="4142-7347-ddc2-705a" targetId="c64a-a8a4-fe12-90fd" importRootEntries="true" />
-    <catalogueLink type="catalogue" name="Imperium - Imperial Knights - Library" id="9a99-a0ad-519f-4619" targetId="1787-6721-8649-a4a8" importRootEntries="true" />
-    <catalogueLink type="catalogue" name="Imperium - Agents of the Imperium" id="d580-ac13-6238-5511" targetId="58ea-21f3-3da9-74dd" importRootEntries="true" />
+    <catalogueLink type="catalogue" name="Imperium - Space Marines" id="4142-7347-ddc2-705a" targetId="e0af-67df-9d63-8fb7" importRootEntries="true" />
+    <catalogueLink type="catalogue" name="Imperium - Imperial Knights - Library" id="9a99-a0ad-519f-4619" targetId="1b6d-dc06-5db9-c7d1" importRootEntries="true" />
+    <catalogueLink type="catalogue" name="Imperium - Agents of the Imperium" id="d580-ac13-6238-5511" targetId="b00-cd86-4b4c-97ba" importRootEntries="true" />
   </catalogueLinks>
   <sharedSelectionEntries>
     <selectionEntry type="model" import="true" name="Kayvaan Shrike" hidden="false" id="339f-9776-243d-69a6">
@@ -55,12 +55,12 @@
         </profile>
         <profile name="Trifold Path of Shadow" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="f688-b597-c9de-b5ac">
           <characteristics>
-            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Alors que cette figurine mène une unité, les figurines de cette unité ne peuvent pas être ciblés par des attaques de tir à moins que la figurine attaquant ne se trouve à 12" ou moins.</characteristic>
+            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Alors que cette figurine mène une unité, les figurines de cette unité ne peuvent pas être ciblé par attaques de tir à moins que la figurine attaquant ne soit à 12" ou moins.</characteristic>
           </characteristics>
         </profile>
         <profile name="Echo of the Ravenspire" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="b769-af88-7e44-e386">
           <characteristics>
-            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">À la fin du tour de votre adversaire, si l’unité de cette figurine n'est pas dans la Portée d’Engagement des figurines ennemies, vous pouvez la retirer du champ de bataille et la placer dans les réserves stratégiques.</characteristic>
+            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">À la fin du tour de votre adversaire, si l’unité de cette figurine n'est pas à l'intérieur de Portée d’Engagement de tout ennemi figurines, vous pouvez la retirer du champ de bataille et la placer dans Réserves Stratégiques.</characteristic>
           </characteristics>
         </profile>
         <profile name="Meneur" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="babb-fe84-e1d4-1012">
@@ -73,8 +73,8 @@
         </profile>
         <profile name="Inspiring Commander" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="ed25-707a-ee0b-6b2f">
           <characteristics>
-            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Si vous incluez cette figurine dans votre armée, jusqu'à la fin de la bataille, les figurines non-Character dans Assaut
-Les intercesseurs avec des unités de Jump Packs de votre armée ont une caractéristique de Contrôle d’Objectif de 2 alors qu'ils ne sont pas Ébranlées.</characteristic>
+            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Si vous incluez cette figurine dans votre armée, jusqu'à la fin de la bataille, non-Character figurines dans Assaut
+Les intermédiaires avec les unités Jump Packs de votre armée ont une caractéristique de Contrôle d’Objectif de 2 alors qu'ils ne sont pas Ébranlé.</characteristic>
           </characteristics>
         </profile>
       </profiles>
@@ -170,7 +170,7 @@ remplace son mot-clé Chapter Master par Captain.</characteristic>
         </profile>
         <profile name="Master of Shadows" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="5dbe-abfc-6ac6-2061">
           <characteristics>
-            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Dans votre phase de Commandement, vous pouvez sélectionner une unité de l'armée de votre adversaire. Jusqu'au début de votre prochaine phase de Commandement, à chaque fois qu'une unité Adeptus Astartes de votre armée déclare une charge alors qu'elle est à 12" ou moins de cette unité ennemie, vous pouvez relancer le jet de Charge, mais il doit déclarer cette unité ennemie comme une cible de cette charge (si possible).</characteristic>
+            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Dans votre phase de Commandement, vous pouvez sélectionner une unité de l'armée de votre adversaire. Jusqu'au début de votre prochaine phase de Commandement, chaque fois qu'une unité Adeptus Astartes de votre armée déclare une charge alors qu'elle est à 12" ou moins de cette unité ennemie, vous pouvez relancer le jet de Charge, mais il doit déclarer que cette unité ennemie comme cible de cette charge (si possible).</characteristic>
           </characteristics>
         </profile>
         <profile name="Blackwing Mantle" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="1384-de6c-2c62-4f26">

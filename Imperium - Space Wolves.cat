@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue xmlns="http://www.battlescribe.net/schema/catalogueSchema" library="false" id="a609-860d-3f96-0896" name="Imperium - Adeptus Astartes - Space Wolves" gameSystemId="sys-0e45-705d-f6bc-806a" gameSystemRevision="1" revision="77" battleScribeVersion="2.03" type="catalogue" authorName="Acebaur/Mad Spy">
+<catalogue xmlns="http://www.battlescribe.net/schema/catalogueSchema" library="false" id="94bb-3284-ee14-57a1" name="Imperium - Adeptus Astartes - Space Wolves" gameSystemId="sys-352e-adc2-7639-d6a9" gameSystemRevision="1" revision="77" battleScribeVersion="2.03" type="catalogue" authorName="Acebaur/Mad Spy">
   <catalogueLinks>
-    <catalogueLink type="catalogue" name="Imperium - Space Marines" id="cb5b-3605-7522-c561" targetId="c64a-a8a4-fe12-90fd" importRootEntries="true" />
-    <catalogueLink type="catalogue" name="Imperium - Imperial Knights - Library" id="2e06-13ae-6789-b591" targetId="1787-6721-8649-a4a8" importRootEntries="true" />
-    <catalogueLink type="catalogue" name="Imperium - Agents of the Imperium" id="339c-6e85-c0f3-ccd6" targetId="58ea-21f3-3da9-74dd" importRootEntries="true" />
+    <catalogueLink type="catalogue" name="Imperium - Space Marines" id="cb5b-3605-7522-c561" targetId="e0af-67df-9d63-8fb7" importRootEntries="true" />
+    <catalogueLink type="catalogue" name="Imperium - Imperial Knights - Library" id="2e06-13ae-6789-b591" targetId="1b6d-dc06-5db9-c7d1" importRootEntries="true" />
+    <catalogueLink type="catalogue" name="Imperium - Agents of the Imperium" id="339c-6e85-c0f3-ccd6" targetId="b00-cd86-4b4c-97ba" importRootEntries="true" />
   </catalogueLinks>
   <sharedSelectionEntries>
     <selectionEntry type="model" import="true" name="Logan Grimnar" hidden="false" id="c65-46c6-3a62-80c">
@@ -61,12 +61,12 @@
         </profile>
         <profile name="Guile of the Wolf (Aura)" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="da55-1594-5d76-2ada">
           <characteristics>
-            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Chaque fois que votre adversaire cible une unité de son armée avec un Stratagème, si cette unité se trouve à 12" ou moins de cette figurine, augmentez le coût de cette utilisation de ce Stratagème par 1CP P (ce n'est pas cumulatif avec d'autres règles qui augmentent le coût CP de ce Stratagème)</characteristic>
+            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Chaque fois que votre adversaire cible une unité de son armée avec un Stratagème, si cette unité est à 12" ou moins de cette figurine, augmenter le coût de cette utilisation de ce Stratagème par 1CP P (ce n'est pas cumulatif avec d'autres règles qui augmentent le coût CP de ce Stratagème)</characteristic>
           </characteristics>
         </profile>
         <profile name="Embarking within Transports" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="f707-93b3-60bb-5d7a">
           <characteristics>
-            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">cette figurine peut embarquer dans des figurines de Transport Adeptus Astartes qui peuvent transporter des figurines Terminator. Quand il le fait, il occupe l'espace des figurines d'infanterie 4</characteristic>
+            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">cette figurine peut embarquer à l'intérieur amique Adeptus Astartes Transport figurines qui peut Transport Terminator figurines. Lorsqu'il le fait, il occupe l'espace de 4 Infantry figurines</characteristic>
           </characteristics>
         </profile>
       </profiles>
@@ -279,7 +279,7 @@
         </profile>
         <profile name="Wind Walker (Psychic)" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="7c09-4906-3ef8-5839">
           <characteristics>
-            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Pendant que cette figurine mène une unité, Les armes de tir équipées par les figurines de cette unité ont la aptitude [Assaut] et Chaque fois que cette unité avance, Ne faites pas un jet d’Avance. Au lieu de cela, jusqu'à la fin de la phase, ajoutez 6" à la caractéristique de mouvement des figurines de cette unité</characteristic>
+            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Alors que cette figurine est à la tête d'une unité, armes de tir équipé des figurines de cette unité ont l’aptitude [Assaut] et chaque fois que l'unité avance, ne pas faire un jet d’Avance. Au lieu de cela, Jusqu’à la fin de la phase, ajoutez 6" à la caractéristique de mouvement des figurines de cette unité</characteristic>
           </characteristics>
         </profile>
         <profile name="Tempest's Wrath (Psychic)" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="4f53-4232-cc6a-b8e3">
@@ -419,7 +419,7 @@
         </profile>
         <profile name="Legendary Tenacity" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="1ecf-416a-6465-156c">
           <characteristics>
-            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Chaque fois qu'une attaque est attribuée à cette figurine, si la caractéristique de résistance de cette attaque est supérieure à la caractéristique d’Endurance de cette figurine, Soustrayez 1 du jet de Blessure.</characteristic>
+            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Chaque fois qu'une attaque est attribuée à cette figurine, si la caractéristique de Force de cette attaque est supérieure au figurine de ce caractéristique d’Endurance, Soustrayez 1 du jet de Blessure.</characteristic>
           </characteristics>
         </profile>
         <profile name="Ancient Tactician" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="64d9-5889-14e6-77a1">
@@ -594,12 +594,12 @@
         </profile>
         <profile name="Anvil of Endurance" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="6d1-52cc-8cb0-740c">
           <characteristics>
-            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Alors que cette figurine mène une unité, chaque fois qu'une figurine dans cette unité est détruite par une attaque de mêlée, si cette figurine n'a pas combattu cette phase, lancez un D6, sur un 4+, ne retirez pas la figurine détruit du jeu. la figurine détruit peut se battre après que l'unité attaquante a terminé ses attaques, puis est retiré du jeu</characteristic>
+            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Tant que cette figurine dirige une unité, chaque fois qu’une figurine de cette unité est détruite par une attaque de mêlée, si elle n’a pas combattu durant cette phase, lancez un D6 : sur 4+, ne retirez pas la figurine détruite du jeu. Celle-ci peut combattre après que l’unité attaquante a terminé d’effectuer ses attaques, puis elle est retirée du jeu.</characteristic>
           </characteristics>
         </profile>
         <profile name="Champion of the Kingsguard" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="d65d-22ee-7d91-448a">
           <characteristics>
-            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Chaque fois que cette figurine effectue une attaque de mêlée qui cible une unité CHARACTER, vous pouvez relancer le jet de Touche et vous pouvez relancer le jet de Blessure.</characteristic>
+            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Chaque fois que cette figurine fait une attaque de mêlée qui cible une unité CHARACTER, vous pouvez relancer le jet de Touche et vous pouvez relancer le jet de Blessure.</characteristic>
           </characteristics>
         </profile>
       </profiles>
@@ -678,7 +678,7 @@
         </profile>
         <profile name="Slayer’s Oath" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="d3d3-265a-32cd-99af">
           <characteristics>
-            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Au début de la bataille, sélectionnez l'un des mots clés suivants pour être le Slayer’s Oath de cette figurine: CHARACTER, VEHICLE ou MONSTER. La première fois que l'unité de cette figurine détruit une unité avec le mot-clé Slayer’s Oath de cette figurine, si votre détachement a une Saga, jusqu'à la fin de la bataille, l'unité de cette figurine reçoit les avantages de cette règle de détachement comme si cette Saga avait été achevée.</characteristic>
+            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Au début de la bataille, sélectionnez l'un des mots-clés suivants pour être cette de la figurine Slayer’s Oath: CHARACTER, VEHICLE ou MONSTER. La première fois que l’unité de cette figurine détruit une unité avec cette de la figurine Slayer’s Oath mot-clé, si votre détachement a une Saga, jusqu'à la fin de la bataille, l’unité de cette figurine reçoit les avantages de cette règle de détachement comme si cette Saga avait été achevée.</characteristic>
           </characteristics>
         </profile>
         <profile name="Meneur" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="34a6-5bd7-33e-6271">
@@ -692,7 +692,7 @@
         </profile>
         <profile name="Oathbound" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="1ccb-ca03-9256-bd5e">
           <characteristics>
-            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Alors que cette figurine mène une unité, chaque fois qu'une figurine dans cette unité fait une attaque de mêlée, ajoutez 1 au jet de Touche. Si cette attaque cible une unité qui a le mot-clé Slayer’s Oath de cette figurine (voir ci-dessus), ajoutez 1 au jet de Blessure.</characteristic>
+            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Pendant que cette figurine mène une unité, chaque fois qu'une figurine dans cette unité fait une attaque de mêlée, ajoutez 1 au jet de Touche. Si cette attaque cible une unité qui a cette de la figurine Slayer’s Oath mot-clé (voir ci-dessus), ajoutez 1 au jet de Blessure aussi bien.</characteristic>
           </characteristics>
         </profile>
       </profiles>
@@ -863,7 +863,7 @@
         </profile>
         <profile name="Battle-lust" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="acf6-28b1-da63-60be">
           <characteristics>
-            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Chaque fois que cette figurine termine un mouvement Charge, jusqu'à la fin du tour, ajoutez 2 aux caractéristiques Attaques de ce figurines Frostfang.</characteristic>
+            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Chaque fois que cette figurine termine un mouvement de Charge, jusqu’à la fin du tour, ajoutez 2 à la caractéristique d’Attaques du Frostfang de cette figurine.</characteristic>
           </characteristics>
         </profile>
       </profiles>
@@ -917,12 +917,12 @@
         </profile>
         <profile name="Refuse to Accept Defeat" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="88f4-7da8-b865-265b">
           <characteristics>
-            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Pendant que cette figurine mène une unité, chaque fois qu'une figurine de cette unité fait une attaque, Ajoutez 1 au jet de Touche si cette unité est inférieure à son Effectif Initial, et Ajoutez 1 au jet de Blessure si cette unité est en dessous de son Demi-effectif.</characteristic>
+            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Pendant que cette figurine mène une unité, chaque fois qu'une figurine dans cette unité effectue une attaque, ajoutez 1 au jet de Touche si cette unité est en dessous de son Effectif Initial, et ajoutez 1 au jet de Blessure aussi bien si cette unité est En Dessous de son Demi-effectif.</characteristic>
           </characteristics>
         </profile>
         <profile name="The Fierce Eye" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="6826-5564-30f4-5ea2">
           <characteristics>
-            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">dans votre phase de Tir, vous pouvez sélectionner une ennemie INFANTRY unité à 12" ou moins de et visible à cette figurine. cette unité ennemie doit take a test d’Ébranlement.</characteristic>
+            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Durant votre phase de Tir, vous pouvez sélectionner une unité INFANTRY ennemie à 12" ou moins de cette figurine et visible par celle-ci. Cette unité ennemie doit effectuer un test d’Ébranlement.</characteristic>
           </characteristics>
         </profile>
       </profiles>
@@ -1014,12 +1014,12 @@
         </profile>
         <profile name="Lord of the Wolfkin" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="2734-7402-ba72-8244">
           <characteristics>
-            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Alors que cette figurine conduit une unité, chaque fois que cette unité fait un mouvement de Charge, jusqu'à la fin du tour, les dents et les griffes écrasées équipées de figurines dans cette unité ont la aptitude [Blessures dévastatrices].</characteristic>
+            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Alors que cette figurine est à la tête d'une unité, chaque fois que cette unité fait un mouvement de Charge, jusqu'à la fin du tour, les dents et les griffes écrasées équipées des figurines de cette unité ont l’aptitude [Blessures dévastatrices].</characteristic>
           </characteristics>
         </profile>
         <profile name="Mantle of the Troll King" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="15ef-da73-e7e6-b4b7">
           <characteristics>
-            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Une fois par phase, lors de la résolution d'une attaque contre cette figurine, après avoir effectué un jet de sauvegarde pour cette figurine, vous pouvez changer la caractéristique de Dégât de cette attaque à 0.</characteristic>
+            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Une fois par phase, lors de la résolution d'une attaque contre cette figurine, après avoir fait un jet de sauvegarde pour cette figurine, vous pouvez changer la caractéristique Dégâts de cette attaque à 0.</characteristic>
           </characteristics>
         </profile>
       </profiles>
@@ -1161,12 +1161,12 @@
         </profile>
         <profile name="Born of Wolves" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="2d38-b835-fadf-bfe9">
           <characteristics>
-            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Alors que cette figurine mène une unité, les armes de mêlée équipées de figurines dans cette unité ont la aptitude [Touches soutenues 1].</characteristic>
+            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Alors que cette figurine mène une unité, les armes de mêlée équipées des figurines de cette unité ont l’aptitude [Touches soutenues 1].</characteristic>
           </characteristics>
         </profile>
         <profile name="Alpha Predator" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="a9f0-ef79-2a9f-908f">
           <characteristics>
-            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Chaque fois que cette figurine termine un mouvement Charge, sélectionnez une unité ennemi dans la Portée d’Engagement de celui-ci et lancez un D6: sur une 2-3, cette unité ennemi subit D3 Blessures Mortelles; sur une 4-5, cette unité ennemi subit 3 Blessures Mortelles; sur une 6, cette unité ennemi subit D3+3 Blessures Mortelles.</characteristic>
+            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Chaque fois que cette figurine termine un mouvement de Charge, sélectionnez une unité ennemie dans Portée d’Engagement de celui-ci et lancez un D6: sur un 2-3, que cette unité ennemie souffre D3 Blessures Mortelles; sur un 4-5, que cette unité ennemie souffre 3 Blessures Mortelles; sur un 6, que les unités ennemies souffrent D3+3 Blessures Mortelles.</characteristic>
           </characteristics>
         </profile>
       </profiles>
@@ -1271,12 +1271,12 @@
 ■ Terminator Squad
 ■ Wolf Guard Terminators
 
-Vous pouvez attacher cette figurine à l'une des unités ci-dessus même si une figurine Captain ou Chapter Master a déjà été attaché. Si vous le faites, et que l'unité Bodyguard est détruite, les unités Meneur attachées à elle deviennent des unités séparées, avec leur Effectif Initial d’origine.</characteristic>
+Vous pouvez attacher cette figurine à l'une des unités ci-dessus même si un Captain ou un Chapitre Master figurine y a déjà été attaché. Si vous le faites, et que l'unité Bodyguard est détruite, les unités Meneur attachés à elle deviennent des unités séparées, avec leur original Effectifs Initiaux.</characteristic>
           </characteristics>
         </profile>
         <profile name="Huskarl to the Jarl" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="516c-bfe5-2102-d03c">
           <characteristics>
-            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Alors que cette figurine est attaché à une unité qui contient un autre figurine CHARACTER, tous les figurines CHARACTER de cette unité ont la aptitude Insensible à la douleur 4+.</characteristic>
+            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Tant que cette figurine est attachée à une unité contenant une autre figurine CHARACTER, toutes les figurines CHARACTER de cette unité ont l’aptitude Insensible à la douleur 4+.</characteristic>
           </characteristics>
         </profile>
       </profiles>
@@ -1509,7 +1509,7 @@ Vous pouvez attacher cette figurine à l'une des unités ci-dessus même si une 
                   <profiles>
                     <profile name="Relic shield" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="2a1c-db3a-5bef-c228">
                       <characteristics>
-                        <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Le porteur possède une caractéristique de PV de 6.</characteristic>
+                        <characteristic name="Description" typeId="9b8f-694b-e5e-b573">le porteur a une caractéristique de PV de 6.</characteristic>
                       </characteristics>
                     </profile>
                   </profiles>
@@ -1670,7 +1670,7 @@ Vous pouvez attacher cette figurine à l'une des unités ci-dessus même si une 
         </profile>
         <profile name="Speed of the Hunter" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="e1b9-7f5e-ff83-99ed">
           <characteristics>
-            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Ajoutez 1 aux jets d’Avance et de Charge effectués pour cette unité de la figurine.</characteristic>
+            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Ajoutez 1 aux jets d’Avance et de Charge effectués pour l’unité de cette figurine.</characteristic>
           </characteristics>
         </profile>
       </profiles>
@@ -1873,7 +1873,7 @@ Vous pouvez attacher cette figurine à l'une des unités ci-dessus même si une 
                   <profiles>
                     <profile name="Relic shield" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="b353-4e29-8a55-5c96">
                       <characteristics>
-                        <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Le porteur possède une caractéristique de PV de 7.</characteristic>
+                        <characteristic name="Description" typeId="9b8f-694b-e5e-b573">le porteur a une caractéristique de PV de 7.</characteristic>
                       </characteristics>
                     </profile>
                   </profiles>
@@ -2023,7 +2023,7 @@ Vous pouvez attacher cette figurine à l'une des unités ci-dessus même si une 
 
 ■ Thunderwolf Cavalry
 
-Vous pouvez joindre cette figurine à l'unité ci-dessus même si une figurine Captain ou Chapter Master y a déjà été attaché. Si vous le faites, et que l'unité Bodyguard est détruite, les unités Meneur attachées à elle deviennent des unités séparées, avec leur Effectif Initial d’origine.</characteristic>
+Vous pouvez joindre cette figurine à l'unité ci-dessus même si un Captain ou un Chapitre Master figurine y a déjà été attaché. Si vous le faites, et que l'unité Bodyguard est détruite, les unités Meneur attachés à elle deviennent des unités séparées, avec leur original Effectifs Initiaux.</characteristic>
           </characteristics>
         </profile>
         <profile name="Wolf Guard Battle Leader on Thunderwolf" typeId="c547-1836-d8a-ff4f" typeName="Unit" hidden="false" id="6010-e44c-164f-2f49">
@@ -2038,7 +2038,7 @@ Vous pouvez joindre cette figurine à l'unité ci-dessus même si une figurine C
         </profile>
         <profile name="Aggressive Hunter" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="99f6-269c-8ded-17a">
           <characteristics>
-            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Une fois par bataille, dans la phase de Tir de votre adversaire, après qu'une unité ennemie ait terminé d'effectuer ses attaques, si l’unité de cette figurine a été visée par une ou plusieurs de ces attaques, l’unité de cette figurine peut effectuer un mouvement normal jusqu'à D6 ", mais doit mettre fin à ce mouvement le plus près possible de l'unité ennemie la plus proche. Lorsqu'ils le font, les figurines de l’unité de cette figurine peuvent être déplacés à l'intérieur de la Portée d’Engagement de cette unité ennemie.</characteristic>
+            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Une fois par bataille, durant la phase de Tir de votre adversaire, après qu’une unité ennemie a terminé d’effectuer ses attaques, si l’unité de cette figurine a été ciblée par une ou plusieurs de ces attaques, elle peut effectuer un mouvement Normal de jusqu’à D6", mais doit terminer ce mouvement aussi près que possible de l’unité ennemie la plus proche. Ce faisant, les figurines de l’unité de cette figurine peuvent être déplacées à Portée d’Engagement de cette unité ennemie.</characteristic>
           </characteristics>
         </profile>
       </profiles>
@@ -2151,7 +2151,7 @@ Vous pouvez joindre cette figurine à l'unité ci-dessus même si une figurine C
                   <profiles>
                     <profile name="Storm Shield" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="81f4-f16c-6712-c872">
                       <characteristics>
-                        <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Le porteur a un 4+ sauvegarde invulnérable.</characteristic>
+                        <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Le porteur a une sauvegarde invulnérable de 4+.</characteristic>
                       </characteristics>
                     </profile>
                   </profiles>
@@ -2703,7 +2703,7 @@ Vous pouvez joindre cette figurine à l'unité ci-dessus même si une figurine C
       <profiles>
         <profile name="Cunning Hunters" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="879f-7a62-1926-b2c5">
           <characteristics>
-            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Chaque fois qu'une figurine dans cette unité fait une attaque, relancez un jet de Blessure de 1. Si la cible est dans la portée d'un marqueur objectif, vous pouvez relancer le jet de Blessure à la place.</characteristic>
+            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Chaque fois qu'une figurine dans cette unité fait une attaque, relancer est un jet de Blessure de 1. Si la cible est à l'intérieur de Portée d'un pion d’objectif, vous pouvez relancer le jet de Blessure à la place.</characteristic>
           </characteristics>
         </profile>
         <profile name="Grey Hunters" typeId="c547-1836-d8a-ff4f" typeName="Unit" hidden="false" id="7dba-04ec-1bff-2c7a">
@@ -3206,7 +3206,7 @@ Vous pouvez joindre cette figurine à l'unité ci-dessus même si une figurine C
                   <profiles>
                     <profile name="Storm Shield" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="78a4-b1ff-67d5-1db4">
                       <characteristics>
-                        <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Le porteur a un 4+ sauvegarde invulnérable.</characteristic>
+                        <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Le porteur a une sauvegarde invulnérable de 4+.</characteristic>
                       </characteristics>
                     </profile>
                   </profiles>
@@ -3463,7 +3463,7 @@ Vous pouvez joindre cette figurine à l'unité ci-dessus même si une figurine C
         </profile>
         <profile name="Last Laugh" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="d9a-e19c-eb4f-cd41">
           <characteristics>
-            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Si cette figurine est détruit par une attaque de mêlée, après que l'unité attaquante ait terminé ses attaques, lancez un D6: sur un 4+, l'unité attaquante subit des Blessures Mortelles D6 et est Ébranlée.</characteristic>
+            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Si cette figurine est détruite par une attaque de mêlée, une fois que l’unité attaquante a fini de résoudre ses attaques, lancez un D6 : sur 4+, l’unité attaquante subit D6 blessures mortelles et est Ébranlée.</characteristic>
           </characteristics>
         </profile>
         <profile name="Meneur" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="330b-4b59-189d-aea6">
@@ -3535,7 +3535,7 @@ Vous pouvez joindre cette figurine à l'unité ci-dessus même si une figurine C
       <profiles>
         <profile name="Rugged Resilience" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="b2ea-319f-b86-ab13">
           <characteristics>
-            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Chaque fois qu'une attaque cible cette unité, si la caractéristique de Force de cette attaque est supérieure à la caractéristique d’Endurance de cette unité, Soustrayez 1 du jet de Blessure.</characteristic>
+            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Chaque fois qu'une attaque cible cette unité, si la caractéristique de Force de cette attaque est supérieure à la caractéristique d’Endurance de cette unité, Soustrayez le 1 du jet de Blessure.</characteristic>
           </characteristics>
         </profile>
       </profiles>
@@ -4066,7 +4066,7 @@ Vous pouvez joindre cette figurine à l'unité ci-dessus même si une figurine C
       <profiles>
         <profile name="Storm Shield" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="f0d0-168b-fd48-53b6">
           <characteristics>
-            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Le porteur possède une caractéristique de PV de 4.</characteristic>
+            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">le porteur a une caractéristique de PV de 4.</characteristic>
           </characteristics>
         </profile>
       </profiles>
@@ -4189,12 +4189,12 @@ Vous pouvez joindre cette figurine à l'unité ci-dessus même si une figurine C
       <profiles>
         <profile name="Morkai’s Howl" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="1036-9395-903e-6420">
           <characteristics>
-            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Dans votre phase de Tir, vous pouvez sélectionner une unité ennemi à 12" ou moins de cette unité (si une Lieutenant in Reiver Armour dirige cette unité, vous pouvez sélectionner une unité ennemi à 18" ou moins à la place). Cette unité doit effectuer un test d’Ébranlement en soustrayant 1 du résultat s'il s'agit d'une unité PSYKER. Si ce test échoue, en plus d'être Ébranlé, cette unité est étonnée jusqu'au début de votre prochaine phase de Tir. Alors qu'une unité est étonnée, chaque fois qu'une figurine dans cette unité fait une attaque Psychique, Soustrayez 1 du jet de Touche.</characteristic>
+            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Durant votre phase de Tir, vous pouvez sélectionner une unité ennemie à 12" ou moins de cette unité (si un LIEUTENANT IN REIVER ARMOUR mène cette unité, vous pouvez sélectionner à la place une unité ennemie à 18" ou moins). Cette unité doit effectuer un test d’Ébranlement en soustrayant 1 au résultat si elle est une unité PSYKER. Si ce test échoue, en plus d’être Ébranlée, cette unité est Étourdie jusqu’au début de votre prochaine phase de Tir. Tant qu’une unité est Étourdie, chaque fois qu’une figurine de cette unité effectue une Attaque Psychique, soustrayez 1 au jet de Touche.</characteristic>
           </characteristics>
         </profile>
         <profile name="Sauvegarde Invulnérable" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="4857-fa29-6537-4d5d">
           <characteristics>
-            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Les figurines de cette unité ont un 6+ sauvegarde invulnérable. Ce sauvegarde invulnérable est amélioré à 4+ contre les attaques Psychiques.</characteristic>
+            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Les figurines de cette unité ont une sauvegarde invulnérable de 6+. Cette sauvegarde invulnérable est améliorée à 4+ contre les attaques Psychiques.</characteristic>
           </characteristics>
         </profile>
         <profile name="Attached Unit" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="ade8-4dc6-a974-5ce8">
@@ -4367,7 +4367,7 @@ Vous pouvez joindre cette figurine à l'unité ci-dessus même si une figurine C
               <profiles>
                 <profile name="Death Totem" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="a661-be27-a2d2-caa7">
                   <characteristics>
-                    <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Chaque fois que le porteur effectue une attaque de mêlée, relancez un jet de Touche de 1.</characteristic>
+                    <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Chaque fois que le porteur fait une attaque de mêlée, relancer fait un jet de Touche de 1.</characteristic>
                   </characteristics>
                 </profile>
               </profiles>
@@ -4417,7 +4417,7 @@ Vous pouvez joindre cette figurine à l'unité ci-dessus même si une figurine C
       <profiles>
         <profile name="Savage Frenzy" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="487d-4818-82ae-5a13">
           <characteristics>
-            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Chaque fois qu'une unité ennemie, (à l'exclusion de MONSTERS et VEHICLES) dans la Portée d’Engagement de cette unité Bat en Retraite, tous les figurines de cette unité ennemie doivent passer un test d'évasion désespérée. Lorsque vous faites cela, si cette unité ennemie est Ébranlée, Soustrayez 1 de ces tests.</characteristic>
+            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Chaque fois qu’une unité ennemie (à l’exclusion des MONSTERS et des VEHICLES) à Portée d’Engagement de cette unité Bat en Retraite, toutes les figurines de cette unité ennemie doivent effectuer un test de Fuite Désespérée. Ce faisant, si cette unité ennemie est Ébranlée, soustrayez 1 à ces tests.</characteristic>
           </characteristics>
         </profile>
       </profiles>
@@ -4566,7 +4566,7 @@ Vous pouvez joindre cette figurine à l'unité ci-dessus même si une figurine C
         </profile>
         <profile name="Violent Fury" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="0caf-212e-b669-1738">
           <characteristics>
-            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Si cette figurine est équipé de deux armes de mêlée, ces profils d'armes ont la aptitude Jumelé.</characteristic>
+            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Si cette figurine est équipée de deux armes de mêlée, ces profils d’arme ont l’aptitude TWIN-LINKED.</characteristic>
           </characteristics>
         </profile>
       </profiles>
@@ -4783,7 +4783,7 @@ Vous pouvez joindre cette figurine à l'unité ci-dessus même si une figurine C
         </profile>
         <profile name="Murder-maker [Aura]" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="d7a4-e72d-26fd-4361">
           <characteristics>
-            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Dans la phase de Combat, chaque fois qu'une attaque cible une unité amicale Wulfen à 6" ou moins de cette figurine, si une figurine dans cette unité est détruite à la suite de cette attaque, si cette figurine n'a pas combattu cette phase, lancez un D6: sur un 4+, ne retirez pas la figurine détruit du jeu; il peut se battre après que l'unité attaquante a fini de faire ses attaques, et est ensuite retiré du jeu.</characteristic>
+            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Durant la phase de Combat, chaque fois qu’une attaque cible une unité WULFEN amie à 6" ou moins de cette figurine, si une figurine de cette unité est détruite par cette attaque et si cette figurine n’a pas combattu à cette phase, lancez un D6 : sur 4+, ne retirez pas la figurine détruite du jeu ; elle peut combattre une fois que l’unité attaquante a fini de résoudre ses attaques, puis elle est retirée du jeu.</characteristic>
           </characteristics>
         </profile>
         <profile name="Force of Untamed Destruction" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="9d2a-82a5-7426-f6b1">
@@ -4793,7 +4793,7 @@ Vous pouvez joindre cette figurine à l'unité ci-dessus même si une figurine C
         </profile>
         <profile name="Beastial Fury" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="d32e-f3c3-5ae5-2ea0">
           <characteristics>
-            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Vous pouvez relancer les jets d’Avance et de Charge faits pour cette figurine.</characteristic>
+            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">vous pouvez relancer Advance et jets de Charge sont effectués pour cette figurine.</characteristic>
           </characteristics>
         </profile>
       </profiles>
@@ -5014,7 +5014,7 @@ Vous pouvez joindre cette figurine à l'unité ci-dessus même si une figurine C
       <profiles>
         <profile name="Thunderous Charge" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="7ff6-fefc-51c-4818">
           <characteristics>
-            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Chaque fois qu'une figurine dans cette unité effectue une attaque de mêlée avec son arme Wolf Guard, si elle a fait un effectuer un mouvement de Charge ce tour, ajoutez 1 à la caractéristique de Dégâts de cette attaque</characteristic>
+            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Chaque fois qu'une figurine dans cette unité fait une attaque de mêlée avec son arme Wolf Guard, si elle a fait un mouvement de Charge ce tour, Ajoutez 1 à la caractéristique de Dégâts de cette attaque</characteristic>
           </characteristics>
         </profile>
         <profile name="Thunderwolf Cavalry" typeId="c547-1836-d8a-ff4f" typeName="Unit" hidden="false" id="5e10-c2a-3001-85b">
@@ -5116,7 +5116,7 @@ Vous pouvez joindre cette figurine à l'unité ci-dessus même si une figurine C
       <profiles>
         <profile name="Storm Shield" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="4805-60ae-e4dd-7752">
           <characteristics>
-            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Le porteur a un 4+ sauvegarde invulnérable.</characteristic>
+            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Le porteur a une sauvegarde invulnérable de 4+.</characteristic>
           </characteristics>
         </profile>
       </profiles>
@@ -5225,12 +5225,12 @@ Vous pouvez joindre cette figurine à l'unité ci-dessus même si une figurine C
         </profile>
         <profile name="Predatory Instinct" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="4dd7-8d35-4e76-11d8">
           <characteristics>
-            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Une fois par tour, lorsqu'une unité ennemie termine un mouvement Normal, Avance ou Retraite à 9" ou moins de cette unité, elle peut effectuer un mouvement Normal jusqu'à D6"</characteristic>
+            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Une fois par tour, lorsqu’une unité ennemie termine un mouvement Normal, d’Avance ou de Retraite à 9" ou moins de cette unité, elle peut effectuer un mouvement Normal de jusqu’à D6"</characteristic>
           </characteristics>
         </profile>
         <profile name="Hunting Hounds" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="2b92-25f9-4952-213b">
           <characteristics>
-            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Tant que cette unité se trouve à 6" ou moins d'un ou de plusieurs figurines SPACE WOLVES CHARACTER (à l'exclusion des figurines Wulfen), si cette unité n'est pas Ébranlée, les figurines qui y figurent ont une caractéristique de Contrôle d’Objectif de 1</characteristic>
+            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Tant que cette unité est à 6" ou moins d’une ou plusieurs figurines SPACE WOLVES CHARACTER (à l’exclusion des figurines WULFEN), si cette unité n’est pas Ébranlée, les figurines de cette unité ont une caractéristique de Contrôle d’Objectif de 1</characteristic>
           </characteristics>
         </profile>
       </profiles>
@@ -5341,7 +5341,7 @@ Vous pouvez joindre cette figurine à l'unité ci-dessus même si une figurine C
       <profiles>
         <profile name="Headstrong" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="7d00-f80f-c11-4992">
           <characteristics>
-            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Vous pouvez relancer les jets de Charge de cette unité. Chaque fois que cette unité fait un mouvement de Charge, jusqu'à la fin du tour, chaque fois qu'une figurine dans cette unité fait une attaque de mêlée, ajoutez 1 au jet de Touche.</characteristic>
+            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">vous pouvez relancer jets de Charge fait pour cette unité. Chaque fois que cette unité fait un mouvement de Charge, jusqu'à la fin du tour, chaque fois qu'une figurine dans cette unité fait une attaque de mêlée, ajoutez 1 au jet de Touche.</characteristic>
           </characteristics>
         </profile>
         <profile name="Attached Unit" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="42db-86ef-1683-f75b">
@@ -5701,7 +5701,7 @@ Vous pouvez joindre cette figurine à l'unité ci-dessus même si une figurine C
       <profiles>
         <profile name="Fire Discipline" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="61db-fb59-d539-6ed7">
           <characteristics>
-            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Chaque fois que cette unité reste stationnaire, si elle inclut un Long Fang Pack Meneur, vous pouvez sélectionner une unité ennemie qui est visible pour cette figurine. Jusqu'à la fin du tour, Chaque fois qu'une figurine de cette unité fait une attaque de tir qui vise cette unité ennemie, relancer un jet de Touche de 1.</characteristic>
+            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Chaque fois que cette unité reste stationnaire, si elle inclut un Long Fang Pack Meneur, vous pouvez sélectionner une unité ennemie qui est visible à cette figurine. Jusqu'à la fin du tour, chaque fois qu'une figurine dans cette unité fait une attaque de tir qui cible que cette unité ennemie, relancer un jet de Touche de 1.</characteristic>
           </characteristics>
         </profile>
         <profile name="Attached Unit" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="b880-fd34-9780-c4e2">
@@ -5711,7 +5711,7 @@ Vous pouvez joindre cette figurine à l'unité ci-dessus même si une figurine C
         </profile>
         <profile name="Armorium Cherub" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="3d17-e5-295-fcf0">
           <characteristics>
-            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Une fois par bataille, après avoir fait un jet de Touche pour une figurine dans cette unité, vous pouvez changer ce roll à un 6 non modifié.</characteristic>
+            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Une fois par bataille, après avoir effectué un jet de Touche pour une figurine de cette unité, vous pouvez remplacer ce résultat par un 6 non modifié.</characteristic>
           </characteristics>
         </profile>
       </profiles>
@@ -6356,7 +6356,7 @@ Vous pouvez joindre cette figurine à l'unité ci-dessus même si une figurine C
         </profile>
         <profile name="Frozen Prey" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="8bed-8c56-baf8-1bc6">
           <characteristics>
-            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Dans votre phase de Tir, après que cette figurine ait tiré, si une unité ennemie MONSTER ou VEHICLE a été touchée par une ou plusieurs de ces attaques effectuées avec ce destructeur de gel de la figurine, jusqu'à la fin du prochain tour de votre adversaire, cette unité ennemie est gelée. Pendant qu'une unité est gelée, Soustrayez 2 de la caractéristique de mouvement de cette unité, et soustraire 2 des jets d’Avance et de Charge faits pour cette unité.</characteristic>
+            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Durant votre phase de Tir, après que cette figurine a tiré, si une unité MONSTER ou VEHICLE ennemie a été touchée par une ou plusieurs attaques effectuées avec le helfrost destructor de cette figurine, jusqu’à la fin du prochain tour de votre adversaire, cette unité ennemie est Frozen. Tant qu’une unité est Frozen, soustrayez 2 à sa caractéristique de Mouvement et soustrayez 2 aux jets d’Avance et de Charge effectués pour elle.</characteristic>
           </characteristics>
         </profile>
         <profile name="Stormfang Gunship" typeId="74f8-5443-9d6d-1f1e" typeName="Transport" hidden="false" id="f6c7-d168-500a-4286">
@@ -6874,7 +6874,7 @@ Vous pouvez joindre cette figurine à l'unité ci-dessus même si une figurine C
 ■ Grey Hunters
 ■ Long Fangs
 
-Vous devez attacher cette figurine à l'une des unités ci-dessus, et vous pouvez le faire même si une ou plusieurs unités de caractères ont déjà été attachées à cette unité, mais une unité ne peut jamais inclure plus d'une figurine Pack Meneur. Si vous le faites, et que l'unité Bodyguard est détruite, les unités Meneur attachées à elle deviennent des unités séparées, avec leur Effectif Initial d’origine. S'il n'est pas possible d'attacher cette figurine à une unité, il ne participe pas à la bataille et est considéré comme détruit.</characteristic>
+Vous devez attacher cette figurine à l'une des unités ci-dessus, et vous pouvez le faire même si une ou plusieurs unités de caractères ont déjà été attachées à cette unité, mais une unité ne peut jamais inclure plus d'une Pack Meneur figurine. Si vous le faites, et que l'unité Bodyguard est détruite, les unités Meneur attachés à elle deviennent des unités séparées, avec leur original Effectifs Initiaux. S'il n'est pas possible d'attacher cette figurine à une unité, il ne participe pas à la bataille et est considéré comme détruit.</characteristic>
           </characteristics>
         </profile>
       </profiles>
@@ -7078,7 +7078,7 @@ Vous devez attacher cette figurine à l'une des unités ci-dessus, et vous pouve
                   <profiles>
                     <profile name="Storm Shield" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="3ccc-e03-320c-2b77">
                       <characteristics>
-                        <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Le porteur a un 4+ sauvegarde invulnérable.</characteristic>
+                        <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Le porteur a une sauvegarde invulnérable de 4+.</characteristic>
                       </characteristics>
                     </profile>
                   </profiles>
@@ -7204,7 +7204,7 @@ Vous devez attacher cette figurine à l'une des unités ci-dessus, et vous pouve
 
 ■ Skyclaws
 
-Vous devez attacher cette figurine à l'unité ci-dessus, et vous pouvez le faire même si une ou plusieurs unités de caractères ont déjà été attachées à cette unité, mais une unité ne peut jamais inclure plus d'une figurine Pack Meneur. Si vous le faites, et que l'unité Bodyguard est détruite, les unités Meneur attachées à elle deviennent des unités séparées, avec leur Effectif Initial d’origine. S'il n'est pas possible d'attacher cette figurine à une unité, il ne participe pas à la bataille et est considéré comme détruit.</characteristic>
+Vous devez attacher cette figurine à l'unité ci-dessus, et vous pouvez le faire même si une ou plusieurs unités de caractères ont déjà été attachées à cette unité, mais une unité ne peut jamais inclure plus d'un Pack Meneur figurine. Si vous le faites, et que l'unité Bodyguard est détruite, les unités Meneur attachés à elle deviennent des unités séparées, avec leur original Effectifs Initiaux. S'il n'est pas possible d'attacher cette figurine à une unité, il ne participe pas à la bataille et est considéré comme détruit.</characteristic>
           </characteristics>
         </profile>
       </profiles>
@@ -7418,7 +7418,7 @@ Vous devez attacher cette figurine à l'unité ci-dessus, et vous pouvez le fair
                   <profiles>
                     <profile name="Storm Shield" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="5392-8ca1-9d89-67fa">
                       <characteristics>
-                        <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Le porteur a un 4+ sauvegarde invulnérable.</characteristic>
+                        <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Le porteur a une sauvegarde invulnérable de 4+.</characteristic>
                       </characteristics>
                     </profile>
                   </profiles>
@@ -7526,7 +7526,7 @@ Vous devez attacher cette figurine à l'unité ci-dessus, et vous pouvez le fair
 ■ Grey Hunters
 ■ Long Fangs
 
-Vous devez attacher cette figurine à l'une des unités ci-dessus, et vous pouvez le faire même si une ou plusieurs unités de caractères ont déjà été attachées à cette unité, mais une unité ne peut jamais inclure plus d'une figurine Pack Meneur. Si vous le faites, et que l'unité Bodyguard est détruite, les unités Meneur attachées à elle deviennent des unités séparées, avec leur Effectif Initial d’origine. S'il n'est pas possible d'attacher cette figurine à une unité, il ne participe pas à la bataille et est considéré comme détruit.</characteristic>
+Vous devez attacher cette figurine à l'une des unités ci-dessus, et vous pouvez le faire même si une ou plusieurs unités de caractères ont déjà été attachées à cette unité, mais une unité ne peut jamais inclure plus d'une Pack Meneur figurine. Si vous le faites, et que l'unité Bodyguard est détruite, les unités Meneur attachés à elle deviennent des unités séparées, avec leur original Effectifs Initiaux. S'il n'est pas possible d'attacher cette figurine à une unité, il ne participe pas à la bataille et est considéré comme détruit.</characteristic>
           </characteristics>
         </profile>
         <profile name="Wolf Guard Pack Leader in Terminator Armour" typeId="c547-1836-d8a-ff4f" typeName="Unit" hidden="false" id="8a9a-3c8a-8fc0-a130">
@@ -7561,7 +7561,7 @@ Vous devez attacher cette figurine à l'une des unités ci-dessus, et vous pouve
               <profiles>
                 <profile name="Storm Shield" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="1f88-a0c-5272-51e8">
                   <characteristics>
-                    <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Le porteur possède une caractéristique de PV de 4.</characteristic>
+                    <characteristic name="Description" typeId="9b8f-694b-e5e-b573">le porteur a une caractéristique de PV de 4.</characteristic>
                   </characteristics>
                 </profile>
               </profiles>
@@ -7969,7 +7969,7 @@ Vous devez attacher cette figurine à l'une des unités ci-dessus, et vous pouve
         </profile>
         <profile name="Iron Priest" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="c945-4824-a8ed-3a20">
           <characteristics>
-            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Alors que cette figurine est à 3" ou moins d'une ou plusieurs unités ADEPTUS ASTARTES VEHICLE amicaux, cette figurine a la aptitude Agent solitaire</characteristic>
+            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Alors que cette figurine se trouve à 3" ou moins d'une ou de plusieurs unités amies ADEPTUS ASTARTES VEHICLE, cette figurine possède l’aptitude Agent solitaire</characteristic>
           </characteristics>
         </profile>
         <profile name="Gift of the Iron Wolf" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="41bc-61e5-b4dc-1194">
@@ -7988,7 +7988,7 @@ Vous devez attacher cette figurine à l'une des unités ci-dessus, et vous pouve
         </profile>
         <profile name="Judgement of the Omnissiah" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="0ab3-6430-d18f-c4c6">
           <characteristics>
-            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Chaque fois que cette figurine effectue une attaque visant une unité ennemi dans la Portée d’Engagement d'une ou plusieurs unités amies ADEPTUS ASTARTES VEHICLE, vous pouvez relancer le jet de Blessure.</characteristic>
+            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Chaque fois que cette figurine effectue une attaque visant une unité ennemie dans Portée d’Engagement d'une ou de plusieurs unités amies ADEPTUS ASTARTES VEHICLE, vous pouvez relancer le jet de Blessure.</characteristic>
           </characteristics>
         </profile>
       </profiles>
@@ -8187,12 +8187,12 @@ Vous devez attacher cette figurine à l'une des unités ci-dessus, et vous pouve
         </profile>
         <profile name="Alpha Hunter" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="a604-c6af-7cb8-ba38">
           <characteristics>
-            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Alors que cette figurine mène une unité, les figurines de cette unité ont la aptitude Éclaireurs 6".</characteristic>
+            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Tant que cette figurine mène une unité, les figurines de cette unité ont l’aptitude Éclaireurs 6".</characteristic>
           </characteristics>
         </profile>
         <profile name="Close In for the Kill" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="fa50-4758-2b95-c8ca">
           <characteristics>
-            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Chaque fois que cette figurine fait une attaque qui vise une unité ennemie qui est en dessous de son Demi-effectif., Ajoutez 1 au jet de Touche et Ajoutez 1 au jet de Blessure.</characteristic>
+            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Chaque fois que cette figurine effectue une attaque visant une unité ennemie qui est En Dessous de son Demi-effectif, ajoutez 1 au jet de Touche et 1 au jet de Blessure.</characteristic>
           </characteristics>
         </profile>
         <profile name="Sauvegarde Invulnérable" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="fd08-ccf2-9d2c-2db2">
@@ -8944,7 +8944,7 @@ Réserves stratégiques.</characteristic>
         </profile>
         <profile name="Fervour of the Ancients (Aura)" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="979-e7d1-937c-d5f0">
           <characteristics>
-            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Alors qu'une unité SPACE WOLVES conviviale est à 6" ou moins de cette figurine, ajoutez 1 aux jets d’Avance et de Charge faits pour cette unité.</characteristic>
+            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Alors qu'une unité conviviale SPACE WOLVES est à 6" ou moins de cette figurine, ajoutez 1 à Advance et jets de Charge de cette unité.</characteristic>
           </characteristics>
         </profile>
       </profiles>
@@ -9194,7 +9194,7 @@ Réserves stratégiques.</characteristic>
       <profiles>
         <profile name="Blizzard shield" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="40ee-97e4-6842-5262">
           <characteristics>
-            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Le porteur a un 4+ sauvegarde invulnérable.</characteristic>
+            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Le porteur a une sauvegarde invulnérable de 4+.</characteristic>
           </characteristics>
         </profile>
       </profiles>
@@ -9251,7 +9251,7 @@ Réserves stratégiques.</characteristic>
       <profiles>
         <profile name="Vengeance of the Omnissiah" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="29a1-b246-bd11-df46">
           <characteristics>
-            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Si une figurine amie ADEPTUS ASTARTES VEHICLE est détruite à 12" ou moins de cette figurine, jusqu'à la fin de la bataille, le marteau Iron Priest de cette figurine a une caractéristique d’Attaques de 6.</characteristic>
+            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Si une figurine ADEPTUS ASTARTES VEHICLE amie est détruite à 12" ou moins de cette figurine, jusqu’à la fin de la bataille, le marteau Iron Priest de cette figurine a une caractéristique d’Attaques de 6.</characteristic>
           </characteristics>
         </profile>
         <profile name="Meneur" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="a6ac-110a-f003-1aac">
@@ -9263,12 +9263,12 @@ Réserves stratégiques.</characteristic>
         </profile>
         <profile name="Iron Priest" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="79ad-deaa-12d1-10e5">
           <characteristics>
-            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Alors que cette figurine est à 3" ou moins d'une ou plusieurs unités ADEPTUS ASTARTES VEHICLE amicaux, cette figurine a la aptitude Agent solitaire</characteristic>
+            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Alors que cette figurine se trouve à 3" ou moins d'une ou de plusieurs unités amies ADEPTUS ASTARTES VEHICLE, cette figurine possède l’aptitude Agent solitaire</characteristic>
           </characteristics>
         </profile>
         <profile name="Blessing of the Omnissiah" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="47d6-60fd-3fc0-91d8">
           <characteristics>
-            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Dans votre phase de Commandement, vous pouvez sélectionner une figurine ADEPTUS ASTARTES VEHICLE ami à 3" ou moins de cette figurine. cette figurine récupère jusqu'à D3 les PV perdus et, jusqu'au début de votre prochaine phase de Commandement, chaque fois que la figurine VEHICLE fait une attaque, ajoutez 1 à la jets de Touche. Chaque figurine ne peut être sélectionné pour cette aptitude qu'une seule fois par tour.</characteristic>
+            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Durant votre phase de Commandement, vous pouvez sélectionner une figurine ADEPTUS ASTARTES VEHICLE amie à 3" ou moins de cette figurine. Cette figurine récupère jusqu’à D3 PV perdus et, jusqu’au début de votre prochaine phase de Commandement, chaque fois que cette figurine VEHICLE effectue une attaque, ajoutez 1 au jet de Touche. Chaque figurine ne peut être sélectionnée pour cette aptitude qu’une fois par tour.</characteristic>
           </characteristics>
         </profile>
         <profile name="Iron Priest on Thunderwolf" typeId="c547-1836-d8a-ff4f" typeName="Unit" hidden="false" id="9277-3d58-f8f4-91a9">
@@ -9557,7 +9557,7 @@ Réserves stratégiques.</characteristic>
         </profile>
         <profile name="Healing Balms" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="0ae4-0afb-6938-59aa">
           <characteristics>
-            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Pendant que cette figurine mène une unité, dans votre phase de Commandement, vous pouvez retourner la figurine 1 (à l'exclusion des figurines CHARACTER) à cette unité.</characteristic>
+            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Alors que cette figurine mène une unité, dans votre phase de Commandement, vous pouvez retourner 1 figurine (à l’exclusion de CHARACTER figurines) à cette unité.</characteristic>
           </characteristics>
         </profile>
       </profiles>
@@ -9706,7 +9706,7 @@ Réserves stratégiques.</characteristic>
         </profile>
         <profile name="Tempered Ferocity" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="1a1b-79a9-bfe2-8a7c">
           <characteristics>
-            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Pendant que cette figurine mène une unité, les armes équipées par les figurines de cette unité ont la aptitude [Touches soutenues 1] et, chaque fois qu'une figurine de cette unité effectue une attaque qui vise une unité ennemie à 6" ou moins, relancer un jet de Touche de 1</characteristic>
+            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Tant que cette figurine mène une unité, les armes dont sont équipées les figurines de cette unité ont l’aptitude [Touches soutenues 1] et, chaque fois qu’une figurine de cette unité effectue une attaque qui cible une unité ennemie à 6" ou moins, relancez un jet de Touche de 1</characteristic>
           </characteristics>
           <modifiers>
             <modifier type="set" value="true" field="hidden">
@@ -9718,7 +9718,7 @@ Réserves stratégiques.</characteristic>
         </profile>
         <profile name="Heroic Last Stand" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="ea31-1e1d-d30f-3431">
           <characteristics>
-            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Si cette figurine est détruit par une attaque de mêlée, s'il n'a pas combattu cette phase, lancez un D6: sur un 2+, ne le retirez pas du jeu. la figurine détruit peut se battre après que l'unité attaquante ait terminé ses attaques, puis il est retiré du jeu.</characteristic>
+            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Si cette figurine est détruite par une attaque de mêlée, si elle n’a pas combattu à cette phase, lancez un D6 : sur 2+, ne la retirez pas du jeu. La figurine détruite peut combattre une fois que l’unité attaquante a fini de résoudre ses attaques, puis elle est retirée du jeu.</characteristic>
           </characteristics>
         </profile>
         <profile name="Meneur" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="ef01-1060-871e-d168">
@@ -9823,7 +9823,7 @@ Réserves stratégiques.</characteristic>
                   <profiles>
                     <profile name="Storm Shield" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="9b50-59f8-a1dd-ca83">
                       <characteristics>
-                        <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Le porteur possède une caractéristique de PV de 6</characteristic>
+                        <characteristic name="Description" typeId="9b8f-694b-e5e-b573">le porteur a une caractéristique de PV de 6</characteristic>
                       </characteristics>
                     </profile>
                   </profiles>
@@ -10016,13 +10016,13 @@ Réserves stratégiques.</characteristic>
         </profile>
         <profile name="Headhunters" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="cb76-25b3-da1e-ebe7">
           <characteristics>
-            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Au début de la bataille, sélectionnez une unité de l'armée de votre adversaire pour être la carrière de cette unité. Les armes équipées de figurines HEADTAKERS dans cette unité ont les capacités [Blessures dévastatrices] et [Précision] tout en ciblant sa carrière. Chaque fois que la carrière de cette unité est détruite, sélectionnez une nouvelle unité ennemie pour être la carrière de cette unité. Cette aptitude peut être utilisée même si cette unité est embarquée dans
-a Transport</characteristic>
+            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Au début de la bataille, sélectionnez une unité de l’armée de votre adversaire pour être la proie de cette unité. Les armes dont sont équipées les figurines HEADTAKERS de cette unité ont les aptitudes [Blessures dévastatrices] et [Précision] lorsqu’elles ciblent sa proie. Chaque fois que la proie de cette unité est détruite, sélectionnez une nouvelle unité ennemie pour être la proie de cette unité. Cette aptitude peut être utilisée même si cette unité est embarquée dans
+un Transport</characteristic>
           </characteristics>
         </profile>
         <profile name="Hunting Hounds" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="90e0-d8ee-abf5-5cab">
           <characteristics>
-            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Tant que cette unité se trouve à 6" ou moins d'une ou plusieurs figurines SPACE WOLVES CHARACTER amicaux (à l'exclusion des figurines Wulfen), si cette unité n'est pas Ébranlée, les figurines Hunting Wolves ont une caractéristique de Contrôle d’Objectif de 1</characteristic>
+            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Tant que cette unité est à 6" ou moins d’une ou plusieurs figurines SPACE WOLVES CHARACTER amies (à l’exclusion des figurines WULFEN), si cette unité n’est pas Ébranlée, les figurines HUNTING WOLVES de cette unité ont une caractéristique de Contrôle d’Objectif de 1</characteristic>
           </characteristics>
         </profile>
       </profiles>
@@ -10166,7 +10166,7 @@ a Transport</characteristic>
               <profiles>
                 <profile name="Death Totem" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="970c-3a08-c8df-0557">
                   <characteristics>
-                    <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Chaque fois que le porteur effectue une attaque de mêlée, relancez un jet de Touche de 1.</characteristic>
+                    <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Chaque fois que le porteur fait une attaque de mêlée, relancer fait un jet de Touche de 1.</characteristic>
                   </characteristics>
                 </profile>
               </profiles>
@@ -10255,7 +10255,7 @@ a Transport</characteristic>
         </profile>
         <profile name="Hammer Blow" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="a630-3650-0461-51a2">
           <characteristics>
-            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Dans la phase de Combat, après que cette unité ait combattu, sélectionnez une unité ennemie MONSTER ou VEHICLE frappée par une ou plusieurs de ces attaques. Jusqu'à la fin du tour suivant, cette unité ennemie est supprimée. Tant qu’une unité est supprimée, chaque fois qu'une figurine dans cette unité fait une attaque, Soustrayez 1 du jet de Touche.</characteristic>
+            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Dans la phase de Combat, après que cette unité ait combattu, sélectionnez une unité ennemie MONSTER ou VEHICLE frappée par une ou plusieurs de ces Attaques. Jusqu'à la fin du tour suivant, le unité ennemie est supprimé. Tant qu’une unité est supprimée, chaque fois qu'une figurine dans cette unité fait une attaque, Soustrayez 1 du jet de Touche.</characteristic>
           </characteristics>
         </profile>
       </profiles>
@@ -10369,13 +10369,13 @@ a Transport</characteristic>
         </profile>
         <profile name="Headhunters" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="72c5-8cb4-72d0-d0f0">
           <characteristics>
-            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Au début de la bataille, sélectionnez une unité de l'armée de votre adversaire pour être la carrière de cette unité. Les armes équipées de figurines HEADTAKERS dans cette unité ont les capacités [Blessures dévastatrices] et [Précision] tout en ciblant sa carrière. Chaque fois que la carrière de cette unité est détruite, sélectionnez une nouvelle unité ennemie pour être la carrière de cette unité. Cette aptitude peut être utilisée même si cette unité est embarquée dans
-a Transport</characteristic>
+            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Au début de la bataille, sélectionnez une unité de l’armée de votre adversaire pour être la proie de cette unité. Les armes dont sont équipées les figurines HEADTAKERS de cette unité ont les aptitudes [Blessures dévastatrices] et [Précision] lorsqu’elles ciblent sa proie. Chaque fois que la proie de cette unité est détruite, sélectionnez une nouvelle unité ennemie pour être la proie de cette unité. Cette aptitude peut être utilisée même si cette unité est embarquée dans
+un Transport</characteristic>
           </characteristics>
         </profile>
         <profile name="Hunting Hounds" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="61fa-620a-da41-941c">
           <characteristics>
-            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Tant que cette unité se trouve à 6" ou moins d'une ou plusieurs figurines SPACE WOLVES CHARACTER amicaux (à l'exclusion des figurines Wulfen), si cette unité n'est pas Ébranlée, les figurines Hunting Wolves ont une caractéristique de Contrôle d’Objectif de 1</characteristic>
+            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Tant que cette unité est à 6" ou moins d’une ou plusieurs figurines SPACE WOLVES CHARACTER amies (à l’exclusion des figurines WULFEN), si cette unité n’est pas Ébranlée, les figurines HUNTING WOLVES de cette unité ont une caractéristique de Contrôle d’Objectif de 1</characteristic>
           </characteristics>
         </profile>
       </profiles>
@@ -10854,12 +10854,12 @@ a Transport</characteristic>
         </profile>
         <profile name="Hunting Hounds" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="64cb-9458-5e74-8b44">
           <characteristics>
-            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Tant que cette unité se trouve à 6" ou moins d'une ou plusieurs figurines ^^**Space Wolves Character**^^ amicaux (à l'exclusion des figurines ^^**Wulfen**^^), si cette unité n'est pas Ébranlée, les figurines Hunting Wolves de cette unité ont une caractéristique de Contrôle d’Objectif de 1.</characteristic>
+            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Si cette unité se trouve à 6" ou moins d'un ou de plusieurs ^^**Space Wolves Character**^^ figurines (à l’exclusion de ^^**Wulfen**^^ figurines), si cette unité n'est pas Ébranlé, Hunting Wolves les figurines de cette unité ont une caractéristique de Contrôle d’Objectif de 1.</characteristic>
           </characteristics>
         </profile>
         <profile name="Deadly Stalkers" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="6352-6f0c-617d-2c1c">
           <characteristics>
-            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Chaque fois qu'une figurine de cette unité effectue une attaque visant une unité ennemie, s'il n'y a pas d'autres unités de l'armée de votre adversaire à 6" ou moins de cette cible, ajoutez 1 au jet de Blessure.</characteristic>
+            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Chaque fois qu'une figurine dans cette unité effectue une attaque visant une unité ennemie, s'il n'y a pas d'autres unités de l'armée de votre adversaire à 6" ou moins de cette cible, ajoutez 1 au jet de Blessure.</characteristic>
           </characteristics>
         </profile>
       </profiles>
@@ -11115,7 +11115,7 @@ a Transport</characteristic>
           <profiles>
             <profile name="Haywire Mine" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="4a1f-d0be-62cd-278f">
               <characteristics>
-                <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Une fois par bataille, au début de toute phase, vous pouvez sélectionner une unité ennemi à 3" ou moins du porteur et lancez un D6: sur un 2+, cette unité ennemi subit des Blessures Mortelles D3, ou 2D3 Blessures Mortelles à la place si c'est une unité ^^**Vehicle**^^.</characteristic>
+                <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Une fois par bataille, au début de toute phase, vous pouvez sélectionner une unité ennemie à 3" ou moins du porteur et lancez un D6: sur un 2+, que cette unité ennemie souffre D3 Blessures Mortelles, ou 2D3 Blessures Mortelles à la place si c'est une unité ^^**Vehicle**^^.</characteristic>
               </characteristics>
             </profile>
           </profiles>
@@ -11474,7 +11474,7 @@ a Transport</characteristic>
       <profiles>
         <profile name="Inspiring Leader" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="569f-40e5-8052-fa2f">
           <characteristics>
-            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Pendant que cette figurine mène une unité, une fois par bataille, quand un test d’Ébranlement est effectué pour cette unité, vous pouvez relancer ce test.</characteristic>
+            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Tant que cette figurine mène une unité, une fois par bataille, lorsqu’un test d’Ébranlement est effectué pour cette unité, vous pouvez relancer ce test.</characteristic>
           </characteristics>
         </profile>
         <profile name="Pack Leader" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="26ab-4388-b722-25be">

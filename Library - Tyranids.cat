@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue xmlns="http://www.battlescribe.net/schema/catalogueSchema" library="true" id="21c3-d201-3c55-bc93" name="Library - Tyranids" gameSystemId="sys-0e45-705d-f6bc-806a" gameSystemRevision="77" revision="22" authorName="Dunamis55" battleScribeVersion="2.03" type="catalogue">
+<catalogue xmlns="http://www.battlescribe.net/schema/catalogueSchema" library="true" id="374d-45f0-5832-001e" name="Library - Tyranids" gameSystemId="sys-352e-adc2-7639-d6a9" gameSystemRevision="77" revision="22" authorName="Dunamis55" battleScribeVersion="2.03" type="catalogue">
   <sharedSelectionEntries>
     <selectionEntry id="fa68-fcb9-38c-cd0f" name="Winged Hive Tyrant" hidden="false" collective="false" import="true" type="model">
       <constraints>
@@ -21,7 +21,7 @@
         </profile>
         <profile id="fee7-90a8-24a2-79ef" name="Paroxysm (Psychic)" hidden="false" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities">
           <characteristics>
-            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Au début de la phase de Combat, vous pouvez sélectionner une unité ennemi à 12" ou moins de et visible à cette figurine et lancez un D6: sur un 1, ce Psyker subit des Blessures Mortelles D3; sur un 2+, jusqu'à la fin de la phase, Soustrayez 1 des caractéristique d’Attaques des armes équipées par des figurines dans cette unité.</characteristic>
+            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Au début de la phase de Combat, vous pouvez sélectionner une unité ennemie à 12" ou moins et visible à cette figurine et lancez un D6: sur un 1, ce Psyker souffre D3 Blessures Mortelles; sur un 2+, Jusqu’à la fin de la phase, Soustrayez 1 de la caractéristique d’Attaques des armes équipées par les figurines de cette unité.</characteristic>
           </characteristics>
         </profile>
       </profiles>
@@ -217,12 +217,12 @@
       <profiles>
         <profile id="a4ec-5941-e494-6ed0" name="Alpha Warrior" hidden="false" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities">
           <characteristics>
-            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Alors que cette figurine mène une unité, les armes équipées de figurines dans cette unité ont la aptitude [Touches soutenues 1].</characteristic>
+            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Alors que cette figurine mène une unité, les armes équipées des figurines de cette unité ont l’aptitude [Touches soutenues 1].</characteristic>
           </characteristics>
         </profile>
         <profile id="5689-b058-225b-88d9" name="Death Blow" hidden="false" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities">
           <characteristics>
-            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Si cette figurine est détruit par une attaque de mêlée, s'il n'a pas combattu cette phase, lancez un D6: sur un 4+, ne le retirez pas du jeu. la figurine détruit peut se battre après que l'unité de la figurine attaquant a terminé ses attaques, et est ensuite retiré du jeu.</characteristic>
+            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Si cette figurine est détruite par une attaque de mêlée et qu’elle n’a pas combattu durant cette phase, lancez un D6 : sur 4+, ne la retirez pas du jeu. La figurine détruite peut combattre après que l’unité de la figurine attaquante a terminé d’effectuer ses attaques, puis elle est retirée du jeu.</characteristic>
           </characteristics>
         </profile>
         <profile name="Winged Tyranid Prime" typeId="c547-1836-d8a-ff4f" typeName="Unit" hidden="false" id="6202-88a9-5a3-232a">
@@ -472,7 +472,7 @@
         </profile>
         <profile name="Fear of the Unseen (Aura)" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="5bd7-b7c-42a4-3055">
           <characteristics>
-            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Alors qu'une unité ennemie est à 6" ou moins de cette figurine, aggraver la caractéristique de Commandement des figurines dans cette unité par 1. En outre, dans la étape d’Ébranlement de la phase de Commandement de votre adversaire, si une telle unité ennemie est inférieure à son Effectif Initial, elle doit passer un test d’Ébranlement.</characteristic>
+            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Tant qu’une unité ennemie est à 6" ou moins de cette figurine, aggravez de 1 la caractéristique de Commandement des figurines de cette unité. De plus, à l’étape d’Ébranlement de la phase de Commandement de votre adversaire, si une telle unité ennemie est en dessous de son Effectif Initial, elle doit effectuer un test d’Ébranlement.</characteristic>
           </characteristics>
         </profile>
         <profile name="Hunter Organism" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="e3fa-da84-9809-3099">
@@ -539,7 +539,7 @@
       <profiles>
         <profile id="c1f2-5d1a-e044-fba8" name="Winged Swarm" hidden="false" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities">
           <characteristics>
-            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Dans votre phase de Tir, une fois que cette unité a tiré, si elle n'est pas dans la Portée d’Engagement des unités ennemies, elle peut faire un mouvement normal jusqu'à 6". Si tel est le cas, jusqu'à la fin du tour, cette unité n'est pas éligible à la déclaration d'une charge.</characteristic>
+            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Dans votre phase de Tir, après que cette unité a tiré, s'il n'est pas à l'intérieur de Portée d’Engagement de toute unité ennemie, il peut effectuer un mouvement Normal de jusqu'à 6". Si tel est le cas, jusqu'à la fin du tour, cette unité n'est pas éligible à la déclaration d'une charge.</characteristic>
           </characteristics>
         </profile>
       </profiles>
@@ -760,12 +760,12 @@
       <profiles>
         <profile name="Alpha Invader" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="5021-8bf2-f214-c0ad">
           <characteristics>
-            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Les armes équipées de figurines de cette unité ont la aptitude **[SUSTAINED HITS 1]**.</characteristic>
+            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Les armes dont les figurines de cette unité sont équipées ont l’aptitude **[SUSTAINED HITS 1]**.</characteristic>
           </characteristics>
         </profile>
         <profile name="Hypersensory Array" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="c630-ebc4-f48c-6eba">
           <characteristics>
-            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Une fois par tour de bataille, vous pouvez cibler cette unité avec le Rapid Ingress ou le Stratagème d'intervention héroïque pour 0CP, et vous pouvez le faire même si vous avez déjà ciblé une autre unité avec ce Stratagème à ce tour.</characteristic>
+            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Une fois par tour de bataille, vous pouvez cibler cette unité avec le Stratagème Rapid Ingress ou Heroic Intervention pour 0CP, même si vous avez déjà ciblé une autre unité avec ce Stratagème durant ce tour.</characteristic>
           </characteristics>
         </profile>
       </profiles>
@@ -1039,7 +1039,7 @@
         </profile>
         <profile name="Pheromone Trail" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="5e16-936-6e44-955c">
           <characteristics>
-            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Une fois par tour de bataille, vous pouvez cibler une figurine avec cette aptitude avec le Rapid Ingress Stratagème pour 0CP.</characteristic>
+            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Une fois par round de bataille, vous pouvez cibler une figurine dotée de cette aptitude avec le Stratagème Rapid Ingress pour 0CP.</characteristic>
           </characteristics>
           <modifiers>
             <modifier type="set" value="true" field="hidden">
@@ -1220,7 +1220,7 @@
       <profiles>
         <profile name="Terror from the Deep" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="5b71-bc6f-68c5-a06a">
           <characteristics>
-            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Chaque fois que cette unité est mise en place sur le champ de bataille en utilisant la aptitude Frappe en profondeur, lancez un D6 pour chaque unité ennemi à 12" ou moins de cette figurine: sur une 2-4, cette unité subit des Blessures Mortelles D3; sur une 5+, cette unité subit des Blessures Mortelles 3 et doit passer un test d’Ébranlement.</characteristic>
+            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Chaque fois que cette unité est configurée sur le champ de bataille en utilisant l’aptitude Frappe en profondeur, lancez un D6 pour chaque unité ennemie à 12" ou moins de cette figurine: sur un 2-4, cette unité souffre de D3 Blessures Mortelles; sur un 5+, cette unité souffre de 3 Blessures Mortelles et doit prendre un test d’Ébranlement.</characteristic>
           </characteristics>
         </profile>
         <profile name="Mawloc" typeId="c547-1836-d8a-ff4f" typeName="Unit" hidden="false" id="c9fa-4640-80ed-c955">
@@ -1438,12 +1438,12 @@
         </profile>
         <profile name="Feeder Tendrils" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="d06d-869e-b2-ff95">
           <characteristics>
-            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Chaque fois que cette figurine détruit une figurine ennemie CHARACTER, vous gagnez 1CP</characteristic>
+            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Chaque fois que cette figurine détruit une figurine CHARACTER ennemie, vous gagnez 1CP</characteristic>
           </characteristics>
         </profile>
         <profile name="Neural Disruption" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="e348-1799-4ccc-f1e3">
           <characteristics>
-            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Dans votre phase de Commandement, sélectionnez une unité ennemie à 12" ou moins de cette figurine. Cette unité doit passer un test d’Ébranlement</characteristic>
+            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Durant votre phase de Commandement, sélectionnez une unité ennemie à 12" ou moins de cette figurine. Cette unité doit effectuer un test d’Ébranlement.</characteristic>
           </characteristics>
         </profile>
         <profile name="Psychological Saboteur (Aura)" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="f420-4c72-dafd-6998">
@@ -1451,7 +1451,7 @@
             <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Alors qu'une unité ennemie est avec 12" de cette figurine, si cette unité est Ébranlée:
 
 - Chaque fois qu'une figurine dans cette unité fait une attaque, Soustrayez 1 du jet de Touche
-- Chaque fois qu'une figurine TYRANIDS ami fait une attaque qui vise cette unité, Ajoutez 1 au jet de Blessure.</characteristic>
+- Chaque fois qu'un ami TYRANIDS figurine fait une attaque visant cette unité, ajoutez 1 au jet de Blessure.</characteristic>
           </characteristics>
         </profile>
       </profiles>
@@ -1636,12 +1636,12 @@
       <profiles>
         <profile name="Parasitic Infection" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="e63a-3205-566f-57d8">
           <characteristics>
-            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Chaque fois qu'une figurine **^^Infantry^^** est détruite par une attaque effectuée avec cet ovipositeur à bâtons, après que cette figurine ait terminé ses attaques, vous pouvez ajouter une nouvelle unité **^^Ripper Swarms^^** à votre armée composée de figurines D3 et la configurer à 3" ou moins de cette figurine. Si vous le faites, cette unité **^^Ripper Swarms^^** peut être configurée dans la Portée d’Engagement de l'unité figurines détruite (mais pas dans la Portée d’Engagement de toute autre unité ennemie).</characteristic>
+            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Chaque fois qu’une figurine **^^Infantry^^** est détruite par une attaque effectuée avec le barbed ovipositor de cette figurine, après que cette figurine a fini de résoudre ses attaques, vous pouvez ajouter à votre armée une nouvelle unité **^^Ripper Swarms^^** composée de D3 figurines et la placer à 3" ou moins de cette figurine. Si vous le faites, cette unité **^^Ripper Swarms^^** peut être placée à Portée d’Engagement de l’unité de la figurine détruite (mais pas à Portée d’Engagement d’une autre unité ennemie).</characteristic>
           </characteristics>
         </profile>
         <profile name="It Itches!" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="738b-7257-a0b0-6cda">
           <characteristics>
-            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Au début de la phase de Combat, sélectionnez une unité ennemi dans la Portée d’Engagement de cette figurine. Cette unité ennemie doit passer un test d’Ébranlement.</characteristic>
+            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Au début de la phase de Combat, sélectionnez une unité ennemie dans le Portée d’Engagement de cette figurine. cette unité ennemie doit prendre un test d’Ébranlement.</characteristic>
           </characteristics>
         </profile>
         <profile name="Parasite of Mortrex" typeId="c547-1836-d8a-ff4f" typeName="Unit" hidden="false" id="5c09-d793-dbbf-7d14">
@@ -1814,7 +1814,7 @@
       <profiles>
         <profile name="Death From Below" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="e078-a1cc-7896-7443">
           <characteristics>
-            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">À la fin du tour de votre adversaire, si cette unité n'est pas dans la Portée d’Engagement d'une ou plusieurs unités ennemies, vous pouvez la retirer du champ de bataille et la placer dans les réserves stratégiques.</characteristic>
+            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">À la fin du tour de votre adversaire, si cette unité n’est pas à Portée d’Engagement d’une ou plusieurs unités ennemies, vous pouvez la retirer du champ de bataille et la placer en Réserves Stratégiques.</characteristic>
           </characteristics>
           <modifiers>
             <modifier type="set" value="true" field="hidden">
@@ -2089,7 +2089,7 @@
       <profiles>
         <profile name="Subterranean Tunnels" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="ca9b-8e0-47fa-32ed">
           <characteristics>
-            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Dans votre phase de Mouvement, lorsque cette figurine est configuré sur le champ de bataille en utilisant la aptitude Frappe en profondeur, il peut utiliser un tunnel souterrain. Si c'est le cas, cette figurine peut être configuré n'importe où sur le champ de bataille qui est plus de 6" horizontalement loin de toutes les unités ennemies, mais jusqu'à la fin du tour, il n'est pas éligible à déclarer une charge.</characteristic>
+            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Dans votre phase de Mouvement, lorsque cette figurine est installé sur le champ de bataille en utilisant l’aptitude Frappe en profondeur, il peut utiliser un tunnel souterrain. Si c'est le cas, cette figurine peut être installé n'importe où sur le champ de bataille qui est plus que 6" horizontalement éloigné de toutes les unités ennemies, mais jusqu'à la fin du tour, il n'est pas éligible à déclarer une charge.</characteristic>
           </characteristics>
         </profile>
         <profile name="Trygon" typeId="c547-1836-d8a-ff4f" typeName="Unit" hidden="false" id="2913-9d03-6b31-46a8">
@@ -2342,7 +2342,7 @@
         </profile>
         <profile name="Aerial Seeding" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="ceb3-c557-c854-8883">
           <characteristics>
-            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">cette figurine doit démarrer la bataille dans les réserves, mais ni lui ni les unités embarquées à l'intérieur ne sont comptées dans les limites imposées au nombre maximal d'unités des réserves avec lesquelles vous pouvez commencer la bataille. cette figurine peut être mis en place à l'étape des Renforts de votre première, deuxième ou troisième phase de Mouvement, indépendamment des règles de la mission. Toutes les unités embarquées dans cette figurine doivent débarquer immédiatement après sa mise en place sur le champ de bataille, et elles doivent être placées à plus de 9" loin de tous les figurines ennemies. Une fois cette figurine installé sur le champ de bataille, aucune unité ne pourra s'y embarquer.</characteristic>
+            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">cette figurine doit commencer la bataille dans les réserves, mais ni lui ni les unités embarquées à l'intérieur ne sont comptées pour les limites imposées au nombre maximum d'unités des réserves avec lesquelles vous pouvez commencer la bataille. Cette figurine peut être placée à l’étape des Renforts de votre première, deuxième ou troisième phase de Mouvement, quelles que soient les règles de mission. Toutes les unités embarquées dans cette figurine doivent débarquer immédiatement après avoir été installées sur le champ de bataille, et elles doivent être installées plus de 9" loin de tous les ennemis figurines. Une fois que cette figurine a été installé sur le champ de bataille, aucune unité ne peut s'y embarquer.</characteristic>
           </characteristics>
         </profile>
         <profile name="Tyrannocyte" typeId="74f8-5443-9d6d-1f1e" typeName="Transport" hidden="false" id="c21b-12cd-b9a6-4e19">
@@ -2513,7 +2513,7 @@
       <profiles>
         <profile name="Pouncing Leap" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="8fab-3b8c-1342-cfed">
           <characteristics>
-            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Vous pouvez cibler cette unité avec le Stratagème d'intervention héroïque pour 0CP, et vous pouvez le faire même si vous avez déjà utilisé ce Stratagème sur une unité différente à cette phase.</characteristic>
+            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Vous pouvez cibler cette unité avec l'intervention héroïque Stratagème pour 0CP, et vous pouvez le faire même si vous avez déjà utilisé ce Stratagème sur une unité différente cette phase.</characteristic>
           </characteristics>
           <modifiers>
             <modifier type="set" value="true" field="hidden">
@@ -2755,7 +2755,7 @@
       <modifiers>
         <modifier type="set" value="true" field="hidden">
           <conditions>
-            <condition type="notInstanceOf" value="1" field="selections" scope="primary-catalogue" childId="841f-7762-0c12-7029" shared="true" />
+            <condition type="notInstanceOf" value="1" field="selections" scope="primary-catalogue" childId="b984-7317-81cc-20f" shared="true" />
           </conditions>
         </modifier>
       </modifiers>
@@ -3111,7 +3111,7 @@
         </profile>
         <profile name="Alpha Warrior" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="dece-0e85-25f7-c68f">
           <characteristics>
-            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Alors que cette figurine mène une unité, les armes équipées de figurines dans cette unité ont la aptitude **[SUSTAINED HITS 1]**.</characteristic>
+            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Alors que cette figurine mène une unité, les armes équipées des figurines de cette unité ont l’aptitude **[SUSTAINED HITS 1]**.</characteristic>
           </characteristics>
         </profile>
         <profile name="Meneur" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="4b1e-c1c9-9119-59ff">
@@ -3941,12 +3941,12 @@
 - Toutes les figurines perdent l’aptitude Frappe en profondeur.</description>
         </rule>
         <rule name="Auspex Ghosts" id="bdee-3334-ed02-9877" hidden="false">
-          <description>Des unités de votre armée avec les capacités Synapse ou Cult Ambush remplacer ces capacités par celle-ci.
+          <description>Les unités de votre armée dotées des aptitudes Synapse ou Cult Ambush remplacent ces aptitudes par celle-ci.
 
-Dans l'étape des Armées déployées, votre adversaire doit mettre en place toute son armée avant que vous ne mettiez en place aucune de vos unités. Si les deux joueurs ont une règle qui leur permet de le faire, les deux joueurs mettent en place leurs unités normalement.</description>
+À l’étape Déployer les Armées, votre adversaire doit placer toute son armée avant que vous ne placiez l’une de vos unités. Si les deux joueurs ont une règle qui leur permet de le faire, ils placent tous deux leurs unités normalement.</description>
         </rule>
         <rule name="Mustering A Boarding Patrol" id="369f-6d90-ba8c-fe12" hidden="false">
-          <description>Lorsque vous sélectionnez ce détachement, vous devez sélectionner le mot-clé **^^Tyranids^^** ou **^^Genestealer Cults^^**.
+          <description>Lorsque vous sélectionnez ce détachement, vous devez sélectionner mot-clé **^^Tyranids^^** ou le **^^Genestealer Cults^^**.
 
 ----------
 
@@ -3954,7 +3954,7 @@ Si vous avez sélectionné **^^Tyranids^^**, vous pouvez inclure jusqu'à l'une 
 - **^^Broodlord^^**
 
 Vous pouvez inclure jusqu'à trois des unités suivantes:
-- Les figurines **^^Genestealers^^** (5 ou 10)
+- **^^Genestealers^^** (5 or 10 figurines)
 
 ----------
 
@@ -3962,10 +3962,10 @@ Si vous avez sélectionné **^^Genestealer Cults^^**, vous pouvez inclure jusqu'
 - **^^Patriarch^^**
 
 Vous pouvez inclure jusqu'à trois des unités suivantes:
-- Les figurines **^^Purestrain Genestealers^^** (5 ou 10)</description>
+- **^^Purestrain Genestealers^^** (5 or 10 figurines)</description>
         </rule>
         <rule name="Half-glimpsed Shadows" id="73f9-655d-1321-73d2" hidden="false">
-          <description>Chaque fois qu'une attaque de tir cible une unité **^^Great Devourer^^** de votre armée, si la figurine d'attaque n'est pas à 6" ou moins de cette unité, Soustrayez 1 du jet de Touche.</description>
+          <description>Chaque fois qu'une attaque de tir cible une unité **^^Great Devourer^^** de votre armée, si la figurine attaquante n'est pas à 6" ou moins de cette unité, Soustrayez 1 du jet de Touche.</description>
         </rule>
       </rules>
     </selectionEntry>
@@ -4024,7 +4024,7 @@ Vous pouvez inclure jusqu'à trois des unités suivantes:
         </profile>
         <profile name="Swallow Whole" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="9ed6-ae2a-117d-e475">
           <characteristics>
-            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Chaque fois qu'une attaque avec la mâchoire ouverte de cette figurine vise une unité **^^Infantry^^**, **^^Mounted^^** ou **^^Beasts^^**, chaque jet de Blessure non modifié est une blessure critique. Chaque fois qu'une figurine **^^Infantry^^**, **^^Mounted^^** ou **^^Beasts^^** est détruite à la suite d'une attaque effectuée par ce figurines la main vide, cette figurine récupère jusqu'à D3+2 PV perdus.</characteristic>
+            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Chaque fois qu’une attaque effectuée avec le gaping maw de cette figurine cible une unité **^^Infantry^^**, **^^Mounted^^** ou **^^Beasts^^**, chaque jet de Blessure non modifié réussi est une Blessure Critique. Chaque fois qu’une figurine **^^Infantry^^**, **^^Mounted^^** ou **^^Beasts^^** est détruite par une attaque effectuée avec le gaping maw de cette figurine, cette figurine récupère jusqu’à D3+2 PV perdus.</characteristic>
           </characteristics>
         </profile>
         <profile name="The Red Terror" typeId="c547-1836-d8a-ff4f" typeName="Unit" hidden="false" id="e944-f972-cf18-b5de">
@@ -4039,7 +4039,7 @@ Vous pouvez inclure jusqu'à trois des unités suivantes:
         </profile>
         <profile name="Subterranean Hunter" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="addf-7fc0-386d-9c64">
           <characteristics>
-            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">À la fin de la phase de Combat, si cette unité n'est pas dans la Portée d’Engagement d'une ou plusieurs unités ennemies, vous pouvez la retirer du champ de bataille et la placer dans les réserves stratégiques.</characteristic>
+            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">À la fin de la phase de Combat, si cette unité n'est pas à l'intérieur du Portée d’Engagement d'une ou de plusieurs unités ennemies, vous pouvez la retirer du champ de bataille et la placer dans Réserves Stratégiques.</characteristic>
           </characteristics>
         </profile>
       </profiles>
@@ -4143,33 +4143,33 @@ Vous pouvez inclure jusqu'à trois des unités suivantes:
         </modifier>
         <modifier type="set" value="true" field="hidden">
           <conditions>
-            <condition type="notInstanceOf" value="1" field="selections" scope="primary-catalogue" childId="841f-7762-0c12-7029" shared="true" />
+            <condition type="notInstanceOf" value="1" field="selections" scope="primary-catalogue" childId="b984-7317-81cc-20f" shared="true" />
           </conditions>
         </modifier>
       </modifiers>
     </rule>
     <rule id="395b-a159-b293-27aa" name="Shadow in the Warp" hidden="false">
-      <description>Si votre faction militaire est **^^Tyranids^^**, une fois par bataille, dans la phase de Commandement de l'un ou l'autre joueur, si une ou plusieurs unités de votre armée avec cette aptitude sont sur le champ de bataille., Vous pouvez libérer le Shadow in the Warp. Quand vous le faites, chaque unité ennemie sur le champ de bataille doit passer un test d’Ébranlement. Chaque fois qu'une unité ennemie passe un tel test d’Ébranlement, , s'il est à 6" ou moins d’une ou plusieurs unités Synapse de votre armée, Soustrayez 1 de cet essai.</description>
+      <description>Si votre Faction d’Armée est **^^Tyranids^^**, une fois par bataille, durant la phase de Commandement de l’un ou l’autre joueur, si une ou plusieurs unités de votre armée dotées de cette aptitude sont sur le champ de bataille, vous pouvez déchaîner Shadow in the Warp. Lorsque vous le faites, chaque unité ennemie sur le champ de bataille doit effectuer un test d’Ébranlement. Chaque fois qu’une unité ennemie effectue un tel test d’Ébranlement, si elle est à 6" ou moins d’une ou plusieurs unités Synapse de votre armée, soustrayez 1 à ce test.</description>
       <modifiers>
         <modifier type="set" value="true" field="hidden">
           <conditions>
-            <condition type="notInstanceOf" value="1" field="selections" scope="primary-catalogue" childId="841f-7762-0c12-7029" shared="true" />
+            <condition type="notInstanceOf" value="1" field="selections" scope="primary-catalogue" childId="b984-7317-81cc-20f" shared="true" />
           </conditions>
         </modifier>
       </modifiers>
     </rule>
     <rule name="Synaptic Web" id="1ce8-4f31-68c3-7bb0" hidden="false">
-      <description>Les unités de votre armée avec la aptitude Shadow in the Warp conservent cette aptitude.
+      <description>Les unités de votre armée dotées de l’aptitude Shadow in the Warp conservent cette aptitude.
 
-Des unités de votre armée avec la aptitude Synapse conservent cette aptitude et gagnent celle-ci.
+Les unités de votre armée dotées de l’aptitude Synapse conservent cette aptitude et gagnent celle-ci.
 
-Lorsque vous mesurez si une unité de votre armée est dans Synapse Portée d'un ami **^^Synapse^^** figurine, Les murs et Les entrées fermées sont ignorées.</description>
+Lorsque vous mesurez si une unité de votre armée est à Portée de Synapse d’une figurine **^^Synapse^^** amie, les murs et les écoutilles fermées sont ignorés.</description>
     </rule>
     <rule name="Insidious Ambushers" id="4c34-1bd0-8565-fd5a" hidden="false">
-      <description>Les unités de votre armée avec la aptitude Cult Ambush perdent cette aptitude et les unités **^^Genestealer Cults^^** de votre armée gagnent celui-ci.
+      <description>Les unités de votre armée dotées de l’aptitude Cult Ambush perdent cette aptitude et les unités **^^Genestealer Cults^^** de votre armée gagnent celle-ci.
 
 
-Dans l'étape des Armées déployées, votre adversaire doit mettre en place toute son armée avant que vous ne mettiez en place aucune de vos unités. Si les deux joueurs ont une règle qui leur permet de le faire, les deux joueurs mettent en place leurs unités normalement.</description>
+À l’étape Déployer les Armées, votre adversaire doit placer toute son armée avant que vous ne placiez l’une de vos unités. Si les deux joueurs ont une règle qui leur permet de le faire, ils placent tous deux leurs unités normalement.</description>
     </rule>
   </sharedRules>
   <sharedSelectionEntryGroups>
@@ -4218,7 +4218,7 @@ Dans l'étape des Armées déployées, votre adversaire doit mettre en place tou
               <profiles>
                 <profile id="61a5-80cd-a46-38b5" name="Alien Cunning" hidden="false" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities">
                   <characteristics>
-                    <characteristic name="Description" typeId="9b8f-694b-e5e-b573">**^^Tyranids^^** figurine uniquement. Après que les deux joueurs aient déployé leurs armées, sélectionnez jusqu'à trois unités **^^Tyranids^^** de votre armée et redéployez-les. Si vous le souhaitez, vous pouvez mettre ces unités en réserve stratégique, quel que soit le nombre d'unités déjà en réserve stratégique.</characteristic>
+                    <characteristic name="Description" typeId="9b8f-694b-e5e-b573">**^^Tyranids^^** figurine uniquement. Après que les deux joueurs aient déployé leurs armées, sélectionnez jusqu'à trois unités **^^Tyranids^^** de votre armée et redéployez-les. Lorsque vous le faites, vous pouvez configurer ces unités dans Réserves Stratégiques si vous le souhaitez, quel que soit le nombre d'unités déjà dans Réserves Stratégiques.</characteristic>
                   </characteristics>
                 </profile>
               </profiles>
@@ -4287,7 +4287,7 @@ Dans l'étape des Armées déployées, votre adversaire doit mettre en place tou
               <profiles>
                 <profile id="808c-6c15-dd55-c5b" name="Adaptive Biology" hidden="false" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities">
                   <characteristics>
-                    <characteristic name="Description" typeId="9b8f-694b-e5e-b573">**^^Tyranids^^** figurine uniquement. Le porteur possède la aptitude Insensible à la douleur 5+. Au début de tout tour, si le porteur a moins de PV que son nombre initial restant, jusqu'à la fin de la bataille, il a la aptitude Insensible à la douleur 4+ à la place.</characteristic>
+                    <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Figurine **^^Tyranids^^** uniquement. Le porteur a l’aptitude Insensible à la Douleur 5+. Au début de n’importe quel tour, si le porteur a moins que son nombre initial de PV restants, jusqu’à la fin de la bataille, il a l’aptitude Insensible à la Douleur 4+ à la place.</characteristic>
                   </characteristics>
                 </profile>
               </profiles>
@@ -4336,7 +4336,7 @@ Dans l'étape des Armées déployées, votre adversaire doit mettre en place tou
               <profiles>
                 <profile id="c664-fd7d-1b66-2780" name="Instinctive Defense" hidden="false" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities">
                   <characteristics>
-                    <characteristic name="Description" typeId="9b8f-694b-e5e-b573">**^^Tyranids^^** figurine uniquement. Alors que le porteur se trouve à 6" ou moins d'une ou de plusieurs unités **^^Harvester^^**, vous pouvez cibler l'unité du porteur avec le stratagème d'intervention héroïque pour 0CP. En outre, alors que le porteur se trouve à 6" ou moins d'une ou de plusieurs unités **^^Harvester^^** amicales, les figurines de l'unité du porteur ont la aptitude Fights First.</characteristic>
+                    <characteristic name="Description" typeId="9b8f-694b-e5e-b573">**^^Tyranids^^** figurine uniquement. Alors que le porteur est à 6" ou moins d'une ou plusieurs unités **^^Harvester^^**, vous pouvez cibler l’unité du porteur avec l'intervention héroïque Stratagème pour 0CP. En outre, alors que le porteur est à 6" ou moins d'une ou de plusieurs unités **^^Harvester^^** amicales, les figurines de l’unité du porteur ont l’aptitude Fights First.</characteristic>
                   </characteristics>
                 </profile>
               </profiles>
@@ -4358,7 +4358,7 @@ Dans l'étape des Armées déployées, votre adversaire doit mettre en place tou
               <profiles>
                 <profile id="68ef-4d8f-7fc-994f" name="Parasitic Biomorphology" hidden="false" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities">
                   <characteristics>
-                    <characteristic name="Description" typeId="9b8f-694b-e5e-b573">**^^Tyranids^^** figurine uniquement. Ajoutez 1 à la caractéristique de Force des armes de mêlée équipées de figurines dans l'unité du porteur. La première fois que l'unité du porteur détruit une unité ennemi en phase de Combat alors que le porteur est à 6" ou moins d'une ou de plusieurs unités **^^Harvester^^**, jusqu'à la fin de la bataille, ajoutez 1 aux caractéristique d’Attaques des armes de mêlée équipées de figurines dans l'unité du porteur.</characteristic>
+                    <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Figurine **^^Tyranids^^** uniquement. Ajoutez 1 à la caractéristique de Force des armes de mêlée dont sont équipées les figurines de l’unité du porteur. La première fois que l’unité du porteur détruit une unité ennemie durant la phase de Combat alors que le porteur est à 6" ou moins d’une ou plusieurs unités **^^Harvester^^**, jusqu’à la fin de la bataille, ajoutez 1 à la caractéristique d’Attaques des armes de mêlée dont sont équipées les figurines de l’unité du porteur.</characteristic>
                   </characteristics>
                 </profile>
               </profiles>
@@ -4385,7 +4385,7 @@ Dans l'étape des Armées déployées, votre adversaire doit mettre en place tou
               <profiles>
                 <profile id="6b1f-a920-8ec5-c77a" name="Regenerating Monstrosity" hidden="false" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities">
                   <characteristics>
-                    <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Seul figurine **^^Tyranids^^** (à l'exclusion des figurines **^^Monsters^^**) l’unité du porteur peut être régénérée jusqu'à deux fois par phase, au lieu d'une fois.</characteristic>
+                    <characteristic name="Description" typeId="9b8f-694b-e5e-b573">**^^Tyranids^^** figurine uniquement (à l’exclusion de **^^Monsters^^** figurines) l’unité du porteur peut être régénérée jusqu'à deux fois par phase, au lieu de une fois.</characteristic>
                   </characteristics>
                 </profile>
               </profiles>
@@ -4407,7 +4407,7 @@ Dans l'étape des Armées déployées, votre adversaire doit mettre en place tou
               <profiles>
                 <profile id="9211-8584-f894-b756" name="Biophagic Flow (Aura)" hidden="false" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities">
                   <characteristics>
-                    <characteristic name="Description" typeId="9b8f-694b-e5e-b573">**^^Tyranids^^** figurine uniquement. Alors qu'une figurine **^^Harvester^^** convivial se trouve à 12" ou moins du porteur, en utilisant la aptitude Feed the Swarm, cette figurine **^^Harvester^^** peut régénérer une unité **^^Tyranids^^** conviviale qui se trouve à 9" ou moins au lieu d'une unité à 6" ou moins.</characteristic>
+                    <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Figurine **^^Tyranids^^** uniquement. Tant qu’une figurine **^^Harvester^^** amie est à 12" ou moins du porteur, lorsqu’elle utilise l’aptitude Feed the Swarm, cette figurine **^^Harvester^^** peut Régénérer une unité **^^Tyranids^^** amie à 9" ou moins au lieu d’une unité à 6" ou moins.</characteristic>
                   </characteristics>
                 </profile>
               </profiles>
@@ -4461,7 +4461,7 @@ Dans l'étape des Armées déployées, votre adversaire doit mettre en place tou
               <profiles>
                 <profile id="92f3-f963-1008-10a5" name="Monstrous Nemesis" hidden="false" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities">
                   <characteristics>
-                    <characteristic name="Description" typeId="9b8f-694b-e5e-b573">**^^Tyranids Monster^^** uniquement. Chaque fois que le porteur effectue une attaque de mêlée visant une unité **^^Monster^^** ou **^^Vehicle^^**, ajoutez 1 au jet de Blessure.</characteristic>
+                    <characteristic name="Description" typeId="9b8f-694b-e5e-b573">**^^Tyranids Monster^^** uniquement. Chaque fois que le porteur fait une attaque de mêlée qui cible une **^^Monster^^** ou **^^Vehicle^^**unité, ajoutez 1 au jet de Blessure.</characteristic>
                   </characteristics>
                 </profile>
               </profiles>
@@ -4488,7 +4488,7 @@ Dans l'étape des Armées déployées, votre adversaire doit mettre en place tou
               <profiles>
                 <profile id="9ea8-c4dd-d536-1929" name="Null Nodules" hidden="false" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities">
                   <characteristics>
-                    <characteristic name="Description" typeId="9b8f-694b-e5e-b573">**^^Tyranids Monster^^** uniquement. Une fois par bataille, lorsqu'une attaque Psychique est attribuée au porteur, il peut utiliser cette aptitude. Si c'est le cas, jusqu'à la fin de la phase, le porteur a la aptitude Insensible à la douleur 5+ contre les attaques Psychiques.</characteristic>
+                    <characteristic name="Description" typeId="9b8f-694b-e5e-b573">**^^Tyranids Monster^^** uniquement. Une fois par bataille, lorsqu'une attaque Psychique est attribuée au porteur, elle peut utiliser cette aptitude. Si c'est le cas, Jusqu’à la fin de la phase, le porteur a l’aptitude Insensible à la douleur 5+ contre les attaques Psychiques.</characteristic>
                   </characteristics>
                 </profile>
               </profiles>
@@ -4542,7 +4542,7 @@ Dans l'étape des Armées déployées, votre adversaire doit mettre en place tou
               <profiles>
                 <profile id="e43b-68a7-4d07-e707" name="Enraged Reserves" hidden="false" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities">
                   <characteristics>
-                    <characteristic name="Description" typeId="9b8f-694b-e5e-b573">**^^Tyranids Monster^^** uniquement. Si le porteur est détruit par une attaque de mêlée, s'il n'a pas combattu cette phase, lancez un D6: sur un 3+, ne le retirez pas du jeu. Il peut se battre après que l'unité de la figurine attaquant ait terminé ses attaques, et est ensuite retiré du jeu.</characteristic>
+                    <characteristic name="Description" typeId="9b8f-694b-e5e-b573">**^^Tyranids Monster^^** uniquement. Si le porteur est détruit par une attaque de mêlée, s’il n’a pas combattu à cette phase, lancez un D6 : sur 3+, ne le retirez pas du jeu. Il peut combattre après que l’unité de la figurine attaquante a fini d’effectuer ses attaques, puis il est retiré du jeu.</characteristic>
                   </characteristics>
                 </profile>
               </profiles>
@@ -4623,7 +4623,7 @@ Dans l'étape des Armées déployées, votre adversaire doit mettre en place tou
               <profiles>
                 <profile id="f64f-279-e67c-f70b" name="Synaptic Control" hidden="false" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities">
                   <characteristics>
-                    <characteristic name="Description" typeId="9b8f-694b-e5e-b573">**^^Tyranids Synapse^^** figurine uniquement. Chaque fois qu'une attaque est attribuée au porteur, Soustrayez 1 de la caractéristique Dégât de l'attaque.</characteristic>
+                    <characteristic name="Description" typeId="9b8f-694b-e5e-b573">**^^Tyranids Synapse^^** figurine uniquement. Chaque fois qu'une attaque est attribuée au porteur, Soustrayez 1 de la caractéristique de Dégâts de l'attaque.</characteristic>
                   </characteristics>
                 </profile>
               </profiles>
@@ -4677,7 +4677,7 @@ Dans l'étape des Armées déployées, votre adversaire doit mettre en place tou
               <profiles>
                 <profile id="f276-7f7a-d2e8-39da" name="Power of the Hive Mind" hidden="false" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities">
                   <characteristics>
-                    <characteristic name="Description" typeId="9b8f-694b-e5e-b573">**^^Tyranids Psyker^^** figurine uniquement. Améliorez la force et la caractéristique de Pénétration d’Armure des armes Psychique équipées par le porteur de 1.</characteristic>
+                    <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Figurine **^^Tyranids Psyker^^** uniquement. Améliorez de 1 la caractéristique de Force et la caractéristique de Pénétration d’Armure des armes Psychiques dont est équipé le porteur.</characteristic>
                   </characteristics>
                 </profile>
               </profiles>
@@ -4739,7 +4739,7 @@ Dans l'étape des Armées déployées, votre adversaire doit mettre en place tou
               <profiles>
                 <profile id="d687-22aa-c30e-ca79" name="Naturalised Camoflage" hidden="false" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities">
                   <characteristics>
-                    <characteristic name="Description" typeId="9b8f-694b-e5e-b573">**^^Tyranids^^** figurine uniquement. Au début du premier tour de bataille, sélectionnez jusqu'à trois unités **^^Endless Multitude^^** amicales à 9" ou moins du porteur. Jusqu'à la fin de la ronde de bataille, chaque fois qu'une attaque de tir cible une de ces unités, les figurines de cette unité ont le Bénéfice du Couvert contre cette attaque.</characteristic>
+                    <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Figurine **^^Tyranids^^** uniquement. Au début du premier round de bataille, sélectionnez jusqu’à trois unités **^^Endless Multitude^^** amies à 9" ou moins du porteur. Jusqu’à la fin du round de bataille, chaque fois qu’une attaque de tir cible l’une de ces unités, les figurines de cette unité ont le Bénéfice du Couvert contre cette attaque.</characteristic>
                   </characteristics>
                 </profile>
               </profiles>
@@ -4762,7 +4762,7 @@ Dans l'étape des Armées déployées, votre adversaire doit mettre en place tou
               <profiles>
                 <profile id="23b8-bd02-3e27-712c" name="Piercing Talons" hidden="false" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities">
                   <characteristics>
-                    <characteristic name="Description" typeId="9b8f-694b-e5e-b573">**^^Tyranids^^** figurine uniquement. Chaque fois qu'une figurine dans l'unité du Porteur fait une attaque, sur une blessure critique, améliore la caractéristique de Pénétration d’Armure de cette attaque de 1.</characteristic>
+                    <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Figurine **^^Tyranids^^** uniquement. Chaque fois qu’une figurine de l’unité du porteur effectue une attaque, si une Blessure Critique est obtenue, améliorez de 1 la caractéristique de Pénétration d’Armure de cette attaque.</characteristic>
                   </characteristics>
                 </profile>
               </profiles>
@@ -4785,7 +4785,7 @@ Dans l'étape des Armées déployées, votre adversaire doit mettre en place tou
               <profiles>
                 <profile id="12a-454-494d-5253" name="Relentless Hunger" hidden="false" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities">
                   <characteristics>
-                    <characteristic name="Description" typeId="9b8f-694b-e5e-b573">**^^Tyranids^^** figurine uniquement. Ajoutez 2" à la caractéristique de mouvement des figurines dans l'unité du porteur.</characteristic>
+                    <characteristic name="Description" typeId="9b8f-694b-e5e-b573">**^^Tyranids^^** figurine uniquement. Ajoutez 2" à la caractéristique de mouvement des figurines de l’unité du porteur.</characteristic>
                   </characteristics>
                 </profile>
               </profiles>
@@ -4808,7 +4808,7 @@ Dans l'étape des Armées déployées, votre adversaire doit mettre en place tou
               <profiles>
                 <profile id="988a-bbc8-5714-63bd" name="Adrenalised Onslaught" hidden="false" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities">
                   <characteristics>
-                    <characteristic name="Description" typeId="9b8f-694b-e5e-b573">**^^Tyranids^^** figurine uniquement. Chaque fois que l'unité du porteur effectue une Pile dans ou Consolidation, les figurines de cette unité peuvent déplacer un 3" supplémentaire</characteristic>
+                    <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Figurine **^^Tyranids^^** uniquement. Chaque fois que l’unité du porteur effectue un mouvement d’Engagement ou de Consolidation, les figurines de cette unité peuvent se déplacer de 3" supplémentaires.</characteristic>
                   </characteristics>
                 </profile>
               </profiles>
@@ -4858,7 +4858,7 @@ Dans l'étape des Armées déployées, votre adversaire doit mettre en place tou
               <profiles>
                 <profile id="9003-322e-7a1c-70bd" name="Hunting Grounds" hidden="false" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities">
                   <characteristics>
-                    <characteristic name="Description" typeId="9b8f-694b-e5e-b573">**^^Tyranids^^** figurine uniquement. Pendant que le porteur est sur le champ de bataille, chaque fois que votre adversaire met en place une unité de réserve sur le champ de bataille, lancez un D6: sur un 2+ cette unité doit effectuer un test d’Ébranlement.</characteristic>
+                    <characteristic name="Description" typeId="9b8f-694b-e5e-b573">**^^Tyranids^^** figurine uniquement. Alors que le porteur est sur le champ de bataille, chaque fois que votre adversaire met en place une unité Reserves sur le champ de bataille, lancez un D6: sur un 2+ cette unité doit faire un test d’Ébranlement.</characteristic>
                   </characteristics>
                 </profile>
               </profiles>
@@ -4881,7 +4881,7 @@ Dans l'étape des Armées déployées, votre adversaire doit mettre en place tou
               <profiles>
                 <profile id="a260-81c2-7cda-a6ae" name="Neuronode" hidden="false" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities">
                   <characteristics>
-                    <characteristic name="Description" typeId="9b8f-694b-e5e-b573">**^^Tyranids^^** figurine uniquement. Après que les deux joueurs aient déployé leurs armées, vous pouvez sélectionner jusqu'à trois unités **^^Vanguard Invader^^** de votre armée et redéployer toutes ces unités. Lorsqu'ils le font, l'une ou l'autre de ces unités peut être placée dans des réserves stratégiques, quel que soit le nombre d'unités déjà dans des réserves stratégiques.</characteristic>
+                    <characteristic name="Description" typeId="9b8f-694b-e5e-b573">**^^Tyranids^^** figurine uniquement. Après que les deux joueurs aient déployé leurs armées, vous pouvez sélectionner jusqu'à trois unités **^^Vanguard Invader^^** de votre armée et redéployer toutes ces unités. Lorsque vous faites cela, l'une ou l'autre de ces unités peut être placée dans Réserves Stratégiques, quel que soit le nombre d'unités déjà dans Réserves Stratégiques.</characteristic>
                   </characteristics>
                 </profile>
               </profiles>
@@ -4909,7 +4909,7 @@ Dans l'étape des Armées déployées, votre adversaire doit mettre en place tou
               <profiles>
                 <profile id="5bd3-8be8-76c3-fab9" name="Stalker" hidden="false" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities">
                   <characteristics>
-                    <characteristic name="Description" typeId="9b8f-694b-e5e-b573">**^^Vanguard Invader^^** figurine uniquement. Au début de la bataille, sélectionnez une unité ennemie. Chaque fois que le porteur fait une attaque qui vise cette unité ennemie, Ajoutez 1 au jet de Touche et Le jet de Blessure.</characteristic>
+                    <characteristic name="Description" typeId="9b8f-694b-e5e-b573">**^^Vanguard Invader^^** figurine uniquement. Au début de la bataille, sélectionnez une unité ennemie. Chaque fois que le porteur effectue une attaque visant cette unité ennemie, ajoutez 1 au jet de Touche et au jet de Blessure.</characteristic>
                   </characteristics>
                 </profile>
               </profiles>
@@ -4937,7 +4937,7 @@ Dans l'étape des Armées déployées, votre adversaire doit mettre en place tou
               <profiles>
                 <profile id="816c-af4d-ac5e-d3f7" name="Chameleonic" hidden="false" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities">
                   <characteristics>
-                    <characteristic name="Description" typeId="9b8f-694b-e5e-b573">**^^Vanguard Invader^^** uniquement. Le porteur a la aptitude Discrétion et chaque fois qu'une attaque de tir cible l'unité du porteur, les figurines de cette unité ont le Bénéfice du Couvert contre cette attaque.</characteristic>
+                    <characteristic name="Description" typeId="9b8f-694b-e5e-b573">**^^Vanguard Invader^^** uniquement. le porteur a l’aptitude Discrétion et chaque fois qu'une attaque de tir cible l’unité du porteur, les figurines de cette unité a le Bénéfice du Couvert contre cette attaque.</characteristic>
                   </characteristics>
                 </profile>
               </profiles>
@@ -4995,7 +4995,7 @@ Dans l'étape des Armées déployées, votre adversaire doit mettre en place tou
               <profiles>
                 <profile id="66c6-4d4b-8198-1813" name="Sensory Assimilation" hidden="false" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities">
                   <characteristics>
-                    <characteristic name="Description" typeId="9b8f-694b-e5e-b573">**^^Winged Tyranid Prime^^** figurine uniquement. Chaque fois qu'une attaque cible l'unité du porteur, Soustrayez 1 du jet de Touche.</characteristic>
+                    <characteristic name="Description" typeId="9b8f-694b-e5e-b573">**^^Winged Tyranid Prime^^** figurine uniquement. Chaque fois qu'une attaque vise l’unité du porteur, Soustrayez 1 au jet de Touche.</characteristic>
                   </characteristics>
                 </profile>
               </profiles>
@@ -5050,7 +5050,7 @@ Dans l'étape des Armées déployées, votre adversaire doit mettre en place tou
               <profiles>
                 <profile id="f43e-c42a-e09c-73af" name="Ocular Adaptation" hidden="false" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities">
                   <characteristics>
-                    <characteristic name="Description" typeId="9b8f-694b-e5e-b573">**^^Winged Tyranid Prime^^** figurine uniquement. Chaque fois qu'une figurine dans l'unité du porteur effectue une attaque, ajoutez 1 au jet de Touche.</characteristic>
+                    <characteristic name="Description" typeId="9b8f-694b-e5e-b573">**^^Winged Tyranid Prime^^** figurine uniquement. Chaque fois qu'une figurine dans l’unité du porteur fait une attaque, ajoutez 1 au jet de Touche.</characteristic>
                   </characteristics>
                 </profile>
               </profiles>
@@ -5077,7 +5077,7 @@ Dans l'étape des Armées déployées, votre adversaire doit mettre en place tou
               <profiles>
                 <profile id="dbfc-5831-8950-b277" name="Synaptic Tyrant" hidden="false" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities">
                   <characteristics>
-                    <characteristic name="Description" typeId="9b8f-694b-e5e-b573">**^^Neurotyrant^^** figurine uniquement. Au cours de l'étape Déclarer les Formations de Bataille, le porteur peut être attaché à une unité **^^Tyranid Warriors^^**.</characteristic>
+                    <characteristic name="Description" typeId="9b8f-694b-e5e-b573">**^^Neurotyrant^^** figurine uniquement. Pendant le étape Déclarer les Formations de Bataille, le le porteur peut être attaché à une unité **^^Tyranid Warriors^^**.</characteristic>
                   </characteristics>
                 </profile>
               </profiles>
@@ -5139,7 +5139,7 @@ Dans l'étape des Armées déployées, votre adversaire doit mettre en place tou
               <profiles>
                 <profile id="8dbe-516b-3e46-9a45" name="Vanguard Intellect" hidden="false" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities">
                   <characteristics>
-                    <characteristic name="Description" typeId="9b8f-694b-e5e-b573">**^^Tyranids^^** figurine avec l’ Frappe en profondeur aptitude uniquement. le de l’unité du porteur peut être placée en utilisant l’ Frappe en profondeur aptitude à l’étape des Renforts de votre première, deuxième or troisième phase de Mouvement, regardless de any mission rules.</characteristic>
+                    <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Figurine **^^Tyranids^^** dotée de l’aptitude Frappe en Profondeur uniquement. L’unité du porteur peut être placée à l’aide de l’aptitude Frappe en Profondeur à l’étape Renforts de votre première, deuxième ou troisième phase de Mouvement, quelles que soient les règles de mission.</characteristic>
                   </characteristics>
                 </profile>
               </profiles>
@@ -5171,7 +5171,7 @@ Dans l'étape des Armées déployées, votre adversaire doit mettre en place tou
               <profiles>
                 <profile id="7598-f5d0-f953-0acb" name="Trygon Prime" hidden="false" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities">
                   <characteristics>
-                    <characteristic name="Description" typeId="9b8f-694b-e5e-b573">**^^Trygon^^** figurine uniquement. Le porteur obtient le mot-clé **^^Synapse^^**. Améliorez les caractéristiques de force et de caractéristique de Capacité de Combat de mêlée équipées par le porteur de 1.</characteristic>
+                    <characteristic name="Description" typeId="9b8f-694b-e5e-b573">**^^Trygon^^** figurine uniquement. le porteur gagne mot-clé **^^Synapse^^**. Améliorez le Force et Les caractéristiques de Capacité de Combat des armes de mêlée dont est équipé le porteur de 1.</characteristic>
                   </characteristics>
                 </profile>
               </profiles>
@@ -5222,7 +5222,7 @@ Dans l'étape des Armées déployées, votre adversaire doit mettre en place tou
               <profiles>
                 <profile id="dff7-ef91-6ed8-3cdd" name="Synaptic Strategy" hidden="false" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities">
                   <characteristics>
-                    <characteristic name="Description" typeId="9b8f-694b-e5e-b573">**^^Tyranids^^** figurine uniquement. Une fois par bataille, vous pouvez cibler l'unité du porteur avec la stratégie Rapid Ingress pour 0CP, et vous pouvez le faire même si vous avez déjà ciblé une autre unité avec ce Stratagème cette phase.</characteristic>
+                    <characteristic name="Description" typeId="9b8f-694b-e5e-b573">**^^Tyranids^^** figurine uniquement. Une fois par bataille, vous pouvez cibler l’unité du porteur avec le Rapid Ingress Stratagème pour 0CP, et vous pouvez le faire même si vous avez déjà ciblé une unité différente avec ce Stratagème cette phase.</characteristic>
                   </characteristics>
                 </profile>
               </profiles>
@@ -5249,7 +5249,7 @@ Dans l'étape des Armées déployées, votre adversaire doit mettre en place tou
               <profiles>
                 <profile id="d841-e46d-0ab4-3c2c" name="Tremor Senses" hidden="false" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities">
                   <characteristics>
-                    <characteristic name="Description" typeId="9b8f-694b-e5e-b573">**^^Tyranids^^** figurine uniquement. Après que les deux joueurs aient déployé leurs armées, sélectionnez jusqu'à trois unités **^^Tyranids^^** amicales de votre armée et redéployez-les. Lorsque vous le faites, vous pouvez mettre ces unités en réserve stratégique, quel que soit le nombre d'unités déjà en réserve stratégique.</characteristic>
+                    <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Figurine **^^Tyranids^^** uniquement. Après que les deux joueurs ont déployé leurs armées, sélectionnez jusqu’à trois unités **^^Tyranids^^** amies de votre armée et redéployez-les. Ce faisant, vous pouvez placer ces unités en Réserves Stratégiques, quel que soit le nombre d’unités déjà en Réserves Stratégiques.</characteristic>
                   </characteristics>
                 </profile>
               </profiles>
@@ -5282,7 +5282,7 @@ Dans l'étape des Armées déployées, votre adversaire doit mettre en place tou
               <profiles>
                 <profile name="Predatory Instincts" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="9435-eec8-6391-7d59">
                   <characteristics>
-                    <characteristic name="Description" typeId="9b8f-694b-e5e-b573">**^^Abominant^^**, **^^Biophagus^^** ou **^^Patriarch^^** figurine uniquement. Les figurines de l'unité du porteur ont la aptitude Infiltrators et, une fois par tour de bataille, vous pouvez cibler l'unité du porteur avec le Stratagème d'intervention héroïque pour 0CP, et vous pouvez le faire même si vous avez déjà ciblé une autre unité avec ce Stratagème cette phase.</characteristic>
+                    <characteristic name="Description" typeId="9b8f-694b-e5e-b573">**^^Abominant^^**, **^^Biophagus^^** ou **^^Patriarch^^** figurine uniquement. Les figurines de l’unité du porteur ont l’aptitude Infiltrateurs et, une fois par tour de bataille, vous pouvez cibler l’unité du porteur avec le Stratagème Heroic Intervention pour 0CP, même si vous avez déjà ciblé une autre unité avec ce Stratagème durant cette phase.</characteristic>
                   </characteristics>
                 </profile>
               </profiles>
@@ -5378,7 +5378,7 @@ Dans l'étape des Armées déployées, votre adversaire doit mettre en place tou
               <profiles>
                 <profile name="Alien Majesty" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="e69c-95ba-6e92-1806">
                   <characteristics>
-                    <characteristic name="Description" typeId="9b8f-694b-e5e-b573">**^^Abominant^^**, **^^Biophagus^^** ou **^^Patriarch^^** figurine uniquement. Lorsqu'une unité ennemie se trouve dans la Portée d’Engagement de l'unité du porteur, Soustrayez 1 à la caractéristique de Contrôle d’Objectif des figurines de cette unité ennemie (au minimum 1).</characteristic>
+                    <characteristic name="Description" typeId="9b8f-694b-e5e-b573">**^^Abominant^^**, **^^Biophagus^^** ou **^^Patriarch^^** figurine uniquement. Lorsqu'une unité ennemie se trouve dans Portée d’Engagement de l’unité du porteur, Soustrayez 1 de la caractéristique de Contrôle d’Objectif des figurines de cette unité ennemie (à un minimum de 1).</characteristic>
                   </characteristics>
                 </profile>
               </profiles>
@@ -5438,7 +5438,7 @@ Dans l'étape des Armées déployées, votre adversaire doit mettre en place tou
               <profiles>
                 <profile name="Martial Espionage" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="1d34-0925-d0bd-3108">
                   <characteristics>
-                    <characteristic name="Description" typeId="9b8f-694b-e5e-b573">**^^Genestealer Cults Infantry^^** figurine uniquement. Une fois par tour, lorsqu'une unité amie **^^Astra Militarum Infantry^^** ou **^^Astra Militarum Mounted^^** à 9" ou moins du porteur est sélectionnée pour tirer, le porteur peut utiliser cette Optimisation. Si tel est le cas, jusqu'à la fin de la phase, Améliorez la caractéristique de Pénétration d’Armure des armes de tir équipées de figurines dans cette unité de 1.</characteristic>
+                    <characteristic name="Description" typeId="9b8f-694b-e5e-b573">**^^Genestealer Cults Infantry^^** figurine uniquement. Une fois par tour, lorsqu'une unité amicale **^^Astra Militarum Infantry^^** ou **^^Astra Militarum Mounted^^** à 9" ou moins du porteur est sélectionnée pour tirer, le porteur peut utiliser ce Optimisation. Si c'est le cas, Jusqu’à la fin de la phase améliore la caractéristique de Pénétration d’Armure d’armes de tir équipé des figurines de cette unité de 1.</characteristic>
                   </characteristics>
                 </profile>
               </profiles>
@@ -5465,7 +5465,7 @@ Dans l'étape des Armées déployées, votre adversaire doit mettre en place tou
               <profiles>
                 <profile name="Adaptive Reprisal" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="fb86-330c-81d3-cb57">
                   <characteristics>
-                    <characteristic name="Description" typeId="9b8f-694b-e5e-b573">**^^Genestealer Cults Infantry^^** figurine uniquement. Une fois par tour, vous pouvez cibler une unité amie **^^Genestealer Cults^^** à 8" ou moins du porteur avec le stratagème d'intervention héroïque pour 0CP.</characteristic>
+                    <characteristic name="Description" typeId="9b8f-694b-e5e-b573">**^^Genestealer Cults Infantry^^** figurine uniquement. Une fois par tour, vous pouvez cibler une unité amicale **^^Genestealer Cults^^** à 8" ou moins du porteur avec l'intervention héroïque Stratagème pour 0CP.</characteristic>
                   </characteristics>
                 </profile>
               </profiles>
@@ -5492,7 +5492,7 @@ Dans l'étape des Armées déployées, votre adversaire doit mettre en place tou
               <profiles>
                 <profile name="The Hero Returned" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="3e81-9f73-e438-38a1">
                   <characteristics>
-                    <characteristic name="Description" typeId="9b8f-694b-e5e-b573">**^^Genestealer Cults Infantry^^** figurine uniquement. Améliorez la caractéristique de Commandement et de caractéristique de Contrôle d’Objectif des figurines dans l'unité du porteur de 1</characteristic>
+                    <characteristic name="Description" typeId="9b8f-694b-e5e-b573">**^^Genestealer Cults Infantry^^** figurine uniquement. Améliorez le Commandement et la caractéristique de Contrôle d’Objectif des figurines de l’unité du porteur de 1</characteristic>
                   </characteristics>
                 </profile>
               </profiles>
@@ -5519,7 +5519,7 @@ Dans l'étape des Armées déployées, votre adversaire doit mettre en place tou
               <profiles>
                 <profile name="Fire-point Commander" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="8eb7-fd2c-78fa-f507">
                   <characteristics>
-                    <characteristic name="Description" typeId="9b8f-694b-e5e-b573">**^^Genestealer Cults Infantry^^** figurine uniquement. Chaque fois que vous ciblez l'unité du porteur avec le Fire Overwatch Stratagème, tout en résolvant ce stratagème, les coups sont marqués avec succès sur un 5+.</characteristic>
+                    <characteristic name="Description" typeId="9b8f-694b-e5e-b573">**^^Genestealer Cults Infantry^^** figurine uniquement. Chaque fois que vous ciblez l’unité du porteur avec le Fire Overwatch Stratagème, tout en résolvant que Stratagème, les coups sont marqués avec succès sur un 5+.</characteristic>
                   </characteristics>
                 </profile>
               </profiles>
@@ -5545,7 +5545,7 @@ Dans l'étape des Armées déployées, votre adversaire doit mettre en place tou
               <profiles>
                 <profile name="Synaptic Auger" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="469b-a4ac-5b2e-5fbf">
                   <characteristics>
-                    <characteristic name="Description" typeId="9b8f-694b-e5e-b573">**^^Tyranids^^** figurine uniquement. Chaque fois que le porteur récupère une ou plusieurs PV perdus de la règle du détachement Psionic Parasitism, il récupère jusqu'à deux fois le nombre de PV perdus à la place.</characteristic>
+                    <characteristic name="Description" typeId="9b8f-694b-e5e-b573">**^^Tyranids^^** figurine uniquement. Chaque fois que le porteur récupère un ou plusieurs PV perdus à partir de la règle de détachement Psionic Parasitism, il récupère jusqu'à deux fois ce nombre de PV perdus à la place.</characteristic>
                   </characteristics>
                 </profile>
               </profiles>
@@ -5568,7 +5568,7 @@ Dans l'étape des Armées déployées, votre adversaire doit mettre en place tou
               <profiles>
                 <profile name="Vanguard Tyrant" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="f3af-b19e-5c33-e4b0">
                   <characteristics>
-                    <characteristic name="Description" typeId="9b8f-694b-e5e-b573">**^^Winged Hive Tyrant^^** figurine uniquement. améliorez la Force et caractéristique de Pénétration d’Armure des armes de mêlée dont sont équipées le porteur de 1.</characteristic>
+                    <characteristic name="Description" typeId="9b8f-694b-e5e-b573">**^^Winged Hive Tyrant^^** figurine uniquement. Améliorez les caractéristiques de Force et de Pénétration d’Armure des armes de mêlée dont est équipé le porteur de 1.</characteristic>
                   </characteristics>
                 </profile>
               </profiles>
@@ -5600,7 +5600,7 @@ Dans l'étape des Armées déployées, votre adversaire doit mettre en place tou
               <profiles>
                 <profile name="Inhuman Integration" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="79a0-1a2e-d00f-b128">
                   <characteristics>
-                    <characteristic name="Description" typeId="9b8f-694b-e5e-b573">**^^Genestealer Cults^^** figurine uniquement. Les armes équipées par des figurines dans l'unité du porteur possèdent la aptitude **[SUSTAINED HITS 1]** tout en ciblant une unité ennemi à 6" ou moins d'une ou plusieurs unités **^^Tyranids^^** amiques.</characteristic>
+                    <characteristic name="Description" typeId="9b8f-694b-e5e-b573">**^^Genestealer Cults^^** figurine uniquement. Les armes équipées par les figurines de l’unité du porteur ont l’aptitude **[SUSTAINED HITS 1]** tout en ciblant une unité ennemie à 6" ou moins d'un ou plusieurs unités **^^Tyranids^^** amicales.</characteristic>
                   </characteristics>
                 </profile>
               </profiles>
@@ -5626,7 +5626,7 @@ Dans l'étape des Armées déployées, votre adversaire doit mettre en place tou
               <profiles>
                 <profile name="Enraptured Damnation" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="9748-5886-70e6-4e25">
                   <characteristics>
-                    <characteristic name="Description" typeId="9b8f-694b-e5e-b573">**^^Genestealer Cults^^** figurine uniquement. Les unités ennemies ne peuvent pas utiliser le Fire Overwatch Stratagème pour tirer sur l'unité du porteur.</characteristic>
+                    <characteristic name="Description" typeId="9b8f-694b-e5e-b573">**^^Genestealer Cults^^** figurine uniquement. Les unités ennemies ne peuvent pas utiliser le Fire Overwatch Stratagème pour tirer sur l’unité du porteur.</characteristic>
                   </characteristics>
                 </profile>
               </profiles>
@@ -5676,7 +5676,7 @@ Dans l'étape des Armées déployées, votre adversaire doit mettre en place tou
               <profiles>
                 <profile name="Our Time is Nigh" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="07d2-4eee-5cb0-28d8">
                   <characteristics>
-                    <characteristic name="Description" typeId="9b8f-694b-e5e-b573">**^^Genestealer Cults^^** figurine uniquement. Une fois par bataille, lorsque l'unité du porteur déclare une charge, le porteur peut utiliser l'Optimisation. Si c'est le cas, jusqu'à la fin de la phase, ajoutez 2 aux jets de Charge de l'unité du porteur.</characteristic>
+                    <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Figurine **^^Genestealer Cults^^** uniquement. Une fois par bataille, lorsque l’unité du porteur déclare une charge, le porteur peut utiliser cette Optimisation. S’il le fait, jusqu’à la fin de la phase, ajoutez 2 aux jets de Charge effectués pour l’unité du porteur.</characteristic>
                   </characteristics>
                 </profile>
               </profiles>
@@ -5698,7 +5698,7 @@ Dans l'étape des Armées déployées, votre adversaire doit mettre en place tou
               <profiles>
                 <profile name="A Chink in Their Armour" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="a5aa-0218-785c-fd53">
                   <characteristics>
-                    <characteristic name="Description" typeId="9b8f-694b-e5e-b573">**^^Genestealer Cults^^** figurine uniquement. Chaque fois que le porteur est installé sur le champ de bataille en tant que renfort, jusqu'à la fin de votre prochaine phase de Combat, les armes de tir équipées dans l'unité du porteur ont la aptitude **[LETHAL HITS]**.</characteristic>
+                    <characteristic name="Description" typeId="9b8f-694b-e5e-b573">**^^Genestealer Cults^^** figurine uniquement. Chaque fois que le porteur est installé sur le champ de bataille comme renforcement, jusqu'à la fin de votre prochaine phase de Combat, armes de tir équipé dans l’unité du porteur ont l’aptitude **[LETHAL HITS]**.</characteristic>
                   </characteristics>
                 </profile>
               </profiles>
@@ -5723,7 +5723,7 @@ Dans l'étape des Armées déployées, votre adversaire doit mettre en place tou
               <profiles>
                 <profile name="Prowling Agitant" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="f59d-6f5b-c225-bde5">
                   <characteristics>
-                    <characteristic name="Description" typeId="9b8f-694b-e5e-b573">**^^Genestealer Cults^^** figurine uniquement. Une fois par tour, lorsqu'une unité ennemie termine un mouvement normal, avancé ou de Retraite à 9" ou moins de l'unité du porteur, si l'unité du porteur n'est pas dans la Portée d’Engagement d'aucune unité ennemie, elle peut effectuer un mouvement normal jusqu'à D6".</characteristic>
+                    <characteristic name="Description" typeId="9b8f-694b-e5e-b573">**^^Genestealer Cults^^** figurine uniquement. Une fois par tour, lorsqu’une unité ennemie termine un mouvement Normal, d’Avance ou de Retraite à 9" ou moins de l’unité du porteur, si l’unité du porteur n’est à Portée d’Engagement d’aucune unité ennemie, elle peut effectuer un mouvement Normal de jusqu’à D6".</characteristic>
                   </characteristics>
                 </profile>
               </profiles>
@@ -5745,7 +5745,7 @@ Dans l'étape des Armées déployées, votre adversaire doit mettre en place tou
               <profiles>
                 <profile name="Assassination Edict" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="35ea-1c17-0d09-35cf">
                   <characteristics>
-                    <characteristic name="Description" typeId="9b8f-694b-e5e-b573">**^^Genestealer Cults^^** figurine uniquement. Chaque fois qu'une figurine dans l'unité du porteur effectue une attaque visant une unité **^^Character^^**, ajoutez 1 au jet de Touche.</characteristic>
+                    <characteristic name="Description" typeId="9b8f-694b-e5e-b573">**^^Genestealer Cults^^** figurine uniquement. Chaque fois qu'une figurine dans l’unité du porteur effectue une attaque visant une unité **^^Character^^**, ajoutez 1 au jet de Touche.</characteristic>
                   </characteristics>
                 </profile>
               </profiles>
@@ -5827,7 +5827,7 @@ Dans l'étape des Armées déployées, votre adversaire doit mettre en place tou
               <profiles>
                 <profile name="Cartographic Data-leech" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="e807-df37-9601-f121">
                   <characteristics>
-                    <characteristic name="Description" typeId="9b8f-694b-e5e-b573">**^^Genestealer Cults^^** figurine uniquement. Alors que le porteur est embarqué à l'intérieur d'un **^^Transport^^**, chaque fois que **^^Transport^^** est sélectionné pour tirer, jusqu'à la fin de la phase, améliore la caractéristique de Capacité de Tir des armes de tir équipées par ce **^^Transport^^** en raison de la aptitude Pont de Tir de 1.</characteristic>
+                    <characteristic name="Description" typeId="9b8f-694b-e5e-b573">**^^Genestealer Cults^^** figurine uniquement. Alors que le porteur est embarqué dans un **^^Transport^^**, chaque fois que **^^Transport^^** est sélectionnée pour tirer, jusqu'à la fin de la phase, Améliorez la caractéristique de Capacité de Tir d’armes de tir équipé par ce **^^Transport^^** à la suite du Pont de Tir aptitude de 1.</characteristic>
                   </characteristics>
                 </profile>
               </profiles>
@@ -5849,7 +5849,7 @@ Dans l'étape des Armées déployées, votre adversaire doit mettre en place tou
               <profiles>
                 <profile name="Starfall Shells" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="6cd0-1e88-39cc-4009">
                   <characteristics>
-                    <characteristic name="Description" typeId="9b8f-694b-e5e-b573">**^^Genestealer Cults Mounted^^** figurine uniquement. Dans votre phase de Tir, après que le porteur a tiré, sélectionnez une unité ennemi par une ou plusieurs de ces attaques faites avec un fusil de sniper de culte. Jusqu'au début de votre prochaine phase de Tir, chaque fois qu'une figurine de l'unité ennemie fait une attaque, Soustrayez 1 du jet de Touche.</characteristic>
+                    <characteristic name="Description" typeId="9b8f-694b-e5e-b573">**^^Genestealer Cults Mounted^^** figurine uniquement. Durant votre phase de Tir, après que le porteur a tiré, sélectionnez une unité ennemie touchée par une ou plusieurs de ces attaques effectuées avec un cult sniper rifle. Jusqu’au début de votre prochaine phase de Tir, chaque fois qu’une figurine de cette unité ennemie effectue une attaque, soustrayez 1 au jet de Touche.</characteristic>
                   </characteristics>
                 </profile>
               </profiles>
@@ -5876,7 +5876,7 @@ Dans l'étape des Armées déployées, votre adversaire doit mettre en place tou
               <profiles>
                 <profile name="Assault Commando" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="5a56-f3b9-e95e-99c2">
                   <characteristics>
-                    <characteristic name="Description" typeId="9b8f-694b-e5e-b573">**^^Genestealer Cults^^** figurine uniquement. Chaque fois qu'une figurine dans l'unité du porteur effectue une attaque de tir, s'il débarque d'un **^^Transport^^** à ce tour, vous pouvez relancer le jet de Touche.</characteristic>
+                    <characteristic name="Description" typeId="9b8f-694b-e5e-b573">**^^Genestealer Cults^^** figurine uniquement. Chaque fois qu'une figurine dans l’unité du porteur fait une attaque de tir, s'il débarque d'un **^^Transport^^** à ce tour, vous pouvez relancer le jet de Touche.</characteristic>
                   </characteristics>
                 </profile>
               </profiles>
@@ -5934,7 +5934,7 @@ Dans l'étape des Armées déployées, votre adversaire doit mettre en place tou
               <profiles>
                 <profile name="Gene-sire's Reliquant" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="0c9a-9beb-1c11-484d">
                   <characteristics>
-                    <characteristic name="Description" typeId="9b8f-694b-e5e-b573">**^^Magus, Primus or Acolyte Iconward^^** figurine uniquement. Vous pouvez relancer les tests d’Ébranlement effectués pour l'unité du porteur.</characteristic>
+                    <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Figurine **^^Magus, Primus or Acolyte Iconward^^** uniquement. Vous pouvez relancer les tests d’Ébranlement effectués pour l’unité du porteur.</characteristic>
                   </characteristics>
                 </profile>
               </profiles>
@@ -5984,7 +5984,7 @@ Dans l'étape des Armées déployées, votre adversaire doit mettre en place tou
               <profiles>
                 <profile name="Denunciator of Tyrants" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="2c27-e045-f180-1712">
                   <characteristics>
-                    <characteristic name="Description" typeId="9b8f-694b-e5e-b573">**^^Magus, Primus or Acolyte Iconward^^** figurine uniquement. Chaque fois qu'une figurine dans l'unité du porteur effectue une attaque visant une unité **^^Character^^**, ajoutez 1 au jet de Touche et 1 au jet de Blessure.</characteristic>
+                    <characteristic name="Description" typeId="9b8f-694b-e5e-b573">**^^Magus, Primus or Acolyte Iconward^^** figurine uniquement. Chaque fois qu'une figurine dans l’unité du porteur effectue une attaque visant une unité **^^Character^^**, ajoutez 1 au jet de Touche et ajoutez 1 au jet de Blessure.</characteristic>
                   </characteristics>
                 </profile>
               </profiles>
@@ -6075,7 +6075,7 @@ Dans l'étape des Armées déployées, votre adversaire doit mettre en place tou
               <profiles>
                 <profile name="Synaptic Goad" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="6f52-fd81-9982-0feb">
                   <characteristics>
-                    <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Dans votre phase de Commandement, sélectionnez une unité sympathique **^^Tyranid Warriors with Melee Bio-weapons^^** ou **^^Tyranid Warriors with Ranged Bio-weapons^^** à 6" ou moins du porteur. Jusqu'à la fin du tour, ajoutez 2" à la caractéristique de mouvement des figurines de cette unité.</characteristic>
+                    <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Dans votre phase de Commandement, sélectionnez une unité conviviale **^^Tyranid Warriors with Melee Bio-weapons^^** ou **^^Tyranid Warriors with Ranged Bio-weapons^^** à 6" ou moins du porteur. Jusqu'à la fin du tour, ajoutez 2" à la caractéristique de mouvement des figurines de cette unité.</characteristic>
                   </characteristics>
                 </profile>
               </profiles>
@@ -6128,7 +6128,7 @@ Dans l'étape des Armées déployées, votre adversaire doit mettre en place tou
               <profiles>
                 <profile name="Synaptic Beacon" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="eb75-dbeb-6171-a907">
                   <characteristics>
-                    <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Alors qu'une unité amicale **^^Tyranids^^** se trouve à 9" ou moins du porteur (ignorant les murs et les hautes pistes fermées), cette unité se trouve à l'intérieur de Synapse Portée du porteur et de votre armée.</characteristic>
+                    <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Alors qu'une unité amicale **^^Tyranids^^** se trouve à 9" ou moins du porteur (ignorant les murs et les voies fermées), cette unité se trouve à l'intérieur de Synapse Portée du porteur et de votre armée.</characteristic>
                   </characteristics>
                 </profile>
               </profiles>
@@ -6164,7 +6164,7 @@ Dans l'étape des Armées déployées, votre adversaire doit mettre en place tou
               <profiles>
                 <profile name="Hypersurge Gland" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="d843-7ef5-2e57-b704">
                   <characteristics>
-                    <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Une fois par bataille, à la fin de la phase de Charge de votre adversaire, le porteur peut utiliser cet Optimisation. Si c'est le cas, il peut déclarer une charge comme si c'était votre phase de Charge.</characteristic>
+                    <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Une fois par bataille, à la fin de la phase de Charge de votre adversaire, le porteur peut utiliser cette Optimisation. S’il le fait, il peut déclarer une charge comme s’il s’agissait de votre phase de Charge.</characteristic>
                   </characteristics>
                 </profile>
               </profiles>
@@ -6217,7 +6217,7 @@ Dans l'étape des Armées déployées, votre adversaire doit mettre en place tou
               <profiles>
                 <profile name="Primary Detonator" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="66be-e539-7616-2db1">
                   <characteristics>
-                    <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Une fois par bataille, lorsqu'une unité ennemie ouvre une porte fermée, si le porteur est sur le champ de bataille, il peut utiliser cette augmentation. Si c'est le cas, lancez un D6: sur un 3-4, cette unité ennemie subit 1 blessure mortelle; sur un 5+, cette unité ennemie subit 2 Blessures Mortelles.</characteristic>
+                    <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Une fois par bataille, lorsqu'une unité ennemie ouvre un Hatchway fermé, si le porteur est sur le champ de bataille, il peut utiliser ce Optimisation. Si tel est le cas, lancez un D6: sur un 3-4, que cette unité ennemie souffre 1 blessure mortelle; sur un 5+, que cette unité ennemie souffre 2 Blessures Mortelles.</characteristic>
                   </characteristics>
                 </profile>
               </profiles>
@@ -6253,7 +6253,7 @@ Dans l'étape des Armées déployées, votre adversaire doit mettre en place tou
               <profiles>
                 <profile name="Master Saboteur" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="32ed-89d5-c7bb-268c">
                   <characteristics>
-                    <characteristic name="Description" typeId="9b8f-694b-e5e-b573">La première fois dans la bataille que l'armée de votre adversaire sécurise un marqueur objectif pendant que le porteur est sur le champ de bataille, lancez un D6: sur un 3+, ce marqueur objectif n'est pas sécurisé par l'armée de votre adversaire.</characteristic>
+                    <characteristic name="Description" typeId="9b8f-694b-e5e-b573">La première fois dans la bataille que l'armée de votre adversaire sécurise un pion d’objectif alors que le porteur est sur le champ de bataille, lancez un D6: sur un 3+, que pion d’objectif n'est pas sécurisé par l'armée de votre adversaire.</characteristic>
                   </characteristics>
                 </profile>
               </profiles>
@@ -6349,7 +6349,7 @@ Dans l'étape des Armées déployées, votre adversaire doit mettre en place tou
               <profiles>
                 <profile name="Miasmic Fumes" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="622d-aeba-2cd7-5577">
                   <characteristics>
-                    <characteristic name="Description" typeId="9b8f-694b-e5e-b573">**^^Biophagus^^** figurine uniquement. Chaque fois qu'une attaque vise le porteur, Soustrayez 1 du jet de Touche et Soustrayez 1 du jet de Blessure.</characteristic>
+                    <characteristic name="Description" typeId="9b8f-694b-e5e-b573">**^^Biophagus^^** figurine uniquement. Chaque fois qu'une attaque cible le porteur, Soustrayez 1 du jet de Touche et soustraire 1 du jet de Blessure.</characteristic>
                   </characteristics>
                 </profile>
               </profiles>
@@ -6445,7 +6445,7 @@ Dans l'étape des Armées déployées, votre adversaire doit mettre en place tou
               <profiles>
                 <profile name="Stalking Menace" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="691e-ff09-c323-9840">
                   <characteristics>
-                    <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Une fois par bataille, à la fin de la phase de Combat de votre adversaire, si le porteur n'est pas dans la Portée d’Engagement d'une ou de plusieurs unités ennemies, il peut utiliser ce renforcement. Si c'est le cas, retirez le porteur du champ de bataille et placez-le dans les réserves stratégiques. Il reviendra sur le champ de bataille dans la phase de renforcement de votre prochaine phase de Mouvement comme s'il avait la aptitude Frappe en profondeur. Si cela n'est pas possible, le porteur est détruit. Lorsque le porteur est remis sur le champ de bataille, jusqu'à la fin du tour, il ne peut pas déclarer une charge.</characteristic>
+                    <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Une fois par bataille, à la fin de la phase de Combat de votre adversaire, si le porteur n’est pas à Portée d’Engagement d’une ou plusieurs unités ennemies, il peut utiliser cette Optimisation. S’il le fait, retirez le porteur du champ de bataille et placez-le en Réserves Stratégiques. Il reviendra sur le champ de bataille à l’étape des Renforts de votre prochaine phase de Mouvement comme s’il avait l’aptitude Frappe en profondeur. Si cela n’est pas possible, le porteur est détruit. Lorsque le porteur est replacé sur le champ de bataille, jusqu’à la fin du tour, il ne peut pas déclarer de charge.</characteristic>
                   </characteristics>
                 </profile>
               </profiles>
@@ -6508,16 +6508,16 @@ Dans l'étape des Armées déployées, votre adversaire doit mettre en place tou
           </costs>
           <rules>
             <rule name="Hyper Adaptions" id="9faa-bec0-9a4e-901e" hidden="false">
-              <description>Au début du premier tour de bataille, sélectionnez l'une des hyper-adaptations suivantes pour être active pour les unités **^^Tyranids^^** de votre armée jusqu'à la fin de la bataille:
+              <description>Au début du premier round de bataille, sélectionnez l’une des Hyper-adaptations suivantes pour qu’elle soit active pour les unités **^^Tyranids^^** de votre armée jusqu’à la fin de la bataille :
 
 **SWARMING INSTINCTS**
-Chaque fois qu'une figurine **^^Tyranids^^** avec cette hyper-adaptation effectue une attaque qui cible une unité ennemie **^^Infantry^^** ou **^^Swarm^^**, cette attaque a la aptitude **[SUSTAINED HITS 1]**.
+Chaque fois qu’une figurine **^^Tyranids^^** dotée de cette Hyper-adaptation effectue une attaque qui cible une unité **^^Infantry^^** ou **^^Swarm^^** ennemie, cette attaque a l’aptitude **[SUSTAINED HITS 1]**.
 
 **HYPER-AGGRESSION**
-Chaque fois qu'une figurine **^^Tyranids^^** avec cette hyper-adaptation effectue une attaque qui cible une unité ennemie **^^Monster^^** ou **^^Vehicle^^**, cette attaque a la aptitude **[LETHAL HITS]**.
+Chaque fois qu’une figurine **^^Tyranids^^** dotée de cette Hyper-adaptation effectue une attaque qui cible une unité **^^Monster^^** ou **^^Vehicle^^** ennemie, cette attaque a l’aptitude **[LETHAL HITS]**.
 
 **HIVE PREDATORS**
-Chaque fois qu'une figurine **^^Tyranids^^** avec cette hyper-adaptation effectue une attaque qui cible une unité **^^Character^^** ennemie, si un Hit critique est marqué, cette attaque a la aptitude **[PRECISION]**.</description>
+Chaque fois qu’une figurine **^^Tyranids^^** dotée de cette Hyper-adaptation effectue une attaque qui cible une unité **^^Character^^** ennemie, si une Touche Critique est obtenue, cette attaque a l’aptitude **[PRECISION]**.</description>
             </rule>
           </rules>
           <infoLinks>
@@ -6536,10 +6536,10 @@ Chaque fois qu'une figurine **^^Tyranids^^** avec cette hyper-adaptation effectu
         <selectionEntry type="upgrade" import="true" name="Assimilation Swarm" hidden="false" id="bba-65f6-a4d1-66ae">
           <rules>
             <rule name="Feed the Swarm" id="0442-1dce-2f22-5bbc" hidden="false">
-              <description>Dans votre phase de Commandement, chaque unité **^^Harvester^^** de votre armée peut régénérer une unité **^^Tyranids^^** amicale qui est à 6" ou moins. Une unité ne peut être régénérée qu'une seule fois par phase. Chaque fois qu'une unité se régénère, effectue l'une des opérations suivantes:
+              <description>Dans votre phase de Commandement, chaque unité **^^Harvester^^** de votre armée peut régénérer une unité **^^Tyranids^^** amicale qui est à 6" ou moins de celui-ci. Une unité ne peut être régénérée qu'une seule fois par phase. Chaque fois qu'une unité se régénère, effectue l'une des opérations suivantes:
 
 - une figurine dans cette unité récupère jusqu'à D3+1 PV perdus
-- une figurine **^^Infantry^^** détruit (à l'exclusion de **^^Characters^^**) est renvoyé à cette unité avec ses blessures complètes. Si cette unité est une unité **^^Endless Multitude^^**, retourner jusqu'à 3 les figurines détruits sont retournés à la place.</description>
+- une **^^Infantry^^** figurine (à l’exclusion de **^^Characters^^**) détruit est rendu à cette unité avec ses blessures complètes. Si cette unité est une unité **^^Endless Multitude^^**, retourner jusqu'à 3 détruit figurines sont retournés à la place.</description>
             </rule>
           </rules>
           <modifiers>
@@ -6553,7 +6553,7 @@ Chaque fois qu'une figurine **^^Tyranids^^** avec cette hyper-adaptation effectu
         <selectionEntry type="upgrade" import="true" name="Crusher Stampede" hidden="false" id="850e-bee1-4845-820d">
           <rules>
             <rule name="Enraged Behemoths" id="9e9a-b09f-1a55-1d27" hidden="false">
-              <description>Chaque fois qu'une figurine **^^Tyranids Monster^^** de votre armée attaque, Ajoutez 1 au jet de Touche si l'unité de cette figurine est inférieure à son Effectif Initial, et Ajoutez 1 au jet de Blessure si l'unité de cette figurine est en dessous de son Demi-effectif. En outre, alors qu'une unité **^^Tyranids Monster^^** de votre armée (à l'exclusion des unités Ébranlées) est à son Effectif Initial, ajoutez 2 à la caractéristique de Contrôle d’Objectif des figurines de cette unité.</description>
+              <description>Chaque fois qu'une **^^Tyranids Monster^^** figurine de votre armée fait une attaque, ajoutez 1 au jet de Touche si cette unité figurines est en dessous de son Effectif Initial, et ajoutez 1 au jet de Blessure aussi bien si cette unité figurines est En Dessous de son Demi-effectif. En outre, alors qu'une unité **^^Tyranids Monster^^** de votre armée (à l’exclusion de unités Ébranlées) est à son Effectif Initial, ajoutez 2 à la caractéristique de Contrôle d’Objectif des figurines de cette unité.</description>
             </rule>
           </rules>
           <modifiers>
@@ -6567,11 +6567,11 @@ Chaque fois qu'une figurine **^^Tyranids^^** avec cette hyper-adaptation effectu
         <selectionEntry type="upgrade" import="true" name="Synaptic Nexus" hidden="false" id="16ff-a068-4c31-285a">
           <rules>
             <rule name="Synaptic Imperitives" id="443e-6ef5-6bdd-e418" hidden="false">
-              <description>Au début du tour de bataille, vous pouvez sélectionner l'un des impératifs synaptiques montrés ci-dessous. Jusqu'à la fin du tour de bataille, cet impératif synaptique est actif pour votre armée et pendant qu'une unité **^^Tyranids^^** de votre armée est dans la plage Synapse de votre armée, elle en bénéficiera. Chaque impératif synaptique ne peut être sélectionné qu'une seule fois par bataille.
+              <description>Au début du round de bataille, vous pouvez sélectionner l’un des Synaptic Imperatives ci-dessous. Jusqu’à la fin du round de bataille, ce Synaptic Imperative est actif pour votre armée et toute unité **^^Tyranids^^** de votre armée à Synapse Range de votre armée en bénéficie. Chaque Synaptic Imperative ne peut être sélectionné qu’une fois par bataille.
 
-- **Synaptic Augmentation:** Alors que cette unité est dans la plage Synapse de votre armée, les figurines dans cette unité ont un 5+ sauvegarde invulnérable.
-- **Surging Vitality:** Alors que cette unité est dans la plage Synapse de votre armée, ajoutez 1 aux jets d’Avance et de Charge faits pour cette unité.
-- **Goaded to Slaughter:** Alors que cette unité est dans la plage Synapse de votre armée, chaque fois qu'une figurine dans cette unité fait une attaque de mêlée, Ajoutez 1 à le jet de Touche</description>
+- **Synaptic Augmentation:** Tant que cette unité est à Synapse Range de votre armée, les figurines de cette unité ont une sauvegarde invulnérable de 5+.
+- **Surging Vitality:** Tant que cette unité est à Synapse Range de votre armée, ajoutez 1 aux jets d’Avance et de Charge effectués pour cette unité.
+- **Goaded to Slaughter:** Tant que cette unité est à Synapse Range de votre armée, chaque fois qu’une figurine de cette unité effectue une attaque de mêlée, ajoutez 1 au jet de Touche.</description>
             </rule>
           </rules>
           <modifiers>
@@ -6623,7 +6623,7 @@ Chaque fois qu'une figurine **^^Tyranids^^** avec cette hyper-adaptation effectu
           </modifiers>
           <rules>
             <rule name="Keywords" id="8eae-583e-e504-1241" hidden="false">
-              <description>Les unités **^^Tyranid Warriors With Ranged Bio Weapons^^** et **^^Tyranid Warriors With Melee Bio Weapons^^** de votre armée obtiennent les mots clés **^^Tyranid Warriors^^** et **^^Battleline^^**, et bien qu'une telle unité ne soit pas Ébranlée, les figurines **^^Tyranid Warriors^^** de cette unité ont une caractéristique de Contrôle d’Objectif de 3.</description>
+              <description>Les unités **^^Tyranid Warriors With Ranged Bio Weapons^^** et **^^Tyranid Warriors With Melee Bio Weapons^^** de votre armée gagnent mots-clés **^^Tyranid Warriors^^** et **^^Battleline^^**, et alors qu'une telle unité n'est pas Ébranlé, **^^Tyranid Warriors^^** les figurines de cette unité ont une caractéristique de Contrôle d’Objectif de 3.</description>
             </rule>
             <rule name="Leader-beasts" id="372a-a870-cbf9-05e4" hidden="false">
               <description>Les unités **^^Tyranid Warriors^^**, **^^Tyranid Prime with Lash Whip^^** et **^^Winged Tyranid Prime^^** de votre armée ont un 5+ sauvegarde invulnérable.</description>
@@ -6641,11 +6641,11 @@ Chaque fois qu'une figurine **^^Tyranids^^** avec cette hyper-adaptation effectu
         <selectionEntry type="upgrade" import="true" name="Subterranean Assault" hidden="false" id="731f-1524-da02-945b">
           <rules>
             <rule name="Keywords" id="bdb0-bcca-2c70-32f3" hidden="false">
-              <description>Les unités **^^Mawloc^^** et **^^Trygon^^** de votre armée ont le mot-clé Burrower.
+              <description>Les unités **^^Mawloc^^** et **^^Trygon^^** de votre armée ont le Burrower mot-clé.
 
-Dans l'étape Muster Armies, vous pouvez sélectionner jusqu'à 2 **^^Trygon^^** figurines de votre armée. Les unités sélectionnées obtiennent le mot-clé **^^Character^^**.
+Dans l'étape Muster Armies, vous pouvez sélectionner jusqu'à 2 **^^Trygon^^** figurines de votre armée. Les unités sélectionnées obtiennent mot-clé **^^Character^^**.
 
-**Designer’s Note:** *Cela signifie que les figurines sélectionnés peuvent recevoir des améliorations et que l'un d'entre eux peut être sélectionnées comme votre **^^Warlord^^**.</description>
+**Designer’s Note:** * Cela signifie que le figurines sélectionné peut recevoir des améliorations et que l'un d'entre eux peut être sélectionnées comme votre **^^Warlord^^***.</description>
             </rule>
             <rule name="Surprise Assault" id="e55b-01c2-96c1-8435" hidden="false">
               <description>Chaque fois qu’une figurine **^^Tyranids^^** de votre armée effectue une attaque, relancez un jet de Touche de 1.
@@ -6686,26 +6686,26 @@ Si une figurine ennemie (à l’exclusion des **^^Aircraft^^**) termine n’impo
 - **^^Winged Tyranid Prime^^**
 
 Vous pouvez inclure jusqu'à deux des unités suivantes:
-- Pour les figurines **^^Tyranid Warriors with Melee Bio-weapons^^** (figurines 3)
-- Pour les figurines **^^Tyranid Warriors with Ranged Bio-weapons^^** (figurines 3)
+- **^^Tyranid Warriors with Melee Bio-weapons^^** (3 figurines)
+- **^^Tyranid Warriors with Ranged Bio-weapons^^** (3 figurines)
 
 Vous pouvez inclure jusqu'à une des unités suivantes:
-- Pour les figurines **^^Hormagaunts^^** (figurines 10)
-- Pour les figurines **^^Neurogaunts^^** (figurines 10)
-- Pour les figurines **^^Ripper Swarms^^** (figurines 3)
-- Pour les figurines **^^Termagants^^** (figurines 10)</description>
+- **^^Hormagaunts^^** (10 figurines)
+- **^^Neurogaunts^^** (10 figurines)
+- **^^Ripper Swarms^^** (3 figurines)
+- **^^Termagants^^** (10 figurines)</description>
             </rule>
             <rule name="Rules Adaptions" id="7a38-f020-b03b-67d3" hidden="false">
-              <description>- Les unités **^^Endless Multitude^^** et **^^Ripper Swarms^^** de votre armée sont ignorées dans le but de déterminer la visibilité des figurines **^^Tyranids^^** amicaux qui n'ont pas le mot-clé **^^Endless Multitude^^** ou **^^Ripper Swarms^^**.
-- Vous pouvez donner les figurines Tyranid Prime en unités **^^Tyranid Warriors with Melee Bio-weapons^^** et **^^Tyranid Warriors with Ranged Bio-weapons^^** Améliorations comme s'ils étaient des figurines **^^Character^^**.
-- Les unités **^^Tyranid Warriors with Melee Bio-weapons^^** et **^^Tyranid Warriors with Ranged Bio-weapons^^** peuvent effectuer la manœuvre tactique du site sécurisé comme s'ils avaient le mot-clé **^^Battleline^^**.
+              <description>- Les unités **^^Endless Multitude^^** et **^^Ripper Swarms^^** de votre armée sont ignorées aux fins de déterminer la visibilité pour les amitiés **^^Tyranids^^** figurines qui n'ont pas mot-clé **^^Endless Multitude^^** ou **^^Ripper Swarms^^**.
+- Vous pouvez donner le Tyranid Prime figurines aux unités **^^Tyranid Warriors with Melee Bio-weapons^^** et **^^Tyranid Warriors with Ranged Bio-weapons^^** Enhancements comme s'ils étaient **^^Character^^** figurines.
+- Les unités **^^Tyranid Warriors with Melee Bio-weapons^^** et **^^Tyranid Warriors with Ranged Bio-weapons^^** peuvent effectuer la manœuvre tactique du site sécurisé comme s'ils avaient mot-clé **^^Battleline^^**.
 - Les unités **^^Endless Multitude^^** ne peuvent pas effectuer la manœuvre tactique du site sécurisé.
 - L’unité **^^Ripper Swarms^^** perd l’aptitude Frappe en profondeur.
 - L’unité **^^Termagants^^** perd l’aptitude Skulking Horrors.
 - La figurine **^^Winged Tyranid Prime^^** perd l’aptitude Frappe en profondeur.</description>
             </rule>
             <rule name="Xeno-Terror" id="9603-0af4-20ef-dce8" hidden="false">
-              <description>Quand vous déchaînez le Shadow in the Warp, Soustrayez 1 du test d’Ébranlement que chaque unité ennemie sur le champ de bataille doit passer. Pour chaque unité ennemie qui échoue à l'un de ces tests, cette unité ennemie ne peut pas faire ce tour.</description>
+              <description>Quand vous déchaînez le Shadow in the Warp, Soustrayez 1 du test d’Ébranlement dont chaque unité ennemie du champ de bataille doit prendre le résultat. Pour chaque unité ennemie qui échoue à l'un de ces tests, cette unité ennemie ne peut pas tirer sur Overwatch ce tour.</description>
             </rule>
           </rules>
           <infoLinks>
@@ -6732,18 +6732,18 @@ Vous pouvez inclure jusqu'à une des unités suivantes:
 - **^^Neurolictor^^**
 
 Vous pouvez inclure jusqu'à deux de chacune des unités suivantes:
-- Pour les figurines **^^Hormagaunts^^** (figurines 10)
-- Pour les figurines **^^Raveners^^** (figurines 3)
-- Pour les figurines **^^Von Ryan's Leaders^^** (figurines 3)</description>
+- **^^Hormagaunts^^** (10 figurines)
+- **^^Raveners^^** (3 figurines)
+- **^^Von Ryan's Leaders^^** (3 figurines)</description>
             </rule>
             <rule name="Rules Adaptions" id="0225-ca34-ba14-5d5e" hidden="false">
-              <description>- Les unités **^^Hormagaunts^^** ne peuvent pas effectuer la manœuvre tactique du site sécurisé.
+              <description>- Les unités **^^Hormagaunts^^** ne peuvent pas effectuer la manœuvre tactique Secure Site.
 - La figurine **^^Lictor^^** perd l’aptitude Pheromone Trail.
 - L’unité **^^Raveners^^** perd l’aptitude Death From Below.
 - L’unité **^^Von Ryan's Leapers^^** perd l’aptitude Pouncing Leap.</description>
             </rule>
             <rule name="Priority Predation" id="ef72-7adf-ee08-72b0" hidden="false">
-              <description>Chaque fois qu'une unité ennemie dans la Portée d’Engagement d'une ou de plusieurs unités **^^Tyranids^^** de votre armée est sélectionnée pour Battre en Retraite, après que l'unité ennemie ait fait ce mouvement Battre en Retraite, pour chacune de ces unités **^^Tyranids^^**, s'il n'y a pas d'autres unités ennemies dans la Portée d’Engagement, elle peut faire un mouvement normal jusqu'à 3".</description>
+              <description>Chaque fois qu'une unité ennemie dans Portée d’Engagement d'une ou plusieurs unités **^^Tyranids^^** de votre armée est sélectionné à Battre en Retraite, après quoi unité ennemie a fait que mouvement de Retraite, pour chacune de ces unités **^^Tyranids^^**, s'il n'y a pas d'autres unités ennemies dans Portée d’Engagement de celui-ci, il peut effectuer un mouvement Normal jusqu'à 3".</description>
             </rule>
           </rules>
           <infoLinks>
@@ -6752,7 +6752,7 @@ Vous pouvez inclure jusqu'à deux de chacune des unités suivantes:
           <profiles>
             <profile name="Monoform Predators" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="ca6f-3978-2524-bd21">
               <characteristics>
-                <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Les figurines **^^Tyranids^^** présentés dans ce détachement ne peuvent pas être améliorés.</characteristic>
+                <characteristic name="Description" typeId="9b8f-694b-e5e-b573">**^^Tyranids^^** figurines dans ce détachement ne peuvent pas être amélioré.</characteristic>
               </characteristics>
             </profile>
           </profiles>
@@ -6778,10 +6778,10 @@ Vous pouvez inclure jusqu'à deux de chacune des unités suivantes:
 - **^^Winged Tyranid Prime^^**
 
 Vous pouvez inclure jusqu'à trois des unités suivantes:
-- Pour les figurines **^^Hormagaunts^^** (figurines 10)
-- Pour les figurines **^^Neurogaunts^^** (figurines 10)
-- Pour les figurines **^^Ripper Swarms^^** (figurines 3)
-- Pour les figurines **^^Termagants^^** (figurines 10)</description>
+- **^^Hormagaunts^^** (10 figurines)
+- **^^Neurogaunts^^** (10 figurines)
+- **^^Ripper Swarms^^** (3 figurines)
+- **^^Termagants^^** (10 figurines)</description>
             </rule>
             <rule name="Rules Adaptions" id="38ba-39ef-c45e-1d85" hidden="false">
               <description>- L’unité **^^Ripper Swarms^^** perd l’aptitude Frappe en profondeur.
@@ -6789,7 +6789,7 @@ Vous pouvez inclure jusqu'à trois des unités suivantes:
 - La figurine **^^Winged Tyranid Prime^^** perd l’aptitude Frappe en profondeur.</description>
             </rule>
             <rule name="Unstoppable Swarm" id="4523-9912-7f85-abdc" hidden="false">
-              <description>Chaque fois qu'une unité **^^Tyranids^^** de votre armée se déplace, les figurines de cette unité peuvent passer par des figurines **^^Tyranids^^** amicaux comme s'ils n'étaient pas là. En outre, chaque fois qu'une unité **^^Tyranids^^** de votre armée tente d'exploiter une Hatchway fermée, si votre adversaire tente de l'empêcher, ajoutez 1 à votre résultat du déploiement.</description>
+              <description>Chaque fois qu’une unité **^^Tyranids^^** de votre armée se déplace, les figurines de cette unité peuvent traverser les figurines **^^Tyranids^^** amies comme si elles n’étaient pas là. De plus, chaque fois qu’une unité **^^Tyranids^^** de votre armée tente d’actionner une Écoutille fermée, si votre adversaire tente de l’en empêcher, ajoutez 1 à votre résultat du jet en opposition.</description>
             </rule>
           </rules>
           <infoLinks>
@@ -6989,8 +6989,8 @@ Vous pouvez inclure jusqu'à trois des unités suivantes:
               <profiles>
                 <profile name="Mortrexite Implant Attack" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="86c1-cd9d-66fe-7125">
                   <characteristics>
-                    <characteristic name="Description" typeId="9b8f-694b-e5e-b573">- Les armes de Melee équipées par le porteur acquièrent la aptitude de **[DEVASTATING WOUNDS]**.
-- Chaque fois que le porteur se bat contre lui, si une ou plusieurs figurines ennemies (à l'exclusion des figurines **^^Vehicle^^**) sont détruits lors de la résolution de ces attaques, après que ce combat est résolu, vous pouvez sélectionner une unité **^^Ripper Swarms^^** amicale à 12" ou moins du porteur. Si l'un de ces figurines ennemies détruits avait le mot-clé **^^Monster^^**, ajoutez à la place des figurines D3 Ripper Swarm à cette unité **^^Ripper Swarms^^**.</characteristic>
+                    <characteristic name="Description" typeId="9b8f-694b-e5e-b573">- Les armes de mêlée dont le porteur est équipé gagnent l’aptitude **[DEVASTATING WOUNDS]**.
+- Chaque fois que le porteur combat, si une ou plusieurs figurines ennemies (à l’exclusion des figurines **^^Vehicle^^**) sont détruites lors de la résolution de ces attaques, après la résolution de ce combat, vous pouvez sélectionner une unité **^^Ripper Swarms^^** amie à 12" ou moins du porteur. Si l’une de ces figurines ennemies détruites avait le mot-clé **^^Monster^^**, ajoutez D3 figurines Ripper Swarm à cette unité **^^Ripper Swarms^^** à la place.</characteristic>
                   </characteristics>
                 </profile>
               </profiles>
@@ -7142,7 +7142,7 @@ Vous pouvez inclure jusqu'à trois des unités suivantes:
               <profiles>
                 <profile name="Balemind Membrane" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="4c8f-5d71-2fee-d6c6">
                   <characteristics>
-                    <characteristic name="Description" typeId="9b8f-694b-e5e-b573">figurine avec une ou plusieurs armes Psychiques uniquement. Chaque fois que le porteur effectue une attaque avec une arme Psychique, vous pouvez relancer le jet de Touche et vous pouvez relancer le jet de Blessure.</characteristic>
+                    <characteristic name="Description" typeId="9b8f-694b-e5e-b573">figurine avec une ou plusieurs armes Psychiques uniquement. Chaque fois que le porteur fait une attaque avec une arme Psychique, vous pouvez relancer le jet de Touche et vous pouvez relancer le jet de Blessure.</characteristic>
                   </characteristics>
                 </profile>
               </profiles>
@@ -7185,9 +7185,9 @@ Vous pouvez inclure jusqu'à trois des unités suivantes:
               <profiles>
                 <profile name="Spirit-leech Cortex" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="3c65-fd4d-8330-cce3">
                   <characteristics>
-                    <characteristic name="Description" typeId="9b8f-694b-e5e-b573">**^^Psyker^^** figurine uniquement. Chaque fois qu' une unité ennemie perd une blessure à la suite d'une attaque Psychique effectuée par le porteur:
+                    <characteristic name="Description" typeId="9b8f-694b-e5e-b573">**^^Psyker^^** figurine uniquement. Chaque fois qu'une unité ennemie perd une blessure à la suite d'une attaque Psychique menée par le porteur:
 - le porteur récupère 1 PV perdu.
-- Jusqu'au début de votre phase de Commandement, ajoutez 1 à la force des armes de mêlée du porteur.</characteristic>
+- Jusqu'au début de votre phase de Commandement, ajoutez 1 à Force des armes de mêlée du porteur.</characteristic>
                   </characteristics>
                 </profile>
               </profiles>
@@ -7260,7 +7260,7 @@ Vous pouvez inclure jusqu'à trois des unités suivantes:
           <profiles>
             <profile name="Strength Born of Hunger" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="f43c-d2c6-adac-abf9">
               <characteristics>
-                <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Ajoutez 1 à la caractéristique de Force des armes de mêlée équipées de figurines de cette unité.</characteristic>
+                <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Ajoutez 1 à la caractéristique de Force des armes de mêlée dont sont équipées les figurines de cette unité.</characteristic>
               </characteristics>
             </profile>
           </profiles>
@@ -7308,8 +7308,8 @@ Vous pouvez inclure jusqu'à trois des unités suivantes:
           <profiles>
             <profile name="Enhanced Senses" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="625a-8155-9dbc-661e">
               <characteristics>
-                <characteristic name="Description" typeId="9b8f-694b-e5e-b573">- Chaque fois qu'une figurine de cette unité fait une attaque de mêlée, vous pouvez ignorer tout ou tous les modificateurs jet de Touche et caractéristique de Capacité de Combat pour cette attaque.
-- Chaque fois qu'une figurine dans cette unité a effectué une attaque de tir, cette attaque a la aptitude **[IGNORES COVER]**.</characteristic>
+                <characteristic name="Description" typeId="9b8f-694b-e5e-b573">- Chaque fois qu’une figurine de cette unité effectue une attaque de mêlée, vous pouvez ignorer tout ou partie des modificateurs au jet de Touche et à la caractéristique de Capacité de Combat pour cette attaque.
+- Chaque fois qu’une figurine de cette unité effectue une attaque de tir, cette attaque a l’aptitude **[IGNORES COVER]**.</characteristic>
               </characteristics>
             </profile>
           </profiles>
@@ -7344,7 +7344,7 @@ Vous pouvez inclure jusqu'à trois des unités suivantes:
           <profiles>
             <profile name="Instinctive Autonomy" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="8f67-6189-1e62-758e">
               <characteristics>
-                <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Tant que cette unité se situe à 18" ou moins d'une figurine **^^Synapse^^** convivial, cette unité compte comme étant à 6" ou moins de cette figurine pour sa aptitude Synapse.</characteristic>
+                <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Tant que cette unité est à 18" ou moins d’une figurine **^^Synapse^^** amie, cette unité est considérée comme étant à 6" ou moins de cette figurine pour son aptitude Synapse.</characteristic>
               </characteristics>
             </profile>
           </profiles>
@@ -7376,7 +7376,7 @@ Vous pouvez inclure jusqu'à trois des unités suivantes:
           <profiles>
             <profile name="Ranged Resistance" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="cee1-00c3-f7b3-e9fc">
               <characteristics>
-                <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Chaque fois qu'une attaque de tir est attribuée à une figurine dans cette unité, ajoutez 1 à tout jet de sauvegarde effectué contre cette attaque.</characteristic>
+                <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Chaque fois qu’une attaque de tir est allouée à une figurine de cette unité, ajoutez 1 à tout jet de sauvegarde d’armure effectué contre cette attaque.</characteristic>
               </characteristics>
             </profile>
           </profiles>
@@ -7408,7 +7408,7 @@ Vous pouvez inclure jusqu'à trois des unités suivantes:
           <profiles>
             <profile name="Fleet of Claw" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="7083-bb24-fb28-5525">
               <characteristics>
-                <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Chaque fois que tu fais une avance ou jet de Charge pour cette unité, vous pouvez relancer le résultat.</characteristic>
+                <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Chaque fois que vous faites un Advance ou jet de Charge pour cette unité, vous pouvez relancer le résultat.</characteristic>
               </characteristics>
             </profile>
           </profiles>
@@ -7440,7 +7440,7 @@ Vous pouvez inclure jusqu'à trois des unités suivantes:
           <profiles>
             <profile name="Onslaught Killers" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="d03f-7674-3564-5d99">
               <characteristics>
-                <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Chaque fois qu'une figurine dans cette unité effectue une attaque de mêlée, si cette unité a fait un effectuer un mouvement de Charge ce tour, ajoutez 1 au jet de Touche.</characteristic>
+                <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Chaque fois qu'une figurine dans cette unité fait une attaque de mêlée, si cette unité a fait un mouvement de Charge à ce tour, ajoutez 1 au jet de Touche.</characteristic>
               </characteristics>
             </profile>
           </profiles>
@@ -7477,7 +7477,7 @@ Vous pouvez inclure jusqu'à trois des unités suivantes:
           <profiles>
             <profile name="Unfathomable Terror" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="fcb1-75a7-9c8d-3815">
               <characteristics>
-                <characteristic name="Description" typeId="9b8f-694b-e5e-b573">À la fin de votre phase de Mouvement, sélectionnez une unité ennemie à 6" ou moins et visible à cette unité. Cette unité ennemie doit passer un test de Commandement, en soustrayant 1 du jet. En cas d'échec, jusqu'au début de votre prochaine phase de Mouvement, cette unité ennemie ne peut pas être sélectionnée pour avancer et sa caractéristique de mouvement est réduite par 2".</characteristic>
+                <characteristic name="Description" typeId="9b8f-694b-e5e-b573">À la fin de votre phase de Mouvement, sélectionnez une unité ennemie à 6" ou moins de cette unité et visible de celle-ci. Cette unité ennemie doit effectuer un test de Commandement en soustrayant 1 au jet. En cas d’échec, jusqu’au début de votre prochaine phase de Mouvement, cette unité ennemie ne peut pas Avancer et sa caractéristique de Mouvement est réduite de 2".</characteristic>
               </characteristics>
             </profile>
           </profiles>
@@ -7514,7 +7514,7 @@ Vous pouvez inclure jusqu'à trois des unités suivantes:
           <profiles>
             <profile name="Psychic Shadow" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="7ffd-04d2-3e99-1661">
               <characteristics>
-                <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Chaque fois qu'une attaque à distance Psychique cible cette unité, cette unité a le Bénéfice du Couvert et Insensible à la douleur 5+ aptitude contre cette attaque.</characteristic>
+                <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Chaque fois qu'une attaque à distance Psychique cible cette unité, cette unité a l’aptitude Bénéfice du Couvert et Insensible à la douleur 5+ contre cette attaque.</characteristic>
               </characteristics>
             </profile>
           </profiles>
@@ -7599,7 +7599,7 @@ Vous pouvez inclure jusqu'à trois des unités suivantes:
           <profiles>
             <profile name="Psionic Resonance" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="8aa1-4f2d-18ed-2923">
               <characteristics>
-                <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Une fois par bataille, cette unité peut utiliser cette aptitude lorsqu'elle est ciblée par un Stratagème. Si tel est le cas, réduisez le coût CP de cette utilisation de ce Stratagème par 1CP.</characteristic>
+                <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Une fois par bataille, cette unité peut utiliser cette aptitude quand il est ciblé avec un Stratagème. Si tel est le cas, réduisez le coût CP de cette utilisation de ce Stratagème par 1CP.</characteristic>
               </characteristics>
             </profile>
           </profiles>
@@ -7673,7 +7673,7 @@ Vous pouvez inclure jusqu'à trois des unités suivantes:
           <profiles>
             <profile name="Psychic Aberration" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="129f-ac87-31ea-6321">
               <characteristics>
-                <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Une fois par bataille, au début de toute phase, vous pouvez sélectionner une unité **^^Tyranids^^** qui est Ébranlée et à 12" ou moins de cette figurine. Cette unité n'est plus Ébranlée.</characteristic>
+                <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Une fois par bataille, au début de toute phase, vous pouvez sélectionner une unité **^^Tyranids^^** qui est Ébranlé et à 12" ou moins de cette figurine. Cette unité n'est plus Ébranlé.</characteristic>
               </characteristics>
             </profile>
           </profiles>
@@ -7691,7 +7691,7 @@ Vous pouvez inclure jusqu'à trois des unités suivantes:
           <profiles>
             <profile name="Bestial Rage" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="f748-4102-5a8b-6547">
               <characteristics>
-                <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Chaque fois que cette unité déclare une charge, l'une des cibles de cette charge doit être l'unité ennemie admissible la plus proche.</characteristic>
+                <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Chaque fois que cette unité déclare une charge, l’une des cibles de cette charge doit être l’unité ennemie éligible la plus proche.</characteristic>
               </characteristics>
             </profile>
           </profiles>
@@ -7716,7 +7716,7 @@ Vous pouvez inclure jusqu'à trois des unités suivantes:
           <profiles>
             <profile name="Uncontrollable" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="92e7-1013-f392-196a">
               <characteristics>
-                <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Cette unité n'est jamais considérée comme dans la portée Synapse de votre armée.</characteristic>
+                <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Cette unité n'est jamais considérée comme étant à l'intérieur du Synapse Portée de votre armée.</characteristic>
               </characteristics>
             </profile>
           </profiles>
@@ -7766,7 +7766,7 @@ Vous pouvez inclure jusqu'à trois des unités suivantes:
           <profiles>
             <profile name="Mindless Focus" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="d131-e302-821d-7bf2">
               <characteristics>
-                <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Chaque fois que cette unité est sélectionnée pour tirer, les figurines de cette unité ne peuvent cibler que l'unité ennemie admissible la plus proche lors de la résolution des attaques de cette unité.</characteristic>
+                <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Chaque fois que cette unité est sélectionnée pour tirer, les figurines de cette unité ne peuvent cibler que l’unité ennemie éligible la plus proche lors de la résolution des attaques de cette unité.</characteristic>
               </characteristics>
             </profile>
           </profiles>
@@ -7791,7 +7791,7 @@ Vous pouvez inclure jusqu'à trois des unités suivantes:
           <profiles>
             <profile name="Lobe Impairment" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="81b7-301f-61dc-64db">
               <characteristics>
-                <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Alors que cette unité a cette cicatrice de bataille, elle perd la aptitude Synapse.</characteristic>
+                <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Alors que cette unité a cette cicatrice de bataille, elle perd l’aptitude Synapse.</characteristic>
               </characteristics>
             </profile>
           </profiles>
@@ -7821,7 +7821,7 @@ Vous pouvez inclure jusqu'à trois des unités suivantes:
           <profiles>
             <profile name="Neural Dissonance" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="5950-ef0f-3adf-1afc">
               <characteristics>
-                <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Cette unité ne peut pas bénéficier des Stratagems ou des Règles de détachement qui exigent le mot-clé **^^Synapse^^**.</characteristic>
+                <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Cette unité ne peut pas bénéficier des Stratagems ou des règles de détachement qui exigent mot-clé **^^Synapse^^**.</characteristic>
               </characteristics>
             </profile>
           </profiles>
@@ -7851,7 +7851,7 @@ Vous pouvez inclure jusqu'à trois des unités suivantes:
           <profiles>
             <profile name="Synaptic Decay" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="8cff-cb8e-96bf-181f">
               <characteristics>
-                <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Réduire la gamme de la aptitude Synapse de cette figurine à 3".</characteristic>
+                <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Réduisez la portée de l’aptitude Synapse de cette figurine à 3".</characteristic>
               </characteristics>
             </profile>
           </profiles>
@@ -7915,7 +7915,7 @@ Vous pouvez inclure jusqu'à trois des unités suivantes:
           </infoLinks>
           <rules>
             <rule name="A Perfect Ambush" id="8214-2942-7876-9ce9" hidden="false">
-              <description>Chaque fois qu'une unité Genestealer CULTS de votre armée est mise en place sur le champ de bataille comme Renforcements, jusqu'à la fin de votre prochaine phase de Combat, les armes équipées par des figurines dans cette unité ont les capacités [Touches soutenues 1] et [Ignore le couvert]</description>
+              <description>Chaque fois qu’une unité GENESTEALER CULTS de votre armée est placée sur le champ de bataille en tant que Renforts, jusqu’à la fin de votre prochaine phase de Combat, les armes dont les figurines de cette unité sont équipées ont les aptitudes [SUSTAINED HITS 1] et [IGNORES COVER]</description>
             </rule>
           </rules>
           <modifiers>
@@ -7932,7 +7932,7 @@ Vous pouvez inclure jusqu'à trois des unités suivantes:
           </infoLinks>
           <rules>
             <rule name="Unquestioning Fanaticism" id="d2bd-ec2b-d13f-7a0f" hidden="false">
-              <description>Pour chaque unité ACOLYTE HYBRIDS, Hybrid Metamorphs, et Neophyte Hybrid de votre armée, alors qu'une ou plusieurs figurines CHARACTER sont à la tête de cette unité, vous pouvez relancer des jets d’Avance et de Charge faits pour elle. Si cette figurine CHARACTER est un Magus, Primus ou Acolyte Iconward, cette figurine a la aptitude Insensible à la douleur 3+ tout en conduisant cette unité.</description>
+              <description>Pour chaque unité ACOLYTE HYBRIDS, Hybrid Metamorphs et Neophyte Hybrid de votre armée, alors qu'une ou plusieurs CHARACTER figurines dirigent cette unité, vous pouvez relancer Advance et jets de Charge sont faits pour elle. Si ce CHARACTER figurine est un Magus, Primus, ou Acolyte Iconward, que figurine a l’aptitude Insensible à la douleur 3+ tout en dirigeant cette unité.</description>
             </rule>
           </rules>
           <modifiers>
@@ -7946,7 +7946,7 @@ Vous pouvez inclure jusqu'à trois des unités suivantes:
         <selectionEntry type="upgrade" import="true" name="Biosanctic Broodsurge" hidden="false" id="ff11-0fa4-2950-380e">
           <rules>
             <rule name="Hypermorphic Fury" id="0a4d-88d1-161e-213b" hidden="false">
-              <description>Ajoutez 1 aux jets de Charge faits pour les unités **^^Aberrants^^**, **^^Biophagus^^** et **^^Purestrain Genestealers^^** de votre armée. En outre, chaque fois qu'une telle unité est sélectionnée pour combattre, si elle effectuer un mouvement de Charge à ce tour, jusqu'à la fin de la phase, ajoutez 1 aux caractéristique d’Attaques des armes de mêlée équipées par les figurines de cette unité.</description>
+              <description>Ajoutez 1 aux jets de Charge effectués pour les unités **^^Aberrants^^**, **^^Biophagus^^** et **^^Purestrain Genestealers^^** de votre armée. De plus, chaque fois qu’une telle unité est sélectionnée pour combattre, si elle a effectué un mouvement de Charge durant ce tour, jusqu’à la fin de la phase, ajoutez 1 à la caractéristique d’Attaques des armes de mêlée dont les figurines de cette unité sont équipées.</description>
             </rule>
           </rules>
           <modifiers>
@@ -7960,7 +7960,7 @@ Vous pouvez inclure jusqu'à trois des unités suivantes:
         <selectionEntry type="upgrade" import="true" name="Outlander Claw" hidden="false" id="59e2-4fec-2b00-b1e8">
           <rules>
             <rule name="Rapid Takeover" id="55fe-5524-6833-4196" hidden="false">
-              <description>Bien qu'une figurine Genestealer CULTS MOUNTED ou Genestealer CULTS VEHICLE de votre armée ne soit pas Ébranlé, ajoutez 1 à sa caractéristique de Contrôle d’Objectif. En outre, à la fin de votre phase de Commandement, si une ou plusieurs unités Atalan Jackals de votre armée sont à portée d'un marqueur objectif que vous contrôlez, ce marqueur objectif reste sous votre contrôle jusqu'à ce que le niveau de contrôle de votre adversaire sur ce marqueur objectif soit supérieur à la vôtre à la fin d'une phase.</description>
+              <description>Alors qu'un Genestealer CULTS MOUNTED ou Genestealer CULTS VEHICLE figurine de votre armée n'est pas Ébranlé, ajoutez 1 à son caractéristique de Contrôle d’Objectif. De plus, à la fin de votre phase de Commandement, si une ou plusieurs unités Atalan Jackals de votre armée sont à l'intérieur de Portée d'un pion d’objectif que vous contrôlez, ce pion d’objectif reste sous votre contrôle jusqu'à ce que le niveau de contrôle de votre adversaire sur ce pion d’objectif soit supérieur au vôtre à la fin d'une phase.</description>
             </rule>
           </rules>
           <modifiers>
@@ -7974,16 +7974,16 @@ Vous pouvez inclure jusqu'à trois des unités suivantes:
         <selectionEntry type="upgrade" import="true" name="Brood Brother Auxilia" hidden="false" id="0a59-1d64-257c-04fb">
           <rules>
             <rule name="Brood Brothers" id="fc33-afdd-30e9-47b1" hidden="false">
-              <description>Vous pouvez inclure des unités **^^Astra Militarum^^** dans votre armée, même si elles n'ont pas le mot-clé **^^Genestealer Cult^^** Faction. Le coût combiné de ces unités que vous pouvez inclure dans votre armée est:
+              <description>Vous pouvez inclure des unités **^^Astra Militarum^^** dans votre armée, même si elles n'ont pas la Faction **^^Genestealer Cult^^** mot-clé. Le coût combiné de ces unités que vous pouvez inclure dans votre armée est:
 
 - Incursion: jusqu'à 500 pts
 - Strike Force: jusqu’à 1000 pts
 - Onslaught: jusqu’à 1500 pts
 
-une figurine **^^Genestealer Cult^^** doit être votre Warlord, et les figurines **^^Astra Militarum^^** de votre armée perdent la aptitude de Voice Of Command s'ils l'ont. Vous ne pouvez pas inclure des unités avec l'un des mots clés suivants dans votre armée en utilisant cette règle: **^^Aircraft^^**; **^^Commisar^^**; **^^Epic Hero^^**; **^^Militarum Tempestus^^**; **^^Ogryn^^**; **^^Ratling^^**; **^^Tech-Priest Enginseer^^**; **^^Ministorum Priest^^**.</description>
+une **^^Genestealer Cult^^** figurine doit être votre seigneur de guerre, et **^^Astra Militarum^^** figurines de votre armée perdent la voix du commandement aptitude s'ils l'ont. Vous ne pouvez pas inclure dans votre armée des unités avec l'un des éléments suivants mots-clés en utilisant cette règle: **^^Aircraft^^**; **^^Commisar^^**; **^^Epic Hero^^**; **^^Militarum Tempestus^^**; **^^Ogryn^^**; **^^Ratling^^**; **^^Tech-Priest Enginseer^^**; **^^Ministorum Priest^^**.</description>
             </rule>
             <rule name="Integrated Tactics" id="2ac6-4080-aea3-847e" hidden="false">
-              <description>Chaque fois qu'une unité **^^Astra Militarum^^** de votre armée est sélectionnée pour tirer, vous pouvez sélectionner une unité ennemi à 18" ou moins et visible à cette unité. Si vous le faites, jusqu'à la fin de la phase, les figurines de cette unité **^^Astra Militarum^^** ne peuvent cibler que cette unité ennemie (et seulement si c'est une cible admissible) et que cette unité ennemie est prise dans le feu qui se chevauchent. Alors qu'une unité ennemie est prise dans le feu qui se chevauchent, chaque fois qu'une figurine **^^Genestealer Cult^^** de votre armée cible cette unité ennemie avec une attaque de tir, ajoutez 1 à le jet de Touche.</description>
+              <description>Chaque fois qu’une unité **^^Astra Militarum^^** de votre armée est sélectionnée pour tirer, vous pouvez sélectionner une unité ennemie à 18" ou moins de cette unité et visible par elle. Si vous le faites, jusqu’à la fin de la phase, les figurines de cette unité **^^Astra Militarum^^** ne peuvent cibler que cette unité ennemie (et seulement si elle est une cible éligible), et cette unité ennemie est prise dans des tirs croisés. Tant qu’une unité ennemie est prise dans des tirs croisés, chaque fois qu’une figurine **^^Genestealer Cult^^** de votre armée cible cette unité ennemie avec une attaque de tir, ajoutez 1 au jet de Touche.</description>
             </rule>
           </rules>
           <modifiers>
@@ -7997,13 +7997,13 @@ une figurine **^^Genestealer Cult^^** doit être votre Warlord, et les figurines
         <selectionEntry type="upgrade" import="true" name="Final Day" hidden="false" id="cb2f-554e-1162-75d5">
           <rules>
             <rule name="The Star Children's Blessings" id="a351-e932-e0b3-2ed7" hidden="false">
-              <description>Vous pouvez inclure dans votre armée des unités TYRANIDS VANGUARD INVADER (à l'exclusion des unités AIRCRAFT, Broodlord et Genestealers). Le coût combiné de ces unités dépend de la taille de la bataille:
+              <description>Vous pouvez inclure dans votre armée des unités TYRANIDS VANGUARD INVADER (à l’exclusion de AIRCRAFT, Broodlord et Genestealers). Le coût combiné de ces unités dépend de la taille de la bataille:
 
 ■ Incursion: jusqu'à 500 pts
 ■ Strike Force: jusqu’à 1000 pts
 ■ Onslaught: jusqu’à 1500 pts
 
-aucune figurine TYRANIDS de votre armée ne peut être votre WARLORD.</description>
+Non TYRANIDS figurines de votre armée peut être votre WARLORD.</description>
             </rule>
             <rule name="Psionic Parasitism" id="8db4-851f-477e-325e" hidden="false">
               <description>À la fin de votre phase de Mouvement, pour chaque unité TYRANIDS SYNAPSE de votre armée, vous pouvez sélectionner une unité GENESTEALER CULTS amie (à l’exclusion des unités PURESTRAIN GENESTEALER et PATRIARCH) et une unité TYRANIDS amie, chacune à 9" ou moins de cette unité SYNAPSE et visible de celle-ci. Si vous le faites, cette unité GENESTEALER CULTS de votre armée subit D3+1 blessures mortelles, une figurine de l’unité TYRANIDS sélectionnée récupère jusqu’à ce nombre de PV perdus et, jusqu’au début de votre prochaine phase de Mouvement, chaque fois qu’une figurine de l’unité TYRANIDS sélectionnée effectue une attaque, ajoutez 1 au jet de Touche.
@@ -8047,11 +8047,11 @@ Vous pouvez inclure jusqu'à deux des unités suivantes (les duplicats ne sont p
 - **^^Sanctus^^**
 
 Vous pouvez inclure jusqu'à trois des unités suivantes:
-- Les figurines **^^Acolyte Hybrids with Autopistols^^** (5 ou 10)
-- Pour les figurines **^^Neophyte Hybrids^^** (figurines 10)
+- **^^Acolyte Hybrids with Autopistols^^** (5 or 10 figurines)
+- **^^Neophyte Hybrids^^** (10 figurines)
 
 Vous pouvez inclure jusqu'à l'une des unités suivantes:
-- Les figurines **^^Acolyte Hybrids with Hand Flamers^^** (5 ou 10)</description>
+- **^^Acolyte Hybrids with Hand Flamers^^** (5 or 10 figurines)</description>
             </rule>
             <rule name="Rules Adaptions" id="15ac-afc2-87aa-eaa7" hidden="false">
               <description>- Les unités **^^Genestealer Cults^^** perdent l’aptitude Frappe en profondeur.
@@ -8061,7 +8061,7 @@ Vous pouvez inclure jusqu'à l'une des unités suivantes:
 - La figurine **^^Primus^^** perd l’aptitude Decoys and Misdirection.</description>
             </rule>
             <rule name="Harassing Fire" id="45a4-7a75-b404-4be2" hidden="false">
-              <description>À la fin de votre phase de Tir, vous pouvez sélectionner une unité **^^Genestealer Cults^^** de votre armée qui n'est pas dans la Portée d’Engagement d'une ou plusieurs unités ennemies. Si vous le faites, cette unité peut essayer d'opérer un Hatchway ouvert il est à 1" ou moins de (s'il y en a un), et peut ensuite faire un déplacement normal jusqu'à 3" (indépendamment de s'il a tenté d'opérer un Hatchway ou non). Jusqu'à la fin du tour, cette unité n'est pas éligible à la déclaration d'une charge.</description>
+              <description>À la fin de votre phase de Tir, vous pouvez sélectionner une unité **^^Genestealer Cults^^** de votre armée qui n’est pas à Portée d’Engagement d’une ou plusieurs unités ennemies. Si vous le faites, cette unité peut tenter de manœuvrer un Hatchway ouvert à 1" ou moins d’elle (s’il y en a un), puis effectuer un mouvement Normal de jusqu’à 3" (qu’elle ait tenté ou non de manœuvrer un Hatchway). Jusqu’à la fin du tour, cette unité n’est pas éligible pour déclarer une charge.</description>
             </rule>
           </rules>
           <infoLinks>
@@ -8085,17 +8085,17 @@ Vous pouvez inclure jusqu'à l'une des unités suivantes:
 - **^^Biophagus^^**
 
 Vous pouvez inclure jusqu'à deux des unités suivantes:
-- Les figurines **^^Aberrants^^** (5 ou 10)
+- **^^Aberrants^^** (5 or 10 figurines)
 
 Vous pouvez inclure jusqu'à l'une des unités suivantes:
-- Les figurines **^^Hybrid Metamorphs^^** (5 ou 10)</description>
+- **^^Hybrid Metamorphs^^** (5 or 10 figurines)</description>
             </rule>
             <rule name="Rules Adaptions" id="2944-4f78-48d1-6626" hidden="false">
               <description>- Les unités **^^Genestealer Cults^^** perdent l’aptitude Frappe en profondeur.
 - L’unité **^^Hybrid Metamorphs^^** perd l’aptitude Brood Surge.</description>
             </rule>
             <rule name="Blessed Visages" id="5389-de27-ddda-bd2a" hidden="false">
-              <description>Chaque fois qu'une unité ennemie déclare une charge qui vise une ou plusieurs unités **^^Genestealer Cults^^** de votre armée, cette unité ennemie doit passer un test de Commandement. En cas d'échec, jusqu'à la fin du tour, chaque fois qu'une figurine de l'unité ennemie effectue une attaque, Soustrayez 1 du jet de Touche.</description>
+              <description>Chaque fois qu'une unité ennemie déclare une charge cible une ou plusieurs unités **^^Genestealer Cults^^** de votre armée, que cette unité ennemie doit prendre un test de Commandement. En cas d'échec, jusqu'à la fin du tour, chaque fois qu'une figurine dans cette unité ennemie fait une attaque, Soustrayez 1 du jet de Touche.</description>
             </rule>
           </rules>
           <infoLinks>
@@ -8121,7 +8121,7 @@ Vous pouvez inclure jusqu'à l'une des unités suivantes:
           <profiles>
             <profile name="Synaptic Senses (Psychic)" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="e13c-5912-365f-393f">
               <characteristics>
-                <characteristic name="Description" typeId="9b8f-694b-e5e-b573">**^^Psyker^^** uniquement. Les armes de tir équipées par des figurines de cette unité ont la aptitude **[LETHAL HITS]**.</characteristic>
+                <characteristic name="Description" typeId="9b8f-694b-e5e-b573">**^^Psyker^^** uniquement. Les armes de tir dont les figurines de cette unité sont équipées ont l’aptitude **[LETHAL HITS]**.</characteristic>
               </characteristics>
             </profile>
           </profiles>
@@ -8140,7 +8140,7 @@ Vous pouvez inclure jusqu'à l'une des unités suivantes:
           <profiles>
             <profile name="Fear of the Unseen (Aura)" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="b039-9aad-9f60-4284">
               <characteristics>
-                <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Alors qu'une unité ennemie est à 6" ou moins de cette figurine, aggraver la caractéristique de Commandement des figurines dans cette unité par 1. En outre, dans la étape d’Ébranlement de la phase de Commandement de votre adversaire, si une telle unité ennemie est inférieure à son Effectif Initial, elle doit passer un test d’Ébranlement.</characteristic>
+                <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Tant qu’une unité ennemie est à 6" ou moins de cette figurine, aggravez de 1 la caractéristique de Commandement des figurines de cette unité. De plus, à l’étape d’Ébranlement de la phase de Commandement de votre adversaire, si une telle unité ennemie est en dessous de son Effectif Initial, elle doit effectuer un test d’Ébranlement.</characteristic>
               </characteristics>
             </profile>
           </profiles>
@@ -8149,7 +8149,7 @@ Vous pouvez inclure jusqu'à l'une des unités suivantes:
           <profiles>
             <profile name="Feeder Tendrils" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="4aa3-3cd3-7336-41b2">
               <characteristics>
-                <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Chaque fois qu'une attaque de mêlée fait une figurine dans cette unité détruit une figurine ennemie **^^Character^^**, vous gagnez 1CP.</characteristic>
+                <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Chaque fois qu'une attaque de mêlée fait une figurine dans cette unité détruit un ennemi **^^Character^^** figurine, vous gagnez 1CP.</characteristic>
               </characteristics>
             </profile>
           </profiles>
@@ -8158,7 +8158,7 @@ Vous pouvez inclure jusqu'à l'une des unités suivantes:
           <profiles>
             <profile name="Hyperstimulation" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="b495-00ed-3380-4286">
               <characteristics>
-                <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Vous pouvez relancer les jets d’Avance et de Charge faits pour cette unité.</characteristic>
+                <characteristic name="Description" typeId="9b8f-694b-e5e-b573">vous pouvez relancer Advance et jets de Charge effectués pour cette unité.</characteristic>
               </characteristics>
             </profile>
           </profiles>
@@ -8192,7 +8192,7 @@ Vous pouvez inclure jusqu'à l'une des unités suivantes:
           <profiles>
             <profile name="Burrowing Claws" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="91e6-f97e-a0e4-b1d8">
               <characteristics>
-                <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Modifiez la caractéristique de mouvement de cette figurine à 10", ajoutez le mot-clé **^^Vanguard Invader^^**, et il obtient la aptitude Frappe en profondeur. S'il s'agit d'une figurine **^^Infantry^^**, remplacez la liste des unités auxquelles cette figurine peut être attachée: **^^Raveners^^**.</characteristic>
+                <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Changez cette de la figurine caractéristique de mouvement à 10", ajoutez l’aptitude **^^Vanguard Invader^^** mot-clé, et il gagne le Frappe en profondeur. S'il s'agit d'une **^^Infantry^^** figurine, remplacez la liste des unités à laquelle cette figurine peut être attachée: **^^Raveners^^**.</characteristic>
               </characteristics>
             </profile>
           </profiles>
@@ -8222,7 +8222,7 @@ Vous pouvez inclure jusqu'à l'une des unités suivantes:
           <profiles>
             <profile name="Floating Horror" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="6cdf-8067-c710-a617">
               <characteristics>
-                <characteristic name="Description" typeId="9b8f-694b-e5e-b573">**^^Node Organism^^** uniquement. Ajoutez le mot-clé **^^Fly^^**, et remplacez la liste des unités auxquelles cette figurine peut être attachée: **^^Venomthropes^^**, **^^Zoanthropes^^**.</characteristic>
+                <characteristic name="Description" typeId="9b8f-694b-e5e-b573">**^^Node Organism^^** uniquement. Ajoutez mot-clé **^^Fly^^**, et remplacez la liste des unités à laquelle cette figurine peut être attachée: **^^Venomthropes^^**, **^^Zoanthropes^^**.</characteristic>
               </characteristics>
             </profile>
           </profiles>
@@ -8231,7 +8231,7 @@ Vous pouvez inclure jusqu'à l'une des unités suivantes:
               <conditionGroups>
                 <conditionGroup type="or">
                   <conditions>
-                    <condition type="instanceOf" value="1" field="selections" scope="primary-catalogue" childId="7b3b-4dea-9367-98b1" shared="true" />
+                    <condition type="instanceOf" value="1" field="selections" scope="primary-catalogue" childId="3bdf-a114-5035-c6ac" shared="true" />
                     <condition type="notInstanceOf" value="1" field="selections" scope="root-entry" childId="9bdf-31c1-4763-4074" shared="true" />
                   </conditions>
                 </conditionGroup>
@@ -8253,7 +8253,7 @@ Vous pouvez inclure jusqu'à l'une des unités suivantes:
           <profiles>
             <profile name="Armoured Shell" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="5a8d-2da4-ca59-abbd">
               <characteristics>
-                <characteristic name="Description" typeId="9b8f-694b-e5e-b573">**^^Macro Organism^^** uniquement. Modifiez la caractéristique de Sauvegarde de cette figurine à 2+, et modifiez sa aptitude Destruction Néfaste D3 à Destruction Néfaste D6.</characteristic>
+                <characteristic name="Description" typeId="9b8f-694b-e5e-b573">**^^Macro Organism^^** uniquement. Remplacez par 2+ la caractéristique de Sauvegarde de cette figurine, et remplacez son aptitude Deadly Demise D3 par Deadly Demise D6.</characteristic>
               </characteristics>
             </profile>
           </profiles>
@@ -8263,7 +8263,7 @@ Vous pouvez inclure jusqu'à l'une des unités suivantes:
                 <conditionGroup type="or">
                   <conditions>
                     <condition type="notInstanceOf" value="1" field="selections" scope="root-entry" childId="bf51-e0ef-737a-6d54" shared="true" />
-                    <condition type="instanceOf" value="1" field="selections" scope="primary-catalogue" childId="7b3b-4dea-9367-98b1" shared="true" />
+                    <condition type="instanceOf" value="1" field="selections" scope="primary-catalogue" childId="3bdf-a114-5035-c6ac" shared="true" />
                   </conditions>
                 </conditionGroup>
               </conditionGroups>
@@ -8292,14 +8292,14 @@ Vous pouvez inclure jusqu'à l'une des unités suivantes:
           <profiles>
             <profile name="Leader-beast" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="bfb7-9989-8c0b-93cc">
               <characteristics>
-                <characteristic name="Description" typeId="9b8f-694b-e5e-b573">cette figurine a un 4+ sauvegarde invulnérable, ajoutez les mots clés **^^Psyker^^** et **^^Synapse^^**, et il gagne la aptitude Shadow in the Warp. S'il s'agit d'une figurine **^^Infantry^^**, ajoutez l'unité suivante à la liste des unités auxquelles cette figurine peut être attachée: **^^Neurogaunts^^**.</characteristic>
+                <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Cette figurine a une sauvegarde invulnérable de 4+ ; ajoutez les mots-clés **^^Psyker^^** et **^^Synapse^^**, et elle gagne l’aptitude Shadow in the Warp. S’il s’agit d’une figurine **^^Infantry^^**, ajoutez l’unité suivante à la liste des unités auxquelles cette figurine peut être attachée : **^^Neurogaunts^^**.</characteristic>
               </characteristics>
             </profile>
           </profiles>
           <modifiers>
             <modifier type="set" value="true" field="hidden">
               <conditions>
-                <condition type="instanceOf" value="1" field="selections" scope="primary-catalogue" childId="7b3b-4dea-9367-98b1" shared="true" />
+                <condition type="instanceOf" value="1" field="selections" scope="primary-catalogue" childId="3bdf-a114-5035-c6ac" shared="true" />
               </conditions>
             </modifier>
           </modifiers>
@@ -8368,7 +8368,7 @@ Vous pouvez inclure jusqu'à l'une des unités suivantes:
           <profiles>
             <profile name="Winged Biomorph" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="7b10-1b02-fd1b-5118">
               <characteristics>
-                <characteristic name="Description" typeId="9b8f-694b-e5e-b573">**^^Node Organism^^** ou **^^Prime Organism^^** uniquement. Modifiez la caractéristique de mouvement de cette figurine à 12", ajoutez les mots clés **^^Fly^^** et **^^Vanguard Invader^^**, et il obtient la aptitude Frappe en profondeur. S'il s'agit d'une figurine **^^Infantry^^**, remplacez la liste des unités auxquelles cette figurine peut être attachée: **^^Gargoyles^^**.</characteristic>
+                <characteristic name="Description" typeId="9b8f-694b-e5e-b573">**^^Node Organism^^** ou **^^Prime Organism^^** uniquement. Changez cette de la figurine caractéristique de mouvement à 12", ajoutez mots-clés **^^Fly^^** et **^^Vanguard Invader^^**, et il gagne l’aptitude Frappe en profondeur. S'il s'agit d'une **^^Infantry^^** figurine, remplacez la liste des unités à laquelle cette figurine peut être attachée: **^^Gargoyles^^**.</characteristic>
               </characteristics>
             </profile>
           </profiles>
@@ -8415,7 +8415,7 @@ Vous pouvez inclure jusqu'à l'une des unités suivantes:
       <modifiers>
         <modifier type="set" value="1" field="d613-bdd2-0de1-5d3d">
           <conditions>
-            <condition type="instanceOf" value="1" field="selections" scope="primary-catalogue" childId="7b3b-4dea-9367-98b1" shared="true" />
+            <condition type="instanceOf" value="1" field="selections" scope="primary-catalogue" childId="3bdf-a114-5035-c6ac" shared="true" />
           </conditions>
         </modifier>
       </modifiers>
@@ -9447,17 +9447,17 @@ Vous pouvez inclure jusqu'à l'une des unités suivantes:
     </profile>
     <profile name="Will of the Hive Mind" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="13-98c1-d481-eb95">
       <characteristics>
-        <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Une fois par tour de bataille, une figurine de votre armée avec cette aptitude peut l'utiliser quand une unité amicale **^^Tyranids^^** à 12" ou moins de cette figurine est ciblé avec un Stratagème. Si c'est le cas, réduisez le coût CP de cette utilisation de ce Stratagème par 1CP.</characteristic>
+        <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Une fois par tour de bataille, une figurine de votre armée dotée de cette aptitude peut l’utiliser lorsqu’une unité **^^Tyranids^^** amie à 12" ou moins de cette figurine est ciblée par un Stratagème. Si elle le fait, réduisez de 1CP le coût en CP de cette utilisation de ce Stratagème.</characteristic>
       </characteristics>
     </profile>
     <profile name="Feeder Tendrils" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="3f46-6dbb-d99b-4ae2">
       <characteristics>
-        <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Chaque fois que cette figurine détruit une figurine de personnage ennemi, vous gagnez 1CP.</characteristic>
+        <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Chaque fois que cette figurine détruit une figurine Character ennemie, vous gagnez 1CP.</characteristic>
       </characteristics>
     </profile>
     <profile name="Chitinous Horrors (Aura)" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="533-9226-7e51-ee0">
       <characteristics>
-        <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Alors qu'une unité ennemie se trouve dans la Portée d’Engagement de cette unité, réduisez de moitié la caractéristique de Contrôle d’Objectif des figurines de cette unité ennemie.</characteristic>
+        <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Tant qu’une unité ennemie est à Portée d’Engagement de cette unité, divisez par deux la caractéristique de Contrôle d’Objectif des figurines de cette unité ennemie.</characteristic>
       </characteristics>
     </profile>
     <profile name="Ripper Swarm" typeId="c547-1836-d8a-ff4f" typeName="Unit" hidden="false" id="fdd3-f5cd-d338-974c">

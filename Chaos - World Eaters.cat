@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue xmlns="http://www.battlescribe.net/schema/catalogueSchema" id="5b2e-e089-2987-125c" name="Chaos - World Eaters" revision="105" battleScribeVersion="2.03" library="false" gameSystemId="sys-0e45-705d-f6bc-806a" gameSystemRevision="1" type="catalogue">
+<catalogue xmlns="http://www.battlescribe.net/schema/catalogueSchema" id="df9a-59b2-f464-59ad" name="Chaos - World Eaters" revision="105" battleScribeVersion="2.03" library="false" gameSystemId="sys-352e-adc2-7639-d6a9" gameSystemRevision="1" type="catalogue">
   <profileTypes>
     <profileType id="02a0-fa96-6f9b-354f" name="Wrathful Presence">
       <characteristicTypes>
@@ -2399,12 +2399,12 @@
         </profile>
         <profile id="c119-e343-c7ef-bd4c" name="Reborn in Blood" hidden="false" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities">
           <characteristics>
-            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">au début du tour de bataille, quand vous faites un jet Blessings of Khorne, si cette figurine est détruit, vous pouvez utiliser un triple 6 de ce lancer pour utiliser cette aptitude au lieu d'activer n'importe quel Blessings of Khorne au début de ce tour de bataille. Si vous le faites, cette figurine n'est plus détruit et dans l'étape de renforcement de votre prochaine phase de Mouvement, il est installé n'importe où sur le champ de bataille en utilisant sa aptitude Frappe en profondeur, avec 8 PV restants.</characteristic>
+            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Au début du round de bataille, lorsque vous effectuez un jet de Blessings of Khorne, si cette figurine est détruite, vous pouvez utiliser un triple 6 de ce jet pour utiliser cette aptitude au lieu d’activer des Blessings of Khorne au début de ce round de bataille. Si vous le faites, cette figurine n’est plus détruite et, à l’étape des Renforts de votre prochaine phase de Mouvement, elle est placée n’importe où sur le champ de bataille à l’aide de son aptitude Deep Strike, avec 8 PV restants.</characteristic>
           </characteristics>
         </profile>
         <profile id="0d65-4434-1179-25f7" name="Wrathful Presence" hidden="false" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities">
           <characteristics>
-            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Au début du tour de bataille, sélectionnez une aptitude Wrathful Presence. Jusqu'au début du prochain tour de bataille, cette figurine a cette aptitude.</characteristic>
+            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Au début du tour de bataille, sélectionnez un Wrathful Presence aptitude. Jusqu'au début du prochain tour de bataille, cette figurine a cette aptitude.</characteristic>
           </characteristics>
         </profile>
         <profile id="6bc9-7ca7-a2f6-aa83" name="The Blood God's Favour" hidden="false" typeId="02a0-fa96-6f9b-354f" typeName="Wrathful Presence">
@@ -2538,7 +2538,7 @@
         </profile>
         <profile id="bf3d-552f-3273-5bad" name="Legendary Killer" hidden="false" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities">
           <characteristics>
-            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Alors que cette figurine conduit une unité, chaque fois qu'une figurine dans cette unité fait une attaque de mêlée, relance un jet de Touche de 1 et relance un jet de Blessure de 1.</characteristic>
+            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Alors que cette figurine mène une unité, chaque fois qu'une figurine dans cette unité fait une attaque de mêlée, relancer un jet de Touche de 1 et relancer un jet de Blessure de 1.</characteristic>
           </characteristics>
         </profile>
         <profile id="f98c-6c6c-2f6b-4626" name="The Betrayer" hidden="false" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities">
@@ -2548,7 +2548,7 @@
         </profile>
         <profile id="72fe-bca8-a252-eeb2" name="Berserker Frenzy" hidden="false" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities">
           <characteristics>
-            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">La première fois que cette figurine est détruit, à la fin de la phase, lancez un D6: sur un 2+, remettez cette figurine sur le champ de bataille aussi près que possible de l'endroit où il a été détruit et pas à l'intérieur de la Portée d’Engagement des unités ennemies, avec 3 PV restants.</characteristic>
+            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">La première fois que cette figurine est détruit, à la fin de la phase, lancez un D6: sur un 2+, mettez cette figurine de retour sur le champ de bataille aussi près que possible de l'endroit où il a été détruit et non à l'intérieur de Portée d’Engagement de toute unité ennemie, avec 3 PV restants.</characteristic>
           </characteristics>
         </profile>
         <profile id="3b96-842a-f4c2-2859" name="Sauvegarde Invulnérable" hidden="false" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities">
@@ -2652,12 +2652,12 @@
         </profile>
         <profile name="Fire Riders" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="fdff-0173-0b41-c91e">
           <characteristics>
-            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Alors que cette figurine conduit une unité, les figurines de cette unité ont la aptitude Frappe en profondeur et chaque fois qu'une figurine de cette unité fait un mouvement normal, avancé, Retraite ou charge, il peut se déplacer horizontalement à travers les figurines et les caractéristiques de terrain. Lors d'un mouvement Normal, Avance ou Battre en Retraite, les figurines de cette unité peuvent se déplacer dans la Portée d’Engagement des figurines ennemies, mais ne peuvent pas terminer ce mouvement dans la Portée d’Engagement de ceux-ci et tout test d'évasion désespérée est automatiquement passé.</characteristic>
+            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Tant que cette figurine mène une unité, les figurines de cette unité ont l’aptitude Frappe en profondeur et, chaque fois qu’une figurine de cette unité effectue un mouvement Normal, d’Avance, de Retraite ou de Charge, elle peut se déplacer horizontalement à travers les figurines et les éléments de terrain. Lorsqu’elles effectuent un mouvement Normal, d’Avance ou de Retraite, les figurines de cette unité peuvent se déplacer à Portée d’Engagement des figurines ennemies, mais ne peuvent pas terminer ce mouvement à Portée d’Engagement de celles-ci, et tout test de Fuite Désespérée est automatiquement réussi.</characteristic>
           </characteristics>
         </profile>
         <profile name="Bloody Stampede" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="70d2-b9ab-32e6-5cc1">
           <characteristics>
-            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Chaque fois que l'unité de cette figurine termine un mouvement Charge, sélectionnez une unité ennemie dans la Portée d’Engagement de cette figurine, puis lancez un D6: sur une 2-3, cette unité ennemie subit une blessure mortelle 1; sur une 4-5, cette unité ennemie subit des Blessures Mortelles D3; sur une 6, cette unité ennemie subit des Blessures Mortelles D3+3.</characteristic>
+            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Chaque fois que l'unité de cette figurine termine un mouvement de Charge, sélectionnez une unité ennemie à l'intérieur de Portée d’Engagement de cette figurine, puis lancez un D6: sur un 2-3, que cette unité ennemie souffre 1 blessure mortelle; sur un 4-5, que cette unité ennemie souffre D3 WhAnT00009X; sur un 6, que cette unité ennemie souffre D3+3 Blessures Mortelles.</characteristic>
           </characteristics>
         </profile>
       </profiles>
@@ -2794,12 +2794,12 @@
         </profile>
         <profile id="cc39-46f4-3101-c4f0" name="Lord of Murder" hidden="false" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities">
           <characteristics>
-            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Tant que cette figurine est à 3" ou moins d'une ou de plusieurs unités ^^**World Eaters Infantry**^^ amicales, cette figurine a la aptitude Agent solitaire.</characteristic>
+            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Si cette figurine se trouve à 3" ou moins d'une ou de plusieurs unités amies ^^**World Eaters Infantry**^^, cette figurine possède l’aptitude Agent solitaire.</characteristic>
           </characteristics>
         </profile>
         <profile id="9fd3-61f8-95ae-118a" name="Devastating Assault" hidden="false" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities">
           <characteristics>
-            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Chaque fois que cette figurine fait un mouvement de Charge, jusqu'à la fin du tour, ses armes forgées ont la aptitude [Blessures dévastatrices].</characteristic>
+            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Chaque fois que cette figurine fait un mouvement de Charge, jusqu'à la fin du tour, ses armes forgées ont l’aptitude [Blessures dévastatrices].</characteristic>
           </characteristics>
         </profile>
         <profile id="e5a2-5edd-5acf-cada" name="Daemon Prince of Khorne" hidden="false" typeId="c547-1836-d8a-ff4f" typeName="Unit">
@@ -2814,7 +2814,7 @@
         </profile>
         <profile name="Direct the Slaughter" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="e9b7-b101-3b05-2a0e">
           <characteristics>
-            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Une fois par tour de bataille, une figurine de votre armée avec cette aptitude peut l'utiliser quand une unité amie ^^**World Eaters^^** à 12" ou moins de cette figurine est ciblé avec un Stratagème. Si c'est le cas, réduisez le coût CP de ce Stratagème par 1CP.</characteristic>
+            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Une fois par round de bataille, une figurine de votre armée dotée de cette aptitude peut l’utiliser lorsqu’une unité ^^**World Eaters^^** amie à 12" ou moins de cette figurine est ciblée par un Stratagème. Si elle le fait, réduisez de 1CP le coût en CP de ce Stratagème.</characteristic>
           </characteristics>
         </profile>
       </profiles>
@@ -3016,12 +3016,12 @@
         </profile>
         <profile id="ef20-bc48-20c9-6af6" name="Bloodied Terror" hidden="false" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities">
           <characteristics>
-            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Au début de la phase de Combat, chaque unité ennemie dans la Portée d’Engagement de cette figurine doit passer un test d’Ébranlement, en soustrayant 1 si cette unité ennemie est en dessous de son Demi-effectif.</characteristic>
+            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Au début de la phase de Combat, chaque unité ennemie à Portée d’Engagement de cette figurine doit effectuer un test d’Ébranlement, en soustrayant 1 à ce test si cette unité ennemie est en dessous de son Demi-effectif.</characteristic>
           </characteristics>
         </profile>
         <profile id="8d55-b620-1f13-577b" name="Swooping Predator" hidden="false" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities">
           <characteristics>
-            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Chaque fois que cette figurine termine un mouvement normal ou avancé, vous pouvez sélectionner une unité ennemie par-dessus laquelle cette figurine s’est déplacée pendant ce mouvement et rouler 6 D6: pour chaque 4+, cette unité ennemie souffre 1 blessure mortelle.</characteristic>
+            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Chaque fois que cette figurine termine un mouvement Normal ou d’Avance, vous pouvez sélectionner une unité ennemie qu’elle a survolée durant ce mouvement et lancer 6 D6 : pour chaque 4+, cette unité ennemie subit 1 blessure mortelle.</characteristic>
           </characteristics>
         </profile>
         <profile id="d5e3-08eb-fa8d-cfda" name="Daemon Prince of Khorne with wings" hidden="false" typeId="c547-1836-d8a-ff4f" typeName="Unit">
@@ -3230,12 +3230,12 @@
       <profiles>
         <profile id="b991-fcac-8127-89f9" name="Aggressive Advance" hidden="false" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities">
           <characteristics>
-            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Alors que cette figurine conduit une unité, les figurines de cette unité ont une caractéristique de mouvement de 10" et chaque fois qu'une figurine de cette unité fait un mouvement normal, avancé, Retraite ou charge, il peut se déplacer horizontalement malgré les caractéristiques de terrain.</characteristic>
+            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Alors que cette figurine mène une unité, les figurines de cette unité a une caractéristique de mouvement de 10" et chaque fois qu'une figurine dans cette unité fait un Normal, Avance, Battre en Retraite ou mouvement de Charge, il peut se déplacer horizontalement à travers éléments de terrain.</characteristic>
           </characteristics>
         </profile>
         <profile id="4bcb-02c4-0b6c-f6b9" name="Crush All Who Stand Before Us" hidden="false" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities">
           <characteristics>
-            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Chaque fois que l'unité de cette figurine est sélectionnée pour combattre, vous pouvez utiliser cette aptitude. Lorsqu'sur détermine quels figurines de cette unité sont admissibles au combat, tous les figurines qui se trouvent à 3" ou moins d'un ou de plusieurs figurines ennemies sont admissibles au combat. Lors de la résolution de ces attaques, ces figurines peuvent cibler l'une de ces unités ennemies qui est à 3" ou moins d'eux et dans la Portée d’Engagement de leur unité.</characteristic>
+            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Chaque fois que l’unité de cette figurine est sélectionnée pour combattre, vous pouvez utiliser cette aptitude. Lorsque vous déterminez quelles figurines de cette unité sont éligibles pour combattre, toutes celles qui sont à 3" ou moins d’une ou plusieurs figurines ennemies sont éligibles. Lors de la résolution de ces attaques, ces figurines peuvent cibler l’une de ces unités ennemies qui est à 3" ou moins d’elles et à Portée d’Engagement de leur unité.</characteristic>
           </characteristics>
         </profile>
         <profile id="b8ca-cc7b-60ae-7c4b" name="Lord on Juggernaut" hidden="false" typeId="c547-1836-d8a-ff4f" typeName="Unit">
@@ -3466,12 +3466,12 @@
         </profile>
         <profile id="4f7f-4559-76e4-b73a" name="A Worthy Skull" hidden="false" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities">
           <characteristics>
-            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Chaque fois que cette figurine effectue une attaque de mêlée qui cible une unité ^^**Character^^**, vous pouvez relancer le jet de Touche et vous pouvez relancer le jet de Blessure. Chaque fois que l'unité de cette figurine détruit une figurine ^^**Character^^**, vous gagnez 1CP.</characteristic>
+            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Chaque fois que cette figurine effectue une attaque de mêlée qui cible une unité ^^**Character^^**, vous pouvez relancer le jet de Touche et le jet de Blessure. Chaque fois que l’unité de cette figurine détruit une figurine ^^**Character^^**, vous gagnez 1CP.</characteristic>
           </characteristics>
         </profile>
         <profile id="22df-03a4-7b94-437f" name="Forwards, For Blood!" hidden="false" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities">
           <characteristics>
-            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Pendant que cette figurine conduit une unité, vous pouvez relancer les jets d’Avance de cette unité et chaque fois que cette unité fait un mouvement Blood Surge, vous pouvez relancer le D6 utilisé pour déterminer à quel point les figurines de cette unité se déplacent.</characteristic>
+            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Alors que cette figurine mène une unité, vous pouvez relancer jets d’Avance de cette unité et chaque fois que cette unité fait un mouvement Blood Surge, vous pouvez relancer le D6 utilisé pour déterminer la distance les figurines de cette unité se déplacer.</characteristic>
           </characteristics>
         </profile>
       </profiles>
@@ -3659,7 +3659,7 @@
       <profiles>
         <profile id="98dc-e20d-8ee7-882c" name="Blood Surge" hidden="false" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities">
           <characteristics>
-            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Dans la phase de Tir de votre adversaire, chaque fois qu'une unité ennemie tire, si des figurines de cette unité ont été détruits à la suite de ces attaques, cette unité peut faire un mouvement Blood Surge. Pour ce faire, lancez un D6 et ajoutez 2 au jet: les figurines de cette unité se déplacent d’un nombre de pouces inférieur ou égal au résultat, mais cette unité doit terminer ce mouvement le plus près possible de l'unité ennemie la plus proche (à l'exclusion de ^^**Aircraft^^**). En faisant cela, ces figurines peuvent être déplacés dans la Portée d’Engagement de cette unité ennemie. Cette unité ne peut pas faire un mouvement Blood Surge pendant qu'elle est Ébranlée ou à l'intérieur de la Portée d’Engagement d'une ou de plusieurs unités ennemies, et ne peut faire qu'un mouvement Blood Surge par phase.</characteristic>
+            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Durant la phase de Tir de votre adversaire, chaque fois qu’une unité ennemie a tiré, si une ou plusieurs figurines de cette unité ont été détruites par ces attaques, cette unité peut effectuer un mouvement Blood Surge. Pour ce faire, lancez un D6 et ajoutez 2 au jet : les figurines de cette unité se déplacent d’un nombre de pouces inférieur ou égal au résultat, mais cette unité doit terminer ce mouvement aussi près que possible de l’unité ennemie la plus proche (à l’exclusion des ^^**Aircraft^^**). Ce faisant, ces figurines peuvent être déplacées à Portée d’Engagement de cette unité ennemie. Cette unité ne peut pas effectuer de mouvement Blood Surge tant qu’elle est Ébranlée ou à Portée d’Engagement d’une ou plusieurs unités ennemies, et ne peut effectuer qu’un mouvement Blood Surge par phase.</characteristic>
           </characteristics>
         </profile>
       </profiles>
@@ -4045,7 +4045,7 @@
       <profiles>
         <profile id="355d-5150-1982-17b2" name="Icon of Khorne" hidden="false" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities">
           <characteristics>
-            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Si l'unité du porteur contient 1 ou plus Icônes de Khorne, à chaque fois que l'unité du porteur détruit une unité ennemie, vous gagnez un point d'effusion de sang. Chaque fois que vous faites un Blessings of Khorne roule, lancez un D6 supplémentaire pour chaque point de transfusion que vous avez, après quoi, tous vos points de transfusion sanguine sont perdus.</characteristic>
+            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Si l’unité du porteur contient 1 ou plus Icônes de Khorne, chaque fois que l’unité du porteur détruit une unité ennemie, vous gagnez un point d'effusion de sang. Chaque fois que vous faites un Blessings of Khorne roule, lancez un D6 supplémentaire pour chaque point de transfusion que vous avez, après quoi, tous vos points de transfusion sanguine sont perdus.</characteristic>
           </characteristics>
         </profile>
       </profiles>
@@ -4140,12 +4140,12 @@
         </profile>
         <profile id="5fb8-d528-d2e2-fce0" name="Sauvegarde Invulnérable" hidden="false" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities">
           <characteristics>
-            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">la figurine de cette unité a un 4+ sauvegarde invulnérable.</characteristic>
+            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Les figurine de cette unité ont un 4+ sauvegarde invulnérable.</characteristic>
           </characteristics>
         </profile>
         <profile id="cabc-c518-5262-d65e" name="Bloody Fury" hidden="false" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities">
           <characteristics>
-            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Chaque fois qu'une figurine de cette unité effectue une attaque de tir qui cible l'unité ennemie la plus proche, vous pouvez relancer le jet de Touche. Chaque fois que cette unité déclare une charge qui cible l'unité ennemie la plus proche, vous pouvez relancer le jet de Charge.</characteristic>
+            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Chaque fois qu'une figurine dans cette unité fait une attaque de tir qui cible le unité ennemie le plus proche, vous pouvez relancer le jet de Touche. Chaque fois que cette unité déclare une charge qui cible le unité ennemie le plus proche, vous pouvez relancer le jet de Charge.</characteristic>
           </characteristics>
         </profile>
       </profiles>
@@ -4660,7 +4660,7 @@
       <profiles>
         <profile id="d6c1-e4e6-d70f-7ee7" name="Objective Ravaged" hidden="false" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities">
           <characteristics>
-            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">À la fin de votre phase de Commandement, si cette unité est à la portée d'un marqueur objectif que vous contrôlez, ce marqueur objectif reste sous votre contrôle jusqu'à ce que le niveau de contrôle de votre adversaire sur ce marqueur objectif soit supérieur au vôtre à la fin d'une phase.</characteristic>
+            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">À la fin de votre phase de Commandement, si cette unité est à l'intérieur de Portée d'un pion d’objectif que vous contrôlez, ce pion d’objectif reste sous votre contrôle jusqu'à ce que le niveau de contrôle de votre adversaire sur ce pion d’objectif soit supérieur au vôtre à la fin d'une phase.</characteristic>
           </characteristics>
         </profile>
         <profile id="f75d-6910-e063-7e96" name="Jakhal" hidden="false" typeId="c547-1836-d8a-ff4f" typeName="Unit">
@@ -5200,7 +5200,7 @@
         </profile>
         <profile name="Sauvegarde Invulnérable" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="4ff0-adf5-fa03-f884">
           <characteristics>
-            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Les figurines de cette unité ont un 5+ sauvegarde invulnérable.</characteristic>
+            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Les figurines de cette unité ont une sauvegarde invulnérable de 5+.</characteristic>
           </characteristics>
         </profile>
       </profiles>
@@ -5399,12 +5399,12 @@
         </profile>
         <profile id="6dfe-fb8a-bb6b-fd88" name="Rend and Tear" hidden="false" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities">
           <characteristics>
-            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Chaque fois qu'une figurine de cette unité effectue une attaque de mêlée qui cible une unité ^^**Monster^^** ou ^^**Vehicle^^**, jusqu'à la fin de la phase, améliore la caractéristique de Dégâts de cette attaque de 1.</characteristic>
+            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Chaque fois qu'une figurine dans cette unité fait une attaque de mêlée qui cible un ^^**Monster^^** ou ^^**Vehicle^^** unité, Jusqu’à la fin de la phase, améliore la caractéristique de Dégâts de cette attaque de 1.</characteristic>
           </characteristics>
         </profile>
         <profile name="Sauvegarde Invulnérable" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="d799-5c41-f976-13bd">
           <characteristics>
-            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Les figurines de cette unité ont un 5+ sauvegarde invulnérable.</characteristic>
+            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Les figurines de cette unité ont une sauvegarde invulnérable de 5+.</characteristic>
           </characteristics>
         </profile>
       </profiles>
@@ -5574,7 +5574,7 @@
         </profile>
         <profile id="aaa2-11dc-59f5-89ad" name="Assault Ramp" hidden="false" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities">
           <characteristics>
-            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Chaque fois qu'une unité débarque de cette figurine après avoir effectué un déplacement normal, cette unité est toujours éligible à déclarer une charge à ce tour.</characteristic>
+            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Chaque fois qu'une unité débarque de cette figurine après avoir effectué un mouvement Normal, cette unité est toujours éligible à déclarer une charge à ce tour.</characteristic>
           </characteristics>
         </profile>
         <profile id="c1b4-eec2-24ec-30dd" name="Chaos Land Raider" hidden="false" typeId="74f8-5443-9d6d-1f1e" typeName="Transport">
@@ -5888,7 +5888,7 @@
         </profile>
         <profile id="b946-1c12-5192-5d2f" name="Blood-hungry Annihilator" hidden="false" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities">
           <characteristics>
-            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Chaque fois que cette figurine effectue une attaque de tir qui cible la cible admissible la plus proche ^^**Monster^^** ou ^^**Vehicle^^** à 18" ou moins, vous pouvez relancer le jet de Blessure et vous pouvez relancer le jet de Dégâts.</characteristic>
+            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Chaque fois que cette figurine effectue une attaque de tir qui cible le ^^**Monster^^** ou ^^**Vehicle^^** cible le plus proche à 18" ou moins, vous pouvez relancer le jet de Blessure et vous pouvez relancer le jet de Dégâts.</characteristic>
           </characteristics>
         </profile>
       </profiles>
@@ -6174,7 +6174,7 @@
         </profile>
         <profile id="307f-af7c-e7b6-a4b0" name="Punishing Suppression" hidden="false" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities">
           <characteristics>
-            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Dans votre phase de Tir, après que cette figurine ait tiré, sélectionnez une unité ennemi frappée par une ou plusieurs de ces attaques (à l'exclusion de ^^**Monsters^^** et ^^**Vehicles^^*). Jusqu'au début de votre prochain tour, cette unité ennemi est supprimée. Tant qu’une unité est supprimée, chaque fois qu'une figurine de cette unité effectue une attaque, Soustrayez 1 du jet de Touche.</characteristic>
+            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Durant votre phase de Tir, après que cette figurine a tiré, sélectionnez une unité ennemie touchée par une ou plusieurs de ces attaques (à l’exclusion des ^^**Monsters^^** et des ^^**Vehicles^^*). Jusqu’au début de votre prochain tour, cette unité ennemie est neutralisée. Tant qu’une unité est neutralisée, chaque fois qu’une figurine de cette unité effectue une attaque, soustrayez 1 au jet de Touche.</characteristic>
           </characteristics>
         </profile>
       </profiles>
@@ -6397,14 +6397,14 @@
         </profile>
         <profile id="e583-f1bd-c70f-f66e" name="Scuttling Walker" hidden="false" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities">
           <characteristics>
-            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Chaque fois que cette unité effectue un mouvement normal, d'avance ou de Retraite, elle peut se déplacer à travers des figurines (à l'exclusion des figurines ^^**Titanic**^^) et des caractéristiques du terrain. Lorsqu'il le fait, il peut se déplacer à l'intérieur de la Portée d’Engagement des figurines ennemies, mais ne peuvent pas terminer ce mouvement à l'intérieur de la Portée d’Engagement de ceux-ci, et tout test d'évasion désespérée est automatiquement passé.</characteristic>
+            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Chaque fois que cette unité fait un Normal, Advance ou mouvement de Retraite, elle peut passer par figurines (à l’exclusion de ^^**Titanic**^^ figurines) et éléments de terrain. Lorsqu'il le fait, il peut se déplacer à l'intérieur de Portée d’Engagement de l'ennemi figurines, mais ne peuvent pas terminer ce mouvement à l'intérieur de Portée d’Engagement d'eux, et tout test de Fuite Désespérée est automatiquement passé.</characteristic>
           </characteristics>
         </profile>
         <profile name="Unleash Wrath" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="fbcf-c249-3a65-1b3e">
           <characteristics>
-            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">À la fin de la phase de Mouvement de votre adversaire, vous pouvez sélectionner une unité ennemie qui a été mise en place sur le champ de bataille à 12" ou moins de cette figurine; cette figurine peut alors:
-- Tire sur cette unité, mais seulement si c'est une cible admissible.
-- Déclarer une charge à l'égard de cette unité (notons que même si cette charge est couronnée de succès, cette figurine ne reçoit pas cette fois-ci de bonus Charge).</characteristic>
+            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">À la fin de la phase de Mouvement de votre adversaire, vous pouvez sélectionner une unité ennemie qui a été placée sur le champ de bataille à 12" ou moins de cette figurine ; cette figurine peut alors effectuer l’une des actions suivantes :
+- Tirer sur cette unité, mais seulement si elle est une cible éligible.
+- Déclarer une charge contre cette unité (notez que même si cette charge est réussie, cette figurine ne reçoit aucun bonus de Charge à ce tour).</characteristic>
           </characteristics>
         </profile>
       </profiles>
@@ -6793,7 +6793,7 @@
         </profile>
         <profile id="d4f7-face-042b-a10d" name="Furious Onslaught" hidden="false" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities">
           <characteristics>
-            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Chaque fois que cette figurine effectue une attaque de tir qui cible la cible admissible la plus proche à 18" ou moins, vous pouvez relancer le jet de Touche.</characteristic>
+            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Chaque fois que cette figurine effectue une attaque de tir qui cible la cible éligible la plus proche à 18" ou moins, vous pouvez relancer le jet de Touche.</characteristic>
           </characteristics>
         </profile>
         <profile id="a5f1-9bbd-0363-9733" name="Sauvegarde Invulnérable" hidden="false" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities">
@@ -7083,12 +7083,12 @@
         </profile>
         <profile id="2f94-5892-1327-89f6" name="Frenzy" hidden="false" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities">
           <characteristics>
-            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Dans la phase de Tir de votre adversaire, et dans la phase de Combat, chaque fois qu'une unité ennemie cible cette figurine, après que cette unité ait terminé d'effectuer ses attaques, cette figurine peut soit tirer ou se battre, mais lors de la résolution de ces attaques, il ne peut cibler que cette unité ennemie (et seulement si elle est une cible admissible).</characteristic>
+            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Dans la phase de Tir de votre adversaire, et dans la phase de Combat, chaque fois qu'une unité ennemie cible cette figurine, après que cette unité a terminé de faire son Attaques, cette figurine peut soit tirer ou se battre, mais lors de la résolution de ces Attaques il ne peut cibler que cette unité ennemie (et seulement si c'est un cible éligible).</characteristic>
           </characteristics>
         </profile>
         <profile id="95b1-3a4a-5a80-8bd5" name="Devoted to Destruction" hidden="false" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities">
           <characteristics>
-            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Si cette figurine est équipé d'armes de mêlée 2 en plus de son arme de mêlée à proximité, ajoutez 2 aux caractéristique d’Attaques de ces deux armes.</characteristic>
+            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Si cette figurine est équipée de 2 armes de mêlée en plus de son arme de corps à corps, ajoutez 2 à la caractéristique d’Attaques de ces deux armes.</characteristic>
           </characteristics>
         </profile>
       </profiles>
@@ -7617,7 +7617,7 @@
       <profiles>
         <profile id="3ebe-135b-8cb0-76f5" name="Airborne Predator" hidden="false" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities">
           <characteristics>
-            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Chaque fois que cette figurine effectue une attaque qui cible une unité qui peut ^^**Fly^^**, ajoutez 1 au jet de Touche.</characteristic>
+            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Chaque fois que cette figurine fait une attaque qui cible une unité qui peut ^^**Fly^^**, ajoutez 1 au jet de Touche.</characteristic>
           </characteristics>
         </profile>
         <profile id="a9c5-98ef-70a6-d536" name="Heldrake" hidden="false" typeId="c547-1836-d8a-ff4f" typeName="Unit">
@@ -7831,7 +7831,7 @@
         </profile>
         <profile id="8084-c2ca-004e-c463" name="The Scent of Blood" hidden="false" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities">
           <characteristics>
-            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Chaque fois que cette figurine déclare une charge qui vise une ou plusieurs unités inférieures à l’Effectif Initial, ajoutez 1 au jet de Charge. Si une ou plusieurs des cibles de cette charge sont inférieures à la Demi-effectif, ajoutez 2 au jet de Charge à la place.</characteristic>
+            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Chaque fois que cette figurine déclare une charge cible une ou plusieurs unités en dessous de son Effectif Initial, ajoutez 1 au jet de Charge. Si une ou plusieurs des cibles de cette charge sont En Dessous de son Demi-effectif, ajoutez 2 au jet de Charge à la place.</characteristic>
           </characteristics>
         </profile>
         <profile id="eb5d-a656-b952-25c4" name="Sauvegarde Invulnérable" hidden="false" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities">
@@ -7841,7 +7841,7 @@
         </profile>
         <profile name="Savage Exaltation" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="3799-e03b-fda9-e8e9">
           <characteristics>
-            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Chaque fois que cette figurine effectue une attaque de mêlée qui cible une unité ennemi qui est inférieure à son Effectif Initial, ajoutez 1 au jet de Touche et, si cette attaque cible une unité ennemi qui est en dessous de son Demi-effectif, ajoutez 1 au jet de Blessure également.</characteristic>
+            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Chaque fois que cette figurine fait une attaque de mêlée qui cible une unité ennemie qui est en dessous de son Effectif Initial, ajoutez 1 au jet de Touche et, si cette attaque cible une unité ennemie qui est En Dessous de son Demi-effectif, ajoutez aussi 1 au jet de Blessure.</characteristic>
           </characteristics>
         </profile>
       </profiles>
@@ -8059,7 +8059,7 @@
         </profile>
         <profile id="d170-6fa7-f88c-f888" name="Meet Any Challenge" hidden="false" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities">
           <characteristics>
-            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Dans la phase de Mouvement de votre adversaire, chaque fois qu'une unité ennemie est mise en place ou termine un mouvement normal, d'avance ou de Retraite à 9" ou moins de cette figurine, toutes les unités embarquées à l'intérieur peuvent débarquer.</characteristic>
+            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Dans la phase de Mouvement de votre adversaire, chaque fois qu'une unité ennemie est mis en place ou termine un Normal, Avance ou mouvement de Retraite à 9" ou moins de cette figurine, toutes les unités embarquées à l'intérieur de celui-ci peuvent débarquer.</characteristic>
           </characteristics>
         </profile>
         <profile id="7526-3b9f-33ca-b410" name="Chaos Rhino" hidden="false" typeId="74f8-5443-9d6d-1f1e" typeName="Transport">
@@ -8393,12 +8393,12 @@
         </profile>
         <profile id="1273-7c5a-b059-a2ba" name="Idol of Blessed Blood" hidden="false" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities">
           <characteristics>
-            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Au début du tour de bataille, si cette unité est sur le champ de bataille, lorsque vous faites un Blessings of Khorne jet, roule un D6 supplémentaire.</characteristic>
+            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Au début du tour de bataille, si cette unité est sur le champ de bataille, lorsque vous faites un Blessings of Khorne roule, roule un D6 supplémentaire.</characteristic>
           </characteristics>
         </profile>
         <profile id="e2d3-e68e-870e-1355" name="Damaged: 1-8 wounds remaining" hidden="false" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities">
           <characteristics>
-            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Alors que cette figurine a 1-8 PV restants, Soustrayez 4 de cette caractéristique de la figurine de caractéristique de Contrôle d’Objectif et chaque fois que cette figurine effectue une attaque, Soustrayez 1 du jet de Touche.</characteristic>
+            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Tant que cette figurine a 1-8 PV restants, soustrayez 4 à la caractéristique de Contrôle d’Objectif de cette figurine et, chaque fois que cette figurine effectue une attaque, soustrayez 1 au jet de Touche.</characteristic>
           </characteristics>
         </profile>
         <profile name="Sauvegarde Invulnérable" hidden="false" id="4c1c-e0c4-129a-6b90" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities">
@@ -8722,7 +8722,7 @@
               </costs>
               <rules>
                 <rule name="Relentless Rage" id="5fc9-9ee8-8657-65b6" hidden="false">
-                  <description>Chaque fois qu'une unité ^^**World Eaters^^** de votre armée effectue un déplacement de Charge, jusqu'à la fin du tour, ajoutez 1 à la caractéristique d’Attaques et ajoutez 2 à la caractéristique de Force des armes de mêlée équipées de figurines dans cette unité.</description>
+                  <description>Chaque fois qu'une unité ^^**World Eaters^^** de votre armée fait un mouvement de Charge, jusqu'à la fin du tour, ajoutez 1 à la caractéristique d’Attaques et ajoutez 2 à la caractéristique de Force d’armes de mêlée équipé des figurines de cette unité.</description>
                 </rule>
               </rules>
             </selectionEntry>
@@ -8734,22 +8734,22 @@
             <selectionEntry type="upgrade" import="true" name="Cult of Blood" hidden="false" id="9c45-483a-44b9-536c">
               <rules>
                 <rule name="Idols of Khorne" id="a16e-406b-5111-da3f" hidden="false">
-                  <description>Au début de votre phase de Commandement, vous pouvez sélectionner l'une des capacités Idols of Khorne énumérées ci-dessous. Jusqu'au début de votre prochaine phase de Commandement, cette aptitude est active, et ses effets s'appliquent à toutes les unités ^^**World Eaters Titanic^^** et ^^**World Eaters Monster^^** de votre armée. Vous ne pouvez sélectionner chaque aptitude Idols of Khorne qu'une fois par bataille.
+                  <description>Au début de votre phase de Commandement, vous pouvez sélectionner l’une des aptitudes Idols of Khorne indiquées ci-dessous. Jusqu’au début de votre prochaine phase de Commandement, cette aptitude est active et ses effets s’appliquent à toutes les unités ^^**World Eaters Titanic^^** et ^^**World Eaters Monster^^** de votre armée. Vous ne pouvez sélectionner chaque aptitude Idols of Khorne qu’une seule fois par bataille.
 
 
 **Idol of Infinite Rage (Aura)**
-Alors qu'un ami ^^**Jakhals^^** ou ^^**Goremongers^^** l'unité est située à 6" ou moins de cette figurine (ou à 9" ou moins si cette figurine est ^^**Titanic^^**), chaque fois qu'une figurine de cette unité fait une attaque, Ajoutez 1 au jet de Touche et Ajoutez 1 au jet de Blessure.
+Tant qu’une unité ^^**Jakhals^^** ou ^^**Goremongers^^** amie est à 6" ou moins de cette figurine (ou à 9" ou moins si cette figurine est ^^**Titanic^^**), chaque fois qu’une figurine de cette unité effectue une attaque, ajoutez 1 au jet de Touche et 1 au jet de Blessure.
 
 
 **Idol of Burning Wrath (Aura)**
-Alors qu'un amical ^^**Jakhals^^** ou ^^**Goremongers^^** unité est à 6" ou moins de cette figurine (or à 9" ou moins si cette figurine est ^^**Titanic^^**), ajoutez 1" à la caractéristique de mouvement des figurines de cette unité et ajoutez 1 aux jets d’Avance et de Charge effectués pour cette unité.
+Tant qu’une unité ^^**Jakhals^^** ou ^^**Goremongers^^** amie est à 6" ou moins de cette figurine (ou à 9" ou moins si cette figurine est ^^**Titanic^^**), ajoutez 1" à la caractéristique de Mouvement des figurines de cette unité et 1 aux jets d’Avance et de Charge effectués pour cette unité.
 
 
 **Idol of Blessed Blood (Aura)**
-Alors qu'un ami ^^**Jakhals^^** ou ^^**Goremongers^^** l'unité est située à 6" ou moins de cette figurine (ou à 9" ou moins si cette figurine est ^^**Titanic^^**), Les figurines de cette unité ont un 4+ sauvegarde invulnérable.
+Tant qu’une unité ^^**Jakhals^^** ou ^^**Goremongers^^** amie est à 6" ou moins de cette figurine (ou à 9" ou moins si cette figurine est ^^**Titanic^^**), les figurines de cette unité ont une sauvegarde invulnérable de 4+.
 
 
-^^**Jakhals^^** ou ^^**Goremongers^^** unités de votre armée ont l’ ^^**Battleline^^** mot-clé.</description>
+Les unités ^^**Jakhals^^** ou ^^**Goremongers^^** de votre armée ont le mot-clé ^^**Battleline^^**.</description>
                 </rule>
               </rules>
             </selectionEntry>
@@ -8976,7 +8976,7 @@ Les unités ^^**Blood Legions^^** de votre armée gagnent l’aptitude Blessings
         </profile>
         <profile name="Bomb Rack" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="bb08-8a31-b8d8-22fc">
           <characteristics>
-            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Chaque fois que cette figurine termine un mouvement normal, vous pouvez sélectionner une unité ennemie qu'elle a traversée pendant ce mouvement et rouler six D6: pour chaque 3+, cette unité souffre 1 blessure mortelle.</characteristic>
+            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Chaque fois que cette figurine termine un mouvement Normal, vous pouvez sélectionner une unité ennemie qu’elle a traversée durant ce mouvement et lancer six D6 : pour chaque 3+, cette unité subit 1 blessure mortelle.</characteristic>
           </characteristics>
         </profile>
         <profile name="Hell Talon" typeId="c547-1836-d8a-ff4f" typeName="Unit" hidden="false" id="b87a-2aca-b24c-ec9e">
@@ -9173,7 +9173,7 @@ Les unités ^^**Blood Legions^^** de votre armée gagnent l’aptitude Blessings
         </profile>
         <profile name="Interceptor" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="b8d7-10fe-72ed-72bc">
           <characteristics>
-            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Chaque fois que cette figurine fait une attaque de tir qui vise une unité qui peut FLY, Ajoutez 1 au jet de Touche.</characteristic>
+            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Chaque fois que cette figurine fait une attaque de tir qui cible une unité qui peut FLY, ajoutez 1 au jet de Touche.</characteristic>
           </characteristics>
         </profile>
       </profiles>
@@ -9364,7 +9364,7 @@ Les unités ^^**Blood Legions^^** de votre armée gagnent l’aptitude Blessings
         </profile>
         <profile name="Loping Speed" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="a1d9-75ac-7b5d-1623">
           <characteristics>
-            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Une fois par tour, lorsqu'une unité ennemie termine un mouvement normal, d'avance ou de Retraite à 9" ou moins de cette unité, si cette unité n'est pas dans la Portée d’Engagement d'une ou plusieurs unités ennemies, elle peut effectuer un mouvement normal jusqu'à D6.</characteristic>
+            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Une fois par tour, lorsqu'une unité ennemie termine une normale, une avance ou une mouvement de Retraite à 9" ou moins de cette unité, si cette unité n'est pas à l'intérieur de Portée d’Engagement d'une ou de plusieurs unités ennemies, elle peut effectuer un mouvement Normal jusqu'à D6".</characteristic>
           </characteristics>
         </profile>
       </profiles>
@@ -9657,12 +9657,12 @@ Les unités ^^**Blood Legions^^** de votre armée gagnent l’aptitude Blessings
         </profile>
         <profile name="Rage Eternal" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="2aff-9d8c-86e6-b870">
           <characteristics>
-            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Pendant que cette figurine mène une unité, dans votre phase de Commandement, vous pouvez renvoyer une figurine Bodyguard détruit à cette unité.</characteristic>
+            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Alors que cette figurine mène une unité, dans votre phase de Commandement, vous pouvez renvoyer un détruit Bodyguard figurine à cette unité.</characteristic>
           </characteristics>
         </profile>
         <profile name="Possessed Lord" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="7e37-cdf1-4e74-6525">
           <characteristics>
-            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Une fois par bataille, au début de la phase de Combat, cette figurine peut utiliser cette aptitude. Si c'est le cas, jusqu'à la fin de la phase, ajoutez 3 aux caractéristique d’Attaques des armes de mêlée équipées de cette figurine et ces armes ont la aptitude [Blessures dévastatrices].</characteristic>
+            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Une fois par bataille, au début de la phase de Combat, cette figurine peut utiliser cette aptitude. Si c'est le cas, Jusqu’à la fin de la phase, ajoutez 3 à la caractéristique d’Attaques d’armes de mêlée équipé de cette figurine et ces armes ont l’aptitude [Blessures dévastatrices].</characteristic>
           </characteristics>
         </profile>
         <profile name="Meneur" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="eb42-46e1-1077-9a53">
@@ -9672,7 +9672,7 @@ Les unités ^^**Blood Legions^^** de votre armée gagnent l’aptitude Blessings
         </profile>
         <profile name="Lord of the Eightbound" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="3ecd-3f32-c13a-52fe">
           <characteristics>
-            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Si cette figurine est attaché à une unité ^^**World Eaters Possessed^^** au cours de l'étape Déclarer les Formations de Bataille, cette figurine a les capacités Frappe en profondeur et Éclaireurs 6".</characteristic>
+            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Si cette figurine est attachée à une unité ^^**World Eaters Possessed^^** lors de l’étape Déclarer les Formations de Bataille, elle a les aptitudes Frappe en profondeur et Éclaireurs 6".</characteristic>
           </characteristics>
         </profile>
       </profiles>
@@ -9924,7 +9924,7 @@ Les unités ^^**Blood Legions^^** de votre armée gagnent l’aptitude Blessings
         </profile>
         <profile name="Rage Embodied (Aura)" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="727c-b62e-0603-2f54">
           <characteristics>
-            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Alors qu'une unité amicale ^^Blood Legions^^ se trouve à 6" ou moins de cette figurine, ajoutez 1 aux caractéristique d’Attaques des armes de mêlée équipées de figurines de cette unité.</characteristic>
+            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Tant qu’une unité ^^Blood Legions^^ amie est à 6" ou moins de cette figurine, ajoutez 1 à la caractéristique d’Attaques des armes de mêlée dont sont équipées les figurines de cette unité.</characteristic>
           </characteristics>
         </profile>
         <profile name="Murderlust" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="7ea2-91f0-ede9-7063">
@@ -9934,7 +9934,7 @@ Les unités ^^**Blood Legions^^** de votre armée gagnent l’aptitude Blessings
         </profile>
         <profile name="Damaged: 1-7 wounds remaining" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="221f-b271-5cd0-32fe">
           <characteristics>
-            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Alors que cette figurine a 1-7 PV restants, Ajoutez 2 aux caractéristique d’Attaques de cette figurine et Le carnage.</characteristic>
+            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Tant que cette figurine a 1-7 PV restants, ajoutez 2 à la caractéristique d’Attaques du Slaughter and Carnage de cette figurine.</characteristic>
           </characteristics>
         </profile>
       </profiles>
@@ -10051,12 +10051,12 @@ Les unités ^^**Blood Legions^^** de votre armée gagnent l’aptitude Blessings
       <profiles>
         <profile name="Daemon Lord of Khorne (Aura)" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="03a9-d9fd-9407-779c">
           <characteristics>
-            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Alors qu'une unité sympathique ^^Blood Legions^^ est à 6" ou moins de cette figurine, chaque fois qu'une figurine dans cette unité effectue une attaque de mêlée, ajoutez 1 au jet de Touche.</characteristic>
+            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Si une unité amicale ^^Blood Legions^^ se trouve à 6" ou moins de cette figurine, chaque fois qu'une figurine de cette unité devient une attaque de mêlée, ajoutez 1 au jet de Touche.</characteristic>
           </characteristics>
         </profile>
         <profile name="Relentless Carnage" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="8ead-9c6b-6fa8-c6f9">
           <characteristics>
-            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">À la fin de la phase de Combat, vous pouvez sélectionner une unité ennemi dans la Portée d’Engagement de cette figurine et rouler huit D6: pour chaque 4+, cette unité ennemi subit 1 blessure mortelle.</characteristic>
+            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">À la fin de la phase de Combat, vous pouvez sélectionner une unité ennemie à Portée d’Engagement de cette figurine. Si vous le faites, lancez huit D6 : pour chaque 4+, cette unité ennemie subit 1 blessure mortelle.</characteristic>
           </characteristics>
         </profile>
         <profile name="Sauvegarde Invulnérable" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="404d-6ea5-0847-3c76">
@@ -10282,12 +10282,12 @@ Les unités ^^**Blood Legions^^** de votre armée gagnent l’aptitude Blessings
       <profiles>
         <profile name="Sauvegarde Invulnérable" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="04c2-eeef-b503-78bd">
           <characteristics>
-            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Les figurines de cette unité ont un 5+ sauvegarde invulnérable.</characteristic>
+            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Les figurines de cette unité ont une sauvegarde invulnérable de 5+.</characteristic>
           </characteristics>
         </profile>
         <profile name="Bane of Cowards" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="9f2d-5953-7896-cab2">
           <characteristics>
-            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Chaque fois qu'une unité ennemie (à l'exclusion des monstres et des véhicules) dans la Portée d’Engagement d'une ou de plusieurs unités de votre armée avec cette aptitude Bat en Retraite, les figurines de cette unité ennemie doivent passer des tests d'évasion désespérée. Lorsque vous le faites, si cette unité ennemie est également Ébranlée, Soustrayez 1 de chacun de ces tests d'évasion désespérée.</characteristic>
+            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Chaque fois qu’une unité ennemie (à l’exclusion des Monsters et des Vehicles) à Portée d’Engagement d’une ou plusieurs unités de votre armée dotées de cette aptitude Bat en Retraite, les figurines de cette unité ennemie doivent effectuer des tests de Fuite Désespérée. Ce faisant, si cette unité ennemie est également Ébranlée, soustrayez 1 à chacun de ces tests de Fuite Désespérée.</characteristic>
           </characteristics>
         </profile>
         <profile name="Bloodletters" typeId="c547-1836-d8a-ff4f" typeName="Unit" hidden="false" id="b44d-3259-9b51-cdfd">
@@ -10393,7 +10393,7 @@ Les unités ^^**Blood Legions^^** de votre armée gagnent l’aptitude Blessings
       <profiles>
         <profile name="Instrument of Chaos" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="4455-3264-adb7-4250">
           <characteristics>
-            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Ajoutez 1 aux jets de Charge de l'unité du porteur.</characteristic>
+            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Ajoutez 1 aux jets de Charge effectués pour l’unité du porteur.</characteristic>
           </characteristics>
         </profile>
       </profiles>
@@ -10447,12 +10447,12 @@ Les unités ^^**Blood Legions^^** de votre armée gagnent l’aptitude Blessings
       <profiles>
         <profile name="Sauvegarde Invulnérable" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="c967-1935-bba8-1ae4">
           <characteristics>
-            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Les figurines de cette unité ont un 5+ sauvegarde invulnérable.</characteristic>
+            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Les figurines de cette unité ont une sauvegarde invulnérable de 5+.</characteristic>
           </characteristics>
         </profile>
         <profile name="Brass Stampede" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="7120-6873-f064-09df">
           <characteristics>
-            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Chaque fois que cette unité termine un mouvement Charge, sélectionnez une unité ennemie dans la Portée d’Engagement de cette unité et lancez un D6 pour chaque figurine de cette unité: pour chaque 4+, cette unité ennemie subit D3 Blessures Mortelles.</characteristic>
+            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Chaque fois que cette unité termine un mouvement de Charge, sélectionnez une unité ennemie dans Portée d’Engagement de cette unité et lancez un D6 pour chaque figurine dans cette unité: pour chaque 4+, que cette unité ennemie souffre D3 Blessures Mortelles.</characteristic>
           </characteristics>
         </profile>
         <profile name="Bloodcrushers" typeId="c547-1836-d8a-ff4f" typeName="Unit" hidden="false" id="6a45-d163-e364-9395">
@@ -10589,12 +10589,12 @@ Les unités ^^**Blood Legions^^** de votre armée gagnent l’aptitude Blessings
         </profile>
         <profile name="Sauvegarde Invulnérable" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="afd1-a21b-5667-9820">
           <characteristics>
-            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Les figurines de cette unité ont un 5+ sauvegarde invulnérable.</characteristic>
+            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Les figurines de cette unité ont une sauvegarde invulnérable de 5+.</characteristic>
           </characteristics>
         </profile>
         <profile name="Hunters from the Warp" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="3a6e-bf45-e5bf-39e6">
           <characteristics>
-            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">À la fin du tour de votre adversaire, si cette unité n'est pas dans la Portée d’Engagement d'une ou plusieurs unités ennemies, vous pouvez la retirer du champ de bataille et la placer dans les réserves stratégiques.</characteristic>
+            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">À la fin du tour de votre adversaire, si cette unité n’est pas à Portée d’Engagement d’une ou plusieurs unités ennemies, vous pouvez la retirer du champ de bataille et la placer en Réserves Stratégiques.</characteristic>
           </characteristics>
         </profile>
       </profiles>
@@ -10697,7 +10697,7 @@ Les unités ^^**Blood Legions^^** de votre armée gagnent l’aptitude Blessings
       <profiles>
         <profile name="Collar of Khorne" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="a6ef-af24-771a-5e48">
           <characteristics>
-            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Le porteur possède la aptitude Insensible à la douleur 3+ contre les attaques Psychique.</characteristic>
+            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">le porteur a l’aptitude Insensible à la douleur 3+ contre les attaques Psychiques.</characteristic>
           </characteristics>
         </profile>
       </profiles>
@@ -10866,7 +10866,7 @@ Les unités ^^**Blood Legions^^** de votre armée gagnent l’aptitude Blessings
         </profile>
         <profile name="Endless Hatred" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="3678-899b-23ea-fd19">
           <characteristics>
-            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Vous pouvez relancer les jets de Charge faits pour l'unité de cette figurine.</characteristic>
+            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Vous pouvez relancer les jets de Charge effectués pour l’unité de cette figurine.</characteristic>
           </characteristics>
         </profile>
         <profile name="Invulnerable Save (4+)" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="2ca4-71ae-74ce-ef6e">
@@ -11228,7 +11228,7 @@ Les unités ^^**Blood Legions^^** de votre armée gagnent l’aptitude Blessings
         </profile>
         <profile name="Aura of Dark Glory" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="c273-c398-fdc2-c2d5">
           <characteristics>
-            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Les figurines de cette unité ont une caractéristique sauvegarde invulnérable de 5+.</characteristic>
+            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Les figurines de cette unité ont une caractéristique de sauvegarde invulnérable de 5+.</characteristic>
           </characteristics>
         </profile>
         <profile name="Meneur" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="a460-4326-5d55-5edf">
@@ -11357,7 +11357,7 @@ Les unités ^^**Blood Legions^^** de votre armée gagnent l’aptitude Blessings
           <profiles>
             <profile id="7c39-79a3-1f05-dae0" name="Berzerker Glaive" hidden="false" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities">
               <characteristics>
-                <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Ajoutez 1 aux caractéristiques d'attaque et de Dégâts des armes de mêlée (à l'exclusion des armes Attaques Bonus) équipées par le porteur.</characteristic>
+                <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Ajoutez 1 aux caractéristiques d’Attaques et de Dégâts des armes de mêlée (à l’exclusion des armes Attaques Bonus) dont le porteur est équipé.</characteristic>
               </characteristics>
             </profile>
           </profiles>
@@ -11416,7 +11416,7 @@ Les unités ^^**Blood Legions^^** de votre armée gagnent l’aptitude Blessings
           <profiles>
             <profile id="af9c-8493-aaf3-766a" name="Battle-lust" hidden="false" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities">
               <characteristics>
-                <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Vous pouvez relancer les jets de Charge de l'unité du porteur. En outre, alors que la bénédiction sans frein de Bloodlust de Khorne est active pour votre armée, ajoutez 1 aux jets de Charge de l'unité du porteur.</characteristic>
+                <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Vous pouvez relancer les jets de Charge effectués pour l’unité du porteur. De plus, tant que la Bénédiction de Khorne Unbridled Bloodlust est active pour votre armée, ajoutez 1 aux jets de Charge effectués pour l’unité du porteur.</characteristic>
               </characteristics>
             </profile>
           </profiles>
@@ -11455,7 +11455,7 @@ Les unités ^^**Blood Legions^^** de votre armée gagnent l’aptitude Blessings
           <profiles>
             <profile id="d3de-dea9-ed71-fb84" name="Helm of Brazen Ire" hidden="false" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities">
               <characteristics>
-                <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Chaque fois qu'une attaque est attribuée au porteur, Soustrayez 1 de la caractéristique Dégât de cette attaque.</characteristic>
+                <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Chaque fois qu'une attaque est attribuée au porteur, Soustrayez 1 de la caractéristique de Dégâts de cette attaque.</characteristic>
               </characteristics>
             </profile>
           </profiles>
@@ -11538,7 +11538,7 @@ Les unités ^^**Blood Legions^^** de votre armée gagnent l’aptitude Blessings
           <profiles>
             <profile name="Archslaughterer" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="a978-65ee-3f97-bf3e">
               <characteristics>
-                <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Améliorez la caractéristique de Pénétration d’Armure des armes de mêlée équipées par le porteur de 1. Alors que le porteur est un **^^Vessel Of Wrath^^**, Améliorez la caractéristique de Dégâts de ces armes par 1 aussi bien.</characteristic>
+                <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Améliorez la caractéristique de Pénétration d’Armure des armes de mêlée dont est équipé le porteur de 1. Alors que le porteur est un **^^Vessel Of Wrath^^**, Améliorez la caractéristique de Dégâts de ces armes par 1 aussi bien.</characteristic>
               </characteristics>
             </profile>
           </profiles>
@@ -11585,7 +11585,7 @@ Les unités ^^**Blood Legions^^** de votre armée gagnent l’aptitude Blessings
           <profiles>
             <profile name="Vox-Diabolus" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="f90a-708b-66ed-92a7">
               <characteristics>
-                <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Chaque fois que l'unité du porteur détruit une unité ennemi avec une attaque de mêlée, lancez un D6, ajoutant 1 au résultat si le porteur est un VESSEL de WRATH: sur un 4+, vous gagnez 1CP.</characteristic>
+                <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Chaque fois que l’unité du porteur détruit une unité ennemie avec une attaque de mêlée, lancez un D6, ajoutant 1 au résultat si le porteur est un VESSEL de WRATH: sur un 4+, vous gagnez 1CP.</characteristic>
               </characteristics>
             </profile>
           </profiles>
@@ -11624,7 +11624,7 @@ Les unités ^^**Blood Legions^^** de votre armée gagnent l’aptitude Blessings
           <profiles>
             <profile name="Avenger's Crown" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="d91c-04ad-b9b6-5b22">
               <characteristics>
-                <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Si le porteur est détruit par une attaque de mêlée, s'il n'a pas combattu cette phase, lancez un D6: sur un 2+, ne le retirez pas du jeu. la figurine détruit peut se battre après que l'unité attaquante ait terminé ses attaques, et est ensuite retiré du jeu.</characteristic>
+                <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Si le porteur est détruit par une attaque de mêlée, s'il n'a pas combattu cette phase, lancez un D6: sur un 2+, ne le retirez pas du jeu. la figurine détruit peut se battre après que l'unité attaquante ait terminé de faire son Attaques, et est ensuite retiré du jeu.</characteristic>
               </characteristics>
             </profile>
           </profiles>
@@ -11663,7 +11663,7 @@ Les unités ^^**Blood Legions^^** de votre armée gagnent l’aptitude Blessings
           <profiles>
             <profile name="Gateways to Glory" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="65c6-d26c-bd71-866a">
               <characteristics>
-                <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Chaque fois que le porteur effectue un déplacement normal, avancé ou charge, il peut se déplacer horizontalement à travers des figurines et des caractéristiques de terrain. Lorsqu'il le fait, il peut se déplacer à l'intérieur de la Portée d’Engagement de ces figurines mais ne peuvent pas mettre fin à un mouvement normal ou avancé à l'intérieur de la Portée d’Engagement de ces figurines.</characteristic>
+                <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Chaque fois que le porteur fait un Normal, Avance ou mouvement de Charge, il peut se déplacer horizontalement à travers figurines et éléments de terrain. Lorsqu'il le fait, il peut se déplacer à l'intérieur de Portée d’Engagement de ce figurines mais ne peuvent pas terminer un Normal ou mouvement d’Avance à l'intérieur de Portée d’Engagement d'eux.</characteristic>
               </characteristics>
             </profile>
           </profiles>
@@ -11705,7 +11705,7 @@ Les unités ^^**Blood Legions^^** de votre armée gagnent l’aptitude Blessings
           <profiles>
             <profile name="Brazen Form" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="5c4c-7d0c-a725-865b">
               <characteristics>
-                <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Ajoutez 1 à la caractéristique d’Endurance du porteur et le porteur a la aptitude Insensible à la douleur 5+.</characteristic>
+                <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Ajoutez 1 à la caractéristique d’Endurance du porteur et le porteur a l’aptitude Insensible à la douleur 5+.</characteristic>
               </characteristics>
             </profile>
           </profiles>
@@ -11757,7 +11757,7 @@ Les unités ^^**Blood Legions^^** de votre armée gagnent l’aptitude Blessings
           <profiles>
             <profile name="Butcher Lord" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="6870-c603-415a-6e67">
               <characteristics>
-                <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Au cours de l'étape Déclarer les Formations de Bataille, le porteur peut être attaché à une unité ^^**Jakhals^^** ou ^^**Goremongers^^**. S'il est attaché à une unité ^^**Goremongers^^**, le porteur possède la aptitude Infiltrators.</characteristic>
+                <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Pendant le étape Déclarer les Formations de Bataille, le le porteur peut être attaché à une unité ^^**Jakhals^^** ou ^^**Goremongers^^**. Lorsqu'il est attaché à une unité ^^**Goremongers^^**, le porteur possède l’aptitude Infiltrateurs.</characteristic>
               </characteristics>
             </profile>
           </profiles>
@@ -11794,7 +11794,7 @@ Les unités ^^**Blood Legions^^** de votre armée gagnent l’aptitude Blessings
           <profiles>
             <profile name="Chosen of the Blood God" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="c4f5-bbf0-8808-ba68">
               <characteristics>
-                <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Ajoutez 3" à la gamme des capacités Aura du porteur.</characteristic>
+                <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Ajoutez 3" à la portée des aptitudes d’Aura du porteur.</characteristic>
               </characteristics>
             </profile>
           </profiles>
@@ -11838,7 +11838,7 @@ Les unités ^^**Blood Legions^^** de votre armée gagnent l’aptitude Blessings
           <profiles>
             <profile name="Strategic Slaughter" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="8425-d88d-864e-2198">
               <characteristics>
-                <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Après que les deux joueurs aient déployé leurs armées, sélectionnez jusqu'à 3 ^^**Jakhals^^** et/or ^^**Goremongers^^** unités de votre armée et redéployer. Lorsque vous le faites, vous pouvez mettre ces unités en réserve stratégique, quel que soit le nombre d'unités déjà en réserve stratégique.</characteristic>
+                <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Après que les deux joueurs ont déployé leurs armées, sélectionnez jusqu’à 3 unités ^^**Jakhals^^** et/ou ^^**Goremongers^^** de votre armée et redéployez-les. Ce faisant, vous pouvez placer ces unités en Réserves Stratégiques, quel que soit le nombre d’unités déjà en Réserves Stratégiques.</characteristic>
               </characteristics>
             </profile>
           </profiles>
@@ -11877,7 +11877,7 @@ Les unités ^^**Blood Legions^^** de votre armée gagnent l’aptitude Blessings
           <profiles>
             <profile name="Disciple of Khorne" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="9c40-6498-e7c3-082f">
               <characteristics>
-                <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Au cours de l'étape Déclarer les Formations de Bataille, le porteur peut être attaché à une unité ^^**Bloodcrushers^^** ou ^^**Flesh Hounds^^**. Alors qu'il dirige l'une de ces unités, le porteur a la aptitude Frappe en profondeur, et il a le mot-clé ^^**Blood Legions^^** Faction mot-clé au lieu du ^^**World Eaters^^** Faction.</characteristic>
+                <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Pendant le étape Déclarer les Formations de Bataille, le le porteur peut être attaché à une unité ^^**Bloodcrushers^^** ou ^^**Flesh Hounds^^**. Alors qu'il dirige l'une de ces unités, le porteur possède l’aptitude Frappe en profondeur, et il possède le ^^**Blood Legions^^** Faction mot-clé au lieu du ^^**World Eaters^^** Faction mot-clé.</characteristic>
               </characteristics>
             </profile>
           </profiles>
@@ -11916,7 +11916,7 @@ Les unités ^^**Blood Legions^^** de votre armée gagnent l’aptitude Blessings
           <profiles>
             <profile name="Blood-forged Armour" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="625a-6240-a85b-86db">
               <characteristics>
-                <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Le porteur a une caractéristique de sauvegarde de 2+. Si le porteur est détruit, Vous gagnez un point 1 Blood Tithe.</characteristic>
+                <characteristic name="Description" typeId="9b8f-694b-e5e-b573">le porteur a une caractéristique de Sauvegarde de 2+. Si le porteur est détruit, vous gagnez 1 Blood Tithe point.</characteristic>
               </characteristics>
             </profile>
           </profiles>
@@ -11949,7 +11949,7 @@ Les unités ^^**Blood Legions^^** de votre armée gagnent l’aptitude Blessings
           <profiles>
             <profile name="Icon of War" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="babf-56e5-0516-08ea">
               <characteristics>
-                <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Alors qu'une unité amicale ^^**Blood Legions^^** est à 6" ou moins du porteur, Cette unité a la aptitude Blessings of Khorne. Si la puissance de Khorne est active pour votre armée, alors pendant qu'une unité ^^**Blood Legions^^** amicale est à 6" ou moins du porteur, Vous pouvez relancer les tests d’Ébranlement pour cette unité.</characteristic>
+                <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Tant qu’une unité ^^**Blood Legions^^** amie est à 6" ou moins du porteur, cette unité a l’aptitude Blessings of Khorne. Si l’aptitude Might of Khorne est active pour votre armée, tant qu’une unité ^^**Blood Legions^^** amie est à 6" ou moins du porteur, vous pouvez relancer les tests d’Ébranlement effectués pour cette unité.</characteristic>
               </characteristics>
             </profile>
           </profiles>
@@ -11986,7 +11986,7 @@ Les unités ^^**Blood Legions^^** de votre armée gagnent l’aptitude Blessings
           <profiles>
             <profile name="Blade of Endless Bloodshed" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="eaa0-009a-7cd2-91fe">
               <characteristics>
-                <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Ajoutez 1 aux caractéristiques d'attaque, de force et de dégâts des armes de mêlée du porteur. Chaque fois que l'unité du porteur détruit une unité ennemie avec une attaque de mêlée, ne lancez pas pour gagner un point Blood Tithe, vous gagnez automatiquement un point 1 Blood Tithe à la place.</characteristic>
+                <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Ajoutez 1 aux caractéristiques d’Attaques, de Force et de Dégâts des armes de mêlée du porteur. Chaque fois que l’unité du porteur détruit une unité ennemie avec une attaque de mêlée, ne lancez pas de dé pour gagner un point Blood Tithe ; vous gagnez automatiquement 1 point Blood Tithe à la place.</characteristic>
               </characteristics>
             </profile>
           </profiles>
@@ -12042,7 +12042,7 @@ Les unités ^^**Blood Legions^^** de votre armée gagnent l’aptitude Blessings
           <profiles>
             <profile name="Frenzied Focus" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="a6d2-c5ec-a163-159e">
               <characteristics>
-                <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Chaque fois qu'une figurine dans l'unité du porteur effectue une attaque, un Hit critique est marqué sur un jet de un jet de Touche non modifié de 5+, au lieu d'un seul 6.</characteristic>
+                <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Chaque fois qu’une figurine de l’unité du porteur effectue une attaque, une Touche Critique est obtenue sur un jet de Touche non modifié de 5+, au lieu de seulement sur un 6.</characteristic>
               </characteristics>
             </profile>
           </profiles>
@@ -12086,7 +12086,7 @@ Les unités ^^**Blood Legions^^** de votre armée gagnent l’aptitude Blessings
           <profiles>
             <profile name="Killing Clarity" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="4e65-e0a1-f860-07ea">
               <characteristics>
-                <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Chaque fois que l'unité du porteur détruit une unité ennemie, lancez un D6: sur un 4+, vous gagnez 1CP.</characteristic>
+                <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Chaque fois que l’unité du porteur détruit une unité ennemie, lancez un D6 : sur 4+, vous gagnez 1CP.</characteristic>
               </characteristics>
             </profile>
           </profiles>
@@ -12174,7 +12174,7 @@ Les unités ^^**Blood Legions^^** de votre armée gagnent l’aptitude Blessings
           <profiles>
             <profile name="Malicious Vigour" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="3e04-920f-104d-510d">
               <characteristics>
-                <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Chaque fois que l'unité du porteur effectue un déplacement Brazen Fury, elle est considérée comme ayant roulé un 6 pour la distance à laquelle l'unité peut être déplacée.</characteristic>
+                <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Chaque fois que l’unité du porteur fait un mouvement Brazen Fury, elle est traitée comme ayant roulé un 6 pour la distance à laquelle l'unité peut être déplacée.</characteristic>
               </characteristics>
             </profile>
           </profiles>
@@ -12211,7 +12211,7 @@ Les unités ^^**Blood Legions^^** de votre armée gagnent l’aptitude Blessings
           <profiles>
             <profile name="Aggressive Deployment" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="dc39-fceb-5641-ad63">
               <characteristics>
-                <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Dans l'étape Déclarer les Formations de Bataille, si le porteur démarre la bataille engagée dans un ^^**Dedicated Transport^^**, cette ^^**Dedicated Transport^^** a la aptitude Éclaireurs 9".</characteristic>
+                <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Dans le étape Déclarer les Formations de Bataille, si le porteur commence la bataille engagée dans un ^^**Dedicated Transport^^**, cette ^^**Dedicated Transport^^** a l’aptitude Éclaireurs 9".</characteristic>
               </characteristics>
             </profile>
           </profiles>
@@ -12289,7 +12289,7 @@ Les unités ^^**Blood Legions^^** de votre armée gagnent l’aptitude Blessings
           <profiles>
             <profile name="Infernal Infusion" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="5ba8-75db-54a1-5d76">
               <characteristics>
-                <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Une fois par bataille, au début de la phase de Combat, le porteur peut utiliser cette Optimisation. Si c'est le cas, jusqu'à la fin de la phase, l'unité du porteur a la aptitude Fights First.</characteristic>
+                <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Une fois par bataille, au début de la phase de Combat, le porteur peut utiliser cette Optimisation. S’il le fait, jusqu’à la fin de la phase, l’unité du porteur a l’aptitude Fights First.</characteristic>
               </characteristics>
             </profile>
           </profiles>
@@ -12328,7 +12328,7 @@ Les unités ^^**Blood Legions^^** de votre armée gagnent l’aptitude Blessings
           <profiles>
             <profile name="Murderous Onslaught" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="8d2b-8b58-bb25-bf5c">
               <characteristics>
-                <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Si l'unité du porteur débarque d'un ^^**Transport^^** ce tour, jusqu'à la fin du tour, les unités ennemies ne peuvent pas utiliser le Fire Overwatch Stratagème pour tirer sur l'unité du porteur.</characteristic>
+                <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Si l’unité du porteur débarque d'une ^^**Transport^^** ce tour, jusqu'à la fin du tour, les unités ennemies ne peuvent pas utiliser le Fire Overwatch Stratagème pour tirer sur l’unité du porteur.</characteristic>
               </characteristics>
             </profile>
           </profiles>
@@ -12400,7 +12400,7 @@ Les unités ^^**Blood Legions^^** de votre armée gagnent l’aptitude Blessings
           <profiles>
             <profile name="Iron Rule" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="e6fb-b09e-4158-33cc">
               <characteristics>
-                <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Tant que cette unité est à 12" ou moins d'un ou de plusieurs figurines **^^World Eaters Character^^** ou **^^World Eaters Titanic^^** amicaux, Améliorez la caractéristique de Commandement et de caractéristique de Contrôle d’Objectif des figurines de cette unité de 1.</characteristic>
+                <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Tant que cette unité est à 12" ou moins d'un ou plusieurs **^^World Eaters Character^^** amicaux ou **^^World Eaters Titanic^^** figurines, Améliorez le Commandement et caractéristique de Contrôle d’Objectif des figurines de cette unité de 1.</characteristic>
               </characteristics>
             </profile>
           </profiles>
@@ -12432,7 +12432,7 @@ Les unités ^^**Blood Legions^^** de votre armée gagnent l’aptitude Blessings
           <profiles>
             <profile name="Gore Frenzy" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="71c0-36ae-b0f7-cdf2">
               <characteristics>
-                <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Au début de la phase de Combat, si cette unité est inférieure à son Effectif Initial, jusqu'à la fin de la phase, ajoutez 1 aux caractéristique d’Attaques des armes de mêlée équipées de figurines de cette unité.</characteristic>
+                <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Au début de la phase de Combat, si cette unité est en dessous de son Effectif Initial, jusqu’à la fin de la phase, ajoutez 1 à la caractéristique d’Attaques des armes de mêlée dont sont équipées les figurines de cette unité.</characteristic>
               </characteristics>
             </profile>
           </profiles>
@@ -12464,7 +12464,7 @@ Les unités ^^**Blood Legions^^** de votre armée gagnent l’aptitude Blessings
           <profiles>
             <profile name="Skull Tithe" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="ac4f-4cbe-9e2a-51d7">
               <characteristics>
-                <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Cette unité peut gagner jusqu'à 8 points de crâne d'une bataille, plutôt que un maximum de 5. Si cette unité gagne des points 1 ou plus Skull dans une bataille, et/ou qu'elle gagne des points 1 ou plus Legendary Skull, elle est marquée pour la grandeur à la fin de la bataille en plus de toutes les autres unités de votre armée.</characteristic>
+                <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Cette unité peut gagner jusqu’à 8 points Skull par bataille, au lieu d’un maximum de 5. Si cette unité gagne au moins 1 point Skull lors d’une bataille et/ou au moins 1 point Legendary Skull, elle est Marked for Greatness à la fin de la bataille, en plus de toute autre unité de votre armée.</characteristic>
               </characteristics>
             </profile>
           </profiles>
@@ -12496,7 +12496,7 @@ Les unités ^^**Blood Legions^^** de votre armée gagnent l’aptitude Blessings
           <profiles>
             <profile name="Desperation To Slay" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="510c-e4cf-a5c6-26cb">
               <characteristics>
-                <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Ajoutez 2" à la caractéristique de mouvement des figurines de cette unité et vous pouvez ignorer tous ou tous les modificateurs des jets de Charge effectués pour cette unité.</characteristic>
+                <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Ajoutez 2" à la caractéristique de mouvement des figurines de cette unité et vous pouvez ignorer tout ou partie des modificateurs de jets de Charge effectués pour cette unité.</characteristic>
               </characteristics>
             </profile>
           </profiles>
@@ -12544,7 +12544,7 @@ Les unités ^^**Blood Legions^^** de votre armée gagnent l’aptitude Blessings
           <profiles>
             <profile name="Untrammelled Rage" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="d38c-74a3-5601-277b">
               <characteristics>
-                <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Chaque fois que cette figurine effectue une attaque de tir qui cible la cible admissible la plus proche à 12" ou moins, ajoutez 1 à le jet de Touche. Chaque fois que cette figurine déclare une charge visant la cible admissible la plus proche, ajoutez 2 à la jets de Charge.</characteristic>
+                <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Chaque fois que cette figurine effectue une attaque de tir qui cible la cible éligible la plus proche à 12" ou moins, ajoutez 1 au jet de Touche. Chaque fois que cette figurine déclare une charge qui cible la cible éligible la plus proche, ajoutez 2 au jet de Charge.</characteristic>
               </characteristics>
             </profile>
           </profiles>
@@ -12661,7 +12661,7 @@ Les unités ^^**Blood Legions^^** de votre armée gagnent l’aptitude Blessings
           <profiles>
             <profile name="Peerless Fighters" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="42b9-4a39-da93-2516">
               <characteristics>
-                <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Chaque fois qu'une figurine dans cette unité fait une attaque de mêlée, relance un jet de Touche de 1. Si cette unité a fait un effectuer un mouvement de Charge ce tour alors, jusqu'à la fin du tour, chaque fois qu'une figurine dans cette unité fait une attaque de mêlée, vous pouvez également relancer un jet de Blessure de 1.</characteristic>
+                <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Chaque fois qu’une figurine de cette unité effectue une attaque de mêlée, relancez un jet de Touche de 1. Si cette unité a effectué un mouvement de Charge durant ce tour, jusqu’à la fin du tour, chaque fois qu’une figurine de cette unité effectue une attaque de mêlée, vous pouvez également relancer un jet de Blessure de 1.</characteristic>
               </characteristics>
             </profile>
           </profiles>
@@ -12735,7 +12735,7 @@ Les unités ^^**Blood Legions^^** de votre armée gagnent l’aptitude Blessings
           <profiles>
             <profile name="Slayers of Champions" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="fa9d-389d-8535-ffb7">
               <characteristics>
-                <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Les armes Melee équipées par des figurines de cette unité ont la aptitude **[PRECISION]**.</characteristic>
+                <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Les armes de mêlée dont les figurines de cette unité sont équipées ont l’aptitude **[PRECISION]**.</characteristic>
               </characteristics>
             </profile>
           </profiles>
@@ -12791,7 +12791,7 @@ Les unités ^^**Blood Legions^^** de votre armée gagnent l’aptitude Blessings
           <profiles>
             <profile name="Red Haze" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="98c2-7b0f-ee62-9139">
               <characteristics>
-                <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Chaque fois qu'une attaque de mêlée avec une caractéristique de Dégâts de 1 est attribuée à une figurine dans cette unité, cette figurine a la aptitude Insensible à la douleur 5+ contre cette attaque.</characteristic>
+                <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Chaque fois qu'une attaque de mêlée avec une caractéristique de Dégâts de 1 est attribué à une figurine dans cette unité, cette figurine a l’aptitude Insensible à la douleur 5+ contre cette attaque.</characteristic>
               </characteristics>
             </profile>
           </profiles>
@@ -12865,7 +12865,7 @@ Les unités ^^**Blood Legions^^** de votre armée gagnent l’aptitude Blessings
           <profiles>
             <profile name="Bloody Destiny" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="0653-be79-25fe-0eed">
               <characteristics>
-                <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Chaque fois que le porteur fait une offre à Khorne, vous pouvez relancer le jet du jugement.</characteristic>
+                <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Chaque fois que le porteur fait une offre à Khorne, vous pouvez relancer le jet du Jugement.</characteristic>
               </characteristics>
             </profile>
           </profiles>
@@ -12902,7 +12902,7 @@ Les unités ^^**Blood Legions^^** de votre armée gagnent l’aptitude Blessings
           <profiles>
             <profile name="Refined Stimms" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="f762-4de0-6b58-c6a0">
               <characteristics>
-                <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Chaque fois que cette unité est sélectionnée pour combattre, vous pouvez choisir d'utiliser ce trait de bataille. Si vous le faites, jusqu'à la fin de la phase, ajoutez 2 aux caractéristique d’Attaques des armes de mêlée équipées par des figurines dans cette unité et ces armes ont la aptitude **[HAZARDOUS]**.</characteristic>
+                <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Chaque fois que cette unité est sélectionnée pour combattre, vous pouvez choisir d'utiliser ce trait de bataille. Si vous le faites, Jusqu’à la fin de la phase, ajoutez 2 à la caractéristique d’Attaques des armes de mêlée dont sont équipées les figurines de cette unité et ces armes ont l’aptitude **[HAZARDOUS]**.</characteristic>
               </characteristics>
             </profile>
           </profiles>
@@ -12942,7 +12942,7 @@ Les unités ^^**Blood Legions^^** de votre armée gagnent l’aptitude Blessings
           <profiles>
             <profile name="Scarified Dedications" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="5363-e751-bc25-7824">
               <characteristics>
-                <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Chaque fois que cette unité est détruite, elle gagne 1 point de crâne et 1XP. Chaque fois que cette unité gagne une cicatrice de bataille, elle gagne des points supplémentaires D3 Skull et D3XP.</characteristic>
+                <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Chaque fois que cette unité est détruite, elle gagne 1 point Skull et 1XP. Chaque fois que cette unité gagne une Cicatrice de Bataille, elle gagne D3 points Skull supplémentaires et D3XP.</characteristic>
               </characteristics>
             </profile>
           </profiles>
@@ -13000,7 +13000,7 @@ Les unités ^^**Blood Legions^^** de votre armée gagnent l’aptitude Blessings
               <profiles>
                 <profile name="Talisman of Rage" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="eac6-b969-2d74-e98d">
                   <characteristics>
-                    <characteristic name="Description" typeId="9b8f-694b-e5e-b573">La première bénédiction de Khorne activée pour votre armée est active pour l'unité du porteur jusqu'à la fin du tour de bataille, et ses effets s'appliqueront à l'unité du porteur en plus de tout autre Blessings of Khorne actif pendant la bataille. Le double Blessings of Khorne n'a pas d'effet supplémentaire sur l'unité du porteur.</characteristic>
+                    <characteristic name="Description" typeId="9b8f-694b-e5e-b573">La première bénédiction de Khorne activée pour votre armée est active pour l’unité du porteur jusqu'à la fin du tour de bataille, et ses effets s'appliqueront à l’unité du porteur en plus de tout autre Blessings of Khorne actif pendant la bataille. Les duplications de Blessings of Khorne n'ont aucun effet supplémentaire sur l’unité du porteur.</characteristic>
                   </characteristics>
                 </profile>
               </profiles>
@@ -13043,7 +13043,7 @@ Les unités ^^**Blood Legions^^** de votre armée gagnent l’aptitude Blessings
               <profiles>
                 <profile name="Skull of An'gr'antk" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="377a-d642-ab08-ec63">
                   <characteristics>
-                    <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Si le porteur est dans votre armée de la Croisade, alors lors de l'étape sélectionnez Crusade Blessings, lancez un D6 si vous n'êtes pas le Underdog: sur un 4+, vous pouvez sélectionner un Crusade Blessing à utiliser dans cette bataille.</characteristic>
+                    <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Si le porteur est dans votre armée de la Croisade, alors lors de l'étape Sélection des bénédictions de la Croisade, lancez un D6 si vous n'êtes pas l'Underdog: sur un 4+, vous pouvez sélectionner une bénédiction de la Croisade à utiliser dans cette bataille.</characteristic>
                   </characteristics>
                 </profile>
               </profiles>
@@ -13090,12 +13090,12 @@ Les unités ^^**Blood Legions^^** de votre armée gagnent l’aptitude Blessings
               <profiles>
                 <profile name="G'rmakht the Destroyer" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="a250-b992-5675-0246">
                   <characteristics>
-                    <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Améliorez les caractéristiques d'attaque, de force, de pénétration et de Dégâts des armes de mêlée du porteur de 1.</characteristic>
+                    <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Améliorez le Attaques, Force, caractéristiques de Pénétration d’Armure et de Dégâts du porteur de 1.</characteristic>
                   </characteristics>
                 </profile>
                 <profile name="The Destroyer's Wrath" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="9f3d-04d7-64ad-a8cb">
                   <characteristics>
-                    <characteristic name="Description" typeId="9b8f-694b-e5e-b573">La première fois que cette figurine est détruit, à la fin du passé, ajoutez une figurine **^^Bloodthirster^^** à votre armée de la Croisade (ignorant la valeur des points pour votre taille de bataille): définissez cette figurine **^^Bloodthirster^^** le plus près possible de l'endroit où le porteur a été détruit, et non dans la Portée d’Engagement d'une ou de plusieurs unités ennemies. Jusqu'à la fin de la bataille, à la fin du tour de chaque joueur, la figurine **^^Bloodthirster^^** souffre de Blessures Mortelles D6. À la fin de la bataille, cette figurine **^^Bloodthirster^^** n'est pas ajouté à votre force de Croisade.</characteristic>
+                    <characteristic name="Description" typeId="9b8f-694b-e5e-b573">La première fois que cette figurine est détruit, à la fin du passé, ajoutez une **^^Bloodthirster^^** figurine à votre armée de Croisade (ignorant la valeur des points pour votre taille de bataille): définissez que **^^Bloodthirster^^** figurine le plus près possible de l'endroit où le porteur a été détruit, et non à l'intérieur de Portée d’Engagement d'une ou plusieurs unités ennemies. Jusqu'à la fin de la bataille, à la fin du tour de chaque joueur que **^^Bloodthirster^^** figurine souffre D6 Blessures Mortelles. À la fin de la bataille, ce **^^Bloodthirster^^** figurines n'est pas ajouté à votre force de Croisade.</characteristic>
                   </characteristics>
                 </profile>
               </profiles>
@@ -13158,7 +13158,7 @@ Les unités ^^**Blood Legions^^** de votre armée gagnent l’aptitude Blessings
               <profiles>
                 <profile name="Gorefather" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="079b-1908-fa42-12fc">
                   <characteristics>
-                    <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Les armes de mêlée du porteur ont la aptitude **[DEVASTATING WOUNDS]**. À la fin de la phase de Combat, vous pouvez sélectionner une unité ennemi dans la Portée d’Engagement du porteur et rouler huit D6: pour chaque 4+, cette unité ennemi subit 1 blessure mortelle.</characteristic>
+                    <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Les armes de mêlée du porteur ont l’aptitude **[DEVASTATING WOUNDS]**. À la fin de la phase de Combat, vous pouvez sélectionner une unité ennemie à Portée d’Engagement du porteur et lancer huit D6 : pour chaque résultat de 4+, cette unité ennemie subit 1 blessure mortelle.</characteristic>
                   </characteristics>
                 </profile>
               </profiles>
@@ -13216,7 +13216,7 @@ Les unités ^^**Blood Legions^^** de votre armée gagnent l’aptitude Blessings
               <profiles>
                 <profile name="Burning Plate" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="8350-a4b9-f402-451f">
                   <characteristics>
-                    <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Ajoutez 1 à la caractéristique d’Endurance du porteur. Chaque fois que l'unité du porteur est sélectionnée pour combattre, sélectionnez une unité ennemie dans la Portée d’Engagement de cette figurine et lancez un D6: sur une 2+, cette unité ennemie subit des Blessures Mortelles D3.</characteristic>
+                    <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Ajoutez 1 à la caractéristique d’Endurance du porteur. Chaque fois que l’unité du porteur est sélectionnée pour combattre, sélectionnez une unité ennemie à Portée d’Engagement de cette figurine et lancez un D6 : sur 2+, cette unité ennemie subit D3 blessures mortelles.</characteristic>
                   </characteristics>
                 </profile>
               </profiles>
@@ -13268,7 +13268,7 @@ Les unités ^^**Blood Legions^^** de votre armée gagnent l’aptitude Blessings
               <profiles>
                 <profile name="Bloodstep Blade" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="2c45-c723-cb06-7c59">
                   <characteristics>
-                    <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Chaque fois que l'unité du porteur détruit une ou plusieurs unités dans la phase de Combat, s'il n'y a pas d'unités ennemies à 3" ou moins de l'unité du porteur à l'étape Consolidate, vous pouvez choisir de retirer l'unité du porteur du champ de bataille et de la placer dans les réserves stratégiques. Si vous le faites, jusqu'à ce que l'unité du porteur ait été remise sur le champ de bataille, les figurines de l'unité du porteur ont le Frappe en profondeur.</characteristic>
+                    <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Chaque fois que l’unité du porteur détruit une ou plusieurs unités durant la phase de Combat, s’il n’y a aucune unité ennemie à 3" ou moins de l’unité du porteur à l’étape Consolidate, vous pouvez retirer l’unité du porteur du champ de bataille et la placer en Réserves Stratégiques. Si vous le faites, jusqu’à ce que l’unité du porteur ait été replacée sur le champ de bataille, les figurines de l’unité du porteur ont l’aptitude Frappe en profondeur.</characteristic>
                   </characteristics>
                 </profile>
               </profiles>
@@ -13414,7 +13414,7 @@ Les unités ^^**Blood Legions^^** de votre armée gagnent l’aptitude Blessings
           <profiles>
             <profile name="Collar of Khorne" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="c2e0-cb89-dffd-dc4c">
               <characteristics>
-                <characteristic name="Description" typeId="9b8f-694b-e5e-b573">cette figurine a la aptitude Insensible à la douleur 4+ contre les attaques Psychique. Alors que cette figurine mène une unité, les figurines Bodyguard de cette unité ont la aptitude Insensible à la douleur 5+ contre les attaques Psychique.</characteristic>
+                <characteristic name="Description" typeId="9b8f-694b-e5e-b573">cette figurine a l’aptitude Insensible à la douleur 4+ contre les attaques Psychiques. Alors que cette figurine mène une unité, Bodyguard les figurines de cette unité ont l’aptitude Insensible à la douleur 5+ contre les attaques Psychiques.</characteristic>
               </characteristics>
             </profile>
           </profiles>
@@ -13444,7 +13444,7 @@ Les unités ^^**Blood Legions^^** de votre armée gagnent l’aptitude Blessings
           <profiles>
             <profile name="Bestial Limbs" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="6cf0-ffee-f7c2-0045">
               <characteristics>
-                <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Ajoutez 1 aux jets d’Avance et de Charge pour l'unité de cette figurine.</characteristic>
+                <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Ajoutez 1 à Advance et jets de Charge pour l'unité de cette figurine.</characteristic>
               </characteristics>
             </profile>
           </profiles>
@@ -13514,7 +13514,7 @@ Les unités ^^**Blood Legions^^** de votre armée gagnent l’aptitude Blessings
           <profiles>
             <profile name="Jagged Horns" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="9553-7b3a-df3e-15de">
               <characteristics>
-                <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Les armes de mêlée de cette figurine ont la aptitude **[LANCE]**.</characteristic>
+                <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Les armes de mêlée de cette figurine ont l’aptitude **[LANCE]**.</characteristic>
               </characteristics>
             </profile>
           </profiles>
@@ -13557,7 +13557,7 @@ Les unités ^^**Blood Legions^^** de votre armée gagnent l’aptitude Blessings
           <profiles>
             <profile name="Daemonic Visage" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="bf1c-966d-dac1-9b36">
               <characteristics>
-                <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Améliorez la caractéristique de Commandement de cette figurine par 1 et sa caractéristique de Contrôle d’Objectif de 2. Si cette figurine est dans la portée d'un marqueur objectif que vous contrôlez qui est entièrement à la zone de déploiement de votre adversaire à la fin de la bataille, vous gagnez 1RP.</characteristic>
+                <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Améliorez de 1 la caractéristique de Commandement de cette figurine et de 2 sa caractéristique de Contrôle d’Objectif. Si cette figurine est à portée d’un pion d’objectif que vous contrôlez et qui est entièrement dans la zone de déploiement de votre adversaire à la fin de la bataille, vous gagnez 1RP.</characteristic>
               </characteristics>
             </profile>
           </profiles>
@@ -13605,7 +13605,7 @@ Les unités ^^**Blood Legions^^** de votre armée gagnent l’aptitude Blessings
           <profiles>
             <profile name="Brazen Flesh" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="5ff5-d35b-63d2-84a3">
               <characteristics>
-                <characteristic name="Description" typeId="9b8f-694b-e5e-b573">cette figurine a une caractéristique Save de 2+.</characteristic>
+                <characteristic name="Description" typeId="9b8f-694b-e5e-b573">cette figurine a une caractéristique de Sauvegarde de 2+.</characteristic>
               </characteristics>
             </profile>
           </profiles>
@@ -13648,7 +13648,7 @@ Les unités ^^**Blood Legions^^** de votre armée gagnent l’aptitude Blessings
           <profiles>
             <profile name="Steel Sinews" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="dcf3-bf20-48bc-7f85">
               <characteristics>
-                <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Ajoutez 1" à la caractéristique de mouvement des figurines de l'unité de cette figurine et ajouter 1 aux jets d’Avance effectués pour l'unité de cette figurine.</characteristic>
+                <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Ajoutez 1" à la caractéristique de Mouvement des figurines de l’unité de cette figurine et ajoutez 1 aux jets d’Avance effectués pour l’unité de cette figurine.</characteristic>
               </characteristics>
             </profile>
           </profiles>
@@ -13691,7 +13691,7 @@ Les unités ^^**Blood Legions^^** de votre armée gagnent l’aptitude Blessings
           <profiles>
             <profile name="Tearing Claws" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="de4e-117c-695b-555f">
               <characteristics>
-                <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Ajoutez 1 aux caractéristique d’Attaques des armes de mêlée équipées de cette figurine. Si cette figurine détruit huit figurines ou plus pendant une bataille, à la fin de la bataille, il gagne 1 point bonus Crâne.</characteristic>
+                <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Ajoutez 1 à la caractéristique d’Attaques des armes de mêlée dont cette figurine est équipée. Si cette figurine détruit au moins huit figurines durant une bataille, à la fin de la bataille, elle gagne 1 point Skull bonus.</characteristic>
               </characteristics>
             </profile>
           </profiles>
@@ -13731,7 +13731,7 @@ Les unités ^^**Blood Legions^^** de votre armée gagnent l’aptitude Blessings
           <profiles>
             <profile name="Warp Strength" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="95c7-4eee-ea16-cdac">
               <characteristics>
-                <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Améliorez la caractéristique de Force des armes de mêlée équipées de cette figurine de 2. Si cette figurine détruit une ou plusieurs figurines **^^Monster^^** et/ou une ou plusieurs figurines **^^Character^^** au cours d'une bataille, à la fin de la bataille, il gagne un point bonus 1 Skull point.</characteristic>
+                <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Améliorez la caractéristique de Force d’armes de mêlée équipé de cette figurine de 2. Si cette figurine détruit un ou plusieurs **^^Monster^^** figurines et/ou un ou plusieurs **^^Character^^** figurines au cours d'une bataille, à la fin de la bataille, il gagne 1 point bonus Crâne.</characteristic>
               </characteristics>
             </profile>
           </profiles>
@@ -14005,7 +14005,7 @@ Les unités ^^**Blood Legions^^** de votre armée gagnent l’aptitude Blessings
           <profiles>
             <profile name="Bellowed Challenge" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="d7a8-b14d-10df-6c7f">
               <characteristics>
-                <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Les armes Melee (à l'exclusion des armes Blessures dévastatrices) équipées de figurines de cette unité acquièrent les capacités [^^ANTI-MONSTER^^ 3+] et [^^ANTI-VEHICLE^^ 3+].</characteristic>
+                <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Les armes de mêlée (à l’exclusion des armes Blessures dévastatrices) dont sont équipées les figurines de cette unité gagnent les aptitudes [^^ANTI-MONSTER^^ 3+] et [^^ANTI-VEHICLE^^ 3+].</characteristic>
               </characteristics>
             </profile>
           </profiles>
@@ -14014,7 +14014,7 @@ Les unités ^^**Blood Legions^^** de votre armée gagnent l’aptitude Blessings
           <profiles>
             <profile name="Forwards, for Blood" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="82e5-a6a2-1ad7-d19f">
               <characteristics>
-                <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Pendant que cette figurine conduit une unité, vous pouvez relancer les jets d’Avance de cette unité et chaque fois que cette unité fait un mouvement Blood Surge, vous pouvez relancer le D6 utilisé pour déterminer à quel point les figurines de cette unité se déplacent.</characteristic>
+                <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Alors que cette figurine mène une unité, vous pouvez relancer jets d’Avance de cette unité et chaque fois que cette unité fait un mouvement Blood Surge, vous pouvez relancer le D6 utilisé pour déterminer la distance les figurines de cette unité se déplacer.</characteristic>
               </characteristics>
             </profile>
           </profiles>
@@ -14041,7 +14041,7 @@ Les unités ^^**Blood Legions^^** de votre armée gagnent l’aptitude Blessings
           <profiles>
             <profile name="Rage Eternal" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="0bf8-53e9-d735-a93c">
               <characteristics>
-                <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Pendant que cette figurine mène une unité, dans votre phase de Commandement, vous pouvez renvoyer une figurine Bodyguard détruit à cette unité.</characteristic>
+                <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Alors que cette figurine mène une unité, dans votre phase de Commandement, vous pouvez renvoyer un détruit Bodyguard figurine à cette unité.</characteristic>
               </characteristics>
             </profile>
           </profiles>
@@ -14739,10 +14739,10 @@ Jusqu’à la fin du tour de bataille, chacune de ces figurines a le mot-clé VE
     </profile>
   </sharedProfiles>
   <catalogueLinks>
-    <catalogueLink id="12b4-9b00-007b-6045" name="Chaos - Chaos Knights Library" targetId="2a4a-abd1-67f0-3a80" type="catalogue" importRootEntries="true" />
-    <catalogueLink type="catalogue" name="Library - Astartes Heresy Legends" id="ab59-7c23-a58c-f8d5" targetId="ff25-972c-b995-3383" importRootEntries="true" />
-    <catalogueLink type="catalogue" name="Library - Titans" id="53cd-cf73-8ced-dd24" targetId="701a-a154-08d0-db72" importRootEntries="true" />
-    <catalogueLink type="catalogue" name="Unaligned Forces" id="0631-ff5c-6bb7-c465" targetId="61f1-ce52-d345-5048" importRootEntries="true" />
-    <catalogueLink type="catalogue" name="Chaos - Daemons Library" id="8d73-4c2c-ee96-af16" targetId="b886-a6f4-c733-74ed" />
+    <catalogueLink id="12b4-9b00-007b-6045" name="Chaos - Chaos Knights Library" targetId="8106-aad2-918a-9ac" type="catalogue" importRootEntries="true" />
+    <catalogueLink type="catalogue" name="Library - Astartes Heresy Legends" id="ab59-7c23-a58c-f8d5" targetId="ac3b-689c-4ad4-70cb" importRootEntries="true" />
+    <catalogueLink type="catalogue" name="Library - Titans" id="53cd-cf73-8ced-dd24" targetId="7481-280e-b55e-7867" importRootEntries="true" />
+    <catalogueLink type="catalogue" name="Unaligned Forces" id="0631-ff5c-6bb7-c465" targetId="581a-46b9-5b86-44b7" importRootEntries="true" />
+    <catalogueLink type="catalogue" name="Chaos - Daemons Library" id="8d73-4c2c-ee96-af16" targetId="b45c-af22-788a-dfd6" />
   </catalogueLinks>
 </catalogue>

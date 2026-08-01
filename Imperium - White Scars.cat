@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue xmlns="http://www.battlescribe.net/schema/catalogueSchema" library="false" id="9a84-4a01-b7e1-8586" name="Imperium - Adeptus Astartes - White Scars" gameSystemId="sys-0e45-705d-f6bc-806a" gameSystemRevision="1" revision="15" battleScribeVersion="2.03" type="catalogue">
+<catalogue xmlns="http://www.battlescribe.net/schema/catalogueSchema" library="false" id="67c1-fc13-f9a1-cbbf" name="Imperium - Adeptus Astartes - White Scars" gameSystemId="sys-352e-adc2-7639-d6a9" gameSystemRevision="1" revision="15" battleScribeVersion="2.03" type="catalogue">
   <catalogueLinks>
-    <catalogueLink type="catalogue" name="Imperium - Space Marines" id="f5b3-d2eb-a7f0-5957" targetId="c64a-a8a4-fe12-90fd" importRootEntries="true" />
-    <catalogueLink type="catalogue" name="Imperium - Imperial Knights - Library" id="fe85-7340-cb74-f699" targetId="1787-6721-8649-a4a8" importRootEntries="true" />
-    <catalogueLink type="catalogue" name="Imperium - Agents of the Imperium" id="b693-b382-3b94-e000" targetId="58ea-21f3-3da9-74dd" importRootEntries="true" />
+    <catalogueLink type="catalogue" name="Imperium - Space Marines" id="f5b3-d2eb-a7f0-5957" targetId="e0af-67df-9d63-8fb7" importRootEntries="true" />
+    <catalogueLink type="catalogue" name="Imperium - Imperial Knights - Library" id="fe85-7340-cb74-f699" targetId="1b6d-dc06-5db9-c7d1" importRootEntries="true" />
+    <catalogueLink type="catalogue" name="Imperium - Agents of the Imperium" id="b693-b382-3b94-e000" targetId="b00-cd86-4b4c-97ba" importRootEntries="true" />
   </catalogueLinks>
   <categoryEntries>
     <categoryEntry name="Kor'sarro Khan" hidden="false" id="ecaf-d9ca-6ab0-8dcb" />
@@ -81,12 +81,12 @@
         </profile>
         <profile name="For the Khan!" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="143-1a21-8afb-16c4">
           <characteristics>
-            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Alors que cette figurine mène une unité, les armes de tir équipées par les figurines de cette unité ont la aptitude [Assaut] et les armes de mêlée équipées par les figurines de cette unité ont la aptitude [LANCE].</characteristic>
+            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Alors que cette figurine mène une unité, les armes de tir équipées par les figurines de cette unité ont l’aptitude [Assaut] et armes de mêlée équipées par les figurines de cette unité ont l’aptitude [LANCE].</characteristic>
           </characteristics>
         </profile>
         <profile name="Trophy Taker" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="bbb5-617e-a254-8463">
           <characteristics>
-            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Chaque fois que cette figurine détruit une figurine de personnage ennemi, vous gagnez 1CP</characteristic>
+            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Chaque fois que cette figurine détruit une figurine Character ennemie, vous gagnez 1CP</characteristic>
           </characteristics>
         </profile>
         <profile name="Meneur" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="90b4-a746-de9b-2df2">
@@ -103,7 +103,7 @@
         </profile>
         <profile name="Inspiring Commander" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="8ecf-92ea-ef03-4b0b">
           <characteristics>
-            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Si vous incluez cette figurine dans votre armée, jusqu'à la fin de la bataille, les figurines non-Character dans les unités Outrider Squad de votre armée ont une caractéristique de Contrôle d’Objectif de 3 alors qu'ils ne sont pas Ébranlées.</characteristic>
+            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Si vous incluez cette figurine dans votre armée, jusqu’à la fin de la bataille, les figurines non-Character des unités Outrider Squad de votre armée ont une caractéristique de Contrôle d’Objectif de 3 tant qu’elles ne sont pas Ébranlées.</characteristic>
           </characteristics>
         </profile>
       </profiles>
@@ -157,12 +157,12 @@
         </profile>
         <profile name="Spear of Chogoris" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="1336-8c9c-a513-990d">
           <characteristics>
-            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">L’unité de cette figurine est éligible pour tirer et déclarer une Charge durant un tour où elle a Avancé ou Battu en Retraite. Si cette unité est déjà éligible à la prise de vue et à la déclaration d'une charge à un tour où elle avance, ajoutez 1 aux jets d’Avance et de Charge faits pour cette unité à la place.</characteristic>
+            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">L’unité de cette figurine est éligible pour tirer et déclarer une Charge durant un tour où elle a Avancé ou Battu en Retraite. Si cette unité est déjà éligible pour tirer et déclare une charge dans un tour dans lequel elle avance, ajoutez 1 à Advance et jets de Charge de cette unité à la place.</characteristic>
           </characteristics>
         </profile>
         <profile name="Skilled Riders" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="886d-0aad-f792-2794">
           <characteristics>
-            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Chaque fois qu'une figurine dans l’unité de cette figurine effectue un mouvement normal, d'avance, de Retraite ou de charge, il peut se déplacer horizontalement à travers les caractéristiques du terrain.</characteristic>
+            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Chaque fois qu'une figurine dans l’unité de cette figurine fait un Normal, Avance, Battre en Retraite ou mouvement de Charge, il peut se déplacer horizontalement à travers éléments de terrain.</characteristic>
           </characteristics>
         </profile>
         <profile name="Meneur" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="fe8b-e1ef-ef3c-cced">

@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue xmlns="http://www.battlescribe.net/schema/catalogueSchema" id="bb72-bdcc-6e9f-56e8" name="Imperium - Adeptus Custodes" revision="92" battleScribeVersion="2.03" library="false" gameSystemId="sys-0e45-705d-f6bc-806a" gameSystemRevision="1" type="catalogue">
+<catalogue xmlns="http://www.battlescribe.net/schema/catalogueSchema" id="1f19-6509-d906-ca10" name="Imperium - Adeptus Custodes" revision="92" battleScribeVersion="2.03" library="false" gameSystemId="sys-352e-adc2-7639-d6a9" gameSystemRevision="1" type="catalogue">
   <categoryEntries>
     <categoryEntry id="a43a-4cf6-6443-f48e" name="Aleya" hidden="false" />
     <categoryEntry id="5386-42fc-f4d0-7d64" name="Allarus Custodians" hidden="false" />
@@ -109,12 +109,12 @@
         </profile>
         <profile id="c081-8ea9-eb18-0bff" name="Tactical Perception" hidden="false" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities">
           <characteristics>
-            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Alors que cette figurine mène une unité, les figurines de cette unité ont la aptitude Fights First.</characteristic>
+            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Alors que cette figurine mène une unité, les figurines de cette unité ont l’aptitude Fights First.</characteristic>
           </characteristics>
         </profile>
         <profile id="48d0-0d0f-c9b6-5b34" name="Tenacious Spirit" hidden="false" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities">
           <characteristics>
-            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Pendant que cette figurine mène une unité, chaque fois qu'une figurine de cette unité fait une attaque, Ajoutez 1 au jet de Touche si cette unité est inférieure à son Effectif Initial, et Ajoutez 1 au jet de Blessure si cette unité est en dessous de son Demi-effectif.</characteristic>
+            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Pendant que cette figurine mène une unité, chaque fois qu'une figurine dans cette unité effectue une attaque, ajoutez 1 au jet de Touche si cette unité est en dessous de son Effectif Initial, et ajoutez 1 au jet de Blessure aussi bien si cette unité est En Dessous de son Demi-effectif.</characteristic>
           </characteristics>
         </profile>
         <profile id="a7f1-e106-1e30-3452" name="Meneur" hidden="false" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities">
@@ -218,12 +218,12 @@
       <profiles>
         <profile id="d569-61db-406d-1d42" name="Slayers of Tyrants" hidden="false" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities">
           <characteristics>
-            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Chaque fois qu'une figurine dans cette unité fait une attaque qui cible une unité ^^Character, Monster^^ ou ^^Vehicle^^, vous pouvez relancer le jet de Blessure.</characteristic>
+            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Chaque fois qu'une figurine dans cette unité effectue une attaque visant une unité ^^Character, Monster^^ ou ^^Vehicle^^, vous pouvez relancer le jet de Blessure.</characteristic>
           </characteristics>
         </profile>
         <profile id="0a36-c494-baad-91db" name="From Golden Light" hidden="false" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities">
           <characteristics>
-            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Une fois par bataille, à la fin du tour de votre adversaire, si cette unité n'est pas dans la Portée d’Engagement d'une ou plusieurs unités ennemies, vous pouvez la retirer du champ de bataille et la placer dans les réserves stratégiques.</characteristic>
+            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Une fois par bataille, à la fin du tour de votre adversaire, si cette unité n'est pas à l'intérieur de Portée d’Engagement d'une ou de plusieurs unités ennemies, vous pouvez la retirer du champ de bataille et la placer dans Réserves Stratégiques.</characteristic>
           </characteristics>
         </profile>
         <profile id="fe8b-58b8-b37c-39b6" name="Allarus Custodian" hidden="false" typeId="c547-1836-d8a-ff4f" typeName="Unit">
@@ -726,12 +726,12 @@
         </profile>
         <profile id="be52-2414-896d-55fc" name="Martial Inspiration" hidden="false" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities">
           <characteristics>
-            <characteristic name="Description" id="2996-6d07-7497-d08a" hidden="false" typeId="9b8f-694b-e5e-b573">Une fois par bataille, dans votre phase de Charge, l'unité de cette figurine est admissible à déclarer une charge à un tour où elle avance.</characteristic>
+            <characteristic name="Description" id="2996-6d07-7497-d08a" hidden="false" typeId="9b8f-694b-e5e-b573">Une fois par bataille, dans votre phase de Charge, l'unité de cette figurine est admissible à déclarer une charge à un tour dans lequel il avance.</characteristic>
           </characteristics>
         </profile>
         <profile id="31ef-fcd4-c165-a95d" name="Swift Onslaught" hidden="false" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities">
           <characteristics>
-            <characteristic name="Description" id="c5e7-7748-57be-4f0f" hidden="false" typeId="9b8f-694b-e5e-b573">Pendant que cette figurine conduit une unité, vous pouvez relancer les jets de Charge de cette unité.</characteristic>
+            <characteristic name="Description" id="c5e7-7748-57be-4f0f" hidden="false" typeId="9b8f-694b-e5e-b573">Tant que cette figurine mène une unité, vous pouvez relancer les jets de Charge effectués pour cette unité.</characteristic>
           </characteristics>
         </profile>
       </profiles>
@@ -904,12 +904,12 @@
       <profiles>
         <profile id="07c7-730f-5219-ef8f" name="Stand Vigil" hidden="false" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities">
           <characteristics>
-            <characteristic name="Description" id="65e8-f5-cf2-27bf" hidden="false" typeId="9b8f-694b-e5e-b573">Chaque fois qu'une figurine dans cette unité fait une attaque, relancez un jet de Blessure de 1. Alors que cette unité est à la portée d'un marqueur objectif que vous contrôlez, vous pouvez relancer le jet de Blessure à la place.</characteristic>
+            <characteristic name="Description" id="65e8-f5-cf2-27bf" hidden="false" typeId="9b8f-694b-e5e-b573">Chaque fois qu'une figurine dans cette unité fait une attaque, relancer est un jet de Blessure de 1. Alors que cette unité est à l'intérieur Portée d'un pion d’objectif que vous contrôlez, vous pouvez relancer le jet de Blessure à la place.</characteristic>
           </characteristics>
         </profile>
         <profile id="9c46-e189-463c-266e" name="Sentinel Storm" hidden="false" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities">
           <characteristics>
-            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Une fois par bataille, dans votre phase de Tir, après que l'unité ait tiré, elle peut tirer à nouveau.</characteristic>
+            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Une fois par bataille, dans votre phase de Tir, après que l'unité a tiré, il peut tirer à nouveau.</characteristic>
           </characteristics>
         </profile>
       </profiles>
@@ -1231,12 +1231,12 @@
       <profiles>
         <profile id="8792-7fc7-692e-9a57" name="Resolute Will" hidden="false" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities">
           <characteristics>
-            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Alors qu'un CHARACTER dirige cette unité, chaque fois qu'une attaque cible cette unité, si la caractéristique de Force de cette attaque est supérieure à la caractéristique d’Endurance de cette unité, Soustrayez 1 du jet de Blessure.</characteristic>
+            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Alors qu'une CHARACTER dirige cette unité, chaque fois qu'une attaque cible cette unité, si la caractéristique de Force de cette attaque est supérieure à la caractéristique d’Endurance de cette unité, Soustrayez 1 du jet de Blessure.</characteristic>
           </characteristics>
         </profile>
         <profile id="a696-cfc6-e27a-97ce" name="Living Fortress" hidden="false" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities">
           <characteristics>
-            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Une fois par bataille, au début de n'importe quelle phase, cette unité peut utiliser cette aptitude. Si c'est le cas, jusqu'à la fin de la phase, les figurines de cette unité ont la aptitude Insensible à la douleur 4+.</characteristic>
+            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Une fois par bataille, au début de toute phase, cette unité peut utiliser cette aptitude. Si c'est le cas, Jusqu’à la fin de la phase, les figurines de cette unité ont l’aptitude Insensible à la douleur 4+.</characteristic>
           </characteristics>
         </profile>
         <profile id="41a1-a4d8-a138-c3b7" name="Custodian Warden" hidden="false" typeId="c547-1836-d8a-ff4f" typeName="Unit">
@@ -1456,7 +1456,7 @@
                   <profiles>
                     <profile name="Vexilla" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="957b-3814-759a-a6f9">
                       <characteristics>
-                        <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Ajoutez 1 à la caractéristique de Contrôle d’Objectif des figurines de l’unité du porteur.</characteristic>
+                        <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Ajoutez 1 à l'unité caractéristique de Contrôle d’Objectif de figurines dans le porteurs.</characteristic>
                       </characteristics>
                     </profile>
                   </profiles>
@@ -1575,12 +1575,12 @@
         </profile>
         <profile id="dea5-7d20-9057-895b" name="Seeker's Instincts" hidden="false" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities">
           <characteristics>
-            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Pendant que cette figurine mène une unité, ajoutez 2" à la caractéristique de mouvement des figurines de cette unité et 2 aux jets d’Avance et de Charge effectués pour cette unité.</characteristic>
+            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Pendant que cette figurine mène une unité, ajoutez 2" à la caractéristique de mouvement des figurines de cette unité et ajoutez 2 à Advance et jets de Charge de cette unité.</characteristic>
           </characteristics>
         </profile>
         <profile id="ffb8-5424-36a5-f9da" name="Corner the Quarry" hidden="false" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities">
           <characteristics>
-            <characteristic name="Description" id="d1fb-e03f-4f50-6f" hidden="false" typeId="9b8f-694b-e5e-b573">Chaque fois qu'une unité ennemie (à l'exclusion de MONSTERS et VEHICLES) qui se trouve à l'intérieur de la Portée d’Engagement de l'unité de cette figurine Bat en Retraite, tous les figurines de cette unité ennemie doivent passer un test de fuite désespérée. Lorsque vous faites cela, si cette unité ennemie est Ébranlée, Soustrayez 1 de chacun de ces tests.</characteristic>
+            <characteristic name="Description" id="d1fb-e03f-4f50-6f" hidden="false" typeId="9b8f-694b-e5e-b573">Chaque fois qu’une unité ennemie (à l’exclusion des MONSTERS et des VEHICLES) à Portée d’Engagement de l’unité de cette figurine Bat en Retraite, toutes les figurines de cette unité ennemie doivent effectuer un test de Fuite Désespérée. Ce faisant, si cette unité ennemie est Ébranlée, soustrayez 1 à chacun de ces tests.</characteristic>
           </characteristics>
         </profile>
       </profiles>
@@ -1942,7 +1942,7 @@
       <profiles>
         <profile id="34ce-359c-4fc1-da0b" name="Purity of Execution" hidden="false" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities">
           <characteristics>
-            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Chaque fois qu'une figurine dans cette unité effectue une attaque de tir qui cible une unité Psyker, cette attaque a les capacités [Précision] et [Blessures dévastatrices].</characteristic>
+            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Chaque fois qu'une figurine dans cette unité fait une attaque de tir qui cible une unité Psyker, cette attaque a les aptitudes [Précision] et [Blessures dévastatrices].</characteristic>
           </characteristics>
         </profile>
       </profiles>
@@ -2138,7 +2138,7 @@
         </profile>
         <profile id="e6a6-1d13-3027-3fce" name="Master of the Stances" hidden="false" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities">
           <characteristics>
-            <characteristic name="Description" id="1818-cb1f-4015-5684" hidden="false" typeId="9b8f-694b-e5e-b573">Une fois par bataille, lorsque l'unité de cette figurine est sélectionnée pour combattre, elle peut utiliser cette aptitude. Si c'est le cas, jusqu'à ce que la bataille soit résolue, les deux stances de Ka'tah sont actives pour cette unité, au lieu d'une seule.</characteristic>
+            <characteristic name="Description" id="1818-cb1f-4015-5684" hidden="false" typeId="9b8f-694b-e5e-b573">Une fois par bataille, quand l'unité de cette figurine est sélectionnée pour combattre, il peut utiliser cette aptitude. Si c'est le cas, jusqu'à ce que ce combat soit résolu, les deux Stances Ka'tah sont actives pour cette unité, au lieu de seulement un.</characteristic>
           </characteristics>
         </profile>
         <profile id="de62-c023-6540-2206" name="Meneur" hidden="false" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities">
@@ -2513,7 +2513,7 @@
         </profile>
         <profile id="ec4f-845a-63a9-62fb" name="Auramite and Adamantite" hidden="false" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities">
           <characteristics>
-            <characteristic name="Description" id="9ab5-b6bd-4057-577d" hidden="false" typeId="9b8f-694b-e5e-b573">Une fois par bataille, au début de n'importe quelle phase, cette figurine peut utiliser cette aptitude. Si c'est le cas, jusqu'à la fin de la phase, chaque fois qu'une attaque est attribuée à cette figurine, modifiez la caractéristique Dégât de cette attaque à 1.</characteristic>
+            <characteristic name="Description" id="9ab5-b6bd-4057-577d" hidden="false" typeId="9b8f-694b-e5e-b573">Une fois par bataille, au début de toute phase, cette figurine peut utiliser cette aptitude. Si c'est le cas, Jusqu’à la fin de la phase, chaque fois qu'une attaque est attribuée à cette figurine, changez la caractéristique de Dégâts de cette attaque à 1.</characteristic>
           </characteristics>
         </profile>
       </profiles>
@@ -2742,7 +2742,7 @@
         </profile>
         <profile id="df6a-c9a7-bfc1-5cf9" name="Sweeping Advance" hidden="false" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities">
           <characteristics>
-            <characteristic name="Description" id="1390-44de-79be-9c9e" hidden="false" typeId="9b8f-694b-e5e-b573">Une fois par bataille, à la fin de la phase de Combat, si l'unité de cette figurine a combattu cette phase, si elle est à l'intérieur de la Portée d’Engagement d'une ou plusieurs unités ennemies, elle peut effectuer un mouvement Battre en Retraite ou, si elle n'est pas à l'intérieur de la Portée d’Engagement d'une ou plusieurs unités ennemies, elle peut effectuer un mouvement normal.</characteristic>
+            <characteristic name="Description" id="1390-44de-79be-9c9e" hidden="false" typeId="9b8f-694b-e5e-b573">Une fois par bataille, à la fin de la phase de Combat, si l’unité de cette figurine a combattu cette phase, si elle est à l'intérieur de Portée d’Engagement d'une ou plusieurs unités ennemies, elle peut faire un mouvement de Retraite ou, si elle n'est pas à l'intérieur de Portée d’Engagement d'une ou plusieurs unités ennemies, elle peut effectuer un mouvement Normal.</characteristic>
           </characteristics>
         </profile>
         <profile id="3560-b824-f02e-1e3b" name="Shield-Captain on Dawneagle Jetbike" hidden="false" typeId="c547-1836-d8a-ff4f" typeName="Unit">
@@ -2993,13 +2993,13 @@
         </profile>
         <profile id="7797-8174-31bb-6e9f" name="Captain-General" hidden="false" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities">
           <characteristics>
-            <characteristic name="Description" id="1086-6bc1-a07d-780d" hidden="false" typeId="9b8f-694b-e5e-b573">Pendant que cette figurine mène une unité, Chaque fois qu'une figurine de cette unité fait une attaque, vous pouvez ignorer n'importe ou tous les modificateurs de la caractéristique de Capacité de Tir de l'attaque. ou caractéristique de Capacité de Combat et/ou tous les modificateurs du jet de Touche.</characteristic>
+            <characteristic name="Description" id="1086-6bc1-a07d-780d" hidden="false" typeId="9b8f-694b-e5e-b573">Tant que cette figurine dirige une unité, chaque fois qu’une figurine de cette unité effectue une attaque, vous pouvez ignorer un ou tous les modificateurs à la caractéristique de Capacité de Tir ou à la caractéristique de Capacité de Combat de cette attaque et/ou tous les modificateurs au jet de Touche.</characteristic>
           </characteristics>
         </profile>
         <profile id="0d01-a562-a398-9775" name="Moment Shackle" hidden="false" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities">
           <characteristics>
-            <characteristic name="Description" id="6ce7-db1f-e8d-7489" hidden="false" typeId="9b8f-694b-e5e-b573">Une fois par bataille, au début de la phase de Combat, vous pouvez sélectionner l'un des éléments suivants pour entrer en vigueur jusqu'à la fin de la phase:
-■ L'arme de mêlée avec les Axe de cette figurine a une caractéristique d’Attaques de 12.
+            <characteristic name="Description" id="6ce7-db1f-e8d-7489" hidden="false" typeId="9b8f-694b-e5e-b573">Une fois par bataille, au début de la phase de Combat, vous pouvez sélectionner l’un des effets suivants, qui s’applique jusqu’à la fin de la phase :
+■ L’arme de mêlée Watcher's Axe de cette figurine a une caractéristique d’Attaques de 12.
 ■ Cette figurine a une sauvegarde invulnérable de 2+.</characteristic>
           </characteristics>
         </profile>
@@ -3113,12 +3113,12 @@
         </profile>
         <profile id="2397-a41d-fe9e-ed6d" name="Golden Laurels" hidden="false" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities">
           <characteristics>
-            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Alors que cette figurine mène une unité, chaque fois qu'une attaque de mêlée cible cette unité, aggrave la caractéristique de Pénétration d’Armure de cette attaque par 1.</characteristic>
+            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Alors que cette figurine est à la tête d'une unité, chaque fois qu'une attaque de mêlée cible cette unité, aggraver ce caractéristique de Pénétration d’Armure de cette attaque par 1.</characteristic>
           </characteristics>
         </profile>
         <profile id="f775-c5a7-e958-0496" name="Hero of Lion's Gate" hidden="false" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities">
           <characteristics>
-            <characteristic name="Description" id="8fcd-a063-298b-6b34" hidden="false" typeId="9b8f-694b-e5e-b573">Une fois par bataille, après avoir fait un jet de Touche, un jet de Blessure ou un jet de sauvegarde pour cette figurine, vous pouvez changer le résultat de ce roll à un 6 non modifié.</characteristic>
+            <characteristic name="Description" id="8fcd-a063-298b-6b34" hidden="false" typeId="9b8f-694b-e5e-b573">Une fois par bataille, après avoir fait un jet de Touche, jet de Blessure ou jet de sauvegarde pour cette figurine, vous pouvez modifier le résultat de ce jet à un 6 non modifié.</characteristic>
           </characteristics>
         </profile>
       </profiles>
@@ -3448,7 +3448,7 @@
         </profile>
         <profile id="2157-a06e-818d-5b71" name="Assault Ramp" hidden="false" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities">
           <characteristics>
-            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Chaque fois qu'une unité débarque de cette figurine après avoir effectué un déplacement normal, cette unité est toujours éligible à déclarer une charge à ce tour.</characteristic>
+            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Chaque fois qu'une unité débarque de cette figurine après avoir effectué un mouvement Normal, cette unité est toujours éligible à déclarer une charge à ce tour.</characteristic>
           </characteristics>
         </profile>
         <profile id="7ab4-e69c-6d26-8827" name="Damaged: 1-5 Wounds remaining" hidden="false" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities">
@@ -3767,12 +3767,12 @@
         </profile>
         <profile id="1203-8d21-0ebf-b3da" name="Turbo Boost" hidden="false" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities">
           <characteristics>
-            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Chaque fois que cette unité avance, ne faites pas un jet d’Avance. Au lieu de cela, jusqu'à la fin de la phase, ajoutez 6" à la caractéristique de mouvement des figurines de cette unité.</characteristic>
+            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Chaque fois que cette unité avance, ne faites pas un jet d’Avance. Au lieu de cela, Jusqu’à la fin de la phase, ajoutez 6" à la caractéristique de mouvement des figurines de cette unité.</characteristic>
           </characteristics>
         </profile>
         <profile id="9896-b356-2ad8-2fb9" name="Quicksilver Execution" hidden="false" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities">
           <characteristics>
-            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Une fois par combat, après que cette unité ait terminé un mouvement normal ou Advance, vous pouvez sélectionner une unité ennemi (à l'exclusion des unités MONSTER et VEHICLE) par-dessus laquelle cette unité s’est déplacée pendant ce mouvement, puis lancez un D6 pour chaque figurine de cette unité; pour chaque 2+, cette unité ennemi souffre de Blessures Mortelles 2.</characteristic>
+            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Une fois par bataille, après que cette unité ait terminé une normale ou mouvement d’Avance, vous pouvez sélectionner une unité ennemie (à l’exclusion de MONSTER et VEHICLE unités) par-dessus laquelle cette unité s’est déplacée au cours de ce mouvement, puis lancez un D6 pour chaque figurine dans cette unité; pour chaque 2+, que cette unité ennemie souffre 2 Blessures Mortelles.</characteristic>
           </characteristics>
         </profile>
       </profiles>
@@ -4026,7 +4026,7 @@
       <profiles>
         <profile id="ba73-e7d0-22ea-1c8f" name="Deft Parry" hidden="false" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities">
           <characteristics>
-            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Chaque fois qu'une attaque de mêlée cible cette unité, Soustrayez 1 de la jets de Touche.</characteristic>
+            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Chaque fois qu'une attaque de mêlée cible cette unité, Soustrayez 1 du jet de Touche.</characteristic>
           </characteristics>
         </profile>
       </profiles>
@@ -4250,7 +4250,7 @@
       <profiles>
         <profile id="6449-d735-2ac6-02b1" name="Sanctified Flames" hidden="false" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities">
           <characteristics>
-            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Dans votre phase de Tir, après que cette unité ait tiré, sélectionnez une unité ennemie qui a été touchée par une ou plusieurs de ces attaques. Cette unité doit passer un test d’Ébranlement.</characteristic>
+            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Durant votre phase de Tir, après que cette unité a tiré, sélectionnez une unité ennemie touchée par une ou plusieurs de ces attaques. Cette unité doit effectuer un test d’Ébranlement.</characteristic>
           </characteristics>
         </profile>
       </profiles>
@@ -4401,12 +4401,12 @@
       <profiles>
         <profile id="9ab1-2eb7-a100-ab90" name="Stand Vigil" hidden="false" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities">
           <characteristics>
-            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Chaque fois qu'une figurine dans cette unité fait une attaque, relancez un jet de Blessure de 1. Alors que cette unité est à la portée d'un marqueur objectif que vous contrôlez, vous pouvez relancer le jet de Blessure à la place.</characteristic>
+            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Chaque fois qu'une figurine dans cette unité fait une attaque, relancer est un jet de Blessure de 1. Alors que cette unité est à l'intérieur Portée d'un pion d’objectif que vous contrôlez, vous pouvez relancer le jet de Blessure à la place.</characteristic>
           </characteristics>
         </profile>
         <profile id="8b43-d041-22ff-b0a5" name="No Foe Shall Stand" hidden="false" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities">
           <characteristics>
-            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Une fois par bataille, au début de votre phase de Tir, cette unité peut utiliser cette aptitude. Si c'est le cas, jusqu'à la fin de la phase, les armes de tir équipées de figurines de cette unité ont les [Touches fatales] et [IGNORES COVER abilities].</characteristic>
+            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Une fois par bataille, au début de votre phase de Tir, cette unité peut utiliser cette aptitude. Si elle le fait, Jusqu’à la fin de la phase, armes de tir dont sont équipées les figurines de cette unité ont les aptitudes [Touches fatales] et [IGNORES COVER abilities].</characteristic>
           </characteristics>
         </profile>
       </profiles>
@@ -4630,12 +4630,12 @@
       <profiles>
         <profile id="85d7-f209-acae-3353" name="Disintegration Beams" hidden="false" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities">
           <characteristics>
-            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Une fois par bataille, au début de votre phase de Tir, cette unité peut utiliser cette aptitude. Si c'est le cas, jusqu'à la fin de la phase, les armes de tir équipées de figurines dans cette unité ont la aptitude Blessures dévastatrices.</characteristic>
+            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Une fois par bataille, au début de votre phase de Tir, cette unité peut utiliser cette aptitude. Si c'est le cas, Jusqu’à la fin de la phase, armes de tir dont sont équipées les figurines de cette unité ont l’aptitude Blessures dévastatrices.</characteristic>
           </characteristics>
         </profile>
         <profile id="9ce3-c1f0-ec93-d409" name="Saturation Volleys" hidden="false" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities">
           <characteristics>
-            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Dans votre phase de Tir, après que cette unité ait tiré, sélectionnez une unité ennemie (à l'exclusion de MONSTERS et VEHICLES) touchée par une ou plusieurs de ces attaques. Jusqu'au début de votre prochain tour, pendant que cette unité est sur le champ de bataille. cette unité ennemie est supprimée. Tant qu’une unité est supprimée, chaque fois qu'une figurine dans cette unité fait une attaque, Soustrayez 1 du jet de Touche.</characteristic>
+            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Durant votre phase de Tir, après que cette unité a tiré, sélectionnez une unité ennemie (à l’exclusion des MONSTERS et VEHICLES) touchée par une ou plusieurs de ces attaques. Jusqu’au début de votre prochain tour, tant que cette unité est sur le champ de bataille, cette unité ennemie est neutralisée. Tant qu’une unité est neutralisée, chaque fois qu’une figurine de cette unité effectue une attaque, soustrayez 1 au jet de Touche.</characteristic>
           </characteristics>
         </profile>
       </profiles>
@@ -4814,12 +4814,12 @@
       <profiles>
         <profile id="1d2c-eda9-a400-f075" name="Heavy Assault Infantry" hidden="false" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities">
           <characteristics>
-            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Chaque fois qu'une figurine dans cette unité effectue une attaque de tir qui cible la cible admissible la plus proche, relancez un jet de Blessure de 1.</characteristic>
+            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Chaque fois qu’une figurine de cette unité effectue une attaque de tir qui cible la cible éligible la plus proche, relancez un jet de Blessure de 1.</characteristic>
           </characteristics>
         </profile>
         <profile id="cf57-6e91-6435-b3fd" name="From Golden Light" hidden="false" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities">
           <characteristics>
-            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Une fois par bataille, à la fin du tour de votre adversaire, si cette unité n'est pas dans la Portée d’Engagement d'une ou plusieurs unités ennemies, vous pouvez la retirer du champ de bataille. Dans l'étape de renfort de votre prochaine phase de Mouvement, mettez-le n'importe où sur le champ de bataille qui est plus que 9" horizontalement loin de tous les figurines ennemies.</characteristic>
+            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Une fois par bataille, à la fin du tour de votre adversaire, si cette unité n’est pas à Portée d’Engagement d’une ou plusieurs unités ennemies, vous pouvez la retirer du champ de bataille. À l’étape des Renforts de votre prochaine phase de Mouvement, placez-la n’importe où sur le champ de bataille à plus de 9" horizontalement de toute figurine ennemie.</characteristic>
           </characteristics>
         </profile>
         <profile id="300d-e6da-b073-49ce" name="Aquilon Custodian" hidden="false" typeId="c547-1836-d8a-ff4f" typeName="Unit">
@@ -5049,12 +5049,12 @@
       <profiles>
         <profile id="8733-1b5b-a5b8-deaf" name="Implacable Vanguard" hidden="false" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities">
           <characteristics>
-            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Une fois par bataille, dans votre phase de Tir, après que cette unité ait tiré, si elle n'est pas dans la Portée d’Engagement d'une ou plusieurs unités ennemies, elle peut effectuer un mouvement normal jusqu'à 6". Si c'est le cas, jusqu'à la fin du tour, cette unité n'est pas éligible pour déclarer une charge.</characteristic>
+            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Une fois par bataille, durant votre phase de Tir, après que cette unité a tiré, si elle n’est pas à Portée d’Engagement d’une ou plusieurs unités ennemies, elle peut effectuer un mouvement Normal de jusqu’à 6". Si elle le fait, jusqu’à la fin du tour, cette unité n’est pas éligible pour déclarer une charge.</characteristic>
           </characteristics>
         </profile>
         <profile id="4d74-67a5-1b1f-16ce" name="Turbo Boost" hidden="false" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities">
           <characteristics>
-            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Chaque fois que cette unité avance, ne faites pas un jet d’Avance. Au lieu de cela, jusqu'à la fin de la phase, ajoutez 6" à la caractéristique de mouvement des figurines de cette unité.</characteristic>
+            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Chaque fois que cette unité avance, ne faites pas un jet d’Avance. Au lieu de cela, Jusqu’à la fin de la phase, ajoutez 6" à la caractéristique de mouvement des figurines de cette unité.</characteristic>
           </characteristics>
         </profile>
         <profile id="4709-be42-0b1d-0b33" name="Agamatus Custodians" hidden="false" typeId="c547-1836-d8a-ff4f" typeName="Unit">
@@ -5354,7 +5354,7 @@
         </profile>
         <profile id="95ed-fba0-2edf-540c" name="Swooping Dive" hidden="false" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities">
           <characteristics>
-            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Une fois par bataille, vous pouvez cibler cette unité avec le Stratagème Rapid Ingress pour 0 CP, et vous pouvez le faire même si vous avez déjà ciblé une autre unité avec ce Stratagème cette phase.</characteristic>
+            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Une fois par bataille, vous pouvez cibler cette unité avec le Rapid Ingress Stratagème pour 0 CP, et vous pouvez le faire même si vous avez déjà ciblé une unité différente avec ce Stratagème cette phase.</characteristic>
           </characteristics>
         </profile>
       </profiles>
@@ -5494,7 +5494,7 @@
                     </profile>
                     <profile id="cfa9-7475-9b27-f8f7" name="Tarsis Buckler" hidden="false" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities">
                       <characteristics>
-                        <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Le porteur possède une caractéristique de PV de 4.</characteristic>
+                        <characteristic name="Description" typeId="9b8f-694b-e5e-b573">le porteur a une caractéristique de PV de 4.</characteristic>
                       </characteristics>
                     </profile>
                   </profiles>
@@ -5601,7 +5601,7 @@
         </profile>
         <profile id="50d4-136a-4e2a-d234" name="Galatus Shield" hidden="false" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities">
           <characteristics>
-            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Chaque fois qu'une attaque de mêlée cible cette figurine soustrait 1 du jet de Blessure.</characteristic>
+            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Chaque fois qu'une attaque de mêlée cible cette figurine, Soustrayez le 1 du jet de Blessure.</characteristic>
           </characteristics>
         </profile>
       </profiles>
@@ -5778,7 +5778,7 @@
         </profile>
         <profile id="b63c-74b0-7099-b509" name="Dread Foe" hidden="false" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities">
           <characteristics>
-            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Chaque fois que cette figurine est sélectionné pour combattre, vous pouvez sélectionner une unité ennemi dans la Portée d’Engagement de celui-ci et lancez un D6, ajoutant 2 au résultat si cette figurine a fait un effectuer un mouvement de Charge ce tour: sur 4-5, cette unité ennemi subit D3 Blessures Mortelles; sur une 6+, cette unité ennemi subit 3 Blessures Mortelles.</characteristic>
+            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Chaque fois que cette figurine est sélectionnée pour combattre, vous pouvez sélectionner une unité ennemie à Portée d’Engagement de cette figurine. Lancez un D6, en ajoutant 2 au résultat si cette figurine a effectué un mouvement de Charge durant ce tour : sur 4-5, cette unité ennemie subit D3 blessures mortelles ; sur 6+, elle subit 3 blessures mortelles.</characteristic>
           </characteristics>
         </profile>
       </profiles>
@@ -6041,7 +6041,7 @@
         </profile>
         <profile id="7636-6089-5b7c-d80a" name="Merciless Hunter" hidden="false" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities">
           <characteristics>
-            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Dans votre phase de Tir, chaque fois que cette figurine effectue une attaque qui cible une unité ennemi qui est en dessous de son Demi-effectif, ajoutez 1 au jet de Blessure.</characteristic>
+            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Dans votre phase de Tir, chaque fois que cette figurine effectue une attaque visant une unité ennemie qui est En Dessous de son Demi-effectif, ajoutez 1 au jet de Blessure.</characteristic>
           </characteristics>
         </profile>
       </profiles>
@@ -6209,7 +6209,7 @@
         </profile>
         <profile id="60a4-507e-da36-683c" name="Advanced Firepower" hidden="false" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities">
           <characteristics>
-            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Chaque fois que cette figurine effectue une attaque avec son canon accélérateur Twin iliastus qui cible une unité ennemi (à l'exclusion de MONSTERS et VEHICLES), cette attaque a la aptitude [Touches fatales]. Chaque fois que cette figurine fait une attaque avec son canon à feu Twin arachnus Lourd qui cible une unité ennemie MONSTER ou VEHICLE, cette attaque a la aptitude [Touches fatales].</characteristic>
+            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Chaque fois que cette figurine fait une attaque avec son canon accélérateur Twin iliastus qui cible une unité ennemie (à l’exclusion de MONSTERS et VEHICLES), cette attaque a l’aptitude [Touches fatales]. Chaque fois que cette figurine effectue une attaque avec son canon à feu Twin arachnus Lourd qui cible une unité ennemie MONSTER ou VEHICLE, cette attaque a l’aptitude [Touches fatales].</characteristic>
           </characteristics>
         </profile>
         <profile id="6070-91c7-6463-31cd" name="Damaged: 1-5 wounds remaining" hidden="false" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities">
@@ -6441,7 +6441,7 @@
         </profile>
         <profile id="47d3-771a-7668-fd15" name="Guardian Eternal" hidden="false" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities">
           <characteristics>
-            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Chaque fois qu'une attaque est attribuée à cette figurine, Soustrayez 1 de la caractéristique Dégât de cette attaque.</characteristic>
+            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Chaque fois qu'une attaque est attribuée à cette figurine, Soustrayez 1 de la caractéristique de Dégâts de cette attaque.</characteristic>
           </characteristics>
         </profile>
         <profile id="c0e2-de2c-19fb-6a94" name="Damaged: 1-4 wounds remaining" hidden="false" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities">
@@ -6451,7 +6451,7 @@
         </profile>
         <profile name="Devoted to Destruction" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="true" id="bad7-0704-956b-29e3">
           <characteristics>
-            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Si cette figurine est équipé d'armes 2 Telemon caestus en plus de son arme de pied blindé, ajoutez 2 aux caractéristique d’Attaques de ces armes Telemon caestus.</characteristic>
+            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Si cette figurine est équipée de 2 armes Telemon caestus en plus de son arme armoured feet, ajoutez 2 à la caractéristique d’Attaques de ces armes Telemon caestus.</characteristic>
           </characteristics>
         </profile>
       </profiles>
@@ -6767,7 +6767,7 @@
         </profile>
         <profile id="a331-3792-d689-fd1b" name="Fire Support" hidden="false" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities">
           <characteristics>
-            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Dans votre phase de Tir, après que cette figurine ait tiré, sélectionnez une unité ennemie touchée par une ou plusieurs de ces attaques. Jusqu'à la fin de la phase, à chaque fois qu'une figurine amie qui a débarqué de ce ^^Transport^^ à ce tour fait une attaque qui cible cette unité ennemie, vous pouvez relancer le jet de Blessure.</characteristic>
+            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Durant votre phase de Tir, après que cette figurine a tiré, sélectionnez une unité ennemie touchée par une ou plusieurs de ces attaques. Jusqu’à la fin de la phase, chaque fois qu’une figurine amie qui a débarqué de ce ^^Transport^^ à ce tour effectue une attaque qui cible cette unité ennemie, vous pouvez relancer le jet de Blessure.</characteristic>
           </characteristics>
         </profile>
         <profile id="d4ab-7165-234f-e7fc" name="Damaged: 1-5 wounds remaining" hidden="false" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities">
@@ -7200,7 +7200,7 @@
         </profile>
         <profile id="24b5-43b5-1537-2bd2" name="Infernus Firebomb" hidden="false" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities">
           <characteristics>
-            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Chaque fois que cette figurine termine un mouvement normal, vous pouvez sélectionner une unité ennemie par-dessus laquelle cette figurine s’est déplacée pendant ce mouvement. Jusqu'à la fin du tour, les figurines de cette unité ne peuvent pas bénéficier du le Bénéfice du Couvert. En outre, lancez un D6 pour chaque figurine de cette unité: pour chaque 6, cette unité subit une blessure mortelle 1.</characteristic>
+            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Chaque fois que cette figurine termine un mouvement Normal, vous pouvez sélectionner une unité ennemie par-dessus laquelle cette figurine s’est déplacée pendant ce mouvement. Jusqu'à la fin du tour, les figurines de cette unité ne peuvent pas avoir le Bénéfice du Couvert. En outre, lancez un D6 pour chaque figurine de cette unité: pour chaque 6, cette unité souffre de 1 blessure mortelle.</characteristic>
           </characteristics>
         </profile>
         <profile id="2eb0-f0e2-258d-8fbb" name="Damaged: 1-7 wounds remaining" hidden="false" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities">
@@ -7406,22 +7406,22 @@
             <selectionEntry type="upgrade" import="true" name="Shield Host" hidden="false" id="70eb-2978-3ad5-5901" sortIndex="4">
               <rules>
                 <rule name="Martial Mastery" hidden="false" id="d6d9-f1f1-2687-7b51">
-                  <description>Au début de la ronde de bataille, vous pouvez sélectionner l'un des points de balle ci-dessous. Si vous le faites, jusqu'au début du prochain tour de bataille, les effets de ce point de balle s'appliquent.
+                  <description>Au début du round de bataille, vous pouvez sélectionner l’un des points ci-dessous. Si vous le faites, jusqu’au début du prochain round de bataille, les effets de ce point s’appliquent.
 
-- Chaque fois qu'une figurine ^^**Adeptus Custodes^^** de votre armée avec la aptitude Martial Ka'tah effectue une attaque de mêlée, un jet d'attaque non modifié réussi de 5+ marque un Hit critique.
-- améliorez la caractéristique de Pénétration d’Armure des armes de mêlée dont sont équipées ^^**Adeptus Custodes^^** figurines de votre armée avec l’ Martial Ka'tah aptitude de 1.</description>
+- Chaque fois qu’une figurine ^^**Adeptus Custodes^^** de votre armée dotée de l’aptitude Martial Ka'tah effectue une attaque de mêlée, un jet d’attaque non modifié réussi de 5+ produit une Touche Critique.
+- Améliorez de 1 la caractéristique de Pénétration d’Armure des armes de mêlée dont sont équipées les figurines ^^**Adeptus Custodes^^** de votre armée dotées de l’aptitude Martial Ka'tah.</description>
                 </rule>
               </rules>
             </selectionEntry>
             <selectionEntry type="upgrade" import="true" name="Talons of the Emperor" hidden="false" id="757a-b5ed-a43f-3cdd" sortIndex="6">
               <rules>
                 <rule name="Revered Companions" id="a02c-6c3c-b9f4-4ef" hidden="false">
-                  <description>^^**Anathema Psykana^^** Unités de votre armée acquièrent la aptitude suivante:
-**Null Aegis (Aura)**: Alors qu'une unité ^^**Adeptus Custodes^^** se trouve à 6" ou moins de cette unité, les figurines de cette unité ont la aptitude Insensible à la douleur 5+ contre les attaques Psychiques et Blessures Mortelles.
+                  <description>Les unités ^^**Anathema Psykana^^** de votre armée gagnent l’aptitude suivante :
+**Null Aegis (Aura)**: Tant qu’une unité ^^**Adeptus Custodes^^** est à 6" ou moins de cette unité, les figurines de cette unité ont l’aptitude Insensible à la douleur 5+ contre les Attaques Psychiques et les blessures mortelles.
 
 
-Toutes les autres unités **^^Adeptus Custodes**^^ de votre armée acquièrent la aptitude suivante:
-**Deadly Unity (Aura)**: Alors qu'une unité **^Anathema Psykana^^** se trouve à 6" ou moins de cette unité, chaque fois qu'une figurine dans cette unité ^^**Anathema Psykana^^** effectue une attaque, ajoutez 1 au jet de Touche.</description>
+Toutes les autres unités **^^Adeptus Custodes**^^ de votre armée gagnent l’aptitude suivante :
+**Deadly Unity (Aura)**: Tant qu’une unité **^Anathema Psykana^^** est à 6" ou moins de cette unité, chaque fois qu’une figurine de cette unité ^^**Anathema Psykana^^** effectue une attaque, ajoutez 1 au jet de Touche.</description>
                 </rule>
               </rules>
             </selectionEntry>
@@ -7435,7 +7435,7 @@ Toutes les autres unités **^^Adeptus Custodes**^^ de votre armée acquièrent l
             <selectionEntry type="upgrade" import="true" name="Auric Champions" hidden="false" id="a36b-bb22-1a15-2a48" sortIndex="1">
               <rules>
                 <rule name="Assemblage of Might" id="9eb2-2cdd-3df7-a94e" hidden="false">
-                  <description>Au début de votre phase de Commandement, sélectionnez une unité de l'armée de votre adversaire. Jusqu'au début de votre prochaine phase de Commandement, chaque fois qu'une figurine dans une unité ^^**Adeptus Custodes Character^^** de votre armée fait une attaque qui cible cette unité ennemie, ajoutez 1 au jet de Blessure.</description>
+                  <description>Au début de votre phase de Commandement, sélectionnez une unité de l'armée de votre adversaire. Jusqu'au début de votre prochaine phase de Commandement, chaque fois qu'une figurine dans une unité ^^**Adeptus Custodes Character^^** de votre armée fait une attaque qui cible que cette unité ennemie, Ajoutez 1 au jet de Blessure.</description>
                 </rule>
               </rules>
             </selectionEntry>
@@ -7449,7 +7449,7 @@ Toutes les autres unités **^^Adeptus Custodes**^^ de votre armée acquièrent l
 ■ Tant qu’une unité ^^**Adeptus Custodes Vehicle^^** de votre armée est en dessous de son Demi-effectif, chaque fois qu’une figurine de cette unité effectue une attaque, relancez un jet de Touche de 1 et un jet de Blessure de 1.</description>
                 </rule>
                 <rule name="Moritoi Ancients" id="2f52-4efc-7a76-73eb" hidden="false">
-                  <description>Ajoutez 2" à la caractéristique de mouvement des figurines dans les unités ^^**Adeptus Custodes Walker^^** de votre armée et ajoutez 1 aux jets d’Avance et de Charge faits pour ces unités.</description>
+                  <description>Ajoutez 2" à la caractéristique de mouvement de figurines dans les unités ^^**Adeptus Custodes Walker^^** de votre armée et ajoutez 1 à Advance et jets de Charge effectués pour ces unités.</description>
                 </rule>
               </rules>
               <modifiers>
@@ -7847,7 +7847,7 @@ Toutes les autres unités **^^Adeptus Custodes**^^ de votre armée acquièrent l
         </profile>
         <profile name="Daughter of the Abyss" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="8c41-4545-b762-7031">
           <characteristics>
-            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">cette figurine a la aptitude Insensible à la douleur 3+ contre les attaques Psychique et les Blessures Mortelles.</characteristic>
+            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">cette figurine a l’aptitude Insensible à la douleur 3+ contre les attaques Psychiques et Blessures Mortelles.</characteristic>
           </characteristics>
         </profile>
       </profiles>
@@ -8131,7 +8131,7 @@ Toutes les autres unités **^^Adeptus Custodes**^^ de votre armée acquièrent l
           <profiles>
             <profile id="8c82-5364-20d8-6dd6" name="Raptor Blade" hidden="false" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities">
               <characteristics>
-                <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Ajoutez 1 aux caractéristiques d'attaque, de force et de dégâts des armes de mêlée du porteur. Pendant que le porteur est à portée d'attaque d'une ou de plusieurs unités ennemies **^^Psyker^^** qui sont Ébranlées, ajoutez 2 aux caractéristiques d'attaques, de force et de Dégâts des armes de mêlée du porteur à la place.</characteristic>
+                <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Ajoutez 1 aux caractéristiques d’Attaques, de Force et de Dégâts des armes de mêlée du porteur. Tant que le porteur est à Portée d’Engagement d’une ou plusieurs unités **^^Psyker^^** ennemies qui sont Ébranlées, ajoutez 2 à ces caractéristiques à la place.</characteristic>
               </characteristics>
             </profile>
           </profiles>
@@ -8184,7 +8184,7 @@ Toutes les autres unités **^^Adeptus Custodes**^^ de votre armée acquièrent l
           <profiles>
             <profile id="4d4a-a2b5-f20e-d74b" name="Castellan's Mark" hidden="false" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities">
               <characteristics>
-                <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Après que les deux joueurs aient déployé leurs armées, vous pouvez sélectionner jusqu'à deux unités ADEPTUS CUSTODES de votre armée (à l'exclusion des unités ANATHEMA PSYKANA) et redéployer toutes ces unités. Lorsqu'ils le font, l'une ou l'autre de ces unités peut être placée dans des réserves stratégiques, quelle que soit la manière dont les unités sont déjà dans des réserves stratégiques.</characteristic>
+                <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Après que les deux joueurs aient déployé leurs armées, vous pouvez sélectionner jusqu'à deux unités ADEPTUS CUSTODES de votre armée (à l’exclusion de ANATHEMA PSYKANA unités) et redéployer toutes ces unités. Lorsqu'ils le font, l'une ou l'autre de ces unités peut être placée dans Réserves Stratégiques, quelle que soit la façon dont les unités sont déjà dans Réserves Stratégiques.</characteristic>
               </characteristics>
             </profile>
           </profiles>
@@ -8218,7 +8218,7 @@ Toutes les autres unités **^^Adeptus Custodes**^^ de votre armée acquièrent l
           <profiles>
             <profile id="690b-3e5a-80a2-3c33" name="Panoptispex" hidden="false" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities">
               <characteristics>
-                <characteristic name="Description" id="3200-e1f0-8e7b-d515" hidden="false" typeId="9b8f-694b-e5e-b573">Pendant que le porteur mène une unité, les armes de tir équipées de figurines de cette unité ont la aptitude [Ignore le couvert].</characteristic>
+                <characteristic name="Description" id="3200-e1f0-8e7b-d515" hidden="false" typeId="9b8f-694b-e5e-b573">Tant que le porteur mène une unité, les armes de tir dont sont équipées les figurines de cette unité ont l’aptitude [Ignore le couvert].</characteristic>
               </characteristics>
             </profile>
           </profiles>
@@ -8255,7 +8255,7 @@ Toutes les autres unités **^^Adeptus Custodes**^^ de votre armée acquièrent l
           <profiles>
             <profile id="cb8c-5cc8-a3f2-30e1" name="From the Hall of Armouries" hidden="false" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities">
               <characteristics>
-                <characteristic name="Description" id="be91-789e-e9b9-35d0" hidden="false" typeId="9b8f-694b-e5e-b573">Ajoutez 1 aux caractéristiques de force et de Dégâts des armes de mêlée du porteur.</characteristic>
+                <characteristic name="Description" id="be91-789e-e9b9-35d0" hidden="false" typeId="9b8f-694b-e5e-b573">Ajoutez 1 aux caractéristiques de Force et de Dégâts des armes de mêlée du porteur.</characteristic>
               </characteristics>
             </profile>
           </profiles>
@@ -8302,7 +8302,7 @@ Toutes les autres unités **^^Adeptus Custodes**^^ de votre armée acquièrent l
           <profiles>
             <profile name="Radiant Mantle" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="1500-653e-b902-c024">
               <characteristics>
-                <characteristic name="Description" id="6827-f364-de6-a885" hidden="false" typeId="9b8f-694b-e5e-b573">Chaque fois qu'une attaque cible l'unité du porteur, si la figurine d'attaque se trouve à 12" ou moins, Soustrayez 1 du jet de Touche.</characteristic>
+                <characteristic name="Description" id="6827-f364-de6-a885" hidden="false" typeId="9b8f-694b-e5e-b573">Chaque fois qu'une attaque cible l’unité du porteur, si l'attaquant figurine est à 12" ou moins, Soustrayez 1 du jet de Touche.</characteristic>
               </characteristics>
             </profile>
           </profiles>
@@ -8329,7 +8329,7 @@ Toutes les autres unités **^^Adeptus Custodes**^^ de votre armée acquièrent l
           <profiles>
             <profile name="Aegis Projector" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="ba26-b8dd-9fb6-ca44">
               <characteristics>
-                <characteristic name="Description" id="de6c-54cf-fcea-c0f4" hidden="false" typeId="9b8f-694b-e5e-b573">Une fois par tour, la première fois qu'un jet de sauvegarde échoue pour l'unité du porteur, modifiez la caractéristique de Dégât de cette attaque à 0.</characteristic>
+                <characteristic name="Description" id="de6c-54cf-fcea-c0f4" hidden="false" typeId="9b8f-694b-e5e-b573">Une fois par tour, la première fois qu'un jet de sauvegarde échoue pour l’unité du porteur, changez la caractéristique de Dégâts de cette attaque à 0.</characteristic>
               </characteristics>
             </profile>
           </profiles>
@@ -8383,7 +8383,7 @@ Toutes les autres unités **^^Adeptus Custodes**^^ de votre armée acquièrent l
           <profiles>
             <profile name="Champion of the Imperium" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="aacf-9d19-3f49-2a7a">
               <characteristics>
-                <characteristic name="Description" typeId="9b8f-694b-e5e-b573">La portée de la aptitude Null Aegis du porteur (voir à gauche) est augmentée à 9".</characteristic>
+                <characteristic name="Description" typeId="9b8f-694b-e5e-b573">l’aptitude Portée du porteur Null Aegis ou Unité Mortale (voir à gauche) est augmenté à 9".</characteristic>
               </characteristics>
             </profile>
           </profiles>
@@ -8448,7 +8448,7 @@ Toutes les autres unités **^^Adeptus Custodes**^^ de votre armée acquièrent l
           <profiles>
             <profile name="Enhanced Voidsheen Cloak" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="bc7d-a1eb-3a91-608f">
               <characteristics>
-                <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Chaque fois qu'une attaque est attribuée au porteur, Soustrayez 1 de la caractéristique Dégât de cette attaque. Si cette attaque a été effectuée par une figurine **^^Psyker^^** ou Ébranlé, changez la caractéristique de Dégâts de cette attaque à 1 à la place.</characteristic>
+                <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Chaque fois qu’une attaque est allouée au porteur, soustrayez 1 à la caractéristique de Dégâts de cette attaque. Si cette attaque a été effectuée par une figurine **^^Psyker^^** ou Ébranlée, remplacez la caractéristique de Dégâts de cette attaque par 1 à la place.</characteristic>
               </characteristics>
             </profile>
           </profiles>
@@ -8482,7 +8482,7 @@ Toutes les autres unités **^^Adeptus Custodes**^^ de votre armée acquièrent l
           <profiles>
             <profile name="Huntress' Eye" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="6e2f-3fa3-dbf1-9c39">
               <characteristics>
-                <characteristic name="Description" id="3c39-a5ca-3629-5828" hidden="false" typeId="9b8f-694b-e5e-b573">Dans votre phase de Commandement, sélectionnez une unité ennemi à 12" ou moins du porteur. Cette unité doit passer un test d’Ébranlement.</characteristic>
+                <characteristic name="Description" id="3c39-a5ca-3629-5828" hidden="false" typeId="9b8f-694b-e5e-b573">Durant votre phase de Commandement, sélectionnez une unité ennemie à 12" ou moins du porteur. Cette unité doit effectuer un test d’Ébranlement.</characteristic>
               </characteristics>
             </profile>
           </profiles>
@@ -8516,7 +8516,7 @@ Toutes les autres unités **^^Adeptus Custodes**^^ de votre armée acquièrent l
           <profiles>
             <profile name="Oblivion Knight" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="79-a1ca-49b1-29b5">
               <characteristics>
-                <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Pendant que le porteur mène une unité, chaque fois qu'une figurine dans cette unité fait une attaque, ajoutez 1 au jet de Touche. Si cette attaque visait une unité ennemie **^^Psyker^^**, ajoutez aussi 1 au jet de Blessure.</characteristic>
+                <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Alors que le porteur mène une unité, chaque fois qu'une figurine dans cette unité fait une attaque, ajoutez 1 au jet de Touche. Si cette attaque visait une unité ennemie **^^Psyker^^**, ajoutez 1 au jet de Blessure aussi bien.</characteristic>
               </characteristics>
             </profile>
           </profiles>
@@ -8550,7 +8550,7 @@ Toutes les autres unités **^^Adeptus Custodes**^^ de votre armée acquièrent l
           <profiles>
             <profile name="Blade Imperator" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="a57f-54ef-d2d7-805b">
               <characteristics>
-                <characteristic name="Description" id="f346-b5e4-eeb-895a" hidden="false" typeId="9b8f-694b-e5e-b573">Chaque fois que l'unité du porteur termine un mouvement Charge, sélectionnez une unité ennemi dans la Portée d’Engagement du porteur et lancez un D6: sur une 4+, cette unité ennemi subit D3 Blessures Mortelles. Une fois par bataille, lorsque l'unité du porteur termine un mouvement Charge, toutes les unités ennemies à 6" ou moins du porteur doivent passer un test d’Ébranlement.</characteristic>
+                <characteristic name="Description" id="f346-b5e4-eeb-895a" hidden="false" typeId="9b8f-694b-e5e-b573">Chaque fois que l’unité du porteur termine un mouvement de Charge, sélectionnez une unité ennemie dans Portée d’Engagement du porteur et lancez un D6: sur un 4+, que cette unité ennemie souffre D3 Blessures Mortelles. Une fois par bataille, lorsque l’unité du porteur termine une mouvement de Charge, toutes les unités ennemies à 6" ou moins du porteur doivent prendre un test d’Ébranlement.</characteristic>
               </characteristics>
             </profile>
           </profiles>
@@ -8577,7 +8577,7 @@ Toutes les autres unités **^^Adeptus Custodes**^^ de votre armée acquièrent l
           <profiles>
             <profile name="Inspirational Exemplar" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="ab64-ebf-157e-d1a8">
               <characteristics>
-                <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Le porteur possède une caractéristique de Commandement de 5+. Une fois par bataille, au début de toute phase, vous pouvez sélectionner une unité amicale **^^Adeptus Custodes^^** qui est Ébranlée et à 12" ou moins du porteur: cette unité n'est plus Ébranlée.</characteristic>
+                <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Le porteur a une caractéristique de Commandement de 5+. Une fois par bataille, au début de n’importe quelle phase, vous pouvez sélectionner une unité **^^Adeptus Custodes^^** amie qui est Ébranlée et à 12" ou moins du porteur : cette unité n’est plus Ébranlée.</characteristic>
               </characteristics>
             </profile>
           </profiles>
@@ -8612,7 +8612,7 @@ Toutes les autres unités **^^Adeptus Custodes**^^ de votre armée acquièrent l
           <profiles>
             <profile name="Veiled Blade" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="1742-9392-d2c3-f2e4">
               <characteristics>
-                <characteristic name="Description" id="74f3-cafc-a413-5dc0" hidden="false" typeId="9b8f-694b-e5e-b573">Ajoutez 2 aux caractéristique d’Attaques des armes de mêlée du porteur. Une fois par bataille, au début de toute phase de Commandement, triple la caractéristique de Contrôle d’Objectif du porteur jusqu'à la fin du tour.</characteristic>
+                <characteristic name="Description" id="74f3-cafc-a413-5dc0" hidden="false" typeId="9b8f-694b-e5e-b573">Ajoutez 2 à la caractéristique d’Attaques des armes de mêlée du porteur. Une fois par bataille, au début de n’importe quelle phase de Commandement, triplez la caractéristique de Contrôle d’Objectif du porteur jusqu’à la fin du tour.</characteristic>
               </characteristics>
             </profile>
           </profiles>
@@ -8652,7 +8652,7 @@ Toutes les autres unités **^^Adeptus Custodes**^^ de votre armée acquièrent l
           <profiles>
             <profile name="Martial Philosopher" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="eea-c794-78ec-c6b4">
               <characteristics>
-                <characteristic name="Description" typeId="9b8f-694b-e5e-b573">L'unité du porteur est admissible à tirer et/ou à déclarer une charge à tour de rôle. Une fois par bataille, lorsqu'une unité ennemie termine un mouvement Normal, Avance ou Retraite à 9" ou moins du porteur, si l'unité du porteur n'est pas dans la Portée d’Engagement d'une ou de plusieurs unités ennemies, elle peut effectuer un mouvement Normal jusqu'à 6".</characteristic>
+                <characteristic name="Description" typeId="9b8f-694b-e5e-b573">l’unité du porteur est éligible pour tirer et/ou déclare une charge dans un tour dans lequel elle est a Battu en Retraite. Une fois par bataille, lorsqu'une unité ennemie termine une normale, une avance ou une mouvement de Retraite à 9" ou moins du porteur, si l’unité du porteur n'est pas à l'intérieur de Portée d’Engagement d'une ou de plusieurs unités ennemies, elle peut effectuer un mouvement Normal jusqu'à 6".</characteristic>
               </characteristics>
             </profile>
           </profiles>
@@ -8724,7 +8724,7 @@ Toutes les autres unités **^^Adeptus Custodes**^^ de votre armée acquièrent l
           <profiles>
             <profile name="Augury Uplink" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="965b-4958-ea90-342d">
               <characteristics>
-                <characteristic name="Description" typeId="9b8f-694b-e5e-b573">ADEPTUS CUSTODES figurine uniquement. Le porteur possède la aptitude Insensible à la douleur 5+.</characteristic>
+                <characteristic name="Description" typeId="9b8f-694b-e5e-b573">ADEPTUS CUSTODES figurine uniquement. le porteur a l’aptitude Insensible à la douleur 5+.</characteristic>
               </characteristics>
             </profile>
           </profiles>
@@ -8755,7 +8755,7 @@ Toutes les autres unités **^^Adeptus Custodes**^^ de votre armée acquièrent l
           <profiles>
             <profile name="Adamantine Talisman" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="e674-bd35-3644-f7e0">
               <characteristics>
-                <characteristic name="Description" typeId="9b8f-694b-e5e-b573">**^^Adeptus Custodes^^** figurine uniquement. Améliorez les caractéristiques d'attaque, de force et de Dégâts des armes de mêlée équipées par le porteur de 1.</characteristic>
+                <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Figurine **^^Adeptus Custodes^^** uniquement. Améliorez de 1 les caractéristiques d’Attaques, de Force et de Dégâts des armes de mêlée dont le porteur est équipé.</characteristic>
               </characteristics>
             </profile>
           </profiles>
@@ -8839,7 +8839,7 @@ Toutes les autres unités **^^Adeptus Custodes**^^ de votre armée acquièrent l
           <profiles>
             <profile name="Superior Creation" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="e771-0d0c-4e40-e8ff">
               <characteristics>
-                <characteristic name="Description" typeId="9b8f-694b-e5e-b573">**^^Adeptus Custodes Infantry^^** figurine uniquement. La première fois que le porteur est détruit, lancez un D6 à la fin de la phase. Sur un 2+, remettez le porteur sur le champ de bataille, le plus près possible de l'endroit où il a été détruit et non dans la Portée d’Engagement d'une ou de plusieurs unités ennemies, avec tous ses PV.</characteristic>
+                <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Figurine **^^Adeptus Custodes Infantry^^** uniquement. La première fois que le porteur est détruit, lancez un D6 à la fin de la phase. Sur 2+, replacez le porteur sur le champ de bataille, aussi près que possible de l’endroit où il a été détruit et hors de Portée d’Engagement d’une ou plusieurs unités ennemies, avec tous ses PV restants.</characteristic>
               </characteristics>
             </profile>
           </profiles>
@@ -8877,7 +8877,7 @@ Toutes les autres unités **^^Adeptus Custodes**^^ de votre armée acquièrent l
           <profiles>
             <profile name="Praesidius" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="a9cd-ad2a-b39d-4d07">
               <characteristics>
-                <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Le porteur possède les capacités Agent solitaire et Discrétion.</characteristic>
+                <characteristic name="Description" typeId="9b8f-694b-e5e-b573">le porteur a les aptitudes Agent solitaire et Discrétion.</characteristic>
               </characteristics>
             </profile>
           </profiles>
@@ -8919,7 +8919,7 @@ Toutes les autres unités **^^Adeptus Custodes**^^ de votre armée acquièrent l
           <profiles>
             <profile name="Fierce Conqueror" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="64a9-585f-a4c7-2b08">
               <characteristics>
-                <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Au début de la phase de Combat, jusqu'à la fin de la phase, ajoutez 2 aux caractéristique d’Attaques des armes de mêlée équipées par le porteur pour tous les figurines ennemies 5 à 6" ou moins du porteur (ronde vers le bas).</characteristic>
+                <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Au début de la phase de Combat, jusqu’à la fin de la phase, ajoutez 2 à la caractéristique d’Attaques des armes de mêlée dont le porteur est équipé par tranche de 5 figurines ennemies à 6" ou moins du porteur (en arrondissant à l’inférieur).</characteristic>
               </characteristics>
             </profile>
           </profiles>
@@ -8957,7 +8957,7 @@ Toutes les autres unités **^^Adeptus Custodes**^^ de votre armée acquièrent l
           <profiles>
             <profile name="Admonimortis" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="9495-e52a-e24f-8910">
               <characteristics>
-                <characteristic name="Description" typeId="9b8f-694b-e5e-b573">**^^Shield‑Captain^^** figurine uniquement. Améliorez les caractéristiques de résistance des armes de mêlée équipées par le porteur de 3, et améliorer les caractéristiques de pénétration et de Dégâts de ces armes de 1.</characteristic>
+                <characteristic name="Description" typeId="9b8f-694b-e5e-b573">**^^Shield‑Captain^^** figurine uniquement. Améliorez la caractéristique Force d’armes de mêlée équipée du porteur de 3, et améliorer les caractéristiques Pénétration d’Armure et Dégâts de ces armes de 1.</characteristic>
               </characteristics>
             </profile>
           </profiles>
@@ -9025,8 +9025,8 @@ Toutes les autres unités **^^Adeptus Custodes**^^ de votre armée acquièrent l
             <profile name="Sense of Insufficiency" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="d8fe-1f10-4409-573b">
               <characteristics>
                 <characteristic name="Description" typeId="9b8f-694b-e5e-b573">**^^Infantry^^** unité uniquement.
-- Modifier la caractéristique de Contrôle d’Objectif des figurines de cette unité à 0. Il ne peut être augmenté par aucun moyen.
-- Chaque fois que cette unité est sélectionnée pour combattre, les deux Ka'tah Stances sont actifs pour cette unité, au lieu d'une seule.</characteristic>
+- Modifiez la caractéristique de Contrôle d’Objectif des figurines de cette unité à 0 de votre code. Il ne peut être augmenté par aucun moyen.
+- Chaque fois que cette unité est sélectionnée pour combattre, les deux stances Ka'tah sont actives pour cette unité, au lieu de seulement un.</characteristic>
               </characteristics>
             </profile>
           </profiles>
@@ -9067,8 +9067,8 @@ Toutes les autres unités **^^Adeptus Custodes**^^ de votre armée acquièrent l
           <profiles>
             <profile name="Immediate Threats" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="561f-ca8b-8b44-9c94">
               <characteristics>
-                <characteristic name="Description" typeId="9b8f-694b-e5e-b573">- À chaque fois que cette unité déclare une charge, vous ne pouvez sélectionner que l'unité ennemie la plus proche comme cible de cette charge.
-- Chaque fois qu'une figurine dans cette unité fait une attaque de mêlée, vous pouvez relancer un jet de Blessure de 1.</characteristic>
+                <characteristic name="Description" typeId="9b8f-694b-e5e-b573">- Durant votre phase de Charge, chaque fois que cette unité déclare une charge, vous ne pouvez sélectionner que l’unité ennemie la plus proche comme cible de cette charge.
+- Chaque fois qu’une figurine de cette unité effectue une attaque de mêlée, vous pouvez relancer un jet de Blessure de 1.</characteristic>
               </characteristics>
             </profile>
           </profiles>
@@ -9086,8 +9086,8 @@ Toutes les autres unités **^^Adeptus Custodes**^^ de votre armée acquièrent l
           <profiles>
             <profile name="Lions, Not Wolves" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="c71e-38ab-1946-1457">
               <characteristics>
-                <characteristic name="Description" typeId="9b8f-694b-e5e-b573">- cette figurine perd sa aptitude Martial Ka'tah.
-- Chaque fois qu'une figurine de cette unité fait une attaque de mêlée, vous pouvez relancer un jet de Touche de 1 et vous pouvez relancer un jet de Blessure de 1.</characteristic>
+                <characteristic name="Description" typeId="9b8f-694b-e5e-b573">- cette figurine perd son Martial Ka'tah aptitude.
+- Chaque fois qu'une figurine dans cette unité fait une attaque de mêlée, vous pouvez relancer fait un jet de Touche de 1 et vous pouvez relancer fait un jet de Blessure de 1.</characteristic>
               </characteristics>
             </profile>
           </profiles>
@@ -9173,7 +9173,7 @@ Toutes les autres unités **^^Adeptus Custodes**^^ de votre armée acquièrent l
           <profiles>
             <profile name="Celeritous Sentries" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="5ef3-94db-35cc-c776">
               <characteristics>
-                <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Une fois par bataille, vous pouvez cibler cette unité avec le Stratagème contre-offensif pour 0CP.</characteristic>
+                <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Une fois par bataille, vous pouvez cibler cette unité avec la contre-offensive Stratagème pour 0CP.</characteristic>
               </characteristics>
             </profile>
           </profiles>
@@ -9211,7 +9211,7 @@ Toutes les autres unités **^^Adeptus Custodes**^^ de votre armée acquièrent l
           <profiles>
             <profile name="Not A Shell Wasted" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="b7a9-d68a-4c71-cb8c">
               <characteristics>
-                <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Chaque fois qu'une figurine dans cette unité effectue une attaque de tir qui cible une unité qui contient des figurines 10 ou plus, cette attaque a la aptitude **[SUSTAINED HITS 1]**.</characteristic>
+                <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Chaque fois qu'une figurine dans cette unité fait une attaque de tir qui cible une unité contenant 10 ou plus de figurines, cette attaque a l’aptitude **[SUSTAINED HITS 1]**.</characteristic>
               </characteristics>
             </profile>
           </profiles>
@@ -9297,7 +9297,7 @@ Toutes les autres unités **^^Adeptus Custodes**^^ de votre armée acquièrent l
           <profiles>
             <profile name="Flawless Bladework" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="90a0-3df7-f2bf-4ce2">
               <characteristics>
-                <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Chaque fois qu'une figurine dans cette unité fait une attaque de mêlée, relance un jet de Touche de 1.</characteristic>
+                <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Chaque fois qu’une figurine de cette unité effectue une attaque de mêlée, relancez un jet de Touche de 1.</characteristic>
               </characteristics>
             </profile>
           </profiles>
@@ -9335,7 +9335,7 @@ Toutes les autres unités **^^Adeptus Custodes**^^ de votre armée acquièrent l
           <profiles>
             <profile name="Will of Auramite" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="8611-e051-6fec-951c">
               <characteristics>
-                <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Vous pouvez cibler cette unité avec les Stratagems même quand elle est Ébranlée.</characteristic>
+                <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Vous pouvez cibler cette unité avec des stratagèmes, même si c'est Ébranlé.</characteristic>
               </characteristics>
             </profile>
           </profiles>
@@ -9410,7 +9410,7 @@ Toutes les autres unités **^^Adeptus Custodes**^^ de votre armée acquièrent l
           <profiles>
             <profile name="On Gilded Wings" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="0008-0a4d-6837-dc09">
               <characteristics>
-                <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Cette unité a la aptitude Discrétion. Chaque fois que cette unité reste stationnaire, elle perd cette aptitude jusqu'au début de votre prochaine phase de Mouvement.</characteristic>
+                <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Cette unité a l’aptitude Discrétion. Chaque fois que cette unité reste stationnaire, elle perd cette aptitude jusqu'au début de votre prochaine phase de Mouvement.</characteristic>
               </characteristics>
             </profile>
           </profiles>
@@ -9450,7 +9450,7 @@ Toutes les autres unités **^^Adeptus Custodes**^^ de votre armée acquièrent l
           <profiles>
             <profile name="Tip of the Talon" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="7cf4-aa2d-cb16-d292">
               <characteristics>
-                <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Chaque fois qu'une figurine de cette unité effectue une attaque de tir qui cible une unité ennemi à 6" ou moins, ajoutez 1 à la caractéristique de Force de cette attaque.</characteristic>
+                <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Chaque fois qu'une figurine dans cette unité produit une attaque de tir qui cible une unité ennemie à 6" ou moins, ajoutez 1 à la caractéristique de Force de cette attaque.</characteristic>
               </characteristics>
             </profile>
           </profiles>
@@ -9487,7 +9487,7 @@ Toutes les autres unités **^^Adeptus Custodes**^^ de votre armée acquièrent l
           <profiles>
             <profile name="Heralds of the Host" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="b490-0e8b-be21-2799">
               <characteristics>
-                <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Chaque fois que cette unité avance, ajoutez 2" à sa caractéristique de mouvement (c'est cumulatif avec la aptitude Turbo-boost).</characteristic>
+                <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Chaque fois que cette unité Avance, ajoutez 2" à sa caractéristique de Mouvement (cet effet est cumulatif avec l’aptitude Turbo-boost).</characteristic>
               </characteristics>
             </profile>
           </profiles>
@@ -9524,7 +9524,7 @@ Toutes les autres unités **^^Adeptus Custodes**^^ de votre armée acquièrent l
           <profiles>
             <profile name="Hunters' Strike" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="bb98-6dc7-022b-fff1">
               <characteristics>
-                <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Chaque fois que cette unité est sélectionnée pour combattre, si cette unité fait un Charge déplacer ce tour, jusqu'à la fin de la phase, Ajoutez 1 aux caractéristique d’Attaques des armes de mêlée équipées par des figurines dans cette unité.</characteristic>
+                <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Chaque fois que cette unité est sélectionnée pour combattre, si cette unité a fait un mouvement de Charge ce tour, Jusqu’à la fin de la phase, Ajoutez 1 à la caractéristique d’Attaques des armes de mêlée dont sont équipées les figurines de cette unité.</characteristic>
               </characteristics>
             </profile>
           </profiles>
@@ -9561,7 +9561,7 @@ Toutes les autres unités **^^Adeptus Custodes**^^ de votre armée acquièrent l
           <profiles>
             <profile name="Relentless Pursuit" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="3e29-2e61-d3be-1d91">
               <characteristics>
-                <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Vous pouvez relancer les jets d’Avance et de Charge faits pour cette unité.</characteristic>
+                <characteristic name="Description" typeId="9b8f-694b-e5e-b573">vous pouvez relancer Advance et jets de Charge effectués pour cette unité.</characteristic>
               </characteristics>
             </profile>
           </profiles>
@@ -9576,7 +9576,7 @@ Toutes les autres unités **^^Adeptus Custodes**^^ de votre armée acquièrent l
               <profiles>
                 <profile name="Veracity, The Sword of Oblivion" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="e36c-3bf9-e758-77cf">
                   <characteristics>
-                    <characteristic name="Description" typeId="9b8f-694b-e5e-b573">la figurine **^^Knight-Centura^^** équipé d'une grande lame de bourreau seulement. Les armes de mêlée du porteur acquièrent les capacités **[LANCE]** et **[SUSTAINED HITS 1]**.</characteristic>
+                    <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Figurine **^^Knight-Centura^^** équipée d’une executioner greatblade uniquement. Les armes de mêlée du porteur gagnent les aptitudes **[LANCE]** et **[SUSTAINED HITS 1]**.</characteristic>
                   </characteristics>
                 </profile>
               </profiles>
@@ -9637,7 +9637,7 @@ Toutes les autres unités **^^Adeptus Custodes**^^ de votre armée acquièrent l
               <profiles>
                 <profile name="Apollonian Spear" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="cbb3-6064-e9fc-48aa">
                   <characteristics>
-                    <characteristic name="Description" typeId="9b8f-694b-e5e-b573">**^^Shield-Captain^^** figurine uniquement. Une fois par bataille, au début de la phase de Combat, le porteur peut utiliser cette aptitude. Si c'est le cas, ajoutez 3 à la force et aux caractéristique d’Attaques des armes de mêlée du porteur jusqu'à la fin de cette phase.</characteristic>
+                    <characteristic name="Description" typeId="9b8f-694b-e5e-b573">**^^Shield-Captain^^** figurine uniquement. Une fois par bataille, au début de la phase de Combat, le porteur peut utiliser cette aptitude. Si c'est le cas, ajoutez 3 à la Force et caractéristique d’Attaques du porteur à armes de mêlée jusqu'à la fin de cette phase.</characteristic>
                   </characteristics>
                 </profile>
               </profiles>
@@ -9681,7 +9681,7 @@ Toutes les autres unités **^^Adeptus Custodes**^^ de votre armée acquièrent l
               <profiles>
                 <profile name="Lucent Aureole" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="1e7a-d5af-ec52-af9d">
                   <characteristics>
-                    <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Le porteur a un 3+ sauvegarde invulnérable.</characteristic>
+                    <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Le porteur a une sauvegarde invulnérable de 3+.</characteristic>
                   </characteristics>
                 </profile>
               </profiles>
@@ -9728,7 +9728,7 @@ Toutes les autres unités **^^Adeptus Custodes**^^ de votre armée acquièrent l
               <profiles>
                 <profile name="Aurulent Warding" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="355d-e580-5c2c-4ab1">
                   <characteristics>
-                    <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Une fois par tour, vous pouvez relancer un jet de sauvegarde fait pour le porteur.</characteristic>
+                    <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Une fois par tour, vous pouvez relancer un jet de sauvegarde effectué pour le porteur.</characteristic>
                   </characteristics>
                 </profile>
               </profiles>
@@ -9848,7 +9848,7 @@ Toutes les autres unités **^^Adeptus Custodes**^^ de votre armée acquièrent l
           <profiles>
             <profile name="Earned Name" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="8b45-bbcd-529e-a84d">
               <characteristics>
-                <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Chaque fois que l'unité de cette figurine est sélectionnée pour combattre, les deux stances de Ka'tah sont actives pour cette unité, au lieu d'une seule.</characteristic>
+                <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Chaque fois que l'unité de cette figurine est sélectionnée pour combattre, les deux stances Ka'tah sont actives pour cette unité, au lieu de seulement un.</characteristic>
               </characteristics>
             </profile>
           </profiles>
@@ -9974,7 +9974,7 @@ Toutes les autres unités **^^Adeptus Custodes**^^ de votre armée acquièrent l
                   <profiles>
                     <profile name="Shadow of the Throne" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="460a-3a2b-5814-1557">
                       <characteristics>
-                        <characteristic name="Description" typeId="9b8f-694b-e5e-b573">**Persistent** - Une fois par bataille, vous pouvez cibler une unité amicale avec un Stratagème **^^Adeptus Custodes^^** pour 0CP.</characteristic>
+                        <characteristic name="Description" typeId="9b8f-694b-e5e-b573">**Persistent** - Une fois par bataille, vous pouvez cibler une unité amie avec un **^^Adeptus Custodes^^** Stratagème pour 0CP.</characteristic>
                       </characteristics>
                     </profile>
                   </profiles>
@@ -10000,7 +10000,7 @@ Toutes les autres unités **^^Adeptus Custodes**^^ de votre armée acquièrent l
                   <profiles>
                     <profile name="Martial Supremacy" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="8059-b3e8-7ca7-02c8">
                       <characteristics>
-                        <characteristic name="Description" typeId="9b8f-694b-e5e-b573">**Persistent** - Une fois par bataille, vous pouvez cibler une unité amicale avec le Fire Overwatch Stratagème ou le Heroic Intervention Stratagème pour 0CP.</characteristic>
+                        <characteristic name="Description" typeId="9b8f-694b-e5e-b573">**Persistent** - Une fois par bataille, vous pouvez cibler une unité amie avec le Fire Overwatch Stratagème ou l'Intervention héroïque Stratagème pour 0CP.</characteristic>
                       </characteristics>
                     </profile>
                   </profiles>
@@ -10026,7 +10026,7 @@ Toutes les autres unités **^^Adeptus Custodes**^^ de votre armée acquièrent l
                   <profiles>
                     <profile name="Annihilation" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="7419-b5f0-008a-ecda">
                       <characteristics>
-                        <characteristic name="Description" typeId="9b8f-694b-e5e-b573">**Persistent** - Une fois par bataille, vous pouvez cibler une unité amicale avec le Stratagème contre-offensif ou le Stratagème défi épique pour 0CP.</characteristic>
+                        <characteristic name="Description" typeId="9b8f-694b-e5e-b573">**Persistent** - Une fois par bataille, vous pouvez cibler une unité amie avec la contre-offensive Stratagème ou le défi épique Stratagème pour 0CP.</characteristic>
                       </characteristics>
                     </profile>
                   </profiles>
@@ -10052,7 +10052,7 @@ Toutes les autres unités **^^Adeptus Custodes**^^ de votre armée acquièrent l
                   <profiles>
                     <profile name="Emperor's Will Be Done" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="c7ea-2f39-534b-d519">
                       <characteristics>
-                        <characteristic name="Description" typeId="9b8f-694b-e5e-b573">**Persistent** - Une fois par bataille, vous pouvez cibler une unité amicale avec le Command relancer Stratagème ou le Rapid Ingress Stratagème pour 0CP.</characteristic>
+                        <characteristic name="Description" typeId="9b8f-694b-e5e-b573">**Persistent** - Une fois par bataille, vous pouvez cibler une unité amie avec le Stratagème Command Re-roll (Relance de Commandement) ou le Stratagème Rapid Ingress pour 0CP.</characteristic>
                       </characteristics>
                     </profile>
                   </profiles>
@@ -10140,7 +10140,7 @@ Toutes les autres unités **^^Adeptus Custodes**^^ de votre armée acquièrent l
           <profiles>
             <profile name="Inspirational Example" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="551f-de4c-fd13-8138">
               <characteristics>
-                <characteristic name="Description" typeId="9b8f-694b-e5e-b573">À la fin de la bataille, deux unités ennemies ou plus ont été détruites par des attaques au corps à corps effectuées par une figurine **^^Adeptus Custodes Character^^** de votre armée de Croisade.</characteristic>
+                <characteristic name="Description" typeId="9b8f-694b-e5e-b573">À la fin de la bataille, au moins deux unités ennemies ont été détruites par des attaques de mêlée effectuées par une figurine **^^Adeptus Custodes Character^^** de votre armée de Croisade.</characteristic>
               </characteristics>
             </profile>
           </profiles>
@@ -10152,7 +10152,7 @@ Toutes les autres unités **^^Adeptus Custodes**^^ de votre armée acquièrent l
           <profiles>
             <profile name="Emperor's Domain" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="6d88-f060-015b-b91e">
               <characteristics>
-                <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Compléter deux batailles où, à la fin de la bataille, vous avez des unités plus amicales entièrement à votre zone de déploiement que les unités ennemies (à l'exclusion de **^^Aircraft^^**).</characteristic>
+                <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Terminez deux batailles dans lesquelles, à la fin de la bataille, vous avez davantage d’unités amies entièrement dans votre zone de déploiement que d’unités ennemies (à l’exclusion des **^^Aircraft^^**).</characteristic>
               </characteristics>
             </profile>
           </profiles>
@@ -10224,9 +10224,9 @@ Toutes les autres unités **^^Adeptus Custodes**^^ de votre armée acquièrent l
           <profiles>
             <profile name="Shadow of the Throne" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="a28d-5fcd-7bed-45f1">
               <characteristics>
-                <characteristic name="Description" typeId="9b8f-694b-e5e-b573">À la fin de la bataille, les deux éléments suivants sont satisfaits:
-- Vous contrôlez trois ou plusieurs marqueurs objectifs.
-- Vous contrôlez au moins le double du nombre de marqueurs objectifs que votre adversaire.</characteristic>
+                <characteristic name="Description" typeId="9b8f-694b-e5e-b573">À la fin de la bataille, les deux conditions suivantes sont satisfaites :
+- Vous contrôlez au moins trois pions d’objectif.
+- Vous contrôlez au moins deux fois plus de pions d’objectif que votre adversaire.</characteristic>
               </characteristics>
             </profile>
           </profiles>
@@ -10262,7 +10262,7 @@ Toutes les autres unités **^^Adeptus Custodes**^^ de votre armée acquièrent l
           <profiles>
             <profile name="Annihilation" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="f2c5-060a-f70b-f4a2">
               <characteristics>
-                <characteristic name="Description" typeId="9b8f-694b-e5e-b573">À la fin d'une bataille, chaque unité ennemie est détruite, ou est en dessous de son Demi-effectif.</characteristic>
+                <characteristic name="Description" typeId="9b8f-694b-e5e-b573">À la fin d'une bataille, chaque unité ennemie est détruit, ou est En Dessous de son Demi-effectif.</characteristic>
               </characteristics>
             </profile>
           </profiles>
@@ -10274,7 +10274,7 @@ Toutes les autres unités **^^Adeptus Custodes**^^ de votre armée acquièrent l
           <profiles>
             <profile name="Emperor's Will Be Done" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="e57a-38c4-5a2f-044d">
               <characteristics>
-                <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Compléter deux batailles où, à la fin de la bataille, vous avez des unités plus amicales entièrement à la zone de déploiement de votre adversaire que des unités ennemies (à l'exclusion de **^^Aircraft^^**).</characteristic>
+                <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Accomplissez deux batailles où, à la fin de la bataille, vous avez davantage d’unités amies entièrement dans la zone de déploiement de votre adversaire que d’unités ennemies (à l’exclusion des **^^Aircraft^^**).</characteristic>
               </characteristics>
             </profile>
           </profiles>
@@ -10316,7 +10316,7 @@ Toutes les autres unités **^^Adeptus Custodes**^^ de votre armée acquièrent l
           </infoLinks>
           <rules>
             <rule name="Blinding Light" id="74be-cde5-76f4-9bfb" hidden="false">
-              <description>Chaque fois qu'une unité est touchée par cette arme, elle est aveuglée jusqu'au début de votre tour suivant. Alors qu'une unité est aveuglée, chaque fois qu'une figurine dans cette unité fait une attaque, Soustrayez 1 du jet de Touche.</description>
+              <description>Chaque fois qu'une unité est touchée par cette arme, elle est aveuglée jusqu'au début de votre tour suivant. Pendant qu'une unité est aveuglée, chaque fois qu'une figurine dans cette unité fait une attaque, Soustrayez 1 du jet de Touche.</description>
             </rule>
           </rules>
           <costs>
@@ -10334,7 +10334,7 @@ Toutes les autres unités **^^Adeptus Custodes**^^ de votre armée acquièrent l
           <profiles>
             <profile name="Epoch Auspice" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="8c94-815a-b8ea-6c0e">
               <characteristics>
-                <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Une fois par bataille, au début du tour de bataille, le porteur peut déployer le Epoch Auspice. Si c'est le cas, jusqu'à la fin du tour de bataille, chaque fois qu'une attaque cible l'unité du porteur, Soustrayez 1 du jet de Blessure.</characteristic>
+                <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Une fois par bataille, au début du tour de bataille, le porteur peut déployer le Epoch Auspice. Si c'est le cas, jusqu'à la fin du tour de bataille, chaque fois qu'une attaque cible l’unité du porteur, Soustrayez 1 du jet de Blessure.</characteristic>
               </characteristics>
             </profile>
           </profiles>
@@ -10353,7 +10353,7 @@ Toutes les autres unités **^^Adeptus Custodes**^^ de votre armée acquièrent l
           <profiles>
             <profile name="Mortis Gyre" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="8fb9-b7c1-f44d-8505">
               <characteristics>
-                <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Une fois par bataille, lorsque le porteur est sélectionné pour combattre, il peut activer le Mortis Gyre. Si c'est le cas, jusqu'à ce que cette lutte soit résolue, les attaques de mêlée faites par la figurine qui ciblent une unité **^^Infantry^^** ont la aptitude **[DEVASTATING WOUNDS]**.</characteristic>
+                <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Une fois par bataille, lorsque le porteur est sélectionné pour combattre, il peut activer le Mortis Gyre. S’il le fait, jusqu’à ce que ce combat soit résolu, les attaques de mêlée effectuées par cette figurine qui ciblent une unité **^^Infantry^^** ont l’aptitude **[DEVASTATING WOUNDS]**.</characteristic>
               </characteristics>
             </profile>
           </profiles>
@@ -10375,7 +10375,7 @@ Toutes les autres unités **^^Adeptus Custodes**^^ de votre armée acquièrent l
           <profiles>
             <profile name="Twilight Pallium" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="f46f-dc48-dd82-81a8">
               <characteristics>
-                <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Une fois par bataille, à la fin de l'une de vos phases, le porteur peut utiliser le Twilight Pallium. Si c'est le cas, retirez l'unité du porteur du champ de bataille et réinstallez-la n'importe où sur le champ de bataille plus que 3" horizontalement loin de toutes les unités ennemies. L'unité du porteur n'est pas éligible à une charge à tour de rôle dans laquelle elle a été mise en place de cette manière, à moins qu'elle ne soit plus que 9" horizontalement éloignée de toutes les unités ennemies.</characteristic>
+                <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Une fois par bataille, à la fin de n’importe laquelle de vos phases, le porteur peut utiliser le Twilight Pallium. S’il le fait, retirez l’unité du porteur du champ de bataille et replacez-la n’importe où sur le champ de bataille à plus de 3" horizontalement de toute unité ennemie. L’unité du porteur n’est pas éligible pour charger durant un tour où elle a été placée de cette manière, à moins d’être à plus de 9" horizontalement de toute unité ennemie.</characteristic>
               </characteristics>
             </profile>
           </profiles>
@@ -10432,7 +10432,7 @@ Toutes les autres unités **^^Adeptus Custodes**^^ de votre armée acquièrent l
           <profiles>
             <profile name="Arae-shrike" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="12e6-bed4-8a6f-3eb3">
               <characteristics>
-                <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Les unités ennemies placées sur le champ de bataille en tant que renforts ne peuvent pas être placées à 12" ou moins de cette unité.</characteristic>
+                <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Les unités ennemies qui sont installées sur le champ de bataille en tant que Renforcements ne peuvent pas être installées à 12" ou moins de cette unité.</characteristic>
               </characteristics>
             </profile>
           </profiles>
@@ -10508,7 +10508,7 @@ Toutes les autres unités **^^Adeptus Custodes**^^ de votre armée acquièrent l
           <profiles>
             <profile name="Abyssal Void" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="bf13-6bfe-06a0-433f">
               <characteristics>
-                <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Les figurines de cette unité ont la aptitude Agent solitaire.</characteristic>
+                <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Les figurines de cette unité ont l’aptitude Agent solitaire.</characteristic>
               </characteristics>
             </profile>
           </profiles>
@@ -10520,7 +10520,7 @@ Toutes les autres unités **^^Adeptus Custodes**^^ de votre armée acquièrent l
           <profiles>
             <profile name="Singular Expertise" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="bbae-bbe1-fa63-7f69">
               <characteristics>
-                <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Tant que cette figurine n’est pas à la tête d'une unité, chaque fois que cette figurine fait une attaque de mêlée, vous pouvez relancer le jet de Touche et vous pouvez relancer le jet de Blessure.</characteristic>
+                <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Alors que cette figurine ne conduit pas une unité, chaque fois que cette figurine fait une attaque de mêlée, vous pouvez relancer le jet de Touche et vous pouvez relancer le jet de Blessure.</characteristic>
               </characteristics>
             </profile>
           </profiles>
@@ -10529,7 +10529,7 @@ Toutes les autres unités **^^Adeptus Custodes**^^ de votre armée acquièrent l
           <profiles>
             <profile name="Swift Onslaught" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="b511-8510-18d9-2ecb">
               <characteristics>
-                <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Pendant que cette figurine conduit une unité, vous pouvez relancer les jets de Charge de cette unité.</characteristic>
+                <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Tant que cette figurine mène une unité, vous pouvez relancer les jets de Charge effectués pour cette unité.</characteristic>
               </characteristics>
             </profile>
           </profiles>
@@ -11365,12 +11365,12 @@ Toutes les autres unités **^^Adeptus Custodes**^^ de votre armée acquièrent l
   </sharedSelectionEntryGroups>
   <sharedRules>
     <rule id="e348-7090-3aff-ee2c" name="Martial Ka'tah" hidden="false">
-      <description>Chaque fois qu'une unité avec cette aptitude est sélectionnée pour combattre, sélectionnez l'une des positions Ka'tah ci-dessous. Jusqu'à ce que cette unité ait terminé ses attaques, la position sélectionnée est active pour elle et elle acquiert la aptitude pertinente.
+      <description>Chaque fois qu’une unité dotée de cette aptitude est sélectionnée pour combattre, sélectionnez l’une des postures Ka'tah ci-dessous. Jusqu’à ce que cette unité ait fini d’effectuer ses attaques, la posture sélectionnée est active pour elle et elle gagne l’aptitude correspondante.
 
 ■ DACATARAI STANCE
-Les armes Melee équipées par des figurines de cette unité ont la aptitude [Touches soutenues 1].
+Les armes de mêlée dont sont équipées les figurines de cette unité ont l’aptitude [Touches soutenues 1].
 ■ RENDAX STANCE
-Les armes Melee équipées par des figurines de cette unité ont la aptitude [Touches fatales].</description>
+Les armes de mêlée dont sont équipées les figurines de cette unité ont l’aptitude [Touches fatales].</description>
       <modifiers>
         <modifier type="set" value="true" field="hidden">
           <conditions>
@@ -11383,7 +11383,7 @@ Les armes Melee équipées par des figurines de cette unité ont la aptitude [To
   <sharedProfiles>
     <profile id="b95d-04e9-97fd-4125" name="Daughter of the Abyss" hidden="false" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities">
       <characteristics>
-        <characteristic name="Description" id="f5f-2854-9667-9cbe" hidden="false" typeId="9b8f-694b-e5e-b573">cette figurine a la aptitude Insensible à la douleur 3+ contre les attaques Psychique et les Blessures Mortelles.</characteristic>
+        <characteristic name="Description" id="f5f-2854-9667-9cbe" hidden="false" typeId="9b8f-694b-e5e-b573">cette figurine a l’aptitude Insensible à la douleur 3+ contre les attaques Psychiques et Blessures Mortelles.</characteristic>
       </characteristics>
     </profile>
     <profile id="e3cf-4870-44cf-74da" name="Sauvegarde Invulnérable" hidden="false" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities">
@@ -11405,7 +11405,7 @@ Les armes Melee équipées par des figurines de cette unité ont la aptitude [To
     </profile>
     <profile id="ac43-e2b3-63cb-ecb2" name="Vexilla" hidden="false" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities">
       <characteristics>
-        <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Ajoutez 1 à la caractéristique de Contrôle d’Objectif des figurines dans l'unité du porteur.</characteristic>
+        <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Ajoutez 1 à la caractéristique de Contrôle d’Objectif des figurines de l’unité du porteur.</characteristic>
       </characteristics>
     </profile>
     <profile name="Strategic Mastery" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="5a38-d608-89c4-6377">
@@ -11415,15 +11415,15 @@ Les armes Melee équipées par des figurines de cette unité ont la aptitude [To
     </profile>
     <profile name="Sauvegarde Invulnérable" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="0300-84b9-69cf-b64f">
       <characteristics>
-        <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Les figurines de cette unité ont un 4+ sauvegarde invulnérable.</characteristic>
+        <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Les figurines de cette unité ont une sauvegarde invulnérable de 4+.</characteristic>
       </characteristics>
       <comment>Unit 4+</comment>
     </profile>
   </sharedProfiles>
   <catalogueLinks>
-    <catalogueLink id="df1a-724c-c15c-ebe5" name="Imperium - Imperial Knights - Library" targetId="1787-6721-8649-a4a8" type="catalogue" importRootEntries="true" />
-    <catalogueLink id="dadd-1a1d-383-5e60" name="Imperium - Agents of the Imperium" targetId="58ea-21f3-3da9-74dd" type="catalogue" importRootEntries="true" />
-    <catalogueLink type="catalogue" name="Library - Titans" id="a5cc-cb3b-41c4-8cd9" targetId="701a-a154-08d0-db72" importRootEntries="true" />
+    <catalogueLink id="df1a-724c-c15c-ebe5" name="Imperium - Imperial Knights - Library" targetId="1b6d-dc06-5db9-c7d1" type="catalogue" importRootEntries="true" />
+    <catalogueLink id="dadd-1a1d-383-5e60" name="Imperium - Agents of the Imperium" targetId="b00-cd86-4b4c-97ba" type="catalogue" importRootEntries="true" />
+    <catalogueLink type="catalogue" name="Library - Titans" id="a5cc-cb3b-41c4-8cd9" targetId="7481-280e-b55e-7867" importRootEntries="true" />
   </catalogueLinks>
   <sharedInfoGroups>
     <infoGroup name="Talons" id="1cd2-aeaf-6c00-ec0" hidden="false">
@@ -11437,7 +11437,7 @@ Les armes Melee équipées par des figurines de cette unité ont la aptitude [To
       <profiles>
         <profile name="Null Aegis (Aura)" hidden="false" id="2048-15a2-ecb8-1709" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities">
           <characteristics>
-            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Alors qu'une unité ^^**Adeptus Custodes^^** se trouve à 6" ou moins de cette unité, les figurines de cette unité ont la aptitude Insensible à la douleur 5+ contre les attaques Psychique et les Blessures Mortelles.</characteristic>
+            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Alors qu'une unité ^^**Adeptus Custodes^^** se trouve à 6" ou moins de cette unité, les figurines de cette unité ont l’aptitude Insensible à la douleur 5+ contre les attaques Psychiques et Blessures Mortelles.</characteristic>
           </characteristics>
           <modifiers>
             <modifier type="set" value="true" field="hidden">
@@ -11449,7 +11449,7 @@ Les armes Melee équipées par des figurines de cette unité ont la aptitude [To
         </profile>
         <profile name="Deadly Unity (Aura)" hidden="false" id="5678-aeb6-f682-8a75" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities">
           <characteristics>
-            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Alors qu'une unité **^Anathema Psykana^^** se trouve à 6" ou moins de cette unité, chaque fois qu'une figurine dans cette unité ^^**Anathema Psykana^^** fait une attaque, ajoutez 1 au jet de Touche.</characteristic>
+            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Alors qu'une unité **^Anathema Psykana^^** est à 6" ou moins de cette unité, chaque fois qu'une figurine dans cette unité ^^**Anathema Psykana^^** fait une attaque, ajoutez 1 au jet de Touche.</characteristic>
           </characteristics>
           <modifiers>
             <modifier type="set" value="true" field="hidden">
